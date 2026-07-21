@@ -271,17 +271,18 @@ def get_matches():
             if item.get("end", False):
                 continue
 
-            time_raw     = item.get("time", "")
+            # Dùng `or ""` cho mọi field string để handle null từ API
+            time_raw     = item.get("time") or ""
             time_display = format_match_time(time_raw)
-            team_a       = item.get("name1", "").strip()
-            team_b       = item.get("name2", "").strip()
-            logo_a       = item.get("logo1", "")
-            logo_b       = item.get("logo2", "")
-            league       = item.get("league", "").strip()
-            caster_raw   = item.get("caster", "").strip()
-            score1       = item.get("score1", 0) or 0
-            score2       = item.get("score2", 0) or 0
-            is_live      = item.get("live", False)
+            team_a       = (item.get("name1") or "").strip()
+            team_b       = (item.get("name2") or "").strip()
+            logo_a       = item.get("logo1") or ""
+            logo_b       = item.get("logo2") or ""
+            league       = (item.get("league") or "").strip()
+            caster_raw   = (item.get("caster") or "").strip()
+            score1       = item.get("score1") or 0
+            score2       = item.get("score2") or 0
+            is_live      = bool(item.get("live", False))
 
             if is_live and (score1 > 0 or score2 > 0):
                 name = f"{team_a} {score1}-{score2} {team_b}"
@@ -309,15 +310,14 @@ def get_matches():
                 "score1":       score1,
                 "score2":       score2,
                 "is_live":      is_live,
-                "hot":          item.get("hot", False),
-                "subtitle":     item.get("subtitle", ""),
-                "category":     item.get("category", "BIDA"),
+                "hot":          bool(item.get("hot", False)),
+                "subtitle":     item.get("subtitle") or "",
+                "category":     item.get("category") or "BIDA",
                 "stream_url":   f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
     all_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return all_matches
-
 
 # ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL JSON
