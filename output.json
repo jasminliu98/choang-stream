@@ -1,0 +1,742 @@
+{
+  "id": "choangtv",
+  "url": "https://choangtv18.com",
+  "name": "ChoangTV",
+  "color": "#a37ef2",
+  "grid_number": 3,
+  "image": {
+    "type": "cover",
+    "url": "https://choangtv18.com/__og-image__/image/og.png"
+  },
+  "groups": [
+    {
+      "id": "cate_bida",
+      "name": "🎱 Bida (5 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-d5fedc1d15",
+          "name": "BOOTS CEBU VISAYAS 5-4 OTOY RIZAL LUZON",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5fedc1d15",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d5fedc1d15",
+                  "name": "BOOTS CEBU VISAYAS 5-4 OTOY RIZAL LUZON",
+                  "streams": [
+                    {
+                      "id": "st-d5fedc1d15",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5fedc1d15",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5008/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIÊU BỊP PHỦI PHI RACE 13",
+            "team_a": "BOOTS CEBU VISAYAS",
+            "team_b": "OTOY RIZAL LUZON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "time": "00:00 21/07",
+            "caster": "",
+            "score": "5-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5fedc1d15_a40bddd9_20260721.png?v=a40bddd9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2ddc1b0fe1",
+          "name": "HÀ THÀNH 10-14 TÚ TẤY | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ddc1b0fe1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2ddc1b0fe1",
+                  "name": "HÀ THÀNH 10-14 TÚ TẤY",
+                  "streams": [
+                    {
+                      "id": "st-2ddc1b0fe1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ddc1b0fe1",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5003/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 SHOW MATCH",
+            "team_a": "HÀ THÀNH",
+            "team_b": "TÚ TẤY",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784621853489_HÃ THÃNH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784621894920_signal-2026-07-21-15-16-35-739_002.jpg",
+            "time": "17:00 21/07",
+            "caster": "VÁNG",
+            "score": "10-14",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ddc1b0fe1_bbcde127_20260721.png?v=bbcde127",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f5da560052",
+          "name": "BOOTS CEBU VISAYAS 5-4 OTOY RIZAL LUZON | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5da560052",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f5da560052",
+                  "name": "BOOTS CEBU VISAYAS 5-4 OTOY RIZAL LUZON",
+                  "streams": [
+                    {
+                      "id": "st-f5da560052",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5da560052",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5007/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIÊU BỊP PHỦI PHI RACE 13",
+            "team_a": "BOOTS CEBU VISAYAS",
+            "team_b": "OTOY RIZAL LUZON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "time": "18:00 21/07",
+            "caster": "Lee Min Hoo",
+            "score": "5-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f5da560052_9d76bfb0_20260721.png?v=9d76bfb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a80dc15e23",
+          "name": "EIJMBERTS IRIS 3-5 ALEKSANDRA | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a80dc15e23",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a80dc15e23",
+                  "name": "EIJMBERTS IRIS 3-5 ALEKSANDRA",
+                  "streams": [
+                    {
+                      "id": "st-a80dc15e23",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a80dc15e23",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5002/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÀN 3 | chung kết GIẢI TRẺ European Pool Championships 2026",
+            "team_a": "EIJMBERTS IRIS",
+            "team_b": "ALEKSANDRA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763182558342_1174949_js_react js_logo_react_react native_icon.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763182558342_1174949_js_react js_logo_react_react native_icon.png",
+            "time": "18:15 21/07",
+            "caster": "VÁNG",
+            "score": "3-5",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a80dc15e23_53aa20ae_20260721.png?v=53aa20ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-413db7751e",
+          "name": "WU KUN LIN 5-4 MENG FANYU | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-413db7751e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-413db7751e",
+                  "name": "WU KUN LIN 5-4 MENG FANYU",
+                  "streams": [
+                    {
+                      "id": "st-413db7751e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-413db7751e",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5005/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBSA Pool 9-Ball Tour",
+            "team_a": "WU KUN LIN",
+            "team_b": "MENG FANYU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784625641291_WU KUN LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784625673705_MENG FANYU.jpg",
+            "time": "18:30 21/07",
+            "caster": "Kèn Kèn",
+            "score": "5-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-413db7751e_d6f1ef2d_20260721.png?v=d6f1ef2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-19f8a0dbad",
+          "name": "HÀ THÀNH vs TÚ TẤY | 00:00 21/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19f8a0dbad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19f8a0dbad",
+                  "name": "HÀ THÀNH vs TÚ TẤY",
+                  "streams": [
+                    {
+                      "id": "st-19f8a0dbad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19f8a0dbad",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5006/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 SHOW MATCH",
+            "team_a": "HÀ THÀNH",
+            "team_b": "TÚ TẤY",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784628975378_HÃ THÃNH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784628983189_signal-2026-07-21-15-16-35-739_002.jpg",
+            "time": "00:00 21/07",
+            "caster": "",
+            "score": "1-3",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-19f8a0dbad_2e33445e_20260721.png?v=2e33445e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2b3305d0b8",
+          "name": "Chắc chắn vượt qua vs E là không thể | 21:00 21/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b3305d0b8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2b3305d0b8",
+                  "name": "Chắc chắn vượt qua vs E là không thể",
+                  "streams": [
+                    {
+                      "id": "st-2b3305d0b8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b3305d0b8",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live4987/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dự Đoán Chương Trình '' AI LÀ TRIỆU PHÚ '' 21/07/2026",
+            "team_a": "Chắc chắn vượt qua",
+            "team_b": "E là không thể",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784581052747_images.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784581060309_images (1).jpg",
+            "time": "21:00 21/07",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2b3305d0b8_23842c7d_20260721.png?v=23842c7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d1df432a9b",
+          "name": "Chắc chắn vượt qua vs E là không thể | 21:05 21/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1df432a9b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d1df432a9b",
+                  "name": "Chắc chắn vượt qua vs E là không thể",
+                  "streams": [
+                    {
+                      "id": "st-d1df432a9b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1df432a9b",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live4988/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dự Đoán Chương Trình '' AI LÀ TRIỆU PHÚ '' 21/07/2026",
+            "team_a": "Chắc chắn vượt qua",
+            "team_b": "E là không thể",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784581299755_images.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784581306976_images (1).jpg",
+            "time": "21:05 21/07",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d1df432a9b_ac88d117_20260721.png?v=ac88d117",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6baf5fe81d",
+          "name": "Chắc chắn vượt qua vs E là không thể | 21:15 21/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6baf5fe81d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6baf5fe81d",
+                  "name": "Chắc chắn vượt qua vs E là không thể",
+                  "streams": [
+                    {
+                      "id": "st-6baf5fe81d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6baf5fe81d",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live4990/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dự Đoán Chương Trình '' AI LÀ TRIỆU PHÚ '' 21/07/2026",
+            "team_a": "Chắc chắn vượt qua",
+            "team_b": "E là không thể",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784581557596_táº£i xuá»ng (1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784581561805_táº£i xuá»ng.jpg",
+            "time": "21:15 21/07",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6baf5fe81d_be2d3a6e_20260721.png?v=be2d3a6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cc0272bbb0",
+          "name": "Chắc chắn vượt qua vs E là không thể | 21:15 21/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc0272bbb0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cc0272bbb0",
+                  "name": "Chắc chắn vượt qua vs E là không thể",
+                  "streams": [
+                    {
+                      "id": "st-cc0272bbb0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc0272bbb0",
+                          "name": "Link HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live4989/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dự Đoán Chương Trình '' AI LÀ TRIỆU PHÚ '' 21/07/2026",
+            "team_a": "Chắc chắn vượt qua",
+            "team_b": "E là không thể",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784581473287_táº£i xuá»ng (1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784581477104_táº£i xuá»ng.jpg",
+            "time": "21:15 21/07",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cc0272bbb0_fca5dab6_20260721.png?v=fca5dab6",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
+}
