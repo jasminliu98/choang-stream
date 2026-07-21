@@ -1,3 +1,6 @@
+Code bị cắt giữa chừng. Đây là file **đầy đủ**, copy thay thế toàn bộ:
+
+```python
 import requests
 import json
 import hashlib
@@ -20,11 +23,9 @@ def now_vn() -> datetime:
 
 
 def parse_kickoff(time_str: str):
-    """Parse '2026-07-21 18:00:00+07' → datetime aware (VN tz)."""
     if not time_str:
         return None
     try:
-        # Python <3.11 không parse +07 (thiếu phút), cần补 :00
         s = time_str.strip()
         tz_part = re.search(r'([+-])(\d{2})(?::(\d{2}))?$', s)
         if tz_part:
@@ -40,7 +41,6 @@ def parse_kickoff(time_str: str):
 
 
 def format_match_time(time_str: str) -> str:
-    """'2026-07-21 18:00:00+07' → '18:00 21/07'"""
     dt = parse_kickoff(time_str)
     if dt:
         return dt.strftime("%H:%M %d/%m")
@@ -68,7 +68,6 @@ CDN_BASE   = "https://cdn.sports-cas889abxfileposo.site/live"
 SITE_URL   = "https://choangtv18.com"
 THUMBS_DIR = "thumbs"
 REPO_RAW   = os.environ.get("REPO_RAW", "")
-
 THUMB_VERSION = "v1"
 
 
@@ -148,25 +147,21 @@ def make_thumbnail(match, channel_id):
     name_center  = name_block_y + name_h // 2
     time_y       = name_block_y + name_h + gap_name_time + time_h // 2
 
-    # Logo trái
     if match.get("logo_a"):
         img = fetch_image(match["logo_a"])
         if img:
             img = img.resize((logo_size, logo_size), Image.LANCZOS)
             bg.paste(img, (W // 4 - logo_size // 2, logo_y), img)
 
-    # Logo phải
     if match.get("logo_b"):
         img = fetch_image(match["logo_b"])
         if img:
             img = img.resize((logo_size, logo_size), Image.LANCZOS)
             bg.paste(img, (W * 3 // 4 - logo_size // 2, logo_y), img)
 
-    # VS
     draw.text((W // 2, logo_y + logo_size // 2), "VS",
               fill=ACCENT, font=font_vs, anchor="mm")
 
-    # Tên đội — tự thu nhỏ nếu quá dài
     def draw_team_name(text, cx):
         max_width = W // 2 - 60
         font_size = 58
@@ -187,14 +182,12 @@ def make_thumbnail(match, channel_id):
     if match.get("team_b"):
         draw_team_name(match["team_b"], W * 3 // 4)
 
-    # Giờ đấu
     if match.get("time_display"):
         draw.text((W // 2 + 4, time_y + 4), match["time_display"],
                   fill=ACCENT, font=font_time, anchor="mm")
         draw.text((W // 2, time_y), match["time_display"],
                   fill=(15, 15, 15), font=font_time, anchor="mm")
 
-    # Tên giải — header
     if match.get("league"):
         league_text = match["league"].upper()
         font_size   = 62
@@ -211,7 +204,6 @@ def make_thumbnail(match, channel_id):
         draw.text((W // 2, HEADER_H // 2), league_text,
                   fill=(255, 255, 255), font=f, anchor="mm")
 
-    # Viền ngoài
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
     bg.save(out_path, "PNG", optimize=True)
     return out_path
@@ -248,12 +240,11 @@ def cleanup_old_thumbs(days: int = 3):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# SCRAPE MATCHES — API JSON (không BeautifulSoup)
+# SCRAPE MATCHES — API JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_matches():
     today = now_vn()
-    # Lấy today + tomorrow để覆盖 qua nửa đêm
     dates_to_fetch = [today]
     if today.hour >= 18:
         dates_to_fetch.append(today + timedelta(days=1))
@@ -280,7 +271,6 @@ def get_matches():
                 continue
             seen_ids.add(match_id)
 
-            # Bỏ trận đã kết thúc
             if item.get("end", False):
                 continue
 
@@ -296,7 +286,6 @@ def get_matches():
             score2       = item.get("score2", 0) or 0
             is_live      = item.get("live", False)
 
-            # Tên hiển thị: live có tỷ số thì hiện, chưa live thì vs
             if is_live and (score1 > 0 or score2 > 0):
                 name = f"{team_a} {score1}-{score2} {team_b}"
             else:
@@ -305,7 +294,6 @@ def get_matches():
             if not name.replace("vs", "").replace("-", "").strip():
                 name = f"Tran {match_id}"
 
-            # "BLV Lee Min Hoo" → "Lee Min Hoo"
             caster_clean = re.sub(r'^BLV\s*', '', caster_raw).strip()
 
             all_matches.append({
@@ -327,11 +315,9 @@ def get_matches():
                 "hot":          item.get("hot", False),
                 "subtitle":     item.get("subtitle", ""),
                 "category":     item.get("category", "BIDA"),
-                # Stream URL construct trực tiếp từ match_id
                 "stream_url":   f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
-    # LIVE lên đầu → rồi sort theo giờ tăng dần
     all_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return all_matches
 
@@ -347,10 +333,9 @@ def build_channel(match, thumb_url=""):
     st_id  = make_id(match["stream_url"], "st")
     lnk_id = make_id(match["stream_url"], "lnk")
 
-    label_text  = "● LIVE" if match["is_live"] else "🕐 Sắp"
+    label_text  = "LIVE" if match["is_live"] else "SAP"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
-    # Tên channel: tên trận | giờ (chưa live) | BLV
     display_name = match["name"]
     if match["time"] and not match["is_live"]:
         display_name = f"{match['name']} | {match['time']}"
@@ -420,4 +405,83 @@ def build_channel(match, thumb_url=""):
 def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
-    print(f"Gio VN h
+
+    print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
+    print("Lay danh sach tran tu choangtv18 API...")
+
+    matches = get_matches()
+
+    live_count = sum(1 for m in matches if m["is_live"])
+    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
+
+    channels = []
+
+    for i, match in enumerate(matches):
+        status = "LIVE" if match["is_live"] else "SAP"
+        print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['caster']}")
+
+        uid       = make_id(match["stream_url"], "chtv")
+        thumb_path = make_thumbnail(match, uid)
+        cache_key  = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
+        logo_hash  = hashlib.md5(cache_key.encode()).hexdigest()[:8]
+        thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
+
+        channel = build_channel(match, thumb_url)
+        channels.append(channel)
+
+        time.sleep(0.2)
+
+    # Build group — chỉ 1 group BIDA
+    live_count = sum(1 for ch in channels if ch.get("org_metadata", {}).get("is_live", False))
+    group_name = f"🎱 Bida ({live_count} LIVE)" if live_count > 0 else "🎱 Bida"
+
+    groups = [{
+        "id":            "cate_bida",
+        "name":          group_name,
+        "display":       "vertical",
+        "grid_number":   2,
+        "enable_detail": False,
+        "channels":      channels,
+    }]
+
+    output = {
+        "id":          "choangtv",
+        "url":         SITE_URL,
+        "name":        "ChoangTV",
+        "color":       "#a37ef2",
+        "grid_number": 3,
+        "image":       {"type": "cover", "url": f"{SITE_URL}/__og-image__/image/og.png"},
+        "groups":      groups,
+    }
+
+    # Ghi staging truoc
+    staging = "output_staging.json"
+    with open(staging, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    total = len(channels)
+
+    # So sanh voi output.json hien tai
+    def normalize(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                d = json.load(f)
+            s = json.dumps(d, sort_keys=True, ensure_ascii=False)
+            return re.sub(r"\?expire=\d+", "", s)
+        except Exception:
+            return ""
+
+    old_norm = normalize("output.json")
+    new_norm = normalize(staging)
+
+    if old_norm != new_norm:
+        os.replace(staging, "output.json")
+        print(f"\nXong! {total} kenh -> output.json (DA CAP NHAT)")
+    else:
+        os.remove(staging)
+        print(f"\nXong! {total} kenh -> Khong co thay doi, giu nguyen output.json")
+
+
+if __name__ == "__main__":
+    main()
+```
