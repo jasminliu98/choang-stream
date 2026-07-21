@@ -284,15 +284,16 @@ def get_matches():
             score2       = item.get("score2") or 0
             is_live      = bool(item.get("live", False))
 
-            if is_live and (score1 > 0 or score2 > 0):
-                name = f"{team_a} {score1}-{score2} {team_b}"
-            else:
-                name = f"{team_a} vs {team_b}"
-
-            if not name.replace("vs", "").replace("-", "").strip():
-                name = f"Tran {match_id}"
-
+            # Bỏ "BLV " prefix, kiểm tra rỗng → skip
             caster_clean = re.sub(r'^BLV\s*', '', caster_raw).strip()
+            if not caster_clean:
+                continue
+
+            # Luôn dùng "vs", không hiện tỷ số trong tên
+            name = f"{team_a} vs {team_b}"
+
+            if not name.replace("vs", "").strip():
+                name = f"Tran {match_id}"
 
             all_matches.append({
                 "match_id":     match_id,
