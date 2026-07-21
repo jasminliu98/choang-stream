@@ -1,6 +1,3 @@
-Code bị cắt giữa chừng. Đây là file **đầy đủ**, copy thay thế toàn bộ:
-
-```python
 import requests
 import json
 import hashlib
@@ -484,4 +481,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
