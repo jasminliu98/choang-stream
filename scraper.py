@@ -51,27 +51,6 @@ def parse_time_sort(time_str: str) -> int:
     return 9999
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# CONFIG
-# ─────────────────────────────────────────────────────────────────────────────
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://choangtv18.com/",
-}
-
-API_URL    = "https://api.choangtv18.com/matchSchedule/getList"
-CDN_BASE   = "https://cdn.sports-cas889abxfileposo.site/live"
-SITE_URL   = "https://choangtv18.com"
-THUMBS_DIR = "thumbs"
-REPO_RAW   = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# HELPERS
-# ─────────────────────────────────────────────────────────────────────────────
-
 def make_id(text, prefix):
     h = hashlib.md5(text.encode()).hexdigest()[:10]
     return f"{prefix}-{h}"
@@ -86,12 +65,29 @@ def fetch_image(url):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# CONFIG
+# ─────────────────────────────────────────────────────────────────────────────
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer": "https://choangtv18.com/",
+}
+
+API_URL      = "https://api.choangtv18.com/matchSchedule/getList"
+CDN_BASE     = "https://cdn.sports-cas889abxfileposo.site/live"
+SITE_URL     = "https://choangtv18.com"
+THUMBS_DIR   = "thumbs"
+REPO_RAW     = os.environ.get("REPO_RAW", "")
+THUMB_VER    = "v1"
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, channel_id):
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
+    cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VER
     logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
     date_str  = now_vn().strftime("%Y%m%d")
     out_path  = f"{THUMBS_DIR}/{channel_id}_{logo_hash}_{date_str}.png"
@@ -100,8 +96,8 @@ def make_thumbnail(match, channel_id):
         return out_path
 
     W, H = 1600, 1200
-    HEADER_H = 180
-    FOOTER_H = 160
+    HEADER_H, FOOTER_H = 180, 160
+    ACCENT = (220, 30, 40)
 
     bg   = Image.new("RGB", (W, H), (245, 245, 248))
     draw = ImageDraw.Draw(bg)
@@ -111,11 +107,9 @@ def make_thumbnail(match, channel_id):
         gray  = int(248 - ratio * 18)
         draw.line([(0, y), (W, y)], fill=(gray, gray, gray + 4))
 
-    draw.rectangle([(0, 0),            (W, HEADER_H)],  fill=(13, 20, 40))
-    draw.rectangle([(0, H - FOOTER_H), (W, H)],         fill=(13, 20, 40))
-
-    ACCENT = (220, 30, 40)
-    draw.rectangle([(0, HEADER_H),         (W, HEADER_H + 5)], fill=ACCENT)
+    draw.rectangle([(0, 0), (W, HEADER_H)], fill=(13, 20, 40))
+    draw.rectangle([(0, H - FOOTER_H), (W, H)], fill=(13, 20, 40))
+    draw.rectangle([(0, HEADER_H), (W, HEADER_H + 5)], fill=ACCENT)
     draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)], fill=ACCENT)
 
     FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
@@ -130,48 +124,36 @@ def make_thumbnail(match, channel_id):
     content_bot = H - FOOTER_H - 5
     content_h   = content_bot - content_top
 
-    logo_size     = 360
-    name_h        = 120
-    time_h        = 110
-    gap_logo_name = 40
-    gap_name_time = 60
-
+    logo_size, name_h, time_h = 360, 120, 110
+    gap_logo_name, gap_name_time = 40, 60
     total_block_h = logo_size + gap_logo_name + name_h + gap_name_time + time_h
     block_top     = content_top + (content_h - total_block_h) // 2
 
     logo_y       = block_top
-    name_block_y = logo_y + logo_size + gap_logo_name
-    name_center  = name_block_y + name_h // 2
-    time_y       = name_block_y + name_h + gap_name_time + time_h // 2
+    name_center  = logo_y + logo_size + gap_logo_name + name_h // 2
+    time_y       = name_center + name_h // 2 + gap_name_time + time_h // 2
 
-    if match.get("logo_a"):
-        img = fetch_image(match["logo_a"])
-        if img:
-            img = img.resize((logo_size, logo_size), Image.LANCZOS)
-            bg.paste(img, (W // 4 - logo_size // 2, logo_y), img)
-
-    if match.get("logo_b"):
-        img = fetch_image(match["logo_b"])
-        if img:
-            img = img.resize((logo_size, logo_size), Image.LANCZOS)
-            bg.paste(img, (W * 3 // 4 - logo_size // 2, logo_y), img)
+    for key, cx in [("logo_a", W // 4), ("logo_b", W * 3 // 4)]:
+        if match.get(key):
+            img = fetch_image(match[key])
+            if img:
+                img = img.resize((logo_size, logo_size), Image.LANCZOS)
+                bg.paste(img, (cx - logo_size // 2, logo_y), img)
 
     draw.text((W // 2, logo_y + logo_size // 2), "VS",
               fill=ACCENT, font=font_vs, anchor="mm")
 
     def draw_team_name(text, cx):
-        max_width = W // 2 - 60
-        font_size = 58
+        fs = 58
         f = font_team
-        while font_size >= 28:
+        while fs >= 28:
             try:
-                f = ImageFont.truetype(FONT_BOLD, font_size)
+                f = ImageFont.truetype(FONT_BOLD, fs)
             except Exception:
                 f = ImageFont.load_default()
-            bbox = draw.textbbox((0, 0), text, font=f)
-            if (bbox[2] - bbox[0]) <= max_width:
+            if (draw.textbbox((0, 0), text, font=f)[2] - draw.textbbox((0, 0), text, font=f)[0]) <= W // 2 - 60:
                 break
-            font_size -= 3
+            fs -= 3
         draw.text((cx, name_center), text, fill=(20, 20, 20), font=f, anchor="mm")
 
     if match.get("team_a"):
@@ -186,20 +168,18 @@ def make_thumbnail(match, channel_id):
                   fill=(15, 15, 15), font=font_time, anchor="mm")
 
     if match.get("league"):
-        league_text = match["league"].upper()
-        font_size   = 62
-        f           = None
-        while font_size >= 28:
+        txt = match["league"].upper()
+        fs = 62
+        f = None
+        while fs >= 28:
             try:
-                f = ImageFont.truetype(FONT_BOLD, font_size)
+                f = ImageFont.truetype(FONT_BOLD, fs)
             except Exception:
                 f = ImageFont.load_default()
-            bbox = draw.textbbox((0, 0), league_text, font=f)
-            if (bbox[2] - bbox[0]) <= W - 60:
+            if (draw.textbbox((0, 0), txt, font=f)[2] - draw.textbbox((0, 0), txt, font=f)[0]) <= W - 60:
                 break
-            font_size -= 3
-        draw.text((W // 2, HEADER_H // 2), league_text,
-                  fill=(255, 255, 255), font=f, anchor="mm")
+            fs -= 3
+        draw.text((W // 2, HEADER_H // 2), txt, fill=(255, 255, 255), font=f, anchor="mm")
 
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
     bg.save(out_path, "PNG", optimize=True)
@@ -215,29 +195,22 @@ def cleanup_old_thumbs(days: int = 3):
         if not fname.endswith(".png"):
             continue
         m = re.search(r'_(\d{8})\.png$', fname)
+        fpath = os.path.join(THUMBS_DIR, fname)
         if not m:
-            try:
-                os.remove(os.path.join(THUMBS_DIR, fname))
-                removed += 1
-            except Exception:
-                pass
+            try: os.remove(fpath); removed += 1
+            except Exception: pass
             continue
         try:
-            file_date = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ)
+            if datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ) < cutoff:
+                os.remove(fpath); removed += 1
         except ValueError:
-            continue
-        if file_date < cutoff:
-            try:
-                os.remove(os.path.join(THUMBS_DIR, fname))
-                removed += 1
-            except Exception:
-                pass
+            pass
     if removed:
         print(f"Da xoa {removed} thumbnail cu (>{days} ngay)")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# SCRAPE MATCHES — API JSON
+# SCRAPE MATCHES
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_matches():
@@ -271,7 +244,6 @@ def get_matches():
             if item.get("end", False):
                 continue
 
-            # Dùng `or ""` cho mọi field string để handle null từ API
             time_raw     = item.get("time") or ""
             time_display = format_match_time(time_raw)
             team_a       = (item.get("name1") or "").strip()
@@ -284,14 +256,11 @@ def get_matches():
             score2       = item.get("score2") or 0
             is_live      = bool(item.get("live", False))
 
-            # Bỏ "BLV " prefix, kiểm tra rỗng → skip
             caster_clean = re.sub(r'^BLV\s*', '', caster_raw).strip()
             if not caster_clean:
                 continue
 
-            # Luôn dùng "vs", không hiện tỷ số trong tên
             name = f"{team_a} vs {team_b}"
-
             if not name.replace("vs", "").strip():
                 name = f"Tran {match_id}"
 
@@ -313,23 +282,25 @@ def get_matches():
                 "is_live":      is_live,
                 "hot":          bool(item.get("hot", False)),
                 "subtitle":     item.get("subtitle") or "",
-                "category":     item.get("category") or "BIDA",
+                "category":     item.get("category") or "Billiards",
                 "stream_url":   f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
     all_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return all_matches
 
+
 # ─────────────────────────────────────────────────────────────────────────────
-# BUILD CHANNEL JSON
+# BUILD CHANNEL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_channel(match, thumb_url=""):
-    uid    = make_id(match["stream_url"], "chtv")
-    src_id = make_id(match["stream_url"], "src")
-    ct_id  = make_id(match["stream_url"], "ct")
-    st_id  = make_id(match["stream_url"], "st")
-    lnk_id = make_id(match["stream_url"], "lnk")
+    base       = make_id(match["stream_url"], "chtv")
+    uid        = make_id(match["stream_url"], "chtv")
+    src_id     = make_id(match["stream_url"], "src")
+    ct_id      = make_id(match["stream_url"], "ct")
+    st_id      = make_id(match["stream_url"], "st")
+    lnk_id     = make_id(match["stream_url"], "lnk")
 
     label_text  = "LIVE" if match["is_live"] else "SAP"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
@@ -342,7 +313,7 @@ def build_channel(match, thumb_url=""):
 
     stream_links = [{
         "id":      lnk_id,
-        "name":    match["caster"] if match["caster"] else "Link HD",
+        "name":    match["caster"],
         "type":    "hls",
         "default": True,
         "url":     match["stream_url"],
@@ -385,12 +356,9 @@ def build_channel(match, thumb_url=""):
 
     if thumb_url:
         channel["image"] = {
-            "padding":          1,
-            "background_color": "#ffffff",
-            "display":          "contain",
-            "url":              thumb_url,
-            "width":            1600,
-            "height":           1200,
+            "padding": 1, "background_color": "#ffffff",
+            "display": "contain", "url": thumb_url,
+            "width": 1600, "height": 1200,
         }
 
     return channel
@@ -408,7 +376,6 @@ def main():
     print("Lay danh sach tran tu choangtv18 API...")
 
     matches = get_matches()
-
     live_count = sum(1 for m in matches if m["is_live"])
     print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
 
@@ -418,23 +385,20 @@ def main():
         status = "LIVE" if match["is_live"] else "SAP"
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['caster']}")
 
-        uid       = make_id(match["stream_url"], "chtv")
+        uid        = make_id(match["stream_url"], "chtv")
         thumb_path = make_thumbnail(match, uid)
-        cache_key  = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
+        cache_key  = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VER
         logo_hash  = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
-        channel = build_channel(match, thumb_url)
-        channels.append(channel)
-
+        channels.append(build_channel(match, thumb_url))
         time.sleep(0.2)
 
-    # Build group — chỉ 1 group BIDA
     live_count = sum(1 for ch in channels if ch.get("org_metadata", {}).get("is_live", False))
-    group_name = f"🎱 Bida ({live_count} LIVE)" if live_count > 0 else "🎱 Bida"
+    group_name = f"🎱 Billiards ({live_count} LIVE)" if live_count > 0 else "🎱 Billiards"
 
     groups = [{
-        "id":            "cate_bida",
+        "id":            "cate_billiards",
         "name":          group_name,
         "display":       "vertical",
         "grid_number":   2,
@@ -452,14 +416,12 @@ def main():
         "groups":      groups,
     }
 
-    # Ghi staging truoc
     staging = "output_staging.json"
     with open(staging, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     total = len(channels)
 
-    # So sanh voi output.json hien tai
     def normalize(path):
         try:
             with open(path, encoding="utf-8") as f:
@@ -469,10 +431,7 @@ def main():
         except Exception:
             return ""
 
-    old_norm = normalize("output.json")
-    new_norm = normalize(staging)
-
-    if old_norm != new_norm:
+    if normalize("output.json") != normalize(staging):
         os.replace(staging, "output.json")
         print(f"\nXong! {total} kenh -> output.json (DA CAP NHAT)")
     else:
