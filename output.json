@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "12:12 22/07",
             "caster": "SÊ KÔÔ",
-            "score": "11-10",
+            "score": "11-11",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-91c40f88e5_763abb74_20260722.png?v=763abb74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e009fd50af",
-          "name": "Guō Bǎichéng vs Zhōu Lěi | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e009fd50af",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e009fd50af",
-                  "name": "Guō Bǎichéng vs Zhōu Lěi",
-                  "streams": [
-                    {
-                      "id": "st-e009fd50af",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e009fd50af",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5053/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBSA Pool 9-Ball Tour",
-            "team_a": "Guō Bǎichéng",
-            "team_b": "Zhōu Lěi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
-            "time": "12:45 22/07",
-            "caster": "Đại Kê",
-            "score": "9-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e009fd50af_b0ed5283_20260722.png?v=b0ed5283",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
             "time": "13:00 22/07",
             "caster": "Lee Min Hoo",
-            "score": "0-0",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
