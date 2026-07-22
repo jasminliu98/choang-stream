@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
             "time": "11:51 22/07",
             "caster": "Kèn Kèn",
-            "score": "4-6",
+            "score": "4-7",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "12:12 22/07",
             "caster": "SÊ KÔÔ",
-            "score": "11-11",
+            "score": "11-12",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
             "time": "13:00 22/07",
             "caster": "Lee Min Hoo",
-            "score": "1-4",
+            "score": "5-5",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-989206b096_f49d5c3f_20260722.png?v=f49d5c3f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9a08db27fe",
+          "name": "VƯƠNG TƯ NẶC vs NIKA PIMENOVA | NGHẸO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a08db27fe",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9a08db27fe",
+                  "name": "VƯƠNG TƯ NẶC vs NIKA PIMENOVA",
+                  "streams": [
+                    {
+                      "id": "st-9a08db27fe",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a08db27fe",
+                          "name": "NGHẸO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5059/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LAST 128 GIẢI ĐẤU 8 BI CHINESE POOL NỮ",
+            "team_a": "VƯƠNG TƯ NẶC",
+            "team_b": "NIKA PIMENOVA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1774246440564_Wang Sinou.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "time": "13:00 22/07",
+            "caster": "NGHẸO",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a08db27fe_af935ff2_20260722.png?v=af935ff2",
             "width": 1600,
             "height": 1200
           }
