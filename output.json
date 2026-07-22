@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "16:45 22/07",
             "caster": "NGHẸO",
-            "score": "6-5",
+            "score": "6-6",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765418775237_táº£i xuá»ng.png",
             "time": "16:48 22/07",
             "caster": "Đại Kê",
-            "score": "7-11",
+            "score": "8-11",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ddf317945_7901f597_20260722.png?v=7901f597",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3956702b98",
+          "name": "BINO BALINGASAG 8-10 vs KYLE AMOROTO | 17:30 22/07 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3956702b98",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3956702b98",
+                  "name": "BINO BALINGASAG 8-10 vs KYLE AMOROTO",
+                  "streams": [
+                    {
+                      "id": "st-3956702b98",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3956702b98",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5068/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOÁNG TV PHI BỊP HẠNG PRO",
+            "team_a": "BINO BALINGASAG 8-10",
+            "team_b": "KYLE AMOROTO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "time": "17:30 22/07",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3956702b98_9d76bfb0_20260722.png?v=9d76bfb0",
             "width": 1600,
             "height": 1200
           }
