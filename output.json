@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
             "time": "11:51 22/07",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "0-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
             "time": "12:45 22/07",
             "caster": "Đại Kê",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e009fd50af_b0ed5283_20260722.png?v=b0ed5283",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-989206b096",
+          "name": "BÌNH CHUẨN vs TKON | 13:00 22/07 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-989206b096",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-989206b096",
+                  "name": "BÌNH CHUẨN vs TKON",
+                  "streams": [
+                    {
+                      "id": "st-989206b096",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-989206b096",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5055/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 SÂU MÁT",
+            "team_a": "BÌNH CHUẨN",
+            "team_b": "TKON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784696188302_BÃNH CHUáº¨N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
+            "time": "13:00 22/07",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-989206b096_f49d5c3f_20260722.png?v=f49d5c3f",
             "width": 1600,
             "height": 1200
           }
