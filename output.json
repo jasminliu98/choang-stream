@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
             "time": "11:51 22/07",
             "caster": "Kèn Kèn",
-            "score": "4-5",
+            "score": "4-6",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "12:12 22/07",
             "caster": "SÊ KÔÔ",
-            "score": "11-9",
+            "score": "11-10",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
             "time": "12:45 22/07",
             "caster": "Đại Kê",
-            "score": "8-1",
+            "score": "9-1",
             "is_live": true,
             "hot": true
           },
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-989206b096",
-          "name": "BÌNH CHUẨN vs TKON | 13:00 22/07 | Tào A Man",
+          "name": "BÌNH CHUẨN vs TKON | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -261,7 +261,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-989206b096",
-                          "name": "Tào A Man",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live5055/index.m3u8",
@@ -290,9 +290,9 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1784696188302_BÃNH CHUáº¨N.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
             "time": "13:00 22/07",
-            "caster": "Tào A Man",
+            "caster": "Lee Min Hoo",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
