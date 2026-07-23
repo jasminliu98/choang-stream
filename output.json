@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764306810197_Yihe Fan.png",
             "time": "13:20 23/07",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "13:28 23/07",
             "caster": "Lee Min Hoo",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1e79985815_c5662328_20260723.png?v=c5662328",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f79ac83713",
+          "name": "CHAMP vs GMAC | 00:00 23/07 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f79ac83713",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f79ac83713",
+                  "name": "CHAMP vs GMAC",
+                  "streams": [
+                    {
+                      "id": "st-f79ac83713",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f79ac83713",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5126/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "POOL 8 BALL nội dung U50+ :))",
+            "team_a": "CHAMP",
+            "team_b": "GMAC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "time": "00:00 23/07",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f79ac83713_c5d47df0_20260723.png?v=c5d47df0",
             "width": 1600,
             "height": 1200
           }
