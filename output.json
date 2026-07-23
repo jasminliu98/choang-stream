@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-b2e85df4b0",
-          "name": "Robbie capito(9win) vs Chine  (9win) | Đại Kê",
+          "name": "Robbie capito(11win) vs Chine  (9win) | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-b2e85df4b0",
-                  "name": "Robbie capito(9win) vs Chine  (9win)",
+                  "name": "Robbie capito(11win) vs Chine  (9win)",
                   "streams": [
                     {
                       "id": "st-b2e85df4b0",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "2026 CBSA “PERI．Laili Cup．Dynaspheres” Pool 9-Ball Tour．Tieling",
-            "team_a": "Robbie capito(9win)",
+            "team_a": "Robbie capito(11win)",
             "team_b": "Chine  (9win)",
             "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "11:07 23/07",
             "caster": "Đại Kê",
-            "score": "1-3",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "11:08 23/07",
             "caster": "Lee Min Hoo",
-            "score": "1-3",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
