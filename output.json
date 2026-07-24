@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c4d5188723_71646c83_20260724.png?v=71646c83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-202f3b7651",
+          "name": "SHAYNE ACEBAR vs BONJING CEBU | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-202f3b7651",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-202f3b7651",
+                  "name": "SHAYNE ACEBAR vs BONJING CEBU",
+                  "streams": [
+                    {
+                      "id": "st-202f3b7651",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-202f3b7651",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5168/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHÚ BÀ ĐẤU SU GỜ ĐÉT DI",
+            "team_a": "SHAYNE ACEBAR",
+            "team_b": "BONJING CEBU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777025219330_Screenshot 2026-0470642.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "time": "19:26 24/07",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-202f3b7651_491124c4_20260724.png?v=491124c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-44ce3b58ba",
+          "name": "TIOMAY910 vs ĐI CHÂY MANAS | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44ce3b58ba",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-44ce3b58ba",
+                  "name": "TIOMAY910 vs ĐI CHÂY MANAS",
+                  "streams": [
+                    {
+                      "id": "st-44ce3b58ba",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44ce3b58ba",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5169/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOÁNG TV HẠNG PRO",
+            "team_a": "TIOMAY910",
+            "team_b": "ĐI CHÂY MANAS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765858485172_táº£i xuá»ng (1).jpg",
+            "time": "20:03 24/07",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-44ce3b58ba_4da921d4_20260724.png?v=4da921d4",
             "width": 1600,
             "height": 1200
           }
