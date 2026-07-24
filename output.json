@@ -159,6 +159,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-a345bf1f36",
+          "name": "Thái Bội Quân vs Lưu Hạ Chi | 15:00 24/07 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a345bf1f36",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a345bf1f36",
+                  "name": "Thái Bội Quân vs Lưu Hạ Chi",
+                  "streams": [
+                    {
+                      "id": "st-a345bf1f36",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a345bf1f36",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5162/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải đấu Bida 9 bi CBSA Trung Quốc 2026",
+            "team_a": "Thái Bội Quân",
+            "team_b": "Lưu Hạ Chi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
+            "time": "15:00 24/07",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a345bf1f36_bf022c23_20260724.png?v=bf022c23",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
