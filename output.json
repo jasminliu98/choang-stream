@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "19:26 24/07",
             "caster": "Bỉm Sữa",
-            "score": "0-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-44ce3b58ba",
-          "name": "TIOMAY910 vs ĐI CHÂY MANAS | 20:03 24/07 | Bỉm Sữa",
+          "name": "TIOMAY910 vs ĐI CHÂY MANAS | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -117,7 +117,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-44ce3b58ba",
-                          "name": "Bỉm Sữa",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live5169/index.m3u8",
@@ -146,9 +146,9 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765858485172_táº£i xuá»ng (1).jpg",
             "time": "20:03 24/07",
-            "caster": "Bỉm Sữa",
+            "caster": "Kèn Kèn",
             "score": "5-3",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
