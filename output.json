@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-6bf04746db",
-          "name": "GORST (125 điểm win) vs VITALIY PATSURA(65 điểm win ) | 07:52 24/07 | VÁNG",
+          "name": "GORST (125 điểm win) vs VITALIY PATSURA(65 điểm win ) | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -75,8 +75,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764899471328_billad.png",
             "time": "07:52 24/07",
             "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": false,
+            "score": "66-40",
+            "is_live": true,
             "hot": true
           },
           "image": {
