@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0becb9552d_9f2dbf65_20260725.png?v=9f2dbf65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-111a0440f0",
+          "name": "Thành Nam vs Dũng TB | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-111a0440f0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-111a0440f0",
+                  "name": "Thành Nam vs Dũng TB",
+                  "streams": [
+                    {
+                      "id": "st-111a0440f0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-111a0440f0",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5181/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 TITANIUM CHMPIONSHIP V3",
+            "team_a": "Thành Nam",
+            "team_b": "Dũng TB",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784937751263_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784912950519_vn.png",
+            "time": "10:00 25/07",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-111a0440f0_cb5214e0_20260725.png?v=cb5214e0",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-111a0440f0",
-          "name": "Thành Nam vs Dũng TB | 10:00 25/07 | VÁNG",
+          "id": "chtv-d072ba0e2a",
+          "name": "Huy C300 vs Thành Cụt | 12:00 25/07 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-111a0440f0",
+              "id": "src-d072ba0e2a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-111a0440f0",
-                  "name": "Thành Nam vs Dũng TB",
+                  "id": "ct-d072ba0e2a",
+                  "name": "Huy C300 vs Thành Cụt",
                   "streams": [
                     {
-                      "id": "st-111a0440f0",
+                      "id": "st-d072ba0e2a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-111a0440f0",
-                          "name": "VÁNG",
+                          "id": "lnk-d072ba0e2a",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5181/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5186/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,12 +357,12 @@
           ],
           "org_metadata": {
             "league": "99 TITANIUM CHMPIONSHIP V3",
-            "team_a": "Thành Nam",
-            "team_b": "Dũng TB",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1784937751263_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1784912950519_vn.png",
-            "time": "10:00 25/07",
-            "caster": "VÁNG",
+            "team_a": "Huy C300",
+            "team_b": "Thành Cụt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784938079995_HUY C300.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784938085320_THÃNH Cá»¤T.jpg",
+            "time": "12:00 25/07",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-111a0440f0_cb5214e0_20260725.png?v=cb5214e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d072ba0e2a_f1c88338_20260725.png?v=f1c88338",
             "width": 1600,
             "height": 1200
           }
