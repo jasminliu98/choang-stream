@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "00:00 25/07",
             "caster": "Bỉm Sữa",
-            "score": "11-7",
+            "score": "12-7",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1784966248002_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-25 145545.png",
             "time": "15:30 25/07",
             "caster": "Lee Min Hoo",
-            "score": "5-6",
+            "score": "6-6",
             "is_live": true,
             "hot": false
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-4c45a94a07",
-          "name": "Ngọc Xăm vs Tú Tây | Đại Kê",
+          "id": "chtv-a84e96b7d6",
+          "name": "Kiên Pháp vs Tiến Minh TH(7win) | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-4c45a94a07",
+              "id": "src-a84e96b7d6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4c45a94a07",
-                  "name": "Ngọc Xăm vs Tú Tây",
+                  "id": "ct-a84e96b7d6",
+                  "name": "Kiên Pháp vs Tiến Minh TH(7win)",
                   "streams": [
                     {
-                      "id": "st-4c45a94a07",
+                      "id": "st-a84e96b7d6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4c45a94a07",
-                          "name": "Đại Kê",
+                          "id": "lnk-a84e96b7d6",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5219/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5218/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,13 +285,13 @@
           ],
           "org_metadata": {
             "league": "NHÁNH THẮNG 99 BI LÁT",
-            "team_a": "Ngọc Xăm",
-            "team_b": "Tú Tây",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1784967622911_NGá»C XÄM.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "team_a": "Kiên Pháp",
+            "team_b": "Tiến Minh TH(7win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766213714488_táº£i xuá»ng (4).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784967452207_Tiáº¿n Minh TH.jpg",
             "time": "16:00 25/07",
-            "caster": "Đại Kê",
-            "score": "1-6",
+            "caster": "VÁNG",
+            "score": "8-3",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c45a94a07_544ae1b8_20260725.png?v=544ae1b8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a84e96b7d6_52513cb4_20260725.png?v=52513cb4",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
             "time": "16:00 25/07",
             "caster": "BÚN CHÓ",
-            "score": "4-5",
+            "score": "5-5",
             "is_live": true,
             "hot": false
           },
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-a84e96b7d6",
-          "name": "Kiên Pháp vs Tiến Minh TH(7win) | VÁNG",
+          "id": "chtv-4c45a94a07",
+          "name": "Ngọc Xăm vs Tú Tây | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-a84e96b7d6",
+              "id": "src-4c45a94a07",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a84e96b7d6",
-                  "name": "Kiên Pháp vs Tiến Minh TH(7win)",
+                  "id": "ct-4c45a94a07",
+                  "name": "Ngọc Xăm vs Tú Tây",
                   "streams": [
                     {
-                      "id": "st-a84e96b7d6",
+                      "id": "st-4c45a94a07",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a84e96b7d6",
-                          "name": "VÁNG",
+                          "id": "lnk-4c45a94a07",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5218/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5219/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,13 +429,13 @@
           ],
           "org_metadata": {
             "league": "NHÁNH THẮNG 99 BI LÁT",
-            "team_a": "Kiên Pháp",
-            "team_b": "Tiến Minh TH(7win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766213714488_táº£i xuá»ng (4).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1784967452207_Tiáº¿n Minh TH.jpg",
+            "team_a": "Ngọc Xăm",
+            "team_b": "Tú Tây",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1784967622911_NGá»C XÄM.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "16:00 25/07",
-            "caster": "VÁNG",
-            "score": "7-2",
+            "caster": "Đại Kê",
+            "score": "1-7",
             "is_live": true,
             "hot": false
           },
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a84e96b7d6_52513cb4_20260725.png?v=52513cb4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c45a94a07_544ae1b8_20260725.png?v=544ae1b8",
             "width": 1600,
             "height": 1200
           }
