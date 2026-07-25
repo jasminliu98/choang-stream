@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1784938085320_THÃNH Cá»¤T.jpg",
             "time": "12:00 25/07",
             "caster": "Kèn Kèn",
-            "score": "1-2",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1784913191172_vn.png",
             "time": "12:00 25/07",
             "caster": "Đại Kê",
-            "score": "3-1",
+            "score": "4-1",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766462706364_táº£i xuá»ng (1).jpg",
             "time": "12:00 25/07",
             "caster": "VÁNG",
-            "score": "1-2",
+            "score": "2-2",
             "is_live": true,
             "hot": false
           },
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e6fb0e4188_13bc0d22_20260725.png?v=13bc0d22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0fccb0ad4b",
+          "name": "Che Wei Fu vs Lai Kun Zhang | 13:00 25/07 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fccb0ad4b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0fccb0ad4b",
+                  "name": "Che Wei Fu vs Lai Kun Zhang",
+                  "streams": [
+                    {
+                      "id": "st-0fccb0ad4b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fccb0ad4b",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5203/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải đấu Bida 9 bi CBSA Trung Quốc 2026",
+            "team_a": "Che Wei Fu",
+            "team_b": "Lai Kun Zhang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
+            "time": "13:00 25/07",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0fccb0ad4b_b0ed5283_20260725.png?v=b0ed5283",
             "width": 1600,
             "height": 1200
           }
