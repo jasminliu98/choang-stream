@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1784975896834_HÃ THÃNH.png",
             "time": "18:00 25/07",
             "caster": "Đại Kê",
-            "score": "6-4",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9fd2238fd6_34a13afc_20260725.png?v=34a13afc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6afff48c1f",
-          "name": "Mạnh te vs Cường Tỏi(6win) | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6afff48c1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6afff48c1f",
-                  "name": "Mạnh te vs Cường Tỏi(6win)",
-                  "streams": [
-                    {
-                      "id": "st-6afff48c1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6afff48c1f",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5226/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vòng 2 nhánh thua",
-            "team_a": "Mạnh te",
-            "team_b": "Cường Tỏi(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777659638508_Screenshot 2026-05-02 012034.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
-            "time": "18:00 25/07",
-            "caster": "VÁNG",
-            "score": "9-7",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6afff48c1f_5dd654a2_20260725.png?v=5dd654a2",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1784975179012_Tiáº¿n Minh TH.jpg",
             "time": "18:00 25/07",
             "caster": "VÁNG",
-            "score": "6-1",
+            "score": "7-2",
             "is_live": true,
             "hot": false
           },
