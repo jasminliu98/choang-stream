@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-481814c963",
-          "name": "MI LE vs Po Hsien Li | Lee Min Hoo",
+          "id": "chtv-9fd2238fd6",
+          "name": "Hoàng tễu(7win) vs Hà Thành | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-481814c963",
+              "id": "src-9fd2238fd6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-481814c963",
-                  "name": "MI LE vs Po Hsien Li",
+                  "id": "ct-9fd2238fd6",
+                  "name": "Hoàng tễu(7win) vs Hà Thành",
                   "streams": [
                     {
-                      "id": "st-481814c963",
+                      "id": "st-9fd2238fd6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-481814c963",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-9fd2238fd6",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5215/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5228/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,22 +140,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Giải đấu Bida 9 bi CBSA Trung Quốc 2026 | CHUNG KẾT NAM",
-            "team_a": "MI LE",
-            "team_b": "Po Hsien Li",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1784966225585_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-25 145523.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1784966248002_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-25 145545.png",
-            "time": "15:30 25/07",
-            "caster": "Lee Min Hoo",
-            "score": "10-9",
+            "league": "vòng 2 nhánh thua",
+            "team_a": "Hoàng tễu(7win)",
+            "team_b": "Hà Thành",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1784975896834_HÃ THÃNH.png",
+            "time": "18:00 25/07",
+            "caster": "Đại Kê",
+            "score": "0-0",
             "is_live": true,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-481814c963_d104b668_20260725.png?v=d104b668",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9fd2238fd6_34a13afc_20260725.png?v=34a13afc",
             "width": 1600,
             "height": 1200
           }
@@ -233,89 +233,17 @@
           }
         },
         {
-          "id": "chtv-9fd2238fd6",
-          "name": "Hoàng tễu(7win) vs Hà Thành | 18:00 25/07 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9fd2238fd6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9fd2238fd6",
-                  "name": "Hoàng tễu(7win) vs Hà Thành",
-                  "streams": [
-                    {
-                      "id": "st-9fd2238fd6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9fd2238fd6",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5228/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vòng 2 nhánh thua",
-            "team_a": "Hoàng tễu(7win)",
-            "team_b": "Hà Thành",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1784975896834_HÃ THÃNH.png",
-            "time": "18:00 25/07",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9fd2238fd6_34a13afc_20260725.png?v=34a13afc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8d30bd49c9",
-          "name": "Bảo Ngô(8win) vs Tuyên con | 18:05 25/07 | BÚN CHÓ",
+          "name": "Bảo Ngô(8win) vs Tuyên con | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "18:05 25/07",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
