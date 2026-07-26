@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-afa8aaef1d",
-          "name": "Kiên Pháp vs Tú Tây(9win) | SÊ KÔÔ",
+          "id": "chtv-724d03a501",
+          "name": "TKON uy tín vs TÚ TÂY | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afa8aaef1d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-afa8aaef1d",
-                  "name": "Kiên Pháp vs Tú Tây(9win)",
-                  "streams": [
-                    {
-                      "id": "st-afa8aaef1d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afa8aaef1d",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5267/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT 1",
-            "team_a": "Kiên Pháp",
-            "team_b": "Tú Tây(9win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778587777808_Screenshot 2026-05-12 190932.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "time": "17:00 26/07",
-            "caster": "SÊ KÔÔ",
-            "score": "6-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-afa8aaef1d_17b9dfb1_20260726.png?v=17b9dfb1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-724d03a501",
-          "name": "TKON uy tín vs TÚ TÂY | 20:00 26/07 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "20:00 26/07",
             "caster": "Bỉm Sữa",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
