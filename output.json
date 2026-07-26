@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-a813d3dd69",
-          "name": "Tkon vs Bình Chuẩn | 14:03 26/07 | BÚN CHÓ",
+          "name": "Tkon vs Bình Chuẩn | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "14:03 26/07",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -162,16 +162,16 @@
         },
         {
           "id": "chtv-079ed44491",
-          "name": "Lê Quang Trung(8win) vs Kiên Pháp | 14:30 26/07 | Bỉm Sữa",
+          "name": "Lê Quang Trung(8win) vs Kiên Pháp | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "14:30 26/07",
             "caster": "Bỉm Sữa",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-079ed44491_54f8120c_20260726.png?v=54f8120c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6429a3ce83",
+          "name": "Thiện Lương vs Tú Tây(8win) | 14:03 26/07 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6429a3ce83",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6429a3ce83",
+                  "name": "Thiện Lương vs Tú Tây(8win)",
+                  "streams": [
+                    {
+                      "id": "st-6429a3ce83",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6429a3ce83",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5264/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT 99 BILLARDD",
+            "team_a": "Thiện Lương",
+            "team_b": "Tú Tây(8win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785050833995_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1769103408689_lang.jpg",
+            "time": "14:03 26/07",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6429a3ce83_cd9e70e2_20260726.png?v=cd9e70e2",
             "width": 1600,
             "height": 1200
           }
