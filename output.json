@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "12:00 28/07",
             "caster": "BÚN CHÓ",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "12:44 28/07",
             "caster": "Bỉm Sữa",
-            "score": "4-3",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-f1cdead05d",
-          "name": "Kim Ga-young (김가영) vs Lee Hwa-yeon (이화연) | 13:30 28/07 | Đại Kê",
+          "name": "Kim Ga-young (김가영) vs Lee Hwa-yeon (이화연) | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "13:30 28/07",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
