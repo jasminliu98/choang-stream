@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
             "time": "17:00 28/07",
             "caster": "SÊ KÔÔ",
-            "score": "17-16",
+            "score": "18-16",
             "is_live": true,
             "hot": false
           },
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-983ac029ee",
+          "name": "이다솜(Da-som LEE) vs Choi Hye-mi (최혜미) | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-983ac029ee",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-983ac029ee",
+                  "name": "이다솜(Da-som LEE) vs Choi Hye-mi (최혜미)",
+                  "streams": [
+                    {
+                      "id": "st-983ac029ee",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-983ac029ee",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5351/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "친환경 건축자재 에스와이 PBA 챔피언십]",
+            "team_a": "이다솜(Da-som LEE)",
+            "team_b": "Choi Hye-mi (최혜미)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785236779973_HÃ n Quá»c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785236783894_korea.png",
+            "time": "18:30 28/07",
+            "caster": "Đại Kê",
+            "score": "0-2",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-983ac029ee_501ea451_20260728.png?v=501ea451",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-df016ce5c7",
           "name": "Park Jung-hyun (박정현) vs Hida (히다) | VÁNG",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-df016ce5c7_6be5c6e1_20260728.png?v=6be5c6e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-983ac029ee",
-          "name": "이다솜(Da-som LEE) vs Choi Hye-mi (최혜미) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-983ac029ee",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-983ac029ee",
-                  "name": "이다솜(Da-som LEE) vs Choi Hye-mi (최혜미)",
-                  "streams": [
-                    {
-                      "id": "st-983ac029ee",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-983ac029ee",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5351/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "친환경 건축자재 에스와이 PBA 챔피언십]",
-            "team_a": "이다솜(Da-som LEE)",
-            "team_b": "Choi Hye-mi (최혜미)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785236779973_HÃ n Quá»c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785236783894_korea.png",
-            "time": "18:30 28/07",
-            "caster": "Đại Kê",
-            "score": "0-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-983ac029ee_501ea451_20260728.png?v=501ea451",
             "width": 1600,
             "height": 1200
           }
