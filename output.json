@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-6dff8c303a",
+          "name": "Ethan Ford vs Antonis Kakaris | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dff8c303a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6dff8c303a",
+                  "name": "Ethan Ford vs Antonis Kakaris",
+                  "streams": [
+                    {
+                      "id": "st-6dff8c303a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6dff8c303a",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5396/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 1",
+            "team_a": "Ethan Ford",
+            "team_b": "Antonis Kakaris",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785344189160_Antonis Kakaris.jpg",
+            "time": "01:00 30/07",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6dff8c303a_7b946498_20260730.png?v=7b946498",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-559d51422c",
           "name": "Mauricio Garcia vs Harrison Leinen | BÚN CHÓ",
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785338314918_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-07 214239.png",
             "time": "22:17 29/07",
             "caster": "Tào A Man",
-            "score": "10-13",
+            "score": "12-13",
             "is_live": true,
             "hot": false
           },
