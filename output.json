@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
             "time": "15:40 29/07",
             "caster": "Lee Min Hoo",
-            "score": "10-11",
+            "score": "11-11",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
             "time": "17:43 29/07",
             "caster": "Kèn Kèn",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b085f0283_9a981c84_20260729.png?v=9a981c84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3127dc2732",
+          "name": "Shpendi Kaba vs Jan Rempe | 23:00 29/07 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3127dc2732",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3127dc2732",
+                  "name": "Shpendi Kaba vs Jan Rempe",
+                  "streams": [
+                    {
+                      "id": "st-3127dc2732",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3127dc2732",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5378/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 2",
+            "team_a": "Shpendi Kaba",
+            "team_b": "Jan Rempe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785323114787_Jan Rempe.jpg",
+            "time": "23:00 29/07",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3127dc2732_f1812efe_20260729.png?v=f1812efe",
             "width": 1600,
             "height": 1200
           }
