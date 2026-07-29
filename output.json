@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785344993049_Brandon Shuff.jpg",
             "time": "00:59 30/07",
             "caster": "Thập Cẩm",
-            "score": "3-4",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785344405992_Harrison Leinen.jpg",
             "time": "01:00 30/07",
             "caster": "BÚN CHÓ",
-            "score": "6-3",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "01:00 30/07",
             "caster": "VÁNG",
-            "score": "4-1",
+            "score": "6-1",
             "is_live": true,
             "hot": true
           },
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c3b3f43db3_b67ccadb_20260730.png?v=b67ccadb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fde02410fe",
+          "name": "Mitch Jaffe vs Jeffrey De Luna | 03:00 30/07 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fde02410fe",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fde02410fe",
+                  "name": "Mitch Jaffe vs Jeffrey De Luna",
+                  "streams": [
+                    {
+                      "id": "st-fde02410fe",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fde02410fe",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5401/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table TV",
+            "team_a": "Mitch Jaffe",
+            "team_b": "Jeffrey De Luna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785352269960_Screenshot 2026-07-30 021058.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785352269714_Screenshot 2026-07-30 021103.png",
+            "time": "03:00 30/07",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fde02410fe_f8274aa2_20260730.png?v=f8274aa2",
             "width": 1600,
             "height": 1200
           }
