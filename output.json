@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1777659638508_Screenshot 2026-05-02 012034.png",
             "time": "00:00 29/07",
             "caster": "Thập Cẩm",
-            "score": "8-11",
+            "score": "9-12",
             "is_live": true,
             "hot": false
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-75fca55563",
-          "name": "Dimitris Loukatos vs Devin Poteet | Lee Min Hoo",
+          "id": "chtv-3d4b90d5ae",
+          "name": "George Antonakis vs Julio Burgos | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-75fca55563",
+              "id": "src-3d4b90d5ae",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-75fca55563",
-                  "name": "Dimitris Loukatos vs Devin Poteet",
+                  "id": "ct-3d4b90d5ae",
+                  "name": "George Antonakis vs Julio Burgos",
                   "streams": [
                     {
-                      "id": "st-75fca55563",
+                      "id": "st-3d4b90d5ae",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-75fca55563",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-3d4b90d5ae",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5394/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5393/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,13 +284,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table",
-            "team_a": "Dimitris Loukatos",
-            "team_b": "Devin Poteet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785341353438_Dimitris Loukatos.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785341364726_Devin Poteet.jpg",
+            "league": "Vice City Classic - WNT Rankings Event | Table 3",
+            "team_a": "George Antonakis",
+            "team_b": "Julio Burgos",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785341277917_George Antonakis.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785341288687_Julio Burgos.jpg",
             "time": "23:00 29/07",
-            "caster": "Lee Min Hoo",
+            "caster": "VÁNG",
             "score": "1-0",
             "is_live": true,
             "hot": true
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75fca55563_9ab69697_20260729.png?v=9ab69697",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d4b90d5ae_995cdf50_20260729.png?v=995cdf50",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-3d4b90d5ae",
-          "name": "George Antonakis vs Julio Burgos | VÁNG",
+          "id": "chtv-75fca55563",
+          "name": "Dimitris Loukatos vs Devin Poteet | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-3d4b90d5ae",
+              "id": "src-75fca55563",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3d4b90d5ae",
-                  "name": "George Antonakis vs Julio Burgos",
+                  "id": "ct-75fca55563",
+                  "name": "Dimitris Loukatos vs Devin Poteet",
                   "streams": [
                     {
-                      "id": "st-3d4b90d5ae",
+                      "id": "st-75fca55563",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3d4b90d5ae",
-                          "name": "VÁNG",
+                          "id": "lnk-75fca55563",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5393/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5394/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,13 +428,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table 3",
-            "team_a": "George Antonakis",
-            "team_b": "Julio Burgos",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785341277917_George Antonakis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785341288687_Julio Burgos.jpg",
+            "league": "Vice City Classic - WNT Rankings Event | Table",
+            "team_a": "Dimitris Loukatos",
+            "team_b": "Devin Poteet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785341353438_Dimitris Loukatos.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785341364726_Devin Poteet.jpg",
             "time": "23:00 29/07",
-            "caster": "VÁNG",
+            "caster": "Lee Min Hoo",
             "score": "1-0",
             "is_live": true,
             "hot": true
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d4b90d5ae_995cdf50_20260729.png?v=995cdf50",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75fca55563_9ab69697_20260729.png?v=9ab69697",
             "width": 1600,
             "height": 1200
           }
