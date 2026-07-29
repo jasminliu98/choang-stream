@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785331277351_Lee Vann Corteza.jpg",
             "time": "21:00 29/07",
             "caster": "VÁNG",
-            "score": "15-15",
+            "score": "15-16",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785338314918_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-07 214239.png",
             "time": "22:17 29/07",
             "caster": "Tào A Man",
-            "score": "7-9",
+            "score": "7-10",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785341185355_Anthony Meglino.jpg",
             "time": "23:00 29/07",
             "caster": "BÚN CHÓ",
-            "score": "2-7",
+            "score": "2-8",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785343716630_Máº NH TE.png",
             "time": "23:47 29/07",
             "caster": "Thập Cẩm",
-            "score": "0-2",
+            "score": "0-4",
             "is_live": true,
             "hot": true
           },
@@ -522,7 +522,7 @@
         },
         {
           "id": "chtv-18a271ea1b",
-          "name": "Ken Nguyen vs Eric Cantrell | 01:00 30/07 | Lee Min Hoo",
+          "name": "Ken Nguyen vs Eric Cantrell | 01:00 30/07 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -549,7 +549,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-18a271ea1b",
-                          "name": "Lee Min Hoo",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live5398/index.m3u8",
@@ -578,7 +578,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "01:00 30/07",
-            "caster": "Lee Min Hoo",
+            "caster": "VÁNG",
             "score": "0-0",
             "is_live": false,
             "hot": true
