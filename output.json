@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785344993049_Brandon Shuff.jpg",
             "time": "00:59 30/07",
             "caster": "Thập Cẩm",
-            "score": "3-3",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-c3b3f43db3",
-          "name": "Dean Shields vs Cristopher Tevez | 03:00 30/07 | BÚN CHÓ",
+          "name": "Dean Shields vs Cristopher Tevez | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "03:00 30/07",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
