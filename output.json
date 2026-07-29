@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785331277351_Lee Vann Corteza.jpg",
             "time": "21:00 29/07",
             "caster": "VÁNG",
-            "score": "14-15",
+            "score": "15-15",
             "is_live": true,
             "hot": false
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-3d4b90d5ae",
-          "name": "George Antonakis vs Julio Burgos | VÁNG",
+          "id": "chtv-75fca55563",
+          "name": "Dimitris Loukatos vs Devin Poteet | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-3d4b90d5ae",
+              "id": "src-75fca55563",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3d4b90d5ae",
-                  "name": "George Antonakis vs Julio Burgos",
+                  "id": "ct-75fca55563",
+                  "name": "Dimitris Loukatos vs Devin Poteet",
                   "streams": [
                     {
-                      "id": "st-3d4b90d5ae",
+                      "id": "st-75fca55563",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3d4b90d5ae",
-                          "name": "VÁNG",
+                          "id": "lnk-75fca55563",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5393/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5394/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table 3",
-            "team_a": "George Antonakis",
-            "team_b": "Julio Burgos",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785341277917_George Antonakis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785341288687_Julio Burgos.jpg",
+            "league": "Vice City Classic - WNT Rankings Event | Table",
+            "team_a": "Dimitris Loukatos",
+            "team_b": "Devin Poteet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785341353438_Dimitris Loukatos.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785341364726_Devin Poteet.jpg",
             "time": "23:00 29/07",
-            "caster": "VÁNG",
-            "score": "2-4",
+            "caster": "Lee Min Hoo",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d4b90d5ae_995cdf50_20260730.png?v=995cdf50",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75fca55563_9ab69697_20260730.png?v=9ab69697",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785341185355_Anthony Meglino.jpg",
             "time": "23:00 29/07",
             "caster": "BÚN CHÓ",
-            "score": "1-7",
+            "score": "2-7",
             "is_live": true,
             "hot": true
           },
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-75fca55563",
-          "name": "Dimitris Loukatos vs Devin Poteet | Lee Min Hoo",
+          "id": "chtv-3d4b90d5ae",
+          "name": "George Antonakis vs Julio Burgos | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-75fca55563",
+              "id": "src-3d4b90d5ae",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-75fca55563",
-                  "name": "Dimitris Loukatos vs Devin Poteet",
+                  "id": "ct-3d4b90d5ae",
+                  "name": "George Antonakis vs Julio Burgos",
                   "streams": [
                     {
-                      "id": "st-75fca55563",
+                      "id": "st-3d4b90d5ae",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-75fca55563",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-3d4b90d5ae",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5394/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5393/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,14 +356,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table",
-            "team_a": "Dimitris Loukatos",
-            "team_b": "Devin Poteet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785341353438_Dimitris Loukatos.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785341364726_Devin Poteet.jpg",
+            "league": "Vice City Classic - WNT Rankings Event | Table 3",
+            "team_a": "George Antonakis",
+            "team_b": "Julio Burgos",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785341277917_George Antonakis.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785341288687_Julio Burgos.jpg",
             "time": "23:00 29/07",
-            "caster": "Lee Min Hoo",
-            "score": "2-2",
+            "caster": "VÁNG",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75fca55563_9ab69697_20260730.png?v=9ab69697",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d4b90d5ae_995cdf50_20260730.png?v=995cdf50",
             "width": 1600,
             "height": 1200
           }
@@ -444,6 +444,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f1167927d9_516eb096_20260730.png?v=516eb096",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-be2edfbb19",
+          "name": "Pierfrancesco Garzia vs Brandon Shuff | 00:59 30/07 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be2edfbb19",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-be2edfbb19",
+                  "name": "Pierfrancesco Garzia vs Brandon Shuff",
+                  "streams": [
+                    {
+                      "id": "st-be2edfbb19",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be2edfbb19",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5399/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table TV",
+            "team_a": "Pierfrancesco Garzia",
+            "team_b": "Brandon Shuff",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785344974955_Pierfrancesco Garzia.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785344993049_Brandon Shuff.jpg",
+            "time": "00:59 30/07",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be2edfbb19_6e3a99b0_20260730.png?v=6e3a99b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-18a271ea1b",
+          "name": "Ken Nguyen vs Eric Cantrell | 01:00 30/07 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18a271ea1b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-18a271ea1b",
+                  "name": "Ken Nguyen vs Eric Cantrell",
+                  "streams": [
+                    {
+                      "id": "st-18a271ea1b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18a271ea1b",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5398/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 2",
+            "team_a": "Ken Nguyen",
+            "team_b": "Eric Cantrell",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "01:00 30/07",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18a271ea1b_1769e2db_20260730.png?v=1769e2db",
             "width": 1600,
             "height": 1200
           }
