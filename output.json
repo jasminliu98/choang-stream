@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d09fe0df7f_eaf6b199_20260731.png?v=eaf6b199",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b63c94628a",
+          "name": "Sullivan Clark vs Joey Bourgeois (6win) | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b63c94628a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b63c94628a",
+                  "name": "Sullivan Clark vs Joey Bourgeois (6win)",
+                  "streams": [
+                    {
+                      "id": "st-b63c94628a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b63c94628a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5440/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 2",
+            "team_a": "Sullivan Clark",
+            "team_b": "Joey Bourgeois (6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785430882211_Sullivan Clark.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785430922328_Joey Bourgeois.jpg",
+            "time": "01:00 31/07",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b63c94628a_e2c92fd6_20260731.png?v=e2c92fd6",
             "width": 1600,
             "height": 1200
           }
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aece2ed1b7_10843490_20260731.png?v=10843490",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b63c94628a",
-          "name": "Sullivan Clark vs Joey Bourgeois (6win) | 01:00 31/07 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b63c94628a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b63c94628a",
-                  "name": "Sullivan Clark vs Joey Bourgeois (6win)",
-                  "streams": [
-                    {
-                      "id": "st-b63c94628a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b63c94628a",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5440/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table 2",
-            "team_a": "Sullivan Clark",
-            "team_b": "Joey Bourgeois (6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785430882211_Sullivan Clark.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785430922328_Joey Bourgeois.jpg",
-            "time": "01:00 31/07",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b63c94628a_e2c92fd6_20260731.png?v=e2c92fd6",
             "width": 1600,
             "height": 1200
           }
