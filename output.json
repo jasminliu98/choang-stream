@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-d09fe0df7f",
+          "name": "Landon Hollingsworth vs Hunter Lombardo | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d09fe0df7f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d09fe0df7f",
+                  "name": "Landon Hollingsworth vs Hunter Lombardo",
+                  "streams": [
+                    {
+                      "id": "st-d09fe0df7f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d09fe0df7f",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5439/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 3",
+            "team_a": "Landon Hollingsworth",
+            "team_b": "Hunter Lombardo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785430725340_Landon Hollingsworth.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785430736903_Hunter Lombardo.jpg",
+            "time": "01:00 31/07",
+            "caster": "BÚN CHÓ",
+            "score": "1-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d09fe0df7f_eaf6b199_20260731.png?v=eaf6b199",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-aece2ed1b7",
           "name": "Jd Prestegard vs Carlo Biado | Lee Min Hoo",
           "type": "single",
@@ -89,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-d09fe0df7f",
-          "name": "Landon Hollingsworth vs Hunter Lombardo | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d09fe0df7f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d09fe0df7f",
-                  "name": "Landon Hollingsworth vs Hunter Lombardo",
-                  "streams": [
-                    {
-                      "id": "st-d09fe0df7f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d09fe0df7f",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5439/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table 3",
-            "team_a": "Landon Hollingsworth",
-            "team_b": "Hunter Lombardo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785430725340_Landon Hollingsworth.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785430736903_Hunter Lombardo.jpg",
-            "time": "01:00 31/07",
-            "caster": "BÚN CHÓ",
-            "score": "1-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d09fe0df7f_eaf6b199_20260731.png?v=eaf6b199",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e948a38876",
           "name": "Eric Cantrell vs Kristian Dimitrov | Tào A Man",
           "type": "single",
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785431084271_Kristian Dimitrov.jpg",
             "time": "01:00 31/07",
             "caster": "Tào A Man",
-            "score": "7-2",
+            "score": "8-2",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785430922328_Joey Bourgeois.jpg",
             "time": "01:00 31/07",
             "caster": "Kèn Kèn",
-            "score": "1-5",
+            "score": "1-7",
             "is_live": true,
             "hot": false
           },
