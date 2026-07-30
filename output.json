@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-30de77e175",
-          "name": "Robbie Capito(9WIN) vs Antonis Kakaris(7WIN) | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-30de77e175",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-30de77e175",
-                  "name": "Robbie Capito(9WIN) vs Antonis Kakaris(7WIN)",
-                  "streams": [
-                    {
-                      "id": "st-30de77e175",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30de77e175",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5409/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Table TV",
-            "team_a": "Robbie Capito(9WIN)",
-            "team_b": "Antonis Kakaris(7WIN)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785369091118_9.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785369094756_16.jpg",
-            "time": "06:45 30/07",
-            "caster": "Lee Min Hoo",
-            "score": "9-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-30de77e175_d12d94bb_20260730.png?v=d12d94bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-fd5b0a2532",
           "name": "RAULITO DIAZ vs EL GAGO | Lee Min Hoo",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
             "time": "08:44 30/07",
             "caster": "Lee Min Hoo",
-            "score": "6-7",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
