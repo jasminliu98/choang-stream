@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785403290288_Marco Teutscher.jpg",
             "time": "22:59 30/07",
             "caster": "BÚN CHÓ",
-            "score": "5-3",
+            "score": "6-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785417685023_Justin Bergman.jpg",
             "time": "23:00 30/07",
             "caster": "Tào A Man",
-            "score": "4-4",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785418836072_Konrad Juszczyszyn.jpg",
             "time": "23:00 30/07",
             "caster": "Đại Kê",
-            "score": "8-5",
+            "score": "8-6",
             "is_live": true,
             "hot": true
           },
@@ -444,6 +444,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d09fe0df7f_eaf6b199_20260731.png?v=eaf6b199",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b63c94628a",
+          "name": "Sullivan Clark vs Joey Bourgeois (6win) | 01:00 31/07 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b63c94628a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b63c94628a",
+                  "name": "Sullivan Clark vs Joey Bourgeois (6win)",
+                  "streams": [
+                    {
+                      "id": "st-b63c94628a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b63c94628a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5440/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 2",
+            "team_a": "Sullivan Clark",
+            "team_b": "Joey Bourgeois (6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785430882211_Sullivan Clark.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785430922328_Joey Bourgeois.jpg",
+            "time": "01:00 31/07",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b63c94628a_e2c92fd6_20260731.png?v=e2c92fd6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e948a38876",
+          "name": "Eric Cantrell vs Kristian Dimitrov | 01:00 31/07 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e948a38876",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e948a38876",
+                  "name": "Eric Cantrell vs Kristian Dimitrov",
+                  "streams": [
+                    {
+                      "id": "st-e948a38876",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e948a38876",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5441/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 4",
+            "team_a": "Eric Cantrell",
+            "team_b": "Kristian Dimitrov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785431069264_Eric Cantrell.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785431084271_Kristian Dimitrov.jpg",
+            "time": "01:00 31/07",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e948a38876_799e4e9c_20260731.png?v=799e4e9c",
             "width": 1600,
             "height": 1200
           }
