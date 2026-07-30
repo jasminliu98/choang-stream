@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785430736903_Hunter Lombardo.jpg",
             "time": "01:00 31/07",
             "caster": "BÚN CHÓ",
-            "score": "6-4",
+            "score": "6-5",
             "is_live": true,
             "hot": true
           },
@@ -233,38 +233,38 @@
           }
         },
         {
-          "id": "chtv-e7937184ab",
-          "name": "Ethan Ford vs Jeffrey De Luna | Kèn Kèn",
+          "id": "chtv-130db7d0f7",
+          "name": "Ethan Ford vs Jeffrey De Luna | 03:00 31/07 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e7937184ab",
+              "id": "src-130db7d0f7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e7937184ab",
+                  "id": "ct-130db7d0f7",
                   "name": "Ethan Ford vs Jeffrey De Luna",
                   "streams": [
                     {
-                      "id": "st-e7937184ab",
+                      "id": "st-130db7d0f7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e7937184ab",
+                          "id": "lnk-130db7d0f7",
                           "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5452/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5453/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,19 +287,19 @@
             "league": "Vice City Classic - WNT Rankings Event | Table 3",
             "team_a": "Ethan Ford",
             "team_b": "Jeffrey De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785440456024_Screenshot 2026-07-31 023839.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785440455636_Screenshot 2026-07-31 024050.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785440891907_Screenshot 2026-07-31 023839.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785440891618_Screenshot 2026-07-31 024050.png",
             "time": "03:00 31/07",
             "caster": "Kèn Kèn",
             "score": "0-0",
-            "is_live": true,
+            "is_live": false,
             "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e7937184ab_70019a21_20260731.png?v=70019a21",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-130db7d0f7_e2b6a78a_20260731.png?v=e2b6a78a",
             "width": 1600,
             "height": 1200
           }
