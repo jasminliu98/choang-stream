@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785420630169_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-27 185805.png",
             "time": "21:07 30/07",
             "caster": "Đại Kê",
-            "score": "9-12",
+            "score": "10-12",
             "is_live": true,
             "hot": true
           },
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-e117626dfb",
-          "name": "Jeffrey De Luna (8win) vs Eklent Kaci | 23:00 30/07 | Kèn Kèn",
+          "name": "Jeffrey De Luna (8win) vs Eklent Kaci | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "23:00 30/07",
             "caster": "Kèn Kèn",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -306,7 +306,7 @@
         },
         {
           "id": "chtv-86684de33d",
-          "name": "David Alcaide vs Justin Bergman | 23:00 30/07 | Kèn Kèn",
+          "name": "David Alcaide vs Justin Bergman | 23:00 30/07 | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -333,7 +333,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-86684de33d",
-                          "name": "Kèn Kèn",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live5431/index.m3u8",
@@ -362,7 +362,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1785417671628_David Alcaide.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1785417685023_Justin Bergman.jpg",
             "time": "23:00 30/07",
-            "caster": "Kèn Kèn",
+            "caster": "Tào A Man",
             "score": "0-0",
             "is_live": false,
             "hot": true
