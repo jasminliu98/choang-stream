@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-0aa3b6f4b3",
-          "name": "Justin Martin vs Tony Robles | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0aa3b6f4b3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0aa3b6f4b3",
-                  "name": "Justin Martin vs Tony Robles",
-                  "streams": [
-                    {
-                      "id": "st-0aa3b6f4b3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0aa3b6f4b3",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5482/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event | Aramith Arene",
-            "team_a": "Justin Martin",
-            "team_b": "Tony Robles",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785504123479_Justin Martin.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785504348699_Tony Robles.jpg",
-            "time": "21:00 31/07",
-            "caster": "Kèn Kèn",
-            "score": "5-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0aa3b6f4b3_675a6c51_20260731.png?v=675a6c51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-94b036403f",
           "name": "Dean Shields vs Brandon Shuff(6win) | SÊ KÔÔ",
           "type": "single",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785504511145_Brandon Shuff.jpg",
             "time": "21:00 31/07",
             "caster": "SÊ KÔÔ",
-            "score": "4-5",
+            "score": "4-6",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-94b036403f_86e49dae_20260731.png?v=86e49dae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0aa3b6f4b3",
+          "name": "Justin Martin vs Tony Robles | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0aa3b6f4b3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0aa3b6f4b3",
+                  "name": "Justin Martin vs Tony Robles",
+                  "streams": [
+                    {
+                      "id": "st-0aa3b6f4b3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0aa3b6f4b3",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5482/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Aramith Arene",
+            "team_a": "Justin Martin",
+            "team_b": "Tony Robles",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785504123479_Justin Martin.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785504348699_Tony Robles.jpg",
+            "time": "21:00 31/07",
+            "caster": "Kèn Kèn",
+            "score": "6-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0aa3b6f4b3_675a6c51_20260731.png?v=675a6c51",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-816b7e153a_4af23dd2_20260731.png?v=4af23dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cb9cb7f58c",
+          "name": "Johnny Archer(7win) vs Shane Wolford | 23:00 31/07 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb9cb7f58c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cb9cb7f58c",
+                  "name": "Johnny Archer(7win) vs Shane Wolford",
+                  "streams": [
+                    {
+                      "id": "st-cb9cb7f58c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb9cb7f58c",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5487/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event | Table 2",
+            "team_a": "Johnny Archer(7win)",
+            "team_b": "Shane Wolford",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785509765638_Johnny Archer.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785509778470_Shane Wolford.jpg",
+            "time": "23:00 31/07",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb9cb7f58c_5ffbab3f_20260731.png?v=5ffbab3f",
             "width": 1600,
             "height": 1200
           }
