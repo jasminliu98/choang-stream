@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-42a9444cdc",
-          "name": "George Antonakis(7win) vs Denis Grabe | BÚN CHÓ",
+          "id": "chtv-4640ecdda5",
+          "name": "Marco Teutscher vs Sanjin Pehlivanovic | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-42a9444cdc",
+              "id": "src-4640ecdda5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-42a9444cdc",
-                  "name": "George Antonakis(7win) vs Denis Grabe",
+                  "id": "ct-4640ecdda5",
+                  "name": "Marco Teutscher vs Sanjin Pehlivanovic",
                   "streams": [
                     {
-                      "id": "st-42a9444cdc",
+                      "id": "st-4640ecdda5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-42a9444cdc",
+                          "id": "lnk-4640ecdda5",
                           "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5505/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5508/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "Vice City Classic - WNT Rankings Event",
-            "team_a": "George Antonakis(7win)",
-            "team_b": "Denis Grabe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785522508850_Screenshot 2026-08-01 012808.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785522508451_Screenshot 2026-08-01 012812.png",
+            "team_a": "Marco Teutscher",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785523056544_Screenshot 2026-08-01 013724.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785523056121_Screenshot 2026-08-01 013729.png",
             "time": "03:00 01/08",
             "caster": "BÚN CHÓ",
-            "score": "4-3",
+            "score": "3-2",
             "is_live": true,
             "hot": false
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42a9444cdc_830324c8_20260801.png?v=830324c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4640ecdda5_dbd108af_20260801.png?v=dbd108af",
             "width": 1600,
             "height": 1200
           }
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-4640ecdda5",
-          "name": "Marco Teutscher vs Sanjin Pehlivanovic | BÚN CHÓ",
+          "id": "chtv-42a9444cdc",
+          "name": "George Antonakis(7win) vs Denis Grabe | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-4640ecdda5",
+              "id": "src-42a9444cdc",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4640ecdda5",
-                  "name": "Marco Teutscher vs Sanjin Pehlivanovic",
+                  "id": "ct-42a9444cdc",
+                  "name": "George Antonakis(7win) vs Denis Grabe",
                   "streams": [
                     {
-                      "id": "st-4640ecdda5",
+                      "id": "st-42a9444cdc",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4640ecdda5",
+                          "id": "lnk-42a9444cdc",
                           "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5508/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5505/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,13 +213,13 @@
           ],
           "org_metadata": {
             "league": "Vice City Classic - WNT Rankings Event",
-            "team_a": "Marco Teutscher",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785523056544_Screenshot 2026-08-01 013724.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785523056121_Screenshot 2026-08-01 013729.png",
+            "team_a": "George Antonakis(7win)",
+            "team_b": "Denis Grabe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785522508850_Screenshot 2026-08-01 012808.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785522508451_Screenshot 2026-08-01 012812.png",
             "time": "03:00 01/08",
             "caster": "BÚN CHÓ",
-            "score": "3-2",
+            "score": "4-4",
             "is_live": true,
             "hot": false
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4640ecdda5_dbd108af_20260801.png?v=dbd108af",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42a9444cdc_830324c8_20260801.png?v=830324c8",
             "width": 1600,
             "height": 1200
           }
