@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785522688568_Screenshot 2026-08-01 013116.png",
             "time": "03:00 01/08",
             "caster": "Kèn Kèn",
-            "score": "4-5",
+            "score": "5-7",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785522508451_Screenshot 2026-08-01 012812.png",
             "time": "03:00 01/08",
             "caster": "BÚN CHÓ",
-            "score": "6-4",
+            "score": "4-6",
             "is_live": true,
             "hot": false
           },
@@ -228,6 +228,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42a9444cdc_830324c8_20260801.png?v=830324c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8d779d406a",
+          "name": "Julio Burgos(6win) vs Hoàng Sao | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d779d406a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8d779d406a",
+                  "name": "Julio Burgos(6win) vs Hoàng Sao",
+                  "streams": [
+                    {
+                      "id": "st-8d779d406a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d779d406a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5509/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event",
+            "team_a": "Julio Burgos(6win)",
+            "team_b": "Hoàng Sao",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785531084167_Screenshot 2026-08-01 013113.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785531083783_vn.png",
+            "time": "05:00 01/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d779d406a_f2df00c1_20260801.png?v=f2df00c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3b8832578e",
+          "name": "Dennis Hatch(8win) vs Georgi Georgiev | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b8832578e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3b8832578e",
+                  "name": "Dennis Hatch(8win) vs Georgi Georgiev",
+                  "streams": [
+                    {
+                      "id": "st-3b8832578e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b8832578e",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5511/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic - WNT Rankings Event",
+            "team_a": "Dennis Hatch(8win)",
+            "team_b": "Georgi Georgiev",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785531898274_Screenshot 2026-08-01 013113.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785531898014_Screenshot 2026-08-01 040451.png",
+            "time": "05:00 01/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3b8832578e_351c85e9_20260801.png?v=351c85e9",
             "width": 1600,
             "height": 1200
           }
@@ -300,150 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1326b780ac_be9ec9bc_20260801.png?v=be9ec9bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8d779d406a",
-          "name": "Julio Burgos(6win) vs Hoàng Sao | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d779d406a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8d779d406a",
-                  "name": "Julio Burgos(6win) vs Hoàng Sao",
-                  "streams": [
-                    {
-                      "id": "st-8d779d406a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d779d406a",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5509/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event",
-            "team_a": "Julio Burgos(6win)",
-            "team_b": "Hoàng Sao",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785531084167_Screenshot 2026-08-01 013113.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785531083783_vn.png",
-            "time": "05:00 01/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d779d406a_f2df00c1_20260801.png?v=f2df00c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3b8832578e",
-          "name": "Dennis Hatch(8win) vs Georgi Georgiev | 05:00 01/08 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b8832578e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3b8832578e",
-                  "name": "Dennis Hatch(8win) vs Georgi Georgiev",
-                  "streams": [
-                    {
-                      "id": "st-3b8832578e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b8832578e",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5511/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vice City Classic - WNT Rankings Event",
-            "team_a": "Dennis Hatch(8win)",
-            "team_b": "Georgi Georgiev",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785531898274_Screenshot 2026-08-01 013113.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785531898014_Screenshot 2026-08-01 040451.png",
-            "time": "05:00 01/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3b8832578e_351c85e9_20260801.png?v=351c85e9",
             "width": 1600,
             "height": 1200
           }
