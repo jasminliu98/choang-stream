@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6a23dcf42e_ffce2ed7_20260731.png?v=ffce2ed7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cceb56c754",
+          "name": "Cenet vs Thanh Tao Nguyen | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cceb56c754",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cceb56c754",
+                  "name": "Cenet vs Thanh Tao Nguyen",
+                  "streams": [
+                    {
+                      "id": "st-cceb56c754",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cceb56c754",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5479/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "친환경 건축자재 에스와이 PBA 챔피언십]",
+            "team_a": "Cenet",
+            "team_b": "Thanh Tao Nguyen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
+            "time": "18:30 31/07",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cceb56c754_4a880479_20260731.png?v=4a880479",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a3f96d4de4",
+          "name": "김기혁Kim Gi-hyeok vs 신정주Shin Jeong-ju | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3f96d4de4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a3f96d4de4",
+                  "name": "김기혁Kim Gi-hyeok vs 신정주Shin Jeong-ju",
+                  "streams": [
+                    {
+                      "id": "st-a3f96d4de4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a3f96d4de4",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5480/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "친환경 건축자재 에스와이 PBA 챔피언십]",
+            "team_a": "김기혁Kim Gi-hyeok",
+            "team_b": "신정주Shin Jeong-ju",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785493926295_HÃ n Quá»c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785493930381_HÃ n Quá»c.png",
+            "time": "18:30 31/07",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a3f96d4de4_b37affd9_20260731.png?v=b37affd9",
             "width": 1600,
             "height": 1200
           }
@@ -228,150 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-266b4c6cec_5ad7b69a_20260731.png?v=5ad7b69a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cceb56c754",
-          "name": "Cenet vs Thanh Tao Nguyen | 18:30 31/07 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cceb56c754",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cceb56c754",
-                  "name": "Cenet vs Thanh Tao Nguyen",
-                  "streams": [
-                    {
-                      "id": "st-cceb56c754",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cceb56c754",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5479/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "친환경 건축자재 에스와이 PBA 챔피언십]",
-            "team_a": "Cenet",
-            "team_b": "Thanh Tao Nguyen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
-            "time": "18:30 31/07",
-            "caster": "Bỉm Sữa",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cceb56c754_4a880479_20260731.png?v=4a880479",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a3f96d4de4",
-          "name": "김기혁Kim Gi-hyeok vs 신정주Shin Jeong-ju | 18:30 31/07 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a3f96d4de4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a3f96d4de4",
-                  "name": "김기혁Kim Gi-hyeok vs 신정주Shin Jeong-ju",
-                  "streams": [
-                    {
-                      "id": "st-a3f96d4de4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a3f96d4de4",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5480/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "친환경 건축자재 에스와이 PBA 챔피언십]",
-            "team_a": "김기혁Kim Gi-hyeok",
-            "team_b": "신정주Shin Jeong-ju",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785493926295_HÃ n Quá»c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785493930381_HÃ n Quá»c.png",
-            "time": "18:30 31/07",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a3f96d4de4_b37affd9_20260731.png?v=b37affd9",
             "width": 1600,
             "height": 1200
           }
