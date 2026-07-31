@@ -162,7 +162,7 @@
         },
         {
           "id": "chtv-6f36a78cd0",
-          "name": "Hwang Ji-won vs Kim Hyun-woo | 13:30 31/07 | Thập Cẩm",
+          "name": "Hwang Ji-won vs Kim Hyun-woo | 13:30 31/07 | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -189,7 +189,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-6f36a78cd0",
-                          "name": "Thập Cẩm",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live5465/index.m3u8",
@@ -218,7 +218,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1785475895720_HÃ n Quá»c.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1785475901455_HÃ n Quá»c.png",
             "time": "13:30 31/07",
-            "caster": "Thập Cẩm",
+            "caster": "SÊ KÔÔ",
             "score": "0-0",
             "is_live": false,
             "hot": false
