@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b2d3a7d888",
-          "name": "Thiện Lương vs Tuyên con(7win) | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2d3a7d888",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b2d3a7d888",
-                  "name": "Thiện Lương vs Tuyên con(7win)",
-                  "streams": [
-                    {
-                      "id": "st-b2d3a7d888",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2d3a7d888",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5516/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv18.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V4 99 TITANIUM",
-            "team_a": "Thiện Lương",
-            "team_b": "Tuyên con(7win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785561784006_thiá»n lÆ°Æ¡ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785561787306_TUYÃN CON.jpg",
-            "time": "14:00 01/08",
-            "caster": "SÊ KÔÔ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b2d3a7d888_9246f132_20260801.png?v=9246f132",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-fb7bf5f441",
           "name": "TKon vs Mạnh Te | Lee Min Hoo",
@@ -161,17 +89,161 @@
           }
         },
         {
-          "id": "chtv-53e2b468e4",
-          "name": "Phong nam vs Thành Cụt | 14:05 01/08 | SÊ KÔÔ",
+          "id": "chtv-b2d3a7d888",
+          "name": "Thiện Lương vs Tuyên con(7win) | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2d3a7d888",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b2d3a7d888",
+                  "name": "Thiện Lương vs Tuyên con(7win)",
+                  "streams": [
+                    {
+                      "id": "st-b2d3a7d888",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2d3a7d888",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5516/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V4 99 TITANIUM",
+            "team_a": "Thiện Lương",
+            "team_b": "Tuyên con(7win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785561784006_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785561787306_TUYÃN CON.jpg",
+            "time": "14:00 01/08",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b2d3a7d888_9246f132_20260801.png?v=9246f132",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bebaf060cc",
+          "name": "KIÊN SẾU vs Thắng trận 18 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bebaf060cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bebaf060cc",
+                  "name": "KIÊN SẾU vs Thắng trận 18",
+                  "streams": [
+                    {
+                      "id": "st-bebaf060cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bebaf060cc",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5524/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V4 99 TITANIUM",
+            "team_a": "KIÊN SẾU",
+            "team_b": "Thắng trận 18",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot 2025-12-21 010653.png",
+            "logo_b": "",
+            "time": "14:00 01/08",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bebaf060cc_24821791_20260801.png?v=24821791",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-53e2b468e4",
+          "name": "Phong nam vs Thành Cụt | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -189,7 +261,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-53e2b468e4",
-                          "name": "SÊ KÔÔ",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live5519/index.m3u8",
@@ -218,9 +290,9 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1785562191420_Phong Nam.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1785562194934_THÃNH Cá»¤T.jpg",
             "time": "14:05 01/08",
-            "caster": "SÊ KÔÔ",
+            "caster": "Bỉm Sữa",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -228,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53e2b468e4_e1acbbdd_20260801.png?v=e1acbbdd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-51d63c06ce",
+          "name": "TRUNG NẤM vs DŨNG QUỐC OAI | 14:00 01/08 | NGHẸO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51d63c06ce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-51d63c06ce",
+                  "name": "TRUNG NẤM vs DŨNG QUỐC OAI",
+                  "streams": [
+                    {
+                      "id": "st-51d63c06ce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51d63c06ce",
+                          "name": "NGHẸO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5525/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv18.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V4 99 TITANIUM",
+            "team_a": "TRUNG NẤM",
+            "team_b": "DŨNG QUỐC OAI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785567431077_TRUNG Náº¤M.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785567434762_DÅ¨NG QUá»C OAI.jpg",
+            "time": "14:00 01/08",
+            "caster": "NGHẸO",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-51d63c06ce_bae500e1_20260801.png?v=bae500e1",
             "width": 1600,
             "height": 1200
           }
