@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-260ddcb486",
-          "name": "Mickey Krause vs Kledio Kaci(11win) | 05:00 03/08 | BÚN CHÓ",
+          "name": "Mickey Krause vs Kledio Kaci(11win) | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "05:00 03/08",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
