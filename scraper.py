@@ -318,7 +318,7 @@ def build_channel(match, thumb_url=""):
         "default": True,
         "url":     match["stream_url"],
         "request_headers": [
-            {"key": "Referer",    "value": "https://choangtv18.com/"},
+            {"key": "Referer",    "value": "https://choangtv19.com/"},
             {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
         ],
     }]
