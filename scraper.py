@@ -70,12 +70,12 @@ def fetch_image(url):
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://choangtv18.com/",
+    "Referer": "https://choangtv19.com/",
 }
 
-API_URL      = "https://api.choangtv18.com/matchSchedule/getList"
+API_URL      = "https://api.choangtv19.com/matchSchedule/getList"
 CDN_BASE     = "https://cdn.sports-cas889abxfileposo.site/live"
-SITE_URL     = "https://choangtv18.com"
+SITE_URL     = "https://choangtv19.com"
 THUMBS_DIR   = "thumbs"
 REPO_RAW     = os.environ.get("REPO_RAW", "")
 THUMB_VER    = "v1"
