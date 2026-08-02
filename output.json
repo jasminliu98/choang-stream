@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9235ec8918",
-          "name": "JONAS MAGPANTAY vs ALEXIS FERRER | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9235ec8918",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9235ec8918",
-                  "name": "JONAS MAGPANTAY vs ALEXIS FERRER",
-                  "streams": [
-                    {
-                      "id": "st-9235ec8918",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9235ec8918",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5631/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phủi Phil",
-            "team_a": "JONAS MAGPANTAY",
-            "team_b": "ALEXIS FERRER",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "time": "00:52 03/08",
-            "caster": "BÚN CHÓ",
-            "score": "14-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9235ec8918_126d33d5_20260803.png?v=126d33d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-260ddcb486",
           "name": "Mickey Krause vs Kledio Kaci(11win) | BÚN CHÓ",
