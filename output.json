@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785864647834_Vishwanath Reddy Saikam.jpg",
             "time": "00:28 05/08",
             "caster": "BÚN CHÓ",
-            "score": "1-0",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785859048551_Landon Hollingsworth.jpg",
             "time": "23:20 04/08",
             "caster": "SÊ KÔÔ",
-            "score": "3-3",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -377,38 +377,38 @@
           }
         },
         {
-          "id": "chtv-050173d11b",
-          "name": "AJ Manas vs Pascal Dufresne(5win) | GIÀNG A PHỌ",
+          "id": "chtv-bf8f0fbc2c",
+          "name": "Francisco Sánchez Ruiz vs Brian Grable(4win) | 01:30 05/08 | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-050173d11b",
+              "id": "src-bf8f0fbc2c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-050173d11b",
-                  "name": "AJ Manas vs Pascal Dufresne(5win)",
+                  "id": "ct-bf8f0fbc2c",
+                  "name": "Francisco Sánchez Ruiz vs Brian Grable(4win)",
                   "streams": [
                     {
-                      "id": "st-050173d11b",
+                      "id": "st-bf8f0fbc2c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-050173d11b",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-bf8f0fbc2c",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5689/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5695/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,22 +428,22 @@
             }
           ],
           "org_metadata": {
-            "league": "FLORIDA OPEN 2026",
-            "team_a": "AJ Manas",
-            "team_b": "Pascal Dufresne(5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785859321995_AJ MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785859349734_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-04 230039.png",
-            "time": "23:30 04/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "7-2",
-            "is_live": true,
-            "hot": false
+            "league": "FLORIDA OPEN 2026 TV2",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Brian Grable(4win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785866130523_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "01:30 05/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-050173d11b_bdb1892a_20260805.png?v=bdb1892a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bf8f0fbc2c_a0239ba2_20260805.png?v=a0239ba2",
             "width": 1600,
             "height": 1200
           }
