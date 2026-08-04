@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1c38b9e89_126d33d5_20260804.png?v=126d33d5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1c38b9e89_126d33d5_20260805.png?v=126d33d5",
             "width": 1600,
             "height": 1200
           }
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3f40f8757e_a5846e28_20260804.png?v=a5846e28",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3f40f8757e_a5846e28_20260805.png?v=a5846e28",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +227,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e132e1b589_1943e167_20260804.png?v=1943e167",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e132e1b589_1943e167_20260805.png?v=1943e167",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d761ce7ce1",
+          "name": "Albert Januarta vs James Rotenberry(6win) | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d761ce7ce1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d761ce7ce1",
+                  "name": "Albert Januarta vs James Rotenberry(6win)",
+                  "streams": [
+                    {
+                      "id": "st-d761ce7ce1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d761ce7ce1",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5688/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026",
+            "team_a": "Albert Januarta",
+            "team_b": "James Rotenberry(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785859216690_ALBERT JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
+            "time": "23:30 04/08",
+            "caster": "Kèn Kèn",
+            "score": "6-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d761ce7ce1_a515854c_20260805.png?v=a515854c",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-050173d11b_bdb1892a_20260804.png?v=bdb1892a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-050173d11b_bdb1892a_20260805.png?v=bdb1892a",
             "width": 1600,
             "height": 1200
           }
@@ -371,151 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a1575f54de_2a4550ba_20260804.png?v=2a4550ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d761ce7ce1",
-          "name": "Albert Januarta vs James Rotenberry(6win) | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d761ce7ce1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d761ce7ce1",
-                  "name": "Albert Januarta vs James Rotenberry(6win)",
-                  "streams": [
-                    {
-                      "id": "st-d761ce7ce1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d761ce7ce1",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5688/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026",
-            "team_a": "Albert Januarta",
-            "team_b": "James Rotenberry(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785859216690_ALBERT JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
-            "time": "23:30 04/08",
-            "caster": "Kèn Kèn",
-            "score": "3-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d761ce7ce1_a515854c_20260804.png?v=a515854c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9f5133142a",
-          "name": "CLEO 7-10 vs CJ PASAY | 22:26 04/08 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f5133142a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9f5133142a",
-                  "name": "CLEO 7-10 vs CJ PASAY",
-                  "streams": [
-                    {
-                      "id": "st-9f5133142a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f5133142a",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5684/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KÈO MONEY",
-            "team_a": "CLEO 7-10",
-            "team_b": "CJ PASAY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "time": "22:26 04/08",
-            "caster": "Thập Cẩm",
-            "score": "10-7",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f5133142a_072d6f4e_20260804.png?v=072d6f4e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a1575f54de_2a4550ba_20260805.png?v=2a4550ba",
             "width": 1600,
             "height": 1200
           }
