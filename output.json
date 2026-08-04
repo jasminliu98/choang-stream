@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-210c35ad77",
-          "name": "TÚ TÂY vs TRUNG NẤM | 17:33 04/08 | SÊ KÔÔ",
+          "name": "TÚ TÂY vs TRUNG NẤM | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -144,18 +144,18 @@
             "team_a": "TÚ TÂY",
             "team_b": "TRUNG NẤM",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785839777465_TRUNG Náº¤M.png",
             "time": "17:33 04/08",
             "caster": "SÊ KÔÔ",
             "score": "0-1",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-210c35ad77_b2baa50b_20260804.png?v=b2baa50b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-210c35ad77_9ec444e2_20260804.png?v=9ec444e2",
             "width": 1600,
             "height": 1200
           }
