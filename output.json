@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:22 05/08",
             "caster": "Kèn Kèn",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d26b4ebfb_022e0e9c_20260805.png?v=022e0e9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-da8e58b178",
+          "name": "Fraser Patrick vs Jeremy Jones | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da8e58b178",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-da8e58b178",
+                  "name": "Fraser Patrick vs Jeremy Jones",
+                  "streams": [
+                    {
+                      "id": "st-da8e58b178",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da8e58b178",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5694/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV4",
+            "team_a": "Fraser Patrick",
+            "team_b": "Jeremy Jones",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "00:32 05/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da8e58b178_ff69942e_20260805.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785859349734_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-04 230039.png",
             "time": "23:30 04/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-1",
+            "score": "7-2",
             "is_live": true,
             "hot": false
           },
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-050173d11b_bdb1892a_20260805.png?v=bdb1892a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-da8e58b178",
-          "name": "Fraser Patrick vs Jeremy Jones | 00:32 05/08 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da8e58b178",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-da8e58b178",
-                  "name": "Fraser Patrick vs Jeremy Jones",
-                  "streams": [
-                    {
-                      "id": "st-da8e58b178",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da8e58b178",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5694/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV4",
-            "team_a": "Fraser Patrick",
-            "team_b": "Jeremy Jones",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:32 05/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da8e58b178_ff69942e_20260805.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
