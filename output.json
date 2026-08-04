@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-e2d9569c92",
+          "name": "Shane Van Boening vs Payne McBride(4win) | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2d9569c92",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e2d9569c92",
+                  "name": "Shane Van Boening vs Payne McBride(4win)",
+                  "streams": [
+                    {
+                      "id": "st-e2d9569c92",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2d9569c92",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5692/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV1",
+            "team_a": "Shane Van Boening",
+            "team_b": "Payne McBride(4win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785864400666_Shane Van Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "00:00 05/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e2d9569c92_bff302fe_20260805.png?v=bff302fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-da8e58b178",
           "name": "Fraser Patrick vs Jeremy Jones | GIÀNG A PHỌ",
           "type": "single",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:32 05/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "4-0",
+            "score": "5-0",
             "is_live": true,
             "hot": true
           },
@@ -233,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-e2d9569c92",
-          "name": "Shane Van Boening vs Payne McBride(4win) | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2d9569c92",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e2d9569c92",
-                  "name": "Shane Van Boening vs Payne McBride(4win)",
-                  "streams": [
-                    {
-                      "id": "st-e2d9569c92",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2d9569c92",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5692/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV1",
-            "team_a": "Shane Van Boening",
-            "team_b": "Payne McBride(4win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785864400666_Shane Van Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "23:00 05/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e2d9569c92_bff302fe_20260805.png?v=bff302fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a1575f54de",
           "name": "Carlo Biado vs Landon Hollingsworth(4win) | SÊ KÔÔ",
           "type": "single",
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785859048551_Landon Hollingsworth.jpg",
             "time": "23:20 04/08",
             "caster": "SÊ KÔÔ",
-            "score": "5-7",
+            "score": "6-7",
             "is_live": true,
             "hot": true
           },
