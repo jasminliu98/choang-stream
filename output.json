@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "00:00 04/08",
             "caster": "SÊ KÔÔ",
-            "score": "0-2",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785828302884_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
             "time": "00:00 04/08",
             "caster": "Xinh Yeu",
-            "score": "5-9",
+            "score": "5-10",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-526c2ec973",
-          "name": "Siming Chen vs Shasha Liu | GIÀNG A PHỌ",
+          "id": "chtv-a022a5003c",
+          "name": "Chezka Centeno vs Savannah Easton | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-526c2ec973",
+              "id": "src-a022a5003c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-526c2ec973",
-                  "name": "Siming Chen vs Shasha Liu",
+                  "id": "ct-a022a5003c",
+                  "name": "Chezka Centeno vs Savannah Easton",
                   "streams": [
                     {
-                      "id": "st-526c2ec973",
+                      "id": "st-a022a5003c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-526c2ec973",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-a022a5003c",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5668/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5667/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,13 +213,13 @@
           ],
           "org_metadata": {
             "league": "Predator Pro Billiard Series Rome, Italy 2026",
-            "team_a": "Siming Chen",
-            "team_b": "Shasha Liu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785822402915_Siming Chen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785822418448_Shasha Liu.jpg",
+            "team_a": "Chezka Centeno",
+            "team_b": "Savannah Easton",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785822316863_Chezka Centeno.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785822320800_Savannah Easton.jpg",
             "time": "15:00 04/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "caster": "Bỉm Sữa",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-526c2ec973_79000124_20260804.png?v=79000124",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a022a5003c_8b87b24c_20260804.png?v=8b87b24c",
             "width": 1600,
             "height": 1200
           }
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-a022a5003c",
-          "name": "Chezka Centeno vs Savannah Easton | Bỉm Sữa",
+          "id": "chtv-526c2ec973",
+          "name": "Siming Chen vs Shasha Liu | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-a022a5003c",
+              "id": "src-526c2ec973",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a022a5003c",
-                  "name": "Chezka Centeno vs Savannah Easton",
+                  "id": "ct-526c2ec973",
+                  "name": "Siming Chen vs Shasha Liu",
                   "streams": [
                     {
-                      "id": "st-a022a5003c",
+                      "id": "st-526c2ec973",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a022a5003c",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-526c2ec973",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5667/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5668/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,12 +357,12 @@
           ],
           "org_metadata": {
             "league": "Predator Pro Billiard Series Rome, Italy 2026",
-            "team_a": "Chezka Centeno",
-            "team_b": "Savannah Easton",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785822316863_Chezka Centeno.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785822320800_Savannah Easton.jpg",
+            "team_a": "Siming Chen",
+            "team_b": "Shasha Liu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785822402915_Siming Chen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785822418448_Shasha Liu.jpg",
             "time": "15:00 04/08",
-            "caster": "Bỉm Sữa",
+            "caster": "GIÀNG A PHỌ",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a022a5003c_8b87b24c_20260804.png?v=8b87b24c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-526c2ec973_79000124_20260804.png?v=79000124",
             "width": 1600,
             "height": 1200
           }
