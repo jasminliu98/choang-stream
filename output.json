@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785867971699_Jayson Shaw.jpg",
             "time": "03:00 05/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-7",
+            "score": "0-8",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-493f87a93b_4dd66e1b_20260805.png?v=4dd66e1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4b5643485c",
-          "name": "Edward Duarte(6win) vs Tyler Styer | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b5643485c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4b5643485c",
-                  "name": "Edward Duarte(6win) vs Tyler Styer",
-                  "streams": [
-                    {
-                      "id": "st-4b5643485c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b5643485c",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5705/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV3",
-            "team_a": "Edward Duarte(6win)",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785880019468_Screenshot 2026-08-05 023405.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785880019187_Screenshot 2026-08-05 023405.png",
-            "time": "05:00 05/08",
-            "caster": "Kèn Kèn",
-            "score": "0-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b5643485c_8f1a8f99_20260805.png?v=8f1a8f99",
             "width": 1600,
             "height": 1200
           }
@@ -228,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bc3807e866_26113613_20260805.png?v=26113613",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4b5643485c",
+          "name": "Edward Duarte(6win) vs Tyler Styer | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b5643485c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b5643485c",
+                  "name": "Edward Duarte(6win) vs Tyler Styer",
+                  "streams": [
+                    {
+                      "id": "st-4b5643485c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b5643485c",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5705/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV3",
+            "team_a": "Edward Duarte(6win)",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785880019468_Screenshot 2026-08-05 023405.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785880019187_Screenshot 2026-08-05 023405.png",
+            "time": "05:00 05/08",
+            "caster": "Kèn Kèn",
+            "score": "1-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b5643485c_8f1a8f99_20260805.png?v=8f1a8f99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f201a529cf",
+          "name": "Shane Van Boening vs Bobby Garza(6win) | 06:00 05/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f201a529cf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f201a529cf",
+                  "name": "Shane Van Boening vs Bobby Garza(6win)",
+                  "streams": [
+                    {
+                      "id": "st-f201a529cf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f201a529cf",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5708/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV1",
+            "team_a": "Shane Van Boening",
+            "team_b": "Bobby Garza(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785884062913_Screenshot 2026-08-05 023405.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785884062542_Screenshot 2026-08-05 023405.png",
+            "time": "06:00 05/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f201a529cf_bf6c6268_20260805.png?v=bf6c6268",
             "width": 1600,
             "height": 1200
           }
