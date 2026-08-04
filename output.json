@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4c716c84f5",
-          "name": "Yapp Béo vs BJ Ussery (6win) | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c716c84f5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4c716c84f5",
-                  "name": "Yapp Béo vs BJ Ussery (6win)",
-                  "streams": [
-                    {
-                      "id": "st-4c716c84f5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c716c84f5",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5657/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🔥 SIÊU PHẨM FLORIDA OPEN – YAPP ĐẠI CHIẾN USSERY 🔥 TV1",
-            "team_a": "Yapp Béo",
-            "team_b": "BJ Ussery (6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785785849227_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785785866902_BJ Ussery.jpg",
-            "time": "22:00 04/08",
-            "caster": "BÚN CHÓ",
-            "score": "5-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c716c84f5_033bf4bb_20260804.png?v=033bf4bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8d8c70e7c6",
-          "name": "Andy Goldstein vs Michael Yednak | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d8c70e7c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8d8c70e7c6",
-                  "name": "Andy Goldstein vs Michael Yednak",
-                  "streams": [
-                    {
-                      "id": "st-8d8c70e7c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d8c70e7c6",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5680/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV4",
-            "team_a": "Andy Goldstein",
-            "team_b": "Michael Yednak",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785849289675_Andy Goldstein.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785849303246_Michael Yednak.jpg",
-            "time": "22:00 04/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "4-8",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d8c70e7c6_7ad70535_20260804.png?v=7ad70535",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b1c38b9e89",
           "name": "RJ ALCANO vs SOY SOY 9-10 UP | Tào A Man",
@@ -219,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "22:05 04/08",
             "caster": "Tào A Man",
-            "score": "9-11",
+            "score": "10-11",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785858833952_Robert Hart.jpg",
             "time": "22:30 04/08",
             "caster": "BÚN CHÓ",
-            "score": "4-0",
+            "score": "4-1",
             "is_live": true,
             "hot": true
           },
@@ -377,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-a1575f54de",
-          "name": "Carlo Biado vs Landon Hollingsworth(4win) | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1575f54de",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a1575f54de",
-                  "name": "Carlo Biado vs Landon Hollingsworth(4win)",
-                  "streams": [
-                    {
-                      "id": "st-a1575f54de",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1575f54de",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5687/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026",
-            "team_a": "Carlo Biado",
-            "team_b": "Landon Hollingsworth(4win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785859023029_CARLO BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785859048551_Landon Hollingsworth.jpg",
-            "time": "23:30 04/08",
-            "caster": "SÊ KÔÔ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a1575f54de_2a4550ba_20260804.png?v=2a4550ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-050173d11b",
           "name": "AJ Manas vs Pascal Dufresne(5win) | GIÀNG A PHỌ",
           "type": "single",
@@ -521,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-a1575f54de",
+          "name": "Carlo Biado vs Landon Hollingsworth(4win) | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1575f54de",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a1575f54de",
+                  "name": "Carlo Biado vs Landon Hollingsworth(4win)",
+                  "streams": [
+                    {
+                      "id": "st-a1575f54de",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1575f54de",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5687/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026",
+            "team_a": "Carlo Biado",
+            "team_b": "Landon Hollingsworth(4win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785859023029_CARLO BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785859048551_Landon Hollingsworth.jpg",
+            "time": "23:30 04/08",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a1575f54de_2a4550ba_20260804.png?v=2a4550ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d761ce7ce1",
           "name": "Albert Januarta vs James Rotenberry(6win) | Kèn Kèn",
           "type": "single",
@@ -579,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
             "time": "23:30 04/08",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
