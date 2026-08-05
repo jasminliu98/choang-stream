@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b9f31e63c5",
-          "name": "Shayne Acebar (-2,5) vs Omar Clarin(+2,5) | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9f31e63c5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b9f31e63c5",
-                  "name": "Shayne Acebar (-2,5) vs Omar Clarin(+2,5)",
-                  "streams": [
-                    {
-                      "id": "st-b9f31e63c5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f31e63c5",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5746/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIÊU PHỦI ĐỘ PHI | race ?",
-            "team_a": "Shayne Acebar (-2,5)",
-            "team_b": "Omar Clarin(+2,5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777025219330_Screenshot 2026-0470642.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802421830_táº£i xuá»ng.png",
-            "time": "00:00 05/08",
-            "caster": "Tào A Man",
-            "score": "6-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9f31e63c5_3697c77a_20260805.png?v=3697c77a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-2d287b43b8",
           "name": "DUY ĐINH vs BÌNH ỐC | Xinh Yeu",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785934779917_BÃNH á»C.jpg",
             "time": "00:00 05/08",
             "caster": "Xinh Yeu",
-            "score": "8-8",
+            "score": "10-8",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2d287b43b8_7407efb4_20260805.png?v=7407efb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9a813158cf",
+          "name": "HÀ THÀNH vs DŨNG LAI CHÂU | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a813158cf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9a813158cf",
+                  "name": "HÀ THÀNH vs DŨNG LAI CHÂU",
+                  "streams": [
+                    {
+                      "id": "st-9a813158cf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a813158cf",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5747/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🔴 TRỰC TIẾP |HÀ THÀNH VS DŨNG LAI CHÂU|",
+            "team_a": "HÀ THÀNH",
+            "team_b": "DŨNG LAI CHÂU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785938339893_HÃ THÃNH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
+            "time": "00:00 05/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a813158cf_751b4169_20260805.png?v=751b4169",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b9f31e63c5",
+          "name": "Shayne Acebar (-2,5) vs Omar Clarin(+2,5) | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9f31e63c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b9f31e63c5",
+                  "name": "Shayne Acebar (-2,5) vs Omar Clarin(+2,5)",
+                  "streams": [
+                    {
+                      "id": "st-b9f31e63c5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f31e63c5",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5746/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIÊU PHỦI ĐỘ PHI | race ?",
+            "team_a": "Shayne Acebar (-2,5)",
+            "team_b": "Omar Clarin(+2,5)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777025219330_Screenshot 2026-0470642.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802421830_táº£i xuá»ng.png",
+            "time": "20:00 05/08",
+            "caster": "Tào A Man",
+            "score": "7-2",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9f31e63c5_3697c77a_20260805.png?v=3697c77a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3ecfb58423",
+          "name": "Johnny Archer vs Miguel Ortiz | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ecfb58423",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3ecfb58423",
+                  "name": "Johnny Archer vs Miguel Ortiz",
+                  "streams": [
+                    {
+                      "id": "st-3ecfb58423",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ecfb58423",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5739/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FLORIDA OPEN 2026 TV2  Round 1 Losers - Race to 8",
+            "team_a": "Johnny Archer",
+            "team_b": "Miguel Ortiz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785932149957_Johnny Archer.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "22:00 05/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ecfb58423_5d56da0a_20260805.png?v=5d56da0a",
             "width": 1600,
             "height": 1200
           }
@@ -372,78 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5928a55021_b44e4f12_20260805.png?v=b44e4f12",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3ecfb58423",
-          "name": "Johnny Archer vs Miguel Ortiz | 22:00 05/08 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ecfb58423",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3ecfb58423",
-                  "name": "Johnny Archer vs Miguel Ortiz",
-                  "streams": [
-                    {
-                      "id": "st-3ecfb58423",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ecfb58423",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5739/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV2  Round 1 Losers - Race to 8",
-            "team_a": "Johnny Archer",
-            "team_b": "Miguel Ortiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785932149957_Johnny Archer.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "22:00 05/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ecfb58423_5d56da0a_20260805.png?v=5d56da0a",
             "width": 1600,
             "height": 1200
           }
