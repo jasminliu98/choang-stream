@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-93c311d3f2",
-          "name": "DUY ĐINH (11win) vs THỦY MÔI (9win) | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93c311d3f2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-93c311d3f2",
-                  "name": "DUY ĐINH (11win) vs THỦY MÔI (9win)",
-                  "streams": [
-                    {
-                      "id": "st-93c311d3f2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-93c311d3f2",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5726/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GRAND OPENING INVITATIONAL",
-            "team_a": "DUY ĐINH (11win)",
-            "team_b": "THỦY MÔI (9win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785914676102_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "time": "00:00 05/08",
-            "caster": "SÊ KÔÔ",
-            "score": "0-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-93c311d3f2_f42353ee_20260805.png?v=f42353ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ff6c75c406",
           "name": "QUANG ANH vs CƯỜNG CÁ | Thập Cẩm",
           "type": "single",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765336336094_táº£i xuá»ng.png",
             "time": "00:00 05/08",
             "caster": "Thập Cẩm",
-            "score": "4-2",
+            "score": "5-2",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff6c75c406_99e05585_20260805.png?v=99e05585",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-93c311d3f2",
+          "name": "DUY ĐINH (11win) vs THỦY MÔI (9win) | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93c311d3f2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-93c311d3f2",
+                  "name": "DUY ĐINH (11win) vs THỦY MÔI (9win)",
+                  "streams": [
+                    {
+                      "id": "st-93c311d3f2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-93c311d3f2",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5726/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GRAND OPENING INVITATIONAL",
+            "team_a": "DUY ĐINH (11win)",
+            "team_b": "THỦY MÔI (9win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785914676102_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "time": "00:00 05/08",
+            "caster": "SÊ KÔÔ",
+            "score": "1-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-93c311d3f2_f42353ee_20260805.png?v=f42353ee",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "14:10 05/08",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "14:14 05/08",
             "caster": "Bỉm Sữa",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1b8b90ba08_8806a88b_20260805.png?v=8806a88b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bac23a4730",
-          "name": "Chihiro Kawahara vs Chezka Centeno | 16:00 05/08 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bac23a4730",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bac23a4730",
-                  "name": "Chihiro Kawahara vs Chezka Centeno",
-                  "streams": [
-                    {
-                      "id": "st-bac23a4730",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bac23a4730",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5722/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Predator Pro Billiard Series Rome, Italy 2026",
-            "team_a": "Chihiro Kawahara",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785912797767_CHIHIRO KAWAHARA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785912801174_Chezka Centeno.jpg",
-            "time": "16:00 05/08",
-            "caster": "Bỉm Sữa",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bac23a4730_4965c45b_20260805.png?v=4965c45b",
             "width": 1600,
             "height": 1200
           }
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-63e20f68d7_51c939f4_20260805.png?v=51c939f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bac23a4730",
+          "name": "Chihiro Kawahara vs Chezka Centeno | 16:00 05/08 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bac23a4730",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bac23a4730",
+                  "name": "Chihiro Kawahara vs Chezka Centeno",
+                  "streams": [
+                    {
+                      "id": "st-bac23a4730",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bac23a4730",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5722/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Predator Pro Billiard Series Rome, Italy 2026",
+            "team_a": "Chihiro Kawahara",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785912797767_CHIHIRO KAWAHARA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785912801174_Chezka Centeno.jpg",
+            "time": "16:00 05/08",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bac23a4730_4965c45b_20260805.png?v=4965c45b",
             "width": 1600,
             "height": 1200
           }
