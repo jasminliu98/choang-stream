@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-8394244191",
-          "name": "Jesse Engel vs Roberto Gomez | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8394244191",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8394244191",
-                  "name": "Jesse Engel vs Roberto Gomez",
-                  "streams": [
-                    {
-                      "id": "st-8394244191",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8394244191",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5752/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Round 2 - Winners qualification - Race to 9",
-            "team_a": "Jesse Engel",
-            "team_b": "Roberto Gomez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785943164504_Roberto Gomez.jpg",
-            "time": "23:30 05/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8394244191_d83675be_20260806.png?v=d83675be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ead4015ab3",
           "name": "Aloysius Yapp vs Kristian Dimitrov(5win) | VÁNG",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785943315016_Kristian Dimitrov.jpg",
             "time": "23:30 05/08",
             "caster": "VÁNG",
-            "score": "2-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ead4015ab3_0369fca0_20260806.png?v=0369fca0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-049fdb92ad",
-          "name": "Kledio Kaci vs Jim Udischas (6win) | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-049fdb92ad",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-049fdb92ad",
-                  "name": "Kledio Kaci vs Jim Udischas (6win)",
-                  "streams": [
-                    {
-                      "id": "st-049fdb92ad",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-049fdb92ad",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5750/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Round 2 - Winners qualification - Race to 9",
-            "team_a": "Kledio Kaci",
-            "team_b": "Jim Udischas (6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785942816785_Kledio Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "23:30 05/08",
-            "caster": "BÚN CHÓ",
-            "score": "5-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-049fdb92ad_6ad30169_20260806.png?v=6ad30169",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +228,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-01de4dde98_fa0dcf69_20260806.png?v=fa0dcf69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8394244191",
+          "name": "Jesse Engel vs Roberto Gomez | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8394244191",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8394244191",
+                  "name": "Jesse Engel vs Roberto Gomez",
+                  "streams": [
+                    {
+                      "id": "st-8394244191",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8394244191",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5752/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Round 2 - Winners qualification - Race to 9",
+            "team_a": "Jesse Engel",
+            "team_b": "Roberto Gomez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785943164504_Roberto Gomez.jpg",
+            "time": "23:30 05/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8394244191_d83675be_20260806.png?v=d83675be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-049fdb92ad",
+          "name": "Kledio Kaci vs Jim Udischas (6win) | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-049fdb92ad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-049fdb92ad",
+                  "name": "Kledio Kaci vs Jim Udischas (6win)",
+                  "streams": [
+                    {
+                      "id": "st-049fdb92ad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-049fdb92ad",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5750/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Round 2 - Winners qualification - Race to 9",
+            "team_a": "Kledio Kaci",
+            "team_b": "Jim Udischas (6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785942816785_Kledio Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "23:30 05/08",
+            "caster": "BÚN CHÓ",
+            "score": "6-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-049fdb92ad_6ad30169_20260806.png?v=6ad30169",
             "width": 1600,
             "height": 1200
           }
