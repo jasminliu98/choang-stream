@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-2d287b43b8",
+          "name": "DUY ĐINH vs BÌNH ỐC | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d287b43b8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2d287b43b8",
+                  "name": "DUY ĐINH vs BÌNH ỐC",
+                  "streams": [
+                    {
+                      "id": "st-2d287b43b8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d287b43b8",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5743/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA - GRAND OPENING INVITATIONAL| CHUNG KẾT",
+            "team_a": "DUY ĐINH",
+            "team_b": "BÌNH ỐC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785934776529_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785934779917_BÃNH á»C.jpg",
+            "time": "00:00 05/08",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2d287b43b8_7407efb4_20260805.png?v=7407efb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-13a0f0aa57",
           "name": "Văn SInh vs Quang Con | BÚN CHÓ",
           "type": "single",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785929098313_quang con.png",
             "time": "00:00 05/08",
             "caster": "BÚN CHÓ",
-            "score": "10-4",
+            "score": "10-5",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-63e20f68d7_51c939f4_20260805.png?v=51c939f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4fa56aee42",
-          "name": "DUY ĐINH vs TÂM KA | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fa56aee42",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4fa56aee42",
-                  "name": "DUY ĐINH vs TÂM KA",
-                  "streams": [
-                    {
-                      "id": "st-4fa56aee42",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fa56aee42",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5731/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GRAND OPENING INVITATIONAL| TỨ KẾT",
-            "team_a": "DUY ĐINH",
-            "team_b": "TÂM KA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785923717470_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417407261_táº£i xuá»ng.png",
-            "time": "17:00 05/08",
-            "caster": "Xinh Yeu",
-            "score": "11-9",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4fa56aee42_ad8e6d6b_20260805.png?v=ad8e6d6b",
             "width": 1600,
             "height": 1200
           }
