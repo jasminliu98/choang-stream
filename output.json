@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "01:00 06/08",
             "caster": "VÁNG",
-            "score": "4-0",
+            "score": "4-1",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785949338302_Cristopher Tevez.jpg",
             "time": "01:00 06/08",
             "caster": "BÚN CHÓ",
-            "score": "0-1",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc74b5881d_3cf11e5d_20260806.png?v=3cf11e5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-72c56827f7",
+          "name": "Naoyuki Oi vs Aleksandra Guleikova (4win) | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72c56827f7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-72c56827f7",
+                  "name": "Naoyuki Oi vs Aleksandra Guleikova (4win)",
+                  "streams": [
+                    {
+                      "id": "st-72c56827f7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72c56827f7",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5757/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  FLORIDA OPEN 2026  Round 1 Losers - Race to 8",
+            "team_a": "Naoyuki Oi",
+            "team_b": "Aleksandra Guleikova (4win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785949726205_NAOYUKI OI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "01:00 06/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-72c56827f7_ef25a976_20260806.png?v=ef25a976",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785942937341_Felix Vogel.jpg",
             "time": "23:30 05/08",
             "caster": "Thập Cẩm",
-            "score": "8-7",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -300,150 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-01de4dde98_fa0dcf69_20260806.png?v=fa0dcf69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8394244191",
-          "name": "Jesse Engel vs Roberto Gomez | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8394244191",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8394244191",
-                  "name": "Jesse Engel vs Roberto Gomez",
-                  "streams": [
-                    {
-                      "id": "st-8394244191",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8394244191",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5752/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Round 2 - Winners qualification - Race to 9",
-            "team_a": "Jesse Engel",
-            "team_b": "Roberto Gomez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785943164504_Roberto Gomez.jpg",
-            "time": "23:30 05/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "4-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8394244191_d83675be_20260806.png?v=d83675be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-72c56827f7",
-          "name": "Naoyuki Oi vs Aleksandra Guleikova (4win) | 01:00 06/08 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72c56827f7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-72c56827f7",
-                  "name": "Naoyuki Oi vs Aleksandra Guleikova (4win)",
-                  "streams": [
-                    {
-                      "id": "st-72c56827f7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72c56827f7",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5757/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  FLORIDA OPEN 2026  Round 1 Losers - Race to 8",
-            "team_a": "Naoyuki Oi",
-            "team_b": "Aleksandra Guleikova (4win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785949726205_NAOYUKI OI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "01:00 06/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-72c56827f7_ef25a976_20260806.png?v=ef25a976",
             "width": 1600,
             "height": 1200
           }
@@ -516,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f928fe87c_2f300a02_20260806.png?v=2f300a02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b9ae7cbdbb",
+          "name": "Antonios Kakaris(9win) vs Billy Thorpe(5win) | 01:24 06/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9ae7cbdbb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b9ae7cbdbb",
+                  "name": "Antonios Kakaris(9win) vs Billy Thorpe(5win)",
+                  "streams": [
+                    {
+                      "id": "st-b9ae7cbdbb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9ae7cbdbb",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5760/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Round 2 - Winners qualification - Race to 9",
+            "team_a": "Antonios Kakaris(9win)",
+            "team_b": "Billy Thorpe(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785954216175_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765779197545_táº£i xuá»ng.png",
+            "time": "01:24 06/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9ae7cbdbb_3045cf70_20260806.png?v=3045cf70",
             "width": 1600,
             "height": 1200
           }
