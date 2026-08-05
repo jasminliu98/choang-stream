@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785951901665_quang con.png",
             "time": "00:00 06/08",
             "caster": "Kèn Kèn",
-            "score": "12-9",
+            "score": "12-10",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "01:00 06/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "01:00 06/08",
             "caster": "VÁNG",
-            "score": "7-7",
+            "score": "8-7",
             "is_live": true,
             "hot": true
           },
@@ -305,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-dc74b5881d",
-          "name": "Mickey Krause vs Cristopher Tevez(5win) | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc74b5881d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dc74b5881d",
-                  "name": "Mickey Krause vs Cristopher Tevez(5win)",
-                  "streams": [
-                    {
-                      "id": "st-dc74b5881d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc74b5881d",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5755/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 Round 2 - Winners qualification - Race to 9",
-            "team_a": "Mickey Krause",
-            "team_b": "Cristopher Tevez(5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785949339456_Mickey Krause.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785949338302_Cristopher Tevez.jpg",
-            "time": "01:00 06/08",
-            "caster": "BÚN CHÓ",
-            "score": "6-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc74b5881d_3cf11e5d_20260806.png?v=3cf11e5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b9ae7cbdbb",
           "name": "Antonios Kakaris(9win) vs Billy Thorpe(5win) | VÁNG",
           "type": "single",
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9ae7cbdbb_3045cf70_20260806.png?v=3045cf70",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2cb66d141d",
+          "name": "Kirill Rutman(9win) vs Mustafa Alnar(7win) | 02:25 06/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cb66d141d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2cb66d141d",
+                  "name": "Kirill Rutman(9win) vs Mustafa Alnar(7win)",
+                  "streams": [
+                    {
+                      "id": "st-2cb66d141d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2cb66d141d",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5761/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Round 2 - Winners qualification - Race to 9",
+            "team_a": "Kirill Rutman(9win)",
+            "team_b": "Mustafa Alnar(7win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785957881303_23.jpg",
+            "time": "02:25 06/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2cb66d141d_8d7271f2_20260806.png?v=8d7271f2",
             "width": 1600,
             "height": 1200
           }
