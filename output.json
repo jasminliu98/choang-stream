@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779197545_táº£i xuá»ng.png",
             "time": "01:24 06/08",
             "caster": "VÁNG",
-            "score": "1-4",
+            "score": "2-5",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1785957881303_23.jpg",
             "time": "02:25 06/08",
             "caster": "Thập Cẩm",
-            "score": "1-6",
+            "score": "2-7",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
             "time": "02:40 06/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-4",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
             "time": "02:54 06/08",
             "caster": "Kèn Kèn",
-            "score": "7-3",
+            "score": "7-5",
             "is_live": true,
             "hot": true
           },
@@ -378,16 +378,16 @@
         },
         {
           "id": "chtv-fc50770306",
-          "name": "Jesüs Atencio(9win) vs Luka Mitrovic(7win) | 03:29 06/08 | VÁNG",
+          "name": "Jesüs Atencio(9win) vs Luka Mitrovic(7win) | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +436,7 @@
             "time": "03:29 06/08",
             "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
