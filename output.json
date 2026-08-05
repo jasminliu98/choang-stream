@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-664cf18482",
-          "name": "Brian Rosenberger(7win) vs Andy Goldstein | GIÀNG A PHỌ",
+          "id": "chtv-4414991677",
+          "name": "Seo Seoa vs Chezka Centeno | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-664cf18482",
+              "id": "src-4414991677",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-664cf18482",
-                  "name": "Brian Rosenberger(7win) vs Andy Goldstein",
+                  "id": "ct-4414991677",
+                  "name": "Seo Seoa vs Chezka Centeno",
                   "streams": [
                     {
-                      "id": "st-664cf18482",
+                      "id": "st-4414991677",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-664cf18482",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-4414991677",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5741/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5748/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,22 @@
             }
           ],
           "org_metadata": {
-            "league": "FLORIDA OPEN 2026 TV4  Round 1 Losers - Race to 8",
-            "team_a": "Brian Rosenberger(7win)",
-            "team_b": "Andy Goldstein",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785932678130_Andy Goldstein.jpg",
+            "league": "BÁN KẾT 1  Predator Pro Billiard Series Rome, Italy 2026",
+            "team_a": "Seo Seoa",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1785938727361_SEO SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785938731954_Chezka Centeno.jpg",
             "time": "22:00 05/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "4-4",
+            "caster": "Xinh Yeu",
+            "score": "0-2",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-664cf18482_bc25c9a0_20260805.png?v=bc25c9a0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4414991677_1207a845_20260805.png?v=1207a845",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
             "time": "22:00 05/08",
             "caster": "Thập Cẩm",
-            "score": "5-7",
+            "score": "6-7",
             "is_live": true,
             "hot": false
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-4414991677",
-          "name": "Seo Seoa vs Chezka Centeno | Xinh Yeu",
+          "id": "chtv-664cf18482",
+          "name": "Brian Rosenberger(7win) vs Andy Goldstein | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-4414991677",
+              "id": "src-664cf18482",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4414991677",
-                  "name": "Seo Seoa vs Chezka Centeno",
+                  "id": "ct-664cf18482",
+                  "name": "Brian Rosenberger(7win) vs Andy Goldstein",
                   "streams": [
                     {
-                      "id": "st-4414991677",
+                      "id": "st-664cf18482",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4414991677",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-664cf18482",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5748/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5741/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "BÁN KẾT 1  Predator Pro Billiard Series Rome, Italy 2026",
-            "team_a": "Seo Seoa",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1785938727361_SEO SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1785938731954_Chezka Centeno.jpg",
+            "league": "FLORIDA OPEN 2026 TV4  Round 1 Losers - Race to 8",
+            "team_a": "Brian Rosenberger(7win)",
+            "team_b": "Andy Goldstein",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1785932678130_Andy Goldstein.jpg",
             "time": "22:00 05/08",
-            "caster": "Xinh Yeu",
-            "score": "0-2",
+            "caster": "GIÀNG A PHỌ",
+            "score": "4-6",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4414991677_1207a845_20260805.png?v=1207a845",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-664cf18482_bc25c9a0_20260805.png?v=bc25c9a0",
             "width": 1600,
             "height": 1200
           }
