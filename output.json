@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 06/08",
             "caster": "Thập Cẩm",
-            "score": "8-4",
+            "score": "9-6",
             "is_live": true,
             "hot": false
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff5cb571b3_9d76bfb0_20260806.png?v=9d76bfb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4cb17daf31",
+          "name": "Yapp Béo vs Vitaliy Patsura(6win) | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4cb17daf31",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4cb17daf31",
+                  "name": "Yapp Béo vs Vitaliy Patsura(6win)",
+                  "streams": [
+                    {
+                      "id": "st-4cb17daf31",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4cb17daf31",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5790/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Round 1 - Race to 10 TV1",
+            "team_a": "Yapp Béo",
+            "team_b": "Vitaliy Patsura(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786000324012_YAPP BÃ©o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786000351131_Vitaliy Patsura.jpg",
+            "time": "22:00 06/08",
+            "caster": "VÁNG",
+            "score": "2-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4cb17daf31_051e9c85_20260806.png?v=051e9c85",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786000711329_Wiktor Zielinski.jpg",
             "time": "22:00 06/08",
             "caster": "Xinh Yeu",
-            "score": "0-1",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786000504845_Sam Henderson.jpg",
             "time": "22:00 06/08",
             "caster": "Kèn Kèn",
-            "score": "1-0",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d107d0f8b_d1a2ffe1_20260806.png?v=d1a2ffe1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4cb17daf31",
-          "name": "Yapp Béo vs Vitaliy Patsura(6win) | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4cb17daf31",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4cb17daf31",
-                  "name": "Yapp Béo vs Vitaliy Patsura(6win)",
-                  "streams": [
-                    {
-                      "id": "st-4cb17daf31",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4cb17daf31",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5790/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Round 1 - Race to 10 TV1",
-            "team_a": "Yapp Béo",
-            "team_b": "Vitaliy Patsura(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786000324012_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786000351131_Vitaliy Patsura.jpg",
-            "time": "22:00 06/08",
-            "caster": "VÁNG",
-            "score": "1-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4cb17daf31_051e9c85_20260806.png?v=051e9c85",
             "width": 1600,
             "height": 1200
           }
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "22:00 06/08",
             "caster": "BÚN CHÓ",
-            "score": "1-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
