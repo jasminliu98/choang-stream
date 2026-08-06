@@ -149,7 +149,7 @@
             "caster": "Thập Cẩm",
             "score": "4-2",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
