@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4c4adad343",
-          "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ | SPCHOANG",
+          "id": "chtv-1c151c6f60",
+          "name": "HOÀNG SAO vs Edward Epperson | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,239 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-4c4adad343",
+              "id": "src-1c151c6f60",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4c4adad343",
-                  "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ",
+                  "id": "ct-1c151c6f60",
+                  "name": "HOÀNG SAO vs Edward Epperson",
                   "streams": [
                     {
-                      "id": "st-4c4adad343",
+                      "id": "st-1c151c6f60",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4c4adad343",
-                          "name": "SPCHOANG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5808/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "THẦY HUẤN CÓ BỊ CÁC CHÚ TẤT XANH BẾ ĐI KHÔNG",
-            "team_a": "CHẮC CHẮN BẾ",
-            "team_b": "E LÀ KHÔNG THỂ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786017322858_images (5).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786017330960_images (4).jpg",
-            "time": "00:00 06/08",
-            "caster": "SPCHOANG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c4adad343_f281725c_20260807.png?v=f281725c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-47db5ab7b4",
-          "name": "Joshua Filler vs Edward Duarte | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47db5ab7b4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-47db5ab7b4",
-                  "name": "Joshua Filler vs Edward Duarte",
-                  "streams": [
-                    {
-                      "id": "st-47db5ab7b4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-47db5ab7b4",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5819/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Round 1 - Race to 10 TV4",
-            "team_a": "Joshua Filler",
-            "team_b": "Edward Duarte",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786036964410_Joshua Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "01:30 07/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47db5ab7b4_04141dea_20260807.png?v=04141dea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8ab57b8ec0",
-          "name": "Kledio Kaci vs Omar Al Shaheen(6win) | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ab57b8ec0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8ab57b8ec0",
-                  "name": "Kledio Kaci vs Omar Al Shaheen(6win)",
-                  "streams": [
-                    {
-                      "id": "st-8ab57b8ec0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ab57b8ec0",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5813/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Round 1 - Race to 10 TV2",
-            "team_a": "Kledio Kaci",
-            "team_b": "Omar Al Shaheen(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786030598831_Kledio Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
-            "time": "23:30 06/08",
-            "caster": "Kèn Kèn",
-            "score": "4-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ab57b8ec0_853dce3d_20260807.png?v=853dce3d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-37d3e33e1a",
-          "name": "Shane Van Boening vs Jacob Parrent(6win) | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37d3e33e1a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-37d3e33e1a",
-                  "name": "Shane Van Boening vs Jacob Parrent(6win)",
-                  "streams": [
-                    {
-                      "id": "st-37d3e33e1a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37d3e33e1a",
+                          "id": "lnk-1c151c6f60",
                           "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5811/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5823/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Round 1 - Race to 10 TV1",
-            "team_a": "Shane Van Boening",
-            "team_b": "Jacob Parrent(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786030253658_Shane Van Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "23:30 06/08",
+            "league": "TV1\tRound 1 - Race to 10",
+            "team_a": "HOÀNG SAO",
+            "team_b": "Edward Epperson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
+            "time": "00:30 07/08",
             "caster": "VÁNG",
-            "score": "6-0",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -299,14 +83,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-37d3e33e1a_0d128991_20260807.png?v=0d128991",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1c151c6f60_fb61c3a5_20260807.png?v=fb61c3a5",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-0b855f7454",
-          "name": "Francisco Sánchez Ruiz vs Eduard Bregu (7win) | Xinh Yeu",
+          "id": "chtv-5ed80021c3",
+          "name": "BJ Ussery vs Tuan Kiat Vincent Goh | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-0b855f7454",
+              "id": "src-5ed80021c3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0b855f7454",
-                  "name": "Francisco Sánchez Ruiz vs Eduard Bregu (7win)",
+                  "id": "ct-5ed80021c3",
+                  "name": "BJ Ussery vs Tuan Kiat Vincent Goh",
                   "streams": [
                     {
-                      "id": "st-0b855f7454",
+                      "id": "st-5ed80021c3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0b855f7454",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-5ed80021c3",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5812/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5822/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,13 +141,13 @@
           ],
           "org_metadata": {
             "league": "Round 1 - Race to 10 TV3",
-            "team_a": "Francisco Sánchez Ruiz",
-            "team_b": "Eduard Bregu (7win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786030422982_Francisco SÃ¡nchez Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786030420315_Eduard Bregu.jpg",
-            "time": "23:30 06/08",
-            "caster": "Xinh Yeu",
-            "score": "6-0",
+            "team_a": "BJ Ussery",
+            "team_b": "Tuan Kiat Vincent Goh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786038002814_BJ Ussery.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "time": "01:30 07/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "8-4",
             "is_live": true,
             "hot": true
           },
@@ -371,7 +155,295 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b855f7454_c757c84c_20260807.png?v=c757c84c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5ed80021c3_54f02e77_20260807.png?v=54f02e77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2c7a47bf09",
+          "name": "John Morra vs Alex Bausch | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c7a47bf09",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2c7a47bf09",
+                  "name": "John Morra vs Alex Bausch",
+                  "streams": [
+                    {
+                      "id": "st-2c7a47bf09",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c7a47bf09",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5821/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Round 1 - Race to 10",
+            "team_a": "John Morra",
+            "team_b": "Alex Bausch",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786037729595_John Morra.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786037753824_Alex Bausch.jpg",
+            "time": "01:30 07/08",
+            "caster": "Kèn Kèn",
+            "score": "6-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2c7a47bf09_0cbf6cad_20260807.png?v=0cbf6cad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a132674f46",
+          "name": "Skyler Woodward vs Tommy Tokoph(6win) | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a132674f46",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a132674f46",
+                  "name": "Skyler Woodward vs Tommy Tokoph(6win)",
+                  "streams": [
+                    {
+                      "id": "st-a132674f46",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a132674f46",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5827/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Round 1 - Race to 10",
+            "team_a": "Skyler Woodward",
+            "team_b": "Tommy Tokoph(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786041174492_Skyler Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786041183362_Tommy Tokoph.jpg",
+            "time": "02:30 07/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a132674f46_6fbe2224_20260807.png?v=6fbe2224",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3a69996937",
+          "name": "Tyler Styer vs Dean Shields | 02:30 07/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a69996937",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3a69996937",
+                  "name": "Tyler Styer vs Dean Shields",
+                  "streams": [
+                    {
+                      "id": "st-3a69996937",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a69996937",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5825/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Round 1 - Race to 10",
+            "team_a": "Tyler Styer",
+            "team_b": "Dean Shields",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786040672894_Tyler Styer.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786040680660_Dean Shields.jpg",
+            "time": "02:30 07/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a69996937_2612a366_20260807.png?v=2612a366",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0eb7b6b211",
+          "name": "Moritz Neuhausen vs Justin Martin(5win) | 02:30 07/08 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0eb7b6b211",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0eb7b6b211",
+                  "name": "Moritz Neuhausen vs Justin Martin(5win)",
+                  "streams": [
+                    {
+                      "id": "st-0eb7b6b211",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0eb7b6b211",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5826/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  Round 1 - Race to 10",
+            "team_a": "Moritz Neuhausen",
+            "team_b": "Justin Martin(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786040958859_Moritz Neuhausen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786040974746_Justin Martin.jpg",
+            "time": "02:30 07/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0eb7b6b211_e86d1622_20260807.png?v=e86d1622",
             "width": 1600,
             "height": 1200
           }
