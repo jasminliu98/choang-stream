@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -73,9 +73,9 @@
             "team_b": "TRUNG NẤM",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1786010791880_TRUNG Náº¤M.png",
-            "time": "00:00 06/08",
+            "time": "17:00 06/08",
             "caster": "Xinh Yeu",
-            "score": "4-3",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-8d9ac1937c",
-          "name": "VĂN SINH vs KHÁNH BÚA | 18:00 06/08 | Đại Kê",
+          "name": "VĂN SINH vs KHÁNH BÚA | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "18:00 06/08",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
