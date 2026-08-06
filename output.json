@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "chtv-8d9ac1937c",
+          "name": "VĂN SINH vs KHÁNH BÚA | 18:00 06/08 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d9ac1937c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8d9ac1937c",
+                  "name": "VĂN SINH vs KHÁNH BÚA",
+                  "streams": [
+                    {
+                      "id": "st-8d9ac1937c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d9ac1937c",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5802/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SHOW MATCH VĂN SINH",
+            "team_a": "VĂN SINH",
+            "team_b": "KHÁNH BÚA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786008760268_VÄn Sinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786008809511_KHÃNH BÃA.jpg",
+            "time": "18:00 06/08",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d9ac1937c_fc7276e1_20260806.png?v=fc7276e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-2eb69f6c93",
           "name": "Chezka Centeno vs Margarita Fefilova | 18:30 06/08 | Lee Min Hoo",
           "type": "single",
