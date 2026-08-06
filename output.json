@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
             "time": "04:31 07/08",
             "caster": "VÁNG",
-            "score": "2-1",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786053782900_Screenshot 2026-07-07 002427.png",
             "time": "05:03 07/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-5",
+            "score": "9-5",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
             "time": "05:10 07/08",
             "caster": "Kèn Kèn",
-            "score": "8-5",
+            "score": "9-5",
             "is_live": true,
             "hot": true
           },
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-6b6fe114bd",
+          "name": "Jesüs Atenci(10win) vs Trevor Moore(8win) | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b6fe114bd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6b6fe114bd",
+                  "name": "Jesüs Atenci(10win) vs Trevor Moore(8win)",
+                  "streams": [
+                    {
+                      "id": "st-6b6fe114bd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b6fe114bd",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5835/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Round 1 - Race to 10",
+            "team_a": "Jesüs Atenci(10win)",
+            "team_b": "Trevor Moore(8win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786059054206_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
+            "time": "06:31 07/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b6fe114bd_527e60a6_20260807.png?v=527e60a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a1707a79cd",
           "name": "Tyler Styer(10win) vs Dean Shields(8win) | 03:01 07/08 | GIÀNG A PHỌ",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a1707a79cd_dda0f8f2_20260807.png?v=dda0f8f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6b6fe114bd",
-          "name": "Jesüs Atenci(10win) vs Trevor Moore(8win) | 06:31 07/08 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b6fe114bd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6b6fe114bd",
-                  "name": "Jesüs Atenci(10win) vs Trevor Moore(8win)",
-                  "streams": [
-                    {
-                      "id": "st-6b6fe114bd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b6fe114bd",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5835/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Round 1 - Race to 10",
-            "team_a": "Jesüs Atenci(10win)",
-            "team_b": "Trevor Moore(8win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786059054206_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
-            "time": "06:31 07/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b6fe114bd_527e60a6_20260807.png?v=527e60a6",
             "width": 1600,
             "height": 1200
           }
