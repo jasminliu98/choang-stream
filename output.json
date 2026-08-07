@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-c0d68471a5",
-          "name": "Eklent Kaci vs Julio Burgos(6win) | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c0d68471a5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c0d68471a5",
-                  "name": "Eklent Kaci vs Julio Burgos(6win)",
-                  "streams": [
-                    {
-                      "id": "st-c0d68471a5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0d68471a5",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5888/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | Round 2 - Race to 10",
-            "team_a": "Eklent Kaci",
-            "team_b": "Julio Burgos(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786113940857_Eklent Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786113948862_Julio Burgos.jpg",
-            "time": "01:45 08/08",
-            "caster": "Kèn Kèn",
-            "score": "6-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c0d68471a5_ccbd9654_20260808.png?v=ccbd9654",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-add5855c96",
           "name": "Kledio Kaci vs Harrison Leinen(7win) | BÚN CHÓ",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786113583411_Harrison Leinen.jpg",
             "time": "01:45 08/08",
             "caster": "BÚN CHÓ",
-            "score": "5-4",
+            "score": "6-4",
             "is_live": true,
             "hot": false
           },
@@ -233,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-25eeaf6446",
-          "name": "Justin Bergman vs Jesús Atencio | VÁNG",
+          "id": "chtv-c0d68471a5",
+          "name": "Eklent Kaci vs Julio Burgos(6win) | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-25eeaf6446",
+              "id": "src-c0d68471a5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-25eeaf6446",
-                  "name": "Justin Bergman vs Jesús Atencio",
+                  "id": "ct-c0d68471a5",
+                  "name": "Eklent Kaci vs Julio Burgos(6win)",
                   "streams": [
                     {
-                      "id": "st-25eeaf6446",
+                      "id": "st-c0d68471a5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-25eeaf6446",
-                          "name": "VÁNG",
+                          "id": "lnk-c0d68471a5",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5885/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5888/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 | Round 2 - Race to 10",
-            "team_a": "Justin Bergman",
-            "team_b": "Jesús Atencio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786113519504_Justin Bergman.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786113522878_JesÃºs Atencio.jpg",
+            "league": "TV4 | Round 2 - Race to 10",
+            "team_a": "Eklent Kaci",
+            "team_b": "Julio Burgos(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786113940857_Eklent Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786113948862_Julio Burgos.jpg",
             "time": "01:45 08/08",
-            "caster": "VÁNG",
-            "score": "9-9",
+            "caster": "Kèn Kèn",
+            "score": "7-6",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25eeaf6446_db65958c_20260808.png?v=db65958c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c0d68471a5_ccbd9654_20260808.png?v=ccbd9654",
             "width": 1600,
             "height": 1200
           }
