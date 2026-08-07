@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d88299abe2",
-          "name": "Cristopher Tevez vs Yapp Béo | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d88299abe2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d88299abe2",
-                  "name": "Cristopher Tevez vs Yapp Béo",
-                  "streams": [
-                    {
-                      "id": "st-d88299abe2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d88299abe2",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5872/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | Round 2 - Race to 10",
-            "team_a": "Cristopher Tevez",
-            "team_b": "Yapp Béo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786106689366_Cristopher Tevez.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786106686008_YAPP BÃ©o.jpg",
-            "time": "10:00 07/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d88299abe2_6cbbf251_20260807.png?v=6cbbf251",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3031081dcb",
           "name": "Francisco Sánchez Ruiz vs Gerson Martinez Boza | VÁNG",
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-b1ed88c357",
-          "name": "ZHENG YUBO vs DANG JINHU | Đại Kê",
+          "id": "chtv-d88299abe2",
+          "name": "Cristopher Tevez vs Yapp Béo | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-b1ed88c357",
+              "id": "src-d88299abe2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b1ed88c357",
-                  "name": "ZHENG YUBO vs DANG JINHU",
+                  "id": "ct-d88299abe2",
+                  "name": "Cristopher Tevez vs Yapp Béo",
                   "streams": [
                     {
-                      "id": "st-b1ed88c357",
+                      "id": "st-d88299abe2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b1ed88c357",
-                          "name": "Đại Kê",
+                          "id": "lnk-d88299abe2",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5870/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5872/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,22 +140,22 @@
             }
           ],
           "org_metadata": {
-            "league": "ZHENG YUBO vs DANG JINHU | GIẢI ĐẤU 9 BI CHINESE POOL",
-            "team_a": "ZHENG YUBO",
-            "team_b": "DANG JINHU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
-            "time": "18:12 07/08",
-            "caster": "Đại Kê",
-            "score": "232-112",
+            "league": "TV2 | Round 2 - Race to 10",
+            "team_a": "Cristopher Tevez",
+            "team_b": "Yapp Béo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786106689366_Cristopher Tevez.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786106686008_YAPP BÃ©o.jpg",
+            "time": "10:00 07/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1ed88c357_23d099e4_20260807.png?v=23d099e4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d88299abe2_6cbbf251_20260807.png?v=6cbbf251",
             "width": 1600,
             "height": 1200
           }
