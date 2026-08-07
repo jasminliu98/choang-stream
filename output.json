@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-add5855c96",
-          "name": "Kledio Kaci vs Harrison Leinen(7win) | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-add5855c96",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-add5855c96",
-                  "name": "Kledio Kaci vs Harrison Leinen(7win)",
-                  "streams": [
-                    {
-                      "id": "st-add5855c96",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-add5855c96",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5886/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | Round 2 - Race to 10",
-            "team_a": "Kledio Kaci",
-            "team_b": "Harrison Leinen(7win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786113579959_Kledio Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786113583411_Harrison Leinen.jpg",
-            "time": "01:45 08/08",
-            "caster": "BÚN CHÓ",
-            "score": "3-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-add5855c96_41a665be_20260808.png?v=41a665be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-bb73739465",
           "name": "Boris Ivanovski(8win) vs Konrad Juszczyszyn | Thập Cẩm",
           "type": "single",
@@ -156,6 +84,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bb73739465_68da3155_20260808.png?v=68da3155",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-25eeaf6446",
+          "name": "Justin Bergman vs Jesús Atencio | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25eeaf6446",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-25eeaf6446",
+                  "name": "Justin Bergman vs Jesús Atencio",
+                  "streams": [
+                    {
+                      "id": "st-25eeaf6446",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25eeaf6446",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5885/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | Round 2 - Race to 10",
+            "team_a": "Justin Bergman",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786113519504_Justin Bergman.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786113522878_JesÃºs Atencio.jpg",
+            "time": "01:45 08/08",
+            "caster": "VÁNG",
+            "score": "6-5",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25eeaf6446_db65958c_20260808.png?v=db65958c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-add5855c96",
+          "name": "Kledio Kaci vs Harrison Leinen(7win) | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-add5855c96",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-add5855c96",
+                  "name": "Kledio Kaci vs Harrison Leinen(7win)",
+                  "streams": [
+                    {
+                      "id": "st-add5855c96",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-add5855c96",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5886/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | Round 2 - Race to 10",
+            "team_a": "Kledio Kaci",
+            "team_b": "Harrison Leinen(7win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786113579959_Kledio Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786113583411_Harrison Leinen.jpg",
+            "time": "01:45 08/08",
+            "caster": "BÚN CHÓ",
+            "score": "3-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-add5855c96_41a665be_20260808.png?v=41a665be",
             "width": 1600,
             "height": 1200
           }
@@ -233,80 +305,8 @@
           }
         },
         {
-          "id": "chtv-25eeaf6446",
-          "name": "Justin Bergman vs Jesús Atencio | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-25eeaf6446",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-25eeaf6446",
-                  "name": "Justin Bergman vs Jesús Atencio",
-                  "streams": [
-                    {
-                      "id": "st-25eeaf6446",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25eeaf6446",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5885/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | Round 2 - Race to 10",
-            "team_a": "Justin Bergman",
-            "team_b": "Jesús Atencio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786113519504_Justin Bergman.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786113522878_JesÃºs Atencio.jpg",
-            "time": "01:45 08/08",
-            "caster": "VÁNG",
-            "score": "4-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25eeaf6446_db65958c_20260808.png?v=db65958c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9a0e520b59",
-          "name": "Joshua Filler vs Sanjin Pehlivanovic (5win) | 03:30 08/08 | BÚN CHÓ",
+          "id": "chtv-4c4adad343",
+          "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ | 00:00 08/08 | SPCHOANG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-9a0e520b59",
+              "id": "src-4c4adad343",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9a0e520b59",
-                  "name": "Joshua Filler vs Sanjin Pehlivanovic (5win)",
+                  "id": "ct-4c4adad343",
+                  "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ",
                   "streams": [
                     {
-                      "id": "st-9a0e520b59",
+                      "id": "st-4c4adad343",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9a0e520b59",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-4c4adad343",
+                          "name": "SPCHOANG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5893/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5808/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,13 +356,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2  Round 3 - Race to 10",
-            "team_a": "Joshua Filler",
-            "team_b": "Sanjin Pehlivanovic (5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786129866033_Joshua Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786129944759_Sanjin Pehlivanovic.jpg",
-            "time": "03:30 08/08",
-            "caster": "BÚN CHÓ",
+            "league": "THẦY HUẤN CÓ BỊ CÁC CHÚ TẤT XANH BẾ ĐI KHÔNG",
+            "team_a": "CHẮC CHẮN BẾ",
+            "team_b": "E LÀ KHÔNG THỂ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786017322858_images (5).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786017330960_images (4).jpg",
+            "time": "00:00 08/08",
+            "caster": "SPCHOANG",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a0e520b59_aa8ee74a_20260808.png?v=aa8ee74a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c4adad343_f281725c_20260808.png?v=f281725c",
             "width": 1600,
             "height": 1200
           }
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1b5d8e86b7_5420ef48_20260808.png?v=5420ef48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9a0e520b59",
+          "name": "Joshua Filler vs Sanjin Pehlivanovic (5win) | 03:30 08/08 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a0e520b59",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9a0e520b59",
+                  "name": "Joshua Filler vs Sanjin Pehlivanovic (5win)",
+                  "streams": [
+                    {
+                      "id": "st-9a0e520b59",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a0e520b59",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5893/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Round 3 - Race to 10",
+            "team_a": "Joshua Filler",
+            "team_b": "Sanjin Pehlivanovic (5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786129866033_Joshua Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786129944759_Sanjin Pehlivanovic.jpg",
+            "time": "03:30 08/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a0e520b59_aa8ee74a_20260808.png?v=aa8ee74a",
             "width": 1600,
             "height": 1200
           }
