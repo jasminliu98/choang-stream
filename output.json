@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3031081dcb",
-          "name": "Francisco Sánchez Ruiz vs Gerson Martinez Boza | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3031081dcb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3031081dcb",
-                  "name": "Francisco Sánchez Ruiz vs Gerson Martinez Boza",
-                  "streams": [
-                    {
-                      "id": "st-3031081dcb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3031081dcb",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5871/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 |  Round 2 - Race to 10",
-            "team_a": "Francisco Sánchez Ruiz",
-            "team_b": "Gerson Martinez Boza",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786106603061_Francisco SÃ¡nchez Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786106630806_Gerson Martinez Boza.jpg",
-            "time": "10:00 07/08",
-            "caster": "VÁNG",
-            "score": "9-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3031081dcb_c4ae242e_20260807.png?v=c4ae242e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-cf43938b80",
           "name": "HOÀNG SAO vs Sullivan Clark | BÚN CHÓ",
@@ -155,79 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cf43938b80_4bae3780_20260807.png?v=4bae3780",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3ac3ba13b2",
-          "name": "Elliott Sanderson vs Tyler Styer | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ac3ba13b2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3ac3ba13b2",
-                  "name": "Elliott Sanderson vs Tyler Styer",
-                  "streams": [
-                    {
-                      "id": "st-3ac3ba13b2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ac3ba13b2",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5884/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  | Round 2 - Race to 10",
-            "team_a": "Elliott Sanderson",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786112284531_Elliott Sanderson.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786112291590_Tyler Styer.jpg",
-            "time": "23:45 07/08",
-            "caster": "Bỉm Sữa",
-            "score": "2-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ac3ba13b2_b5c92ff6_20260807.png?v=b5c92ff6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cf43938b80_4bae3780_20260808.png?v=4bae3780",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9c757d6bbc_e0ab9e37_20260807.png?v=e0ab9e37",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9c757d6bbc_e0ab9e37_20260808.png?v=e0ab9e37",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786111155451_John Morra.jpg",
             "time": "23:45 07/08",
             "caster": "Thập Cẩm",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": false
           },
@@ -371,44 +227,44 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ba44718051_8d02150c_20260807.png?v=8d02150c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ba44718051_8d02150c_20260808.png?v=8d02150c",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-add5855c96",
-          "name": "Kledio Kaci vs Harrison Leinen(7win) | 01:45 07/08 | BÚN CHÓ",
+          "id": "chtv-3ac3ba13b2",
+          "name": "Elliott Sanderson vs Tyler Styer | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-add5855c96",
+              "id": "src-3ac3ba13b2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-add5855c96",
-                  "name": "Kledio Kaci vs Harrison Leinen(7win)",
+                  "id": "ct-3ac3ba13b2",
+                  "name": "Elliott Sanderson vs Tyler Styer",
                   "streams": [
                     {
-                      "id": "st-add5855c96",
+                      "id": "st-3ac3ba13b2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-add5855c96",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-3ac3ba13b2",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5886/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5884/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,22 +284,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 | Round 2 - Race to 10",
-            "team_a": "Kledio Kaci",
-            "team_b": "Harrison Leinen(7win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786113579959_Kledio Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786113583411_Harrison Leinen.jpg",
-            "time": "01:45 07/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
+            "league": "TV4  | Round 2 - Race to 10",
+            "team_a": "Elliott Sanderson",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786112284531_Elliott Sanderson.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786112291590_Tyler Styer.jpg",
+            "time": "23:45 07/08",
+            "caster": "Bỉm Sữa",
+            "score": "2-1",
+            "is_live": true,
             "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-add5855c96_41a665be_20260807.png?v=41a665be",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3ac3ba13b2_b5c92ff6_20260808.png?v=b5c92ff6",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bb73739465_68da3155_20260807.png?v=68da3155",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bb73739465_68da3155_20260808.png?v=68da3155",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25eeaf6446_db65958c_20260807.png?v=db65958c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25eeaf6446_db65958c_20260808.png?v=db65958c",
             "width": 1600,
             "height": 1200
           }
