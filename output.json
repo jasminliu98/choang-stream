@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b5d5490110",
-          "name": "Nam Phong vs Eric Ng | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5d5490110",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b5d5490110",
-                  "name": "Nam Phong vs Eric Ng",
-                  "streams": [
-                    {
-                      "id": "st-b5d5490110",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b5d5490110",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5841/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 TUẦN 1 - 99TEAM SELECTION",
-            "team_a": "Nam Phong",
-            "team_b": "Eric Ng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786077008004_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786077007621_vn.png",
-            "time": "11:35 07/08",
-            "caster": "Bỉm Sữa",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b5d5490110_4a435fc2_20260807.png?v=4a435fc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a1707a79cd",
           "name": "Tyler Styer(10win) vs Dean Shields(8win) | 03:01 07/08 | GIÀNG A PHỌ",
