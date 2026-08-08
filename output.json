@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-59e82dda65",
-          "name": "Dũng Moi vs Tú Tây | Tào A Man",
+          "id": "chtv-79eaa2b8d6",
+          "name": "Văn Sinh vs Trung Nấm | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-59e82dda65",
+              "id": "src-79eaa2b8d6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-59e82dda65",
-                  "name": "Dũng Moi vs Tú Tây",
+                  "id": "ct-79eaa2b8d6",
+                  "name": "Văn Sinh vs Trung Nấm",
                   "streams": [
                     {
-                      "id": "st-59e82dda65",
+                      "id": "st-79eaa2b8d6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-59e82dda65",
-                          "name": "Tào A Man",
+                          "id": "lnk-79eaa2b8d6",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5929/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5927/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "V2 99Billiards",
-            "team_a": "Dũng Moi",
-            "team_b": "Tú Tây",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786170886207_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786170885922_vn.png",
+            "team_a": "Văn Sinh",
+            "team_b": "Trung Nấm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786170661620_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786170661324_vn.png",
             "time": "14:00 08/08",
-            "caster": "Tào A Man",
-            "score": "2-3",
+            "caster": "Lee Min Hoo",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-59e82dda65_8bf36930_20260808.png?v=8bf36930",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-79eaa2b8d6_8346b0fa_20260808.png?v=8346b0fa",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786170729154_vn.png",
             "time": "14:00 08/08",
             "caster": "SÊ KÔÔ",
-            "score": "3-3",
+            "score": "3-5",
             "is_live": true,
             "hot": true
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-79eaa2b8d6",
-          "name": "Văn Sinh vs Trung Nấm | Lee Min Hoo",
+          "id": "chtv-59e82dda65",
+          "name": "Dũng Moi vs Tú Tây | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-79eaa2b8d6",
+              "id": "src-59e82dda65",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-79eaa2b8d6",
-                  "name": "Văn Sinh vs Trung Nấm",
+                  "id": "ct-59e82dda65",
+                  "name": "Dũng Moi vs Tú Tây",
                   "streams": [
                     {
-                      "id": "st-79eaa2b8d6",
+                      "id": "st-59e82dda65",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-79eaa2b8d6",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-59e82dda65",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5927/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5929/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,13 +285,13 @@
           ],
           "org_metadata": {
             "league": "V2 99Billiards",
-            "team_a": "Văn Sinh",
-            "team_b": "Trung Nấm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786170661620_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786170661324_vn.png",
+            "team_a": "Dũng Moi",
+            "team_b": "Tú Tây",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786170886207_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786170885922_vn.png",
             "time": "14:00 08/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-2",
+            "caster": "Tào A Man",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-79eaa2b8d6_8346b0fa_20260808.png?v=8346b0fa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-59e82dda65_8bf36930_20260808.png?v=8bf36930",
             "width": 1600,
             "height": 1200
           }
