@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "00:00 08/08",
             "caster": "SÊ KÔÔ",
-            "score": "7-9",
+            "score": "8-9",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "20:18 08/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "14-16",
+            "score": "14-17",
             "is_live": true,
             "hot": true
           },
@@ -306,7 +306,7 @@
         },
         {
           "id": "chtv-1a7dda7a54",
-          "name": "Francisco Sánchez Ruiz vs AJ Manas | 23:59 08/08 | VÁNG",
+          "name": "Francisco Sánchez Ruiz vs AJ Manas | 23:00 08/08 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -361,7 +361,7 @@
             "team_b": "AJ Manas",
             "logo_a": "https://cdn-choangtv.com/img/logo/1786188603224_Francisco SÃ¡nchez Ruiz.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1786188607523_AJ MANAS.jpg",
-            "time": "23:59 08/08",
+            "time": "23:00 08/08",
             "caster": "VÁNG",
             "score": "0-0",
             "is_live": false,
