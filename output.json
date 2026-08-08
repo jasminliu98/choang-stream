@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-4da320e7f0",
-          "name": "Thiện Lương(9win) vs Quang Thiện(4win) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4da320e7f0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4da320e7f0",
-                  "name": "Thiện Lương(9win) vs Quang Thiện(4win)",
-                  "streams": [
-                    {
-                      "id": "st-4da320e7f0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4da320e7f0",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5900/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "Thiện Lương(9win)",
-            "team_b": "Quang Thiện(4win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
-            "time": "10:00 08/08",
-            "caster": "Đại Kê",
-            "score": "8-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4da320e7f0_43fa2afa_20260808.png?v=43fa2afa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4c4adad343",
           "name": "CHẮC CHẮN BẾ vs E LÀ KHÔNG THỂ | 00:00 08/08 | SPCHOANG",
           "type": "single",
@@ -305,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-8e4aa12879",
-          "name": "Bình Chuẩn vs Minh Tước(6win) | 12:00 08/08 | Bỉm Sữa",
+          "id": "chtv-d072786fda",
+          "name": "Duy Đinh vs Châu Chấu(8win) | 12:00 08/08 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-8e4aa12879",
+              "id": "src-d072786fda",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8e4aa12879",
-                  "name": "Bình Chuẩn vs Minh Tước(6win)",
+                  "id": "ct-d072786fda",
+                  "name": "Duy Đinh vs Châu Chấu(8win)",
                   "streams": [
                     {
-                      "id": "st-8e4aa12879",
+                      "id": "st-d072786fda",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8e4aa12879",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-d072786fda",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5924/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5923/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,12 +285,12 @@
           ],
           "org_metadata": {
             "league": "99Billiards",
-            "team_a": "Bình Chuẩn",
-            "team_b": "Minh Tước(6win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786162695817_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786162694864_vn.png",
+            "team_a": "Duy Đinh",
+            "team_b": "Châu Chấu(8win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786162581386_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786162581066_vn.png",
             "time": "12:00 08/08",
-            "caster": "Bỉm Sữa",
+            "caster": "Lee Min Hoo",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -371,79 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8e4aa12879_673bb39b_20260808.png?v=673bb39b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7b76c46039",
-          "name": "An Nhiệt vs Đạt Phi(5win) | 12:00 08/08 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b76c46039",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b76c46039",
-                  "name": "An Nhiệt vs Đạt Phi(5win)",
-                  "streams": [
-                    {
-                      "id": "st-7b76c46039",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b76c46039",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5906/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "An Nhiệt",
-            "team_b": "Đạt Phi(5win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
-            "time": "12:00 08/08",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b76c46039_9fc7059c_20260808.png?v=9fc7059c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d072786fda_19af8771_20260808.png?v=19af8771",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-d072786fda",
-          "name": "Duy Đinh vs Châu Chấu(8win) | 12:00 08/08 | Lee Min Hoo",
+          "id": "chtv-7b76c46039",
+          "name": "An Nhiệt vs Đạt Phi(5win) | 12:00 08/08 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-d072786fda",
+              "id": "src-7b76c46039",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d072786fda",
-                  "name": "Duy Đinh vs Châu Chấu(8win)",
+                  "id": "ct-7b76c46039",
+                  "name": "An Nhiệt vs Đạt Phi(5win)",
                   "streams": [
                     {
-                      "id": "st-d072786fda",
+                      "id": "st-7b76c46039",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d072786fda",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-7b76c46039",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5923/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5906/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -573,12 +429,12 @@
           ],
           "org_metadata": {
             "league": "99Billiards",
-            "team_a": "Duy Đinh",
-            "team_b": "Châu Chấu(8win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786162581386_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786162581066_vn.png",
+            "team_a": "An Nhiệt",
+            "team_b": "Đạt Phi(5win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "12:00 08/08",
-            "caster": "Lee Min Hoo",
+            "caster": "Đại Kê",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -587,7 +443,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d072786fda_19af8771_20260808.png?v=19af8771",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b76c46039_9fc7059c_20260808.png?v=9fc7059c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8e4aa12879",
+          "name": "Bình Chuẩn vs Minh Tước(6win) | 12:00 08/08 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e4aa12879",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8e4aa12879",
+                  "name": "Bình Chuẩn vs Minh Tước(6win)",
+                  "streams": [
+                    {
+                      "id": "st-8e4aa12879",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e4aa12879",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5924/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99Billiards",
+            "team_a": "Bình Chuẩn",
+            "team_b": "Minh Tước(6win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786162695817_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786162694864_vn.png",
+            "time": "12:00 08/08",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8e4aa12879_673bb39b_20260808.png?v=673bb39b",
             "width": 1600,
             "height": 1200
           }
