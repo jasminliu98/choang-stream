@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-fd3ef485de",
-          "name": "Tkon vs Linh Kun(4win) | SÊ KÔÔ",
+          "id": "chtv-5aa135d28d",
+          "name": "Văn Sinh(8win) vs Mạnh Xoăn | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-fd3ef485de",
+              "id": "src-5aa135d28d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fd3ef485de",
-                  "name": "Tkon vs Linh Kun(4win)",
+                  "id": "ct-5aa135d28d",
+                  "name": "Văn Sinh(8win) vs Mạnh Xoăn",
                   "streams": [
                     {
-                      "id": "st-fd3ef485de",
+                      "id": "st-5aa135d28d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fd3ef485de",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-5aa135d28d",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5902/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5921/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "99Billiards",
-            "team_a": "Tkon",
-            "team_b": "Linh Kun(4win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "team_a": "Văn Sinh(8win)",
+            "team_b": "Mạnh Xoăn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786155295563_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786155295159_vn.png",
             "time": "10:00 08/08",
-            "caster": "SÊ KÔÔ",
-            "score": "8-2",
+            "caster": "Lee Min Hoo",
+            "score": "5-7",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd3ef485de_9fc7059c_20260808.png?v=9fc7059c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5aa135d28d_766968fa_20260808.png?v=766968fa",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786155522484_vn.png",
             "time": "10:00 08/08",
             "caster": "Tào A Man",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_táº£i xuá»ng.png",
             "time": "10:00 08/08",
             "caster": "Đại Kê",
-            "score": "3-4",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4da320e7f0_43fa2afa_20260808.png?v=43fa2afa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5aa135d28d",
-          "name": "Văn Sinh(8win) vs Mạnh Xoăn | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5aa135d28d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5aa135d28d",
-                  "name": "Văn Sinh(8win) vs Mạnh Xoăn",
-                  "streams": [
-                    {
-                      "id": "st-5aa135d28d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5aa135d28d",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5921/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "Văn Sinh(8win)",
-            "team_b": "Mạnh Xoăn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786155295563_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786155295159_vn.png",
-            "time": "10:00 08/08",
-            "caster": "Lee Min Hoo",
-            "score": "4-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5aa135d28d_766968fa_20260808.png?v=766968fa",
             "width": 1600,
             "height": 1200
           }
