@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-282e13a3ce",
+          "name": "Phúc Long vs Duy Đinh | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-282e13a3ce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-282e13a3ce",
+                  "name": "Phúc Long vs Duy Đinh",
+                  "streams": [
+                    {
+                      "id": "st-282e13a3ce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-282e13a3ce",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5926/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv19.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V2 99Billiards",
+            "team_a": "Phúc Long",
+            "team_b": "Duy Đinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786170528193_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786170527828_vn.png",
+            "time": "14:00 08/08",
+            "caster": "Bỉm Sữa",
+            "score": "7-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-282e13a3ce_f68da9fe_20260808.png?v=f68da9fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-59e82dda65",
           "name": "Dũng Moi vs Tú Tây | Tào A Man",
           "type": "single",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786170885922_vn.png",
             "time": "14:00 08/08",
             "caster": "Tào A Man",
-            "score": "7-5",
+            "score": "7-6",
             "is_live": true,
             "hot": true
           },
@@ -161,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-282e13a3ce",
-          "name": "Phúc Long vs Duy Đinh | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-282e13a3ce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-282e13a3ce",
-                  "name": "Phúc Long vs Duy Đinh",
-                  "streams": [
-                    {
-                      "id": "st-282e13a3ce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-282e13a3ce",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5926/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv19.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V2 99Billiards",
-            "team_a": "Phúc Long",
-            "team_b": "Duy Đinh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786170528193_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786170527828_vn.png",
-            "time": "14:00 08/08",
-            "caster": "Bỉm Sữa",
-            "score": "7-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-282e13a3ce_f68da9fe_20260808.png?v=f68da9fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b01391285a",
           "name": "Hoàng Vũng Tàu vs Sỹ Nguyên | Đại Kê",
           "type": "single",
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
             "time": "14:36 08/08",
             "caster": "Đại Kê",
-            "score": "10-14",
+            "score": "11-14",
             "is_live": true,
             "hot": true
           },
