@@ -73,7 +73,7 @@ HEADERS = {
     "Referer": "https://choangtv.com/",
 }
 
-API_URL      = "https://api.choangtv.com/matchSchedule/getList"
+API_URL      = "https://api.choangtv20.com/matchSchedule/getList"
 CDN_BASE     = "https://cdn.sports-cas889abxfileposo.site/live"
 SITE_URL     = "https://choangtv.com"
 THUMBS_DIR   = "thumbs"
