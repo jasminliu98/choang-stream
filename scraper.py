@@ -75,7 +75,7 @@ HEADERS = {
 
 API_URL      = "https://api.choangtv20.com/matchSchedule/getList"
 CDN_BASE     = "https://cdn.sports-cas889abxfileposo.site/live"
-SITE_URL     = "https://choangtv.com"
+SITE_URL     = "https://choangtv20.com"
 THUMBS_DIR   = "thumbs"
 REPO_RAW     = os.environ.get("REPO_RAW", "")
 THUMB_VER    = "v1"
