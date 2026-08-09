@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786271372952_JesÃºs Atencio.jpg",
             "time": "23:59 09/08",
             "caster": "BÚN CHÓ",
-            "score": "7-3",
+            "score": "8-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786273029999_JesÃºs Atencio.jpg",
             "time": "23:59 09/08",
             "caster": "Tào A Man",
-            "score": "7-3",
+            "score": "8-3",
             "is_live": true,
             "hot": false
           },
@@ -162,16 +162,16 @@
         },
         {
           "id": "chtv-a6df83c67a",
-          "name": "Shane Van Boening vs Eklent Kaci | 02:00 10/08 | BÚN CHÓ",
+          "name": "Shane Van Boening vs Eklent Kaci | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "02:00 10/08",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
