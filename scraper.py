@@ -47,8 +47,9 @@ def format_match_time(time_str: str) -> str:
 def parse_time_sort(time_str: str) -> int:
     dt = parse_kickoff(time_str)
     if dt:
-        return dt.hour * 100 + dt.minute
-    return 9999
+        # QUAN TRỌNG: Đổi sang timestamp (số giây) để sắp xếp chuẩn thứ tự thời gian cho nhiều ngày
+        return int(dt.timestamp())
+    return 9999999999
 
 
 def make_id(text, prefix):
@@ -215,9 +216,12 @@ def cleanup_old_thumbs(days: int = 3):
 
 def get_matches():
     today = now_vn()
-    dates_to_fetch = [today]
-    if today.hour >= 18:
-        dates_to_fetch.append(today + timedelta(days=1))
+    
+    # CẤU HÌNH: Số ngày muốn lấy lịch thi đấu (ví dụ: 7 nghĩa là lấy hôm nay và 6 ngày tới)
+    NUM_DAYS_TO_FETCH = 7 
+    
+    # Tạo danh sách các ngày tương ứng
+    dates_to_fetch = [today + timedelta(days=i) for i in range(NUM_DAYS_TO_FETCH)]
 
     all_matches = []
     seen_ids    = set()
@@ -286,6 +290,7 @@ def get_matches():
                 "stream_url":   f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
+    # Sắp xếp: Trận đang LIVE lên trước, sau đó theo thứ tự thời gian thực tế (timestamp)
     all_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return all_matches
 
