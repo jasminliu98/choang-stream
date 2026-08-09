@@ -1,12 +1,12 @@
 {
   "id": "choangtv",
-  "url": "https://choangtv19.com",
+  "url": "https://choangtv.com",
   "name": "ChoangTV",
   "color": "#a37ef2",
   "grid_number": 3,
   "image": {
     "type": "cover",
-    "url": "https://choangtv19.com/__og-image__/image/og.png"
+    "url": "https://choangtv.com/__og-image__/image/og.png"
   },
   "groups": [
     {
