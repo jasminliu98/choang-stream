@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
             "time": "19:23 09/08",
             "caster": "Thập Cẩm",
-            "score": "17-15",
+            "score": "19-15",
             "is_live": true,
             "hot": false
           },
@@ -84,6 +84,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d0c17a85b_7c55fd8f_20260809.png?v=7c55fd8f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5ab8b61f9f",
+          "name": "Alexander Kazakis vs Jesús Atencio | 23:59 09/08 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5ab8b61f9f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5ab8b61f9f",
+                  "name": "Alexander Kazakis vs Jesús Atencio",
+                  "streams": [
+                    {
+                      "id": "st-5ab8b61f9f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ab8b61f9f",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5995/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 1 |    Florida Open",
+            "team_a": "Alexander Kazakis",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786271362018_Alexander Kazakis.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786271372952_JesÃºs Atencio.jpg",
+            "time": "23:59 09/08",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5ab8b61f9f_11ab7131_20260809.png?v=11ab7131",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-86ebc52d1b",
+          "name": "Alexander Kazakis vs Jesús Atencio(8win) | 23:59 09/08 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86ebc52d1b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-86ebc52d1b",
+                  "name": "Alexander Kazakis vs Jesús Atencio(8win)",
+                  "streams": [
+                    {
+                      "id": "st-86ebc52d1b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86ebc52d1b",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5997/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 1 | Florida Open kèo chấp",
+            "team_a": "Alexander Kazakis",
+            "team_b": "Jesús Atencio(8win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786273025155_Alexander Kazakis.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786273029999_JesÃºs Atencio.jpg",
+            "time": "23:59 09/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-86ebc52d1b_36cf062d_20260809.png?v=36cf062d",
             "width": 1600,
             "height": 1200
           }
