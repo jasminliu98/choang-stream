@@ -70,7 +70,7 @@ def fetch_image(url):
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://choangtv.com/",
+    "Referer": "https://choangtv20.com/",
 }
 
 API_URL      = "https://api.choangtv20.com/matchSchedule/getList"
@@ -318,7 +318,7 @@ def build_channel(match, thumb_url=""):
         "default": True,
         "url":     match["stream_url"],
         "request_headers": [
-            {"key": "Referer",    "value": "https://choangtv.com/"},
+            {"key": "Referer",    "value": "https://choangtv20.com/"},
             {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
         ],
     }]
