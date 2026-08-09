@@ -70,12 +70,12 @@ def fetch_image(url):
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://choangtv19.com/",
+    "Referer": "https://choangtv.com/",
 }
 
-API_URL      = "https://api.choangtv19.com/matchSchedule/getList"
+API_URL      = "https://api.choangtv.com/matchSchedule/getList"
 CDN_BASE     = "https://cdn.sports-cas889abxfileposo.site/live"
-SITE_URL     = "https://choangtv19.com"
+SITE_URL     = "https://choangtv.com"
 THUMBS_DIR   = "thumbs"
 REPO_RAW     = os.environ.get("REPO_RAW", "")
 THUMB_VER    = "v1"
@@ -318,7 +318,7 @@ def build_channel(match, thumb_url=""):
         "default": True,
         "url":     match["stream_url"],
         "request_headers": [
-            {"key": "Referer",    "value": "https://choangtv19.com/"},
+            {"key": "Referer",    "value": "https://choangtv.com/"},
             {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
         ],
     }]
