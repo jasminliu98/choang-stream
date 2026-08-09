@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-86ebc52d1b",
-          "name": "Alexander Kazakis vs Jesús Atencio(8win) | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86ebc52d1b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-86ebc52d1b",
-                  "name": "Alexander Kazakis vs Jesús Atencio(8win)",
-                  "streams": [
-                    {
-                      "id": "st-86ebc52d1b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86ebc52d1b",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live5997/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT 1 | Florida Open kèo chấp",
-            "team_a": "Alexander Kazakis",
-            "team_b": "Jesús Atencio(8win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786273025155_Alexander Kazakis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786273029999_JesÃºs Atencio.jpg",
-            "time": "23:59 09/08",
-            "caster": "Tào A Man",
-            "score": "10-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-86ebc52d1b_36cf062d_20260810.png?v=36cf062d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a6df83c67a",
           "name": "Shane Van Boening vs Eklent Kaci | BÚN CHÓ",
