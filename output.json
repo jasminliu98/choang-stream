@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-146cacd1c2_8adedd72_20260810.png?v=8adedd72",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d9a1245787",
-          "name": "Hải rô vs Thừa văn phúc | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d9a1245787",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d9a1245787",
-                  "name": "Hải rô vs Thừa văn phúc",
-                  "streams": [
-                    {
-                      "id": "st-d9a1245787",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d9a1245787",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6020/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Game 3 hải thừa",
-            "team_a": "Hải rô",
-            "team_b": "Thừa văn phúc",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "18:00 10/08",
-            "caster": "Đại Kê",
-            "score": "14-11",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d9a1245787_6654c734_20260810.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
