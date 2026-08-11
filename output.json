@@ -90,7 +90,7 @@
         },
         {
           "id": "chtv-3218ec8a04",
-          "name": "cơ thủ 1 vs cơ thủ 2 | GIÀNG A PHỌ",
+          "name": "JAMES DEAN TIU vs RANIEL SALINEL | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-3218ec8a04",
-                  "name": "cơ thủ 1 vs cơ thủ 2",
+                  "name": "JAMES DEAN TIU vs RANIEL SALINEL",
                   "streams": [
                     {
                       "id": "st-3218ec8a04",
@@ -141,8 +141,8 @@
           ],
           "org_metadata": {
             "league": "Sharks Billiards Association Hạng Thương Gia",
-            "team_a": "cơ thủ 1",
-            "team_b": "cơ thủ 2",
+            "team_a": "JAMES DEAN TIU",
+            "team_b": "RANIEL SALINEL",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "20:45 11/08",
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "21:00 11/08",
             "caster": "BÚN CHÓ",
-            "score": "4-3",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
