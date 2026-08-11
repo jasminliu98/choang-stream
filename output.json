@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_táº£i xuá»ng.png",
             "time": "00:00 11/08",
             "caster": "Lee Min Hoo",
-            "score": "6-6",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "00:00 11/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-4",
+            "score": "0-5",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "13:49 11/08",
             "caster": "Đại Kê",
-            "score": "6-3",
+            "score": "4-6",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "14:14 11/08",
             "caster": "Bỉm Sữa",
-            "score": "7-3",
+            "score": "8-3",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0fef386f4_a191b290_20260811.png?v=a191b290",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dc395f7a36",
-          "name": "Cơ thủ điểm đỏ vs Cơ thủ điểm xanh | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc395f7a36",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dc395f7a36",
-                  "name": "Cơ thủ điểm đỏ vs Cơ thủ điểm xanh",
-                  "streams": [
-                    {
-                      "id": "st-dc395f7a36",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc395f7a36",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6046/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải ngày 99 billiard trận 2",
-            "team_a": "Cơ thủ điểm đỏ",
-            "team_b": "Cơ thủ điểm xanh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
-            "time": "14:45 11/08",
-            "caster": "Xinh Yeu",
-            "score": "3-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc395f7a36_21bac56c_20260811.png?v=21bac56c",
             "width": 1600,
             "height": 1200
           }
