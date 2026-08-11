@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "chtv-3fc2789ec7",
+          "name": "ANDREY ESIPENKO vs ? | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3fc2789ec7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3fc2789ec7",
+                  "name": "ANDREY ESIPENKO vs ?",
+                  "streams": [
+                    {
+                      "id": "st-3fc2789ec7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fc2789ec7",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6067/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHUNG KẾT NHÁNH THUA CỜ VUA ESPORTS",
+            "team_a": "ANDREY ESIPENKO",
+            "team_b": "?",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786465126872_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-11 210136.png",
+            "logo_b": "",
+            "time": "00:00 11/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3fc2789ec7_5cc30d15_20260811.png?v=5cc30d15",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
