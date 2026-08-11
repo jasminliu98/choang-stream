@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c7d3fdca25",
-          "name": "MICHAEL FELICIANO vs NONDA | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c7d3fdca25",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c7d3fdca25",
-                  "name": "MICHAEL FELICIANO vs NONDA",
-                  "streams": [
-                    {
-                      "id": "st-c7d3fdca25",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c7d3fdca25",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6048/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "3RD IBALONG FESTIVAL 9-BALL BILLIARD TOURNAMENT\"",
-            "team_a": "MICHAEL FELICIANO",
-            "team_b": "NONDA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "time": "00:00 11/08",
-            "caster": "Lee Min Hoo",
-            "score": "4-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c7d3fdca25_ab14e79c_20260811.png?v=ab14e79c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-56c5bae726",
           "name": "Huy Phú thọ vs ngọc | Kèn Kèn",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "00:00 11/08",
             "caster": "Kèn Kèn",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-56c5bae726_2f5e7c71_20260811.png?v=2f5e7c71",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c7d3fdca25",
+          "name": "MICHAEL FELICIANO vs NONDA | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7d3fdca25",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c7d3fdca25",
+                  "name": "MICHAEL FELICIANO vs NONDA",
+                  "streams": [
+                    {
+                      "id": "st-c7d3fdca25",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c7d3fdca25",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6048/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "3RD IBALONG FESTIVAL 9-BALL BILLIARD TOURNAMENT\"",
+            "team_a": "MICHAEL FELICIANO",
+            "team_b": "NONDA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "time": "00:00 11/08",
+            "caster": "Lee Min Hoo",
+            "score": "6-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c7d3fdca25_ab14e79c_20260811.png?v=ab14e79c",
             "width": 1600,
             "height": 1200
           }
@@ -233,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-654a8b490b",
-          "name": "Thành Nam vs Tú Tây | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-654a8b490b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-654a8b490b",
-                  "name": "Thành Nam vs Tú Tây",
-                  "streams": [
-                    {
-                      "id": "st-654a8b490b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-654a8b490b",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6026/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida top top",
-            "team_a": "Thành Nam",
-            "team_b": "Tú Tây",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786425793140_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786425792790_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "12:20 11/08",
-            "caster": "SÊ KÔÔ",
-            "score": "12-9",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-654a8b490b_e3ad4932_20260811.png?v=e3ad4932",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a0fef386f4",
           "name": "JOHANN CHUA vs BRYANT SAGUIPED | Bỉm Sữa",
           "type": "single",
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "14:14 11/08",
             "caster": "Bỉm Sữa",
-            "score": "3-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
             "time": "14:45 11/08",
             "caster": "Xinh Yeu",
-            "score": "1-6",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "14:48 11/08",
             "caster": "Thập Cẩm",
-            "score": "6-6",
+            "score": "7-6",
             "is_live": true,
             "hot": true
           },
