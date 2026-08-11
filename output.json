@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-baf7da9537",
-          "name": "JAYBEE SUCAL vs CHARLS LADIANA (8-10) | Kèn Kèn",
+          "id": "chtv-0758acfb1d",
+          "name": "KÌ THỦ 1 vs KÌ THỦ 2 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-baf7da9537",
+              "id": "src-0758acfb1d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-baf7da9537",
-                  "name": "JAYBEE SUCAL vs CHARLS LADIANA (8-10)",
+                  "id": "ct-0758acfb1d",
+                  "name": "KÌ THỦ 1 vs KÌ THỦ 2",
                   "streams": [
                     {
-                      "id": "st-baf7da9537",
+                      "id": "st-0758acfb1d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-baf7da9537",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-0758acfb1d",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6062/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6064/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,22 @@
             }
           ],
           "org_metadata": {
-            "league": "EXHIBITION MATCH IN LEGAZPI",
-            "team_a": "JAYBEE SUCAL",
-            "team_b": "CHARLS LADIANA (8-10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786453935404_JAYBEE SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "league": "ESPORTS WORLD CUP 2026 - CHESS - 11/8 - LUỒNG B",
+            "team_a": "KÌ THỦ 1",
+            "team_b": "KÌ THỦ 2",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226076176_de.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226076176_de.png",
             "time": "00:00 11/08",
-            "caster": "Kèn Kèn",
-            "score": "11-5",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
             "is_live": true,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-baf7da9537_5b940fcb_20260811.png?v=5b940fcb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0758acfb1d_11d23861_20260811.png?v=11d23861",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "21:00 11/08",
             "caster": "BÚN CHÓ",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
