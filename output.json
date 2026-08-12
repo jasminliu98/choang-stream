@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -306,16 +306,16 @@
         },
         {
           "id": "chtv-cba3fdd70a",
-          "name": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨 vs ANTONIO LINING | 15:00 12/08 | SÊ KÔÔ",
+          "name": "𝙀𝙛𝙧𝙚𝙣 \"𝘽𝙖𝙩𝙖\" 𝙍𝙚𝙮𝙚𝙨 vs ANTONIO LINING | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "15:00 12/08",
             "caster": "SÊ KÔÔ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
