@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3dc156ad93",
-          "name": "Raymart Camomot(-2,5) vs JAYBEE SUCAL(+2,5) | Tào A Man",
+          "id": "chtv-ac8f81952f",
+          "name": "Raymart Camomot vs JAYBEE SUCAL | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-3dc156ad93",
+              "id": "src-ac8f81952f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3dc156ad93",
-                  "name": "Raymart Camomot(-2,5) vs JAYBEE SUCAL(+2,5)",
+                  "id": "ct-ac8f81952f",
+                  "name": "Raymart Camomot vs JAYBEE SUCAL",
                   "streams": [
                     {
-                      "id": "st-3dc156ad93",
+                      "id": "st-ac8f81952f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3dc156ad93",
-                          "name": "Tào A Man",
+                          "id": "lnk-ac8f81952f",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6069/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6068/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
-            "team_a": "Raymart Camomot(-2,5)",
-            "team_b": "JAYBEE SUCAL(+2,5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786478732984_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-12 030135.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786478705846_JAYBEE SUCAL.jpg",
+            "league": "Sharks Billiards Association Hạng Thương Gia",
+            "team_a": "Raymart Camomot",
+            "team_b": "JAYBEE SUCAL",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786478624901_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-12 030135.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786478641760_JAYBEE SUCAL.jpg",
             "time": "09:00 12/08",
-            "caster": "Tào A Man",
-            "score": "0-0",
+            "caster": "VÁNG",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3dc156ad93_5312a149_20260812.png?v=5312a149",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ac8f81952f_5bf497fd_20260812.png?v=5bf497fd",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786478819763_JAYBEE SUCAL.jpg",
             "time": "09:00 12/08",
             "caster": "BÚN CHÓ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-ac8f81952f",
-          "name": "Raymart Camomot vs JAYBEE SUCAL | VÁNG",
+          "id": "chtv-3dc156ad93",
+          "name": "Raymart Camomot(-2,5) vs JAYBEE SUCAL(+2,5) | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-ac8f81952f",
+              "id": "src-3dc156ad93",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ac8f81952f",
-                  "name": "Raymart Camomot vs JAYBEE SUCAL",
+                  "id": "ct-3dc156ad93",
+                  "name": "Raymart Camomot(-2,5) vs JAYBEE SUCAL(+2,5)",
                   "streams": [
                     {
-                      "id": "st-ac8f81952f",
+                      "id": "st-3dc156ad93",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ac8f81952f",
-                          "name": "VÁNG",
+                          "id": "lnk-3dc156ad93",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6068/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6069/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia",
-            "team_a": "Raymart Camomot",
-            "team_b": "JAYBEE SUCAL",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786478624901_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-12 030135.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786478641760_JAYBEE SUCAL.jpg",
+            "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
+            "team_a": "Raymart Camomot(-2,5)",
+            "team_b": "JAYBEE SUCAL(+2,5)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786478732984_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-12 030135.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786478705846_JAYBEE SUCAL.jpg",
             "time": "09:00 12/08",
-            "caster": "VÁNG",
-            "score": "0-0",
+            "caster": "Tào A Man",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ac8f81952f_5bf497fd_20260812.png?v=5bf497fd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3dc156ad93_5312a149_20260812.png?v=5312a149",
             "width": 1600,
             "height": 1200
           }
