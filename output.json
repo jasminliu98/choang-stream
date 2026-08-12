@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-81609749dd",
+          "name": "HÙNG MODRIC vs MINH QD | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81609749dd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-81609749dd",
+                  "name": "HÙNG MODRIC vs MINH QD",
+                  "streams": [
+                    {
+                      "id": "st-81609749dd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-81609749dd",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6108/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI POOL 9 BALL RANK G – H",
+            "team_a": "HÙNG MODRIC",
+            "team_b": "MINH QD",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "time": "00:00 12/08",
+            "caster": "Tào A Man",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-81609749dd_95f0d161_20260812.png?v=95f0d161",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4760461849",
           "name": "JEFF IGNACIO vs ASSIS TADIQUE | Kèn Kèn",
@@ -77,7 +149,7 @@
             "caster": "Kèn Kèn",
             "score": "5-4",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -149,7 +221,7 @@
             "caster": "BÚN CHÓ",
             "score": "10-8",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -221,7 +293,7 @@
             "caster": "Lee Min Hoo",
             "score": "6-5",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
