@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-8d55028f79",
-          "name": "BASETH MOCAIBAT(9WIN) vs RONALO CAYETANO(5WIN) | Tào A Man",
+          "id": "chtv-dd20b18259",
+          "name": "𝐑𝐇𝐀𝐊𝐈 𝐑𝐎𝐉 𝐂𝐎𝐍𝐒𝐓𝐀𝐍𝐓𝐈𝐍𝐎 vs TROY ESPIRITU | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-8d55028f79",
+              "id": "src-dd20b18259",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8d55028f79",
-                  "name": "BASETH MOCAIBAT(9WIN) vs RONALO CAYETANO(5WIN)",
+                  "id": "ct-dd20b18259",
+                  "name": "𝐑𝐇𝐀𝐊𝐈 𝐑𝐎𝐉 𝐂𝐎𝐍𝐒𝐓𝐀𝐍𝐓𝐈𝐍𝐎 vs TROY ESPIRITU",
                   "streams": [
                     {
-                      "id": "st-8d55028f79",
+                      "id": "st-dd20b18259",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8d55028f79",
-                          "name": "Tào A Man",
+                          "id": "lnk-dd20b18259",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6078/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6071/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
-            "team_a": "BASETH MOCAIBAT(9WIN)",
-            "team_b": "RONALO CAYETANO(5WIN)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786507168006_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786507167656_phil.png",
+            "league": "Sharks Billiards Association Hạng Thương Gia",
+            "team_a": "𝐑𝐇𝐀𝐊𝐈 𝐑𝐎𝐉 𝐂𝐎𝐍𝐒𝐓𝐀𝐍𝐓𝐈𝐍𝐎",
+            "team_b": "TROY ESPIRITU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "11:00 12/08",
-            "caster": "Tào A Man",
-            "score": "6-2",
+            "caster": "Bỉm Sữa",
+            "score": "4-0",
             "is_live": true,
             "hot": false
           },
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d55028f79_830ff629_20260812.png?v=830ff629",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd20b18259_ab14e79c_20260812.png?v=ab14e79c",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "11:00 12/08",
             "caster": "Lee Min Hoo",
-            "score": "3-0",
+            "score": "4-0",
             "is_live": true,
             "hot": false
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-dd20b18259",
-          "name": "𝐑𝐇𝐀𝐊𝐈 𝐑𝐎𝐉 𝐂𝐎𝐍𝐒𝐓𝐀𝐍𝐓𝐈𝐍𝐎 vs TROY ESPIRITU | Bỉm Sữa",
+          "id": "chtv-8d55028f79",
+          "name": "BASETH MOCAIBAT(9WIN) vs RONALO CAYETANO(5WIN) | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-dd20b18259",
+              "id": "src-8d55028f79",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dd20b18259",
-                  "name": "𝐑𝐇𝐀𝐊𝐈 𝐑𝐎𝐉 𝐂𝐎𝐍𝐒𝐓𝐀𝐍𝐓𝐈𝐍𝐎 vs TROY ESPIRITU",
+                  "id": "ct-8d55028f79",
+                  "name": "BASETH MOCAIBAT(9WIN) vs RONALO CAYETANO(5WIN)",
                   "streams": [
                     {
-                      "id": "st-dd20b18259",
+                      "id": "st-8d55028f79",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dd20b18259",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-8d55028f79",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6071/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6078/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia",
-            "team_a": "𝐑𝐇𝐀𝐊𝐈 𝐑𝐎𝐉 𝐂𝐎𝐍𝐒𝐓𝐀𝐍𝐓𝐈𝐍𝐎",
-            "team_b": "TROY ESPIRITU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "league": "Sharks Billiards Association Hạng Thương Gia kèo chấp",
+            "team_a": "BASETH MOCAIBAT(9WIN)",
+            "team_b": "RONALO CAYETANO(5WIN)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786507168006_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786507167656_phil.png",
             "time": "11:00 12/08",
-            "caster": "Bỉm Sữa",
-            "score": "3-0",
+            "caster": "Tào A Man",
+            "score": "6-3",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd20b18259_ab14e79c_20260812.png?v=ab14e79c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d55028f79_830ff629_20260812.png?v=830ff629",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786508109355_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:15 12/08",
             "caster": "Đại Kê",
-            "score": "2-1",
+            "score": "2-2",
             "is_live": true,
             "hot": false
           },
