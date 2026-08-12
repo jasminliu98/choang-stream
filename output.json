@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9e81c32d2c",
-          "name": "Legend vs Phoenix | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e81c32d2c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9e81c32d2c",
-                  "name": "Legend vs Phoenix",
-                  "streams": [
-                    {
-                      "id": "st-9e81c32d2c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e81c32d2c",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6092/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Day 1 Round 2 PBA Team League Season 2026-2027",
-            "team_a": "Legend",
-            "team_b": "Phoenix",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786526350409_korea.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786526353563_korea.png",
-            "time": "17:00 12/08",
-            "caster": "Bỉm Sữa",
-            "score": "4-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9e81c32d2c_f9b1973a_20260812.png?v=f9b1973a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b0ae2c64e6",
           "name": "PATRIC JAY GONZALES vs NAVARRETE | BÚN CHÓ",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "19:00 12/08",
             "caster": "BÚN CHÓ",
-            "score": "2-3",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
