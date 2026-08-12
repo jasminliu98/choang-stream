@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-21ff294b2c",
-          "name": "cơ thủ 1 vs cơ thủ 2 | 17:30 12/08 | GIÀNG A PHỌ",
+          "name": "John Lloyd Carable vs Kyle Amoroto | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-21ff294b2c",
-                  "name": "cơ thủ 1 vs cơ thủ 2",
+                  "name": "John Lloyd Carable vs Kyle Amoroto",
                   "streams": [
                     {
                       "id": "st-21ff294b2c",
@@ -141,14 +141,14 @@
           ],
           "org_metadata": {
             "league": "Sharks Billiards Association",
-            "team_a": "cơ thủ 1",
-            "team_b": "cơ thủ 2",
+            "team_a": "John Lloyd Carable",
+            "team_b": "Kyle Amoroto",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "17:30 12/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": false,
+            "score": "2-0",
+            "is_live": true,
             "hot": true
           },
           "image": {
