@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-443fd2a8ce",
-          "name": "JAMES ARANAS vs ANTON RAGA | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-443fd2a8ce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-443fd2a8ce",
-                  "name": "JAMES ARANAS vs ANTON RAGA",
-                  "streams": [
-                    {
-                      "id": "st-443fd2a8ce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-443fd2a8ce",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6074/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv20.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sharks Billiards Association Hạng Thương Gia",
-            "team_a": "JAMES ARANAS",
-            "team_b": "ANTON RAGA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786479437264_JAMES ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786479474427_ANTON RAGA.jpg",
-            "time": "13:00 12/08",
-            "caster": "Đại Kê",
-            "score": "5-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-443fd2a8ce_4e051c49_20260812.png?v=4e051c49",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4816f7ac25",
           "name": "JAMES ARANAS(-2,5) vs ANTON RAGA(+2,5) | SÊ KÔÔ",
           "type": "single",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786479536525_ANTON RAGA.jpg",
             "time": "13:00 12/08",
             "caster": "SÊ KÔÔ",
-            "score": "5-6",
+            "score": "6-6",
             "is_live": true,
             "hot": false
           },
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4816f7ac25_a3fce12f_20260812.png?v=a3fce12f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-443fd2a8ce",
+          "name": "JAMES ARANAS vs ANTON RAGA | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-443fd2a8ce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-443fd2a8ce",
+                  "name": "JAMES ARANAS vs ANTON RAGA",
+                  "streams": [
+                    {
+                      "id": "st-443fd2a8ce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-443fd2a8ce",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6074/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv20.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sharks Billiards Association Hạng Thương Gia",
+            "team_a": "JAMES ARANAS",
+            "team_b": "ANTON RAGA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786479437264_JAMES ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786479474427_ANTON RAGA.jpg",
+            "time": "13:00 12/08",
+            "caster": "Đại Kê",
+            "score": "6-6",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-443fd2a8ce_4e051c49_20260812.png?v=4e051c49",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786479622765_ANTON RAGA.jpg",
             "time": "13:00 12/08",
             "caster": "Tào A Man",
-            "score": "5-6",
+            "score": "6-6",
             "is_live": true,
             "hot": false
           },
@@ -378,7 +378,7 @@
         },
         {
           "id": "chtv-f70da52bb4",
-          "name": "Văn sinh vs huy c300 | 15:03 12/08 | Đại Kê",
+          "name": "Văn Sinh vs Huy C300 | 15:03 12/08 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-f70da52bb4",
-                  "name": "Văn sinh vs huy c300",
+                  "name": "Văn Sinh vs Huy C300",
                   "streams": [
                     {
                       "id": "st-f70da52bb4",
@@ -428,11 +428,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Bida top top 15h đánh",
-            "team_a": "Văn sinh",
-            "team_b": "huy c300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "league": "Giang Hồ Tụ Họp",
+            "team_a": "Văn Sinh",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786517834604_VÄn Sinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786517843700_HUY C300.png",
             "time": "15:03 12/08",
             "caster": "Đại Kê",
             "score": "0-0",
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f70da52bb4_0cfe1298_20260812.png?v=0cfe1298",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f70da52bb4_fd8fe446_20260812.png?v=fd8fe446",
             "width": 1600,
             "height": 1200
           }
