@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786647384527_Screenshot 2026-08-14 014421.png",
             "time": "04:30 14/08",
             "caster": "Kèn Kèn",
-            "score": "8-1",
+            "score": "9-1",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786647454224_Screenshot 2026-08-14 015729.png",
             "time": "04:30 14/08",
             "caster": "BÚN CHÓ",
-            "score": "7-3",
+            "score": "7-4",
             "is_live": true,
             "hot": false
           },
@@ -305,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-89b0686cb0",
-          "name": "Tyler Styer vs Dean Shields | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89b0686cb0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-89b0686cb0",
-                  "name": "Tyler Styer vs Dean Shields",
-                  "streams": [
-                    {
-                      "id": "st-89b0686cb0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-89b0686cb0",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6161/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 Arizona open pool championship",
-            "team_a": "Tyler Styer",
-            "team_b": "Dean Shields",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786656960782_Screenshot 2026-08-14 014421.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786656960459_Screenshot 2026-08-14 043558.png",
-            "time": "06:00 14/08",
-            "caster": "VÁNG",
-            "score": "5-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-89b0686cb0_2e99733d_20260814.png?v=2e99733d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e082e575fd",
           "name": "Yannick Pongers vs Payne McBride | BÚN CHÓ",
           "type": "single",
@@ -449,6 +377,78 @@
           }
         },
         {
+          "id": "chtv-89b0686cb0",
+          "name": "Tyler Styer vs Dean Shields | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89b0686cb0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-89b0686cb0",
+                  "name": "Tyler Styer vs Dean Shields",
+                  "streams": [
+                    {
+                      "id": "st-89b0686cb0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89b0686cb0",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6161/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Tyler Styer",
+            "team_b": "Dean Shields",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786656960782_Screenshot 2026-08-14 014421.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786656960459_Screenshot 2026-08-14 043558.png",
+            "time": "06:00 14/08",
+            "caster": "VÁNG",
+            "score": "5-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-89b0686cb0_2e99733d_20260814.png?v=2e99733d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-bd67afd06c",
           "name": "AJ Manas vs Harrison Leinen | VÁNG",
           "type": "single",
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bd67afd06c_6c7fb405_20260814.png?v=6c7fb405",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-309735ae85",
+          "name": "Cristopher Tevez vs Julio Rueda | 06:00 14/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-309735ae85",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-309735ae85",
+                  "name": "Cristopher Tevez vs Julio Rueda",
+                  "streams": [
+                    {
+                      "id": "st-309735ae85",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-309735ae85",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6165/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Arizona open pool championship",
+            "team_a": "Cristopher Tevez",
+            "team_b": "Julio Rueda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786663548779_Screenshot 2026-08-14 015725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786663548476_Screenshot 2026-08-14 014421.png",
+            "time": "06:00 14/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-309735ae85_2fbdca17_20260814.png?v=2fbdca17",
             "width": 1600,
             "height": 1200
           }
