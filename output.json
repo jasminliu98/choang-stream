@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786672555789_phil.png",
             "time": "09:00 14/08",
             "caster": "Tào A Man",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786670857389_phil.png",
             "time": "09:00 14/08",
             "caster": "Đại Kê",
-            "score": "1-4",
+            "score": "2-4",
             "is_live": true,
             "hot": false
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0e3b6aa05_606ec24b_20260814.png?v=606ec24b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3c426b2d48",
-          "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5) | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c426b2d48",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3c426b2d48",
-                  "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5)",
-                  "streams": [
-                    {
-                      "id": "st-3c426b2d48",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c426b2d48",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6175/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "JOHNLLOYD CARBLE(-2.5)",
-            "team_b": "ANTON RAGA(+2.5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786670765684_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786670765308_phil.png",
-            "time": "09:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "1-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c426b2d48_2e0d0f4e_20260814.png?v=2e0d0f4e",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c71e9de591_289628d4_20260814.png?v=289628d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3c426b2d48",
+          "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5) | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c426b2d48",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3c426b2d48",
+                  "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5)",
+                  "streams": [
+                    {
+                      "id": "st-3c426b2d48",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c426b2d48",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6175/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "JOHNLLOYD CARBLE(-2.5)",
+            "team_b": "ANTON RAGA(+2.5)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786670765684_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786670765308_phil.png",
+            "time": "09:00 14/08",
+            "caster": "Lee Min Hoo",
+            "score": "2-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c426b2d48_2e0d0f4e_20260814.png?v=2e0d0f4e",
             "width": 1600,
             "height": 1200
           }
@@ -507,7 +507,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786670479922_phil.png",
             "time": "09:00 14/08",
             "caster": "Bỉm Sữa",
-            "score": "1-4",
+            "score": "2-4",
             "is_live": true,
             "hot": false
           },
@@ -579,7 +579,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786668113590_Screenshot 2026-08-14 014421.png",
             "time": "09:00 14/08",
             "caster": "VÁNG",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": false
           },
