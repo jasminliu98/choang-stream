@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-11",
+            "score": "8-11",
             "is_live": true,
             "hot": true
           },
@@ -89,7 +89,7 @@
           }
         },
         {
-          "id": "chtv-0b33788ec9",
+          "id": "chtv-54161956f5",
           "name": "TADIQUE vs IGNACIO | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-0b33788ec9",
+              "id": "src-54161956f5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0b33788ec9",
+                  "id": "ct-54161956f5",
                   "name": "TADIQUE vs IGNACIO",
                   "streams": [
                     {
-                      "id": "st-0b33788ec9",
+                      "id": "st-54161956f5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0b33788ec9",
+                          "id": "lnk-54161956f5",
                           "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6227/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6228/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "1-2",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
@@ -155,79 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b33788ec9_9d76bfb0_20260814.png?v=9d76bfb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a402b52972",
-          "name": "Arthur Klopp vs Gabriel Pereira",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a402b52972",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a402b52972",
-                  "name": "Arthur Klopp vs Gabriel Pereira",
-                  "streams": [
-                    {
-                      "id": "st-a402b52972",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a402b52972",
-                          "name": "",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6209/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận đấu 4 | ONE Friday Fights | Bantamweight Kickboxing",
-            "team_a": "Arthur Klopp",
-            "team_b": "Gabriel Pereira",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786696909497_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 153937.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786696924715_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 153951.png",
-            "time": "21:30 14/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a402b52972_8a1d8217_20260814.png?v=8a1d8217",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-54161956f5_9d76bfb0_20260814.png?v=9d76bfb0",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-54161956f5",
-          "name": "TADIQUE vs IGNACIO | 00:00 14/08 | GIÀNG A PHỌ",
+          "id": "chtv-0b33788ec9",
+          "name": "TADIQUE vs IGNACIO | 00:00 14/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-54161956f5",
+              "id": "src-0b33788ec9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-54161956f5",
+                  "id": "ct-0b33788ec9",
                   "name": "TADIQUE vs IGNACIO",
                   "streams": [
                     {
-                      "id": "st-54161956f5",
+                      "id": "st-0b33788ec9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-54161956f5",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-0b33788ec9",
+                          "name": "",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6228/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6227/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -578,16 +506,16 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 14/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "caster": "",
+            "score": "2-2",
             "is_live": false,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-54161956f5_9d76bfb0_20260814.png?v=9d76bfb0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b33788ec9_9d76bfb0_20260814.png?v=9d76bfb0",
             "width": 1600,
             "height": 1200
           }
