@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cbc4c7bcff_b1261db4_20260814.png?v=b1261db4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-32692e9366",
-          "name": "RONEL NALAUNAN vs MICHAEL FELICIANO | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32692e9366",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-32692e9366",
-                  "name": "RONEL NALAUNAN vs MICHAEL FELICIANO",
-                  "streams": [
-                    {
-                      "id": "st-32692e9366",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32692e9366",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6188/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "RONEL NALAUNAN",
-            "team_b": "MICHAEL FELICIANO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786685031350_RONEL NALAUNAN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786684789380_Michael Feliciano.jpg",
-            "time": "13:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "6-9",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-32692e9366_8daa984d_20260814.png?v=8daa984d",
             "width": 1600,
             "height": 1200
           }
@@ -305,6 +233,78 @@
           }
         },
         {
+          "id": "chtv-32692e9366",
+          "name": "RONEL NALAUNAN vs MICHAEL FELICIANO | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32692e9366",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-32692e9366",
+                  "name": "RONEL NALAUNAN vs MICHAEL FELICIANO",
+                  "streams": [
+                    {
+                      "id": "st-32692e9366",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32692e9366",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6188/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "RONEL NALAUNAN",
+            "team_b": "MICHAEL FELICIANO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786685031350_RONEL NALAUNAN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786684789380_Michael Feliciano.jpg",
+            "time": "13:00 14/08",
+            "caster": "Lee Min Hoo",
+            "score": "6-9",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-32692e9366_8daa984d_20260814.png?v=8daa984d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e973735e79",
           "name": "A CHIẾN vs QUÂN  CON | GIÀNG A PHỌ",
           "type": "single",
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "14:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-6",
+            "score": "6-7",
             "is_live": true,
             "hot": false
           },
@@ -372,6 +372,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e973735e79_71646c83_20260814.png?v=71646c83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0708b8ec67",
+          "name": "EDWIN GAMAS(-2,5) vs ALBERT ESPINOLA | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0708b8ec67",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0708b8ec67",
+                  "name": "EDWIN GAMAS(-2,5) vs ALBERT ESPINOLA",
+                  "streams": [
+                    {
+                      "id": "st-0708b8ec67",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0708b8ec67",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6194/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "EDWIN GAMAS(-2,5)",
+            "team_b": "ALBERT ESPINOLA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786692420969_EDWIN GAMAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786692423707_ALBERT ESPINOLA.jpg",
+            "time": "15:00 14/08",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0708b8ec67_01083bbb_20260814.png?v=01083bbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-309c56a4c7",
+          "name": "EDWIN GAMAS vs ALBERT ESPINOLA | 15:00 14/08 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-309c56a4c7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-309c56a4c7",
+                  "name": "EDWIN GAMAS vs ALBERT ESPINOLA",
+                  "streams": [
+                    {
+                      "id": "st-309c56a4c7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-309c56a4c7",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6193/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "EDWIN GAMAS",
+            "team_b": "ALBERT ESPINOLA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786692355237_EDWIN GAMAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786692368090_ALBERT ESPINOLA.jpg",
+            "time": "15:00 14/08",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-309c56a4c7_f9d95694_20260814.png?v=f9d95694",
             "width": 1600,
             "height": 1200
           }
