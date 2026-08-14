@@ -444,7 +444,7 @@ def main():
         "name":        "ChoangTV",
         "color":       "#a37ef2",
         "grid_number": 3,
-        "image":       {"type": "cover", "url": f"{SITE_URL}/__og-image__/image/og.png"},
+        "image":       {"type": "cover", "url": "https://choangtv21.com/tin-tuc/wp-content/uploads/2025/11/choang-tv-logo.png"},
         "groups":      groups,
     }
 
