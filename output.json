@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-12d7e3393d",
-          "name": "Felix Vogel vs Sun Yi Hsuan | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12d7e3393d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-12d7e3393d",
-                  "name": "Felix Vogel vs Sun Yi Hsuan",
-                  "streams": [
-                    {
-                      "id": "st-12d7e3393d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12d7e3393d",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6230/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Arizona open pool championship",
-            "team_a": "Felix Vogel",
-            "team_b": "Sun Yi Hsuan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786722754337_Felix Vogel.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786722757841_Sun Yi Hsuan.jpg",
-            "time": "03:00 15/08",
-            "caster": "BÚN CHÓ",
-            "score": "2-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12d7e3393d_7593ef27_20260815.png?v=7593ef27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b9aebd7f3f",
           "name": "Shane Van Boening vs Albin Ouschan | VÁNG",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786722657727_Albin Ouschan.jpg",
             "time": "03:00 15/08",
             "caster": "VÁNG",
-            "score": "3-0",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9aebd7f3f_035f34d2_20260815.png?v=035f34d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-12d7e3393d",
+          "name": "Felix Vogel vs Sun Yi Hsuan | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12d7e3393d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-12d7e3393d",
+                  "name": "Felix Vogel vs Sun Yi Hsuan",
+                  "streams": [
+                    {
+                      "id": "st-12d7e3393d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-12d7e3393d",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6230/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Arizona open pool championship",
+            "team_a": "Felix Vogel",
+            "team_b": "Sun Yi Hsuan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786722754337_Felix Vogel.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786722757841_Sun Yi Hsuan.jpg",
+            "time": "03:00 15/08",
+            "caster": "BÚN CHÓ",
+            "score": "3-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12d7e3393d_7593ef27_20260815.png?v=7593ef27",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786725710157_John Morra.jpg",
             "time": "03:00 15/08",
             "caster": "VÁNG",
-            "score": "0-2",
+            "score": "0-3",
             "is_live": true,
             "hot": false
           },
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-9666e36e69",
+          "name": "Walter Laikre vs Francesco Candela | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9666e36e69",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9666e36e69",
+                  "name": "Walter Laikre vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-9666e36e69",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9666e36e69",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6236/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Walter Laikre",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786726124302_Walter Laikre.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786726142153_Francesco Candela.jpg",
+            "time": "04:45 15/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9666e36e69_49f6df74_20260815.png?v=49f6df74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-c29a2a01ef",
           "name": "Carlo Biado vs Cristopher Tevez | 04:45 15/08 | VÁNG",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c29a2a01ef_50ba20a3_20260815.png?v=50ba20a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9666e36e69",
-          "name": "Walter Laikre vs Francesco Candela | 04:45 15/08 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9666e36e69",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9666e36e69",
-                  "name": "Walter Laikre vs Francesco Candela",
-                  "streams": [
-                    {
-                      "id": "st-9666e36e69",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9666e36e69",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6236/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Arizona open pool championship",
-            "team_a": "Walter Laikre",
-            "team_b": "Francesco Candela",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786726124302_Walter Laikre.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786726142153_Francesco Candela.jpg",
-            "time": "04:45 15/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9666e36e69_49f6df74_20260815.png?v=49f6df74",
             "width": 1600,
             "height": 1200
           }
@@ -593,7 +593,7 @@
           }
         },
         {
-          "id": "chtv-dffc9dd501",
+          "id": "chtv-076681abc4",
           "name": "HOÀNG SAO vs Petri Makkonen | 06:30 15/08",
           "type": "single",
           "display": "thumbnail-only",
@@ -608,23 +608,23 @@
           ],
           "sources": [
             {
-              "id": "src-dffc9dd501",
+              "id": "src-076681abc4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dffc9dd501",
+                  "id": "ct-076681abc4",
                   "name": "HOÀNG SAO vs Petri Makkonen",
                   "streams": [
                     {
-                      "id": "st-dffc9dd501",
+                      "id": "st-076681abc4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dffc9dd501",
+                          "id": "lnk-076681abc4",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6238/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6239/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -648,7 +648,7 @@
             "team_a": "HOÀNG SAO",
             "team_b": "Petri Makkonen",
             "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786727015367_Petri Makkonen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786727128487_Petri Makkonen.jpg",
             "time": "06:30 15/08",
             "caster": "",
             "score": "0-0",
@@ -659,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dffc9dd501_c74bf36a_20260815.png?v=c74bf36a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-076681abc4_99ba62a9_20260815.png?v=99ba62a9",
             "width": 1600,
             "height": 1200
           }
