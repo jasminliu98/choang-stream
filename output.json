@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (11 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-80d3505738",
-          "name": "Joshua Filler vs Phillip Sanchez | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80d3505738",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-80d3505738",
-                  "name": "Joshua Filler vs Phillip Sanchez",
-                  "streams": [
-                    {
-                      "id": "st-80d3505738",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80d3505738",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6168/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Arizona open pool championship",
-            "team_a": "Joshua Filler",
-            "team_b": "Phillip Sanchez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786665931298_Screenshot 2026-08-14 070512.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786665930899_Screenshot 2026-08-14 070523.png",
-            "time": "07:30 14/08",
-            "caster": "Kèn Kèn",
-            "score": "9-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-80d3505738_3fa0fe81_20260814.png?v=3fa0fe81",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-189b31b0f7",
           "name": "Arseni Sevastyanov vs Jeffrey De Luna | BÚN CHÓ",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786665431396_Screenshot 2026-08-14 052839.png",
             "time": "07:30 14/08",
             "caster": "BÚN CHÓ",
-            "score": "3-7",
+            "score": "3-8",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786665532478_Screenshot 2026-08-14 014421.png",
             "time": "07:30 14/08",
             "caster": "Thập Cẩm",
-            "score": "8-0",
+            "score": "9-1",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786660121698_Screenshot 2026-08-14 014421.png",
             "time": "07:30 14/08",
             "caster": "VÁNG",
-            "score": "5-6",
+            "score": "7-6",
             "is_live": true,
             "hot": false
           },
@@ -665,78 +593,6 @@
           }
         },
         {
-          "id": "chtv-a0e3b6aa05",
-          "name": "JOHNLLOYD CARBLE vs ANTON RAGA | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0e3b6aa05",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a0e3b6aa05",
-                  "name": "JOHNLLOYD CARBLE vs ANTON RAGA",
-                  "streams": [
-                    {
-                      "id": "st-a0e3b6aa05",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0e3b6aa05",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6176/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "JOHNLLOYD CARBLE",
-            "team_b": "ANTON RAGA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786670857678_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786670857389_phil.png",
-            "time": "09:00 14/08",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0e3b6aa05_606ec24b_20260814.png?v=606ec24b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3c426b2d48",
           "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5) | Lee Min Hoo",
           "type": "single",
@@ -876,6 +732,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c71e9de591_289628d4_20260814.png?v=289628d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a0e3b6aa05",
+          "name": "JOHNLLOYD CARBLE vs ANTON RAGA | 09:00 14/08 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0e3b6aa05",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a0e3b6aa05",
+                  "name": "JOHNLLOYD CARBLE vs ANTON RAGA",
+                  "streams": [
+                    {
+                      "id": "st-a0e3b6aa05",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0e3b6aa05",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6176/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "JOHNLLOYD CARBLE",
+            "team_b": "ANTON RAGA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786670857678_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786670857389_phil.png",
+            "time": "09:00 14/08",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0e3b6aa05_606ec24b_20260814.png?v=606ec24b",
             "width": 1600,
             "height": 1200
           }
