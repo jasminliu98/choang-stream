@@ -261,8 +261,9 @@ def get_matches():
             is_live      = bool(item.get("live", False))
 
             caster_clean = re.sub(r'^BLV\s*', '', caster_raw).strip()
+            # Nếu không có BLV thì để trống, không bỏ qua trận đấu nữa
             if not caster_clean:
-                continue
+                caster_clean = "" 
 
             name = f"{team_a} vs {team_b}"
             if not name.replace("vs", "").strip():
