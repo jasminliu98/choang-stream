@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (9 LIVE)",
+      "name": "🎱 Billiards (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786660350750_Screenshot 2026-08-14 014421.png",
             "time": "06:00 14/08",
             "caster": "BÚN CHÓ",
-            "score": "8-5",
+            "score": "9-5",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786665930899_Screenshot 2026-08-14 070523.png",
             "time": "07:30 14/08",
             "caster": "Kèn Kèn",
-            "score": "7-0",
+            "score": "9-0",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786665431396_Screenshot 2026-08-14 052839.png",
             "time": "07:30 14/08",
             "caster": "BÚN CHÓ",
-            "score": "3-6",
+            "score": "3-7",
             "is_live": true,
             "hot": false
           },
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-189b31b0f7_f3e8d9b4_20260814.png?v=f3e8d9b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f1fb84327e",
+          "name": "Jayson Shaw vs Torin Barnard | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1fb84327e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f1fb84327e",
+                  "name": "Jayson Shaw vs Torin Barnard",
+                  "streams": [
+                    {
+                      "id": "st-f1fb84327e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f1fb84327e",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6167/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Arizona open pool championship",
+            "team_a": "Jayson Shaw",
+            "team_b": "Torin Barnard",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786665532840_Screenshot 2026-08-14 043558.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786665532478_Screenshot 2026-08-14 014421.png",
+            "time": "07:30 14/08",
+            "caster": "Thập Cẩm",
+            "score": "8-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f1fb84327e_069e6a43_20260814.png?v=069e6a43",
             "width": 1600,
             "height": 1200
           }
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bd67afd06c_6c7fb405_20260814.png?v=6c7fb405",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f1fb84327e",
-          "name": "Jayson Shaw vs Torin Barnard | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1fb84327e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f1fb84327e",
-                  "name": "Jayson Shaw vs Torin Barnard",
-                  "streams": [
-                    {
-                      "id": "st-f1fb84327e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f1fb84327e",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6167/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 Arizona open pool championship",
-            "team_a": "Jayson Shaw",
-            "team_b": "Torin Barnard",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786665532840_Screenshot 2026-08-14 043558.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786665532478_Screenshot 2026-08-14 014421.png",
-            "time": "07:30 14/08",
-            "caster": "Thập Cẩm",
-            "score": "7-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f1fb84327e_069e6a43_20260814.png?v=069e6a43",
             "width": 1600,
             "height": 1200
           }
@@ -666,16 +666,16 @@
         },
         {
           "id": "chtv-a0e3b6aa05",
-          "name": "JOHNLLOYD CARBLE vs ANTON RAGA | 09:00 14/08 | Đại Kê",
+          "name": "JOHNLLOYD CARBLE vs ANTON RAGA | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -724,7 +724,7 @@
             "time": "09:00 14/08",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -738,16 +738,16 @@
         },
         {
           "id": "chtv-3c426b2d48",
-          "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5) | 09:00 14/08 | Lee Min Hoo",
+          "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5) | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -796,7 +796,7 @@
             "time": "09:00 14/08",
             "caster": "Lee Min Hoo",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
