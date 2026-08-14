@@ -384,7 +384,8 @@ def main():
     live_count = sum(1 for m in matches if m["is_live"])
     print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
 
-    channels = []
+    billiard_channels = []
+    vo_thuat_channels = []
 
     for i, match in enumerate(matches):
         status = "LIVE" if match["is_live"] else "SAP"
@@ -396,20 +397,46 @@ def main():
         logo_hash  = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
-        channels.append(build_channel(match, thumb_url))
+        ch = build_channel(match, thumb_url)
+
+        # Gộp các thông tin text lại và check keyword (không phân biệt hoa/thường)
+        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('team_a', '')} {match.get('team_b', '')}".lower()
+        
+        if "inner circle" in text_to_check:
+            vo_thuat_channels.append(ch)
+            print(f"  -> Ép vào nhóm: 🥊 Võ Thuật")
+        else:
+            billiard_channels.append(ch)
+
         time.sleep(0.2)
 
-    live_count = sum(1 for ch in channels if ch.get("org_metadata", {}).get("is_live", False))
-    group_name = f"🎱 Billiards ({live_count} LIVE)" if live_count > 0 else "🎱 Billiards"
+    groups = []
 
-    groups = [{
-        "id":            "cate_billiards",
-        "name":          group_name,
-        "display":       "vertical",
-        "grid_number":   2,
-        "enable_detail": False,
-        "channels":      channels,
-    }]
+    # 1. Tạo nhóm Võ Thuật (nếu có kênh)
+    if vo_thuat_channels:
+        live_count_ma = sum(1 for ch in vo_thuat_channels if ch.get("org_metadata", {}).get("is_live", False))
+        group_name_ma = f"🥊 Võ Thuật ({live_count_ma} LIVE)" if live_count_ma > 0 else "🥊 Võ Thuật"
+        groups.append({
+            "id":            "cate_vothuat",
+            "name":          group_name_ma,
+            "display":       "vertical",
+            "grid_number":   2,
+            "enable_detail": False,
+            "channels":      vo_thuat_channels,
+        })
+
+    # 2. Tạo nhóm Billiards (nếu có kênh)
+    if billiard_channels:
+        live_count_bi = sum(1 for ch in billiard_channels if ch.get("org_metadata", {}).get("is_live", False))
+        group_name_bi = f"🎱 Billiards ({live_count_bi} LIVE)" if live_count_bi > 0 else "🎱 Billiards"
+        groups.append({
+            "id":            "cate_billiards",
+            "name":          group_name_bi,
+            "display":       "vertical",
+            "grid_number":   2,
+            "enable_detail": False,
+            "channels":      billiard_channels,
+        })
 
     output = {
         "id":          "choangtv",
