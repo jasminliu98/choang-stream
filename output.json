@@ -10,228 +10,12 @@
   },
   "groups": [
     {
-      "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c47a88c86e",
-          "name": "cơ thủ điểm trái vs cơ thủ điểm phải | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c47a88c86e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c47a88c86e",
-                  "name": "cơ thủ điểm trái vs cơ thủ điểm phải",
-                  "streams": [
-                    {
-                      "id": "st-c47a88c86e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c47a88c86e",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6216/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "cơ thủ điểm trái",
-            "team_b": "cơ thủ điểm phải",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "time": "00:00 14/08",
-            "caster": "Bỉm Sữa",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c47a88c86e_fd9e0f65_20260814.png?v=fd9e0f65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef751d3642",
-          "name": "DUY ĐEN vs TÙNG RỪNG | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef751d3642",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef751d3642",
-                  "name": "DUY ĐEN vs TÙNG RỪNG",
-                  "streams": [
-                    {
-                      "id": "st-ef751d3642",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef751d3642",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6215/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BIDA TOP TOP",
-            "team_a": "DUY ĐEN",
-            "team_b": "TÙNG RỪNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "00:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "7-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef751d3642_0cfe1298_20260814.png?v=0cfe1298",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-76df999189",
-          "name": "Sếu vs C300 | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76df999189",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-76df999189",
-                  "name": "Sếu vs C300",
-                  "streams": [
-                    {
-                      "id": "st-76df999189",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76df999189",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6217/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thành Cụt Billiar shop",
-            "team_a": "Sếu",
-            "team_b": "C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot 2025-12-21 010653.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777514761471_photo_2026-04-30_09-05-49.jpg",
-            "time": "00:00 14/08",
-            "caster": "SÊ KÔÔ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-76df999189_e560c2c9_20260814.png?v=e560c2c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-499ce1a523",
           "name": "Dechapan vs Saya Ito | 18:30 14/08 | Đại Kê",
@@ -300,6 +84,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-499ce1a523_ee78ff4b_20260814.png?v=ee78ff4b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-ef751d3642",
+          "name": "DUY ĐEN vs TÙNG RỪNG | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef751d3642",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ef751d3642",
+                  "name": "DUY ĐEN vs TÙNG RỪNG",
+                  "streams": [
+                    {
+                      "id": "st-ef751d3642",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef751d3642",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6215/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BIDA TOP TOP",
+            "team_a": "DUY ĐEN",
+            "team_b": "TÙNG RỪNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "00:00 14/08",
+            "caster": "Lee Min Hoo",
+            "score": "7-9",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef751d3642_0cfe1298_20260814.png?v=0cfe1298",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c47a88c86e",
+          "name": "JONAS MAGPANTAY vs RYAN BADAL | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c47a88c86e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c47a88c86e",
+                  "name": "JONAS MAGPANTAY vs RYAN BADAL",
+                  "streams": [
+                    {
+                      "id": "st-c47a88c86e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c47a88c86e",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6216/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "JONAS MAGPANTAY",
+            "team_b": "RYAN BADAL",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "time": "00:00 14/08",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c47a88c86e_fd9e0f65_20260814.png?v=fd9e0f65",
             "width": 1600,
             "height": 1200
           }
