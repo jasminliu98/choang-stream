@@ -65,6 +65,24 @@ def fetch_image(url):
         return None
 
 
+def validate_stream(url):
+    """Kiểm tra stream URL có tồn tại và hợp lệ không"""
+    try:
+        # Dùng stream=True để không tải hết file, chỉ check header
+        res = requests.get(url, headers=HEADERS, timeout=8, stream=True)
+        if res.status_code != 200:
+            return False
+        
+        # Check 1KB đầu tiên xem có phải m3u8 không
+        first_chunk = next(res.iter_content(1024), b"")
+        res.close()
+        
+        # m3u8 thường bắt đầu bằng #EXTM3U hoặc #EXTINF
+        return b"#EXTM3U" in first_chunk or b"#EXTINF" in first_chunk or b"#EXT-X" in first_chunk
+    except Exception as e:
+        return False
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
@@ -217,10 +235,8 @@ def cleanup_old_thumbs(days: int = 3):
 def get_matches():
     today = now_vn()
     
-    # CẤU HÌNH: Số ngày muốn lấy lịch thi đấu (ví dụ: 7 nghĩa là lấy hôm nay và 6 ngày tới)
-    NUM_DAYS_TO_FETCH = 7 
-    
-    # Tạo danh sách các ngày tương ứng
+    # Chỉ lấy 2 ngày (hôm nay + mai) vì ta sẽ filter 6 tiếng
+    NUM_DAYS_TO_FETCH = 2 
     dates_to_fetch = [today + timedelta(days=i) for i in range(NUM_DAYS_TO_FETCH)]
 
     all_matches = []
@@ -259,11 +275,11 @@ def get_matches():
             score1       = item.get("score1") or 0
             score2       = item.get("score2") or 0
             is_live      = bool(item.get("live", False))
+            category     = (item.get("category") or "Billiards").lower()
 
             caster_clean = re.sub(r'^BLV\s*', '', caster_raw).strip()
-            # Nếu không có BLV thì để trống, không bỏ qua trận đấu nữa
             if not caster_clean:
-                caster_clean = "" 
+                caster_clean = ""
 
             name = f"{team_a} vs {team_b}"
             if not name.replace("vs", "").strip():
@@ -287,13 +303,80 @@ def get_matches():
                 "is_live":      is_live,
                 "hot":          bool(item.get("hot", False)),
                 "subtitle":     item.get("subtitle") or "",
-                "category":     item.get("category") or "Billiards",
+                "category":     category,
                 "stream_url":   f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
-    # Sắp xếp: Trận đang LIVE lên trước, sau đó theo thứ tự thời gian thực tế (timestamp)
-    all_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
-    return all_matches
+    # ═══════════════════════════════════════════════════════════════
+    # FILTER 1: Chỉ lấy trận trong khoảng [30 phút trước - 6 tiếng sau]
+    # ═══════════════════════════════════════════════════════════════
+    now = now_vn()
+    min_past   = now - timedelta(minutes=30)
+    max_future = now + timedelta(hours=6)
+    
+    time_filtered = []
+    for m in all_matches:
+        kickoff = parse_kickoff(m["time_raw"])
+        if kickoff:
+            if kickoff < min_past or kickoff > max_future:
+                continue
+        time_filtered.append(m)
+    
+    print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran (trong 6h toi)")
+
+    # ═══════════════════════════════════════════════════════════════
+    # FILTER 2: Gom nhóm võ thuật (chống trùng lặp stream)
+    # ═══════════════════════════════════════════════════════════════
+    def normalize_event_key(match):
+        cat = match.get("category", "")
+        league = match.get("league", "")
+        normalized = re.sub(r'Trận đấu \d+\s*\|\s*', '', league).strip()
+        return (cat, normalized)
+
+    def select_representative(matches_list):
+        matches_list.sort(key=lambda x: (0 if x["is_live"] else 1, x["time_sort"]))
+        for m in matches_list:
+            if m["is_live"]:
+                return m
+        for m in matches_list:
+            kickoff = parse_kickoff(m["time_raw"])
+            if kickoff and now < kickoff < now + timedelta(hours=1):
+                return m
+        return matches_list[0] if matches_list else None
+
+    billiard_matches = []
+    martial_events = {}
+
+    for m in time_filtered:
+        cat = m.get("category", "")
+        is_martial = any(kw in cat for kw in ["võ thuật", "mma", "muay", "ufc", "boxing", "kickboxing"])
+        or_in_league = any(kw in m.get("league", "").lower() for kw in ["inner circle", "one friday", "one championship"])
+        
+        if is_martial or or_in_league:
+            key = normalize_event_key(m)
+            if key not in martial_events:
+                martial_events[key] = []
+            martial_events[key].append(m)
+        else:
+            billiard_matches.append(m)
+
+    martial_matches = []
+    for key, matches_in_event in martial_events.items():
+        rep = select_representative(matches_in_event)
+        if rep:
+            league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', rep.get("league", "")).strip()
+            if league_clean:
+                rep["name"] = league_clean
+                rep["team_a"] = ""
+                rep["team_b"] = ""
+            martial_matches.append(rep)
+            print(f"  Gom nhom Vo Thuat: {len(matches_in_event)} tran -> 1 dai dien [{league_clean}]")
+
+    final_matches = billiard_matches + martial_matches
+    final_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
+    
+    print(f"  Sau khi gom nhom: {len(time_filtered)} -> {len(final_matches)} tran")
+    return final_matches
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -392,6 +475,10 @@ def main():
         status = "LIVE" if match["is_live"] else "SAP"
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['caster']}")
 
+        if not validate_stream(match["stream_url"]):
+            print(f"  ⚠️  Stream không hợp lệ hoặc đã chết, bỏ qua: {match['stream_url']}")
+            continue
+
         uid        = make_id(match["stream_url"], "chtv")
         thumb_path = make_thumbnail(match, uid)
         cache_key  = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VER
@@ -400,10 +487,9 @@ def main():
 
         ch = build_channel(match, thumb_url)
 
-        # Gộp các thông tin text lại và check keyword (không phân biệt hoa/thường)
-        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('team_a', '')} {match.get('team_b', '')}".lower()
+        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}".lower()
         
-        if "inner circle" in text_to_check:
+        if any(kw in text_to_check for kw in ["inner circle", "võ thuật", "mma", "muay", "ufc", "boxing"]):
             vo_thuat_channels.append(ch)
             print(f"  -> Ép vào nhóm: 🥊 Võ Thuật")
         else:
@@ -413,7 +499,6 @@ def main():
 
     groups = []
 
-    # 1. Tạo nhóm Võ Thuật (nếu có kênh)
     if vo_thuat_channels:
         live_count_ma = sum(1 for ch in vo_thuat_channels if ch.get("org_metadata", {}).get("is_live", False))
         group_name_ma = f"🥊 Võ Thuật ({live_count_ma} LIVE)" if live_count_ma > 0 else "🥊 Võ Thuật"
@@ -426,7 +511,6 @@ def main():
             "channels":      vo_thuat_channels,
         })
 
-    # 2. Tạo nhóm Billiards (nếu có kênh)
     if billiard_channels:
         live_count_bi = sum(1 for ch in billiard_channels if ch.get("org_metadata", {}).get("is_live", False))
         group_name_bi = f"🎱 Billiards ({live_count_bi} LIVE)" if live_count_bi > 0 else "🎱 Billiards"
@@ -445,7 +529,7 @@ def main():
         "name":        "ChoangTV",
         "color":       "#a37ef2",
         "grid_number": 3,
-        "image":       {"type": "cover", "url": "https://choangtv21.com/tin-tuc/wp-content/uploads/2025/11/choang-tv-logo.png"},
+        "image":       {"type": "cover", "url": f"{SITE_URL}/__og-image__/image/og.png"},
         "groups":      groups,
     }
 
