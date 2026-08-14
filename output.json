@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (9 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-c71e9de591",
+          "name": "Aloysius Yapp vs Max Eberle | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c71e9de591",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c71e9de591",
+                  "name": "Aloysius Yapp vs Max Eberle",
+                  "streams": [
+                    {
+                      "id": "st-c71e9de591",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c71e9de591",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6171/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Arizona open pool championship",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Max Eberle",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786669129001_Screenshot 2026-08-14 075846.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786669128572_Screenshot 2026-08-14 014421.png",
+            "time": "09:00 14/08",
+            "caster": "Thập Cẩm",
+            "score": "3-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c71e9de591_289628d4_20260814.png?v=289628d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-90c31321f4",
           "name": "JAYBEE SUCAL vs JONAS MAGPANTAY | Tào A Man",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786672555789_phil.png",
             "time": "09:00 14/08",
             "caster": "Tào A Man",
-            "score": "5-8",
+            "score": "5-9",
             "is_live": true,
             "hot": false
           },
@@ -89,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-71588fae5a",
-          "name": "JOHNLLOYD CARBLE(+2.5) vs ANTON RAGA(-2.5) | Bỉm Sữa",
+          "id": "chtv-56211e96fa",
+          "name": "Petri Makkonen vs Justin Bergman | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-71588fae5a",
+              "id": "src-56211e96fa",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-71588fae5a",
-                  "name": "JOHNLLOYD CARBLE(+2.5) vs ANTON RAGA(-2.5)",
+                  "id": "ct-56211e96fa",
+                  "name": "Petri Makkonen vs Justin Bergman",
                   "streams": [
                     {
-                      "id": "st-71588fae5a",
+                      "id": "st-56211e96fa",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-71588fae5a",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-56211e96fa",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6174/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6172/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "JOHNLLOYD CARBLE(+2.5)",
-            "team_b": "ANTON RAGA(-2.5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786670480293_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786670479922_phil.png",
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Petri Makkonen",
+            "team_b": "Justin Bergman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786669989035_Screenshot 2026-08-14 081303.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786669988645_Screenshot 2026-08-14 014421.png",
             "time": "09:00 14/08",
-            "caster": "Bỉm Sữa",
-            "score": "3-8",
+            "caster": "BÚN CHÓ",
+            "score": "3-4",
             "is_live": true,
             "hot": false
           },
@@ -155,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-71588fae5a_e6549895_20260814.png?v=e6549895",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-56211e96fa_5d0ee4a1_20260814.png?v=5d0ee4a1",
             "width": 1600,
             "height": 1200
           }
@@ -233,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-56211e96fa",
-          "name": "Petri Makkonen vs Justin Bergman | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56211e96fa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-56211e96fa",
-                  "name": "Petri Makkonen vs Justin Bergman",
-                  "streams": [
-                    {
-                      "id": "st-56211e96fa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56211e96fa",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6172/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Arizona open pool championship",
-            "team_a": "Petri Makkonen",
-            "team_b": "Justin Bergman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786669989035_Screenshot 2026-08-14 081303.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786669988645_Screenshot 2026-08-14 014421.png",
-            "time": "09:00 14/08",
-            "caster": "BÚN CHÓ",
-            "score": "3-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-56211e96fa_5d0ee4a1_20260814.png?v=5d0ee4a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8c5fb5013c",
           "name": "Hoàng Sao vs Chang Tzu Chien | Kèn Kèn",
           "type": "single",
@@ -372,222 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c5fb5013c_9a996af9_20260814.png?v=9a996af9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3c426b2d48",
-          "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5) | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c426b2d48",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3c426b2d48",
-                  "name": "JOHNLLOYD CARBLE(-2.5) vs ANTON RAGA(+2.5)",
-                  "streams": [
-                    {
-                      "id": "st-3c426b2d48",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c426b2d48",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6175/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "JOHNLLOYD CARBLE(-2.5)",
-            "team_b": "ANTON RAGA(+2.5)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786670765684_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786670765308_phil.png",
-            "time": "09:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-8",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c426b2d48_2e0d0f4e_20260814.png?v=2e0d0f4e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c71e9de591",
-          "name": "Aloysius Yapp vs Max Eberle | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c71e9de591",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c71e9de591",
-                  "name": "Aloysius Yapp vs Max Eberle",
-                  "streams": [
-                    {
-                      "id": "st-c71e9de591",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c71e9de591",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6171/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 Arizona open pool championship",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Max Eberle",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786669129001_Screenshot 2026-08-14 075846.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786669128572_Screenshot 2026-08-14 014421.png",
-            "time": "09:00 14/08",
-            "caster": "Thập Cẩm",
-            "score": "3-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c71e9de591_289628d4_20260814.png?v=289628d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a0e3b6aa05",
-          "name": "JOHNLLOYD CARBLE vs ANTON RAGA | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0e3b6aa05",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a0e3b6aa05",
-                  "name": "JOHNLLOYD CARBLE vs ANTON RAGA",
-                  "streams": [
-                    {
-                      "id": "st-a0e3b6aa05",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0e3b6aa05",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6176/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "JOHNLLOYD CARBLE",
-            "team_b": "ANTON RAGA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786670857678_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786670857389_phil.png",
-            "time": "09:00 14/08",
-            "caster": "Đại Kê",
-            "score": "3-8",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0e3b6aa05_606ec24b_20260814.png?v=606ec24b",
             "width": 1600,
             "height": 1200
           }
