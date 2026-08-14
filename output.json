@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e082e575fd",
-          "name": "Yannick Pongers vs Payne McBride | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e082e575fd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e082e575fd",
-                  "name": "Yannick Pongers vs Payne McBride",
-                  "streams": [
-                    {
-                      "id": "st-e082e575fd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e082e575fd",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6163/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Arizona open pool championship",
-            "team_a": "Yannick Pongers",
-            "team_b": "Payne McBride",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786660351087_11.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786660350750_Screenshot 2026-08-14 014421.png",
-            "time": "06:00 14/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e082e575fd_36c2fd89_20260814.png?v=36c2fd89",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-89b0686cb0",
           "name": "Tyler Styer vs Dean Shields | VÁNG",
           "type": "single",
@@ -161,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-d58aa6b43c",
-          "name": "Bernie Regalario vs Justine Melo Baltazar | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d58aa6b43c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d58aa6b43c",
-                  "name": "Bernie Regalario vs Justine Melo Baltazar",
-                  "streams": [
-                    {
-                      "id": "st-d58aa6b43c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d58aa6b43c",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6164/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 Arizona open pool championship",
-            "team_a": "Bernie Regalario",
-            "team_b": "Justine Melo Baltazar",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786660900793_Screenshot 2026-08-14 052839.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786660896521_Screenshot 2026-08-14 054122.png",
-            "time": "06:00 14/08",
-            "caster": "Thập Cẩm",
-            "score": "1-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d58aa6b43c_7daa59b9_20260814.png?v=7daa59b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-309735ae85",
           "name": "Cristopher Tevez vs Julio Rueda | Kèn Kèn",
           "type": "single",
@@ -300,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-309735ae85_2fbdca17_20260814.png?v=2fbdca17",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d58aa6b43c",
+          "name": "Bernie Regalario vs Justine Melo Baltazar | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d58aa6b43c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d58aa6b43c",
+                  "name": "Bernie Regalario vs Justine Melo Baltazar",
+                  "streams": [
+                    {
+                      "id": "st-d58aa6b43c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d58aa6b43c",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6164/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Arizona open pool championship",
+            "team_a": "Bernie Regalario",
+            "team_b": "Justine Melo Baltazar",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786660900793_Screenshot 2026-08-14 052839.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786660896521_Screenshot 2026-08-14 054122.png",
+            "time": "06:00 14/08",
+            "caster": "Thập Cẩm",
+            "score": "2-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d58aa6b43c_7daa59b9_20260814.png?v=7daa59b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e082e575fd",
+          "name": "Yannick Pongers vs Payne McBride | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e082e575fd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e082e575fd",
+                  "name": "Yannick Pongers vs Payne McBride",
+                  "streams": [
+                    {
+                      "id": "st-e082e575fd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e082e575fd",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6163/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Yannick Pongers",
+            "team_b": "Payne McBride",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786660351087_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786660350750_Screenshot 2026-08-14 014421.png",
+            "time": "06:00 14/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e082e575fd_36c2fd89_20260814.png?v=36c2fd89",
             "width": 1600,
             "height": 1200
           }
