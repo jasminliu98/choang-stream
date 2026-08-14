@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-cbc4c7bcff",
+          "name": "BÌNH CHUẨN (15win) vs THÀNH NAM (13win) | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cbc4c7bcff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cbc4c7bcff",
+                  "name": "BÌNH CHUẨN (15win) vs THÀNH NAM (13win)",
+                  "streams": [
+                    {
+                      "id": "st-cbc4c7bcff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc4c7bcff",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6186/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BIDA TOP TOP",
+            "team_a": "BÌNH CHUẨN (15win)",
+            "team_b": "THÀNH NAM (13win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786683920691_BÃNH CHUáº¨N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786683933635_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "time": "00:00 14/08",
+            "caster": "Đại Kê",
+            "score": "2-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cbc4c7bcff_b1261db4_20260814.png?v=b1261db4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-8ff5c7ab19",
           "name": "ROMMEL SANTOS(+2.5) vs JEFFREY IGNACIO | Tào A Man",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786680245585_phil.png",
             "time": "00:00 14/08",
             "caster": "Tào A Man",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786679676489_phil.png",
             "time": "10:50 14/08",
             "caster": "Đại Kê",
-            "score": "8-3",
+            "score": "8-4",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786680406272_phil.png",
             "time": "11:00 14/08",
             "caster": "SÊ KÔÔ",
-            "score": "5-4",
+            "score": "5-5",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786680484336_phil.png",
             "time": "11:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
