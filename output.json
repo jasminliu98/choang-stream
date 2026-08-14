@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-e973735e79",
+          "name": "A CHIẾN vs QUÂN  CON | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e973735e79",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e973735e79",
+                  "name": "A CHIẾN vs QUÂN  CON",
+                  "streams": [
+                    {
+                      "id": "st-e973735e79",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e973735e79",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6192/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida TOP TOP",
+            "team_a": "A CHIẾN",
+            "team_b": "QUÂN  CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "00:00 14/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "4-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e973735e79_71646c83_20260814.png?v=71646c83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cbc4c7bcff",
           "name": "BÌNH CHUẨN (15win) vs THÀNH NAM (13win) | Đại Kê",
           "type": "single",
@@ -89,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-e973735e79",
-          "name": "A CHIẾN vs QUÂN  CON | GIÀNG A PHỌ",
+          "id": "chtv-50e3374be6",
+          "name": "PHOENIX vs NH PAY | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-e973735e79",
+              "id": "src-50e3374be6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e973735e79",
-                  "name": "A CHIẾN vs QUÂN  CON",
+                  "id": "ct-50e3374be6",
+                  "name": "PHOENIX vs NH PAY",
                   "streams": [
                     {
-                      "id": "st-e973735e79",
+                      "id": "st-50e3374be6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e973735e79",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-50e3374be6",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6192/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6191/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,86 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "bida TOP TOP",
-            "team_a": "A CHIẾN",
-            "team_b": "QUÂN  CON",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "00:00 14/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "3-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e973735e79_71646c83_20260814.png?v=71646c83",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-32692e9366",
-          "name": "RONEL NALAUNAN vs MICHAEL FELICIANO | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32692e9366",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-32692e9366",
-                  "name": "RONEL NALAUNAN vs MICHAEL FELICIANO",
-                  "streams": [
-                    {
-                      "id": "st-32692e9366",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32692e9366",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6188/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lbalong Festival 9-Ball Billiard Tournament",
-            "team_a": "RONEL NALAUNAN",
-            "team_b": "MICHAEL FELICIANO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786685031350_RONEL NALAUNAN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786684789380_Michael Feliciano.jpg",
+            "league": "웰컴저축은행 PBA 팀리그 화성특례시 TOUR 2026-2027",
+            "team_a": "PHOENIX",
+            "team_b": "NH PAY",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786686039949_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 123819.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786686065702_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 123852.png",
             "time": "13:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-6",
+            "caster": "Bỉm Sữa",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-32692e9366_8daa984d_20260814.png?v=8daa984d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-50e3374be6_fd061eb3_20260814.png?v=fd061eb3",
             "width": 1600,
             "height": 1200
           }
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-50e3374be6",
-          "name": "PHOENIX vs NH PAY | Bỉm Sữa",
+          "id": "chtv-32692e9366",
+          "name": "RONEL NALAUNAN vs MICHAEL FELICIANO | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-50e3374be6",
+              "id": "src-32692e9366",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-50e3374be6",
-                  "name": "PHOENIX vs NH PAY",
+                  "id": "ct-32692e9366",
+                  "name": "RONEL NALAUNAN vs MICHAEL FELICIANO",
                   "streams": [
                     {
-                      "id": "st-50e3374be6",
+                      "id": "st-32692e9366",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-50e3374be6",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-32692e9366",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6191/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6188/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,14 +356,14 @@
             }
           ],
           "org_metadata": {
-            "league": "웰컴저축은행 PBA 팀리그 화성특례시 TOUR 2026-2027",
-            "team_a": "PHOENIX",
-            "team_b": "NH PAY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786686039949_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 123819.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786686065702_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 123852.png",
+            "league": "lbalong Festival 9-Ball Billiard Tournament",
+            "team_a": "RONEL NALAUNAN",
+            "team_b": "MICHAEL FELICIANO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786685031350_RONEL NALAUNAN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786684789380_Michael Feliciano.jpg",
             "time": "13:00 14/08",
-            "caster": "Bỉm Sữa",
-            "score": "1-1",
+            "caster": "Lee Min Hoo",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-50e3374be6_fd061eb3_20260814.png?v=fd061eb3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-32692e9366_8daa984d_20260814.png?v=8daa984d",
             "width": 1600,
             "height": 1200
           }
