@@ -83,79 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-54161956f5_9d76bfb0_20260814.png?v=9d76bfb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0d64256943",
-          "name": "Sanjin Pehlivanovic vs Skyler Woodward | 00:00 15/08 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d64256943",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0d64256943",
-                  "name": "Sanjin Pehlivanovic vs Skyler Woodward",
-                  "streams": [
-                    {
-                      "id": "st-0d64256943",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d64256943",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6235/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Arizona open pool championship",
-            "team_a": "Sanjin Pehlivanovic",
-            "team_b": "Skyler Woodward",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786726062275_Sanjin Pehlivanovic.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786726059208_Skyler Woodward.jpg",
-            "time": "00:00 15/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0d64256943_2ca66f91_20260814.png?v=2ca66f91",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-54161956f5_9d76bfb0_20260815.png?v=9d76bfb0",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-29d7218e8f_86a92d6d_20260814.png?v=86a92d6d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-29d7218e8f_86a92d6d_20260815.png?v=86a92d6d",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12d7e3393d_7593ef27_20260814.png?v=7593ef27",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12d7e3393d_7593ef27_20260815.png?v=7593ef27",
             "width": 1600,
             "height": 1200
           }
@@ -371,79 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9aebd7f3f_035f34d2_20260814.png?v=035f34d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-91b5d83f65",
-          "name": "Shane Van Boening vs Albin Ouschan(7win) | 03:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-91b5d83f65",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-91b5d83f65",
-                  "name": "Shane Van Boening vs Albin Ouschan(7win)",
-                  "streams": [
-                    {
-                      "id": "st-91b5d83f65",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91b5d83f65",
-                          "name": "",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6233/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 Arizona open pool championship",
-            "team_a": "Shane Van Boening",
-            "team_b": "Albin Ouschan(7win)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786725883322_Shane Van Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786725886994_Albin Ouschan.jpg",
-            "time": "03:00 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-91b5d83f65_b11069c0_20260814.png?v=b11069c0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9aebd7f3f_035f34d2_20260815.png?v=035f34d2",
             "width": 1600,
             "height": 1200
           }
@@ -515,14 +371,86 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e36e1c486a_564db4b1_20260814.png?v=564db4b1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e36e1c486a_564db4b1_20260815.png?v=564db4b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-91b5d83f65",
+          "name": "Shane Van Boening vs Albin Ouschan(7win) | 03:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-91b5d83f65",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-91b5d83f65",
+                  "name": "Shane Van Boening vs Albin Ouschan(7win)",
+                  "streams": [
+                    {
+                      "id": "st-91b5d83f65",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-91b5d83f65",
+                          "name": "",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6233/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Shane Van Boening",
+            "team_b": "Albin Ouschan(7win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786725883322_Shane Van Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786725886994_Albin Ouschan.jpg",
+            "time": "03:00 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-91b5d83f65_b11069c0_20260815.png?v=b11069c0",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-9666e36e69",
-          "name": "Walter Laikre(8win) vs Francesco Candela | 04:45 15/08",
+          "name": "Walter Laikre(8win) vs Francesco Candela | 04:45 15/08 | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -549,7 +477,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-9666e36e69",
-                          "name": "",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6236/index.m3u8",
@@ -578,7 +506,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1786726124302_Walter Laikre.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1786726142153_Francesco Candela.jpg",
             "time": "04:45 15/08",
-            "caster": "",
+            "caster": "BÚN CHÓ",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -587,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9666e36e69_49f6df74_20260814.png?v=49f6df74",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9666e36e69_49f6df74_20260815.png?v=49f6df74",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +587,151 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c29a2a01ef_50ba20a3_20260814.png?v=50ba20a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c29a2a01ef_50ba20a3_20260815.png?v=50ba20a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0981439a3e",
+          "name": "Johnny Archer vs Roberto Gomez | 04:45 15/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0981439a3e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0981439a3e",
+                  "name": "Johnny Archer vs Roberto Gomez",
+                  "streams": [
+                    {
+                      "id": "st-0981439a3e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0981439a3e",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6237/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  Arizona open pool championship",
+            "team_a": "Johnny Archer",
+            "team_b": "Roberto Gomez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786726646594_Johnny Archer.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786726649545_Roberto Gomez.jpg",
+            "time": "04:45 15/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0981439a3e_d4c2b22f_20260815.png?v=d4c2b22f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0d64256943",
+          "name": "Sanjin Pehlivanovic vs Skyler Woodward | 04:45 15/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d64256943",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0d64256943",
+                  "name": "Sanjin Pehlivanovic vs Skyler Woodward",
+                  "streams": [
+                    {
+                      "id": "st-0d64256943",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d64256943",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6235/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Arizona open pool championship",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Skyler Woodward",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786726062275_Sanjin Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786726059208_Skyler Woodward.jpg",
+            "time": "04:45 15/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0d64256943_2ca66f91_20260815.png?v=2ca66f91",
             "width": 1600,
             "height": 1200
           }
@@ -731,7 +803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3accb75c77_02c86317_20260814.png?v=02c86317",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3accb75c77_02c86317_20260815.png?v=02c86317",
             "width": 1600,
             "height": 1200
           }
@@ -803,7 +875,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-51ee8a0d24_d54e70b6_20260814.png?v=d54e70b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-51ee8a0d24_d54e70b6_20260815.png?v=d54e70b6",
             "width": 1600,
             "height": 1200
           }
@@ -875,7 +947,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d6bd5e6033_353e5452_20260814.png?v=353e5452",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d6bd5e6033_353e5452_20260815.png?v=353e5452",
             "width": 1600,
             "height": 1200
           }
@@ -947,7 +1019,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bea8dccf0a_07690ffc_20260814.png?v=07690ffc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bea8dccf0a_07690ffc_20260815.png?v=07690ffc",
             "width": 1600,
             "height": 1200
           }
@@ -1019,7 +1091,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9544e26e0e_fa178858_20260814.png?v=fa178858",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9544e26e0e_fa178858_20260815.png?v=fa178858",
             "width": 1600,
             "height": 1200
           }
@@ -1091,7 +1163,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d42c858ef0_bfb6926f_20260814.png?v=bfb6926f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d42c858ef0_bfb6926f_20260815.png?v=bfb6926f",
             "width": 1600,
             "height": 1200
           }
@@ -1163,7 +1235,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b854be827_3b23fb8c_20260814.png?v=3b23fb8c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b854be827_3b23fb8c_20260815.png?v=3b23fb8c",
             "width": 1600,
             "height": 1200
           }
@@ -1235,7 +1307,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea14f1b554_00200abe_20260814.png?v=00200abe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea14f1b554_00200abe_20260815.png?v=00200abe",
             "width": 1600,
             "height": 1200
           }
@@ -1307,7 +1379,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c15366fb9b_dd0759a3_20260814.png?v=dd0759a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c15366fb9b_dd0759a3_20260815.png?v=dd0759a3",
             "width": 1600,
             "height": 1200
           }
@@ -1379,7 +1451,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ecf27580af_34abd27f_20260814.png?v=34abd27f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ecf27580af_34abd27f_20260815.png?v=34abd27f",
             "width": 1600,
             "height": 1200
           }
