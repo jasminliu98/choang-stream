@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-499ce1a523",
-          "name": "Dechapan vs Saya Ito | 18:30 14/08 | Đại Kê",
+          "name": "Dechapan vs Saya Ito | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "18:30 14/08",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -156,7 +156,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "Lee Min Hoo",
-            "score": "12-11",
+            "score": "12-12",
             "is_live": true,
             "hot": true
           },
@@ -228,7 +228,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "SÊ KÔÔ",
-            "score": "2-2",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
