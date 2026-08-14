@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417407261_táº£i xuá»ng.png",
             "time": "00:00 14/08",
             "caster": "Bỉm Sữa",
-            "score": "10-15",
+            "score": "11-15",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f22e0e4f1b_b18e1253_20260814.png?v=b18e1253",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-43f60937f3",
-          "name": "Tú Tây vs Trung Nấm | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43f60937f3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-43f60937f3",
-                  "name": "Tú Tây vs Trung Nấm",
-                  "streams": [
-                    {
-                      "id": "st-43f60937f3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43f60937f3",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6196/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LÒ MAGIC",
-            "team_a": "Tú Tây",
-            "team_b": "Trung Nấm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786693267455_TRUNG Náº¤M.png",
-            "time": "00:00 14/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-43f60937f3_e8ef6096_20260814.png?v=e8ef6096",
             "width": 1600,
             "height": 1200
           }
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-43f60937f3",
+          "name": "Tú Tây vs Trung Nấm | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43f60937f3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-43f60937f3",
+                  "name": "Tú Tây vs Trung Nấm",
+                  "streams": [
+                    {
+                      "id": "st-43f60937f3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43f60937f3",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6196/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LÒ MAGIC",
+            "team_a": "Tú Tây",
+            "team_b": "Trung Nấm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786693267455_TRUNG Náº¤M.png",
+            "time": "00:00 14/08",
+            "caster": "Lee Min Hoo",
+            "score": "3-5",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-43f60937f3_e8ef6096_20260814.png?v=e8ef6096",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cd751049e6",
           "name": "Thành Nam vs Bình chuẩn | Đại Kê",
           "type": "single",
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786694286819_BÃNH CHUáº¨N.jpg",
             "time": "00:00 14/08",
             "caster": "Đại Kê",
-            "score": "1-2",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "14:00 14/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "10-15",
+            "score": "11-15",
             "is_live": true,
             "hot": false
           },
@@ -507,7 +507,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786692423707_ALBERT ESPINOLA.jpg",
             "time": "15:00 14/08",
             "caster": "SÊ KÔÔ",
-            "score": "1-2",
+            "score": "1-3",
             "is_live": true,
             "hot": true
           },
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0708b8ec67_01083bbb_20260814.png?v=01083bbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-499ce1a523",
+          "name": "Dechapan vs Saya Ito | 18:30 14/08 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-499ce1a523",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-499ce1a523",
+                  "name": "Dechapan vs Saya Ito",
+                  "streams": [
+                    {
+                      "id": "st-499ce1a523",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-499ce1a523",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6200/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận đấu 1 | The Inner Circle 26",
+            "team_a": "Dechapan",
+            "team_b": "Saya Ito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786695871999_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 152205.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786695897566_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-14 152245.png",
+            "time": "18:30 14/08",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-499ce1a523_ee78ff4b_20260814.png?v=ee78ff4b",
             "width": 1600,
             "height": 1200
           }
