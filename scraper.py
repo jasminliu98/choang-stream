@@ -452,7 +452,7 @@ def main():
     with open(staging, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    total = len(channels)
+    total = len(vo_thuat_channels) + len(billiard_channels)
 
     def normalize(path):
         try:
