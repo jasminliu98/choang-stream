@@ -591,6 +591,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-c15366fb9b",
+          "name": "Trận 9 LION Championship 34 | 22:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c15366fb9b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c15366fb9b",
+                  "name": "Trận 9 LION Championship 34",
+                  "streams": [
+                    {
+                      "id": "st-c15366fb9b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c15366fb9b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6037/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 9 LION Championship 34",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786427213733_Screenshot 2026-08-11 124645.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786427213337_Screenshot 2026-08-11 124648.png",
+            "time": "22:00 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c15366fb9b_dd0759a3_20260815.png?v=dd0759a3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
