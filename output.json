@@ -68,7 +68,7 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 Arizona open pool championship",
+            "league": "TV3 Arizona open pool championship",
             "team_a": "Denis Grabe",
             "team_b": "Mickey Krause",
             "logo_a": "https://cdn-choangtv.com/img/logo/1786808950410_Denis Grabe.jpg",
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c137d79bf_94d02c82_20260815.png?v=94d02c82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d4b868beb1",
+          "name": "Sanjin Pehlivanovic vs Jesús Atencio | 03:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4b868beb1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d4b868beb1",
+                  "name": "Sanjin Pehlivanovic vs Jesús Atencio",
+                  "streams": [
+                    {
+                      "id": "st-d4b868beb1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4b868beb1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6304/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1  Arizona open pool championship",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809218490_Sanjin Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809225494_JesÃºs Atencio.jpg",
+            "time": "03:00 16/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d4b868beb1_ac5183ab_20260815.png?v=ac5183ab",
             "width": 1600,
             "height": 1200
           }
