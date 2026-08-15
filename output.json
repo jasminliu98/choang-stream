@@ -740,14 +740,86 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-1247556602",
+          "name": "Tiến Minh TH vs Quang Con | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1247556602",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1247556602",
+                  "name": "Tiến Minh TH vs Quang Con",
+                  "streams": [
+                    {
+                      "id": "st-1247556602",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1247556602",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6293/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Tiến Minh TH",
+            "team_b": "Quang Con",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786790520626_Tiáº¿n Minh TH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786789839260_quang con.png",
+            "time": "18:30 15/08",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1247556602_940599a3_20260815.png?v=940599a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-fabf104437",
-          "name": "Hoàng PT vs Hùng Cua | 18:30 15/08",
+          "name": "Hoàng PT vs Hùng Cua | 18:30 15/08 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -774,7 +846,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-fabf104437",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6296/index.m3u8",
@@ -803,7 +875,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1786790894221_HOÃNG PHÃ THá».png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "18:30 15/08",
-            "caster": "",
+            "caster": "GIÀNG A PHỌ",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -813,78 +885,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fabf104437_562feefc_20260815.png?v=562feefc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6b12e66f27",
-          "name": "Tiến Minh TH vs Quang Con | 18:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b12e66f27",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6b12e66f27",
-                  "name": "Tiến Minh TH vs Quang Con",
-                  "streams": [
-                    {
-                      "id": "st-6b12e66f27",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b12e66f27",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6294/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Tiến Minh TH",
-            "team_b": "Quang Con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786790528637_Tiáº¿n Minh TH.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786789897607_quang con.png",
-            "time": "18:30 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b12e66f27_43cb1506_20260815.png?v=43cb1506",
             "width": 1600,
             "height": 1200
           }
@@ -962,8 +962,8 @@
           }
         },
         {
-          "id": "chtv-205b2e8774",
-          "name": "Phong Nam vs Văn Sinh | 18:30 15/08",
+          "id": "chtv-65d088a14e",
+          "name": "Phong Nam vs Văn Sinh | 18:30 15/08 | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -977,23 +977,23 @@
           ],
           "sources": [
             {
-              "id": "src-205b2e8774",
+              "id": "src-65d088a14e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-205b2e8774",
+                  "id": "ct-65d088a14e",
                   "name": "Phong Nam vs Văn Sinh",
                   "streams": [
                     {
-                      "id": "st-205b2e8774",
+                      "id": "st-65d088a14e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-205b2e8774",
-                          "name": "Stream",
+                          "id": "lnk-65d088a14e",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6291/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6292/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1016,10 +1016,10 @@
             "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
             "team_a": "Phong Nam",
             "team_b": "Văn Sinh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786789530815_Phong Nam.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786789534526_VÄn Sinh.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786789585168_Phong Nam.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786789588027_VÄn Sinh.jpg",
             "time": "18:30 15/08",
-            "caster": "",
+            "caster": "SÊ KÔÔ",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -1028,7 +1028,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-205b2e8774_e3e1cf9c_20260815.png?v=e3e1cf9c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65d088a14e_aa539eaf_20260815.png?v=aa539eaf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b0df139763",
+          "name": "BÌNH CHUẨN vs ANH TỐC ĐỘ | 18:30 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0df139763",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b0df139763",
+                  "name": "BÌNH CHUẨN vs ANH TỐC ĐỘ",
+                  "streams": [
+                    {
+                      "id": "st-b0df139763",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0df139763",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6288/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "BÌNH CHUẨN",
+            "team_b": "ANH TỐC ĐỘ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786788963842_BÃNH CHUáº¨N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "18:30 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b0df139763_d898d31f_20260815.png?v=d898d31f",
             "width": 1600,
             "height": 1200
           }
@@ -1173,78 +1245,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-502eb29a30_3c1d807d_20260815.png?v=3c1d807d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b0df139763",
-          "name": "BÌNH CHUẨN vs ANH TỐC ĐỘ | 18:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b0df139763",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b0df139763",
-                  "name": "BÌNH CHUẨN vs ANH TỐC ĐỘ",
-                  "streams": [
-                    {
-                      "id": "st-b0df139763",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0df139763",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6288/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V6 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "BÌNH CHUẨN",
-            "team_b": "ANH TỐC ĐỘ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786788963842_BÃNH CHUáº¨N.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "18:30 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b0df139763_d898d31f_20260815.png?v=d898d31f",
             "width": 1600,
             "height": 1200
           }
