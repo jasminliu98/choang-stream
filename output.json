@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-0a0903fe4b",
-          "name": "Jeffrey De Luna vs Mario He | 03:00 16/08 | Kèn Kèn",
+          "id": "chtv-4b47ee14e8",
+          "name": "Jefrey Roda vs Joshua Filler | 03:00 16/08 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-0a0903fe4b",
+              "id": "src-4b47ee14e8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0a0903fe4b",
-                  "name": "Jeffrey De Luna vs Mario He",
+                  "id": "ct-4b47ee14e8",
+                  "name": "Jefrey Roda vs Joshua Filler",
                   "streams": [
                     {
-                      "id": "st-0a0903fe4b",
+                      "id": "st-4b47ee14e8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0a0903fe4b",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-4b47ee14e8",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6305/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6306/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 Arizona open pool championship",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786809315181_JEFFREY DE LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786809318907_Mario He.jpg",
+            "league": "TV2  Arizona open pool championship",
+            "team_a": "Jefrey Roda",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809512181_Jefrey Roda.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809512812_Joshua Filler.jpg",
             "time": "03:00 16/08",
-            "caster": "Kèn Kèn",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a0903fe4b_7ad371b2_20260815.png?v=7ad371b2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b47ee14e8_75012f27_20260815.png?v=75012f27",
             "width": 1600,
             "height": 1200
           }
@@ -161,6 +161,150 @@
           }
         },
         {
+          "id": "chtv-f2be4bb6f5",
+          "name": "Sanjin Pehlivanovic vs Jesús Atencio | 03:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2be4bb6f5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f2be4bb6f5",
+                  "name": "Sanjin Pehlivanovic vs Jesús Atencio",
+                  "streams": [
+                    {
+                      "id": "st-f2be4bb6f5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2be4bb6f5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6307/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809943369_Sanjin Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809948866_JesÃºs Atencio.jpg",
+            "time": "03:00 16/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2be4bb6f5_df56fa2f_20260815.png?v=df56fa2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0a0903fe4b",
+          "name": "Jeffrey De Luna vs Mario He | 03:00 16/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a0903fe4b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0a0903fe4b",
+                  "name": "Jeffrey De Luna vs Mario He",
+                  "streams": [
+                    {
+                      "id": "st-0a0903fe4b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a0903fe4b",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6305/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Arizona open pool championship",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809315181_JEFFREY DE LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809318907_Mario He.jpg",
+            "time": "03:00 16/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a0903fe4b_7ad371b2_20260815.png?v=7ad371b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d4b868beb1",
           "name": "Sanjin Pehlivanovic vs Jesús Atencio | 03:00 16/08 | VÁNG",
           "type": "single",
@@ -233,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-4b47ee14e8",
-          "name": "Jefrey Roda vs Joshua Filler | 03:00 16/08 | Thập Cẩm",
+          "id": "chtv-3c74000827",
+          "name": "Jefrey Roda vs Joshua Filler | 03:00 16/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-4b47ee14e8",
+              "id": "src-3c74000827",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4b47ee14e8",
+                  "id": "ct-3c74000827",
                   "name": "Jefrey Roda vs Joshua Filler",
                   "streams": [
                     {
-                      "id": "st-4b47ee14e8",
+                      "id": "st-3c74000827",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b47ee14e8",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-3c74000827",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6306/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6308/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,13 +428,85 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2  Arizona open pool championship",
+            "league": "TV2 Arizona open pool championship",
             "team_a": "Jefrey Roda",
             "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786809512181_Jefrey Roda.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786809512812_Joshua Filler.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786810021506_Jefrey Roda.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786810024773_Joshua Filler.jpg",
             "time": "03:00 16/08",
-            "caster": "Thập Cẩm",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c74000827_f9f75e36_20260815.png?v=f9f75e36",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c8e3324d22",
+          "name": "Shane Van Boening vs Carlo Biado | 04:45 16/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8e3324d22",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c8e3324d22",
+                  "name": "Shane Van Boening vs Carlo Biado",
+                  "streams": [
+                    {
+                      "id": "st-c8e3324d22",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8e3324d22",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6309/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Arizona open pool championship",
+            "team_a": "Shane Van Boening",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786810110013_Shane Van Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786810115157_CARLO BIADO.jpg",
+            "time": "04:45 16/08",
+            "caster": "VÁNG",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -299,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b47ee14e8_75012f27_20260815.png?v=75012f27",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8e3324d22_69617b3c_20260815.png?v=69617b3c",
             "width": 1600,
             "height": 1200
           }
