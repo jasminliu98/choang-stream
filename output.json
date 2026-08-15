@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d4b868beb1",
-          "name": "Sanjin Pehlivanovic vs Jesús Atencio | VÁNG",
+          "id": "chtv-4c137d79bf",
+          "name": "Denis Grabe vs Mickey Krause | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-d4b868beb1",
+              "id": "src-4c137d79bf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d4b868beb1",
-                  "name": "Sanjin Pehlivanovic vs Jesús Atencio",
+                  "id": "ct-4c137d79bf",
+                  "name": "Denis Grabe vs Mickey Krause",
                   "streams": [
                     {
-                      "id": "st-d4b868beb1",
+                      "id": "st-4c137d79bf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d4b868beb1",
-                          "name": "VÁNG",
+                          "id": "lnk-4c137d79bf",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6304/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6303/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1  Arizona open pool championship",
-            "team_a": "Sanjin Pehlivanovic",
-            "team_b": "Jesús Atencio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786809218490_Sanjin Pehlivanovic.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786809225494_JesÃºs Atencio.jpg",
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Denis Grabe",
+            "team_b": "Mickey Krause",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786808950410_Denis Grabe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786808954211_Mickey Krause.jpg",
             "time": "03:00 16/08",
-            "caster": "VÁNG",
+            "caster": "BÚN CHÓ",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d4b868beb1_ac5183ab_20260816.png?v=ac5183ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c137d79bf_94d02c82_20260816.png?v=94d02c82",
             "width": 1600,
             "height": 1200
           }
@@ -161,38 +161,38 @@
           }
         },
         {
-          "id": "chtv-4b47ee14e8",
-          "name": "Jefrey Roda vs Joshua Filler | 03:00 16/08 | Thập Cẩm",
+          "id": "chtv-d4b868beb1",
+          "name": "Sanjin Pehlivanovic vs Jesús Atencio | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-4b47ee14e8",
+              "id": "src-d4b868beb1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4b47ee14e8",
-                  "name": "Jefrey Roda vs Joshua Filler",
+                  "id": "ct-d4b868beb1",
+                  "name": "Sanjin Pehlivanovic vs Jesús Atencio",
                   "streams": [
                     {
-                      "id": "st-4b47ee14e8",
+                      "id": "st-d4b868beb1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b47ee14e8",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-d4b868beb1",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6306/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6304/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,94 +212,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2  Arizona open pool championship",
-            "team_a": "Jefrey Roda",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786809512181_Jefrey Roda.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786809512812_Joshua Filler.jpg",
+            "league": "TV1  Arizona open pool championship",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809218490_Sanjin Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809225494_JesÃºs Atencio.jpg",
             "time": "03:00 16/08",
-            "caster": "Thập Cẩm",
+            "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b47ee14e8_75012f27_20260816.png?v=75012f27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4c137d79bf",
-          "name": "Denis Grabe vs Mickey Krause | 03:00 16/08 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c137d79bf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4c137d79bf",
-                  "name": "Denis Grabe vs Mickey Krause",
-                  "streams": [
-                    {
-                      "id": "st-4c137d79bf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c137d79bf",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6303/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Arizona open pool championship",
-            "team_a": "Denis Grabe",
-            "team_b": "Mickey Krause",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786808950410_Denis Grabe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786808954211_Mickey Krause.jpg",
-            "time": "03:00 16/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c137d79bf_94d02c82_20260816.png?v=94d02c82",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d4b868beb1_ac5183ab_20260816.png?v=ac5183ab",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2be4bb6f5_df56fa2f_20260816.png?v=df56fa2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4b47ee14e8",
+          "name": "Jefrey Roda vs Joshua Filler | 03:00 16/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b47ee14e8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b47ee14e8",
+                  "name": "Jefrey Roda vs Joshua Filler",
+                  "streams": [
+                    {
+                      "id": "st-4b47ee14e8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b47ee14e8",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6306/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Arizona open pool championship",
+            "team_a": "Jefrey Roda",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809512181_Jefrey Roda.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809512812_Joshua Filler.jpg",
+            "time": "03:00 16/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b47ee14e8_75012f27_20260816.png?v=75012f27",
             "width": 1600,
             "height": 1200
           }
