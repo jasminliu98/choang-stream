@@ -11,23 +11,95 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-51ee8a0d24",
-          "name": "Trận 2 LION Championship 34 | 20:15 15/08",
+          "id": "chtv-3accb75c77",
+          "name": "Trận 1 LION Championship 34 | SPCHOANG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3accb75c77",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3accb75c77",
+                  "name": "Trận 1 LION Championship 34",
+                  "streams": [
+                    {
+                      "id": "st-3accb75c77",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3accb75c77",
+                          "name": "SPCHOANG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6027/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 1 LION Championship 34",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786426355534_Screenshot 2026-08-11 123223.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786426354553_Screenshot 2026-08-11 123227.png",
+            "time": "20:00 15/08",
+            "caster": "SPCHOANG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3accb75c77_02c86317_20260815.png?v=02c86317",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-51ee8a0d24",
+          "name": "Trận 2 LION Championship 34",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +148,7 @@
             "time": "20:15 15/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -90,16 +162,16 @@
         },
         {
           "id": "chtv-d6bd5e6033",
-          "name": "Trận 3 LION Championship 34 | 20:30 15/08",
+          "name": "Trận 3 LION Championship 34",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +220,7 @@
             "time": "20:30 15/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -162,16 +234,16 @@
         },
         {
           "id": "chtv-bea8dccf0a",
-          "name": "Trận 4 LION Championship 34 | 20:45 15/08",
+          "name": "Trận 4 LION Championship 34",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +292,7 @@
             "time": "20:45 15/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -234,16 +306,16 @@
         },
         {
           "id": "chtv-9544e26e0e",
-          "name": "Trận 5 LION Championship 34 | 21:00 15/08",
+          "name": "Trận 5 LION Championship 34",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +364,7 @@
             "time": "21:00 15/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
