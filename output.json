@@ -10,87 +10,6 @@
   },
   "groups": [
     {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "chtv-ecf27580af",
-          "name": "Trận 10 LION Championship 34 | 22:15 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ecf27580af",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ecf27580af",
-                  "name": "Trận 10 LION Championship 34",
-                  "streams": [
-                    {
-                      "id": "st-ecf27580af",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecf27580af",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6038/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 10 LION Championship 34",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786427281177_Screenshot 2026-08-11 124752.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786427280786_Screenshot 2026-08-11 124756.png",
-            "time": "22:15 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ecf27580af_34abd27f_20260815.png?v=34abd27f",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_billiards",
       "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
@@ -156,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786804544855_DUY NHá».png",
             "time": "21:33 15/08",
             "caster": "Đại Kê",
-            "score": "3-0",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
