@@ -87,16 +87,304 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-51ee8a0d24",
+          "name": "Trận 2 LION Championship 34 | 20:15 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51ee8a0d24",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-51ee8a0d24",
+                  "name": "Trận 2 LION Championship 34",
+                  "streams": [
+                    {
+                      "id": "st-51ee8a0d24",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51ee8a0d24",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6028/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 2 LION Championship 34",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786426512863_Screenshot 2026-08-11 123504.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786426512420_Screenshot 2026-08-11 123508.png",
+            "time": "20:15 15/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-51ee8a0d24_d54e70b6_20260815.png?v=d54e70b6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-6f5b6201f2",
+          "name": "Bình Ốc vs Cường Tỏi | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f5b6201f2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6f5b6201f2",
+                  "name": "Bình Ốc vs Cường Tỏi",
+                  "streams": [
+                    {
+                      "id": "st-6f5b6201f2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f5b6201f2",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6278/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Bình Ốc",
+            "team_b": "Cường Tỏi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786776131419_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786776131096_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "14:00 15/08",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6f5b6201f2_142fcf48_20260815.png?v=142fcf48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9a42ef0df2",
+          "name": "Tkon vs Khánh Búa | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a42ef0df2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9a42ef0df2",
+                  "name": "Tkon vs Khánh Búa",
+                  "streams": [
+                    {
+                      "id": "st-9a42ef0df2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a42ef0df2",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6275/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Tkon",
+            "team_b": "Khánh Búa",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786775893928_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786775893641_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "14:00 15/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a42ef0df2_12f3bfc5_20260815.png?v=12f3bfc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-213045511f",
+          "name": "Bình Chuẩn vs An Nhiệt | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-213045511f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-213045511f",
+                  "name": "Bình Chuẩn vs An Nhiệt",
+                  "streams": [
+                    {
+                      "id": "st-213045511f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-213045511f",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6276/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 V6 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Bình Chuẩn",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786775949164_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786775948863_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "14:00 15/08",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-213045511f_a3270749_20260815.png?v=a3270749",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-75d3c6da52",
           "name": "Mạnh Treo vs Văn Sinh | Tào A Man",
