@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-6b854be827",
-          "name": "Trận 7 LION Championship 34",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b854be827",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6b854be827",
-                  "name": "Trận 7 LION Championship 34",
-                  "streams": [
-                    {
-                      "id": "st-6b854be827",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b854be827",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6034/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 7 LION Championship 34",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786427049490_Screenshot 2026-08-11 124401.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786427049176_Screenshot 2026-08-11 124405.png",
-            "time": "21:30 15/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b854be827_3b23fb8c_20260815.png?v=3b23fb8c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-ea14f1b554",
           "name": "Trận 8 LION Championship 34 | 21:45 15/08",
