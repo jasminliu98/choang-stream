@@ -17,150 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d4b868beb1",
-          "name": "Sanjin Pehlivanovic vs Jesús Atencio | 03:00 16/08 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4b868beb1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d4b868beb1",
-                  "name": "Sanjin Pehlivanovic vs Jesús Atencio",
-                  "streams": [
-                    {
-                      "id": "st-d4b868beb1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4b868beb1",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6304/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1  Arizona open pool championship",
-            "team_a": "Sanjin Pehlivanovic",
-            "team_b": "Jesús Atencio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786809218490_Sanjin Pehlivanovic.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786809225494_JesÃºs Atencio.jpg",
-            "time": "03:00 16/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d4b868beb1_ac5183ab_20260815.png?v=ac5183ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4c137d79bf",
-          "name": "Denis Grabe vs Mickey Krause | 03:00 16/08 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c137d79bf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4c137d79bf",
-                  "name": "Denis Grabe vs Mickey Krause",
-                  "streams": [
-                    {
-                      "id": "st-4c137d79bf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c137d79bf",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6303/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Arizona open pool championship",
-            "team_a": "Denis Grabe",
-            "team_b": "Mickey Krause",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786808950410_Denis Grabe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786808954211_Mickey Krause.jpg",
-            "time": "03:00 16/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c137d79bf_94d02c82_20260815.png?v=94d02c82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-f2be4bb6f5",
           "name": "Sanjin Pehlivanovic vs Jesús Atencio | 03:00 16/08",
           "type": "single",
@@ -300,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b47ee14e8_75012f27_20260815.png?v=75012f27",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4c137d79bf",
+          "name": "Denis Grabe vs Mickey Krause | 03:00 16/08 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c137d79bf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4c137d79bf",
+                  "name": "Denis Grabe vs Mickey Krause",
+                  "streams": [
+                    {
+                      "id": "st-4c137d79bf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c137d79bf",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6303/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Arizona open pool championship",
+            "team_a": "Denis Grabe",
+            "team_b": "Mickey Krause",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786808950410_Denis Grabe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786808954211_Mickey Krause.jpg",
+            "time": "03:00 16/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c137d79bf_94d02c82_20260815.png?v=94d02c82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d4b868beb1",
+          "name": "Sanjin Pehlivanovic vs Jesús Atencio | 03:00 16/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4b868beb1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d4b868beb1",
+                  "name": "Sanjin Pehlivanovic vs Jesús Atencio",
+                  "streams": [
+                    {
+                      "id": "st-d4b868beb1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4b868beb1",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6304/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1  Arizona open pool championship",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786809218490_Sanjin Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786809225494_JesÃºs Atencio.jpg",
+            "time": "03:00 16/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d4b868beb1_ac5183ab_20260815.png?v=ac5183ab",
             "width": 1600,
             "height": 1200
           }
@@ -449,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-b7378bb7a5",
-          "name": "Kledio Kaci vs David Alcaide | 04:45 16/08 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7378bb7a5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b7378bb7a5",
-                  "name": "Kledio Kaci vs David Alcaide",
-                  "streams": [
-                    {
-                      "id": "st-b7378bb7a5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7378bb7a5",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6312/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Arizona open pool championship",
-            "team_a": "Kledio Kaci",
-            "team_b": "David Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786810700575_Kledio Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786810704371_David Alcaide.jpg",
-            "time": "04:45 16/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b7378bb7a5_eae810ee_20260815.png?v=eae810ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c8e3324d22",
           "name": "Shane Van Boening vs Carlo Biado | 04:45 16/08 | VÁNG",
           "type": "single",
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8e3324d22_69617b3c_20260815.png?v=69617b3c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b7378bb7a5",
+          "name": "Kledio Kaci vs David Alcaide | 04:45 16/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7378bb7a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b7378bb7a5",
+                  "name": "Kledio Kaci vs David Alcaide",
+                  "streams": [
+                    {
+                      "id": "st-b7378bb7a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b7378bb7a5",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6312/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Arizona open pool championship",
+            "team_a": "Kledio Kaci",
+            "team_b": "David Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786810700575_Kledio Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786810704371_David Alcaide.jpg",
+            "time": "04:45 16/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b7378bb7a5_eae810ee_20260815.png?v=eae810ee",
             "width": 1600,
             "height": 1200
           }
