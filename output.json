@@ -8,5 +8,159 @@
     "type": "cover",
     "url": "https://choangtv21.com/__og-image__/image/og.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-d3bf6139bf",
+          "name": "Denis Grabe vs Jesús Atencio | 07:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3bf6139bf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d3bf6139bf",
+                  "name": "Denis Grabe vs Jesús Atencio",
+                  "streams": [
+                    {
+                      "id": "st-d3bf6139bf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3bf6139bf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6316/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Arizona open pool championship",
+            "team_a": "Denis Grabe",
+            "team_b": "Jesús Atencio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786836555996_Screenshot 2026-08-16 062906.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786836555606_Screenshot 2026-08-16 062912.png",
+            "time": "07:30 16/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d3bf6139bf_066b57b8_20260816.png?v=066b57b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b85a4de4f1",
+          "name": "David Alcaide vs Shane Van Boening | 07:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b85a4de4f1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b85a4de4f1",
+                  "name": "David Alcaide vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-b85a4de4f1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b85a4de4f1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6315/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Arizona open pool championship",
+            "team_a": "David Alcaide",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786836416648_Screenshot 2026-08-16 062651.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786836425211_Screenshot 2026-08-16 062703.png",
+            "time": "07:30 16/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b85a4de4f1_bbfad308_20260816.png?v=bbfad308",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
