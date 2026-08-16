@@ -52,7 +52,6 @@ def fetch_image(url):
         return None
 
 def validate_stream(url, match):
-    """Kiểm tra stream URL. Tin tưởng tuyệt đối nếu API báo đang LIVE."""
     if match.get("is_live", False):
         return True
         
@@ -88,20 +87,15 @@ def validate_stream(url, match):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def resolve_site_domain(entry_url, default_site):
-    """
-    Tự động phát hiện domain đích bằng cách đi theo redirect của trang gốc.
-    Trả về (site_url, referer) mới.
-    """
     try:
         print(f"  Dang kiem tra redirect tu: {entry_url}")
-        # allow_redirects=True để requests tự đi theo 301/302
         res = requests.get(
             entry_url,
             headers={"User-Agent": HEADERS["User-Agent"]},
             timeout=10,
             allow_redirects=True
         )
-        final_url = res.url  # URL cuối cùng sau khi redirect xong
+        final_url = res.url
         parsed = urlparse(final_url)
         new_domain = f"{parsed.scheme}://{parsed.netloc}"
         
@@ -116,19 +110,19 @@ def resolve_site_domain(entry_url, default_site):
         return default_site, default_site + "/"
 
 # ─────────────────────────────────────────────────────────────────────────────
-# CONFIG (Sẽ được cập nhật ở đầu main())
+# CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://choangtv21.com/",  # Sẽ được cập nhật động
+    "Referer": "https://choangtv21.com/",
 }
 
-ENTRY_SITE_URL  = "https://choangtv.com/"         # Trang gốc (ổn định, chuyên redirect)
-DEFAULT_SITE    = "https://choangtv21.com/"        # Fallback nếu resolve fail
-CDN_BASE        = "https://cdn.sports-cas889abxfileposo.site/live"  # CDN không đổi
-SITE_URL        = DEFAULT_SITE                    # Sẽ được gán lại
-API_URL         = ""                              # Sẽ được gán lại
+ENTRY_SITE_URL  = "https://choangtv.com/"
+DEFAULT_SITE    = "https://choangtv21.com/"
+CDN_BASE        = "https://cdn.sports-cas889abxfileposo.site/live"
+SITE_URL        = DEFAULT_SITE
+API_URL         = ""
 
 THUMBS_DIR = "thumbs"
 REPO_RAW   = os.environ.get("REPO_RAW", "")
@@ -323,6 +317,8 @@ def get_matches():
                 "stream_url": f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
+    print(f"  Tong so tran tu API: {len(all_matches)}")
+
     now = now_vn()
     min_past   = now - timedelta(minutes=30)
     max_future = now + timedelta(hours=6)
@@ -343,6 +339,9 @@ def get_matches():
     
     print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran")
 
+    # ═══════════════════════════════════════════════════════════════
+    # GOM NHÓM THÔNG MINH: Không gom trận đang LIVE
+    # ═══════════════════════════════════════════════════════════════
     def clean_team_name(name):
         return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
@@ -376,14 +375,27 @@ def get_matches():
             if kickoff and now_local < kickoff < now_local + timedelta(hours=1): return m
         return matches_list[0] if matches_list else None
 
-    grouped_events = {}
+    # Tách riêng: Trận LIVE giữ nguyên, chỉ gom trận SAP
+    live_matches = []
+    upcoming_matches = []
+    
     for m in time_filtered:
-        key = get_group_key(m)
-        if key not in grouped_events: grouped_events[key] = []
-        grouped_events[key].append(m)
+        if m.get("is_live", False):
+            live_matches.append(m)
+        else:
+            upcoming_matches.append(m)
+    
+    print(f"  Tach: {len(live_matches)} LIVE + {len(upcoming_matches)} SAP")
 
-    final_matches = []
-    for key, matches_in_event in grouped_events.items():
+    # Gom nhóm chỉ cho trận SAP
+    grouped_upcoming = {}
+    for m in upcoming_matches:
+        key = get_group_key(m)
+        if key not in grouped_upcoming: grouped_upcoming[key] = []
+        grouped_upcoming[key].append(m)
+
+    final_upcoming = []
+    for key, matches_in_event in grouped_upcoming.items():
         rep = select_representative(matches_in_event)
         if rep:
             if key[0] == "MARTIAL":
@@ -397,12 +409,28 @@ def get_matches():
                 rep["team_b"] = clean_team_name(rep.get("team_b", ""))
                 rep["name"] = f"{rep['team_a']} vs {rep['team_b']}"
                 
-            final_matches.append(rep)
+            final_upcoming.append(rep)
             if len(matches_in_event) > 1:
-                print(f"  Gom nhom: {len(matches_in_event)} tran ao -> 1 dai dien [{rep['name']}]")
+                print(f"  Gom nhom SAP: {len(matches_in_event)} tran -> 1 dai dien [{rep['name']}]")
+
+    # Gộp lại: LIVE + SAP (đã gom)
+    final_matches = live_matches + final_upcoming
+    
+    # Clean tên cho trận LIVE
+    for m in live_matches:
+        m["team_a"] = clean_team_name(m.get("team_a", ""))
+        m["team_b"] = clean_team_name(m.get("team_b", ""))
+        m["name"] = f"{m['team_a']} vs {m['team_b']}"
 
     final_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
-    print(f"  Sau khi gom nhom: {len(time_filtered)} -> {len(final_matches)} tran")
+    print(f"  Cuoi cung: {len(final_matches)} tran ({len(live_matches)} LIVE + {len(final_upcoming)} SAP)")
+    
+    # Debug: in danh sách trận LIVE
+    if live_matches:
+        print(f"  Danh sach LIVE:")
+        for m in live_matches:
+            print(f"    - ID {m['match_id']}: {m['name']} | {m['time']}")
+    
     return final_matches
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -429,7 +457,7 @@ def build_channel(match, thumb_url=""):
         "id": lnk_id, "name": match["caster"] or "Stream", "type": "hls", "default": True,
         "url": match["stream_url"],
         "request_headers": [
-            {"key": "Referer", "value": HEADERS["Referer"]},  # Dùng Referer đã được resolve
+            {"key": "Referer", "value": HEADERS["Referer"]},
             {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
         ],
     }]
@@ -476,9 +504,6 @@ def main():
 
     print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
     
-    # ═══════════════════════════════════════════════════════════════
-    # AUTO-RESOLVE: Tự động phát hiện domain mới từ trang gốc
-    # ═══════════════════════════════════════════════════════════════
     resolved_site, resolved_referer = resolve_site_domain(ENTRY_SITE_URL, DEFAULT_SITE)
     SITE_URL = resolved_site
     API_URL  = f"{SITE_URL}/api/matchSchedule/getList"
@@ -492,7 +517,7 @@ def main():
 
     matches = get_matches()
     live_count = sum(1 for m in matches if m["is_live"])
-    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
+    print(f"\nTong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
 
     billiard_channels = []
     vo_thuat_channels = []
