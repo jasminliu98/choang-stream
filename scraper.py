@@ -86,7 +86,11 @@ def validate_stream(url, match):
 # AUTO-RESOLVE SITE DOMAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
-def resolve_site_domain(entry_url, default_site):
+def resolve_site_domain(entry_url, default_domain):
+    """
+    Tự động phát hiện domain đích bằng cách đi theo redirect của trang gốc.
+    Trả về (site_url, referer, api_domain).
+    """
     try:
         print(f"  Dang kiem tra redirect tu: {entry_url}")
         res = requests.get(
@@ -97,17 +101,25 @@ def resolve_site_domain(entry_url, default_site):
         )
         final_url = res.url
         parsed = urlparse(final_url)
-        new_domain = f"{parsed.scheme}://{parsed.netloc}"
         
-        if new_domain and new_domain != entry_url:
-            print(f"  ✅ Phat hien domain moi: {new_domain}")
-            return new_domain, new_domain + "/"
+        # Lấy domain gốc (bỏ www nếu có)
+        netloc = parsed.netloc
+        if netloc.startswith("www."):
+            netloc = netloc[4:]
+        
+        site_url = f"{parsed.scheme}://{netloc}"
+        api_domain = netloc
+        
+        if site_url and site_url != entry_url.rstrip('/'):
+            print(f"  ✅ Phat hien domain moi: {site_url}")
+            print(f"  ✅ API domain: api.{api_domain}")
+            return site_url, site_url + "/", api_domain
         else:
-            print(f"  ℹ️  Khong co redirect, giu nguyen: {default_site}")
-            return default_site, default_site + "/"
+            print(f"  ℹ️  Khong co redirect, giu nguyen: {default_domain}")
+            return f"https://{default_domain}", f"https://{default_domain}/", default_domain
     except Exception as e:
         print(f"  ⚠️  Loi khi resolve domain: {e} -> dung gia tri mac dinh")
-        return default_site, default_site + "/"
+        return f"https://{default_domain}", f"https://{default_domain}/", default_domain
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG
@@ -118,11 +130,11 @@ HEADERS = {
     "Referer": "https://choangtv21.com/",
 }
 
-ENTRY_SITE_URL  = "https://choangtv.com/"
-DEFAULT_SITE    = "https://choangtv21.com/"
-CDN_BASE        = "https://cdn.sports-cas889abxfileposo.site/live"
-SITE_URL        = DEFAULT_SITE
-API_URL         = ""
+ENTRY_SITE_URL   = "https://choangtv.com/"
+DEFAULT_DOMAIN   = "choangtv21.com"
+CDN_BASE         = "https://cdn.sports-cas889abxfileposo.site/live"
+SITE_URL         = f"https://{DEFAULT_DOMAIN}"
+API_URL          = f"https://api.{DEFAULT_DOMAIN}/matchSchedule/getList"
 
 THUMBS_DIR = "thumbs"
 REPO_RAW   = os.environ.get("REPO_RAW", "")
@@ -270,13 +282,18 @@ def get_matches():
     for date in dates_to_fetch:
         date_str = date.strftime("%Y-%m-%d")
         try:
+            print(f"  Goi API date={date_str}...")
             res = requests.get(API_URL, params={"date": date_str}, headers=HEADERS, timeout=15)
+            print(f"    Status: {res.status_code}")
             data = res.json()
+            print(f"    API code: {data.get('code')}, so tran: {len(data.get('data', []))}")
         except Exception as e:
-            print(f"  Loi API date={date_str}: {e}")
+            print(f"  ❌ Loi API date={date_str}: {e}")
             continue
 
-        if data.get("code") != 200: continue
+        if data.get("code") != 200: 
+            print(f"    API tra ve code != 200, bo qua")
+            continue
 
         for item in data.get("data", []):
             match_id = str(item.get("id", ""))
@@ -339,9 +356,6 @@ def get_matches():
     
     print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran")
 
-    # ═══════════════════════════════════════════════════════════════
-    # GOM NHÓM THÔNG MINH: Không gom trận đang LIVE
-    # ═══════════════════════════════════════════════════════════════
     def clean_team_name(name):
         return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
@@ -375,7 +389,6 @@ def get_matches():
             if kickoff and now_local < kickoff < now_local + timedelta(hours=1): return m
         return matches_list[0] if matches_list else None
 
-    # Tách riêng: Trận LIVE giữ nguyên, chỉ gom trận SAP
     live_matches = []
     upcoming_matches = []
     
@@ -387,7 +400,6 @@ def get_matches():
     
     print(f"  Tach: {len(live_matches)} LIVE + {len(upcoming_matches)} SAP")
 
-    # Gom nhóm chỉ cho trận SAP
     grouped_upcoming = {}
     for m in upcoming_matches:
         key = get_group_key(m)
@@ -413,10 +425,8 @@ def get_matches():
             if len(matches_in_event) > 1:
                 print(f"  Gom nhom SAP: {len(matches_in_event)} tran -> 1 dai dien [{rep['name']}]")
 
-    # Gộp lại: LIVE + SAP (đã gom)
     final_matches = live_matches + final_upcoming
     
-    # Clean tên cho trận LIVE
     for m in live_matches:
         m["team_a"] = clean_team_name(m.get("team_a", ""))
         m["team_b"] = clean_team_name(m.get("team_b", ""))
@@ -425,7 +435,6 @@ def get_matches():
     final_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     print(f"  Cuoi cung: {len(final_matches)} tran ({len(live_matches)} LIVE + {len(final_upcoming)} SAP)")
     
-    # Debug: in danh sách trận LIVE
     if live_matches:
         print(f"  Danh sach LIVE:")
         for m in live_matches:
@@ -504,9 +513,12 @@ def main():
 
     print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
     
-    resolved_site, resolved_referer = resolve_site_domain(ENTRY_SITE_URL, DEFAULT_SITE)
+    # ═══════════════════════════════════════════════════════════════
+    # AUTO-RESOLVE: Tự động phát hiện domain mới
+    # ═══════════════════════════════════════════════════════════════
+    resolved_site, resolved_referer, resolved_api_domain = resolve_site_domain(ENTRY_SITE_URL, DEFAULT_DOMAIN)
     SITE_URL = resolved_site
-    API_URL  = f"{SITE_URL}/api/matchSchedule/getList"
+    API_URL  = f"https://api.{resolved_api_domain}/matchSchedule/getList"
     HEADERS["Referer"] = resolved_referer
     
     print(f"  -> SITE_URL : {SITE_URL}")
