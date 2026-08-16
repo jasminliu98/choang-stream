@@ -4,6 +4,7 @@ import hashlib
 import re
 import time
 import os
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
@@ -52,7 +53,6 @@ def fetch_image(url):
 
 def validate_stream(url, match):
     """Kiểm tra stream URL. Tin tưởng tuyệt đối nếu API báo đang LIVE."""
-    # 🛡️ FIX 3: Nếu API đã báo đang Live -> khỏi cần check mạng, tin tưởng luôn
     if match.get("is_live", False):
         return True
         
@@ -84,20 +84,55 @@ def validate_stream(url, match):
         return bool(kickoff and kickoff > now + timedelta(minutes=15))
 
 # ─────────────────────────────────────────────────────────────────────────────
-# CONFIG
+# AUTO-RESOLVE SITE DOMAIN
+# ─────────────────────────────────────────────────────────────────────────────
+
+def resolve_site_domain(entry_url, default_site):
+    """
+    Tự động phát hiện domain đích bằng cách đi theo redirect của trang gốc.
+    Trả về (site_url, referer) mới.
+    """
+    try:
+        print(f"  Dang kiem tra redirect tu: {entry_url}")
+        # allow_redirects=True để requests tự đi theo 301/302
+        res = requests.get(
+            entry_url,
+            headers={"User-Agent": HEADERS["User-Agent"]},
+            timeout=10,
+            allow_redirects=True
+        )
+        final_url = res.url  # URL cuối cùng sau khi redirect xong
+        parsed = urlparse(final_url)
+        new_domain = f"{parsed.scheme}://{parsed.netloc}"
+        
+        if new_domain and new_domain != entry_url:
+            print(f"  ✅ Phat hien domain moi: {new_domain}")
+            return new_domain, new_domain + "/"
+        else:
+            print(f"  ℹ️  Khong co redirect, giu nguyen: {default_site}")
+            return default_site, default_site + "/"
+    except Exception as e:
+        print(f"  ⚠️  Loi khi resolve domain: {e} -> dung gia tri mac dinh")
+        return default_site, default_site + "/"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CONFIG (Sẽ được cập nhật ở đầu main())
 # ─────────────────────────────────────────────────────────────────────────────
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://choangtv21.com/",
+    "Referer": "https://choangtv21.com/",  # Sẽ được cập nhật động
 }
 
-API_URL      = "https://api.choangtv21.com/matchSchedule/getList"
-CDN_BASE     = "https://cdn.sports-cas889abxfileposo.site/live"
-SITE_URL     = "https://choangtv21.com"
-THUMBS_DIR   = "thumbs"
-REPO_RAW     = os.environ.get("REPO_RAW", "")
-THUMB_VER    = "v1"
+ENTRY_SITE_URL  = "https://choangtv.com/"         # Trang gốc (ổn định, chuyên redirect)
+DEFAULT_SITE    = "https://choangtv21.com/"        # Fallback nếu resolve fail
+CDN_BASE        = "https://cdn.sports-cas889abxfileposo.site/live"  # CDN không đổi
+SITE_URL        = DEFAULT_SITE                    # Sẽ được gán lại
+API_URL         = ""                              # Sẽ được gán lại
+
+THUMBS_DIR = "thumbs"
+REPO_RAW   = os.environ.get("REPO_RAW", "")
+THUMB_VER  = "v1"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
@@ -229,7 +264,6 @@ def cleanup_old_thumbs(days: int = 3):
 def get_matches():
     today = now_vn()
     
-    # 🛡️ FIX 1: Lấy thêm cả ngày HÔM QUA để bắt các trận xuyên đêm
     dates_to_fetch = [
         today - timedelta(days=1),
         today,
@@ -289,9 +323,6 @@ def get_matches():
                 "stream_url": f"{CDN_BASE}/live{match_id}/index.m3u8",
             })
 
-    # ═══════════════════════════════════════════════════════════════
-    # FILTER 1: Thời gian
-    # ═══════════════════════════════════════════════════════════════
     now = now_vn()
     min_past   = now - timedelta(minutes=30)
     max_future = now + timedelta(hours=6)
@@ -301,7 +332,6 @@ def get_matches():
         is_live = m.get("is_live", False)
         kickoff = parse_kickoff(m["time_raw"])
         
-        # 🛡️ FIX 2: Nếu đang LIVE thì ưu tiên giữ lại, không xét giờ bắt đầu
         if is_live:
             time_filtered.append(m)
             continue
@@ -313,11 +343,7 @@ def get_matches():
     
     print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran")
 
-    # ═══════════════════════════════════════════════════════════════
-    # FILTER 2: Gom nhóm CHỐNG TRÙNG LẶP
-    # ═══════════════════════════════════════════════════════════════
     def clean_team_name(name):
-        # Support cả dấu phẩy (VD: -2,5) và dấu chấm (-2.5)
         return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
     def get_group_key(match):
@@ -330,7 +356,6 @@ def get_matches():
         date_key = kickoff.strftime("%Y-%m-%d") if kickoff else ""
         
         if is_martial or or_in_league:
-            # Gom theo ngày + tên giải để tránh lẫn lộn giải hôm qua và hôm nay
             return ("MARTIAL", league_clean.lower(), date_key)
         else:
             team_a = clean_team_name(match.get("team_a", ""))
@@ -404,7 +429,7 @@ def build_channel(match, thumb_url=""):
         "id": lnk_id, "name": match["caster"] or "Stream", "type": "hls", "default": True,
         "url": match["stream_url"],
         "request_headers": [
-            {"key": "Referer", "value": "https://choangtv21.com/"},
+            {"key": "Referer", "value": HEADERS["Referer"]},  # Dùng Referer đã được resolve
             {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
         ],
     }]
@@ -444,11 +469,26 @@ def build_channel(match, thumb_url=""):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
+    global SITE_URL, API_URL, HEADERS
+    
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
 
     print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
-    print("Lay danh sach tran tu API...")
+    
+    # ═══════════════════════════════════════════════════════════════
+    # AUTO-RESOLVE: Tự động phát hiện domain mới từ trang gốc
+    # ═══════════════════════════════════════════════════════════════
+    resolved_site, resolved_referer = resolve_site_domain(ENTRY_SITE_URL, DEFAULT_SITE)
+    SITE_URL = resolved_site
+    API_URL  = f"{SITE_URL}/api/matchSchedule/getList"
+    HEADERS["Referer"] = resolved_referer
+    
+    print(f"  -> SITE_URL : {SITE_URL}")
+    print(f"  -> API_URL  : {API_URL}")
+    print(f"  -> Referer  : {HEADERS['Referer']}")
+    print(f"  -> CDN_BASE : {CDN_BASE} (giu nguyen)")
+    print("\nLay danh sach tran tu API...")
 
     matches = get_matches()
     live_count = sum(1 for m in matches if m["is_live"])
