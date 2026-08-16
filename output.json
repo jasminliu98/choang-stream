@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a25736c032",
-          "name": "DUY ĐINH vs KHÁNH BÚA | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a25736c032",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a25736c032",
-                  "name": "DUY ĐINH vs KHÁNH BÚA",
-                  "streams": [
-                    {
-                      "id": "st-a25736c032",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a25736c032",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6332/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT 99 BI LÁT",
-            "team_a": "DUY ĐINH",
-            "team_b": "KHÁNH BÚA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786862882023_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786862879175_KHÃNH BÃA.jpg",
-            "time": "14:00 16/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "8-9",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a25736c032_262759e5_20260816.png?v=262759e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ef827b5584",
           "name": "TRẦN THANH LỰC vs ĐINH THẾ VĨNH | Bỉm Sữa",
           "type": "single",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "16:00 16/08",
             "caster": "Bỉm Sữa",
-            "score": "11-3",
+            "score": "16-4",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-d58af3f4be",
-          "name": "TKON uy tín vs Bình Chuẩn | SÊ KÔÔ",
+          "id": "chtv-9ef809afaa",
+          "name": "Thiện Lương vs Thắng trận 110 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-d58af3f4be",
+              "id": "src-9ef809afaa",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d58af3f4be",
-                  "name": "TKON uy tín vs Bình Chuẩn",
+                  "id": "ct-9ef809afaa",
+                  "name": "Thiện Lương vs Thắng trận 110",
                   "streams": [
                     {
-                      "id": "st-d58af3f4be",
+                      "id": "st-9ef809afaa",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d58af3f4be",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-9ef809afaa",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6339/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6337/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,12 +141,12 @@
           ],
           "org_metadata": {
             "league": "Pán Kết : 99 BI LÁT",
-            "team_a": "TKON uy tín",
-            "team_b": "Bình Chuẩn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786871052858_TKON.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786871048599_BÃNH CHUáº¨N.jpg",
+            "team_a": "Thiện Lương",
+            "team_b": "Thắng trận 110",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786870370593_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "16:30 16/08",
-            "caster": "SÊ KÔÔ",
+            "caster": "GIÀNG A PHỌ",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d58af3f4be_8b160e25_20260816.png?v=8b160e25",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9ef809afaa_cafda5ba_20260816.png?v=cafda5ba",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5ce2463acf_cd602fb0_20260816.png?v=cd602fb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d58af3f4be",
+          "name": "TKON uy tín vs Bình Chuẩn | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d58af3f4be",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d58af3f4be",
+                  "name": "TKON uy tín vs Bình Chuẩn",
+                  "streams": [
+                    {
+                      "id": "st-d58af3f4be",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d58af3f4be",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6339/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pán Kết : 99 BI LÁT",
+            "team_a": "TKON uy tín",
+            "team_b": "Bình Chuẩn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786871052858_TKON.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786871048599_BÃNH CHUáº¨N.jpg",
+            "time": "16:30 16/08",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d58af3f4be_8b160e25_20260816.png?v=8b160e25",
             "width": 1600,
             "height": 1200
           }
