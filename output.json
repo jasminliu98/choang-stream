@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-b8757ef79e",
-          "name": "Thiện Lương vs KHÁNH BÚA | Xinh Yeu",
+          "id": "chtv-5ce2463acf",
+          "name": "TKON uy tín vs Bình Chuẩn | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-b8757ef79e",
+              "id": "src-5ce2463acf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b8757ef79e",
-                  "name": "Thiện Lương vs KHÁNH BÚA",
+                  "id": "ct-5ce2463acf",
+                  "name": "TKON uy tín vs Bình Chuẩn",
                   "streams": [
                     {
-                      "id": "st-b8757ef79e",
+                      "id": "st-5ce2463acf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b8757ef79e",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-5ce2463acf",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6340/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6338/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,12 +141,12 @@
           ],
           "org_metadata": {
             "league": "Pán Kết : 99 BI LÁT",
-            "team_a": "Thiện Lương",
-            "team_b": "KHÁNH BÚA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786872718378_thiá»n lÆ°Æ¡ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786872722819_KHÃNH BÃA.jpg",
-            "time": "16:30 16/08",
-            "caster": "Xinh Yeu",
+            "team_a": "TKON uy tín",
+            "team_b": "Bình Chuẩn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786870976695_BÃNH CHUáº¨N.jpg",
+            "time": "16:20 16/08",
+            "caster": "Lee Min Hoo",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b8757ef79e_bfb810a1_20260816.png?v=bfb810a1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5ce2463acf_cd602fb0_20260816.png?v=cd602fb0",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-5ce2463acf",
-          "name": "TKON uy tín vs Bình Chuẩn | Lee Min Hoo",
+          "id": "chtv-b8757ef79e",
+          "name": "Thiện Lương vs KHÁNH BÚA | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-5ce2463acf",
+              "id": "src-b8757ef79e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5ce2463acf",
-                  "name": "TKON uy tín vs Bình Chuẩn",
+                  "id": "ct-b8757ef79e",
+                  "name": "Thiện Lương vs KHÁNH BÚA",
                   "streams": [
                     {
-                      "id": "st-5ce2463acf",
+                      "id": "st-b8757ef79e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5ce2463acf",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-b8757ef79e",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6338/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6340/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,12 +285,12 @@
           ],
           "org_metadata": {
             "league": "Pán Kết : 99 BI LÁT",
-            "team_a": "TKON uy tín",
-            "team_b": "Bình Chuẩn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786870976695_BÃNH CHUáº¨N.jpg",
+            "team_a": "Thiện Lương",
+            "team_b": "KHÁNH BÚA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786872718378_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786872722819_KHÃNH BÃA.jpg",
             "time": "16:30 16/08",
-            "caster": "Lee Min Hoo",
+            "caster": "Xinh Yeu",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5ce2463acf_cd602fb0_20260816.png?v=cd602fb0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b8757ef79e_bfb810a1_20260816.png?v=bfb810a1",
             "width": 1600,
             "height": 1200
           }
