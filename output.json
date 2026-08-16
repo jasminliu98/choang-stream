@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1769521068648_Táº¡ VÄn Linh.jpg",
             "time": "13:59 16/08",
             "caster": "Bỉm Sữa",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28dbac1fbe_7fc86267_20260816.png?v=7fc86267",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a25736c032",
-          "name": "DUY ĐINH vs KHÁNH BÚA | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a25736c032",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a25736c032",
-                  "name": "DUY ĐINH vs KHÁNH BÚA",
-                  "streams": [
-                    {
-                      "id": "st-a25736c032",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a25736c032",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6332/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT 99 BI LÁT",
-            "team_a": "DUY ĐINH",
-            "team_b": "KHÁNH BÚA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786862882023_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786862879175_KHÃNH BÃA.jpg",
-            "time": "14:00 16/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a25736c032_262759e5_20260816.png?v=262759e5",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1786865105461_Trung Láº¡ng.jpg",
             "time": "14:00 16/08",
             "caster": "SÊ KÔÔ",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -233,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-6de08bd070",
-          "name": "DUY ĐINH vs KHÁNH BÚA",
+          "id": "chtv-a25736c032",
+          "name": "DUY ĐINH vs KHÁNH BÚA | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-6de08bd070",
+              "id": "src-a25736c032",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6de08bd070",
+                  "id": "ct-a25736c032",
                   "name": "DUY ĐINH vs KHÁNH BÚA",
                   "streams": [
                     {
-                      "id": "st-6de08bd070",
+                      "id": "st-a25736c032",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6de08bd070",
-                          "name": "Stream",
+                          "id": "lnk-a25736c032",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6335/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6332/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,19 +215,19 @@
             "league": "TỨ KẾT 99 BI LÁT",
             "team_a": "DUY ĐINH",
             "team_b": "KHÁNH BÚA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1786863320289_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1786863327205_KHÃNH BÃA.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786862882023_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786862879175_KHÃNH BÃA.jpg",
             "time": "14:00 16/08",
-            "caster": "",
-            "score": "0-0",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-3",
             "is_live": true,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6de08bd070_9fd5967e_20260816.png?v=9fd5967e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a25736c032_262759e5_20260816.png?v=262759e5",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348906226_táº£i xuá»ng.png",
             "time": "14:00 16/08",
             "caster": "Xinh Yeu",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": false
           },
