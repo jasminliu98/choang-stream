@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-e7e354bb78",
-          "name": "Thiện Lương vs TKON uy tín | 19:00 16/08 | Lee Min Hoo",
+          "name": "MenLá BắcKạn vs BánhRán ViệtNam | 19:00 16/08 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-e7e354bb78",
-                  "name": "Thiện Lương vs TKON uy tín",
+                  "name": "MenLá BắcKạn vs BánhRán ViệtNam",
                   "streams": [
                     {
                       "id": "st-e7e354bb78",
@@ -69,8 +69,8 @@
           ],
           "org_metadata": {
             "league": "Chung  Kết : 99 BI LÁT",
-            "team_a": "Thiện Lương",
-            "team_b": "TKON uy tín",
+            "team_a": "MenLá BắcKạn",
+            "team_b": "BánhRán ViệtNam",
             "logo_a": "https://cdn-choangtv.com/img/logo/1786877744235_thiá»n lÆ°Æ¡ng.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1786877748137_TKON.png",
             "time": "19:00 16/08",
