@@ -51,16 +51,18 @@ def fetch_image(url):
         return None
 
 def validate_stream(url, match):
-    """Kiểm tra stream URL. Châm chước cho các trận chưa tới giờ đá."""
+    """Kiểm tra stream URL. Tin tưởng tuyệt đối nếu API báo đang LIVE."""
+    # 🛡️ FIX 3: Nếu API đã báo đang Live -> khỏi cần check mạng, tin tưởng luôn
+    if match.get("is_live", False):
+        return True
+        
     try:
         kickoff = parse_kickoff(match.get("time_raw", ""))
         now = now_vn()
-        # Nếu trận đấu còn hơn 15 phút nữa mới đá -> cứ tin API, không cần check kỹ
         is_future_safe = kickoff and kickoff > now + timedelta(minutes=15)
 
         res = requests.get(url, headers=HEADERS, timeout=6, stream=True)
         
-        # Server trả về 404/50x cho stream chưa khởi tạo -> Bỏ qua lỗi
         if res.status_code in [404, 500, 502, 503, 504] and is_future_safe:
             res.close()
             return True
@@ -75,10 +77,8 @@ def validate_stream(url, match):
         if b"#EXTM3U" in first_chunk or b"#EXTINF" in first_chunk or b"#EXT-X" in first_chunk:
             return True
             
-        # Nếu không có signature m3u8 nhưng là trận tương lai -> vẫn chấp nhận
         return is_future_safe
     except Exception:
-        # Timeout / Connection Error -> Nếu là trận tương lai vẫn giữ lại
         kickoff = parse_kickoff(match.get("time_raw", ""))
         now = now_vn()
         return bool(kickoff and kickoff > now + timedelta(minutes=15))
@@ -228,8 +228,13 @@ def cleanup_old_thumbs(days: int = 3):
 
 def get_matches():
     today = now_vn()
-    NUM_DAYS_TO_FETCH = 2 
-    dates_to_fetch = [today + timedelta(days=i) for i in range(NUM_DAYS_TO_FETCH)]
+    
+    # 🛡️ FIX 1: Lấy thêm cả ngày HÔM QUA để bắt các trận xuyên đêm
+    dates_to_fetch = [
+        today - timedelta(days=1),
+        today,
+        today + timedelta(days=1)
+    ]
 
     all_matches = []
     seen_ids    = set()
@@ -285,7 +290,7 @@ def get_matches():
             })
 
     # ═══════════════════════════════════════════════════════════════
-    # FILTER 1: Thời gian (30 phút trước - 6 tiếng sau)
+    # FILTER 1: Thời gian
     # ═══════════════════════════════════════════════════════════════
     now = now_vn()
     min_past   = now - timedelta(minutes=30)
@@ -293,18 +298,27 @@ def get_matches():
     
     time_filtered = []
     for m in all_matches:
+        is_live = m.get("is_live", False)
         kickoff = parse_kickoff(m["time_raw"])
-        if kickoff and (kickoff < min_past or kickoff > max_future): continue
+        
+        # 🛡️ FIX 2: Nếu đang LIVE thì ưu tiên giữ lại, không xét giờ bắt đầu
+        if is_live:
+            time_filtered.append(m)
+            continue
+            
+        if kickoff and (kickoff < min_past or kickoff > max_future):
+            continue
+            
         time_filtered.append(m)
     
-    print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran (trong 6h toi)")
+    print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran")
 
     # ═══════════════════════════════════════════════════════════════
-    # FILTER 2: Gom nhóm CHỐNG TRÙNG LẶP (Cả Bida lẫn Võ Thuật)
+    # FILTER 2: Gom nhóm CHỐNG TRÙNG LẶP
     # ═══════════════════════════════════════════════════════════════
     def clean_team_name(name):
-        # Xóa các hậu tố kèo cược như (6win), (-2.5), (+2.5), (15win)
-        return re.sub(r'\s*[\(\[][\+\-]?\d+(\.\d+)?(win)?[\)\]]', '', name).strip()
+        # Support cả dấu phẩy (VD: -2,5) và dấu chấm (-2.5)
+        return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
     def get_group_key(match):
         cat = match.get("category", "")
@@ -312,14 +326,16 @@ def get_matches():
         is_martial = any(kw in cat.lower() for kw in ["võ thuật", "mma", "muay", "ufc", "boxing", "kickboxing"])
         or_in_league = any(kw in league.lower() for kw in ["inner circle", "one friday", "one championship"])
         league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', league).strip()
+        kickoff = parse_kickoff(match.get("time_raw", ""))
+        date_key = kickoff.strftime("%Y-%m-%d") if kickoff else ""
         
         if is_martial or or_in_league:
-            return ("MARTIAL", league_clean.lower())
+            # Gom theo ngày + tên giải để tránh lẫn lộn giải hôm qua và hôm nay
+            return ("MARTIAL", league_clean.lower(), date_key)
         else:
             team_a = clean_team_name(match.get("team_a", ""))
             team_b = clean_team_name(match.get("team_b", ""))
             teams = tuple(sorted([team_a.lower(), team_b.lower()]))
-            kickoff = parse_kickoff(match.get("time_raw", ""))
             time_key = kickoff.strftime("%Y-%m-%d %H:%M") if kickoff else match.get("time_raw", "")
             return ("BILLIARD", league_clean.lower(), teams, time_key)
 
