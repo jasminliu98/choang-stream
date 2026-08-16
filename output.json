@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "20:47 16/08",
             "caster": "Kèn Kèn",
-            "score": "9-7",
+            "score": "8-9",
             "is_live": true,
             "hot": true
           },
@@ -300,6 +300,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1aa12a6be3_b5e35ed8_20260816.png?v=b5e35ed8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e5c71a9df4",
+          "name": "Aleksa Pecelj vs Shane Van Boening | 05:00 17/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5c71a9df4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e5c71a9df4",
+                  "name": "Aleksa Pecelj vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-e5c71a9df4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e5c71a9df4",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6351/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pán Kết 2 | Arizona open pool championship",
+            "team_a": "Aleksa Pecelj",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786891257146_Aleksa Pecelj.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786891260598_Shane Van Boening.jpg",
+            "time": "05:00 17/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e5c71a9df4_508697ea_20260816.png?v=508697ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-86bfe2213b",
+          "name": "Aleksa Pecelj vs Shane Van Boening | 05:00 17/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86bfe2213b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-86bfe2213b",
+                  "name": "Aleksa Pecelj vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-86bfe2213b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86bfe2213b",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6352/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pán Kết 2 | Arizona open pool championship kèo chấp",
+            "team_a": "Aleksa Pecelj",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786891322882_Aleksa Pecelj.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786891325770_Shane Van Boening.jpg",
+            "time": "05:00 17/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-86bfe2213b_d8c4891c_20260816.png?v=d8c4891c",
             "width": 1600,
             "height": 1200
           }
