@@ -90,7 +90,7 @@
         },
         {
           "id": "chtv-5e3795be3e",
-          "name": "Duy Đinh vs Thắng trận 96 | Bỉm Sữa",
+          "name": "Duy Đinh vs Lê Quang Trung | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-5e3795be3e",
-                  "name": "Duy Đinh vs Thắng trận 96",
+                  "name": "Duy Đinh vs Lê Quang Trung",
                   "streams": [
                     {
                       "id": "st-5e3795be3e",
@@ -142,7 +142,7 @@
           "org_metadata": {
             "league": "Vòng 1/8 99 BI LÁT",
             "team_a": "Duy Đinh",
-            "team_b": "Thắng trận 96",
+            "team_b": "Lê Quang Trung",
             "logo_a": "https://cdn-choangtv.com/img/logo/1786856142987_Duy Äinh.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "12:00 16/08",
