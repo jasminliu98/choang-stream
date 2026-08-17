@@ -11,13 +11,13 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-97c50a6e15",
+          "id": "chtv-b1be542616",
           "name": "Duy Đen Đúa vs Đối Duy | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-97c50a6e15",
+              "id": "src-b1be542616",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-97c50a6e15",
+                  "id": "ct-b1be542616",
                   "name": "Duy Đen Đúa vs Đối Duy",
                   "streams": [
                     {
-                      "id": "st-97c50a6e15",
+                      "id": "st-b1be542616",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-97c50a6e15",
+                          "id": "lnk-b1be542616",
                           "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6377/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6379/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -71,91 +71,19 @@
             "league": "BIDA TÓP TÓP",
             "team_a": "Duy Đen Đúa",
             "team_b": "Đối Duy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "23:35 17/08",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1786989193772_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1786989193390_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:50 18/08",
             "caster": "Kèn Kèn",
-            "score": "6-7",
+            "score": "1-1",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-97c50a6e15_0cfe1298_20260818.png?v=0cfe1298",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a455ec83e7",
-          "name": "Duy Đen Đúa vs Đối Duy",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a455ec83e7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a455ec83e7",
-                  "name": "Duy Đen Đúa vs Đối Duy",
-                  "streams": [
-                    {
-                      "id": "st-a455ec83e7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a455ec83e7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6378/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BIDA TÓP TÓP",
-            "team_a": "Duy Đen Đúa",
-            "team_b": "Đối Duy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "00:00 18/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a455ec83e7_0cfe1298_20260818.png?v=0cfe1298",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1be542616_235e30bb_20260818.png?v=235e30bb",
             "width": 1600,
             "height": 1200
           }
