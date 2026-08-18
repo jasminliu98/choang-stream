@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3c9c110773",
-          "name": "Khầy Nam vs Khầy Tkon | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c9c110773",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3c9c110773",
-                  "name": "Khầy Nam vs Khầy Tkon",
-                  "streams": [
-                    {
-                      "id": "st-3c9c110773",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c9c110773",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6392/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "tao mày 2 đứa nửa đời đao búa",
-            "team_a": "Khầy Nam",
-            "team_b": "Khầy Tkon",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787041096248_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
-            "time": "00:00 18/08",
-            "caster": "Đại Kê",
-            "score": "12-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c9c110773_1ea502ea_20260818.png?v=1ea502ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0a27adf9a8",
           "name": "Huons Healthcare Legend vs SY BUILDERS | Bỉm Sữa",
