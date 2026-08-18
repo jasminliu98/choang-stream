@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,150 +89,6 @@
           }
         },
         {
-          "id": "chtv-9cedd57cde",
-          "name": "Jesus Atencio vs Marc Bijsterbosch | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9cedd57cde",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9cedd57cde",
-                  "name": "Jesus Atencio vs Marc Bijsterbosch",
-                  "streams": [
-                    {
-                      "id": "st-9cedd57cde",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9cedd57cde",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6431/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 2026 PHOENIX OPEN",
-            "team_a": "Jesus Atencio",
-            "team_b": "Marc Bijsterbosch",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787083782691_Screenshot 2026-08-19 030936.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787083754444_11.jpg",
-            "time": "04:30 19/08",
-            "caster": "VÁNG",
-            "score": "0-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9cedd57cde_568915d3_20260819.png?v=568915d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5d8deb0619",
-          "name": "Gerson Martinez vs Will Hagen | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d8deb0619",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5d8deb0619",
-                  "name": "Gerson Martinez vs Will Hagen",
-                  "streams": [
-                    {
-                      "id": "st-5d8deb0619",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5d8deb0619",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6436/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN",
-            "team_a": "Gerson Martinez",
-            "team_b": "Will Hagen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787091052916_Screenshot 2026-08-19 051045.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787091052665_Screenshot 2026-08-19 001759.png",
-            "time": "04:30 19/08",
-            "caster": "Thập Cẩm",
-            "score": "7-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5d8deb0619_4de2dad9_20260819.png?v=4de2dad9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b2e27ab2b9",
           "name": "Eric Young vs Jeffery Deluna | Tào A Man",
           "type": "single",
@@ -291,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787089871610_phil.png",
             "time": "04:30 19/08",
             "caster": "Tào A Man",
-            "score": "5-7",
+            "score": "5-8",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787089305064_Screenshot 2026-08-19 001759.png",
             "time": "04:30 19/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-7",
+            "score": "5-8",
             "is_live": true,
             "hot": false
           },
@@ -377,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-229d4ef799",
-          "name": "DANIEL CARELLO vs YU-LUNG CHANG | GIÀNG A PHỌ",
+          "id": "chtv-9cedd57cde",
+          "name": "Jesus Atencio vs Marc Bijsterbosch | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-229d4ef799",
+              "id": "src-9cedd57cde",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-229d4ef799",
-                  "name": "DANIEL CARELLO vs YU-LUNG CHANG",
+                  "id": "ct-9cedd57cde",
+                  "name": "Jesus Atencio vs Marc Bijsterbosch",
                   "streams": [
                     {
-                      "id": "st-229d4ef799",
+                      "id": "st-9cedd57cde",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-229d4ef799",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-9cedd57cde",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6440/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6431/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN",
-            "team_a": "DANIEL CARELLO",
-            "team_b": "YU-LUNG CHANG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787093058817_Screenshot 2026-08-19 001759.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787093058695_Screenshot 2026-07-07 002427.png",
-            "time": "06:00 19/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-8",
+            "league": "TV1 2026 PHOENIX OPEN",
+            "team_a": "Jesus Atencio",
+            "team_b": "Marc Bijsterbosch",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787083782691_Screenshot 2026-08-19 030936.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787083754444_11.jpg",
+            "time": "04:30 19/08",
+            "caster": "VÁNG",
+            "score": "0-3",
             "is_live": true,
             "hot": false
           },
@@ -443,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-229d4ef799_3d3126bd_20260819.png?v=3d3126bd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9cedd57cde_568915d3_20260819.png?v=568915d3",
             "width": 1600,
             "height": 1200
           }
