@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fdd7f14c75_463c2e01_20260819.png?v=463c2e01",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-052f8072d2",
-          "name": "MITCH ELLERMAN vs IVICA PUTNIK | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-052f8072d2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-052f8072d2",
-                  "name": "MITCH ELLERMAN vs IVICA PUTNIK",
-                  "streams": [
-                    {
-                      "id": "st-052f8072d2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-052f8072d2",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6433/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN",
-            "team_a": "MITCH ELLERMAN",
-            "team_b": "IVICA PUTNIK",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787085658745_Screenshot 2026-08-19 001759.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787085658450_Screenshot 2026-08-19 034054.png",
-            "time": "03:00 19/08",
-            "caster": "Tào A Man",
-            "score": "8-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-052f8072d2_728e1986_20260819.png?v=728e1986",
             "width": 1600,
             "height": 1200
           }
