@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "23:28 18/08",
             "caster": "Kèn Kèn",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-b9e5911c81",
+          "name": "Boris Ivanovski vs Albert Januarta | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9e5911c81",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b9e5911c81",
+                  "name": "Boris Ivanovski vs Albert Januarta",
+                  "streams": [
+                    {
+                      "id": "st-b9e5911c81",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9e5911c81",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6416/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN",
+            "team_a": "Boris Ivanovski",
+            "team_b": "Albert Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787065740402_Boris Ivanovski.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787065744040_ALBERT JANUARTA.jpg",
+            "time": "00:00 19/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9e5911c81_81479a30_20260819.png?v=81479a30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8045821ae9",
           "name": "Mickey Krause vs Francesco Candela | Thập Cẩm",
           "type": "single",
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787065526451_Francesco Candela.jpg",
             "time": "00:00 19/08",
             "caster": "Thập Cẩm",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
