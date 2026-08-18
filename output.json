@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "23:28 18/08",
             "caster": "Kèn Kèn",
-            "score": "10-7",
+            "score": "11-7",
             "is_live": true,
             "hot": false
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4d3b9df1e_9d76bfb0_20260819.png?v=9d76bfb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8045821ae9",
-          "name": "Mickey Krause vs Francesco Candela | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8045821ae9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8045821ae9",
-                  "name": "Mickey Krause vs Francesco Candela",
-                  "streams": [
-                    {
-                      "id": "st-8045821ae9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8045821ae9",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6415/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PHOENIX OPEN",
-            "team_a": "Mickey Krause",
-            "team_b": "Francesco Candela",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787065529508_Mickey Krause.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787065526451_Francesco Candela.jpg",
-            "time": "00:00 19/08",
-            "caster": "Thập Cẩm",
-            "score": "4-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8045821ae9_99f45d6f_20260819.png?v=99f45d6f",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787065312353_Alex Kazakis.jpg",
             "time": "00:00 19/08",
             "caster": "VÁNG",
-            "score": "4-4",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8ff907f8a_b4e04757_20260819.png?v=b4e04757",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8045821ae9",
+          "name": "Mickey Krause vs Francesco Candela | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8045821ae9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8045821ae9",
+                  "name": "Mickey Krause vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-8045821ae9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8045821ae9",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6415/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN",
+            "team_a": "Mickey Krause",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787065529508_Mickey Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787065526451_Francesco Candela.jpg",
+            "time": "00:00 19/08",
+            "caster": "Thập Cẩm",
+            "score": "8-5",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8045821ae9_99f45d6f_20260819.png?v=99f45d6f",
             "width": 1600,
             "height": 1200
           }
@@ -588,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ddcb9f296c_be615201_20260819.png?v=be615201",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dd4ad575fb",
+          "name": "Payne McBride vs Ralf Souquet | 01:30 19/08 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd4ad575fb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dd4ad575fb",
+                  "name": "Payne McBride vs Ralf Souquet",
+                  "streams": [
+                    {
+                      "id": "st-dd4ad575fb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd4ad575fb",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6423/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Payne McBride",
+            "team_b": "Ralf Souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787076374354_Screenshot 2026-08-19 001759.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787076374048_6.jpg",
+            "time": "01:30 19/08",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd4ad575fb_e1cd62e9_20260819.png?v=e1cd62e9",
             "width": 1600,
             "height": 1200
           }
