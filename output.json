@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787081416455_2.jpg",
             "time": "03:00 19/08",
             "caster": "VÁNG",
-            "score": "5-4",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-b1b3444a85",
+          "name": "Jeffrey Roda vs Tzu Chien Chang | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1b3444a85",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1b3444a85",
+                  "name": "Jeffrey Roda vs Tzu Chien Chang",
+                  "streams": [
+                    {
+                      "id": "st-b1b3444a85",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1b3444a85",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6432/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 4 2026 PHOENIX OPEN",
+            "team_a": "Jeffrey Roda",
+            "team_b": "Tzu Chien Chang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787085346175_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787085345837_Screenshot 2026-07-07 002427.png",
+            "time": "04:30 19/08",
+            "caster": "Thập Cẩm",
+            "score": "6-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1b3444a85_94a010e5_20260819.png?v=94a010e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-9b76e0b48f",
           "name": "Marco Egidus Hubert vs Robert Moreno | GIÀNG A PHỌ",
           "type": "single",
@@ -233,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-b1b3444a85",
-          "name": "Jeffrey Roda vs Tzu Chien Chang | Thập Cẩm",
+          "id": "chtv-9cedd57cde",
+          "name": "Jesus Atencio vs Marc Bijsterbosch | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-b1b3444a85",
+              "id": "src-9cedd57cde",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b1b3444a85",
-                  "name": "Jeffrey Roda vs Tzu Chien Chang",
+                  "id": "ct-9cedd57cde",
+                  "name": "Jesus Atencio vs Marc Bijsterbosch",
                   "streams": [
                     {
-                      "id": "st-b1b3444a85",
+                      "id": "st-9cedd57cde",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b1b3444a85",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-9cedd57cde",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6432/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6431/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +356,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN",
-            "team_a": "Jeffrey Roda",
-            "team_b": "Tzu Chien Chang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787085346175_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787085345837_Screenshot 2026-07-07 002427.png",
+            "league": "TV1 2026 PHOENIX OPEN",
+            "team_a": "Jesus Atencio",
+            "team_b": "Marc Bijsterbosch",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787083782691_Screenshot 2026-08-19 030936.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787083754444_11.jpg",
             "time": "04:30 19/08",
-            "caster": "Thập Cẩm",
-            "score": "6-0",
+            "caster": "VÁNG",
+            "score": "0-0",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1b3444a85_94a010e5_20260819.png?v=94a010e5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9cedd57cde_568915d3_20260819.png?v=568915d3",
             "width": 1600,
             "height": 1200
           }
