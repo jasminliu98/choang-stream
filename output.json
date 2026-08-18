@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787081416455_2.jpg",
             "time": "03:00 19/08",
             "caster": "VÁNG",
-            "score": "5-3",
+            "score": "5-4",
             "is_live": true,
             "hot": false
           },
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cd0d609c44_e796b529_20260819.png?v=e796b529",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b2e27ab2b9",
+          "name": "Eric Young vs Jeffery Deluna | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2e27ab2b9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b2e27ab2b9",
+                  "name": "Eric Young vs Jeffery Deluna",
+                  "streams": [
+                    {
+                      "id": "st-b2e27ab2b9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2e27ab2b9",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6435/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN",
+            "team_a": "Eric Young",
+            "team_b": "Jeffery Deluna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787089871737_Screenshot 2026-08-19 001759.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787089871610_phil.png",
+            "time": "04:30 19/08",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b2e27ab2b9_7219c071_20260819.png?v=7219c071",
             "width": 1600,
             "height": 1200
           }
