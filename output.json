@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-947d3ae557",
-          "name": "Thầy Nam vs Thầy Tkon",
+          "id": "chtv-a67f3e564f",
+          "name": "Thầy Nam vs Thầy Tkon | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-947d3ae557",
+              "id": "src-a67f3e564f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-947d3ae557",
+                  "id": "ct-a67f3e564f",
                   "name": "Thầy Nam vs Thầy Tkon",
                   "streams": [
                     {
-                      "id": "st-947d3ae557",
+                      "id": "st-a67f3e564f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-947d3ae557",
-                          "name": "Stream",
+                          "id": "lnk-a67f3e564f",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6386/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6384/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "SOLO 1 vs 1 kèo chấp",
+            "league": "SOLO 1 vs 1",
             "team_a": "Thầy Nam",
             "team_b": "Thầy Tkon",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787036446843_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787036249191_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
             "time": "14:00 18/08",
-            "caster": "",
-            "score": "5-3",
+            "caster": "Đại Kê",
+            "score": "5-4",
             "is_live": true,
             "hot": true
           },
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-947d3ae557_a5e3629e_20260818.png?v=a5e3629e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a67f3e564f_50fa0250_20260818.png?v=50fa0250",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-a67f3e564f",
-          "name": "Thầy Nam vs Thầy Tkon | Đại Kê",
+          "id": "chtv-947d3ae557",
+          "name": "Thầy Nam vs Thầy Tkon",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-a67f3e564f",
+              "id": "src-947d3ae557",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a67f3e564f",
+                  "id": "ct-947d3ae557",
                   "name": "Thầy Nam vs Thầy Tkon",
                   "streams": [
                     {
-                      "id": "st-a67f3e564f",
+                      "id": "st-947d3ae557",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a67f3e564f",
-                          "name": "Đại Kê",
+                          "id": "lnk-947d3ae557",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6384/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6386/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,13 +284,13 @@
             }
           ],
           "org_metadata": {
-            "league": "SOLO 1 vs 1",
+            "league": "SOLO 1 vs 1 kèo chấp",
             "team_a": "Thầy Nam",
             "team_b": "Thầy Tkon",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787036249191_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787036446843_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
             "time": "14:00 18/08",
-            "caster": "Đại Kê",
+            "caster": "",
             "score": "5-3",
             "is_live": true,
             "hot": true
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a67f3e564f_50fa0250_20260818.png?v=50fa0250",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-947d3ae557_a5e3629e_20260818.png?v=a5e3629e",
             "width": 1600,
             "height": 1200
           }
