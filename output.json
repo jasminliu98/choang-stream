@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "23:28 18/08",
             "caster": "Kèn Kèn",
-            "score": "9-7",
+            "score": "10-7",
             "is_live": true,
             "hot": false
           },
@@ -522,7 +522,7 @@
         },
         {
           "id": "chtv-1b7b80101a",
-          "name": "Hoàng Sao vs Daniel Dagotdot | 01:30 19/08",
+          "name": "Hoàng Sao vs Daniel Dagotdot | 01:30 19/08 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -549,7 +549,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-1b7b80101a",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6409/index.m3u8",
@@ -578,7 +578,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
             "time": "01:30 19/08",
-            "caster": "",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": false,
             "hot": false
