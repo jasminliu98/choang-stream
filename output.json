@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-f20e6a8a46",
-          "name": "JAYPEE vs JOERIL | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f20e6a8a46",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f20e6a8a46",
-                  "name": "JAYPEE vs JOERIL",
-                  "streams": [
-                    {
-                      "id": "st-f20e6a8a46",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f20e6a8a46",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6412/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Phủi Độ Phi",
-            "team_a": "JAYPEE",
-            "team_b": "JOERIL",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "time": "00:00 18/08",
-            "caster": "Kèn Kèn",
-            "score": "11-11",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f20e6a8a46_9d76bfb0_20260818.png?v=9d76bfb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-adeca9e78e",
-          "name": "Alexis Ferrer vs Phương Nam | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-adeca9e78e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-adeca9e78e",
-                  "name": "Alexis Ferrer vs Phương Nam",
-                  "streams": [
-                    {
-                      "id": "st-adeca9e78e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-adeca9e78e",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6417/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHOÁNG VÔ ĐỊCH",
-            "team_a": "Alexis Ferrer",
-            "team_b": "Phương Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787067407434_ALEXIS FERRER.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
-            "time": "20:35 18/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "3-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-adeca9e78e_1b009ce2_20260818.png?v=1b009ce2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a4d3b9df1e",
           "name": "RICA RENDAL vs MR CHAMP 8-10 | Kèn Kèn",
@@ -219,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "23:28 18/08",
             "caster": "Kèn Kèn",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -300,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8ff907f8a_b4e04757_20260818.png?v=b4e04757",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8045821ae9",
+          "name": "Mickey Krause vs Francesco Candela | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8045821ae9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8045821ae9",
+                  "name": "Mickey Krause vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-8045821ae9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8045821ae9",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6415/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN",
+            "team_a": "Mickey Krause",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787065529508_Mickey Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787065526451_Francesco Candela.jpg",
+            "time": "00:00 19/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8045821ae9_99f45d6f_20260818.png?v=99f45d6f",
             "width": 1600,
             "height": 1200
           }
