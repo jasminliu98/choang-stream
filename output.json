@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "23:28 18/08",
             "caster": "Kèn Kèn",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787065744040_ALBERT JANUARTA.jpg",
             "time": "00:00 19/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-4",
+            "score": "0-5",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787065526451_Francesco Candela.jpg",
             "time": "00:00 19/08",
             "caster": "Thập Cẩm",
-            "score": "3-1",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787073490025_Screenshot 2026-08-19 001802.png",
             "time": "00:00 19/08",
             "caster": "Tào A Man",
-            "score": "0-0",
+            "score": "0-4",
             "is_live": true,
             "hot": false
           },
@@ -503,8 +503,8 @@
             "league": "TV2 2026 PHOENIX OPEN",
             "team_a": "Brandon Shuff",
             "team_b": "NaoyuKi Oi",
-            "logo_a": "",
-            "logo_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787073700605_Screenshot 2026-08-19 001759.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787073700229_Screenshot 2026-08-19 002137.png",
             "time": "01:30 19/08",
             "caster": "",
             "score": "0-0",
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ddcb9f296c_6654c734_20260819.png?v=6654c734",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ddcb9f296c_fb677bca_20260819.png?v=fb677bca",
             "width": 1600,
             "height": 1200
           }
