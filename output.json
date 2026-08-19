@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787161592646_Screenshot 2026-07-07 002427.png",
             "time": "01:30 20/08",
             "caster": "Thập Cẩm",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": false
           },
@@ -804,6 +804,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dd750a03c6",
+          "name": "David Alcaide vs Aj Manas | 04:30 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd750a03c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dd750a03c6",
+                  "name": "David Alcaide vs Aj Manas",
+                  "streams": [
+                    {
+                      "id": "st-dd750a03c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd750a03c6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6506/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV Table 2026 PHOENIX OPEN",
+            "team_a": "David Alcaide",
+            "team_b": "Aj Manas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787168294981_3.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787168294703_phil.png",
+            "time": "04:30 20/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd750a03c6_41be9bad_20260820.png?v=41be9bad",
             "width": 1600,
             "height": 1200
           }
