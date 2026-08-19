@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787116513637_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-19 121258.png",
             "time": "13:00 19/08",
             "caster": "Bỉm Sữa",
-            "score": "0-2",
+            "score": "1-2",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "13:10 19/08",
             "caster": "Đại Kê",
-            "score": "3-3",
+            "score": "4-4",
             "is_live": true,
             "hot": false
           },
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-03e05f3616",
-          "name": "Li Jui Hung vs RHAKI R.C | 15:00 19/08 | BÚN CHÓ",
+          "name": "Li Jui Hung vs RHAKI R.C | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "15:00 19/08",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
