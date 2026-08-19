@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "21:00 19/08",
             "caster": "Kèn Kèn",
-            "score": "5-8",
+            "score": "7-8",
             "is_live": true,
             "hot": false
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f38a53e5b_89a779d8_20260820.png?v=89a779d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bee0dfd5a5",
-          "name": "HOÀNG SAO vs Ralf Souquet | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bee0dfd5a5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bee0dfd5a5",
-                  "name": "HOÀNG SAO vs Ralf Souquet",
-                  "streams": [
-                    {
-                      "id": "st-bee0dfd5a5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bee0dfd5a5",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6482/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phoenix open 2026 x Choáng",
-            "team_a": "HOÀNG SAO",
-            "team_b": "Ralf Souquet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787144424655_Ralf Souquet.jpg",
-            "time": "00:00 20/08",
-            "caster": "VÁNG",
-            "score": "5-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260820.png?v=c8151e82",
             "width": 1600,
             "height": 1200
           }
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-98f7c4f834_c60d0e05_20260820.png?v=c60d0e05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bee0dfd5a5",
+          "name": "HOÀNG SAO vs Ralf Souquet | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bee0dfd5a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bee0dfd5a5",
+                  "name": "HOÀNG SAO vs Ralf Souquet",
+                  "streams": [
+                    {
+                      "id": "st-bee0dfd5a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bee0dfd5a5",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6482/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phoenix open 2026 x Choáng",
+            "team_a": "HOÀNG SAO",
+            "team_b": "Ralf Souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787144424655_Ralf Souquet.jpg",
+            "time": "00:00 20/08",
+            "caster": "VÁNG",
+            "score": "6-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260820.png?v=c8151e82",
             "width": 1600,
             "height": 1200
           }
@@ -377,17 +377,89 @@
           }
         },
         {
-          "id": "chtv-a6c954c681",
-          "name": "Petri Makkonen vs Wiktor Zielinski | 01:30 20/08 | VÁNG",
+          "id": "chtv-ea65b8e948",
+          "name": "Jeffrey Roda vs Robert Moreno | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea65b8e948",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea65b8e948",
+                  "name": "Jeffrey Roda vs Robert Moreno",
+                  "streams": [
+                    {
+                      "id": "st-ea65b8e948",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea65b8e948",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6494/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Jeffrey Roda",
+            "team_b": "Robert Moreno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787161380439_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787161380142_Screenshot 2026-08-20 002436.png",
+            "time": "01:30 20/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea65b8e948_0b9bcfdd_20260820.png?v=0b9bcfdd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a6c954c681",
+          "name": "Petri Makkonen vs Wiktor Zielinski | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +508,7 @@
             "time": "01:30 20/08",
             "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
