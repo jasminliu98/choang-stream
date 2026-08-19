@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-344ebfffef",
-          "name": "Max Lechner vs Andri | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-344ebfffef",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-344ebfffef",
-                  "name": "Max Lechner vs Andri",
-                  "streams": [
-                    {
-                      "id": "st-344ebfffef",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-344ebfffef",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6505/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN",
-            "team_a": "Max Lechner",
-            "team_b": "Andri",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787167853470_7.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787167853726_Screenshot 2026-08-20 002436.png",
-            "time": "04:30 20/08",
-            "caster": "Thập Cẩm",
-            "score": "7-2",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6bed4f5f3f",
           "name": "Arseni sevastyanov vs Clemens Ebert | BÚN CHÓ",
           "type": "single",
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6bed4f5f3f_9fbcaaa8_20260820.png?v=9fbcaaa8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-eea0ec62cc",
+          "name": "Tommy Kennedy vs Sullivan Clark | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eea0ec62cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-eea0ec62cc",
+                  "name": "Tommy Kennedy vs Sullivan Clark",
+                  "streams": [
+                    {
+                      "id": "st-eea0ec62cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eea0ec62cc",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6514/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Tommy Kennedy",
+            "team_b": "Sullivan Clark",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787175716034_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787175715743_Screenshot 2026-08-20 044153.png",
+            "time": "06:00 20/08",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eea0ec62cc_810ef82f_20260820.png?v=810ef82f",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-8dbd4ff978",
-          "name": "Mickey Krause vs jerry Stuckart | Thập Cẩm",
+          "id": "chtv-bad9547d0f",
+          "name": "Marco Teutscher vs Dave O'Keefe | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-8dbd4ff978",
+              "id": "src-bad9547d0f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8dbd4ff978",
-                  "name": "Mickey Krause vs jerry Stuckart",
+                  "id": "ct-bad9547d0f",
+                  "name": "Marco Teutscher vs Dave O'Keefe",
                   "streams": [
                     {
-                      "id": "st-8dbd4ff978",
+                      "id": "st-bad9547d0f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8dbd4ff978",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-bad9547d0f",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6515/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6519/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Mickey Krause",
-            "team_b": "jerry Stuckart",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787177110021_Screenshot 2026-08-20 050500.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787177109852_Screenshot 2026-08-20 002436.png",
+            "league": "Table 3 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Marco Teutscher",
+            "team_b": "Dave O'Keefe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787178763120_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787178762898_Screenshot 2026-08-20 002436.png",
             "time": "06:00 20/08",
-            "caster": "Thập Cẩm",
-            "score": "3-0",
+            "caster": "Kèn Kèn",
+            "score": "2-1",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dbd4ff978_5bffc5e7_20260820.png?v=5bffc5e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bad9547d0f_d7a4692a_20260820.png?v=d7a4692a",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-bad9547d0f",
-          "name": "Marco Teutscher vs Dave O'Keefe | Kèn Kèn",
+          "id": "chtv-8dbd4ff978",
+          "name": "Mickey Krause vs jerry Stuckart | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-bad9547d0f",
+              "id": "src-8dbd4ff978",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bad9547d0f",
-                  "name": "Marco Teutscher vs Dave O'Keefe",
+                  "id": "ct-8dbd4ff978",
+                  "name": "Mickey Krause vs jerry Stuckart",
                   "streams": [
                     {
-                      "id": "st-bad9547d0f",
+                      "id": "st-8dbd4ff978",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bad9547d0f",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-8dbd4ff978",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6519/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6515/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,14 +428,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 3 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Marco Teutscher",
-            "team_b": "Dave O'Keefe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787178763120_11.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787178762898_Screenshot 2026-08-20 002436.png",
+            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Mickey Krause",
+            "team_b": "jerry Stuckart",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787177110021_Screenshot 2026-08-20 050500.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787177109852_Screenshot 2026-08-20 002436.png",
             "time": "06:00 20/08",
-            "caster": "Kèn Kèn",
-            "score": "2-0",
+            "caster": "Thập Cẩm",
+            "score": "4-0",
             "is_live": true,
             "hot": false
           },
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bad9547d0f_d7a4692a_20260820.png?v=d7a4692a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dbd4ff978_5bffc5e7_20260820.png?v=5bffc5e7",
             "width": 1600,
             "height": 1200
           }
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2cb2b8ce75_37980f18_20260820.png?v=37980f18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a5910eae72",
+          "name": "Dean Shields vs Brad Rickel | 09:00 20/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5910eae72",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a5910eae72",
+                  "name": "Dean Shields vs Brad Rickel",
+                  "streams": [
+                    {
+                      "id": "st-a5910eae72",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5910eae72",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6523/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Dean Shields",
+            "team_b": "Brad Rickel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787183625246_ANH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787183624430_Screenshot 2026-08-20 002436.png",
+            "time": "09:00 20/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5910eae72_5d28ba21_20260820.png?v=5d28ba21",
             "width": 1600,
             "height": 1200
           }
