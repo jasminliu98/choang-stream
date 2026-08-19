@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-85d95163ec_250f0d5d_20260819.png?v=250f0d5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a51fd32e1c",
+          "name": "Kevin Gresbeck vs Jani Siencinen | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a51fd32e1c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a51fd32e1c",
+                  "name": "Kevin Gresbeck vs Jani Siencinen",
+                  "streams": [
+                    {
+                      "id": "st-a51fd32e1c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a51fd32e1c",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6459/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 4 2026 PHOENIX OPEN",
+            "team_a": "Kevin Gresbeck",
+            "team_b": "Jani Siencinen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787111980518_Screenshot 2026-08-19 001759.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787111980385_10.jpg",
+            "time": "09:00 19/08",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a51fd32e1c_989f1ad9_20260819.png?v=989f1ad9",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787107890286_Screenshot 2026-07-07 002427.png",
             "time": "10:30 19/08",
             "caster": "Đại Kê",
-            "score": "2-0",
+            "score": "2-1",
             "is_live": true,
             "hot": false
           },
