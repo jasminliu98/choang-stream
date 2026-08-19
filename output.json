@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f38a53e5b_89a779d8_20260819.png?v=89a779d8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f38a53e5b_89a779d8_20260820.png?v=89a779d8",
             "width": 1600,
             "height": 1200
           }
@@ -155,79 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260819.png?v=c8151e82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-2f301aa20d",
-          "name": "Jacob Parrent vs Tuan Kiat | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2f301aa20d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2f301aa20d",
-                  "name": "Jacob Parrent vs Tuan Kiat",
-                  "streams": [
-                    {
-                      "id": "st-2f301aa20d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f301aa20d",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6490/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua race 8 )",
-            "team_a": "Jacob Parrent",
-            "team_b": "Tuan Kiat",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:00 20/08",
-            "caster": "Thập Cẩm",
-            "score": "0-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2f301aa20d_ff69942e_20260819.png?v=ff69942e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260820.png?v=c8151e82",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +227,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-84309f57a9_ff69942e_20260819.png?v=ff69942e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-84309f57a9_ff69942e_20260820.png?v=ff69942e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2f301aa20d",
+          "name": "Jacob Parrent vs Tuan Kiat | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f301aa20d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2f301aa20d",
+                  "name": "Jacob Parrent vs Tuan Kiat",
+                  "streams": [
+                    {
+                      "id": "st-2f301aa20d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f301aa20d",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6490/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua race 8 )",
+            "team_a": "Jacob Parrent",
+            "team_b": "Tuan Kiat",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "time": "00:00 20/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2f301aa20d_ff69942e_20260820.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-981b3545ad_ff69942e_20260819.png?v=ff69942e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-981b3545ad_ff69942e_20260820.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
