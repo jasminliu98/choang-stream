@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787165227864_20.jpg",
             "time": "03:00 20/08",
             "caster": "VÁNG",
-            "score": "4-3",
+            "score": "6-3",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787167072583_Screenshot 2026-07-07 004029.png",
             "time": "03:00 20/08",
             "caster": "BÚN CHÓ",
-            "score": "3-7",
+            "score": "4-8",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787169349199_12.jpg",
             "time": "03:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-0",
+            "score": "4-0",
             "is_live": true,
             "hot": false
           },
@@ -665,8 +665,8 @@
           }
         },
         {
-          "id": "chtv-6bed4f5f3f",
-          "name": "Arseni sevastyanov vs Clemens Ebert | 04:30 20/08 | BÚN CHÓ",
+          "id": "chtv-4efbc3d0ee",
+          "name": "Michael Baoanan vs Kevin Brock | 04:30 20/08 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -680,23 +680,23 @@
           ],
           "sources": [
             {
-              "id": "src-6bed4f5f3f",
+              "id": "src-4efbc3d0ee",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6bed4f5f3f",
-                  "name": "Arseni sevastyanov vs Clemens Ebert",
+                  "id": "ct-4efbc3d0ee",
+                  "name": "Michael Baoanan vs Kevin Brock",
                   "streams": [
                     {
-                      "id": "st-6bed4f5f3f",
+                      "id": "st-4efbc3d0ee",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6bed4f5f3f",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-4efbc3d0ee",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6509/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6511/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -716,13 +716,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN",
-            "team_a": "Arseni sevastyanov",
-            "team_b": "Clemens Ebert",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787172236808_10.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787172236461_6.jpg",
+            "league": "Table 6 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Michael Baoanan",
+            "team_b": "Kevin Brock",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787172656672_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787172656400_Screenshot 2026-08-20 002436.png",
             "time": "04:30 20/08",
-            "caster": "BÚN CHÓ",
+            "caster": "GIÀNG A PHỌ",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -731,7 +731,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6bed4f5f3f_9fbcaaa8_20260820.png?v=9fbcaaa8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4efbc3d0ee_0fa8c7f5_20260820.png?v=0fa8c7f5",
             "width": 1600,
             "height": 1200
           }
@@ -804,6 +804,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6bed4f5f3f",
+          "name": "Arseni sevastyanov vs Clemens Ebert | 04:30 20/08 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6bed4f5f3f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6bed4f5f3f",
+                  "name": "Arseni sevastyanov vs Clemens Ebert",
+                  "streams": [
+                    {
+                      "id": "st-6bed4f5f3f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6bed4f5f3f",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6509/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Arseni sevastyanov",
+            "team_b": "Clemens Ebert",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787172236808_10.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787172236461_6.jpg",
+            "time": "04:30 20/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6bed4f5f3f_9fbcaaa8_20260820.png?v=9fbcaaa8",
             "width": 1600,
             "height": 1200
           }
