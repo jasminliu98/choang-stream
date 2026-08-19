@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787111055708_Screenshot 2026-08-19 001759.png",
             "time": "10:30 19/08",
             "caster": "Đại Kê",
-            "score": "6-3",
+            "score": "7-3",
             "is_live": true,
             "hot": false
           },
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-1bff2f58f5",
-          "name": "WEEBIES vs BUILDERS | 13:00 19/08 | Bỉm Sữa",
+          "name": "WEEBIES vs BUILDERS | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "13:00 19/08",
             "caster": "Bỉm Sữa",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bff2f58f5_91e3418a_20260819.png?v=91e3418a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cb24e61fcf",
-          "name": "WOORI vs SY | 13:00 19/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb24e61fcf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cb24e61fcf",
-                  "name": "WOORI vs SY",
-                  "streams": [
-                    {
-                      "id": "st-cb24e61fcf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb24e61fcf",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6464/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KO CHẤP, CHỌN BÊN WIN",
-            "team_a": "WOORI",
-            "team_b": "SY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787115621736_HÃN QUá»C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787115625589_HÃN QUá»C.png",
-            "time": "13:00 19/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb24e61fcf_d0bba518_20260819.png?v=d0bba518",
             "width": 1600,
             "height": 1200
           }
