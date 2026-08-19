@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b2ec823744_8e44c1f8_20260819.png?v=8e44c1f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0131296731",
-          "name": "DUY ĐEN vs SÀI TIẾN | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0131296731",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0131296731",
-                  "name": "DUY ĐEN vs SÀI TIẾN",
-                  "streams": [
-                    {
-                      "id": "st-0131296731",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0131296731",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6474/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LEOW BILLIARD",
-            "team_a": "DUY ĐEN",
-            "team_b": "SÀI TIẾN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "16:00 19/08",
-            "caster": "Thập Cẩm",
-            "score": "8-11",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0131296731_0cfe1298_20260819.png?v=0cfe1298",
             "width": 1600,
             "height": 1200
           }
