@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787167853726_Screenshot 2026-08-20 002436.png",
             "time": "04:30 20/08",
             "caster": "Thập Cẩm",
-            "score": "5-0",
+            "score": "5-1",
             "is_live": true,
             "hot": false
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9295387312",
-          "name": "Mario He vs Jani Siekkinen | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9295387312",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9295387312",
-                  "name": "Mario He vs Jani Siekkinen",
-                  "streams": [
-                    {
-                      "id": "st-9295387312",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9295387312",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6508/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 3 2026 PHOENIX OPEN",
-            "team_a": "Mario He",
-            "team_b": "Jani Siekkinen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787171934768_7.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787171934555_10.jpg",
-            "time": "04:30 20/08",
-            "caster": "Kèn Kèn",
-            "score": "8-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9295387312_2e2d1f0a_20260820.png?v=2e2d1f0a",
             "width": 1600,
             "height": 1200
           }
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-921e3935b7",
+          "name": "Pijus Labutis vs Fraser Patrick | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-921e3935b7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-921e3935b7",
+                  "name": "Pijus Labutis vs Fraser Patrick",
+                  "streams": [
+                    {
+                      "id": "st-921e3935b7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-921e3935b7",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6521/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 6 2026 PHOENIX OPEN",
+            "team_a": "Pijus Labutis",
+            "team_b": "Fraser Patrick",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787181676164_19.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787181675841_ANH.png",
+            "time": "06:00 20/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-921e3935b7_2ef68d97_20260820.png?v=2ef68d97",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-bad9547d0f",
           "name": "Marco Teutscher vs Dave O'Keefe | Kèn Kèn",
           "type": "single",
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-d1384c88a5",
+          "name": "Kai Lun Hsu vs Aleksa Pecelj | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1384c88a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d1384c88a5",
+                  "name": "Kai Lun Hsu vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-d1384c88a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1384c88a5",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6518/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN",
+            "team_a": "Kai Lun Hsu",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787178079512_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787178079157_Screenshot 2026-08-20 052114.png",
+            "time": "06:00 20/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "3-7",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d1384c88a5_636b4a17_20260820.png?v=636b4a17",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cf4404aff3",
           "name": "Harry Vergara vs Joshua Filler | VÁNG",
           "type": "single",
@@ -363,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787178005314_6.jpg",
             "time": "06:00 20/08",
             "caster": "VÁNG",
-            "score": "0-3",
+            "score": "0-5",
             "is_live": true,
             "hot": false
           },
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cf4404aff3_49f9288f_20260820.png?v=49f9288f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c058cae34",
-          "name": "Brad Johnson vs Jonas Souto Comino | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c058cae34",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c058cae34",
-                  "name": "Brad Johnson vs Jonas Souto Comino",
-                  "streams": [
-                    {
-                      "id": "st-8c058cae34",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c058cae34",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6516/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Brad Johnson",
-            "team_b": "Jonas Souto Comino",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787177185883_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787177185530_3.jpg",
-            "time": "06:00 20/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "3-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c058cae34_26616a50_20260820.png?v=26616a50",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-921e3935b7",
-          "name": "Pijus Labutis vs Fraser Patrick | Lee Min Hoo",
+          "id": "chtv-8c058cae34",
+          "name": "Brad Johnson vs Jonas Souto Comino | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,95 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-921e3935b7",
+              "id": "src-8c058cae34",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-921e3935b7",
-                  "name": "Pijus Labutis vs Fraser Patrick",
+                  "id": "ct-8c058cae34",
+                  "name": "Brad Johnson vs Jonas Souto Comino",
                   "streams": [
                     {
-                      "id": "st-921e3935b7",
+                      "id": "st-8c058cae34",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-921e3935b7",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6521/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 6 2026 PHOENIX OPEN",
-            "team_a": "Pijus Labutis",
-            "team_b": "Fraser Patrick",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787181676164_19.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787181675841_ANH.png",
-            "time": "06:00 20/08",
-            "caster": "Lee Min Hoo",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-921e3935b7_2ef68d97_20260820.png?v=2ef68d97",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d1384c88a5",
-          "name": "Kai Lun Hsu vs Aleksa Pecelj | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1384c88a5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d1384c88a5",
-                  "name": "Kai Lun Hsu vs Aleksa Pecelj",
-                  "streams": [
-                    {
-                      "id": "st-d1384c88a5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1384c88a5",
+                          "id": "lnk-8c058cae34",
                           "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6518/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6516/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,14 +572,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN",
-            "team_a": "Kai Lun Hsu",
-            "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787178079512_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787178079157_Screenshot 2026-08-20 052114.png",
+            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Brad Johnson",
+            "team_b": "Jonas Souto Comino",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787177185883_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787177185530_3.jpg",
             "time": "06:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-7",
+            "score": "3-2",
             "is_live": true,
             "hot": false
           },
@@ -659,23 +587,23 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d1384c88a5_636b4a17_20260820.png?v=636b4a17",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c058cae34_26616a50_20260820.png?v=26616a50",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-2cb2b8ce75",
-          "name": "Fedor Gorst vs Harrison Leinen | 07:30 20/08 | VÁNG",
+          "name": "Fedor Gorst vs Harrison Leinen | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -724,7 +652,7 @@
             "time": "07:30 20/08",
             "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
