@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (10 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787167853726_Screenshot 2026-08-20 002436.png",
             "time": "04:30 20/08",
             "caster": "Thập Cẩm",
-            "score": "3-0",
+            "score": "5-0",
             "is_live": true,
             "hot": false
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344ebfffef_0144ccf3_20260820.png?v=0144ccf3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6bed4f5f3f",
-          "name": "Arseni sevastyanov vs Clemens Ebert | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6bed4f5f3f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6bed4f5f3f",
-                  "name": "Arseni sevastyanov vs Clemens Ebert",
-                  "streams": [
-                    {
-                      "id": "st-6bed4f5f3f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6bed4f5f3f",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6509/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN",
-            "team_a": "Arseni sevastyanov",
-            "team_b": "Clemens Ebert",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787172236808_10.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787172236461_6.jpg",
-            "time": "04:30 20/08",
-            "caster": "BÚN CHÓ",
-            "score": "7-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6bed4f5f3f_9fbcaaa8_20260820.png?v=9fbcaaa8",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787171934555_10.jpg",
             "time": "04:30 20/08",
             "caster": "Kèn Kèn",
-            "score": "6-5",
+            "score": "8-6",
             "is_live": true,
             "hot": false
           },
@@ -233,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-dd171d2eaf",
-          "name": "Max Eberle vs Eklent Kaci | BÚN CHÓ",
+          "id": "chtv-6bed4f5f3f",
+          "name": "Arseni sevastyanov vs Clemens Ebert | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-dd171d2eaf",
+              "id": "src-6bed4f5f3f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dd171d2eaf",
-                  "name": "Max Eberle vs Eklent Kaci",
+                  "id": "ct-6bed4f5f3f",
+                  "name": "Arseni sevastyanov vs Clemens Ebert",
                   "streams": [
                     {
-                      "id": "st-dd171d2eaf",
+                      "id": "st-6bed4f5f3f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dd171d2eaf",
+                          "id": "lnk-6bed4f5f3f",
                           "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6510/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6509/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Max Eberle",
-            "team_b": "Eklent Kaci",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787172508890_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787174394794_Screenshot 2026-08-20 041809.png",
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Arseni sevastyanov",
+            "team_b": "Clemens Ebert",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787172236808_10.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787172236461_6.jpg",
             "time": "04:30 20/08",
             "caster": "BÚN CHÓ",
-            "score": "5-6",
+            "score": "7-7",
             "is_live": true,
             "hot": false
           },
@@ -299,79 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd171d2eaf_15ba6347_20260820.png?v=15ba6347",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8dbd4ff978",
-          "name": "Mickey Krause vs jerry Stuckart | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8dbd4ff978",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8dbd4ff978",
-                  "name": "Mickey Krause vs jerry Stuckart",
-                  "streams": [
-                    {
-                      "id": "st-8dbd4ff978",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8dbd4ff978",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6515/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Mickey Krause",
-            "team_b": "jerry Stuckart",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787177110021_Screenshot 2026-08-20 050500.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787177109852_Screenshot 2026-08-20 002436.png",
-            "time": "06:00 20/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dbd4ff978_5bffc5e7_20260820.png?v=5bffc5e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6bed4f5f3f_9fbcaaa8_20260820.png?v=9fbcaaa8",
             "width": 1600,
             "height": 1200
           }
@@ -521,150 +377,6 @@
           }
         },
         {
-          "id": "chtv-d1384c88a5",
-          "name": "Kai Lun Hsu vs Aleksa Pecelj | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1384c88a5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d1384c88a5",
-                  "name": "Kai Lun Hsu vs Aleksa Pecelj",
-                  "streams": [
-                    {
-                      "id": "st-d1384c88a5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1384c88a5",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6518/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN",
-            "team_a": "Kai Lun Hsu",
-            "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787178079512_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787178079157_Screenshot 2026-08-20 052114.png",
-            "time": "06:00 20/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "2-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d1384c88a5_636b4a17_20260820.png?v=636b4a17",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-eea0ec62cc",
-          "name": "Tommy Kennedy vs Sullivan Clark | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eea0ec62cc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eea0ec62cc",
-                  "name": "Tommy Kennedy vs Sullivan Clark",
-                  "streams": [
-                    {
-                      "id": "st-eea0ec62cc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eea0ec62cc",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6514/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN",
-            "team_a": "Tommy Kennedy",
-            "team_b": "Sullivan Clark",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787175716034_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787175715743_Screenshot 2026-08-20 044153.png",
-            "time": "06:00 20/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eea0ec62cc_810ef82f_20260820.png?v=810ef82f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8c058cae34",
           "name": "Brad Johnson vs Jonas Souto Comino | GIÀNG A PHỌ",
           "type": "single",
@@ -723,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787177185530_3.jpg",
             "time": "06:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": false
           },
@@ -732,6 +444,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c058cae34_26616a50_20260820.png?v=26616a50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8dbd4ff978",
+          "name": "Mickey Krause vs jerry Stuckart | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8dbd4ff978",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8dbd4ff978",
+                  "name": "Mickey Krause vs jerry Stuckart",
+                  "streams": [
+                    {
+                      "id": "st-8dbd4ff978",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8dbd4ff978",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6515/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 8 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Mickey Krause",
+            "team_b": "jerry Stuckart",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787177110021_Screenshot 2026-08-20 050500.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787177109852_Screenshot 2026-08-20 002436.png",
+            "time": "06:00 20/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dbd4ff978_5bffc5e7_20260820.png?v=5bffc5e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-921e3935b7",
+          "name": "Pijus Labutis vs Fraser Patrick | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-921e3935b7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-921e3935b7",
+                  "name": "Pijus Labutis vs Fraser Patrick",
+                  "streams": [
+                    {
+                      "id": "st-921e3935b7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-921e3935b7",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6521/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 6 2026 PHOENIX OPEN",
+            "team_a": "Pijus Labutis",
+            "team_b": "Fraser Patrick",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787181676164_19.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787181675841_ANH.png",
+            "time": "06:00 20/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-921e3935b7_2ef68d97_20260820.png?v=2ef68d97",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d1384c88a5",
+          "name": "Kai Lun Hsu vs Aleksa Pecelj | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1384c88a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d1384c88a5",
+                  "name": "Kai Lun Hsu vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-d1384c88a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1384c88a5",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6518/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN",
+            "team_a": "Kai Lun Hsu",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787178079512_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787178079157_Screenshot 2026-08-20 052114.png",
+            "time": "06:00 20/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "2-7",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d1384c88a5_636b4a17_20260820.png?v=636b4a17",
             "width": 1600,
             "height": 1200
           }
