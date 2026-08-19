@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787174463803_AJ MANAS.jpg",
             "time": "00:00 20/08",
             "caster": "VÁNG",
-            "score": "2-4",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787174394794_Screenshot 2026-08-20 041809.png",
             "time": "04:30 20/08",
             "caster": "BÚN CHÓ",
-            "score": "2-4",
+            "score": "3-4",
             "is_live": true,
             "hot": false
           },
@@ -732,6 +732,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c058cae34_26616a50_20260820.png?v=26616a50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bad9547d0f",
+          "name": "Marco Teutscher vs Dave O'Keefe | 06:00 20/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bad9547d0f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bad9547d0f",
+                  "name": "Marco Teutscher vs Dave O'Keefe",
+                  "streams": [
+                    {
+                      "id": "st-bad9547d0f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bad9547d0f",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6519/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 3 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Marco Teutscher",
+            "team_b": "Dave O'Keefe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787178763120_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787178762898_Screenshot 2026-08-20 002436.png",
+            "time": "06:00 20/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bad9547d0f_d7a4692a_20260820.png?v=d7a4692a",
             "width": 1600,
             "height": 1200
           }
