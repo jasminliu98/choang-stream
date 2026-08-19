@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -77,7 +77,7 @@
             "caster": "Kèn Kèn",
             "score": "5-8",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787144424655_Ralf Souquet.jpg",
             "time": "00:00 20/08",
             "caster": "VÁNG",
-            "score": "4-1",
+            "score": "5-1",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bee0dfd5a5_c8151e82_20260820.png?v=c8151e82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-98f7c4f834",
+          "name": "HOÀNG SAO vs Ralf Souquet",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98f7c4f834",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-98f7c4f834",
+                  "name": "HOÀNG SAO vs Ralf Souquet",
+                  "streams": [
+                    {
+                      "id": "st-98f7c4f834",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98f7c4f834",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6484/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phoenix open 2026 x Choáng",
+            "team_a": "HOÀNG SAO",
+            "team_b": "Ralf Souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787144796145_Ralf Souquet.jpg",
+            "time": "00:00 20/08",
+            "caster": "",
+            "score": "5-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-98f7c4f834_c60d0e05_20260820.png?v=c60d0e05",
             "width": 1600,
             "height": 1200
           }
