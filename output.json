@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-fd266df570",
-          "name": "Mustafa Alnar vs Omar Alshaheen | 00:00 21/08 | VÁNG",
+          "id": "chtv-9f7c7a02b4",
+          "name": "Phương Nam vs Thợ Phi | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-fd266df570",
+              "id": "src-9f7c7a02b4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fd266df570",
-                  "name": "Mustafa Alnar vs Omar Alshaheen",
+                  "id": "ct-9f7c7a02b4",
+                  "name": "Phương Nam vs Thợ Phi",
                   "streams": [
                     {
-                      "id": "st-fd266df570",
+                      "id": "st-9f7c7a02b4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fd266df570",
-                          "name": "VÁNG",
+                          "id": "lnk-9f7c7a02b4",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6571/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6582/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Mustafa Alnar",
-            "team_b": "Omar Alshaheen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787236328478_Mustafa Alnar.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787236347889_Omar Alshaheen.jpg",
-            "time": "00:00 21/08",
-            "caster": "VÁNG",
+            "league": "GAME 2 NỘP TIỀN CHO PHI BỊP",
+            "team_a": "Phương Nam",
+            "team_b": "Thợ Phi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY TRÃU.jpg",
+            "time": "23:00 20/08",
+            "caster": "Xinh Yeu",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd266df570_0a069dd3_20260820.png?v=0a069dd3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f7c7a02b4_a7e9e9ef_20260820.png?v=a7e9e9ef",
             "width": 1600,
             "height": 1200
           }
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c7c6e52e80_4f96e6c1_20260820.png?v=4f96e6c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fd266df570",
+          "name": "Mustafa Alnar vs Omar Alshaheen | 00:00 21/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd266df570",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd266df570",
+                  "name": "Mustafa Alnar vs Omar Alshaheen",
+                  "streams": [
+                    {
+                      "id": "st-fd266df570",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd266df570",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6571/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Mustafa Alnar",
+            "team_b": "Omar Alshaheen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787236328478_Mustafa Alnar.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787236347889_Omar Alshaheen.jpg",
+            "time": "00:00 21/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd266df570_0a069dd3_20260820.png?v=0a069dd3",
             "width": 1600,
             "height": 1200
           }
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-be010f5c61",
-          "name": "Aj Manas vs Albin Ouschan | 01:30 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be010f5c61",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-be010f5c61",
-                  "name": "Aj Manas vs Albin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-be010f5c61",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be010f5c61",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6577/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Aj Manas",
-            "team_b": "Albin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787239081677_AJ MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787239093498_Albin Ouschan.jpg",
-            "time": "01:30 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be010f5c61_5149a734_20260820.png?v=5149a734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-28eb759262",
           "name": "Daniel Dagotdot vs Pierfrancesco Garzia | 01:30 21/08",
           "type": "single",
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fcb3145f2c_afca01e6_20260820.png?v=afca01e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-be010f5c61",
+          "name": "Aj Manas vs Albin Ouschan | 01:30 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be010f5c61",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-be010f5c61",
+                  "name": "Aj Manas vs Albin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-be010f5c61",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be010f5c61",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6577/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Aj Manas",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787239081677_AJ MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787239093498_Albin Ouschan.jpg",
+            "time": "01:30 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be010f5c61_5149a734_20260820.png?v=5149a734",
             "width": 1600,
             "height": 1200
           }
