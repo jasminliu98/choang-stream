@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787241453922_Francesco Candela.jpg",
             "time": "06:00 21/08",
             "caster": "BÚN CHÓ",
-            "score": "1-3",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -233,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-ad0c9274cb",
-          "name": "Carlo Biado vs Arseni Sevastyanov | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad0c9274cb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ad0c9274cb",
-                  "name": "Carlo Biado vs Arseni Sevastyanov",
-                  "streams": [
-                    {
-                      "id": "st-ad0c9274cb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad0c9274cb",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6605/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Carlo Biado",
-            "team_b": "Arseni Sevastyanov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787266761050_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787266760686_10.jpg",
-            "time": "06:00 21/08",
-            "caster": "Lee Min Hoo",
-            "score": "5-2",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ad0c9274cb_c4351759_20260821.png?v=c4351759",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ab4b9c5d0f",
           "name": "Michael Baoanan vs Yushi Muramatsu | Thập Cẩm",
           "type": "single",
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ab4b9c5d0f_3bc4fcc4_20260821.png?v=3bc4fcc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ad0c9274cb",
+          "name": "Carlo Biado vs Arseni Sevastyanov | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad0c9274cb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ad0c9274cb",
+                  "name": "Carlo Biado vs Arseni Sevastyanov",
+                  "streams": [
+                    {
+                      "id": "st-ad0c9274cb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad0c9274cb",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6605/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Carlo Biado",
+            "team_b": "Arseni Sevastyanov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787266761050_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787266760686_10.jpg",
+            "time": "06:00 21/08",
+            "caster": "Lee Min Hoo",
+            "score": "5-3",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ad0c9274cb_c4351759_20260821.png?v=c4351759",
             "width": 1600,
             "height": 1200
           }
