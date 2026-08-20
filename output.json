@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY TRÃU.jpg",
             "time": "23:00 20/08",
             "caster": "Xinh Yeu",
-            "score": "3-1",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f7c7a02b4_a7e9e9ef_20260820.png?v=a7e9e9ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f7c7a02b4_a7e9e9ef_20260821.png?v=a7e9e9ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7f0371fc52",
+          "name": "Nicholas De Leon vs Jack Beggs | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f0371fc52",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7f0371fc52",
+                  "name": "Nicholas De Leon vs Jack Beggs",
+                  "streams": [
+                    {
+                      "id": "st-7f0371fc52",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7f0371fc52",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6583/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table3 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Nicholas De Leon",
+            "team_b": "Jack Beggs",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
+            "time": "00:00 21/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7f0371fc52_2f300a02_20260821.png?v=2f300a02",
             "width": 1600,
             "height": 1200
           }
@@ -155,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd266df570_0a069dd3_20260820.png?v=0a069dd3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd266df570_0a069dd3_20260821.png?v=0a069dd3",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c7c6e52e80_4f96e6c1_20260820.png?v=4f96e6c1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c7c6e52e80_4f96e6c1_20260821.png?v=4f96e6c1",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b16c41ed7_6022c6d7_20260820.png?v=6022c6d7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b16c41ed7_6022c6d7_20260821.png?v=6022c6d7",
             "width": 1600,
             "height": 1200
           }
@@ -371,79 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db133d723e_f903cf23_20260820.png?v=f903cf23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-be010f5c61",
-          "name": "Aj Manas vs Albin Ouschan | 01:30 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be010f5c61",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-be010f5c61",
-                  "name": "Aj Manas vs Albin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-be010f5c61",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be010f5c61",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6577/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Aj Manas",
-            "team_b": "Albin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787239081677_AJ MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787239093498_Albin Ouschan.jpg",
-            "time": "01:30 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be010f5c61_5149a734_20260820.png?v=5149a734",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db133d723e_f903cf23_20260821.png?v=f903cf23",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28eb759262_e4a4026f_20260820.png?v=e4a4026f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28eb759262_e4a4026f_20260821.png?v=e4a4026f",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +587,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fcb3145f2c_afca01e6_20260820.png?v=afca01e6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fcb3145f2c_afca01e6_20260821.png?v=afca01e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-be010f5c61",
+          "name": "Aj Manas vs Albin Ouschan | 01:30 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be010f5c61",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-be010f5c61",
+                  "name": "Aj Manas vs Albin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-be010f5c61",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be010f5c61",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6577/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Aj Manas",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787239081677_AJ MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787239093498_Albin Ouschan.jpg",
+            "time": "01:30 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be010f5c61_5149a734_20260821.png?v=5149a734",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +731,151 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e173b03a43_492bf02a_20260820.png?v=492bf02a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e173b03a43_492bf02a_20260821.png?v=492bf02a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d2fb4cece0",
+          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2fb4cece0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d2fb4cece0",
+                  "name": "Hoàng sao vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-d2fb4cece0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d2fb4cece0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6580/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng  )",
+            "team_a": "Hoàng sao",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787241453922_Francesco Candela.jpg",
+            "time": "06:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d2fb4cece0_706af229_20260821.png?v=706af229",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-336793e76b",
+          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-336793e76b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-336793e76b",
+                  "name": "Hoàng sao vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-336793e76b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-336793e76b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6581/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng )",
+            "team_a": "Hoàng sao",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787241545378_Francesco Candela.jpg",
+            "time": "06:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-336793e76b_b7ae4e26_20260821.png?v=b7ae4e26",
             "width": 1600,
             "height": 1200
           }
