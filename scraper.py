@@ -54,28 +54,21 @@ def fetch_image(url):
 def validate_stream(url, match):
     if match.get("is_live", False):
         return True
-        
     try:
         kickoff = parse_kickoff(match.get("time_raw", ""))
         now = now_vn()
         is_future_safe = kickoff and kickoff > now + timedelta(minutes=15)
-
         res = requests.get(url, headers=HEADERS, timeout=6, stream=True)
-        
         if res.status_code in [404, 500, 502, 503, 504] and is_future_safe:
             res.close()
             return True
-            
         if res.status_code != 200:
             res.close()
             return False
-        
         first_chunk = next(res.iter_content(1024), b"")
         res.close()
-        
         if b"#EXTM3U" in first_chunk or b"#EXTINF" in first_chunk or b"#EXT-X" in first_chunk:
             return True
-            
         return is_future_safe
     except Exception:
         kickoff = parse_kickoff(match.get("time_raw", ""))
@@ -87,10 +80,6 @@ def validate_stream(url, match):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def resolve_site_domain(entry_url, default_domain):
-    """
-    Tự động phát hiện domain đích bằng cách đi theo redirect của trang gốc.
-    Trả về (site_url, referer, api_domain).
-    """
     try:
         print(f"  Dang kiem tra redirect tu: {entry_url}")
         res = requests.get(
@@ -101,15 +90,11 @@ def resolve_site_domain(entry_url, default_domain):
         )
         final_url = res.url
         parsed = urlparse(final_url)
-        
-        # Lấy domain gốc (bỏ www nếu có)
         netloc = parsed.netloc
         if netloc.startswith("www."):
             netloc = netloc[4:]
-        
         site_url = f"{parsed.scheme}://{netloc}"
         api_domain = netloc
-        
         if site_url and site_url != entry_url.rstrip('/'):
             print(f"  ✅ Phat hien domain moi: {site_url}")
             print(f"  ✅ API domain: api.{api_domain}")
@@ -139,6 +124,10 @@ API_URL          = f"https://api.{DEFAULT_DOMAIN}/matchSchedule/getList"
 THUMBS_DIR = "thumbs"
 REPO_RAW   = os.environ.get("REPO_RAW", "")
 THUMB_VER  = "v1"
+
+# 🛡️ Regex patterns dùng chung để phân loại bộ môn (Word Boundary)
+BILLIARD_PATTERN = re.compile(r'\b(pool|billiard|bida|9[- ]?ball|10[- ]?ball|8[- ]?ball|carom|snooker)\b', re.IGNORECASE)
+MARTIAL_PATTERN  = re.compile(r'\b(inner\s*circle|võ\s+thuật|mma|muay|ufc|boxing|kickboxing)\b', re.IGNORECASE)
 
 # ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
@@ -269,7 +258,6 @@ def cleanup_old_thumbs(days: int = 3):
 
 def get_matches():
     today = now_vn()
-    
     dates_to_fetch = [
         today - timedelta(days=1),
         today,
@@ -282,18 +270,13 @@ def get_matches():
     for date in dates_to_fetch:
         date_str = date.strftime("%Y-%m-%d")
         try:
-            print(f"  Goi API date={date_str}...")
             res = requests.get(API_URL, params={"date": date_str}, headers=HEADERS, timeout=15)
-            print(f"    Status: {res.status_code}")
             data = res.json()
-            print(f"    API code: {data.get('code')}, so tran: {len(data.get('data', []))}")
         except Exception as e:
             print(f"  ❌ Loi API date={date_str}: {e}")
             continue
 
-        if data.get("code") != 200: 
-            print(f"    API tra ve code != 200, bo qua")
-            continue
+        if data.get("code") != 200: continue
 
         for item in data.get("data", []):
             match_id = str(item.get("id", ""))
@@ -344,14 +327,11 @@ def get_matches():
     for m in all_matches:
         is_live = m.get("is_live", False)
         kickoff = parse_kickoff(m["time_raw"])
-        
         if is_live:
             time_filtered.append(m)
             continue
-            
         if kickoff and (kickoff < min_past or kickoff > max_future):
             continue
-            
         time_filtered.append(m)
     
     print(f"  Filter thoi gian: {len(all_matches)} -> {len(time_filtered)} tran")
@@ -360,15 +340,19 @@ def get_matches():
         return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
     def get_group_key(match):
-        cat = match.get("category", "")
+        # Gom text để check bằng regex word boundary
+        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}"
+        
+        is_billiard = bool(BILLIARD_PATTERN.search(text_to_check))
+        is_martial  = bool(MARTIAL_PATTERN.search(text_to_check))
+        
         league = match.get("league", "")
-        is_martial = any(kw in cat.lower() for kw in ["võ thuật", "mma", "muay", "ufc", "boxing", "kickboxing"])
-        or_in_league = any(kw in league.lower() for kw in ["inner circle", "one friday", "one championship"])
         league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', league).strip()
         kickoff = parse_kickoff(match.get("time_raw", ""))
         date_key = kickoff.strftime("%Y-%m-%d") if kickoff else ""
         
-        if is_martial or or_in_league:
+        # Ưu tiên billiard nếu có keyword billiard (tránh nhầm Mohammad → MMA)
+        if is_martial and not is_billiard:
             return ("MARTIAL", league_clean.lower(), date_key)
         else:
             team_a = clean_team_name(match.get("team_a", ""))
@@ -420,13 +404,11 @@ def get_matches():
                 rep["team_a"] = clean_team_name(rep.get("team_a", ""))
                 rep["team_b"] = clean_team_name(rep.get("team_b", ""))
                 rep["name"] = f"{rep['team_a']} vs {rep['team_b']}"
-                
             final_upcoming.append(rep)
             if len(matches_in_event) > 1:
                 print(f"  Gom nhom SAP: {len(matches_in_event)} tran -> 1 dai dien [{rep['name']}]")
 
     final_matches = live_matches + final_upcoming
-    
     for m in live_matches:
         m["team_a"] = clean_team_name(m.get("team_a", ""))
         m["team_b"] = clean_team_name(m.get("team_b", ""))
@@ -513,9 +495,6 @@ def main():
 
     print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
     
-    # ═══════════════════════════════════════════════════════════════
-    # AUTO-RESOLVE: Tự động phát hiện domain mới
-    # ═══════════════════════════════════════════════════════════════
     resolved_site, resolved_referer, resolved_api_domain = resolve_site_domain(ENTRY_SITE_URL, DEFAULT_DOMAIN)
     SITE_URL = resolved_site
     API_URL  = f"https://api.{resolved_api_domain}/matchSchedule/getList"
@@ -550,8 +529,13 @@ def main():
 
         ch = build_channel(match, thumb_url)
 
-        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}".lower()
-        if any(kw in text_to_check for kw in ["inner circle", "võ thuật", "mma", "muay", "ufc", "boxing"]):
+        # 🛡️ Phân loại bằng Regex word boundary - tránh bug Mohammad = MMA
+        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}"
+        is_billiard = bool(BILLIARD_PATTERN.search(text_to_check))
+        is_martial  = bool(MARTIAL_PATTERN.search(text_to_check))
+        
+        # Ưu tiên billiard: nếu có pool/billiard/bida thì chắc chắn là billiard
+        if is_martial and not is_billiard:
             vo_thuat_channels.append(ch)
         else:
             billiard_channels.append(ch)
