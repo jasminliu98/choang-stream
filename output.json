@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY TRÃU.jpg",
             "time": "23:00 20/08",
             "caster": "Xinh Yeu",
-            "score": "5-4",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787245405033_Sanjin Pehlivanovic.jpg",
             "time": "00:00 21/08",
             "caster": "Thập Cẩm",
-            "score": "4-4",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787237002839_Antonis Kakaris.jpg",
             "time": "00:00 21/08",
             "caster": "BÚN CHÓ",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:00 21/08",
             "caster": "Tào A Man",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787236536503_Casper Matikainen.jpg",
             "time": "00:00 21/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-2",
+            "score": "5-3",
             "is_live": true,
             "hot": false
           },
@@ -593,78 +593,6 @@
           }
         },
         {
-          "id": "chtv-28eb759262",
-          "name": "Daniel Dagotdot vs Pierfrancesco Garzia | 01:30 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28eb759262",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-28eb759262",
-                  "name": "Daniel Dagotdot vs Pierfrancesco Garzia",
-                  "streams": [
-                    {
-                      "id": "st-28eb759262",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28eb759262",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6578/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table2  2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Daniel Dagotdot",
-            "team_b": "Pierfrancesco Garzia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787239483542_Pierfrancesco Garzia.jpg",
-            "time": "01:30 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28eb759262_e4a4026f_20260821.png?v=e4a4026f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-be010f5c61",
           "name": "Aj Manas vs Albin Ouschan | 01:30 21/08",
           "type": "single",
@@ -732,6 +660,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be010f5c61_5149a734_20260821.png?v=5149a734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-28eb759262",
+          "name": "Daniel Dagotdot vs Pierfrancesco Garzia | 01:30 21/08 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28eb759262",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-28eb759262",
+                  "name": "Daniel Dagotdot vs Pierfrancesco Garzia",
+                  "streams": [
+                    {
+                      "id": "st-28eb759262",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28eb759262",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6578/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table2  2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Daniel Dagotdot",
+            "team_b": "Pierfrancesco Garzia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787239483542_Pierfrancesco Garzia.jpg",
+            "time": "01:30 21/08",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28eb759262_e4a4026f_20260821.png?v=e4a4026f",
             "width": 1600,
             "height": 1200
           }
