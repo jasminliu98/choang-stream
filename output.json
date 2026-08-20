@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-c7c6e52e80",
-          "name": "Mickey Krause vs Antonis Kakaris | 00:00 21/08 | BÚN CHÓ",
+          "name": "Mickey Krause vs Antonis Kakaris | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "00:00 21/08",
             "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -162,16 +162,16 @@
         },
         {
           "id": "chtv-fd266df570",
-          "name": "Mustafa Alnar vs Omar Alshaheen | 00:00 21/08 | VÁNG",
+          "name": "Mustafa Alnar vs Omar Alshaheen | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "00:00 21/08",
             "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -233,89 +233,17 @@
           }
         },
         {
-          "id": "chtv-db133d723e",
-          "name": "Marc Bijsterbosch vs Casper Matikainen | 00:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db133d723e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-db133d723e",
-                  "name": "Marc Bijsterbosch vs Casper Matikainen",
-                  "streams": [
-                    {
-                      "id": "st-db133d723e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db133d723e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6572/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table3  2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Marc Bijsterbosch",
-            "team_b": "Casper Matikainen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787236516104_Marc Bijsterbosch.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787236536503_Casper Matikainen.jpg",
-            "time": "00:00 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db133d723e_f903cf23_20260820.png?v=f903cf23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8b16c41ed7",
-          "name": "Jacob Parrent vs Tommy Kennedy | 00:00 21/08",
+          "name": "Jacob Parrent vs Tommy Kennedy | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -333,7 +261,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-8b16c41ed7",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6573/index.m3u8",
@@ -362,9 +290,9 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787236633867_Jacob Parrent.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787236645021_Tommy Kennedy.jpg",
             "time": "00:00 21/08",
-            "caster": "",
+            "caster": "Tào A Man",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
