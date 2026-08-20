@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY TRÃU.jpg",
             "time": "23:00 20/08",
             "caster": "Xinh Yeu",
-            "score": "6-4",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787236347889_Omar Alshaheen.jpg",
             "time": "00:00 21/08",
             "caster": "VÁNG",
-            "score": "3-6",
+            "score": "3-7",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787237002839_Antonis Kakaris.jpg",
             "time": "00:00 21/08",
             "caster": "BÚN CHÓ",
-            "score": "1-5",
+            "score": "1-6",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:00 21/08",
             "caster": "Tào A Man",
-            "score": "5-1",
+            "score": "6-1",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787236536503_Casper Matikainen.jpg",
             "time": "00:00 21/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-5",
+            "score": "5-6",
             "is_live": true,
             "hot": false
           },
@@ -953,78 +953,6 @@
           }
         },
         {
-          "id": "chtv-336793e76b",
-          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-336793e76b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-336793e76b",
-                  "name": "Hoàng sao vs Francesco Candela",
-                  "streams": [
-                    {
-                      "id": "st-336793e76b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-336793e76b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6581/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng )",
-            "team_a": "Hoàng sao",
-            "team_b": "Francesco Candela",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787241545378_Francesco Candela.jpg",
-            "time": "06:00 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-336793e76b_b7ae4e26_20260821.png?v=b7ae4e26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d2fb4cece0",
           "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
           "type": "single",
@@ -1092,6 +1020,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d2fb4cece0_706af229_20260821.png?v=706af229",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-336793e76b",
+          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-336793e76b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-336793e76b",
+                  "name": "Hoàng sao vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-336793e76b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-336793e76b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6581/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng )",
+            "team_a": "Hoàng sao",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787241545378_Francesco Candela.jpg",
+            "time": "06:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-336793e76b_b7ae4e26_20260821.png?v=b7ae4e26",
             "width": 1600,
             "height": 1200
           }
