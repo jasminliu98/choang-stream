@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787175715743_Screenshot 2026-08-20 044153.png",
             "time": "06:00 20/08",
             "caster": "Tào A Man",
-            "score": "1-0",
+            "score": "1-1",
             "is_live": true,
             "hot": false
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-bad9547d0f",
-          "name": "Marco Teutscher vs Dave O'Keefe | Kèn Kèn",
+          "id": "chtv-ca0f656610",
+          "name": "Chris Lulek vs LO HO sum | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-bad9547d0f",
+              "id": "src-ca0f656610",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bad9547d0f",
-                  "name": "Marco Teutscher vs Dave O'Keefe",
+                  "id": "ct-ca0f656610",
+                  "name": "Chris Lulek vs LO HO sum",
                   "streams": [
                     {
-                      "id": "st-bad9547d0f",
+                      "id": "st-ca0f656610",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bad9547d0f",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-ca0f656610",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6519/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6527/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,86 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 3 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Marco Teutscher",
-            "team_b": "Dave O'Keefe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787178763120_11.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787178762898_Screenshot 2026-08-20 002436.png",
-            "time": "06:00 20/08",
-            "caster": "Kèn Kèn",
-            "score": "5-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bad9547d0f_d7a4692a_20260820.png?v=d7a4692a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-aced4e060e",
-          "name": "Marc Vidal Claramunt vs Pham Phuong Nam | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aced4e060e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-aced4e060e",
-                  "name": "Marc Vidal Claramunt vs Pham Phuong Nam",
-                  "streams": [
-                    {
-                      "id": "st-aced4e060e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aced4e060e",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6526/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 6 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Marc Vidal Claramunt",
-            "team_b": "Pham Phuong Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787185162264_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787184922868_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Chris Lulek",
+            "team_b": "LO HO sum",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787185083379_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787185083095_9.jpg",
             "time": "07:30 20/08",
-            "caster": "Lee Min Hoo",
-            "score": "0-0",
+            "caster": "Thập Cẩm",
+            "score": "2-0",
             "is_live": true,
             "hot": false
           },
@@ -299,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aced4e060e_03e8cc0b_20260820.png?v=03e8cc0b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ca0f656610_59d03dff_20260820.png?v=59d03dff",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787180979015_Screenshot 2026-08-20 002436.png",
             "time": "07:30 20/08",
             "caster": "VÁNG",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": false
           },
@@ -449,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-ca0f656610",
-          "name": "Chris Lulek vs LO HO sum | Thập Cẩm",
+          "id": "chtv-aced4e060e",
+          "name": "Marc Vidal Claramunt vs Pham Phuong Nam | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-ca0f656610",
+              "id": "src-aced4e060e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ca0f656610",
-                  "name": "Chris Lulek vs LO HO sum",
+                  "id": "ct-aced4e060e",
+                  "name": "Marc Vidal Claramunt vs Pham Phuong Nam",
                   "streams": [
                     {
-                      "id": "st-ca0f656610",
+                      "id": "st-aced4e060e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ca0f656610",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-aced4e060e",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6527/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6526/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,14 +428,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Chris Lulek",
-            "team_b": "LO HO sum",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787185083379_Screenshot 2026-08-20 002436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787185083095_9.jpg",
+            "league": "Table 6 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Marc Vidal Claramunt",
+            "team_b": "Pham Phuong Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787185162264_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787184922868_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "07:30 20/08",
-            "caster": "Thập Cẩm",
-            "score": "1-0",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
             "is_live": true,
             "hot": false
           },
@@ -515,79 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ca0f656610_59d03dff_20260820.png?v=59d03dff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a5910eae72",
-          "name": "Dean Shields vs Brad Rickel | 09:00 20/08 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5910eae72",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a5910eae72",
-                  "name": "Dean Shields vs Brad Rickel",
-                  "streams": [
-                    {
-                      "id": "st-a5910eae72",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5910eae72",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6523/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
-            "team_a": "Dean Shields",
-            "team_b": "Brad Rickel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787183625246_ANH.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787183624430_Screenshot 2026-08-20 002436.png",
-            "time": "09:00 20/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5910eae72_5d28ba21_20260820.png?v=5d28ba21",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aced4e060e_03e8cc0b_20260820.png?v=03e8cc0b",
             "width": 1600,
             "height": 1200
           }
@@ -660,6 +516,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d0ffe4291f_f10c9eea_20260820.png?v=f10c9eea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d6ee732198",
+          "name": "Shane Van Boening vs Johnny Archer | 09:00 20/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6ee732198",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d6ee732198",
+                  "name": "Shane Van Boening vs Johnny Archer",
+                  "streams": [
+                    {
+                      "id": "st-d6ee732198",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6ee732198",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6528/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV Table 2026 PHOENIX OPEN",
+            "team_a": "Shane Van Boening",
+            "team_b": "Johnny Archer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787185626394_Screenshot 2026-08-20 002436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787185626064_Screenshot 2026-08-20 002436.png",
+            "time": "09:00 20/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d6ee732198_046b33f7_20260820.png?v=046b33f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a5910eae72",
+          "name": "Dean Shields vs Brad Rickel | 09:00 20/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5910eae72",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a5910eae72",
+                  "name": "Dean Shields vs Brad Rickel",
+                  "streams": [
+                    {
+                      "id": "st-a5910eae72",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5910eae72",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6523/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 4 2026 PHOENIX OPEN (nhánh thua race 8)",
+            "team_a": "Dean Shields",
+            "team_b": "Brad Rickel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787183625246_ANH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787183624430_Screenshot 2026-08-20 002436.png",
+            "time": "09:00 20/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5910eae72_5d28ba21_20260820.png?v=5d28ba21",
             "width": 1600,
             "height": 1200
           }
