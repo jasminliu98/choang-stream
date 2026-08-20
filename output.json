@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787251419815_2.jpg",
             "time": "03:00 21/08",
             "caster": "VÁNG",
-            "score": "5-3",
+            "score": "6-3",
             "is_live": true,
             "hot": true
           },
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-d86d3ed62d",
+          "name": "Junior Carrizosa vs Jeffrey De Luna | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d86d3ed62d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d86d3ed62d",
+                  "name": "Junior Carrizosa vs Jeffrey De Luna",
+                  "streams": [
+                    {
+                      "id": "st-d86d3ed62d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d86d3ed62d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6594/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Junior Carrizosa",
+            "team_b": "Jeffrey De Luna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787257060344_Screenshot 2026-08-21 003725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787257059973_phil.png",
+            "time": "04:30 21/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86d3ed62d_c2fdcb40_20260821.png?v=c2fdcb40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7eb6444d3e",
           "name": "Roland Garcia vs Petri Makkonen | BÚN CHÓ",
           "type": "single",
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787256868492_10.jpg",
             "time": "04:30 21/08",
             "caster": "BÚN CHÓ",
-            "score": "0-0",
+            "score": "1-1",
             "is_live": true,
             "hot": false
           },
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c96704b714_1437f34d_20260821.png?v=1437f34d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d86d3ed62d",
-          "name": "Junior Carrizosa vs Jeffrey De Luna | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d86d3ed62d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d86d3ed62d",
-                  "name": "Junior Carrizosa vs Jeffrey De Luna",
-                  "streams": [
-                    {
-                      "id": "st-d86d3ed62d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d86d3ed62d",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6594/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Junior Carrizosa",
-            "team_b": "Jeffrey De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787257060344_Screenshot 2026-08-21 003725.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787257059973_phil.png",
-            "time": "04:30 21/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86d3ed62d_c2fdcb40_20260821.png?v=c2fdcb40",
             "width": 1600,
             "height": 1200
           }
@@ -516,6 +516,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d2fb4cece0_706af229_20260821.png?v=706af229",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5abd0b21f5",
+          "name": "Marco Teutscher vs Ralf souquet | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5abd0b21f5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5abd0b21f5",
+                  "name": "Marco Teutscher vs Ralf souquet",
+                  "streams": [
+                    {
+                      "id": "st-5abd0b21f5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5abd0b21f5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6600/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Marco Teutscher",
+            "team_b": "Ralf souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787261269361_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787261269036_6.jpg",
+            "time": "06:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5abd0b21f5_1c054246_20260821.png?v=1c054246",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3c82fd0767",
+          "name": "Jonas Souto comino vs Fraser Patrick(6twin) | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c82fd0767",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3c82fd0767",
+                  "name": "Jonas Souto comino vs Fraser Patrick(6twin)",
+                  "streams": [
+                    {
+                      "id": "st-3c82fd0767",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c82fd0767",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6599/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Jonas Souto comino",
+            "team_b": "Fraser Patrick(6twin)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787261121726_3.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787261121499_ANH.png",
+            "time": "06:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c82fd0767_8208081d_20260821.png?v=8208081d",
             "width": 1600,
             "height": 1200
           }
