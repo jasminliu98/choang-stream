@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787251419815_2.jpg",
             "time": "03:00 21/08",
             "caster": "VÁNG",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787251658706_10.jpg",
             "time": "03:00 21/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-1",
+            "score": "2-2",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787251891334_Screenshot 2026-07-07 002427.png",
             "time": "03:00 21/08",
             "caster": "BÚN CHÓ",
-            "score": "0-3",
+            "score": "0-5",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787252469210_Screenshot 2026-08-21 020058.png",
             "time": "03:00 21/08",
             "caster": "Thập Cẩm",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": false
           },
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-370bb86da7_6894577a_20260821.png?v=6894577a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d86d3ed62d",
+          "name": "Junior Carrizosa vs Jeffrey De Luna | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d86d3ed62d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d86d3ed62d",
+                  "name": "Junior Carrizosa vs Jeffrey De Luna",
+                  "streams": [
+                    {
+                      "id": "st-d86d3ed62d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d86d3ed62d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6594/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Junior Carrizosa",
+            "team_b": "Jeffrey De Luna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787257060344_Screenshot 2026-08-21 003725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787257059973_phil.png",
+            "time": "04:30 21/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86d3ed62d_c2fdcb40_20260821.png?v=c2fdcb40",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-d86d3ed62d",
-          "name": "Junior Carrizosa vs Jeffrey De Luna | 04:30 21/08 | GIÀNG A PHỌ",
+          "id": "chtv-9f94394e4f",
+          "name": "Yi Hsuan Sun vs Steve Thomas | 04:30 21/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-d86d3ed62d",
+              "id": "src-9f94394e4f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d86d3ed62d",
-                  "name": "Junior Carrizosa vs Jeffrey De Luna",
+                  "id": "ct-9f94394e4f",
+                  "name": "Yi Hsuan Sun vs Steve Thomas",
                   "streams": [
                     {
-                      "id": "st-d86d3ed62d",
+                      "id": "st-9f94394e4f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d86d3ed62d",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-9f94394e4f",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6594/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6596/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,13 +500,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Junior Carrizosa",
-            "team_b": "Jeffrey De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787257060344_Screenshot 2026-08-21 003725.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787257059973_phil.png",
+            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Yi Hsuan Sun",
+            "team_b": "Steve Thomas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787258062328_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787258062023_Screenshot 2026-08-21 003725.png",
             "time": "04:30 21/08",
-            "caster": "GIÀNG A PHỌ",
+            "caster": "",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -443,7 +515,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86d3ed62d_c2fdcb40_20260821.png?v=c2fdcb40",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f94394e4f_db97fae8_20260821.png?v=db97fae8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d3bea85325",
+          "name": "George Antonakis vs Mitch Ellerman | 04:30 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3bea85325",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d3bea85325",
+                  "name": "George Antonakis vs Mitch Ellerman",
+                  "streams": [
+                    {
+                      "id": "st-d3bea85325",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3bea85325",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6595/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 2026 PHOENIX OPEN",
+            "team_a": "George Antonakis",
+            "team_b": "Mitch Ellerman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787257896604_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787257896280_Screenshot 2026-08-21 003725.png",
+            "time": "04:30 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d3bea85325_c11d2669_20260821.png?v=c11d2669",
             "width": 1600,
             "height": 1200
           }
