@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 20/08",
             "caster": "Xinh Yeu",
-            "score": "0-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
@@ -233,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-f860cf5e1b",
-          "name": "LAON vs WOORI WON WEEBIES | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f860cf5e1b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f860cf5e1b",
-                  "name": "LAON vs WOORI WON WEEBIES",
-                  "streams": [
-                    {
-                      "id": "st-f860cf5e1b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f860cf5e1b",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6565/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PBA TEAM LEAGUE",
-            "team_a": "LAON",
-            "team_b": "WOORI WON WEEBIES",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787226665971_korea.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787226679866_HÃ n Quá»c.png",
-            "time": "19:15 20/08",
-            "caster": "Thập Cẩm",
-            "score": "1-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f860cf5e1b_f829edd3_20260820.png?v=f829edd3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7bd555ad6c",
           "name": "HÀ THÀNH vs CU BỦNG RAU MÁ | GIÀNG A PHỌ",
           "type": "single",
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "20:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-5",
+            "score": "5-6",
             "is_live": true,
             "hot": true
           },
