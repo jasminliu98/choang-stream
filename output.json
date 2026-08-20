@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-370bb86da7",
-          "name": "Nadim Okbani vs Gerson Martinez | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-370bb86da7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-370bb86da7",
-                  "name": "Nadim Okbani vs Gerson Martinez",
-                  "streams": [
-                    {
-                      "id": "st-370bb86da7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-370bb86da7",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6591/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Nadim Okbani",
-            "team_b": "Gerson Martinez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787252461699_AlgÃ©rie.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787252469210_Screenshot 2026-08-21 020058.png",
-            "time": "03:00 21/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-370bb86da7_6894577a_20260821.png?v=6894577a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-bfc033e1c4",
           "name": "Boris Ivanovski vs Arseni Sevastyanov | GIÀNG A PHỌ",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787251658706_10.jpg",
             "time": "03:00 21/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787251891334_Screenshot 2026-07-07 002427.png",
             "time": "03:00 21/08",
             "caster": "BÚN CHÓ",
-            "score": "0-1",
+            "score": "0-3",
             "is_live": true,
             "hot": false
           },
@@ -300,6 +228,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-58b987f53a_60f3f542_20260821.png?v=60f3f542",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-370bb86da7",
+          "name": "Nadim Okbani vs Gerson Martinez | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-370bb86da7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-370bb86da7",
+                  "name": "Nadim Okbani vs Gerson Martinez",
+                  "streams": [
+                    {
+                      "id": "st-370bb86da7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-370bb86da7",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6591/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Nadim Okbani",
+            "team_b": "Gerson Martinez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787252461699_AlgÃ©rie.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787252469210_Screenshot 2026-08-21 020058.png",
+            "time": "03:00 21/08",
+            "caster": "Thập Cẩm",
+            "score": "1-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-370bb86da7_6894577a_20260821.png?v=6894577a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7eb6444d3e",
+          "name": "Roland Garcia vs Petri Makkonen | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7eb6444d3e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7eb6444d3e",
+                  "name": "Roland Garcia vs Petri Makkonen",
+                  "streams": [
+                    {
+                      "id": "st-7eb6444d3e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7eb6444d3e",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6593/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Roland Garcia",
+            "team_b": "Petri Makkonen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787256868813_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787256868492_10.jpg",
+            "time": "04:30 21/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7eb6444d3e_4cf8b75d_20260821.png?v=4cf8b75d",
             "width": 1600,
             "height": 1200
           }
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86d3ed62d_c2fdcb40_20260821.png?v=c2fdcb40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7eb6444d3e",
-          "name": "Roland Garcia vs Petri Makkonen | 04:30 21/08 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7eb6444d3e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7eb6444d3e",
-                  "name": "Roland Garcia vs Petri Makkonen",
-                  "streams": [
-                    {
-                      "id": "st-7eb6444d3e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7eb6444d3e",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6593/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Roland Garcia",
-            "team_b": "Petri Makkonen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787256868813_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787256868492_10.jpg",
-            "time": "04:30 21/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7eb6444d3e_4cf8b75d_20260821.png?v=4cf8b75d",
             "width": 1600,
             "height": 1200
           }
