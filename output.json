@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787222087664_LIN SHIH KAI.jpg",
             "time": "18:30 20/08",
             "caster": "Đại Kê",
-            "score": "5-7",
+            "score": "6-7",
             "is_live": true,
             "hot": true
           },
@@ -92,7 +92,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,7 +228,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787226679866_HÃ n Quá»c.png",
             "time": "19:15 20/08",
             "caster": "Thập Cẩm",
-            "score": "0-2",
+            "score": "0-3",
             "is_live": true,
             "hot": true
           },
@@ -237,6 +237,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f860cf5e1b_f829edd3_20260820.png?v=f829edd3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7bd555ad6c",
+          "name": "HÀ THÀNH vs CU BỦNG RAU MÁ | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bd555ad6c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7bd555ad6c",
+                  "name": "HÀ THÀNH vs CU BỦNG RAU MÁ",
+                  "streams": [
+                    {
+                      "id": "st-7bd555ad6c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bd555ad6c",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6567/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIÊU KÈO GIAO LƯU",
+            "team_a": "HÀ THÀNH",
+            "team_b": "CU BỦNG RAU MÁ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787230841013_HÃ THÃNH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
+            "time": "20:00 20/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7bd555ad6c_f24be7d8_20260820.png?v=f24be7d8",
             "width": 1600,
             "height": 1200
           }
