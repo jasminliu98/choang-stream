@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 20/08",
             "caster": "Xinh Yeu",
-            "score": "3-0",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "20:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-12",
+            "score": "9-13",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,224 @@
           }
         },
         {
+          "id": "chtv-fd266df570",
+          "name": "Mustafa Alnar vs Omar Alshaheen | 00:00 21/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd266df570",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd266df570",
+                  "name": "Mustafa Alnar vs Omar Alshaheen",
+                  "streams": [
+                    {
+                      "id": "st-fd266df570",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd266df570",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6571/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Mustafa Alnar",
+            "team_b": "Omar Alshaheen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787236328478_Mustafa Alnar.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787236347889_Omar Alshaheen.jpg",
+            "time": "00:00 21/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd266df570_0a069dd3_20260820.png?v=0a069dd3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8b16c41ed7",
+          "name": "Jacob Parrent vs Tommy Kennedy | 00:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b16c41ed7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b16c41ed7",
+                  "name": "Jacob Parrent vs Tommy Kennedy",
+                  "streams": [
+                    {
+                      "id": "st-8b16c41ed7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b16c41ed7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6573/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table2 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Jacob Parrent",
+            "team_b": "Tommy Kennedy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787236633867_Jacob Parrent.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787236645021_Tommy Kennedy.jpg",
+            "time": "00:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b16c41ed7_6022c6d7_20260820.png?v=6022c6d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-db133d723e",
+          "name": "Marc Bijsterbosch vs Casper Matikainen | 00:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db133d723e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-db133d723e",
+                  "name": "Marc Bijsterbosch vs Casper Matikainen",
+                  "streams": [
+                    {
+                      "id": "st-db133d723e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db133d723e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6572/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table3  2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Marc Bijsterbosch",
+            "team_b": "Casper Matikainen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787236516104_Marc Bijsterbosch.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787236536503_Casper Matikainen.jpg",
+            "time": "00:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db133d723e_f903cf23_20260820.png?v=f903cf23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-fcb3145f2c",
-          "name": "Eric Roberts vs Johnny Archer | 00:00 21/08 | VÁNG",
+          "name": "Eric Roberts vs Johnny Archer | 01:30 21/08 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -217,7 +433,7 @@
             "team_b": "Johnny Archer",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787236141402_Eric Roberts.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787236152246_Johnny Archer.jpg",
-            "time": "00:00 21/08",
+            "time": "01:30 21/08",
             "caster": "VÁNG",
             "score": "0-0",
             "is_live": false,
