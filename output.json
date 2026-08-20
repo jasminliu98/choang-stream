@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787236152246_Johnny Archer.jpg",
             "time": "01:30 21/08",
             "caster": "VÁNG",
-            "score": "0-2",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787239655146_Stefan Huber.jpg",
             "time": "01:30 21/08",
             "caster": "BÚN CHÓ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": false
           },
@@ -428,7 +428,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN",
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
             "team_a": "Chris Adam",
             "team_b": "Kai Lun Hsu",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787251891620_Screenshot 2026-08-21 003725.png",
@@ -572,7 +572,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN",
+            "league": "Table 2 2026 PHOENIX OPEN (nhánh thua )",
             "team_a": "Boris Ivanovski",
             "team_b": "Arseni Sevastyanov",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787251659076_6.jpg",
