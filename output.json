@@ -10,87 +10,6 @@
   },
   "groups": [
     {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "chtv-8b56cefa05",
-          "name": "The Inner Circle 27 | Kickboxing | 18:30 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b56cefa05",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8b56cefa05",
-                  "name": "The Inner Circle 27 | Kickboxing",
-                  "streams": [
-                    {
-                      "id": "st-8b56cefa05",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b56cefa05",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6543/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "The Inner Circle 27 | Kickboxing",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787207832596_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 133449.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787207857747_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 133517.png",
-            "time": "18:30 20/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b56cefa05_41f79a35_20260820.png?v=41f79a35",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_billiards",
       "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
@@ -156,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:00 20/08",
             "caster": "BÚN CHÓ",
-            "score": "6-4",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
