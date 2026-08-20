@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-ecc85832ea",
-          "name": "Jeffrey Roda vs Robbie Capito | 06:00 21/08",
+          "id": "chtv-336793e76b",
+          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-ecc85832ea",
+              "id": "src-336793e76b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ecc85832ea",
-                  "name": "Jeffrey Roda vs Robbie Capito",
+                  "id": "ct-336793e76b",
+                  "name": "Hoàng sao vs Francesco Candela",
                   "streams": [
                     {
-                      "id": "st-ecc85832ea",
+                      "id": "st-336793e76b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ecc85832ea",
+                          "id": "lnk-336793e76b",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6602/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6581/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,11 +356,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Table ? 2026 PHOENIX OPEN",
-            "team_a": "Jeffrey Roda",
-            "team_b": "Robbie Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787264186570_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787264186125_9.jpg",
+            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng )",
+            "team_a": "Hoàng sao",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787241545378_Francesco Candela.jpg",
             "time": "06:00 21/08",
             "caster": "",
             "score": "0-0",
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ecc85832ea_31e8fe4f_20260821.png?v=31e8fe4f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-336793e76b_b7ae4e26_20260821.png?v=b7ae4e26",
             "width": 1600,
             "height": 1200
           }
@@ -449,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-336793e76b",
-          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
+          "id": "chtv-ecc85832ea",
+          "name": "Jeffrey Roda vs Robbie Capito | 06:00 21/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-336793e76b",
+              "id": "src-ecc85832ea",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-336793e76b",
-                  "name": "Hoàng sao vs Francesco Candela",
+                  "id": "ct-ecc85832ea",
+                  "name": "Jeffrey Roda vs Robbie Capito",
                   "streams": [
                     {
-                      "id": "st-336793e76b",
+                      "id": "st-ecc85832ea",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-336793e76b",
+                          "id": "lnk-ecc85832ea",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6581/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6602/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,11 +500,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng )",
-            "team_a": "Hoàng sao",
-            "team_b": "Francesco Candela",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787241545378_Francesco Candela.jpg",
+            "league": "Table ? 2026 PHOENIX OPEN",
+            "team_a": "Jeffrey Roda",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787264186570_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787264186125_9.jpg",
             "time": "06:00 21/08",
             "caster": "",
             "score": "0-0",
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-336793e76b_b7ae4e26_20260821.png?v=b7ae4e26",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ecc85832ea_31e8fe4f_20260821.png?v=31e8fe4f",
             "width": 1600,
             "height": 1200
           }
