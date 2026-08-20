@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "chtv-ed564da5a3",
+          "name": "Phương nam vs THỢ PHI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed564da5a3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ed564da5a3",
+                  "name": "Phương nam vs THỢ PHI",
+                  "streams": [
+                    {
+                      "id": "st-ed564da5a3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed564da5a3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6575/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KÈO THÓC LÚA",
+            "team_a": "Phương nam",
+            "team_b": "THỢ PHI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY TRÃU.jpg",
+            "time": "00:00 20/08",
+            "caster": "",
+            "score": "3-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ed564da5a3_5467bfdd_20260820.png?v=5467bfdd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7bd555ad6c",
           "name": "HÀ THÀNH vs CU BỦNG RAU MÁ | GIÀNG A PHỌ",
           "type": "single",
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "20:00 20/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "12-14",
+            "score": "12-15",
             "is_live": true,
             "hot": true
           },
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-8b16c41ed7",
-          "name": "Jacob Parrent vs Tommy Kennedy | 00:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b16c41ed7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8b16c41ed7",
-                  "name": "Jacob Parrent vs Tommy Kennedy",
-                  "streams": [
-                    {
-                      "id": "st-8b16c41ed7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b16c41ed7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6573/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table2 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Jacob Parrent",
-            "team_b": "Tommy Kennedy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787236633867_Jacob Parrent.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787236645021_Tommy Kennedy.jpg",
-            "time": "00:00 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b16c41ed7_6022c6d7_20260820.png?v=6022c6d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-db133d723e",
           "name": "Marc Bijsterbosch vs Casper Matikainen | 00:00 21/08",
           "type": "single",
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db133d723e_f903cf23_20260820.png?v=f903cf23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8b16c41ed7",
+          "name": "Jacob Parrent vs Tommy Kennedy | 00:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b16c41ed7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b16c41ed7",
+                  "name": "Jacob Parrent vs Tommy Kennedy",
+                  "streams": [
+                    {
+                      "id": "st-8b16c41ed7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b16c41ed7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6573/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table2 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Jacob Parrent",
+            "team_b": "Tommy Kennedy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787236633867_Jacob Parrent.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787236645021_Tommy Kennedy.jpg",
+            "time": "00:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b16c41ed7_6022c6d7_20260820.png?v=6022c6d7",
             "width": 1600,
             "height": 1200
           }
