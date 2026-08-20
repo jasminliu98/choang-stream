@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787239483542_Pierfrancesco Garzia.jpg",
             "time": "01:30 21/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-6",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fcb3145f2c_afca01e6_20260821.png?v=afca01e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e173b03a43",
-          "name": "Will Hagen vs Stefan Huber | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e173b03a43",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e173b03a43",
-                  "name": "Will Hagen vs Stefan Huber",
-                  "streams": [
-                    {
-                      "id": "st-e173b03a43",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e173b03a43",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6579/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table1  2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Will Hagen",
-            "team_b": "Stefan Huber",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787239660075_Will Hagen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787239655146_Stefan Huber.jpg",
-            "time": "01:30 21/08",
-            "caster": "BÚN CHÓ",
-            "score": "5-7",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e173b03a43_492bf02a_20260821.png?v=492bf02a",
             "width": 1600,
             "height": 1200
           }
@@ -449,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-58b987f53a",
-          "name": "Chris Adam vs Kai Lun Hsu | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58b987f53a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-58b987f53a",
-                  "name": "Chris Adam vs Kai Lun Hsu",
-                  "streams": [
-                    {
-                      "id": "st-58b987f53a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58b987f53a",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6590/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Chris Adam",
-            "team_b": "Kai Lun Hsu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787251891620_Screenshot 2026-08-21 003725.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787251891334_Screenshot 2026-07-07 002427.png",
-            "time": "03:00 21/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-58b987f53a_60f3f542_20260821.png?v=60f3f542",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-bfc033e1c4",
           "name": "Boris Ivanovski vs Arseni Sevastyanov | GIÀNG A PHỌ",
           "type": "single",
@@ -593,38 +449,38 @@
           }
         },
         {
-          "id": "chtv-d2fb4cece0",
-          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
+          "id": "chtv-58b987f53a",
+          "name": "Chris Adam vs Kai Lun Hsu | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-d2fb4cece0",
+              "id": "src-58b987f53a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d2fb4cece0",
-                  "name": "Hoàng sao vs Francesco Candela",
+                  "id": "ct-58b987f53a",
+                  "name": "Chris Adam vs Kai Lun Hsu",
                   "streams": [
                     {
-                      "id": "st-d2fb4cece0",
+                      "id": "st-58b987f53a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d2fb4cece0",
-                          "name": "Stream",
+                          "id": "lnk-58b987f53a",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6580/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6590/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,22 +500,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng  )",
-            "team_a": "Hoàng sao",
-            "team_b": "Francesco Candela",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787241453922_Francesco Candela.jpg",
-            "time": "06:00 21/08",
-            "caster": "",
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Chris Adam",
+            "team_b": "Kai Lun Hsu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787251891620_Screenshot 2026-08-21 003725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787251891334_Screenshot 2026-07-07 002427.png",
+            "time": "03:00 21/08",
+            "caster": "BÚN CHÓ",
             "score": "0-0",
-            "is_live": false,
-            "hot": true
+            "is_live": true,
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d2fb4cece0_706af229_20260821.png?v=706af229",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-58b987f53a_60f3f542_20260821.png?v=60f3f542",
             "width": 1600,
             "height": 1200
           }
@@ -732,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-336793e76b_b7ae4e26_20260821.png?v=b7ae4e26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d2fb4cece0",
+          "name": "Hoàng sao vs Francesco Candela | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2fb4cece0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d2fb4cece0",
+                  "name": "Hoàng sao vs Francesco Candela",
+                  "streams": [
+                    {
+                      "id": "st-d2fb4cece0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d2fb4cece0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6580/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table8 2026 PHOENIX OPEN ( nhánh thắng  )",
+            "team_a": "Hoàng sao",
+            "team_b": "Francesco Candela",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787241453922_Francesco Candela.jpg",
+            "time": "06:00 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d2fb4cece0_706af229_20260821.png?v=706af229",
             "width": 1600,
             "height": 1200
           }
