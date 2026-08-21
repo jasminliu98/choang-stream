@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787268993392_6.jpg",
             "time": "07:30 21/08",
             "caster": "VÁNG",
-            "score": "1-3",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -84,150 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1ed7643d1a_3113fe82_20260821.png?v=3113fe82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d8e0b8a6d8",
-          "name": "Jacob Parrent vs Jani Siekkinen | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8e0b8a6d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d8e0b8a6d8",
-                  "name": "Jacob Parrent vs Jani Siekkinen",
-                  "streams": [
-                    {
-                      "id": "st-d8e0b8a6d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d8e0b8a6d8",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6607/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Jacob Parrent",
-            "team_b": "Jani Siekkinen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787267383696_Screenshot 2026-08-21 003725.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787267383399_10.jpg",
-            "time": "07:30 21/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "2-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d8e0b8a6d8_27e8177e_20260821.png?v=27e8177e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-25ddde84a4",
-          "name": "Antonis Kakaris vs Pierfrancesco Garzia | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-25ddde84a4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-25ddde84a4",
-                  "name": "Antonis Kakaris vs Pierfrancesco Garzia",
-                  "streams": [
-                    {
-                      "id": "st-25ddde84a4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25ddde84a4",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6608/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Antonis Kakaris",
-            "team_b": "Pierfrancesco Garzia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787268263673_16.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787268263410_12.jpg",
-            "time": "07:30 21/08",
-            "caster": "Lee Min Hoo",
-            "score": "6-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25ddde84a4_0a05cfa3_20260821.png?v=0a05cfa3",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fb9d61c59a_ca9f54fd_20260821.png?v=ca9f54fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-25ddde84a4",
+          "name": "Antonis Kakaris vs Pierfrancesco Garzia | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25ddde84a4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-25ddde84a4",
+                  "name": "Antonis Kakaris vs Pierfrancesco Garzia",
+                  "streams": [
+                    {
+                      "id": "st-25ddde84a4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25ddde84a4",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6608/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Antonis Kakaris",
+            "team_b": "Pierfrancesco Garzia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787268263673_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787268263410_12.jpg",
+            "time": "07:30 21/08",
+            "caster": "Lee Min Hoo",
+            "score": "7-5",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25ddde84a4_0a05cfa3_20260821.png?v=0a05cfa3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d8e0b8a6d8",
+          "name": "Jacob Parrent vs Jani Siekkinen | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8e0b8a6d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8e0b8a6d8",
+                  "name": "Jacob Parrent vs Jani Siekkinen",
+                  "streams": [
+                    {
+                      "id": "st-d8e0b8a6d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8e0b8a6d8",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6607/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Jacob Parrent",
+            "team_b": "Jani Siekkinen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787267383696_Screenshot 2026-08-21 003725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787267383399_10.jpg",
+            "time": "07:30 21/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "3-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d8e0b8a6d8_27e8177e_20260821.png?v=27e8177e",
             "width": 1600,
             "height": 1200
           }
@@ -507,7 +507,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787275062547_6.jpg",
             "time": "09:00 21/08",
             "caster": "Tào A Man",
-            "score": "0-1",
+            "score": "0-2",
             "is_live": true,
             "hot": false
           },
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ec69a30ad_8cc983d9_20260821.png?v=8cc983d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-12760a6c3d",
+          "name": "Fedor Gorst vs Yu-Lung Chang | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12760a6c3d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-12760a6c3d",
+                  "name": "Fedor Gorst vs Yu-Lung Chang",
+                  "streams": [
+                    {
+                      "id": "st-12760a6c3d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-12760a6c3d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6615/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 2026 PHOENIX OPEN",
+            "team_a": "Fedor Gorst",
+            "team_b": "Yu-Lung Chang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787277111375_Screenshot 2026-08-21 003725.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787277111193_Screenshot 2026-07-07 002427.png",
+            "time": "09:00 21/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12760a6c3d_a8c7e293_20260821.png?v=a8c7e293",
             "width": 1600,
             "height": 1200
           }
