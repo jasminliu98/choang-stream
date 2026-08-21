@@ -596,7 +596,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -674,89 +674,17 @@
           }
         },
         {
-          "id": "chtv-f5c0c4e5cc",
-          "name": "Hoàng Phú Thọ vs Tiến Minh Rau Má",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5c0c4e5cc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f5c0c4e5cc",
-                  "name": "Hoàng Phú Thọ vs Tiến Minh Rau Má",
-                  "streams": [
-                    {
-                      "id": "st-f5c0c4e5cc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5c0c4e5cc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6645/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT 99BILLARD ( kèo chấp)",
-            "team_a": "Hoàng Phú Thọ",
-            "team_b": "Tiến Minh Rau Má",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787309387842_HOÃNG PHÃ THá».png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787309408552_Tiáº¿n Minh TH.jpg",
-            "time": "18:00 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f5c0c4e5cc_952c3417_20260821.png?v=952c3417",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c87f8fb83b",
-          "name": "Hoàng Phú Thọ vs Tiến Minh Rau Má",
+          "name": "Hoàng Phú Thọ vs Tiến Minh Rau Má | 23:00 21/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -805,7 +733,7 @@
             "time": "23:00 21/08",
             "caster": "",
             "score": "0-0",
-            "is_live": true,
+            "is_live": false,
             "hot": false
           },
           "image": {
