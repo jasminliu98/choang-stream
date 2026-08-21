@@ -447,6 +447,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-0a3d613b48",
+          "name": "ONE Friday Fights| Bantamweight MMA | 21:30 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a3d613b48",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0a3d613b48",
+                  "name": "ONE Friday Fights| Bantamweight MMA",
+                  "streams": [
+                    {
+                      "id": "st-0a3d613b48",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a3d613b48",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6552/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights| Bantamweight MMA",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787211497289_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143559.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787211499823_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143559.png",
+            "time": "21:30 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a3d613b48_3c308eb9_20260821.png?v=3c308eb9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -516,7 +588,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
             "time": "00:00 21/08",
             "caster": "Kèn Kèn",
-            "score": "6-3",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -588,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787292740729_HOÃNG PHÃ THá».png",
             "time": "13:30 21/08",
             "caster": "Đại Kê",
-            "score": "7-9",
+            "score": "8-9",
             "is_live": true,
             "hot": true
           },
