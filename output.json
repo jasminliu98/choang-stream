@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787280648709_phil.png",
             "time": "10:30 21/08",
             "caster": "Đại Kê",
-            "score": "1-7",
+            "score": "1-8",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787280481836_Screenshot 2026-08-21 094748.png",
             "time": "10:30 21/08",
             "caster": "Tào A Man",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-84f74f493e_6c465046_20260821.png?v=6c465046",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dd2f06045c",
-          "name": "Duy Đinh vs Bình Chuẩn | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dd2f06045c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dd2f06045c",
-                  "name": "Duy Đinh vs Bình Chuẩn",
-                  "streams": [
-                    {
-                      "id": "st-dd2f06045c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd2f06045c",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6624/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 99 Billiards",
-            "team_a": "Duy Đinh",
-            "team_b": "Bình Chuẩn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787283705263_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787283705096_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "11:00 21/08",
-            "caster": "Lee Min Hoo",
-            "score": "8-9",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd2f06045c_0afed322_20260821.png?v=0afed322",
             "width": 1600,
             "height": 1200
           }
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787285165069_Screenshot 2026-07-07 002427.png",
             "time": "11:00 21/08",
             "caster": "Xinh Yeu",
-            "score": "7-5",
+            "score": "8-5",
             "is_live": true,
             "hot": false
           },
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-089efe1509_a3529861_20260821.png?v=a3529861",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dd2f06045c",
+          "name": "Duy Đinh vs Bình Chuẩn | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd2f06045c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dd2f06045c",
+                  "name": "Duy Đinh vs Bình Chuẩn",
+                  "streams": [
+                    {
+                      "id": "st-dd2f06045c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd2f06045c",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6624/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 99 Billiards",
+            "team_a": "Duy Đinh",
+            "team_b": "Bình Chuẩn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787283705263_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787283705096_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "11:00 21/08",
+            "caster": "Lee Min Hoo",
+            "score": "8-10",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dd2f06045c_0afed322_20260821.png?v=0afed322",
             "width": 1600,
             "height": 1200
           }
