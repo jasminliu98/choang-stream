@@ -228,7 +228,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "00:00 21/08",
             "caster": "Xinh Yeu",
-            "score": "12-7",
+            "score": "12-8",
             "is_live": true,
             "hot": true
           },
@@ -386,78 +386,6 @@
           }
         },
         {
-          "id": "chtv-a5e058e733",
-          "name": "Nicholas De Leon vs George Antonakis | 00:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5e058e733",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a5e058e733",
-                  "name": "Nicholas De Leon vs George Antonakis",
-                  "streams": [
-                    {
-                      "id": "st-a5e058e733",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5e058e733",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6658/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Nicholas De Leon",
-            "team_b": "George Antonakis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "00:00 22/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5e058e733_e810dd8d_20260821.png?v=e810dd8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-898e0d30e4",
           "name": "Wiktor Zielinski vs Jani Siekkinen | 00:00 22/08",
           "type": "single",
@@ -597,6 +525,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3176ffa843_3d055c55_20260821.png?v=3d055c55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a5e058e733",
+          "name": "Nicholas De Leon vs George Antonakis | 00:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5e058e733",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a5e058e733",
+                  "name": "Nicholas De Leon vs George Antonakis",
+                  "streams": [
+                    {
+                      "id": "st-a5e058e733",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5e058e733",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6658/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Nicholas De Leon",
+            "team_b": "George Antonakis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "00:00 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a5e058e733_e810dd8d_20260821.png?v=e810dd8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b434bc72c3",
+          "name": "Aj Manas vs Aleksa Pecelj | 01:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b434bc72c3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b434bc72c3",
+                  "name": "Aj Manas vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-b434bc72c3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b434bc72c3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6659/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Aj Manas",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787328834933_AJ MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787328837927_Aleksa Pecelj.jpg",
+            "time": "01:30 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b434bc72c3_4a1a3e34_20260821.png?v=4a1a3e34",
             "width": 1600,
             "height": 1200
           }
