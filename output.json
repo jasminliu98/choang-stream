@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (2 LIVE)",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c42bff2e2a",
-          "name": "Yokkiri TN Muaythai vs Ali Al-Kinani",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c42bff2e2a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c42bff2e2a",
-                  "name": "Yokkiri TN Muaythai vs Ali Al-Kinani",
-                  "streams": [
-                    {
-                      "id": "st-c42bff2e2a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42bff2e2a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6555/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "trận 7 ONE Friday Fights| Muay Thai",
-            "team_a": "Yokkiri TN Muaythai",
-            "team_b": "Ali Al-Kinani",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787211727728_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143848.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787211755980_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 144016.png",
-            "time": "22:15 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c42bff2e2a_473b4299_20260821.png?v=473b4299",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-55c56bdb1d",
           "name": "Dedduanglek Torfunfarm vs Kongsuk Sitsarawatsuer",
@@ -228,7 +156,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 21/08",
             "caster": "Tào A Man",
-            "score": "3-3",
+            "score": "4-3",
             "is_live": true,
             "hot": true
           },
@@ -381,6 +309,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5c756b1cc_d4cd1010_20260821.png?v=d4cd1010",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b1c19c6b2f",
+          "name": "Carlo Biado vs Max Lechner | 00:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1c19c6b2f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1c19c6b2f",
+                  "name": "Carlo Biado vs Max Lechner",
+                  "streams": [
+                    {
+                      "id": "st-b1c19c6b2f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1c19c6b2f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6656/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Recorded Table  2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Carlo Biado",
+            "team_b": "Max Lechner",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787327308465_CARLO BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787327311509_Max Lechner.jpg",
+            "time": "00:00 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1c19c6b2f_e01aa8dc_20260821.png?v=e01aa8dc",
             "width": 1600,
             "height": 1200
           }
