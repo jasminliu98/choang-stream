@@ -164,14 +164,14 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-538d91e9ac",
-          "name": "Ngọc  Xăm vs Thủy Môi | SÊ KÔÔ",
+          "id": "chtv-5194dd42b6",
+          "name": "TKON vs Tiến Minh Rau Má | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -185,95 +185,23 @@
           ],
           "sources": [
             {
-              "id": "src-538d91e9ac",
+              "id": "src-5194dd42b6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-538d91e9ac",
-                  "name": "Ngọc  Xăm vs Thủy Môi",
-                  "streams": [
-                    {
-                      "id": "st-538d91e9ac",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-538d91e9ac",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6635/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "mô ha mét ngọc xa xăm",
-            "team_a": "Ngọc  Xăm",
-            "team_b": "Thủy Môi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777938891772_Screenshot 2026-05-05 065436.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "time": "00:00 21/08",
-            "caster": "SÊ KÔÔ",
-            "score": "4-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-538d91e9ac_94bdb87a_20260821.png?v=94bdb87a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-85c705cc31",
-          "name": "TKON vs Tiến Minh Rau Má",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85c705cc31",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-85c705cc31",
+                  "id": "ct-5194dd42b6",
                   "name": "TKON vs Tiến Minh Rau Má",
                   "streams": [
                     {
-                      "id": "st-85c705cc31",
+                      "id": "st-5194dd42b6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-85c705cc31",
-                          "name": "Stream",
+                          "id": "lnk-5194dd42b6",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6634/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6629/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -297,10 +225,10 @@
             "team_a": "TKON",
             "team_b": "Tiến Minh Rau Má",
             "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787294751713_Tiáº¿n Minh TH.jpg",
-            "time": "00:00 21/08",
-            "caster": "",
-            "score": "0-0",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787289212654_Tiáº¿n Minh TH.jpg",
+            "time": "13:30 21/08",
+            "caster": "Kèn Kèn",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -308,7 +236,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-85c705cc31_5832c985_20260821.png?v=5832c985",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5194dd42b6_b93cbea8_20260821.png?v=b93cbea8",
             "width": 1600,
             "height": 1200
           }
@@ -386,78 +314,6 @@
           }
         },
         {
-          "id": "chtv-5194dd42b6",
-          "name": "TKON vs Tiến Minh Rau Má | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5194dd42b6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5194dd42b6",
-                  "name": "TKON vs Tiến Minh Rau Má",
-                  "streams": [
-                    {
-                      "id": "st-5194dd42b6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5194dd42b6",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6629/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIÊU KINH ĐIỂN",
-            "team_a": "TKON",
-            "team_b": "Tiến Minh Rau Má",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787289212654_Tiáº¿n Minh TH.jpg",
-            "time": "13:30 21/08",
-            "caster": "Kèn Kèn",
-            "score": "2-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5194dd42b6_b93cbea8_20260821.png?v=b93cbea8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b9c9eab25e",
           "name": "BÌNH CHUẨN vs DŨNG MOI | Xinh Yeu",
           "type": "single",
@@ -516,7 +372,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787290517485_DÅ¨NG MOI.jpg",
             "time": "13:32 21/08",
             "caster": "Xinh Yeu",
-            "score": "3-3",
+            "score": "4-3",
             "is_live": true,
             "hot": true
           },
@@ -525,6 +381,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9c9eab25e_6c9d13f2_20260821.png?v=6c9d13f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-538d91e9ac",
+          "name": "Ngọc  Xăm vs Thủy Môi | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-538d91e9ac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-538d91e9ac",
+                  "name": "Ngọc  Xăm vs Thủy Môi",
+                  "streams": [
+                    {
+                      "id": "st-538d91e9ac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-538d91e9ac",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6635/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "mô ha mét ngọc xa xăm",
+            "team_a": "Ngọc  Xăm",
+            "team_b": "Thủy Môi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777938891772_Screenshot 2026-05-05 065436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
+            "time": "14:00 21/08",
+            "caster": "SÊ KÔÔ",
+            "score": "5-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-538d91e9ac_94bdb87a_20260821.png?v=94bdb87a",
             "width": 1600,
             "height": 1200
           }
