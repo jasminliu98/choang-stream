@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (4 LIVE)",
+      "name": "🥊 Võ Thuật (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-88cc8663b4_21672458_20260821.png?v=21672458",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-31886061bd",
-          "name": "Kyaw Swar Win vs Komawut FA Group",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31886061bd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-31886061bd",
-                  "name": "Kyaw Swar Win vs Komawut FA Group",
-                  "streams": [
-                    {
-                      "id": "st-31886061bd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31886061bd",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6546/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 4 The Inner Circle 27 | Muay Thai",
-            "team_a": "Kyaw Swar Win",
-            "team_b": "Komawut FA Group",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787210896235_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 142557.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787210928194_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 142630.png",
-            "time": "19:15 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-31886061bd_8564cc87_20260821.png?v=8564cc87",
             "width": 1600,
             "height": 1200
           }
@@ -732,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "00:00 21/08",
             "caster": "SÊ KÔÔ",
-            "score": "6-6",
+            "score": "7-6",
             "is_live": true,
             "hot": true
           },
