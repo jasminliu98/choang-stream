@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-8b56cefa05",
-          "name": "The Inner Circle 27 | Kickboxing | 18:30 21/08",
+          "name": "The Inner Circle 27 | Kickboxing | 18:30 21/08 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-8b56cefa05",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6543/index.m3u8",
@@ -74,7 +74,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787207832596_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 133449.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787207857747_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 133517.png",
             "time": "18:30 21/08",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -660,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787299657448_Tiáº¿n Minh TH.jpg",
             "time": "15:30 21/08",
             "caster": "SÊ KÔÔ",
-            "score": "11-12",
+            "score": "12-12",
             "is_live": true,
             "hot": false
           },
@@ -732,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787301673922_HOÃNG PHÃ THá».png",
             "time": "16:00 21/08",
             "caster": "Đại Kê",
-            "score": "7-11",
+            "score": "8-11",
             "is_live": true,
             "hot": false
           },
@@ -804,7 +804,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787303299085_JOHN ALBERT REFULLE.jpg",
             "time": "16:00 21/08",
             "caster": "Kèn Kèn",
-            "score": "7-5",
+            "score": "8-5",
             "is_live": true,
             "hot": false
           },
