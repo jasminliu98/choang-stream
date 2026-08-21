@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787277111193_Screenshot 2026-07-07 002427.png",
             "time": "09:00 21/08",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "0-3",
             "is_live": true,
             "hot": true
           },
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12760a6c3d_a8c7e293_20260821.png?v=a8c7e293",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8ec69a30ad",
+          "name": "Georgi Georgiev vs Moritz Neuhausen | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ec69a30ad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8ec69a30ad",
+                  "name": "Georgi Georgiev vs Moritz Neuhausen",
+                  "streams": [
+                    {
+                      "id": "st-8ec69a30ad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ec69a30ad",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6614/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Georgi Georgiev",
+            "team_b": "Moritz Neuhausen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787275062852_20.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787275062547_6.jpg",
+            "time": "09:00 21/08",
+            "caster": "Tào A Man",
+            "score": "5-7",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ec69a30ad_8cc983d9_20260821.png?v=8cc983d9",
             "width": 1600,
             "height": 1200
           }
@@ -161,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-7803ddd3cb",
-          "name": "Yi Hsuan Sun vs LO HO sum | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7803ddd3cb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7803ddd3cb",
-                  "name": "Yi Hsuan Sun vs LO HO sum",
-                  "streams": [
-                    {
-                      "id": "st-7803ddd3cb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7803ddd3cb",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6612/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Yi Hsuan Sun",
-            "team_b": "LO HO sum",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787273838032_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787273837790_9.jpg",
-            "time": "09:00 21/08",
-            "caster": "BÚN CHÓ",
-            "score": "2-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7803ddd3cb_c98bf22d_20260821.png?v=c98bf22d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-10ad470e85",
           "name": "Harry Vergara vs Konrad Juszczyszyn | GIÀNG A PHỌ",
           "type": "single",
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-8ec69a30ad",
-          "name": "Georgi Georgiev vs Moritz Neuhausen | Tào A Man",
+          "id": "chtv-7803ddd3cb",
+          "name": "Yi Hsuan Sun vs LO HO sum | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-8ec69a30ad",
+              "id": "src-7803ddd3cb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8ec69a30ad",
-                  "name": "Georgi Georgiev vs Moritz Neuhausen",
+                  "id": "ct-7803ddd3cb",
+                  "name": "Yi Hsuan Sun vs LO HO sum",
                   "streams": [
                     {
-                      "id": "st-8ec69a30ad",
+                      "id": "st-7803ddd3cb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8ec69a30ad",
-                          "name": "Tào A Man",
+                          "id": "lnk-7803ddd3cb",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6614/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6612/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,14 +356,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Table 6 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Georgi Georgiev",
-            "team_b": "Moritz Neuhausen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787275062852_20.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787275062547_6.jpg",
+            "league": "Table 8 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Yi Hsuan Sun",
+            "team_b": "LO HO sum",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787273838032_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787273837790_9.jpg",
             "time": "09:00 21/08",
-            "caster": "Tào A Man",
-            "score": "5-6",
+            "caster": "BÚN CHÓ",
+            "score": "2-4",
             "is_live": true,
             "hot": false
           },
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ec69a30ad_8cc983d9_20260821.png?v=8cc983d9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7803ddd3cb_c98bf22d_20260821.png?v=c98bf22d",
             "width": 1600,
             "height": 1200
           }
@@ -449,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-e9a392fadb",
-          "name": "Kai Lun Hsu vs Jonas Souto Comino | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9a392fadb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e9a392fadb",
-                  "name": "Kai Lun Hsu vs Jonas Souto Comino",
-                  "streams": [
-                    {
-                      "id": "st-e9a392fadb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9a392fadb",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6619/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Kai Lun Hsu",
-            "team_b": "Jonas Souto Comino",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787280088674_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787280088416_3.jpg",
-            "time": "10:30 21/08",
-            "caster": "Lee Min Hoo",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9a392fadb_e91e7c39_20260821.png?v=e91e7c39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-09e777c713",
           "name": "Bernie Regalario vs Marvin Asis | Đại Kê",
           "type": "single",
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-09e777c713_603e9322_20260821.png?v=603e9322",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e9a392fadb",
+          "name": "Kai Lun Hsu vs Jonas Souto Comino | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9a392fadb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e9a392fadb",
+                  "name": "Kai Lun Hsu vs Jonas Souto Comino",
+                  "streams": [
+                    {
+                      "id": "st-e9a392fadb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9a392fadb",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6619/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Kai Lun Hsu",
+            "team_b": "Jonas Souto Comino",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787280088674_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787280088416_3.jpg",
+            "time": "10:30 21/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9a392fadb_e91e7c39_20260821.png?v=e91e7c39",
             "width": 1600,
             "height": 1200
           }
