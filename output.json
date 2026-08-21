@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-f8427a8739",
-          "name": "Phương Nam vs Thợ Phi | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8427a8739",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f8427a8739",
-                  "name": "Phương Nam vs Thợ Phi",
-                  "streams": [
-                    {
-                      "id": "st-f8427a8739",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8427a8739",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6665/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PHƯƠNG NAM BÓN HÀNH PHI",
-            "team_a": "Phương Nam",
-            "team_b": "Thợ Phi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "00:00 21/08",
-            "caster": "Tào A Man",
-            "score": "4-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8427a8739_223d697e_20260822.png?v=223d697e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-63f688df0a",
           "name": "Sanjin Pehlivanovic vs Tyler Styer | Tào A Man",
@@ -161,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-d5c756b1cc",
-          "name": "Francisco Sanchez Ruiz vs Yi Hsuan Sun | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5c756b1cc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d5c756b1cc",
-                  "name": "Francisco Sanchez Ruiz vs Yi Hsuan Sun",
-                  "streams": [
-                    {
-                      "id": "st-d5c756b1cc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c756b1cc",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6654/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table TV   2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Francisco Sanchez Ruiz",
-            "team_b": "Yi Hsuan Sun",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787326665039_Yi Hsuan Sun.jpg",
-            "time": "00:00 22/08",
-            "caster": "VÁNG",
-            "score": "1-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5c756b1cc_d4cd1010_20260822.png?v=d4cd1010",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a2d5bc05e1",
           "name": "HARRY VERGARA vs CLEMENS EBERT | GIÀNG A PHỌ",
           "type": "single",
@@ -300,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2d5bc05e1_6c7c0fd5_20260822.png?v=6c7c0fd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d5c756b1cc",
+          "name": "Francisco Sanchez Ruiz vs Yi Hsuan Sun | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5c756b1cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d5c756b1cc",
+                  "name": "Francisco Sanchez Ruiz vs Yi Hsuan Sun",
+                  "streams": [
+                    {
+                      "id": "st-d5c756b1cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c756b1cc",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6654/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table TV   2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Francisco Sanchez Ruiz",
+            "team_b": "Yi Hsuan Sun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787326665039_Yi Hsuan Sun.jpg",
+            "time": "00:00 22/08",
+            "caster": "VÁNG",
+            "score": "1-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5c756b1cc_d4cd1010_20260822.png?v=d4cd1010",
             "width": 1600,
             "height": 1200
           }
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
             "time": "00:00 22/08",
             "caster": "Thập Cẩm",
-            "score": "1-3",
+            "score": "4-3",
             "is_live": true,
             "hot": false
           },
@@ -593,6 +521,78 @@
           }
         },
         {
+          "id": "chtv-2ec652d346",
+          "name": "Jeffrey De Luna vs Mario He | 01:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ec652d346",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2ec652d346",
+                  "name": "Jeffrey De Luna vs Mario He",
+                  "streams": [
+                    {
+                      "id": "st-2ec652d346",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ec652d346",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6662/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table4 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787329628575_JEFFREY DE LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787329631480_Mario He.jpg",
+            "time": "01:30 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ec652d346_c68413eb_20260822.png?v=c68413eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-9e7b1f84c0",
           "name": "David Alcaide vs Jonas Souto Comino | 01:30 22/08",
           "type": "single",
@@ -665,8 +665,8 @@
           }
         },
         {
-          "id": "chtv-2ec652d346",
-          "name": "Jeffrey De Luna vs Mario He | 01:30 22/08",
+          "id": "chtv-0998fe4d5d",
+          "name": "Aloysius Yapp vs Dimitrios Loukatos | 01:30 22/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -680,23 +680,23 @@
           ],
           "sources": [
             {
-              "id": "src-2ec652d346",
+              "id": "src-0998fe4d5d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2ec652d346",
-                  "name": "Jeffrey De Luna vs Mario He",
+                  "id": "ct-0998fe4d5d",
+                  "name": "Aloysius Yapp vs Dimitrios Loukatos",
                   "streams": [
                     {
-                      "id": "st-2ec652d346",
+                      "id": "st-0998fe4d5d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2ec652d346",
+                          "id": "lnk-0998fe4d5d",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6662/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6667/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -716,22 +716,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Table4 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787329628575_JEFFREY DE LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787329631480_Mario He.jpg",
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Dimitrios Loukatos",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787332220460_YAPP BÃ©o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
             "time": "01:30 22/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ec652d346_c68413eb_20260822.png?v=c68413eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0998fe4d5d_54698666_20260822.png?v=54698666",
             "width": 1600,
             "height": 1200
           }
@@ -876,78 +876,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b434bc72c3_4a1a3e34_20260822.png?v=4a1a3e34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0998fe4d5d",
-          "name": "Aloysius Yapp vs Dimitrios Loukatos | 01:30 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0998fe4d5d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0998fe4d5d",
-                  "name": "Aloysius Yapp vs Dimitrios Loukatos",
-                  "streams": [
-                    {
-                      "id": "st-0998fe4d5d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0998fe4d5d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6667/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Dimitrios Loukatos",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787332220460_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
-            "time": "01:30 22/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0998fe4d5d_54698666_20260822.png?v=54698666",
             "width": 1600,
             "height": 1200
           }
