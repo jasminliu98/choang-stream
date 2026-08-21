@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ec652d346_c68413eb_20260822.png?v=c68413eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0998fe4d5d",
-          "name": "Aloysius Yapp vs Dimitrios Loukatos | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0998fe4d5d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0998fe4d5d",
-                  "name": "Aloysius Yapp vs Dimitrios Loukatos",
-                  "streams": [
-                    {
-                      "id": "st-0998fe4d5d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0998fe4d5d",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6667/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Dimitrios Loukatos",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787332220460_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226096369_de.png",
-            "time": "01:30 22/08",
-            "caster": "Thập Cẩm",
-            "score": "8-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0998fe4d5d_54698666_20260822.png?v=54698666",
             "width": 1600,
             "height": 1200
           }
