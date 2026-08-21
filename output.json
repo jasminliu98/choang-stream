@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (3 LIVE)",
+      "name": "🥊 Võ Thuật (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-88cc8663b4",
-          "name": "Songchainoi Kiatsongrit vs Banluelok Sitwatcharachai",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-88cc8663b4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-88cc8663b4",
-                  "name": "Songchainoi Kiatsongrit vs Banluelok Sitwatcharachai",
-                  "streams": [
-                    {
-                      "id": "st-88cc8663b4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88cc8663b4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6547/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 5 The Inner Circle 27 | Muay Thai",
-            "team_a": "Songchainoi Kiatsongrit",
-            "team_b": "Banluelok Sitwatcharachai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787210967826_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 142710.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787211023295_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 142806.png",
-            "time": "19:15 21/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-88cc8663b4_21672458_20260821.png?v=21672458",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-e1b85a1ebc",
           "name": "Sheng Yi Yang vs Shota Takezoe",
@@ -212,7 +140,7 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights| Kickboxing",
+            "league": "trận 1 ONE Friday Fights |  Kickboxing",
             "team_a": "Vusal Aliyev",
             "team_b": "Raize",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787211250187_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143152.png",
@@ -234,16 +162,16 @@
         },
         {
           "id": "chtv-634af9a9ec",
-          "name": "ONE Friday Fights| Flyweight MMA | 21:00 21/08",
+          "name": "Jason Seddoh vs Gouru Kawasaki",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -253,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-634af9a9ec",
-                  "name": "ONE Friday Fights| Flyweight MMA",
+                  "name": "Jason Seddoh vs Gouru Kawasaki",
                   "streams": [
                     {
                       "id": "st-634af9a9ec",
@@ -284,15 +212,15 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights| Flyweight MMA",
-            "team_a": "",
-            "team_b": "",
+            "league": "Trận 2 ONE Friday Fights| Flyweight MMA",
+            "team_a": "Jason Seddoh",
+            "team_b": "Gouru Kawasaki",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787211325623_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143306.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787211346600_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143324.png",
             "time": "21:00 21/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -306,16 +234,16 @@
         },
         {
           "id": "chtv-d4cdd7f029",
-          "name": "ONE Friday Fights| Atomweight Muay Thai | 21:15 21/08",
+          "name": "Ployjan  Sitnayokdam vs Giorgia Pieropan",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -325,7 +253,7 @@
               "contents": [
                 {
                   "id": "ct-d4cdd7f029",
-                  "name": "ONE Friday Fights| Atomweight Muay Thai",
+                  "name": "Ployjan  Sitnayokdam vs Giorgia Pieropan",
                   "streams": [
                     {
                       "id": "st-d4cdd7f029",
@@ -356,15 +284,15 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights| Atomweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "league": "trận 3 ONE Friday Fights| Atomweight Muay Thai",
+            "team_a": "Ployjan  Sitnayokdam",
+            "team_b": "Giorgia Pieropan",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787211408347_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143428.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787211441028_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143503.png",
             "time": "21:15 21/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -378,16 +306,16 @@
         },
         {
           "id": "chtv-0a3d613b48",
-          "name": "ONE Friday Fights| Bantamweight MMA | 21:30 21/08",
+          "name": "Nauris Bartoska vs Patrick Hill",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -397,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-0a3d613b48",
-                  "name": "ONE Friday Fights| Bantamweight MMA",
+                  "name": "Nauris Bartoska vs Patrick Hill",
                   "streams": [
                     {
                       "id": "st-0a3d613b48",
@@ -428,15 +356,15 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights| Bantamweight MMA",
-            "team_a": "",
-            "team_b": "",
+            "league": "trận 4 ONE Friday Fights| Bantamweight MMA",
+            "team_a": "Nauris Bartoska",
+            "team_b": "Patrick Hill",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787211497289_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143559.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787211499823_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143559.png",
             "time": "21:30 21/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -450,16 +378,16 @@
         },
         {
           "id": "chtv-72ac7aa95c",
-          "name": "ONE Friday Fights| Featherweight Muay Thai | 21:45 21/08",
+          "name": "Petgarfield Jitmuangnon vs Netpayak Changaewburiram",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -469,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-72ac7aa95c",
-                  "name": "ONE Friday Fights| Featherweight Muay Thai",
+                  "name": "Petgarfield Jitmuangnon vs Netpayak Changaewburiram",
                   "streams": [
                     {
                       "id": "st-72ac7aa95c",
@@ -500,15 +428,15 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights| Featherweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "league": "trận 5 ONE Friday Fights| Featherweight Muay Thai",
+            "team_a": "Petgarfield Jitmuangnon",
+            "team_b": "Netpayak Changaewburiram",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787211546373_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143646.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787211584479_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143724.png",
             "time": "21:45 21/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -522,16 +450,16 @@
         },
         {
           "id": "chtv-10b709ff35",
-          "name": "ONE Friday Fights| Muay Thai | 22:00 21/08",
+          "name": "Kajornklai Sor Sor Toipadriew vs Tewadalek Tor Muangthoenmuaythai",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -541,7 +469,7 @@
               "contents": [
                 {
                   "id": "ct-10b709ff35",
-                  "name": "ONE Friday Fights| Muay Thai",
+                  "name": "Kajornklai Sor Sor Toipadriew vs Tewadalek Tor Muangthoenmuaythai",
                   "streams": [
                     {
                       "id": "st-10b709ff35",
@@ -572,15 +500,15 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights| Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "league": "trận 6 ONE Friday Fights| Muay Thai",
+            "team_a": "Kajornklai Sor Sor Toipadriew",
+            "team_b": "Tewadalek Tor Muangthoenmuaythai",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787211651825_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143833.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787211667080_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143848.png",
             "time": "22:00 21/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -588,6 +516,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-10b709ff35_82d96dbb_20260821.png?v=82d96dbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c42bff2e2a",
+          "name": "Yokkiri TN Muaythai vs Ali Al-Kinani",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c42bff2e2a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c42bff2e2a",
+                  "name": "Yokkiri TN Muaythai vs Ali Al-Kinani",
+                  "streams": [
+                    {
+                      "id": "st-c42bff2e2a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42bff2e2a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6555/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "trận 7 ONE Friday Fights| Muay Thai",
+            "team_a": "Yokkiri TN Muaythai",
+            "team_b": "Ali Al-Kinani",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787211727728_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 143848.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787211755980_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 144016.png",
+            "time": "22:15 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c42bff2e2a_473b4299_20260821.png?v=473b4299",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-55c56bdb1d",
+          "name": "Dedduanglek Torfunfarm vs Kongsuk Sitsarawatsuer",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55c56bdb1d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-55c56bdb1d",
+                  "name": "Dedduanglek Torfunfarm vs Kongsuk Sitsarawatsuer",
+                  "streams": [
+                    {
+                      "id": "st-55c56bdb1d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-55c56bdb1d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6556/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "trận 8 ONE Friday Fights| Muay Thai",
+            "team_a": "Dedduanglek Torfunfarm",
+            "team_b": "Kongsuk Sitsarawatsuer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787211784090_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 144045.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787211821009_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-20 144121.png",
+            "time": "22:30 21/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55c56bdb1d_67030ffe_20260821.png?v=67030ffe",
             "width": 1600,
             "height": 1200
           }
