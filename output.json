@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3d5bd1f3c6",
-          "name": "DRACIER MAURECIO vs BINO BALINGASAG | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d5bd1f3c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3d5bd1f3c6",
-                  "name": "DRACIER MAURECIO vs BINO BALINGASAG",
-                  "streams": [
-                    {
-                      "id": "st-3d5bd1f3c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d5bd1f3c6",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6653/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Phủi độ đạc phi",
-            "team_a": "DRACIER MAURECIO",
-            "team_b": "BINO BALINGASAG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "time": "00:00 21/08",
-            "caster": "Xinh Yeu",
-            "score": "17-11",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d5bd1f3c6_072d6f4e_20260821.png?v=072d6f4e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f8427a8739",
           "name": "Phương Nam vs Thợ Phi | Tào A Man",
@@ -155,7 +83,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8427a8739_223d697e_20260821.png?v=223d697e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8427a8739_223d697e_20260822.png?v=223d697e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3d5bd1f3c6",
+          "name": "DRACIER MAURECIO vs BINO BALINGASAG | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d5bd1f3c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3d5bd1f3c6",
+                  "name": "DRACIER MAURECIO vs BINO BALINGASAG",
+                  "streams": [
+                    {
+                      "id": "st-3d5bd1f3c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d5bd1f3c6",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6653/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Phủi độ đạc phi",
+            "team_a": "DRACIER MAURECIO",
+            "team_b": "BINO BALINGASAG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "00:00 21/08",
+            "caster": "Xinh Yeu",
+            "score": "17-13",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d5bd1f3c6_072d6f4e_20260822.png?v=072d6f4e",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-63f688df0a_f43353c8_20260821.png?v=f43353c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-63f688df0a_f43353c8_20260822.png?v=f43353c8",
             "width": 1600,
             "height": 1200
           }
@@ -299,44 +299,44 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5c756b1cc_d4cd1010_20260821.png?v=d4cd1010",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5c756b1cc_d4cd1010_20260822.png?v=d4cd1010",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-2ec652d346",
-          "name": "Jeffrey De Luna vs Mario He | 01:30 22/08",
+          "id": "chtv-898e0d30e4",
+          "name": "Wiktor Zielinski vs Jani Siekkinen | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-2ec652d346",
+              "id": "src-898e0d30e4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2ec652d346",
-                  "name": "Jeffrey De Luna vs Mario He",
+                  "id": "ct-898e0d30e4",
+                  "name": "Wiktor Zielinski vs Jani Siekkinen",
                   "streams": [
                     {
-                      "id": "st-2ec652d346",
+                      "id": "st-898e0d30e4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2ec652d346",
-                          "name": "Stream",
+                          "id": "lnk-898e0d30e4",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6662/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6657/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,22 +356,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Table4 2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787329628575_JEFFREY DE LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787329631480_Mario He.jpg",
-            "time": "01:30 22/08",
-            "caster": "",
+            "league": "Table2  2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Wiktor Zielinski",
+            "team_b": "Jani Siekkinen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787327625529_Wiktor Zielinski.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
+            "time": "00:00 22/08",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
-            "hot": true
+            "is_live": true,
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ec652d346_c68413eb_20260821.png?v=c68413eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-898e0d30e4_94abb894_20260822.png?v=94abb894",
             "width": 1600,
             "height": 1200
           }
@@ -443,14 +443,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9e7b1f84c0_0da4cb31_20260821.png?v=0da4cb31",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9e7b1f84c0_0da4cb31_20260822.png?v=0da4cb31",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-6d25ce596e",
-          "name": "Fedor Gorst vs Omar Alshaheen | 01:30 22/08",
+          "id": "chtv-2ec652d346",
+          "name": "Jeffrey De Luna vs Mario He | 01:30 22/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-6d25ce596e",
+              "id": "src-2ec652d346",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6d25ce596e",
-                  "name": "Fedor Gorst vs Omar Alshaheen",
+                  "id": "ct-2ec652d346",
+                  "name": "Jeffrey De Luna vs Mario He",
                   "streams": [
                     {
-                      "id": "st-6d25ce596e",
+                      "id": "st-2ec652d346",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6d25ce596e",
+                          "id": "lnk-2ec652d346",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6663/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6662/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,22 +500,22 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 PHOENIX OPEN ( nhánh thua )",
-            "team_a": "Fedor Gorst",
-            "team_b": "Omar Alshaheen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787330467451_Fedor Gorst.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787330503652_Omar Alshaheen.jpg",
+            "league": "Table4 2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787329628575_JEFFREY DE LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787329631480_Mario He.jpg",
             "time": "01:30 22/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6d25ce596e_c9363f05_20260821.png?v=c9363f05",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ec652d346_c68413eb_20260822.png?v=c68413eb",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +587,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b434bc72c3_4a1a3e34_20260821.png?v=4a1a3e34",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b434bc72c3_4a1a3e34_20260822.png?v=4a1a3e34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6d25ce596e",
+          "name": "Fedor Gorst vs Omar Alshaheen | 01:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d25ce596e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6d25ce596e",
+                  "name": "Fedor Gorst vs Omar Alshaheen",
+                  "streams": [
+                    {
+                      "id": "st-6d25ce596e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6d25ce596e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6663/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 PHOENIX OPEN ( nhánh thua )",
+            "team_a": "Fedor Gorst",
+            "team_b": "Omar Alshaheen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787330467451_Fedor Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787330503652_Omar Alshaheen.jpg",
+            "time": "01:30 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6d25ce596e_c9363f05_20260822.png?v=c9363f05",
             "width": 1600,
             "height": 1200
           }
