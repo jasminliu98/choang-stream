@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-0790a45711",
-          "name": "YFU 96 | MMA Duo 120kg 2vs2 | 20:00 22/08",
+          "id": "chtv-871a31034f",
+          "name": "YFU 96 | MMA Duo 120kg 2vs2 | 20:00 22/08 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-0790a45711",
+              "id": "src-871a31034f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0790a45711",
+                  "id": "ct-871a31034f",
                   "name": "YFU 96 | MMA Duo 120kg 2vs2",
                   "streams": [
                     {
-                      "id": "st-0790a45711",
+                      "id": "st-871a31034f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0790a45711",
-                          "name": "Stream",
+                          "id": "lnk-871a31034f",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6717/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6727/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -71,10 +71,10 @@
             "league": "YFU 96 | MMA Duo 120kg 2vs2",
             "team_a": "",
             "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787396872958_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180532.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787396896261_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180553.png",
             "time": "20:00 22/08",
-            "caster": "",
+            "caster": "Đại Kê",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -83,79 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0790a45711_f81cf037_20260822.png?v=f81cf037",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-801d43b3c3",
-          "name": "YFU 96 | MMA Duo 115kg 2vs2 | 20:15 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-801d43b3c3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-801d43b3c3",
-                  "name": "YFU 96 | MMA Duo 115kg 2vs2",
-                  "streams": [
-                    {
-                      "id": "st-801d43b3c3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-801d43b3c3",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6718/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "YFU 96 | MMA Duo 115kg 2vs2",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765344627263_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "time": "20:15 22/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-801d43b3c3_5fb000f4_20260822.png?v=5fb000f4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-871a31034f_b3886a1c_20260822.png?v=b3886a1c",
             "width": 1600,
             "height": 1200
           }
