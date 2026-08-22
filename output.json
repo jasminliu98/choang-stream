@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-f3a990abd2",
-          "name": "Justin Bergman vs Wiktor Zielinski | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3a990abd2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f3a990abd2",
-                  "name": "Justin Bergman vs Wiktor Zielinski",
-                  "streams": [
-                    {
-                      "id": "st-f3a990abd2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3a990abd2",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6685/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 8 2026 PHOENIX OPEN",
-            "team_a": "Justin Bergman",
-            "team_b": "Wiktor Zielinski",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787357563098_Screenshot 2026-08-22 071241.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787357567854_2.jpg",
-            "time": "07:00 22/08",
-            "caster": "BÚN CHÓ",
-            "score": "8-9",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f3a990abd2_05e75e08_20260822.png?v=05e75e08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5ae69a13b8",
           "name": "Albert Januarta vs Aloysius yapp | VÁNG",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787365747129_Screenshot 2026-08-22 092903.png",
             "time": "09:00 22/08",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": false
           },
@@ -228,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42db078d24_45fdaf37_20260822.png?v=45fdaf37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a573bf0174",
+          "name": "Oliver Szolnoki vs Jonas Souto | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a573bf0174",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a573bf0174",
+                  "name": "Oliver Szolnoki vs Jonas Souto",
+                  "streams": [
+                    {
+                      "id": "st-a573bf0174",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a573bf0174",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6691/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 2 2026 PHOENIX OPEN",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Jonas Souto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787365791972_21.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787365791694_3.jpg",
+            "time": "09:00 22/08",
+            "caster": "VÁNG",
+            "score": "1-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a573bf0174_8a5cbe11_20260822.png?v=8a5cbe11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-296e7b1f8d",
+          "name": "Robbie Capito vs Tyler Styer | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-296e7b1f8d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-296e7b1f8d",
+                  "name": "Robbie Capito vs Tyler Styer",
+                  "streams": [
+                    {
+                      "id": "st-296e7b1f8d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-296e7b1f8d",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6692/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Table 1 2026 PHOENIX OPEN",
+            "team_a": "Robbie Capito",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787366243376_9.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787366243234_Screenshot 2026-08-22 071241.png",
+            "time": "09:00 22/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-296e7b1f8d_3c5fe71d_20260822.png?v=3c5fe71d",
             "width": 1600,
             "height": 1200
           }
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28d220d5b3_1a2da43d_20260822.png?v=1a2da43d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a573bf0174",
-          "name": "Oliver Szolnoki vs Jonas Souto | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a573bf0174",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a573bf0174",
-                  "name": "Oliver Szolnoki vs Jonas Souto",
-                  "streams": [
-                    {
-                      "id": "st-a573bf0174",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a573bf0174",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6691/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Table 2 2026 PHOENIX OPEN",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Jonas Souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787365791972_21.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787365791694_3.jpg",
-            "time": "09:00 22/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a573bf0174_8a5cbe11_20260822.png?v=8a5cbe11",
             "width": 1600,
             "height": 1200
           }
