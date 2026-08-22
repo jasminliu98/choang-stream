@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (3 LIVE)",
+      "name": "🥊 Võ Thuật (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-871a31034f",
-          "name": "Minh Quyền & Nguyên Phúc vs Ganancairen & Wu Keyi | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-871a31034f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-871a31034f",
-                  "name": "Minh Quyền & Nguyên Phúc vs Ganancairen & Wu Keyi",
-                  "streams": [
-                    {
-                      "id": "st-871a31034f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-871a31034f",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6727/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "YFU 96 | MMA Duo 120kg 2vs2",
-            "team_a": "Minh Quyền & Nguyên Phúc",
-            "team_b": "Ganancairen & Wu Keyi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787396872958_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180532.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787396896261_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180553.png",
-            "time": "20:00 22/08",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-871a31034f_b3886a1c_20260822.png?v=b3886a1c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0695423ef6",
           "name": "Erkang vs Qalandar Tabarov",
