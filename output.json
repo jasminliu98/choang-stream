@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-59224ffcc5",
+          "name": "Oliver Szolnoki vs Carlo Biado | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59224ffcc5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-59224ffcc5",
+                  "name": "Oliver Szolnoki vs Carlo Biado",
+                  "streams": [
+                    {
+                      "id": "st-59224ffcc5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-59224ffcc5",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6743/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT | PHOENIX OPEN",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787436432014_Screenshot 2026-08-23 043518.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787437401442_Screenshot 2026-08-23 052104.png",
+            "time": "06:00 23/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-59224ffcc5_d5f5f299_20260823.png?v=d5f5f299",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-704a8fc038",
           "name": "Aloysius Yapp vs Aleksa Pecelj | 06:00 23/08",
           "type": "single",
@@ -233,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-59224ffcc5",
-          "name": "Oliver Szolnoki vs Carlo Biado | 06:00 23/08 | Thập Cẩm",
+          "id": "chtv-042cdf786e",
+          "name": "Oliver Szolnoki vs Carlo Biado | 06:00 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-59224ffcc5",
+              "id": "src-042cdf786e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-59224ffcc5",
+                  "id": "ct-042cdf786e",
                   "name": "Oliver Szolnoki vs Carlo Biado",
                   "streams": [
                     {
-                      "id": "st-59224ffcc5",
+                      "id": "st-042cdf786e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-59224ffcc5",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-042cdf786e",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6743/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6739/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,10 +359,10 @@
             "league": "BÁN KẾT | PHOENIX OPEN",
             "team_a": "Oliver Szolnoki",
             "team_b": "Carlo Biado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787436432014_Screenshot 2026-08-23 043518.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787437401442_Screenshot 2026-08-23 052104.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787434520393_Screenshot 2026-08-23 043518.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787437267181_Screenshot 2026-08-23 052104.png",
             "time": "06:00 23/08",
-            "caster": "Thập Cẩm",
+            "caster": "",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-59224ffcc5_d5f5f299_20260823.png?v=d5f5f299",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-042cdf786e_45bce463_20260823.png?v=45bce463",
             "width": 1600,
             "height": 1200
           }
