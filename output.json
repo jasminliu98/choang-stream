@@ -77,7 +77,7 @@
             "caster": "",
             "score": "0-0",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
