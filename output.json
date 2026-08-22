@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-871a31034f",
-          "name": "YFU 96 | MMA Duo 120kg 2vs2 | 20:00 22/08 | Đại Kê",
+          "name": "Minh Quyền & Nguyên Phúc vs Ganancairen & Wu Keyi | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-871a31034f",
-                  "name": "YFU 96 | MMA Duo 120kg 2vs2",
+                  "name": "Minh Quyền & Nguyên Phúc vs Ganancairen & Wu Keyi",
                   "streams": [
                     {
                       "id": "st-871a31034f",
@@ -69,14 +69,14 @@
           ],
           "org_metadata": {
             "league": "YFU 96 | MMA Duo 120kg 2vs2",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Minh Quyền & Nguyên Phúc",
+            "team_b": "Ganancairen & Wu Keyi",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787396872958_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180532.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787396896261_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180553.png",
             "time": "20:00 22/08",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
