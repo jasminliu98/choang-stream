@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-53b2534664",
-          "name": "YFU 96 | MMA Duo 115kg 2vs2 | 20:15 22/08",
+          "name": "Tiến Trung & Thanh Tùng vs Zulikaer & Mao Xiaohu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-53b2534664",
-                  "name": "YFU 96 | MMA Duo 115kg 2vs2",
+                  "name": "Tiến Trung & Thanh Tùng vs Zulikaer & Mao Xiaohu",
                   "streams": [
                     {
                       "id": "st-53b2534664",
@@ -141,14 +141,14 @@
           ],
           "org_metadata": {
             "league": "YFU 96 | MMA Duo 115kg 2vs2",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Tiến Trung & Thanh Tùng",
+            "team_b": "Zulikaer & Mao Xiaohu",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787397068691_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180850.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787397080827_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180901.png",
             "time": "20:15 22/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -162,16 +162,16 @@
         },
         {
           "id": "chtv-e064e5ad85",
-          "name": "YFU 96 | MMA Flyweight | 20:45 22/08",
+          "name": "Wang Minghai vs Phan Thanh Tùng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -181,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-e064e5ad85",
-                  "name": "YFU 96 | MMA Flyweight",
+                  "name": "Wang Minghai vs Phan Thanh Tùng",
                   "streams": [
                     {
                       "id": "st-e064e5ad85",
@@ -213,14 +213,14 @@
           ],
           "org_metadata": {
             "league": "YFU 96 | MMA Flyweight",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Wang Minghai",
+            "team_b": "Phan Thanh Tùng",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787389145236_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 155645.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787389131815_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 155626.png",
             "time": "20:45 22/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -233,17 +233,89 @@
           }
         },
         {
-          "id": "chtv-094e79d23b",
-          "name": "🏆 MAIN EVENT – Bantamweight | 21:45 22/08",
+          "id": "chtv-0695423ef6",
+          "name": "Erkang vs Qalandar Tabarov",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0695423ef6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0695423ef6",
+                  "name": "Erkang vs Qalandar Tabarov",
+                  "streams": [
+                    {
+                      "id": "st-0695423ef6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0695423ef6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6720/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "YFU 96 | MMA Flyweight",
+            "team_a": "Erkang",
+            "team_b": "Qalandar Tabarov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787396698947_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180234.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787396712074_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 180252.png",
+            "time": "21:15 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0695423ef6_b0723970_20260822.png?v=b0723970",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-094e79d23b",
+          "name": "Emunanjia vs Trần Ngọc Lượng",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -253,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-094e79d23b",
-                  "name": "🏆 MAIN EVENT – Bantamweight",
+                  "name": "Emunanjia vs Trần Ngọc Lượng",
                   "streams": [
                     {
                       "id": "st-094e79d23b",
@@ -285,14 +357,14 @@
           ],
           "org_metadata": {
             "league": "🏆 MAIN EVENT – Bantamweight",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Emunanjia",
+            "team_b": "Trần Ngọc Lượng",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787389407894_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 160108.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787389420643_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-22 160120.png",
             "time": "21:45 22/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -372,7 +444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787390242344_KYLE AMOROTO.jpg",
             "time": "17:30 22/08",
             "caster": "Xinh Yeu",
-            "score": "1-5",
+            "score": "1-6",
             "is_live": true,
             "hot": true
           },
