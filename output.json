@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787367617747_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "10:30 22/08",
             "caster": "Đại Kê",
-            "score": "8-0",
+            "score": "8-1",
             "is_live": true,
             "hot": false
           },
@@ -233,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-9d2966732f",
-          "name": "Mạnh Xoăn vs Quang Thiện | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d2966732f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9d2966732f",
-                  "name": "Mạnh Xoăn vs Quang Thiện",
-                  "streams": [
-                    {
-                      "id": "st-9d2966732f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d2966732f",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6695/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV5 V7 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Quang Thiện",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787367418585_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787367418359_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "10:30 22/08",
-            "caster": "SÊ KÔÔ",
-            "score": "2-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9d2966732f_e947dbfe_20260822.png?v=e947dbfe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6f8dacc4f9",
           "name": "Linh TQ vs Trung Gia Lâm | SÊ KÔÔ",
           "type": "single",
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787367097134_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "10:30 22/08",
             "caster": "SÊ KÔÔ",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -372,6 +300,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6f8dacc4f9_05806ab2_20260822.png?v=05806ab2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9d2966732f",
+          "name": "Mạnh Xoăn vs Quang Thiện | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d2966732f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9d2966732f",
+                  "name": "Mạnh Xoăn vs Quang Thiện",
+                  "streams": [
+                    {
+                      "id": "st-9d2966732f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d2966732f",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6695/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV5 V7 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Mạnh Xoăn",
+            "team_b": "Quang Thiện",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787367418585_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787367418359_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "10:30 22/08",
+            "caster": "SÊ KÔÔ",
+            "score": "3-6",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9d2966732f_e947dbfe_20260822.png?v=e947dbfe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bc11c8eac6",
+          "name": "Kiên Pháp vs Tùng Gái | 12:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc11c8eac6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bc11c8eac6",
+                  "name": "Kiên Pháp vs Tùng Gái",
+                  "streams": [
+                    {
+                      "id": "st-bc11c8eac6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc11c8eac6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6699/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V7 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Kiên Pháp",
+            "team_b": "Tùng Gái",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787374053420_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787374053268_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "12:30 22/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bc11c8eac6_0794d478_20260822.png?v=0794d478",
             "width": 1600,
             "height": 1200
           }
