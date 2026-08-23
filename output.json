@@ -10,6 +10,159 @@
   },
   "groups": [
     {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-8b222224dd",
+          "name": "Trận 1 |  V1 Championship | Super Light weight | 16:30 23/08 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b222224dd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b222224dd",
+                  "name": "Trận 1 |  V1 Championship | Super Light weight",
+                  "streams": [
+                    {
+                      "id": "st-8b222224dd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b222224dd",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6751/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 1 |  V1 Championship | Super Light weight",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787462841730_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122458.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787462857010_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122515.png",
+            "time": "16:30 23/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b222224dd_cf3951f9_20260823.png?v=cf3951f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-83ce52521b",
+          "name": "Trận 2 | V1 Championship | Atomweight | 16:45 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83ce52521b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-83ce52521b",
+                  "name": "Trận 2 | V1 Championship | Atomweight",
+                  "streams": [
+                    {
+                      "id": "st-83ce52521b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83ce52521b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6752/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 2 | V1 Championship | Atomweight",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787462955191_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122654.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787462967708_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122708.png",
+            "time": "16:45 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-83ce52521b_ca4543bf_20260823.png?v=ca4543bf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_billiards",
       "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
@@ -75,7 +228,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787445627065_Screenshot 2026-08-23 043518.png",
             "time": "10:00 23/08",
             "caster": "SÊ KÔÔ",
-            "score": "11-9",
+            "score": "13-9",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +300,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787445711425_Screenshot 2026-08-23 043518.png",
             "time": "10:00 23/08",
             "caster": "Kèn Kèn",
-            "score": "11-9",
+            "score": "12-9",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +372,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787445651454_Screenshot 2026-08-23 043518.png",
             "time": "10:00 23/08",
             "caster": "Lee Min Hoo",
-            "score": "11-9",
+            "score": "13-9",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787457383787_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Bỉm Sữa",
-            "score": "2-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +516,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787458056418_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Tào A Man",
-            "score": "3-0",
+            "score": "4-0",
             "is_live": true,
             "hot": true
           },
@@ -507,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787457661236_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Lee Min Hoo",
-            "score": "2-2",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
