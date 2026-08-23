@@ -90,7 +90,7 @@
         },
         {
           "id": "chtv-f16f813b8d",
-          "name": "Aleksa Pecelj vs Oliver Szolnoki | 10:00 23/08",
+          "name": "Aleksa Pecelj vs Oliver Szolnoki | 10:00 23/08 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -117,7 +117,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f16f813b8d",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6746/index.m3u8",
@@ -146,7 +146,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787446926495_Screenshot 2026-08-23 050520.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787445711425_Screenshot 2026-08-23 043518.png",
             "time": "10:00 23/08",
-            "caster": "",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": false,
             "hot": true
