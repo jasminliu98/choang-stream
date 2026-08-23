@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-8b222224dd",
-          "name": "Trận 1 |  V1 Championship | Super Light weight | 16:30 23/08 | Thập Cẩm",
+          "name": "Trận 1 |  V1 Championship | Super Light weight | 63,5 kg | 16:30 23/08 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-8b222224dd",
-                  "name": "Trận 1 |  V1 Championship | Super Light weight",
+                  "name": "Trận 1 |  V1 Championship | Super Light weight | 63,5 kg",
                   "streams": [
                     {
                       "id": "st-8b222224dd",
@@ -68,7 +68,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 1 |  V1 Championship | Super Light weight",
+            "league": "Trận 1 |  V1 Championship | Super Light weight | 63,5 kg",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787462841730_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122458.png",
@@ -90,7 +90,7 @@
         },
         {
           "id": "chtv-83ce52521b",
-          "name": "Trận 2 | V1 Championship | Atomweight | 16:45 23/08",
+          "name": "Trận 2 | V1 Championship | Atomweight | 52kg | 16:45 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-83ce52521b",
-                  "name": "Trận 2 | V1 Championship | Atomweight",
+                  "name": "Trận 2 | V1 Championship | Atomweight | 52kg",
                   "streams": [
                     {
                       "id": "st-83ce52521b",
@@ -140,7 +140,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 2 | V1 Championship | Atomweight",
+            "league": "Trận 2 | V1 Championship | Atomweight | 52kg",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787462955191_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122654.png",
@@ -162,7 +162,7 @@
         },
         {
           "id": "chtv-f7cdf02ca7",
-          "name": "Trận 3 | V1 Championship | Atomweight | 17:00 23/08",
+          "name": "Trận 3 | V1 Championship | Atomweight | 52kg | 17:00 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -181,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-f7cdf02ca7",
-                  "name": "Trận 3 | V1 Championship | Atomweight",
+                  "name": "Trận 3 | V1 Championship | Atomweight | 52kg",
                   "streams": [
                     {
                       "id": "st-f7cdf02ca7",
@@ -212,7 +212,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 3 | V1 Championship | Atomweight",
+            "league": "Trận 3 | V1 Championship | Atomweight | 52kg",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463029589_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122809.png",
@@ -234,7 +234,7 @@
         },
         {
           "id": "chtv-8f049e38b3",
-          "name": "Trận 4 | V1 Championship | Atomweight | 17:15 23/08",
+          "name": "Trận 4 | V1 Championship | Featherweight | 57kg | 17:15 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -253,7 +253,7 @@
               "contents": [
                 {
                   "id": "ct-8f049e38b3",
-                  "name": "Trận 4 | V1 Championship | Atomweight",
+                  "name": "Trận 4 | V1 Championship | Featherweight | 57kg",
                   "streams": [
                     {
                       "id": "st-8f049e38b3",
@@ -284,7 +284,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 4 | V1 Championship | Atomweight",
+            "league": "Trận 4 | V1 Championship | Featherweight | 57kg",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463134362_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122953.png",
@@ -306,7 +306,7 @@
         },
         {
           "id": "chtv-ce1f0b880a",
-          "name": "Trận 5 | V1 Championship | Bantamweight | 17:30 23/08",
+          "name": "Trận 5 | V1 Championship | Bantamweight | 54kg | 17:30 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -325,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-ce1f0b880a",
-                  "name": "Trận 5 | V1 Championship | Bantamweight",
+                  "name": "Trận 5 | V1 Championship | Bantamweight | 54kg",
                   "streams": [
                     {
                       "id": "st-ce1f0b880a",
@@ -356,7 +356,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 5 | V1 Championship | Bantamweight",
+            "league": "Trận 5 | V1 Championship | Bantamweight | 54kg",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463444589_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123503.png",
@@ -378,7 +378,7 @@
         },
         {
           "id": "chtv-b09413e18e",
-          "name": "Trận 6  | V1 Championship | Featherweight | 17:45 23/08",
+          "name": "Trận 6  | V1 Championship | Featherweight | 57kg | 17:45 23/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-b09413e18e",
-                  "name": "Trận 6  | V1 Championship | Featherweight",
+                  "name": "Trận 6  | V1 Championship | Featherweight | 57kg",
                   "streams": [
                     {
                       "id": "st-b09413e18e",
@@ -428,7 +428,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 6  | V1 Championship | Featherweight",
+            "league": "Trận 6  | V1 Championship | Featherweight | 57kg",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463555801_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123656.png",
@@ -591,6 +591,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-35f2018aba",
+          "name": "Trận 10  | V1 Championship | Bantamweight | 18:45 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35f2018aba",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-35f2018aba",
+                  "name": "Trận 10  | V1 Championship | Bantamweight",
+                  "streams": [
+                    {
+                      "id": "st-35f2018aba",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35f2018aba",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6760/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 10  | V1 Championship | Bantamweight",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463885292_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 124226.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463897656_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 124238.png",
+            "time": "18:45 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-35f2018aba_b9a5b034_20260823.png?v=b9a5b034",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -660,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787458056418_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Tào A Man",
-            "score": "9-0",
+            "score": "9-1",
             "is_live": true,
             "hot": true
           },
@@ -669,6 +741,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef34eecb44_bb2c68d7_20260823.png?v=bb2c68d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-86faab1f67",
+          "name": "Tkon vs Tùng Híp | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86faab1f67",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-86faab1f67",
+                  "name": "Tkon vs Tùng Híp",
+                  "streams": [
+                    {
+                      "id": "st-86faab1f67",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86faab1f67",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6748/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 vòng 1/8 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Tkon",
+            "team_b": "Tùng Híp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787457661601_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787457661236_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "12:00 23/08",
+            "caster": "Lee Min Hoo",
+            "score": "4-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-86faab1f67_150a8ad7_20260823.png?v=150a8ad7",
             "width": 1600,
             "height": 1200
           }
@@ -732,7 +876,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787458116160_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "SÊ KÔÔ",
-            "score": "4-1",
+            "score": "5-1",
             "is_live": true,
             "hot": true
           },
@@ -813,78 +957,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0ed6801b71_918fe371_20260823.png?v=918fe371",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-86faab1f67",
-          "name": "Tkon vs Tùng Híp | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-86faab1f67",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-86faab1f67",
-                  "name": "Tkon vs Tùng Híp",
-                  "streams": [
-                    {
-                      "id": "st-86faab1f67",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86faab1f67",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6748/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 vòng 1/8 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Tkon",
-            "team_b": "Tùng Híp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787457661601_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787457661236_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "12:00 23/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-86faab1f67_150a8ad7_20260823.png?v=150a8ad7",
             "width": 1600,
             "height": 1200
           }
