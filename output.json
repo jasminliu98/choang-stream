@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-83ce52521b",
-          "name": "Trận 2 | V1 Championship | Atomweight | 52kg | 16:45 23/08",
+          "name": "Võ Vũ Lê vs Kim Khánh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-83ce52521b",
-                  "name": "Trận 2 | V1 Championship | Atomweight | 52kg",
+                  "name": "Võ Vũ Lê vs Kim Khánh",
                   "streams": [
                     {
                       "id": "st-83ce52521b",
@@ -141,14 +141,14 @@
           ],
           "org_metadata": {
             "league": "Trận 2 | V1 Championship | Atomweight | 52kg",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Võ Vũ Lê",
+            "team_b": "Kim Khánh",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787462955191_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122654.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787462967708_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122708.png",
             "time": "16:45 23/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -162,16 +162,16 @@
         },
         {
           "id": "chtv-f7cdf02ca7",
-          "name": "Trận 3 | V1 Championship | Atomweight | 52kg | 17:00 23/08",
+          "name": "P. Duy Phúc vs Tr. Đình Cang",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -181,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-f7cdf02ca7",
-                  "name": "Trận 3 | V1 Championship | Atomweight | 52kg",
+                  "name": "P. Duy Phúc vs Tr. Đình Cang",
                   "streams": [
                     {
                       "id": "st-f7cdf02ca7",
@@ -213,14 +213,14 @@
           ],
           "org_metadata": {
             "league": "Trận 3 | V1 Championship | Atomweight | 52kg",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "P. Duy Phúc",
+            "team_b": "Tr. Đình Cang",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463029589_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122809.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787463048371_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122828.png",
             "time": "17:00 23/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-8f049e38b3",
-          "name": "Trận 4 | V1 Championship | Featherweight | 57kg | 17:15 23/08",
+          "name": "Tr. Gia Bảo vs Ng. Tiến Phát",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -253,7 +253,7 @@
               "contents": [
                 {
                   "id": "ct-8f049e38b3",
-                  "name": "Trận 4 | V1 Championship | Featherweight | 57kg",
+                  "name": "Tr. Gia Bảo vs Ng. Tiến Phát",
                   "streams": [
                     {
                       "id": "st-8f049e38b3",
@@ -285,14 +285,14 @@
           ],
           "org_metadata": {
             "league": "Trận 4 | V1 Championship | Featherweight | 57kg",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Tr. Gia Bảo",
+            "team_b": "Ng. Tiến Phát",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463134362_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 122953.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787463151115_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123009.png",
             "time": "17:15 23/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -306,16 +306,16 @@
         },
         {
           "id": "chtv-ce1f0b880a",
-          "name": "Trận 5 | V1 Championship | Bantamweight | 54kg | 17:30 23/08",
+          "name": "BT. Anh Tuấn vs P. Minh Lộc",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -325,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-ce1f0b880a",
-                  "name": "Trận 5 | V1 Championship | Bantamweight | 54kg",
+                  "name": "BT. Anh Tuấn vs P. Minh Lộc",
                   "streams": [
                     {
                       "id": "st-ce1f0b880a",
@@ -357,14 +357,14 @@
           ],
           "org_metadata": {
             "league": "Trận 5 | V1 Championship | Bantamweight | 54kg",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "BT. Anh Tuấn",
+            "team_b": "P. Minh Lộc",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787463444589_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123503.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787463475240_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123534.png",
             "time": "17:30 23/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
