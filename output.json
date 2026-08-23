@@ -303,6 +303,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-ce1f0b880a",
+          "name": "Trận 5 | V1 Championship | Bantamweight | 17:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce1f0b880a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ce1f0b880a",
+                  "name": "Trận 5 | V1 Championship | Bantamweight",
+                  "streams": [
+                    {
+                      "id": "st-ce1f0b880a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce1f0b880a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6755/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 5 | V1 Championship | Bantamweight",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463444589_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123503.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463475240_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123534.png",
+            "time": "17:30 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ce1f0b880a_1d4d0350_20260823.png?v=1d4d0350",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b09413e18e",
+          "name": "Trận 6  | V1 Championship | Featherweight | 17:45 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b09413e18e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b09413e18e",
+                  "name": "Trận 6  | V1 Championship | Featherweight",
+                  "streams": [
+                    {
+                      "id": "st-b09413e18e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b09413e18e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6756/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 6  | V1 Championship | Featherweight",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463555801_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123656.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463575924_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123716.png",
+            "time": "17:45 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b09413e18e_c6860eb7_20260823.png?v=c6860eb7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -372,7 +516,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787458056418_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Tào A Man",
-            "score": "6-0",
+            "score": "8-0",
             "is_live": true,
             "hot": true
           },
@@ -444,7 +588,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787457661236_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Lee Min Hoo",
-            "score": "3-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -588,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787457383787_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 23/08",
             "caster": "Bỉm Sữa",
-            "score": "3-3",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
