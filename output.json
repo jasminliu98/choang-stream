@@ -377,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-b09413e18e",
-          "name": "Trận 6  | V1 Championship | Featherweight | 57kg | 17:45 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b09413e18e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b09413e18e",
-                  "name": "Trận 6  | V1 Championship | Featherweight | 57kg",
-                  "streams": [
-                    {
-                      "id": "st-b09413e18e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b09413e18e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6756/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 6  | V1 Championship | Featherweight | 57kg",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787463555801_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123656.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787463575924_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123716.png",
-            "time": "17:45 23/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b09413e18e_c6860eb7_20260823.png?v=c6860eb7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-803d5c5208",
           "name": "Trận 7  | V1 Championship | Middleweight | 68kg | 18:00 23/08",
           "type": "single",
@@ -804,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766213714488_táº£i xuá»ng (4).jpg",
             "time": "16:30 23/08",
             "caster": "Đại Kê",
-            "score": "3-3",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -876,7 +804,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787478129949_DÅ©ng hÃ n.jpg",
             "time": "16:30 23/08",
             "caster": "SÊ KÔÔ",
-            "score": "3-1",
+            "score": "4-1",
             "is_live": true,
             "hot": false
           },
