@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ce1f0b880a",
-          "name": "BT. Anh Tuấn vs P. Minh Lộc",
+          "id": "chtv-b09413e18e",
+          "name": "V. Minh Nghĩa vs N. Văn Thắng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-ce1f0b880a",
+              "id": "src-b09413e18e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ce1f0b880a",
-                  "name": "BT. Anh Tuấn vs P. Minh Lộc",
+                  "id": "ct-b09413e18e",
+                  "name": "V. Minh Nghĩa vs N. Văn Thắng",
                   "streams": [
                     {
-                      "id": "st-ce1f0b880a",
+                      "id": "st-b09413e18e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ce1f0b880a",
+                          "id": "lnk-b09413e18e",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6755/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6756/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 5 | V1 Championship | Bantamweight | 54kg",
-            "team_a": "BT. Anh Tuấn",
-            "team_b": "P. Minh Lộc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787463444589_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123503.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787463475240_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123534.png",
-            "time": "17:30 23/08",
+            "league": "Trận 6  | V1 Championship | Featherweight | 57kg",
+            "team_a": "V. Minh Nghĩa",
+            "team_b": "N. Văn Thắng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463555801_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123656.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463575924_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123716.png",
+            "time": "17:45 23/08",
             "caster": "",
             "score": "0-0",
             "is_live": true,
@@ -83,7 +83,223 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ce1f0b880a_1d4d0350_20260823.png?v=1d4d0350",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b09413e18e_c6860eb7_20260823.png?v=c6860eb7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-803d5c5208",
+          "name": "Danila Kvach vs Tr Quốc Huy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-803d5c5208",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-803d5c5208",
+                  "name": "Danila Kvach vs Tr Quốc Huy",
+                  "streams": [
+                    {
+                      "id": "st-803d5c5208",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-803d5c5208",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6757/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 7  | V1 Championship | Middleweight | 68kg",
+            "team_a": "Danila Kvach",
+            "team_b": "Tr Quốc Huy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463609995_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123751.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463639076_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123820.png",
+            "time": "18:00 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-803d5c5208_1bf3deeb_20260823.png?v=1bf3deeb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5830cb60bf",
+          "name": "Sloan Venter vs Hà Viết Hiếu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5830cb60bf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5830cb60bf",
+                  "name": "Sloan Venter vs Hà Viết Hiếu",
+                  "streams": [
+                    {
+                      "id": "st-5830cb60bf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5830cb60bf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6758/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 8 | V1 Championship | Light Heavyweight | 77kg",
+            "team_a": "Sloan Venter",
+            "team_b": "Hà Viết Hiếu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463700436_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123919.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463712824_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 123933.png",
+            "time": "18:15 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5830cb60bf_a791827a_20260823.png?v=a791827a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5993d46df2",
+          "name": "Ng . Hữu Nghĩa vs Lý Diệu Phước",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5993d46df2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5993d46df2",
+                  "name": "Ng . Hữu Nghĩa vs Lý Diệu Phước",
+                  "streams": [
+                    {
+                      "id": "st-5993d46df2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5993d46df2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6759/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 9 | V1 Championship | Bantamweight | 54kg",
+            "team_a": "Ng . Hữu Nghĩa",
+            "team_b": "Lý Diệu Phước",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787463815934_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 124107.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787463831005_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-23 124130.png",
+            "time": "18:30 23/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5993d46df2_4802e0ec_20260823.png?v=4802e0ec",
             "width": 1600,
             "height": 1200
           }
@@ -156,7 +372,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "00:00 23/08",
             "caster": "SÊ KÔÔ",
-            "score": "4-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
