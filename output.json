@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7c3c7fe488",
-          "name": "Prince \"Tarlac\" vs Rhaki Roj | Kèn Kèn",
+          "id": "chtv-765c9db1f0",
+          "name": "CAO QUÝ vs DUY ĐEN | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-7c3c7fe488",
+              "id": "src-765c9db1f0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7c3c7fe488",
-                  "name": "Prince \"Tarlac\" vs Rhaki Roj",
+                  "id": "ct-765c9db1f0",
+                  "name": "CAO QUÝ vs DUY ĐEN",
                   "streams": [
                     {
-                      "id": "st-7c3c7fe488",
+                      "id": "st-765c9db1f0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7c3c7fe488",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-765c9db1f0",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6795/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6798/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Siêu Độ Phủi Phi",
-            "team_a": "Prince \"Tarlac\"",
-            "team_b": "Rhaki Roj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "time": "19:16 24/08",
-            "caster": "Kèn Kèn",
-            "score": "13-5",
+            "league": "LEOW BILLIARD",
+            "team_a": "CAO QUÝ",
+            "team_b": "DUY ĐEN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1776458426424_Screenshot 2026-04-18 034023.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1776458232080_Screenshot 2026-04-18 033642.png",
+            "time": "00:00 24/08",
+            "caster": "Thập Cẩm",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7c3c7fe488_9d76bfb0_20260824.png?v=9d76bfb0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-765c9db1f0_4e5502ad_20260824.png?v=4e5502ad",
             "width": 1600,
             "height": 1200
           }
