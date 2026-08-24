@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-0bcbd06a51",
-          "name": "Yến vi vs Hwang | Tào A Man",
+          "id": "chtv-82a8e7f45a",
+          "name": "Thành Nam vs Duy Đinh | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-0bcbd06a51",
+              "id": "src-82a8e7f45a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0bcbd06a51",
-                  "name": "Yến vi vs Hwang",
+                  "id": "ct-82a8e7f45a",
+                  "name": "Thành Nam vs Duy Đinh",
                   "streams": [
                     {
-                      "id": "st-0bcbd06a51",
+                      "id": "st-82a8e7f45a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0bcbd06a51",
-                          "name": "Tào A Man",
+                          "id": "lnk-82a8e7f45a",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6780/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6782/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TP OPEN POOL CHAMPIONSHIP",
-            "team_a": "Yến vi",
-            "team_b": "Hwang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787546182658_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787546182502_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "11:40 24/08",
-            "caster": "Tào A Man",
-            "score": "2-2",
+            "league": "bida top top",
+            "team_a": "Thành Nam",
+            "team_b": "Duy Đinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787547150345_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787547149773_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 24/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-1",
             "is_live": true,
             "hot": false
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0bcbd06a51_8710e2f9_20260824.png?v=8710e2f9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-82a8e7f45a_494acee5_20260824.png?v=494acee5",
             "width": 1600,
             "height": 1200
           }
