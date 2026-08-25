@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-dc68f5b015",
-          "name": "Shane Van Boening vs Glen Davis | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc68f5b015",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dc68f5b015",
-                  "name": "Shane Van Boening vs Glen Davis",
-                  "streams": [
-                    {
-                      "id": "st-dc68f5b015",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc68f5b015",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6860/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool hampionship",
-            "team_a": "Shane Van Boening",
-            "team_b": "Glen Davis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787676793192_Shane Van Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:29 26/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc68f5b015_43551250_20260826.png?v=43551250",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8f6546b07c",
-          "name": "Shane Van Boening vs Glen Davis | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f6546b07c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8f6546b07c",
-                  "name": "Shane Van Boening vs Glen Davis",
-                  "streams": [
-                    {
-                      "id": "st-8f6546b07c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f6546b07c",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6855/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool hampionship",
-            "team_a": "Shane Van Boening",
-            "team_b": "Glen Davis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787675971360_Shane Van Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:30 26/08",
-            "caster": "VÁNG",
-            "score": "8-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8f6546b07c_c2713141_20260826.png?v=c2713141",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-8248f985c8",
           "name": "Elliott Sanderson vs Corey Deuel | Tào A Man",
@@ -219,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:30 26/08",
             "caster": "Tào A Man",
-            "score": "7-3",
+            "score": "8-3",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:30 26/08",
             "caster": "Kèn Kèn",
-            "score": "2-3",
+            "score": "4-3",
             "is_live": true,
             "hot": false
           },
@@ -521,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-83769f543f",
-          "name": "Fedor Gorst vs Christopher Sharier | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83769f543f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-83769f543f",
-                  "name": "Fedor Gorst vs Christopher Sharier",
-                  "streams": [
-                    {
-                      "id": "st-83769f543f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83769f543f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6865/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship",
-            "team_a": "Fedor Gorst",
-            "team_b": "Christopher Sharier",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787680605524_Screenshot 2026-08-26 004231.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787680605375_Screenshot 2026-08-26 004310.png",
-            "time": "02:00 26/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-83769f543f_e58d8eb9_20260826.png?v=e58d8eb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9f6ad17031",
           "name": "Joshua Filler vs James Blackburn | 02:00 26/08 | Tào A Man",
           "type": "single",
@@ -665,8 +449,80 @@
           }
         },
         {
+          "id": "chtv-83769f543f",
+          "name": "Fedor Gorst vs Christopher Sharier | 02:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83769f543f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-83769f543f",
+                  "name": "Fedor Gorst vs Christopher Sharier",
+                  "streams": [
+                    {
+                      "id": "st-83769f543f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83769f543f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6865/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Fedor Gorst",
+            "team_b": "Christopher Sharier",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787680605524_Screenshot 2026-08-26 004231.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787680605375_Screenshot 2026-08-26 004310.png",
+            "time": "02:00 26/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-83769f543f_e58d8eb9_20260826.png?v=e58d8eb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-daf0884534",
-          "name": "Denis Grabe vs Joven Bustamante | 02:00 26/08",
+          "name": "Denis Grabe vs Joven Bustamante | 02:00 26/08 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -693,7 +549,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-daf0884534",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6862/index.m3u8",
@@ -722,7 +578,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787679994996_Screenshot 2026-08-26 004632.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787679997945_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "",
+            "caster": "Kèn Kèn",
             "score": "0-0",
             "is_live": false,
             "hot": true
