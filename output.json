@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-dadf23a934",
-          "name": "Justin Bergman vs Gary Onomura | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dadf23a934",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dadf23a934",
-                  "name": "Justin Bergman vs Gary Onomura",
-                  "streams": [
-                    {
-                      "id": "st-dadf23a934",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dadf23a934",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6875/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Justin Bergman",
-            "team_b": "Gary Onomura",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787686108772_Screenshot 2026-08-26 004310.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787686108484_Screenshot 2026-08-26 004310.png",
-            "time": "03:30 26/08",
-            "caster": "Tào A Man",
-            "score": "7-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dadf23a934_502fd69f_20260826.png?v=502fd69f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-009b013cc2",
           "name": "Francisco Sánchez Ruiz vs Marcus Garza | Kèn Kèn",
@@ -161,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-2201d905d9",
-          "name": "Niels Feijen vs Radu Anghel | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2201d905d9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2201d905d9",
-                  "name": "Niels Feijen vs Radu Anghel",
-                  "streams": [
-                    {
-                      "id": "st-2201d905d9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2201d905d9",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6872/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "Niels Feijen",
-            "team_b": "Radu Anghel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787685567590_11.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787685571900_Screenshot 2026-08-26 004310.png",
-            "time": "03:30 26/08",
-            "caster": "BÚN CHÓ",
-            "score": "4-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2201d905d9_451053df_20260826.png?v=451053df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7290b381bf",
           "name": "Niels Feijen vs Radu Anghel | GIÀNG A PHỌ",
           "type": "single",
@@ -291,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787685658570_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-0",
+            "score": "4-0",
             "is_live": true,
             "hot": true
           },
@@ -300,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7290b381bf_159e747f_20260826.png?v=159e747f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2201d905d9",
+          "name": "Niels Feijen vs Radu Anghel | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2201d905d9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2201d905d9",
+                  "name": "Niels Feijen vs Radu Anghel",
+                  "streams": [
+                    {
+                      "id": "st-2201d905d9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2201d905d9",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6872/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Niels Feijen",
+            "team_b": "Radu Anghel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787685567590_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787685571900_Screenshot 2026-08-26 004310.png",
+            "time": "03:30 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "5-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2201d905d9_451053df_20260826.png?v=451053df",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-a2aa650732",
-          "name": "Alex Pagulayan vs Chase LaFerney | 05:00 26/08",
+          "id": "chtv-18448b5e47",
+          "name": "Cristopher Tevez vs Telly Shackelford | 05:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-a2aa650732",
+              "id": "src-18448b5e47",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a2aa650732",
-                  "name": "Alex Pagulayan vs Chase LaFerney",
+                  "id": "ct-18448b5e47",
+                  "name": "Cristopher Tevez vs Telly Shackelford",
                   "streams": [
                     {
-                      "id": "st-a2aa650732",
+                      "id": "st-18448b5e47",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a2aa650732",
+                          "id": "lnk-18448b5e47",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6877/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6880/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,11 +356,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Alex Pagulayan",
-            "team_b": "Chase LaFerney",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787689656023_Screenshot 2026-08-26 032732.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787689667559_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Cristopher Tevez",
+            "team_b": "Telly Shackelford",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787691252973_Screenshot 2026-08-26 035407.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787691268148_Screenshot 2026-08-26 004310.png",
             "time": "05:00 26/08",
             "caster": "",
             "score": "0-0",
@@ -443,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2aa650732_f355d995_20260826.png?v=f355d995",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18448b5e47_45164df8_20260826.png?v=45164df8",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-18448b5e47",
-          "name": "Cristopher Tevez vs Telly Shackelford | 05:00 26/08",
+          "id": "chtv-a2aa650732",
+          "name": "Alex Pagulayan vs Chase LaFerney | 05:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-18448b5e47",
+              "id": "src-a2aa650732",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-18448b5e47",
-                  "name": "Cristopher Tevez vs Telly Shackelford",
+                  "id": "ct-a2aa650732",
+                  "name": "Alex Pagulayan vs Chase LaFerney",
                   "streams": [
                     {
-                      "id": "st-18448b5e47",
+                      "id": "st-a2aa650732",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-18448b5e47",
+                          "id": "lnk-a2aa650732",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6880/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6877/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -572,11 +500,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship",
-            "team_a": "Cristopher Tevez",
-            "team_b": "Telly Shackelford",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787691252973_Screenshot 2026-08-26 035407.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787691268148_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV2 | US Open Pool championship",
+            "team_a": "Alex Pagulayan",
+            "team_b": "Chase LaFerney",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787689656023_Screenshot 2026-08-26 032732.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787689667559_Screenshot 2026-08-26 004310.png",
             "time": "05:00 26/08",
             "caster": "",
             "score": "0-0",
@@ -587,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18448b5e47_45164df8_20260826.png?v=45164df8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2aa650732_f355d995_20260826.png?v=f355d995",
             "width": 1600,
             "height": 1200
           }
