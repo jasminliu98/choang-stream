@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-fd936ab2c5",
-          "name": "Skyler Woodward vs Manny Perez | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd936ab2c5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fd936ab2c5",
-                  "name": "Skyler Woodward vs Manny Perez",
-                  "streams": [
-                    {
-                      "id": "st-fd936ab2c5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd936ab2c5",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6878/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Manny Perez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787690029809_Screenshot 2026-08-26 004310.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787690029304_Screenshot 2026-08-26 004310.png",
-            "time": "05:00 26/08",
-            "caster": "BÚN CHÓ",
-            "score": "6-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd936ab2c5_bc6df8ed_20260826.png?v=bc6df8ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0a1d2e13eb",
           "name": "Bernie Regalario vs Barry Hetherington | Tào A Man",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787697440526_Screenshot 2026-08-26 032732.png",
             "time": "05:00 26/08",
             "caster": "Tào A Man",
-            "score": "6-0",
+            "score": "6-1",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a1d2e13eb_a992bd54_20260826.png?v=a992bd54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fd936ab2c5",
+          "name": "Skyler Woodward vs Manny Perez | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd936ab2c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd936ab2c5",
+                  "name": "Skyler Woodward vs Manny Perez",
+                  "streams": [
+                    {
+                      "id": "st-fd936ab2c5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd936ab2c5",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6878/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Skyler Woodward",
+            "team_b": "Manny Perez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787690029809_Screenshot 2026-08-26 004310.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787690029304_Screenshot 2026-08-26 004310.png",
+            "time": "05:00 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "7-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd936ab2c5_bc6df8ed_20260826.png?v=bc6df8ed",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787690134237_Screenshot 2026-08-26 004310.png",
             "time": "05:00 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-7",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e249702679_5a07be46_20260826.png?v=5a07be46",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2cbc944d75",
+          "name": "Pierfrancesco Garzia vs Hoàng Sao | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cbc944d75",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2cbc944d75",
+                  "name": "Pierfrancesco Garzia vs Hoàng Sao",
+                  "streams": [
+                    {
+                      "id": "st-2cbc944d75",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2cbc944d75",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6881/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV ? | US Open Pool championship",
+            "team_a": "Pierfrancesco Garzia",
+            "team_b": "Hoàng Sao",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787691746588_12.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787691767966_Screenshot 2026-08-26 040243.png",
+            "time": "06:30 26/08",
+            "caster": "Lee Min Hoo",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2cbc944d75_15c66fb6_20260826.png?v=15c66fb6",
             "width": 1600,
             "height": 1200
           }
