@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-120dea78a7",
-          "name": "Khầy Nam vs Tùng Hip",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-120dea78a7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-120dea78a7",
-                  "name": "Khầy Nam vs Tùng Hip",
-                  "streams": [
-                    {
-                      "id": "st-120dea78a7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-120dea78a7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6842/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AO LÀNG TICKTOCK luồng phụ",
-            "team_a": "Khầy Nam",
-            "team_b": "Tùng Hip",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787644055279_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787644026978_tÃ¹ng hÃ­p.png",
-            "time": "14:00 25/08",
-            "caster": "",
-            "score": "4-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-120dea78a7_01e18087_20260825.png?v=01e18087",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a26ddd9dcc",
           "name": "KHẦY NAM vs TÙNG HÍP",
           "type": "single",
@@ -233,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-b364a917be",
-          "name": "KHẦY NAM vs TÙNG HÍP",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b364a917be",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b364a917be",
-                  "name": "KHẦY NAM vs TÙNG HÍP",
-                  "streams": [
-                    {
-                      "id": "st-b364a917be",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b364a917be",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6841/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AO LÀNG TICKTOCK luồng phụ",
-            "team_a": "KHẦY NAM",
-            "team_b": "TÙNG HÍP",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787643944760_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787643960543_tÃ¹ng hÃ­p.png",
-            "time": "14:00 25/08",
-            "caster": "",
-            "score": "4-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b364a917be_c57b3d70_20260825.png?v=c57b3d70",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c5f2bcb8e5",
           "name": "KHẦY NAM vs TÙNG HÍP | Lee Min Hoo",
           "type": "single",
@@ -363,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787642614914_tÃ¹ng hÃ­p.png",
             "time": "14:21 25/08",
             "caster": "Lee Min Hoo",
-            "score": "5-3",
+            "score": "5-5",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "14:25 25/08",
             "caster": "BÚN CHÓ",
-            "score": "1-4",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -444,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-81ab221643_999eac8a_20260825.png?v=999eac8a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9da3e989bc",
-          "name": "Duy Đinh vs Kiên Sếu | 16:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9da3e989bc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9da3e989bc",
-                  "name": "Duy Đinh vs Kiên Sếu",
-                  "streams": [
-                    {
-                      "id": "st-9da3e989bc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9da3e989bc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6801/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ĐẠI CHIẾN CHẠM 23 ( dự kiến 16:00 nổ máy )",
-            "team_a": "Duy Đinh",
-            "team_b": "Kiên Sếu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766462706364_táº£i xuá»ng (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot 2025-12-21 010653.png",
-            "time": "16:00 25/08",
-            "caster": "",
-            "score": "0-2",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9da3e989bc_414a895b_20260825.png?v=414a895b",
             "width": 1600,
             "height": 1200
           }
@@ -588,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1293d98766_c0789287_20260825.png?v=c0789287",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9da3e989bc",
+          "name": "Duy Đinh vs Kiên Sếu | 16:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9da3e989bc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9da3e989bc",
+                  "name": "Duy Đinh vs Kiên Sếu",
+                  "streams": [
+                    {
+                      "id": "st-9da3e989bc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9da3e989bc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6801/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ĐẠI CHIẾN CHẠM 23 ( dự kiến 16:00 nổ máy )",
+            "team_a": "Duy Đinh",
+            "team_b": "Kiên Sếu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766462706364_táº£i xuá»ng (1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot 2025-12-21 010653.png",
+            "time": "16:00 25/08",
+            "caster": "",
+            "score": "0-2",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9da3e989bc_414a895b_20260825.png?v=414a895b",
             "width": 1600,
             "height": 1200
           }
