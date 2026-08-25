@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-daf0884534",
-          "name": "Denis Grabe vs Joven Bustamante | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-daf0884534",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-daf0884534",
-                  "name": "Denis Grabe vs Joven Bustamante",
-                  "streams": [
-                    {
-                      "id": "st-daf0884534",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-daf0884534",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6862/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship",
-            "team_a": "Denis Grabe",
-            "team_b": "Joven Bustamante",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787679994996_Screenshot 2026-08-26 004632.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787679997945_Screenshot 2026-08-26 004310.png",
-            "time": "02:00 26/08",
-            "caster": "Kèn Kèn",
-            "score": "9-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-daf0884534_1c246ed5_20260826.png?v=1c246ed5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-dadf23a934",
           "name": "Justin Bergman vs Gary Onomura | Tào A Man",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787686108484_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "Tào A Man",
-            "score": "6-0",
+            "score": "7-1",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787685571900_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "BÚN CHÓ",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787685658570_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787684078184_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "VÁNG",
-            "score": "5-2",
+            "score": "6-2",
             "is_live": true,
             "hot": true
           },
@@ -449,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-fd936ab2c5",
-          "name": "Skyler Woodward vs Manny Perez | 05:00 26/08",
+          "id": "chtv-18448b5e47",
+          "name": "Cristopher Tevez vs Telly Shackelford | 05:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-fd936ab2c5",
+              "id": "src-18448b5e47",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fd936ab2c5",
-                  "name": "Skyler Woodward vs Manny Perez",
+                  "id": "ct-18448b5e47",
+                  "name": "Cristopher Tevez vs Telly Shackelford",
                   "streams": [
                     {
-                      "id": "st-fd936ab2c5",
+                      "id": "st-18448b5e47",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fd936ab2c5",
+                          "id": "lnk-18448b5e47",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6878/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6880/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,11 +428,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Manny Perez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787690029809_Screenshot 2026-08-26 004310.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787690029304_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Cristopher Tevez",
+            "team_b": "Telly Shackelford",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787691252973_Screenshot 2026-08-26 035407.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787691268148_Screenshot 2026-08-26 004310.png",
             "time": "05:00 26/08",
             "caster": "",
             "score": "0-0",
@@ -515,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd936ab2c5_bc6df8ed_20260826.png?v=bc6df8ed",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18448b5e47_45164df8_20260826.png?v=45164df8",
             "width": 1600,
             "height": 1200
           }
@@ -660,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2aa650732_f355d995_20260826.png?v=f355d995",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fbb676ce0a",
+          "name": "Skyler Woodward vs Manny Perez | 05:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbb676ce0a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fbb676ce0a",
+                  "name": "Skyler Woodward vs Manny Perez",
+                  "streams": [
+                    {
+                      "id": "st-fbb676ce0a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fbb676ce0a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6879/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Skyler Woodward",
+            "team_b": "Manny Perez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787690134547_Screenshot 2026-08-26 004310.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787690134237_Screenshot 2026-08-26 004310.png",
+            "time": "05:00 26/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fbb676ce0a_980976bb_20260826.png?v=980976bb",
             "width": 1600,
             "height": 1200
           }
