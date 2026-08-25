@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:30 26/08",
             "caster": "VÁNG",
-            "score": "7-0",
+            "score": "8-0",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-bb7e162d62",
-          "name": "Chris Melling vs Milford Scott Hooper | GIÀNG A PHỌ",
+          "id": "chtv-8248f985c8",
+          "name": "Elliott Sanderson vs Corey Deuel | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-bb7e162d62",
+              "id": "src-8248f985c8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bb7e162d62",
-                  "name": "Chris Melling vs Milford Scott Hooper",
+                  "id": "ct-8248f985c8",
+                  "name": "Elliott Sanderson vs Corey Deuel",
                   "streams": [
                     {
-                      "id": "st-bb7e162d62",
+                      "id": "st-8248f985c8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bb7e162d62",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-8248f985c8",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6858/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6856/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,22 +212,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4  | US Open Pool hampionship",
-            "team_a": "Chris Melling",
-            "team_b": "Milford Scott Hooper",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787676263086_Chris Melling.jpg",
+            "league": "Bàn TV2 | US Open Pool hampionship",
+            "team_a": "Elliott Sanderson",
+            "team_b": "Corey Deuel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:30 26/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "caster": "Tào A Man",
+            "score": "7-3",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bb7e162d62_3766568e_20260826.png?v=3766568e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8248f985c8_ff69942e_20260826.png?v=ff69942e",
             "width": 1600,
             "height": 1200
           }
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-47056b428d",
-          "name": "Chris Melling vs Milford Scott Hooper | BÚN CHÓ",
+          "id": "chtv-f7a6a6f40f",
+          "name": "Fedor Gorst vs Christopher Sharier | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-47056b428d",
+              "id": "src-f7a6a6f40f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-47056b428d",
-                  "name": "Chris Melling vs Milford Scott Hooper",
+                  "id": "ct-f7a6a6f40f",
+                  "name": "Fedor Gorst vs Christopher Sharier",
                   "streams": [
                     {
-                      "id": "st-47056b428d",
+                      "id": "st-f7a6a6f40f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-47056b428d",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-f7a6a6f40f",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6859/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6861/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,166 +356,166 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool hampionship",
-            "team_a": "Chris Melling",
-            "team_b": "Milford Scott Hooper",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787676365247_Chris Melling.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:30 26/08",
-            "caster": "BÚN CHÓ",
-            "score": "8-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47056b428d_4645abee_20260826.png?v=4645abee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8248f985c8",
-          "name": "Elliott Sanderson vs Corey Deuel | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8248f985c8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8248f985c8",
-                  "name": "Elliott Sanderson vs Corey Deuel",
-                  "streams": [
-                    {
-                      "id": "st-8248f985c8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8248f985c8",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6856/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool hampionship",
-            "team_a": "Elliott Sanderson",
-            "team_b": "Corey Deuel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "00:30 26/08",
-            "caster": "Tào A Man",
-            "score": "5-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8248f985c8_ff69942e_20260826.png?v=ff69942e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9f6ad17031",
-          "name": "Joshua Filler vs James Blackburn | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f6ad17031",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9f6ad17031",
-                  "name": "Joshua Filler vs James Blackburn",
-                  "streams": [
-                    {
-                      "id": "st-9f6ad17031",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f6ad17031",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6866/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Joshua Filler",
-            "team_b": "James Blackburn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787681074615_Screenshot 2026-08-26 010430.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Fedor Gorst",
+            "team_b": "Christopher Sharier",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787679757262_Screenshot 2026-08-26 004231.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787679797102_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "",
+            "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f6ad17031_5bc92df8_20260826.png?v=5bc92df8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f7a6a6f40f_24a4e9c8_20260826.png?v=24a4e9c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-283f9dca3a",
+          "name": "Jayson Shaw vs Henry Cha | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-283f9dca3a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-283f9dca3a",
+                  "name": "Jayson Shaw vs Henry Cha",
+                  "streams": [
+                    {
+                      "id": "st-283f9dca3a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-283f9dca3a",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6864/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Jayson Shaw",
+            "team_b": "Henry Cha",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787680345237_Screenshot 2026-08-26 004934.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787680344974_Screenshot 2026-08-26 004310.png",
+            "time": "02:00 26/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-283f9dca3a_054206d2_20260826.png?v=054206d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cd769f81e8",
+          "name": "Jayson Shaw vs Henry Cha | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd769f81e8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cd769f81e8",
+                  "name": "Jayson Shaw vs Henry Cha",
+                  "streams": [
+                    {
+                      "id": "st-cd769f81e8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd769f81e8",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6863/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Jayson Shaw",
+            "team_b": "Henry Cha",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787680178150_Screenshot 2026-08-26 004934.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787680180437_Screenshot 2026-08-26 004310.png",
+            "time": "02:00 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cd769f81e8_a9e04898_20260826.png?v=a9e04898",
             "width": 1600,
             "height": 1200
           }
@@ -593,8 +593,8 @@
           }
         },
         {
-          "id": "chtv-283f9dca3a",
-          "name": "Jayson Shaw vs Henry Cha | 02:00 26/08",
+          "id": "chtv-9f6ad17031",
+          "name": "Joshua Filler vs James Blackburn | 02:00 26/08 | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -608,23 +608,23 @@
           ],
           "sources": [
             {
-              "id": "src-283f9dca3a",
+              "id": "src-9f6ad17031",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-283f9dca3a",
-                  "name": "Jayson Shaw vs Henry Cha",
+                  "id": "ct-9f6ad17031",
+                  "name": "Joshua Filler vs James Blackburn",
                   "streams": [
                     {
-                      "id": "st-283f9dca3a",
+                      "id": "st-9f6ad17031",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-283f9dca3a",
-                          "name": "Stream",
+                          "id": "lnk-9f6ad17031",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6864/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6866/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,13 +644,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "Jayson Shaw",
-            "team_b": "Henry Cha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787680345237_Screenshot 2026-08-26 004934.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787680344974_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV2 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "James Blackburn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787681074615_Screenshot 2026-08-26 010430.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "",
+            "caster": "Tào A Man",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -659,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-283f9dca3a_054206d2_20260826.png?v=054206d2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f6ad17031_5bc92df8_20260826.png?v=5bc92df8",
             "width": 1600,
             "height": 1200
           }
