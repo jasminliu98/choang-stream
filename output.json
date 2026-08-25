@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "chtv-cb625f5c03",
+          "name": "Albert Januarta vs Vishwanath Reddy Saikam | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb625f5c03",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cb625f5c03",
+                  "name": "Albert Januarta vs Vishwanath Reddy Saikam",
+                  "streams": [
+                    {
+                      "id": "st-cb625f5c03",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb625f5c03",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6869/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Albert Januarta",
+            "team_b": "Vishwanath Reddy Saikam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787684534626_Screenshot 2026-07-07 004029.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787684505181_Screenshot 2026-08-26 020141.png",
+            "time": "02:00 26/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb625f5c03_378bb2b7_20260826.png?v=378bb2b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-9f6ad17031",
           "name": "Joshua Filler vs James Blackburn | Tào A Man",
           "type": "single",
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
             "caster": "Tào A Man",
-            "score": "0-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787680180437_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
             "caster": "BÚN CHÓ",
-            "score": "7-1",
+            "score": "8-1",
             "is_live": true,
             "hot": true
           },
