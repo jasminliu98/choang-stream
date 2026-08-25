@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8db6310480",
-          "name": "Waning Surigao vs Tata mata cdo | Lee Min Hoo",
+          "id": "chtv-eb7dcc4aeb",
+          "name": "Hoàng Sao vs Andrew Lara",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8db6310480",
+              "id": "src-eb7dcc4aeb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8db6310480",
-                  "name": "Waning Surigao vs Tata mata cdo",
+                  "id": "ct-eb7dcc4aeb",
+                  "name": "Hoàng Sao vs Andrew Lara",
                   "streams": [
                     {
-                      "id": "st-8db6310480",
+                      "id": "st-eb7dcc4aeb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8db6310480",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-eb7dcc4aeb",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6853/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6854/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "siêu bịp độ phi",
-            "team_a": "Waning Surigao",
-            "team_b": "Tata mata cdo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802421830_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
-            "time": "20:18 25/08",
-            "caster": "Lee Min Hoo",
-            "score": "12-14",
+            "league": "Bàn TV4 | US Open Pool hampionship",
+            "team_a": "Hoàng Sao",
+            "team_b": "Andrew Lara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777938891772_Screenshot 2026-05-05 065436.png",
+            "time": "00:00 25/08",
+            "caster": "",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8db6310480_92097139_20260825.png?v=92097139",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eb7dcc4aeb_c36fe307_20260825.png?v=c36fe307",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "23:00 25/08",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
