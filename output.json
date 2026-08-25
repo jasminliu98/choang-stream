@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787685730865_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "Kèn Kèn",
-            "score": "6-2",
+            "score": "8-2",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787687832234_Screenshot 2026-08-26 004310.png",
             "time": "05:00 26/08",
             "caster": "VÁNG",
-            "score": "0-4",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-adf0d6c000_ebed4485_20260826.png?v=ebed4485",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-18448b5e47",
+          "name": "Cristopher Tevez vs Telly Shackelford | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18448b5e47",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-18448b5e47",
+                  "name": "Cristopher Tevez vs Telly Shackelford",
+                  "streams": [
+                    {
+                      "id": "st-18448b5e47",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18448b5e47",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6880/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Cristopher Tevez",
+            "team_b": "Telly Shackelford",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787691252973_Screenshot 2026-08-26 035407.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787691268148_Screenshot 2026-08-26 004310.png",
+            "time": "05:00 26/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18448b5e47_45164df8_20260826.png?v=45164df8",
             "width": 1600,
             "height": 1200
           }
@@ -377,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-2cbc944d75",
-          "name": "Pierfrancesco Garzia vs Hoàng Sao | 06:30 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cbc944d75",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2cbc944d75",
-                  "name": "Pierfrancesco Garzia vs Hoàng Sao",
-                  "streams": [
-                    {
-                      "id": "st-2cbc944d75",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2cbc944d75",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6881/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV ? | US Open Pool championship",
-            "team_a": "Pierfrancesco Garzia",
-            "team_b": "Hoàng Sao",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787691746588_12.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787691767966_Screenshot 2026-08-26 040243.png",
-            "time": "06:30 26/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2cbc944d75_15c66fb6_20260826.png?v=15c66fb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e249702679",
           "name": "Harrison Leinen vs Carlo Biado | 06:30 26/08",
           "type": "single",
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e249702679_5a07be46_20260826.png?v=5a07be46",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2767482540",
+          "name": "Pierfrancesco Garzia vs Hoàng Sao | 06:30 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2767482540",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2767482540",
+                  "name": "Pierfrancesco Garzia vs Hoàng Sao",
+                  "streams": [
+                    {
+                      "id": "st-2767482540",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2767482540",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6882/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV ? | US Open Pool championship",
+            "team_a": "Pierfrancesco Garzia",
+            "team_b": "Hoàng Sao",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787691838555_12.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787691838292_Screenshot 2026-08-26 040243.png",
+            "time": "06:30 26/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2767482540_43fbbd46_20260826.png?v=43fbbd46",
             "width": 1600,
             "height": 1200
           }
