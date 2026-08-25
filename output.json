@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787684603546_Screenshot 2026-08-26 020141.png",
             "time": "02:00 26/08",
             "caster": "BÚN CHÓ",
-            "score": "7-1",
+            "score": "8-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787679997945_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
             "caster": "Kèn Kèn",
-            "score": "5-2",
+            "score": "7-3",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787684505181_Screenshot 2026-08-26 020141.png",
             "time": "02:00 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-1",
+            "score": "8-2",
             "is_live": true,
             "hot": true
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb625f5c03_378bb2b7_20260826.png?v=378bb2b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8ae909245a",
-          "name": "Aleksa Pecelj vs Johnny Archer | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ae909245a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8ae909245a",
-                  "name": "Aleksa Pecelj vs Johnny Archer",
-                  "streams": [
-                    {
-                      "id": "st-8ae909245a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ae909245a",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6868/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship",
-            "team_a": "Aleksa Pecelj",
-            "team_b": "Johnny Archer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787684078398_Screenshot 2026-08-26 015433.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787684078184_Screenshot 2026-08-26 004310.png",
-            "time": "03:30 26/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ae909245a_5eed3eca_20260826.png?v=5eed3eca",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787686108484_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "Tào A Man",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -378,16 +306,16 @@
         },
         {
           "id": "chtv-7290b381bf",
-          "name": "Niels Feijen vs Radu Anghel | 03:30 26/08",
+          "name": "Niels Feijen vs Radu Anghel | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -405,7 +333,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-7290b381bf",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6873/index.m3u8",
@@ -434,9 +362,9 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787685658799_11.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787685658570_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
-            "caster": "",
+            "caster": "GIÀNG A PHỌ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -449,38 +377,38 @@
           }
         },
         {
-          "id": "chtv-009b013cc2",
-          "name": "Francisco Sánchez Ruiz vs Marcus Garza | 03:30 26/08",
+          "id": "chtv-8ae909245a",
+          "name": "Aleksa Pecelj vs Johnny Archer | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-009b013cc2",
+              "id": "src-8ae909245a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-009b013cc2",
-                  "name": "Francisco Sánchez Ruiz vs Marcus Garza",
+                  "id": "ct-8ae909245a",
+                  "name": "Aleksa Pecelj vs Johnny Archer",
                   "streams": [
                     {
-                      "id": "st-009b013cc2",
+                      "id": "st-8ae909245a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-009b013cc2",
-                          "name": "Stream",
+                          "id": "lnk-8ae909245a",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6874/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6868/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,22 +428,94 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship",
-            "team_a": "Francisco Sánchez Ruiz",
-            "team_b": "Marcus Garza",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787685731083_3.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787685730865_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Aleksa Pecelj",
+            "team_b": "Johnny Archer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787684078398_Screenshot 2026-08-26 015433.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787684078184_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
+            "caster": "VÁNG",
+            "score": "0-2",
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-009b013cc2_51617ce3_20260826.png?v=51617ce3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ae909245a_5eed3eca_20260826.png?v=5eed3eca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2201d905d9",
+          "name": "Niels Feijen vs Radu Anghel | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2201d905d9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2201d905d9",
+                  "name": "Niels Feijen vs Radu Anghel",
+                  "streams": [
+                    {
+                      "id": "st-2201d905d9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2201d905d9",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6872/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Niels Feijen",
+            "team_b": "Radu Anghel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787685567590_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787685571900_Screenshot 2026-08-26 004310.png",
+            "time": "03:30 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2201d905d9_451053df_20260826.png?v=451053df",
             "width": 1600,
             "height": 1200
           }
