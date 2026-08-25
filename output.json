@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-f7a6a6f40f",
-          "name": "Fedor Gorst vs Christopher Sharier | VÁNG",
+          "id": "chtv-9f6ad17031",
+          "name": "Joshua Filler vs James Blackburn | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-f7a6a6f40f",
+              "id": "src-9f6ad17031",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f7a6a6f40f",
-                  "name": "Fedor Gorst vs Christopher Sharier",
+                  "id": "ct-9f6ad17031",
+                  "name": "Joshua Filler vs James Blackburn",
                   "streams": [
                     {
-                      "id": "st-f7a6a6f40f",
+                      "id": "st-9f6ad17031",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f7a6a6f40f",
-                          "name": "VÁNG",
+                          "id": "lnk-9f6ad17031",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6861/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6866/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship",
-            "team_a": "Fedor Gorst",
-            "team_b": "Christopher Sharier",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787679757262_Screenshot 2026-08-26 004231.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787679797102_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV2 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "James Blackburn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787681074615_Screenshot 2026-08-26 010430.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
-            "caster": "VÁNG",
-            "score": "6-1",
+            "caster": "Tào A Man",
+            "score": "8-1",
             "is_live": true,
             "hot": true
           },
@@ -83,79 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f7a6a6f40f_24a4e9c8_20260826.png?v=24a4e9c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3eeb67dc49",
-          "name": "Albert Januarta vs Vishwanath Reddy Saikam | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3eeb67dc49",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3eeb67dc49",
-                  "name": "Albert Januarta vs Vishwanath Reddy Saikam",
-                  "streams": [
-                    {
-                      "id": "st-3eeb67dc49",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3eeb67dc49",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6870/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "Albert Januarta",
-            "team_b": "Vishwanath Reddy Saikam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787684603823_Screenshot 2026-07-07 004029.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787684603546_Screenshot 2026-08-26 020141.png",
-            "time": "02:00 26/08",
-            "caster": "BÚN CHÓ",
-            "score": "2-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3eeb67dc49_54bddd77_20260826.png?v=54bddd77",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f6ad17031_5bc92df8_20260826.png?v=5bc92df8",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787684505181_Screenshot 2026-08-26 020141.png",
             "time": "02:00 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb625f5c03_378bb2b7_20260826.png?v=378bb2b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3eeb67dc49",
+          "name": "Albert Januarta vs Vishwanath Reddy Saikam | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3eeb67dc49",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3eeb67dc49",
+                  "name": "Albert Januarta vs Vishwanath Reddy Saikam",
+                  "streams": [
+                    {
+                      "id": "st-3eeb67dc49",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3eeb67dc49",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6870/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Albert Januarta",
+            "team_b": "Vishwanath Reddy Saikam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787684603823_Screenshot 2026-07-07 004029.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787684603546_Screenshot 2026-08-26 020141.png",
+            "time": "02:00 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "3-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3eeb67dc49_54bddd77_20260826.png?v=54bddd77",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787679997945_Screenshot 2026-08-26 004310.png",
             "time": "02:00 26/08",
             "caster": "Kèn Kèn",
-            "score": "3-1",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-daf0884534_1c246ed5_20260826.png?v=1c246ed5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9f6ad17031",
-          "name": "Joshua Filler vs James Blackburn | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f6ad17031",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9f6ad17031",
-                  "name": "Joshua Filler vs James Blackburn",
-                  "streams": [
-                    {
-                      "id": "st-9f6ad17031",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f6ad17031",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6866/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Joshua Filler",
-            "team_b": "James Blackburn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787681074615_Screenshot 2026-08-26 010430.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787681074292_Screenshot 2026-08-26 004310.png",
-            "time": "02:00 26/08",
-            "caster": "Tào A Man",
-            "score": "7-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f6ad17031_5bc92df8_20260826.png?v=5bc92df8",
             "width": 1600,
             "height": 1200
           }
@@ -521,7 +449,7 @@
           }
         },
         {
-          "id": "chtv-2201d905d9",
+          "id": "chtv-7290b381bf",
           "name": "Niels Feijen vs Radu Anghel | 03:30 26/08",
           "type": "single",
           "display": "thumbnail-only",
@@ -536,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-2201d905d9",
+              "id": "src-7290b381bf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2201d905d9",
+                  "id": "ct-7290b381bf",
                   "name": "Niels Feijen vs Radu Anghel",
                   "streams": [
                     {
-                      "id": "st-2201d905d9",
+                      "id": "st-7290b381bf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2201d905d9",
+                          "id": "lnk-7290b381bf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6872/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6873/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -575,8 +503,8 @@
             "league": "Bàn TV4 | US Open Pool championship",
             "team_a": "Niels Feijen",
             "team_b": "Radu Anghel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787685567590_11.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787685571900_Screenshot 2026-08-26 004310.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787685658799_11.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787685658570_Screenshot 2026-08-26 004310.png",
             "time": "03:30 26/08",
             "caster": "",
             "score": "0-0",
@@ -587,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2201d905d9_451053df_20260826.png?v=451053df",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7290b381bf_159e747f_20260826.png?v=159e747f",
             "width": 1600,
             "height": 1200
           }
