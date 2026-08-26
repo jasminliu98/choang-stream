@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787694179379_Screenshot 2026-08-26 032732.png",
             "time": "06:30 26/08",
             "caster": "Tào A Man",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787695990602_ANH.png",
             "time": "06:30 26/08",
             "caster": "Kèn Kèn",
-            "score": "7-1",
+            "score": "7-2",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787695438019_Screenshot 2026-08-26 050353.png",
             "time": "06:30 26/08",
             "caster": "BÚN CHÓ",
-            "score": "4-0",
+            "score": "4-1",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a73ebe8f4_f38c3264_20260826.png?v=f38c3264",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e33e3c2901",
+          "name": "AJ Manas vs Bader Alawadhi | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e33e3c2901",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e33e3c2901",
+                  "name": "AJ Manas vs Bader Alawadhi",
+                  "streams": [
+                    {
+                      "id": "st-e33e3c2901",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e33e3c2901",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6886/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "AJ Manas",
+            "team_b": "Bader Alawadhi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787695485238_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787695485569_Screenshot 2026-08-26 050353.png",
+            "time": "06:30 26/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "4-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e33e3c2901_0ce0964a_20260826.png?v=0ce0964a",
             "width": 1600,
             "height": 1200
           }
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-e33e3c2901",
-          "name": "AJ Manas vs Bader Alawadhi | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e33e3c2901",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e33e3c2901",
-                  "name": "AJ Manas vs Bader Alawadhi",
-                  "streams": [
-                    {
-                      "id": "st-e33e3c2901",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e33e3c2901",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6886/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "AJ Manas",
-            "team_b": "Bader Alawadhi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787695485238_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787695485569_Screenshot 2026-08-26 050353.png",
-            "time": "06:30 26/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "4-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e33e3c2901_0ce0964a_20260826.png?v=0ce0964a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2cbc944d75",
           "name": "Pierfrancesco Garzia vs Hoàng Sao | Lee Min Hoo",
           "type": "single",
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787691767966_Screenshot 2026-08-26 040243.png",
             "time": "06:30 26/08",
             "caster": "Lee Min Hoo",
-            "score": "1-5",
+            "score": "1-6",
             "is_live": true,
             "hot": true
           },
