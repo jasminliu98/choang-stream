@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ff18eaaae1",
-          "name": "Michael Baoanan vs Sam Henderson | GIÀNG A PHỌ",
+          "id": "chtv-f2841c8cc3",
+          "name": "Aleksa Pecelj vs Donny Mills | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-ff18eaaae1",
+              "id": "src-f2841c8cc3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ff18eaaae1",
-                  "name": "Michael Baoanan vs Sam Henderson",
+                  "id": "ct-f2841c8cc3",
+                  "name": "Aleksa Pecelj vs Donny Mills",
                   "streams": [
                     {
-                      "id": "st-ff18eaaae1",
+                      "id": "st-f2841c8cc3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ff18eaaae1",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-f2841c8cc3",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6909/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6908/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4  | US Open Pool championship",
-            "team_a": "Michael Baoanan",
-            "team_b": "Sam Henderson",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787757820993_Michael Baoanan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787757831707_Sam Henderson.jpg",
+            "league": "Bàn TV3  | US Open Pool championship",
+            "team_a": "Aleksa Pecelj",
+            "team_b": "Donny Mills",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787757691065_Aleksa Pecelj.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787757722503_Donny Mills.jpg",
             "time": "23:00 26/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "1-0",
+            "caster": "Kèn Kèn",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff18eaaae1_fdff05c6_20260826.png?v=fdff05c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2841c8cc3_d3ff5083_20260826.png?v=d3ff5083",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787757363037_Jeremy Jones.jpg",
             "time": "23:00 26/08",
             "caster": "Thập Cẩm",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47589b9251_9a6cbe45_20260826.png?v=9a6cbe45",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ff18eaaae1",
+          "name": "Michael Baoanan vs Sam Henderson | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff18eaaae1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ff18eaaae1",
+                  "name": "Michael Baoanan vs Sam Henderson",
+                  "streams": [
+                    {
+                      "id": "st-ff18eaaae1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff18eaaae1",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6909/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4  | US Open Pool championship",
+            "team_a": "Michael Baoanan",
+            "team_b": "Sam Henderson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787757820993_Michael Baoanan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787757831707_Sam Henderson.jpg",
+            "time": "23:00 26/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "2-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff18eaaae1_fdff05c6_20260826.png?v=fdff05c6",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787757489290_Nicholas De Leon.jpg",
             "time": "23:00 26/08",
             "caster": "BÚN CHÓ",
-            "score": "1-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
@@ -228,150 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c1f3bccc17_8c58e77b_20260826.png?v=8c58e77b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f2841c8cc3",
-          "name": "Aleksa Pecelj vs Donny Mills | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2841c8cc3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f2841c8cc3",
-                  "name": "Aleksa Pecelj vs Donny Mills",
-                  "streams": [
-                    {
-                      "id": "st-f2841c8cc3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2841c8cc3",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6908/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3  | US Open Pool championship",
-            "team_a": "Aleksa Pecelj",
-            "team_b": "Donny Mills",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787757691065_Aleksa Pecelj.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787757722503_Donny Mills.jpg",
-            "time": "23:00 26/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2841c8cc3_d3ff5083_20260826.png?v=d3ff5083",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8243c92760",
-          "name": "Joshua Filler vs Stefan Huber | 00:30 27/08 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8243c92760",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8243c92760",
-                  "name": "Joshua Filler vs Stefan Huber",
-                  "streams": [
-                    {
-                      "id": "st-8243c92760",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8243c92760",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6912/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship",
-            "team_a": "Joshua Filler",
-            "team_b": "Stefan Huber",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787759412798_Joshua Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787759426996_Stefan Huber.jpg",
-            "time": "00:30 27/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8243c92760_ad89e112_20260826.png?v=ad89e112",
             "width": 1600,
             "height": 1200
           }
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6afe26a281_15dc09d6_20260826.png?v=15dc09d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8243c92760",
+          "name": "Joshua Filler vs Stefan Huber | 00:30 27/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8243c92760",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8243c92760",
+                  "name": "Joshua Filler vs Stefan Huber",
+                  "streams": [
+                    {
+                      "id": "st-8243c92760",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8243c92760",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6912/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "Stefan Huber",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787759412798_Joshua Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787759426996_Stefan Huber.jpg",
+            "time": "00:30 27/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8243c92760_ad89e112_20260826.png?v=ad89e112",
             "width": 1600,
             "height": 1200
           }
