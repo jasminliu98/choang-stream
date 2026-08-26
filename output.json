@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47589b9251_9a6cbe45_20260827.png?v=9a6cbe45",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f2841c8cc3",
-          "name": "Aleksa Pecelj vs Donny Mills | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2841c8cc3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f2841c8cc3",
-                  "name": "Aleksa Pecelj vs Donny Mills",
-                  "streams": [
-                    {
-                      "id": "st-f2841c8cc3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2841c8cc3",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6908/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3  | US Open Pool championship",
-            "team_a": "Aleksa Pecelj",
-            "team_b": "Donny Mills",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787757691065_Aleksa Pecelj.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787757722503_Donny Mills.jpg",
-            "time": "23:00 26/08",
-            "caster": "Kèn Kèn",
-            "score": "8-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2841c8cc3_d3ff5083_20260827.png?v=d3ff5083",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787757831707_Sam Henderson.jpg",
             "time": "23:00 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-3",
+            "score": "8-4",
             "is_live": true,
             "hot": true
           },
@@ -522,7 +450,7 @@
         },
         {
           "id": "chtv-651c530117",
-          "name": "Tạ Phương Nam vs Daniel Maciol | 02:00 27/08",
+          "name": "Phạm Phương Nam vs Daniel Maciol | 02:00 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -541,7 +469,7 @@
               "contents": [
                 {
                   "id": "ct-651c530117",
-                  "name": "Tạ Phương Nam vs Daniel Maciol",
+                  "name": "Phạm Phương Nam vs Daniel Maciol",
                   "streams": [
                     {
                       "id": "st-651c530117",
@@ -573,7 +501,7 @@
           ],
           "org_metadata": {
             "league": "US Open Pool championship",
-            "team_a": "Tạ Phương Nam",
+            "team_a": "Phạm Phương Nam",
             "team_b": "Daniel Maciol",
             "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_táº£i xuá»ng (1).jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787762854830_Daniel Maciol.jpg",
