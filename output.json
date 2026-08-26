@@ -305,8 +305,80 @@
           }
         },
         {
+          "id": "chtv-8243c92760",
+          "name": "Joshua Filler vs Stefan Huber | 00:30 27/08 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8243c92760",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8243c92760",
+                  "name": "Joshua Filler vs Stefan Huber",
+                  "streams": [
+                    {
+                      "id": "st-8243c92760",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8243c92760",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6912/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "Stefan Huber",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787759412798_Joshua Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787759426996_Stefan Huber.jpg",
+            "time": "00:30 27/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8243c92760_ad89e112_20260826.png?v=ad89e112",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6afe26a281",
-          "name": "Chang Tzu Chien vs Earl Strickland | 00:30 27/08",
+          "name": "Chang Tzu Chien vs Earl Strickland | 00:30 27/08 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -333,7 +405,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-6afe26a281",
-                          "name": "Stream",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6910/index.m3u8",
@@ -362,7 +434,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787758629446_Chang Tzu Chien.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787758653078_Earl Strickland.jpg",
             "time": "00:30 27/08",
-            "caster": "",
+            "caster": "VÁNG",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -377,80 +449,8 @@
           }
         },
         {
-          "id": "chtv-8243c92760",
-          "name": "Joshua Filler vs Stefan Huber | 00:30 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8243c92760",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8243c92760",
-                  "name": "Joshua Filler vs Stefan Huber",
-                  "streams": [
-                    {
-                      "id": "st-8243c92760",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8243c92760",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6912/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Joshua Filler",
-            "team_b": "Stefan Huber",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787759412798_Joshua Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787759426996_Stefan Huber.jpg",
-            "time": "00:30 27/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8243c92760_ad89e112_20260826.png?v=ad89e112",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-783a35bb1f",
-          "name": "Landon Hollingsworth vs Manny Perez | 00:30 27/08",
+          "name": "Landon Hollingsworth vs Manny Perez | 00:30 27/08 | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -477,7 +477,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-783a35bb1f",
-                          "name": "Stream",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live6911/index.m3u8",
@@ -506,7 +506,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787759294502_Landon Hollingsworth.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787759332983_Manny Perez.jpg",
             "time": "00:30 27/08",
-            "caster": "",
+            "caster": "BÚN CHÓ",
             "score": "0-0",
             "is_live": false,
             "hot": false
