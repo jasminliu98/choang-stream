@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,38 +89,38 @@
           }
         },
         {
-          "id": "chtv-135a75e668",
-          "name": "Hải Rô vs Phương He",
+          "id": "chtv-b79a5aa04b",
+          "name": "Việt Nam vs Thái Lan | 20:00 26/08 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-135a75e668",
+              "id": "src-b79a5aa04b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-135a75e668",
-                  "name": "Hải Rô vs Phương He",
+                  "id": "ct-b79a5aa04b",
+                  "name": "Việt Nam vs Thái Lan",
                   "streams": [
                     {
-                      "id": "st-135a75e668",
+                      "id": "st-b79a5aa04b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-135a75e668",
-                          "name": "Stream",
+                          "id": "lnk-b79a5aa04b",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6898/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6894/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,59 +140,59 @@
             }
           ],
           "org_metadata": {
-            "league": "Nội Chiến Allin Cue | kèo chấp",
-            "team_a": "Hải Rô",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787722139162_Háº£i RÃ´.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787722142556_PhÆ°Æ¡ng He.png",
-            "time": "14:00 26/08",
-            "caster": "",
+            "league": "Chung Kết Giải Vô Địch DNA",
+            "team_a": "Việt Nam",
+            "team_b": "Thái Lan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766404127181_táº£i xuá»ng (1).png",
+            "time": "20:00 26/08",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": true,
+            "is_live": false,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-135a75e668_fa10c8fc_20260826.png?v=fa10c8fc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b79a5aa04b_6b9ebe4b_20260826.png?v=6b9ebe4b",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-d9859bfb45",
-          "name": "Hải Rô vs Phương He",
+          "id": "chtv-2119e150e8",
+          "name": "Tài vs Xỉu | 20:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-d9859bfb45",
+              "id": "src-2119e150e8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d9859bfb45",
-                  "name": "Hải Rô vs Phương He",
+                  "id": "ct-2119e150e8",
+                  "name": "Tài vs Xỉu",
                   "streams": [
                     {
-                      "id": "st-d9859bfb45",
+                      "id": "st-2119e150e8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d9859bfb45",
+                          "id": "lnk-2119e150e8",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6899/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6896/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,22 +212,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Nội Chiến Allin Cue | kèo chấp",
-            "team_a": "Hải Rô",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787722200726_Háº£i RÃ´.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787722204165_PhÆ°Æ¡ng He.png",
-            "time": "14:00 26/08",
+            "league": "Chung Kết Giải Vô Địch DNA",
+            "team_a": "Tài",
+            "team_b": "Xỉu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787721330204_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-11 224125.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787721338502_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-11 224150.png",
+            "time": "20:00 26/08",
             "caster": "",
             "score": "0-0",
-            "is_live": true,
-            "hot": true
+            "is_live": false,
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d9859bfb45_88d236db_20260826.png?v=88d236db",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2119e150e8_4c1bd6a4_20260826.png?v=4c1bd6a4",
             "width": 1600,
             "height": 1200
           }
