@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-c1f3bccc17",
+          "name": "Jesús Atencio vs Nicholas De Leon | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1f3bccc17",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c1f3bccc17",
+                  "name": "Jesús Atencio vs Nicholas De Leon",
+                  "streams": [
+                    {
+                      "id": "st-c1f3bccc17",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1f3bccc17",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6907/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV2  | US Open Pool championship",
+            "team_a": "Jesús Atencio",
+            "team_b": "Nicholas De Leon",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787757462952_JesÃºs Atencio.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787757489290_Nicholas De Leon.jpg",
+            "time": "23:00 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "5-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c1f3bccc17_8c58e77b_20260827.png?v=8c58e77b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-f2841c8cc3",
           "name": "Aleksa Pecelj vs Donny Mills | Kèn Kèn",
           "type": "single",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787757722503_Donny Mills.jpg",
             "time": "23:00 26/08",
             "caster": "Kèn Kèn",
-            "score": "4-3",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -83,79 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2841c8cc3_d3ff5083_20260826.png?v=d3ff5083",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-47589b9251",
-          "name": "Kledio Kaci vs Jeremy Jones | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47589b9251",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-47589b9251",
-                  "name": "Kledio Kaci vs Jeremy Jones",
-                  "streams": [
-                    {
-                      "id": "st-47589b9251",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-47589b9251",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6906/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship",
-            "team_a": "Kledio Kaci",
-            "team_b": "Jeremy Jones",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787757317371_Kledio Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787757363037_Jeremy Jones.jpg",
-            "time": "23:00 26/08",
-            "caster": "Thập Cẩm",
-            "score": "3-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47589b9251_9a6cbe45_20260826.png?v=9a6cbe45",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f2841c8cc3_d3ff5083_20260827.png?v=d3ff5083",
             "width": 1600,
             "height": 1200
           }
@@ -227,14 +227,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff18eaaae1_fdff05c6_20260826.png?v=fdff05c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff18eaaae1_fdff05c6_20260827.png?v=fdff05c6",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-c1f3bccc17",
-          "name": "Jesús Atencio vs Nicholas De Leon | BÚN CHÓ",
+          "id": "chtv-47589b9251",
+          "name": "Kledio Kaci vs Jeremy Jones | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-c1f3bccc17",
+              "id": "src-47589b9251",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c1f3bccc17",
-                  "name": "Jesús Atencio vs Nicholas De Leon",
+                  "id": "ct-47589b9251",
+                  "name": "Kledio Kaci vs Jeremy Jones",
                   "streams": [
                     {
-                      "id": "st-c1f3bccc17",
+                      "id": "st-47589b9251",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1f3bccc17",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-47589b9251",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6907/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6906/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV2  | US Open Pool championship",
-            "team_a": "Jesús Atencio",
-            "team_b": "Nicholas De Leon",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787757462952_JesÃºs Atencio.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787757489290_Nicholas De Leon.jpg",
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Kledio Kaci",
+            "team_b": "Jeremy Jones",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787757317371_Kledio Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787757363037_Jeremy Jones.jpg",
             "time": "23:00 26/08",
-            "caster": "BÚN CHÓ",
-            "score": "5-3",
+            "caster": "Thập Cẩm",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c1f3bccc17_8c58e77b_20260826.png?v=8c58e77b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47589b9251_9a6cbe45_20260827.png?v=9a6cbe45",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6afe26a281_15dc09d6_20260826.png?v=15dc09d6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6afe26a281_15dc09d6_20260827.png?v=15dc09d6",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8243c92760_ad89e112_20260826.png?v=ad89e112",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8243c92760_ad89e112_20260827.png?v=ad89e112",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-82b839318f_bc139783_20260826.png?v=bc139783",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-82b839318f_bc139783_20260827.png?v=bc139783",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-783a35bb1f_59b6866e_20260826.png?v=59b6866e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-783a35bb1f_59b6866e_20260827.png?v=59b6866e",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-651c530117_ae70ad58_20260826.png?v=ae70ad58",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-651c530117_ae70ad58_20260827.png?v=ae70ad58",
             "width": 1600,
             "height": 1200
           }
