@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787758653078_Earl Strickland.jpg",
             "time": "00:30 27/08",
             "caster": "VÁNG",
-            "score": "6-3",
+            "score": "7-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787759332983_Manny Perez.jpg",
             "time": "00:30 27/08",
             "caster": "BÚN CHÓ",
-            "score": "7-5",
+            "score": "7-6",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787767737293_8.jpg",
             "time": "02:00 27/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787766639130_8.jpg",
             "time": "02:00 27/08",
             "caster": "Kèn Kèn",
-            "score": "2-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -449,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-b7e3aade6d",
-          "name": "Clemens Ebert vs Harrison Leinen | 03:30 27/08",
+          "id": "chtv-8d4388a1c3",
+          "name": "Aloysius Yapp vs Mustafa Alnar | 03:30 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-b7e3aade6d",
+              "id": "src-8d4388a1c3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b7e3aade6d",
-                  "name": "Clemens Ebert vs Harrison Leinen",
+                  "id": "ct-8d4388a1c3",
+                  "name": "Aloysius Yapp vs Mustafa Alnar",
                   "streams": [
                     {
-                      "id": "st-b7e3aade6d",
+                      "id": "st-8d4388a1c3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b7e3aade6d",
+                          "id": "lnk-8d4388a1c3",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6926/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6927/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,11 +500,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 | US Open Pool championship (nhánh thua)",
-            "team_a": "Clemens Ebert",
-            "team_b": "Harrison Leinen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787772403311_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787772403017_Screenshot 2026-08-27 005027.png",
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Mustafa Alnar",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787772644237_Screenshot 2026-08-27 023039.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787772650342_23.jpg",
             "time": "03:30 27/08",
             "caster": "",
             "score": "0-0",
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b7e3aade6d_fc88dad6_20260827.png?v=fc88dad6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d4388a1c3_414b420e_20260827.png?v=414b420e",
             "width": 1600,
             "height": 1200
           }
@@ -665,8 +665,8 @@
           }
         },
         {
-          "id": "chtv-2e6a6016b0",
-          "name": "AJ Manas vs Jayson Shaw | 05:00 27/08",
+          "id": "chtv-b7e3aade6d",
+          "name": "Clemens Ebert vs Harrison Leinen | 03:30 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -680,23 +680,23 @@
           ],
           "sources": [
             {
-              "id": "src-2e6a6016b0",
+              "id": "src-b7e3aade6d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2e6a6016b0",
-                  "name": "AJ Manas vs Jayson Shaw",
+                  "id": "ct-b7e3aade6d",
+                  "name": "Clemens Ebert vs Harrison Leinen",
                   "streams": [
                     {
-                      "id": "st-2e6a6016b0",
+                      "id": "st-b7e3aade6d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2e6a6016b0",
+                          "id": "lnk-b7e3aade6d",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6919/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6926/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -716,12 +716,12 @@
             }
           ],
           "org_metadata": {
-            "league": "US Open Pool championship",
-            "team_a": "AJ Manas",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787766762415_Screenshot 2026-08-27 005239.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787766762769_Screenshot 2026-08-27 005223.png",
-            "time": "05:00 27/08",
+            "league": "TV4 | US Open Pool championship (nhánh thua)",
+            "team_a": "Clemens Ebert",
+            "team_b": "Harrison Leinen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787772403311_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787772403017_Screenshot 2026-08-27 005027.png",
+            "time": "03:30 27/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -731,13 +731,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2e6a6016b0_2ae35cbd_20260827.png?v=2ae35cbd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b7e3aade6d_fc88dad6_20260827.png?v=fc88dad6",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-9a66974ad2",
+          "id": "chtv-6ee7b336e8",
           "name": "Andri Januarta vs Hoàng Sao | 05:00 27/08",
           "type": "single",
           "display": "thumbnail-only",
@@ -752,23 +752,23 @@
           ],
           "sources": [
             {
-              "id": "src-9a66974ad2",
+              "id": "src-6ee7b336e8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9a66974ad2",
+                  "id": "ct-6ee7b336e8",
                   "name": "Andri Januarta vs Hoàng Sao",
                   "streams": [
                     {
-                      "id": "st-9a66974ad2",
+                      "id": "st-6ee7b336e8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9a66974ad2",
+                          "id": "lnk-6ee7b336e8",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6915/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6916/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -791,8 +791,8 @@
             "league": "US Open Pool championship",
             "team_a": "Andri Januarta",
             "team_b": "Hoàng Sao",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787765940336_Screenshot 2026-07-07 004029.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787765933596_Screenshot 2026-08-27 003847.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787765991310_Screenshot 2026-07-07 004029.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787765990621_Screenshot 2026-08-27 003847.png",
             "time": "05:00 27/08",
             "caster": "",
             "score": "0-0",
@@ -803,7 +803,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9a66974ad2_7d8342f7_20260827.png?v=7d8342f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6ee7b336e8_a1c2652b_20260827.png?v=a1c2652b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ffd947c330",
+          "name": "AJ Manas vs Jayson Shaw | 05:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffd947c330",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ffd947c330",
+                  "name": "AJ Manas vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-ffd947c330",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ffd947c330",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6923/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open Pool championship",
+            "team_a": "AJ Manas",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787771529224_Screenshot 2026-08-27 005239.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787771528900_Screenshot 2026-08-27 005223.png",
+            "time": "05:00 27/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ffd947c330_56ade5ea_20260827.png?v=56ade5ea",
             "width": 1600,
             "height": 1200
           }
