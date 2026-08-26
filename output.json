@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787757363037_Jeremy Jones.jpg",
             "time": "23:00 26/08",
             "caster": "Thập Cẩm",
-            "score": "5-6",
+            "score": "6-6",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787757831707_Sam Henderson.jpg",
             "time": "23:00 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-6",
+            "score": "8-7",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787759426996_Stefan Huber.jpg",
             "time": "00:30 27/08",
             "caster": "Kèn Kèn",
-            "score": "1-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787759332983_Manny Perez.jpg",
             "time": "00:30 27/08",
             "caster": "BÚN CHÓ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": false
           },
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-783a35bb1f_59b6866e_20260827.png?v=59b6866e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-27403c888f",
+          "name": "Tyler Styer vs Ernesto Gjoni | 02:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27403c888f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-27403c888f",
+                  "name": "Tyler Styer vs Ernesto Gjoni",
+                  "streams": [
+                    {
+                      "id": "st-27403c888f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27403c888f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6918/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Tyler Styer",
+            "team_b": "Ernesto Gjoni",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787766634293_Screenshot 2026-08-27 005027.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787766639130_8.jpg",
+            "time": "02:00 27/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-27403c888f_709289b3_20260827.png?v=709289b3",
             "width": 1600,
             "height": 1200
           }
@@ -588,6 +660,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6ee7b336e8_a1c2652b_20260827.png?v=a1c2652b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2e6a6016b0",
+          "name": "AJ Manas vs Jayson Shaw | 05:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e6a6016b0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2e6a6016b0",
+                  "name": "AJ Manas vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-2e6a6016b0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e6a6016b0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6919/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open Pool championship",
+            "team_a": "AJ Manas",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787766762415_Screenshot 2026-08-27 005239.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787766762769_Screenshot 2026-08-27 005223.png",
+            "time": "05:00 27/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2e6a6016b0_2ae35cbd_20260827.png?v=2ae35cbd",
             "width": 1600,
             "height": 1200
           }
