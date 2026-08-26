@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d7e2556486",
-          "name": "Aloysius Yapp vs Stephen Holem | Tào A Man",
+          "id": "chtv-ae4a9b7001",
+          "name": "Fedor Gorst vs Josh Roberts | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-d7e2556486",
+              "id": "src-ae4a9b7001",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d7e2556486",
-                  "name": "Aloysius Yapp vs Stephen Holem",
+                  "id": "ct-ae4a9b7001",
+                  "name": "Fedor Gorst vs Josh Roberts",
                   "streams": [
                     {
-                      "id": "st-d7e2556486",
+                      "id": "st-ae4a9b7001",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d7e2556486",
-                          "name": "Tào A Man",
+                          "id": "lnk-ae4a9b7001",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6884/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6891/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Stephen Holem",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787694169745_Screenshot 2026-08-26 044246.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787694179379_Screenshot 2026-08-26 032732.png",
-            "time": "06:30 26/08",
-            "caster": "Tào A Man",
-            "score": "8-7",
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "Fedor Gorst",
+            "team_b": "Josh Roberts",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787701062188_Screenshot 2026-08-26 004231.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787701050399_Screenshot 2026-08-26 004310.png",
+            "time": "08:00 26/08",
+            "caster": "BÚN CHÓ",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d7e2556486_3895c8a6_20260826.png?v=3895c8a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ae4a9b7001_7560e674_20260826.png?v=7560e674",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787701104274_Screenshot 2026-08-26 004310.png",
             "time": "08:00 26/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-ae4a9b7001",
-          "name": "Fedor Gorst vs Josh Roberts | BÚN CHÓ",
+          "id": "chtv-b9f9db9eb6",
+          "name": "Denis Grabe vs Justin Bergman | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-ae4a9b7001",
+              "id": "src-b9f9db9eb6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ae4a9b7001",
-                  "name": "Fedor Gorst vs Josh Roberts",
+                  "id": "ct-b9f9db9eb6",
+                  "name": "Denis Grabe vs Justin Bergman",
                   "streams": [
                     {
-                      "id": "st-ae4a9b7001",
+                      "id": "st-b9f9db9eb6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ae4a9b7001",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-b9f9db9eb6",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6891/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6889/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "Fedor Gorst",
-            "team_b": "Josh Roberts",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787701062188_Screenshot 2026-08-26 004231.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787701050399_Screenshot 2026-08-26 004310.png",
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Denis Grabe",
+            "team_b": "Justin Bergman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787700338067_17.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787700337734_Screenshot 2026-08-26 004310.png",
             "time": "08:00 26/08",
-            "caster": "BÚN CHÓ",
-            "score": "3-2",
+            "caster": "VÁNG",
+            "score": "6-3",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ae4a9b7001_7560e674_20260826.png?v=7560e674",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9f9db9eb6_87435f8d_20260826.png?v=87435f8d",
             "width": 1600,
             "height": 1200
           }
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ec77ac8d6d_4211c88d_20260826.png?v=4211c88d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b9f9db9eb6",
-          "name": "Denis Grabe vs Justin Bergman | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9f9db9eb6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b9f9db9eb6",
-                  "name": "Denis Grabe vs Justin Bergman",
-                  "streams": [
-                    {
-                      "id": "st-b9f9db9eb6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9f9db9eb6",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6889/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship",
-            "team_a": "Denis Grabe",
-            "team_b": "Justin Bergman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787700338067_17.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787700337734_Screenshot 2026-08-26 004310.png",
-            "time": "08:00 26/08",
-            "caster": "VÁNG",
-            "score": "6-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b9f9db9eb6_87435f8d_20260826.png?v=87435f8d",
             "width": 1600,
             "height": 1200
           }
