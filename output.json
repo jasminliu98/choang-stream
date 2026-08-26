@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-783a35bb1f",
-          "name": "Landon Hollingsworth vs Manny Perez | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-783a35bb1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-783a35bb1f",
-                  "name": "Landon Hollingsworth vs Manny Perez",
-                  "streams": [
-                    {
-                      "id": "st-783a35bb1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-783a35bb1f",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6911/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Landon Hollingsworth",
-            "team_b": "Manny Perez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787759294502_Landon Hollingsworth.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787759332983_Manny Perez.jpg",
-            "time": "00:30 27/08",
-            "caster": "BÚN CHÓ",
-            "score": "8-7",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-783a35bb1f_59b6866e_20260827.png?v=59b6866e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-776de3d895",
           "name": "Max Eberle vs Billy Thorpe | BÚN CHÓ",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787767737293_8.jpg",
             "time": "02:00 27/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-4",
+            "score": "1-5",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787769101363_Screenshot 2026-08-27 005027.png",
             "time": "02:00 27/08",
             "caster": "VÁNG",
-            "score": "0-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
@@ -378,7 +306,7 @@
         },
         {
           "id": "chtv-8d4388a1c3",
-          "name": "Aloysius Yapp vs Mustafa Alnar | 03:30 27/08",
+          "name": "Aloysius Yapp vs Mustafa Alnar(7wiin) | 03:30 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-8d4388a1c3",
-                  "name": "Aloysius Yapp vs Mustafa Alnar",
+                  "name": "Aloysius Yapp vs Mustafa Alnar(7wiin)",
                   "streams": [
                     {
                       "id": "st-8d4388a1c3",
@@ -430,7 +358,7 @@
           "org_metadata": {
             "league": "Bàn TV1 | US Open Pool championship",
             "team_a": "Aloysius Yapp",
-            "team_b": "Mustafa Alnar",
+            "team_b": "Mustafa Alnar(7wiin)",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787772644237_Screenshot 2026-08-27 023039.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787772650342_23.jpg",
             "time": "03:30 27/08",
@@ -444,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8d4388a1c3_414b420e_20260827.png?v=414b420e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b64551a38c",
-          "name": "Chang Yu Lung vs Max Lechner | 03:30 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b64551a38c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b64551a38c",
-                  "name": "Chang Yu Lung vs Max Lechner",
-                  "streams": [
-                    {
-                      "id": "st-b64551a38c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b64551a38c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6924/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship",
-            "team_a": "Chang Yu Lung",
-            "team_b": "Max Lechner",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787772057369_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787772057049_7.jpg",
-            "time": "03:30 27/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b64551a38c_2cbe0e40_20260827.png?v=2cbe0e40",
             "width": 1600,
             "height": 1200
           }
@@ -665,6 +521,78 @@
           }
         },
         {
+          "id": "chtv-b64551a38c",
+          "name": "Chang Yu Lung vs Max Lechner | 03:30 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b64551a38c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b64551a38c",
+                  "name": "Chang Yu Lung vs Max Lechner",
+                  "streams": [
+                    {
+                      "id": "st-b64551a38c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b64551a38c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6924/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV3 | US Open Pool championship",
+            "team_a": "Chang Yu Lung",
+            "team_b": "Max Lechner",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787772057369_Screenshot 2026-07-07 002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787772057049_7.jpg",
+            "time": "03:30 27/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b64551a38c_2cbe0e40_20260827.png?v=2cbe0e40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6ee7b336e8",
           "name": "Andri Januarta vs Hoàng Sao | 05:00 27/08",
           "type": "single",
@@ -737,7 +665,7 @@
           }
         },
         {
-          "id": "chtv-ffd947c330",
+          "id": "chtv-2e6a6016b0",
           "name": "AJ Manas vs Jayson Shaw | 05:00 27/08",
           "type": "single",
           "display": "thumbnail-only",
@@ -752,23 +680,23 @@
           ],
           "sources": [
             {
-              "id": "src-ffd947c330",
+              "id": "src-2e6a6016b0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ffd947c330",
+                  "id": "ct-2e6a6016b0",
                   "name": "AJ Manas vs Jayson Shaw",
                   "streams": [
                     {
-                      "id": "st-ffd947c330",
+                      "id": "st-2e6a6016b0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ffd947c330",
+                          "id": "lnk-2e6a6016b0",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6923/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6919/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -791,8 +719,8 @@
             "league": "US Open Pool championship",
             "team_a": "AJ Manas",
             "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787771529224_Screenshot 2026-08-27 005239.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787771528900_Screenshot 2026-08-27 005223.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787766762415_Screenshot 2026-08-27 005239.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787766762769_Screenshot 2026-08-27 005223.png",
             "time": "05:00 27/08",
             "caster": "",
             "score": "0-0",
@@ -803,7 +731,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ffd947c330_56ade5ea_20260827.png?v=56ade5ea",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2e6a6016b0_2ae35cbd_20260827.png?v=2ae35cbd",
             "width": 1600,
             "height": 1200
           }
