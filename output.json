@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787759426996_Stefan Huber.jpg",
             "time": "00:30 27/08",
             "caster": "Kèn Kèn",
-            "score": "5-2",
+            "score": "6-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787761720776_Marc Bijsterbosch.jpg",
             "time": "00:30 27/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -305,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-651c530117",
-          "name": "Phạm Phương Nam vs Daniel Maciol | 02:00 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-651c530117",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-651c530117",
-                  "name": "Phạm Phương Nam vs Daniel Maciol",
-                  "streams": [
-                    {
-                      "id": "st-651c530117",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-651c530117",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6914/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv21.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "US Open Pool championship",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Daniel Maciol",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_táº£i xuá»ng (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787762854830_Daniel Maciol.jpg",
-            "time": "02:00 27/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-651c530117_ae70ad58_20260827.png?v=ae70ad58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-776de3d895",
           "name": "Max Eberle vs Billy Thorpe | 02:00 27/08",
           "type": "single",
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-776de3d895_5adfb330_20260827.png?v=5adfb330",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3a955bbbec",
+          "name": "Kristian Dimitrov vs Eklent Kaci | 02:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a955bbbec",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3a955bbbec",
+                  "name": "Kristian Dimitrov vs Eklent Kaci",
+                  "streams": [
+                    {
+                      "id": "st-3a955bbbec",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a955bbbec",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6921/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv21.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | US Open Pool championship (nhánh thua)",
+            "team_a": "Kristian Dimitrov",
+            "team_b": "Eklent Kaci",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787767737596_20.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787767737293_8.jpg",
+            "time": "02:00 27/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a955bbbec_f9bdb705_20260827.png?v=f9bdb705",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-3a955bbbec",
-          "name": "Kristian Dimitrov vs Eklent Kaci | 02:00 27/08",
+          "id": "chtv-651c530117",
+          "name": "Phạm Phương Nam vs Daniel Maciol | 02:00 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-3a955bbbec",
+              "id": "src-651c530117",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3a955bbbec",
-                  "name": "Kristian Dimitrov vs Eklent Kaci",
+                  "id": "ct-651c530117",
+                  "name": "Phạm Phương Nam vs Daniel Maciol",
                   "streams": [
                     {
-                      "id": "st-3a955bbbec",
+                      "id": "st-651c530117",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3a955bbbec",
+                          "id": "lnk-651c530117",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6921/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6914/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -572,11 +572,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 | US Open Pool championship (nhánh thua)",
-            "team_a": "Kristian Dimitrov",
-            "team_b": "Eklent Kaci",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787767737596_20.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787767737293_8.jpg",
+            "league": "US Open Pool championship",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Daniel Maciol",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_táº£i xuá»ng (1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787762854830_Daniel Maciol.jpg",
             "time": "02:00 27/08",
             "caster": "",
             "score": "0-0",
@@ -587,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a955bbbec_f9bdb705_20260827.png?v=f9bdb705",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-651c530117_ae70ad58_20260827.png?v=ae70ad58",
             "width": 1600,
             "height": 1200
           }
