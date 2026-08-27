@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-61bb6fad49",
-          "name": "Khứa Xăm trổ vs Khứa áo xám | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61bb6fad49",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-61bb6fad49",
-                  "name": "Khứa Xăm trổ vs Khứa áo xám",
-                  "streams": [
-                    {
-                      "id": "st-61bb6fad49",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61bb6fad49",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6959/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PPHUCS LỘC BILLIARD TICKTOCK",
-            "team_a": "Khứa Xăm trổ",
-            "team_b": "Khứa áo xám",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778354419271_3262_GVDZVA_96x96.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "00:00 27/08",
-            "caster": "Thập Cẩm",
-            "score": "10-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-61bb6fad49_b4164643_20260827.png?v=b4164643",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-bc0b7cacd9",
           "name": "CARDING vs OWAT | Đại Kê",
           "type": "single",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "00:00 27/08",
             "caster": "Đại Kê",
-            "score": "5-7",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "21:00 27/08",
             "caster": "Lee Min Hoo",
-            "score": "8-7",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "21:24 27/08",
             "caster": "Xinh Yeu",
-            "score": "4-7",
+            "score": "5-8",
             "is_live": true,
             "hot": true
           },
@@ -378,16 +306,16 @@
         },
         {
           "id": "chtv-766457be97",
-          "name": "Joshua Filler vs Vitaliy Patsura | 23:00 27/08 | VÁNG",
+          "name": "Joshua Filler vs Vitaliy Patsura | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "23:00 27/08",
             "caster": "VÁNG",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
@@ -788,7 +716,7 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV1 | US Open Pool championship nhánh",
+            "league": "Bàn TV2 | US Open Pool championship nhánh thua",
             "team_a": "Max Adams",
             "team_b": "Justin Bergman",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765779197545_táº£i xuá»ng.png",
