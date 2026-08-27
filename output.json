@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-61bb6fad49",
+          "name": "Khứa Xăm trổ vs Khứa áo xám | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61bb6fad49",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-61bb6fad49",
+                  "name": "Khứa Xăm trổ vs Khứa áo xám",
+                  "streams": [
+                    {
+                      "id": "st-61bb6fad49",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-61bb6fad49",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6959/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PPHUCS LỘC BILLIARD TICKTOCK",
+            "team_a": "Khứa Xăm trổ",
+            "team_b": "Khứa áo xám",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354419271_3262_GVDZVA_96x96.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "00:00 27/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-61bb6fad49_b4164643_20260827.png?v=b4164643",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-0d90030d11",
           "name": "HSU Jui An vs Wangyun | Lee Min Hoo",
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "20:19 27/08",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "20:32 27/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-1",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
