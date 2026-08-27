@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4e65e617bb",
-          "name": "Efren BATA Reyes vs Paul Cabuenas",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e65e617bb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4e65e617bb",
-                  "name": "Efren BATA Reyes vs Paul Cabuenas",
-                  "streams": [
-                    {
-                      "id": "st-4e65e617bb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e65e617bb",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6951/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Thợ Phi 70 tuổi gậy kèo mở thêm",
-            "team_a": "Efren BATA Reyes",
-            "team_b": "Paul Cabuenas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769015292373_Efren Reyes.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "time": "00:00 27/08",
-            "caster": "",
-            "score": "15-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4e65e617bb_11fa68c7_20260827.png?v=11fa68c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-96d75c4693",
-          "name": "Duy đen vs Đối duy | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-96d75c4693",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-96d75c4693",
-                  "name": "Duy đen vs Đối duy",
-                  "streams": [
-                    {
-                      "id": "st-96d75c4693",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96d75c4693",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6953/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Leow Billiard",
-            "team_a": "Duy đen",
-            "team_b": "Đối duy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765275870645_táº£i xuá»ng.png",
-            "time": "18:00 27/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "12-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-96d75c4693_e79b5f40_20260827.png?v=e79b5f40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0d90030d11",
           "name": "HSU Jui An vs Wangyun | Lee Min Hoo",
@@ -219,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787828636816_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-27 180130.png",
             "time": "18:30 27/08",
             "caster": "Lee Min Hoo",
-            "score": "4-2",
+            "score": "4-3",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0d90030d11_5e6ea1ca_20260827.png?v=5e6ea1ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-695400535f",
+          "name": "Duy Đen vs Song TÔ | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-695400535f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-695400535f",
+                  "name": "Duy Đen vs Song TÔ",
+                  "streams": [
+                    {
+                      "id": "st-695400535f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-695400535f",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6954/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Leow Billiard",
+            "team_a": "Duy Đen",
+            "team_b": "Song TÔ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "19:16 27/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-695400535f_0cfe1298_20260827.png?v=0cfe1298",
             "width": 1600,
             "height": 1200
           }
