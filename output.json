@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-a626b18c2b",
-          "name": "Lin Ta Li vs Johnny Archer | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a626b18c2b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a626b18c2b",
-                  "name": "Lin Ta Li vs Johnny Archer",
-                  "streams": [
-                    {
-                      "id": "st-a626b18c2b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a626b18c2b",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6977/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3 | US Open Pool championship nhánh thua",
-            "team_a": "Lin Ta Li",
-            "team_b": "Johnny Archer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787852482755_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787852489477_Screenshot 2026-08-28 003736.png",
-            "time": "02:00 28/08",
-            "caster": "Kèn Kèn",
-            "score": "5-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a626b18c2b_c8331fe9_20260828.png?v=c8331fe9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1e1bfd3469",
           "name": "Shane Van Boening vs Marc Bijsterbosch | VÁNG",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787852086466_11.jpg",
             "time": "02:00 28/08",
             "caster": "VÁNG",
-            "score": "5-4",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1e1bfd3469_3a05480a_20260828.png?v=3a05480a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0fc68a6660",
-          "name": "Naoyuki Oi vs Jayson Shaw | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0fc68a6660",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0fc68a6660",
-                  "name": "Naoyuki Oi vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-0fc68a6660",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fc68a6660",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6983/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2 | US Open Pool championship",
-            "team_a": "Naoyuki Oi",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787859503875_NHáº¬T Báº¢N.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787859503624_ANH.png",
-            "time": "03:30 28/08",
-            "caster": "BÚN CHÓ",
-            "score": "0-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0fc68a6660_9b46682f_20260828.png?v=9b46682f",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65aaac79ca_7150977f_20260828.png?v=7150977f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0fc68a6660",
+          "name": "Naoyuki Oi vs Jayson Shaw | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fc68a6660",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0fc68a6660",
+                  "name": "Naoyuki Oi vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-0fc68a6660",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fc68a6660",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6983/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV2 | US Open Pool championship",
+            "team_a": "Naoyuki Oi",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787859503875_NHáº¬T Báº¢N.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787859503624_ANH.png",
+            "time": "03:30 28/08",
+            "caster": "BÚN CHÓ",
+            "score": "0-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0fc68a6660_9b46682f_20260828.png?v=9b46682f",
             "width": 1600,
             "height": 1200
           }
