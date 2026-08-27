@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "20:19 27/08",
             "caster": "Đại Kê",
-            "score": "2-2",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "20:32 27/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-3",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
@@ -372,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-344acc6ef3_8890ba76_20260827.png?v=8890ba76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bab5c2d98f",
+          "name": "Joshua Filler vs Vitaliy Patsura | 23:00 27/08 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bab5c2d98f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bab5c2d98f",
+                  "name": "Joshua Filler vs Vitaliy Patsura",
+                  "streams": [
+                    {
+                      "id": "st-bab5c2d98f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bab5c2d98f",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live6960/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV1 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "Vitaliy Patsura",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787838619803_Joshua Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787838626015_Vitaliy Patsura.jpg",
+            "time": "23:00 27/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bab5c2d98f_7bf2f55b_20260827.png?v=7bf2f55b",
             "width": 1600,
             "height": 1200
           }
