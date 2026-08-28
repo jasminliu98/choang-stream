@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787902718747_Wojciech Szewczyk.jpg",
             "time": "23:00 28/08",
             "caster": "Kèn Kèn",
-            "score": "7-8",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "chtv-e360a8b387",
+          "name": "Fedor Gorst vs Dominik Jastrzab | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e360a8b387",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e360a8b387",
+                  "name": "Fedor Gorst vs Dominik Jastrzab",
+                  "streams": [
+                    {
+                      "id": "st-e360a8b387",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e360a8b387",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7022/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV3  | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Fedor Gorst",
+            "team_b": "Dominik Jastrzab",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901352700_Fedor Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901409748_Dominik Jastrzab.jpg",
+            "time": "00:45 29/08",
+            "caster": "Tào A Man",
+            "score": "4-3",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e360a8b387_d3868812_20260829.png?v=d3868812",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e05ebd2dde",
           "name": "Mickey Krause vs Justin Bergman | GIÀNG A PHỌ",
           "type": "single",
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-e360a8b387",
-          "name": "Fedor Gorst vs Dominik Jastrzab | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e360a8b387",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e360a8b387",
-                  "name": "Fedor Gorst vs Dominik Jastrzab",
-                  "streams": [
-                    {
-                      "id": "st-e360a8b387",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e360a8b387",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7022/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV3  | US Open Pool championship Loạt khung giờ 00:45",
-            "team_a": "Fedor Gorst",
-            "team_b": "Dominik Jastrzab",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787901352700_Fedor Gorst.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787901409748_Dominik Jastrzab.jpg",
-            "time": "00:45 29/08",
-            "caster": "Tào A Man",
-            "score": "3-2",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e360a8b387_d3868812_20260829.png?v=d3868812",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c762f35c29",
           "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan | BÚN CHÓ",
           "type": "single",
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787901231084_Sun Yi Hsuan.jpg",
             "time": "00:45 29/08",
             "caster": "BÚN CHÓ",
-            "score": "6-5",
+            "score": "7-5",
             "is_live": true,
             "hot": false
           },
