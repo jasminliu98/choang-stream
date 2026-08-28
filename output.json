@@ -956,83 +956,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d48867151e",
-          "name": "Duy Đen vs Đối của Duy (8wwin) | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d48867151e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d48867151e",
-                  "name": "Duy Đen vs Đối của Duy (8wwin)",
-                  "streams": [
-                    {
-                      "id": "st-d48867151e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d48867151e",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7039/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Leo Billard",
-            "team_a": "Duy Đen",
-            "team_b": "Đối của Duy (8wwin)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "18:39 28/08",
-            "caster": "Thập Cẩm",
-            "score": "8-10",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d48867151e_71646c83_20260828.png?v=71646c83",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-df396fc0e8",
           "name": "Hoàng Sao vs Wojciech Szewczyk | 23:00 28/08",
@@ -1173,6 +1101,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd6bc6a9d9_3e25832e_20260828.png?v=3e25832e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-64479930e3",
+          "name": "AJ Manas vs Tyler Styer | 23:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64479930e3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-64479930e3",
+                  "name": "AJ Manas vs Tyler Styer",
+                  "streams": [
+                    {
+                      "id": "st-64479930e3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64479930e3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7019/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship",
+            "team_a": "AJ Manas",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787900956201_AJ MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787900961892_Tyler Styer.jpg",
+            "time": "23:00 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64479930e3_b900b705_20260828.png?v=b900b705",
             "width": 1600,
             "height": 1200
           }
@@ -1394,8 +1394,8 @@
           }
         },
         {
-          "id": "chtv-64479930e3",
-          "name": "AJ Manas vs Tyler Styer | 23:00 28/08",
+          "id": "chtv-e05ebd2dde",
+          "name": "Mickey Krause vs Justin Bergman | 00:45 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1409,23 +1409,23 @@
           ],
           "sources": [
             {
-              "id": "src-64479930e3",
+              "id": "src-e05ebd2dde",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-64479930e3",
-                  "name": "AJ Manas vs Tyler Styer",
+                  "id": "ct-e05ebd2dde",
+                  "name": "Mickey Krause vs Justin Bergman",
                   "streams": [
                     {
-                      "id": "st-64479930e3",
+                      "id": "st-e05ebd2dde",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-64479930e3",
+                          "id": "lnk-e05ebd2dde",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7019/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7023/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1445,12 +1445,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship",
-            "team_a": "AJ Manas",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787900956201_AJ MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787900961892_Tyler Styer.jpg",
-            "time": "23:00 28/08",
+            "league": "Bàn TV4 | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Mickey Krause",
+            "team_b": "Justin Bergman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901868927_Mickey Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901871876_Justin Bergman.jpg",
+            "time": "00:45 29/08",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -1460,7 +1460,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64479930e3_b900b705_20260828.png?v=b900b705",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e05ebd2dde_b15ce38e_20260828.png?v=b15ce38e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c762f35c29",
+          "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan | 00:45 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c762f35c29",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c762f35c29",
+                  "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan",
+                  "streams": [
+                    {
+                      "id": "st-c762f35c29",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c762f35c29",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7021/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV2  | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Sun Yi Hsuan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901224982_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901231084_Sun Yi Hsuan.jpg",
+            "time": "00:45 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c762f35c29_bff9e758_20260828.png?v=bff9e758",
             "width": 1600,
             "height": 1200
           }
@@ -1605,150 +1677,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0428018f81_63084ee6_20260828.png?v=63084ee6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e05ebd2dde",
-          "name": "Mickey Krause vs Justin Bergman | 00:45 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e05ebd2dde",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e05ebd2dde",
-                  "name": "Mickey Krause vs Justin Bergman",
-                  "streams": [
-                    {
-                      "id": "st-e05ebd2dde",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e05ebd2dde",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7023/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship Loạt khung giờ 00:45",
-            "team_a": "Mickey Krause",
-            "team_b": "Justin Bergman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787901868927_Mickey Krause.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787901871876_Justin Bergman.jpg",
-            "time": "00:45 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e05ebd2dde_b15ce38e_20260828.png?v=b15ce38e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c762f35c29",
-          "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan | 00:45 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c762f35c29",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c762f35c29",
-                  "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan",
-                  "streams": [
-                    {
-                      "id": "st-c762f35c29",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c762f35c29",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7021/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2  | US Open Pool championship Loạt khung giờ 00:45",
-            "team_a": "Francisco Sánchez Ruiz",
-            "team_b": "Sun Yi Hsuan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787901224982_Francisco SÃ¡nchez Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787901231084_Sun Yi Hsuan.jpg",
-            "time": "00:45 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c762f35c29_bff9e758_20260828.png?v=bff9e758",
             "width": 1600,
             "height": 1200
           }
