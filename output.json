@@ -378,7 +378,7 @@
         },
         {
           "id": "chtv-bf450a1a5b",
-          "name": "ONE Friday Fights | MMA | 20:30 28/08",
+          "name": "Trận 1 |  ONE Friday Fights | MMA | 20:30 28/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-bf450a1a5b",
-                  "name": "ONE Friday Fights | MMA",
+                  "name": "Trận 1 |  ONE Friday Fights | MMA",
                   "streams": [
                     {
                       "id": "st-bf450a1a5b",
@@ -428,7 +428,7 @@
             }
           ],
           "org_metadata": {
-            "league": "ONE Friday Fights | MMA",
+            "league": "Trận 1 |  ONE Friday Fights | MMA",
             "team_a": "",
             "team_b": "",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787915977166_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 181712.png",
@@ -444,6 +444,582 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bf450a1a5b_2274fc61_20260828.png?v=2274fc61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a0b48f2354",
+          "name": "Trận 2 |  ONE Friday Fights | Muay Thai | 20:45 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0b48f2354",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a0b48f2354",
+                  "name": "Trận 2 |  ONE Friday Fights | Muay Thai",
+                  "streams": [
+                    {
+                      "id": "st-a0b48f2354",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0b48f2354",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7031/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 2 |  ONE Friday Fights | Muay Thai",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916050838_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 181825.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916074366_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 181846.png",
+            "time": "20:45 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0b48f2354_e0656398_20260828.png?v=e0656398",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-42d6bb2553",
+          "name": "Trận 3 |  ONE Friday Fights | MMA Kickboxing | 21:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42d6bb2553",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-42d6bb2553",
+                  "name": "Trận 3 |  ONE Friday Fights | MMA Kickboxing",
+                  "streams": [
+                    {
+                      "id": "st-42d6bb2553",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-42d6bb2553",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7032/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 3 |  ONE Friday Fights | MMA Kickboxing",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916233744_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182123.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916264302_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182159.png",
+            "time": "21:00 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-42d6bb2553_c52a8c59_20260828.png?v=c52a8c59",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-33c2c29d12",
+          "name": "Trận 4  ONE Friday Fights | Muay Thai | 21:15 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33c2c29d12",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-33c2c29d12",
+                  "name": "Trận 4  ONE Friday Fights | Muay Thai",
+                  "streams": [
+                    {
+                      "id": "st-33c2c29d12",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-33c2c29d12",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7033/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 4  ONE Friday Fights | Muay Thai",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916300047_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182234.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916320458_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182256.png",
+            "time": "21:15 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-33c2c29d12_9c31317a_20260828.png?v=9c31317a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f1e9f5123c",
+          "name": "Trận 5 |  ONE Friday Fights | Muay Thai | 21:30 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1e9f5123c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f1e9f5123c",
+                  "name": "Trận 5 |  ONE Friday Fights | Muay Thai",
+                  "streams": [
+                    {
+                      "id": "st-f1e9f5123c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f1e9f5123c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7034/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 5 |  ONE Friday Fights | Muay Thai",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916359095_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182335.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916371279_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182346.png",
+            "time": "21:30 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f1e9f5123c_9f354230_20260828.png?v=9f354230",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-05558dafa4",
+          "name": "trận 6 |  ONE Friday Fights | MMA | 21:45 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05558dafa4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-05558dafa4",
+                  "name": "trận 6 |  ONE Friday Fights | MMA",
+                  "streams": [
+                    {
+                      "id": "st-05558dafa4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-05558dafa4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7035/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "trận 6 |  ONE Friday Fights | MMA",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916399344_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182409.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916413765_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182428.png",
+            "time": "21:45 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-05558dafa4_96ae3c4a_20260828.png?v=96ae3c4a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9f05fc1843",
+          "name": "Trận 7  ONE Friday Fights | MMA | 22:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f05fc1843",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9f05fc1843",
+                  "name": "Trận 7  ONE Friday Fights | MMA",
+                  "streams": [
+                    {
+                      "id": "st-9f05fc1843",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f05fc1843",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7036/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 7  ONE Friday Fights | MMA",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916458741_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182512.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916479859_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182531.png",
+            "time": "22:00 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9f05fc1843_ff345ac7_20260828.png?v=ff345ac7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-47df8d5ae9",
+          "name": "Trận 8 | ONE Friday Fights | MMA | 22:15 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47df8d5ae9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-47df8d5ae9",
+                  "name": "Trận 8 | ONE Friday Fights | MMA",
+                  "streams": [
+                    {
+                      "id": "st-47df8d5ae9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47df8d5ae9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7037/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 8 | ONE Friday Fights | MMA",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916533912_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182628.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916547330_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182642.png",
+            "time": "22:15 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-47df8d5ae9_0af4c341_20260828.png?v=0af4c341",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fba29f016f",
+          "name": "Trận 9 | ONE Friday Fights | MMA | 22:30 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fba29f016f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fba29f016f",
+                  "name": "Trận 9 | ONE Friday Fights | MMA",
+                  "streams": [
+                    {
+                      "id": "st-fba29f016f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fba29f016f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7038/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 9 | ONE Friday Fights | MMA",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787916580210_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182715.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787916605545_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 182738.png",
+            "time": "22:30 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fba29f016f_093210e4_20260828.png?v=093210e4",
             "width": 1600,
             "height": 1200
           }
