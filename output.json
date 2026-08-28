@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-4076f8ffe3",
+          "name": "Hoàng Sao vs Wojciech Szewczyk | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4076f8ffe3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4076f8ffe3",
+                  "name": "Hoàng Sao vs Wojciech Szewczyk",
+                  "streams": [
+                    {
+                      "id": "st-4076f8ffe3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4076f8ffe3",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7044/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Không Bàn TV có sóng sẽ Phát | US Open Pool championship",
+            "team_a": "Hoàng Sao",
+            "team_b": "Wojciech Szewczyk",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787931725998_Wojciech Szewczyk.jpg",
+            "time": "23:00 28/08",
+            "caster": "Thập Cẩm",
+            "score": "8-8",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4076f8ffe3_7d295d96_20260829.png?v=7d295d96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-df396fc0e8",
           "name": "Hoàng Sao vs Wojciech Szewczyk | Kèn Kèn",
@@ -89,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-4076f8ffe3",
-          "name": "Hoàng Sao vs Wojciech Szewczyk | Thập Cẩm",
+          "id": "chtv-d930f57fa0",
+          "name": "Joshua Filler vs Stephen Holem | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-4076f8ffe3",
+              "id": "src-d930f57fa0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4076f8ffe3",
-                  "name": "Hoàng Sao vs Wojciech Szewczyk",
+                  "id": "ct-d930f57fa0",
+                  "name": "Joshua Filler vs Stephen Holem",
                   "streams": [
                     {
-                      "id": "st-4076f8ffe3",
+                      "id": "st-d930f57fa0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4076f8ffe3",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-d930f57fa0",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7044/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7049/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Không Bàn TV có sóng sẽ Phát | US Open Pool championship",
-            "team_a": "Hoàng Sao",
-            "team_b": "Wojciech Szewczyk",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787931725998_Wojciech Szewczyk.jpg",
-            "time": "23:00 28/08",
-            "caster": "Thập Cẩm",
-            "score": "8-8",
+            "league": "Bàn T1 | US Open Pool championship",
+            "team_a": "Joshua Filler",
+            "team_b": "Stephen Holem",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787943454096_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787943548645_Screenshot 2026-08-29 015855.png",
+            "time": "00:00 29/08",
+            "caster": "VÁNG",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -155,7 +227,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4076f8ffe3_7d295d96_20260829.png?v=7d295d96",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d930f57fa0_5ae2c375_20260829.png?v=5ae2c375",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e05ebd2dde",
+          "name": "Mickey Krause vs Justin Bergman | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e05ebd2dde",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e05ebd2dde",
+                  "name": "Mickey Krause vs Justin Bergman",
+                  "streams": [
+                    {
+                      "id": "st-e05ebd2dde",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e05ebd2dde",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7023/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV4 | US Open Pool championship Loạt khung giờ 00:45",
+            "team_a": "Mickey Krause",
+            "team_b": "Justin Bergman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787901868927_Mickey Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787901871876_Justin Bergman.jpg",
+            "time": "00:45 29/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "2-7",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e05ebd2dde_b15ce38e_20260829.png?v=b15ce38e",
             "width": 1600,
             "height": 1200
           }
@@ -233,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-e05ebd2dde",
-          "name": "Mickey Krause vs Justin Bergman | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e05ebd2dde",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e05ebd2dde",
-                  "name": "Mickey Krause vs Justin Bergman",
-                  "streams": [
-                    {
-                      "id": "st-e05ebd2dde",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e05ebd2dde",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7023/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV4 | US Open Pool championship Loạt khung giờ 00:45",
-            "team_a": "Mickey Krause",
-            "team_b": "Justin Bergman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787901868927_Mickey Krause.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787901871876_Justin Bergman.jpg",
-            "time": "00:45 29/08",
-            "caster": "GIÀNG A PHỌ",
-            "score": "2-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e05ebd2dde_b15ce38e_20260829.png?v=b15ce38e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c762f35c29",
           "name": "Francisco Sánchez Ruiz vs Sun Yi Hsuan | BÚN CHÓ",
           "type": "single",
@@ -363,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787901231084_Sun Yi Hsuan.jpg",
             "time": "00:45 29/08",
             "caster": "BÚN CHÓ",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
