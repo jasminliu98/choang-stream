@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787943548645_Screenshot 2026-08-29 015855.png",
             "time": "00:00 29/08",
             "caster": "VÁNG",
-            "score": "8-1",
+            "score": "9-1",
             "is_live": true,
             "hot": true
           },
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-e360a8b387",
-          "name": "Fedor Gorst vs Dominik Jastrzab | Tào A Man",
+          "id": "chtv-a2467abf82",
+          "name": "Jayson Shaw vs Tyler Styer | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-e360a8b387",
+              "id": "src-a2467abf82",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e360a8b387",
-                  "name": "Fedor Gorst vs Dominik Jastrzab",
+                  "id": "ct-a2467abf82",
+                  "name": "Jayson Shaw vs Tyler Styer",
                   "streams": [
                     {
-                      "id": "st-e360a8b387",
+                      "id": "st-a2467abf82",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e360a8b387",
-                          "name": "Tào A Man",
+                          "id": "lnk-a2467abf82",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7022/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7047/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,22 +140,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn TV3  | US Open Pool championship Loạt khung giờ 00:45",
-            "team_a": "Fedor Gorst",
-            "team_b": "Dominik Jastrzab",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787901352700_Fedor Gorst.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787901409748_Dominik Jastrzab.jpg",
-            "time": "00:45 29/08",
-            "caster": "Tào A Man",
-            "score": "9-6",
+            "league": "Bàn T1 | US Open Pool championship",
+            "team_a": "Jayson Shaw",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787941454041_ANH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787941453136_Screenshot 2026-08-29 012408.png",
+            "time": "02:30 29/08",
+            "caster": "VÁNG",
+            "score": "0-0",
             "is_live": true,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e360a8b387_d3868812_20260829.png?v=d3868812",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2467abf82_0602db6a_20260829.png?v=0602db6a",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787944876570_Screenshot 2026-07-07 002427.png",
             "time": "02:30 29/08",
             "caster": "BÚN CHÓ",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -372,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2d7cd10766_ec2add03_20260829.png?v=ec2add03",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a2467abf82",
-          "name": "Jayson Shaw vs Tyler Styer | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2467abf82",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a2467abf82",
-                  "name": "Jayson Shaw vs Tyler Styer",
-                  "streams": [
-                    {
-                      "id": "st-a2467abf82",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2467abf82",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7047/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn T1 | US Open Pool championship",
-            "team_a": "Jayson Shaw",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787941454041_ANH.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787941453136_Screenshot 2026-08-29 012408.png",
-            "time": "02:30 29/08",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2467abf82_0602db6a_20260829.png?v=0602db6a",
             "width": 1600,
             "height": 1200
           }
