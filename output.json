@@ -10,6 +10,159 @@
   },
   "groups": [
     {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-5377bee2b7",
+          "name": "Trận 3  | The Inner Circle | Muay Thai | 19:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5377bee2b7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5377bee2b7",
+                  "name": "Trận 3  | The Inner Circle | Muay Thai",
+                  "streams": [
+                    {
+                      "id": "st-5377bee2b7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5377bee2b7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7008/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 3  | The Inner Circle | Muay Thai",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787897518980_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 130933.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787897547073_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 130959.png",
+            "time": "19:00 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5377bee2b7_255dd20b_20260828.png?v=255dd20b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-77dda756d4",
+          "name": "Trận 4  | The Inner Circle | Muay Thai | 19:15 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77dda756d4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-77dda756d4",
+                  "name": "Trận 4  | The Inner Circle | Muay Thai",
+                  "streams": [
+                    {
+                      "id": "st-77dda756d4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-77dda756d4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7009/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 4  | The Inner Circle | Muay Thai",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787897823336_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 131436.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787897840105_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 131453.png",
+            "time": "19:15 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-77dda756d4_f3713154_20260828.png?v=f3713154",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_billiards",
       "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
@@ -75,7 +228,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787891747923_Screenshot 2026-08-28 113544.png",
             "time": "00:00 28/08",
             "caster": "Đại Kê",
-            "score": "22-30",
+            "score": "22-35",
             "is_live": true,
             "hot": false
           },
