@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (4 LIVE)",
+      "name": "🥊 Võ Thuật (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -306,16 +306,16 @@
         },
         {
           "id": "chtv-ddc26176de",
-          "name": "Trận 5 | The Inner Circle | Muay Thai | 19:30 28/08",
+          "name": "Worapon Lukjaoporongtom vs Lenny Blasi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -325,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-ddc26176de",
-                  "name": "Trận 5 | The Inner Circle | Muay Thai",
+                  "name": "Worapon Lukjaoporongtom vs Lenny Blasi",
                   "streams": [
                     {
                       "id": "st-ddc26176de",
@@ -357,14 +357,14 @@
           ],
           "org_metadata": {
             "league": "Trận 5 | The Inner Circle | Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Worapon Lukjaoporongtom",
+            "team_b": "Lenny Blasi",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787898002232_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 131731.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787898024456_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-08-28 131754.png",
             "time": "19:30 28/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
