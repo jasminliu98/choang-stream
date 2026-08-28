@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-723b339b1b",
-          "name": "Khánh Sờ Kai vs Duy Đen Đúa | Thập Cẩm",
+          "id": "chtv-586269abcb",
+          "name": "JAYBEE SUCAL vs KEN TABURA (7-9-10)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-723b339b1b",
+              "id": "src-586269abcb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-723b339b1b",
-                  "name": "Khánh Sờ Kai vs Duy Đen Đúa",
+                  "id": "ct-586269abcb",
+                  "name": "JAYBEE SUCAL vs KEN TABURA (7-9-10)",
                   "streams": [
                     {
-                      "id": "st-723b339b1b",
+                      "id": "st-586269abcb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-723b339b1b",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-586269abcb",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7004/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7005/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Game 3",
-            "team_a": "Khánh Sờ Kai",
-            "team_b": "Duy Đen Đúa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778267584065_photo_2_2026-05-09_02-12-54.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
-            "time": "12:14 28/08",
-            "caster": "Thập Cẩm",
-            "score": "7-4",
+            "league": "Siêu Độ Phủi Phi",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "KEN TABURA (7-9-10)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787895684754_JAYBEE SUCAL.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "time": "12:39 28/08",
+            "caster": "",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-723b339b1b_63308af3_20260828.png?v=63308af3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-586269abcb_645f039a_20260828.png?v=645f039a",
             "width": 1600,
             "height": 1200
           }
