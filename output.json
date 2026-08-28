@@ -674,78 +674,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-1c081555bd",
-          "name": "Thành Mất Tay vs Tùng Mắt Híp | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c081555bd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1c081555bd",
-                  "name": "Thành Mất Tay vs Tùng Mắt Híp",
-                  "streams": [
-                    {
-                      "id": "st-1c081555bd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c081555bd",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7041/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thành Cụt Billiard shop",
-            "team_a": "Thành Mất Tay",
-            "team_b": "Tùng Mắt Híp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787921099324_THÃNH Cá»¤T.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787921108343_tÃ¹ng hÃ­p.png",
-            "time": "20:00 28/08",
-            "caster": "BÚN CHÓ",
-            "score": "4-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1c081555bd_5a0584ae_20260828.png?v=5a0584ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e33b6c689e",
           "name": "Duy Đen vs Đối của Duy | Thập Cẩm",
           "type": "single",
@@ -804,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
             "time": "20:00 28/08",
             "caster": "Thập Cẩm",
-            "score": "6-6",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
@@ -813,6 +741,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e33b6c689e_a485759a_20260828.png?v=a485759a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1c081555bd",
+          "name": "Thành Mất Tay vs Tùng Mắt Híp | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c081555bd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1c081555bd",
+                  "name": "Thành Mất Tay vs Tùng Mắt Híp",
+                  "streams": [
+                    {
+                      "id": "st-1c081555bd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c081555bd",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7041/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thành Cụt Billiard shop",
+            "team_a": "Thành Mất Tay",
+            "team_b": "Tùng Mắt Híp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787921099324_THÃNH Cá»¤T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787921108343_tÃ¹ng hÃ­p.png",
+            "time": "20:00 28/08",
+            "caster": "BÚN CHÓ",
+            "score": "5-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1c081555bd_5a0584ae_20260828.png?v=5a0584ae",
             "width": 1600,
             "height": 1200
           }
@@ -1106,78 +1106,6 @@
           }
         },
         {
-          "id": "chtv-0ac598b8e9",
-          "name": "Jayson Shaw vs Niels Feijen | 23:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ac598b8e9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0ac598b8e9",
-                  "name": "Jayson Shaw vs Niels Feijen",
-                  "streams": [
-                    {
-                      "id": "st-0ac598b8e9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ac598b8e9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7017/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bàn TV2  | US Open Pool championship",
-            "team_a": "Jayson Shaw",
-            "team_b": "Niels Feijen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787900729829_Jayson Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787900737128_Niels Feijen.jpg",
-            "time": "23:00 28/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0ac598b8e9_483a103d_20260828.png?v=483a103d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b755d10e87",
           "name": "Aloysius Yapp vs David Alcaide | 23:00 28/08",
           "type": "single",
@@ -1245,6 +1173,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b755d10e87_f0ac8fd6_20260828.png?v=f0ac8fd6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0ac598b8e9",
+          "name": "Jayson Shaw vs Niels Feijen | 23:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ac598b8e9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0ac598b8e9",
+                  "name": "Jayson Shaw vs Niels Feijen",
+                  "streams": [
+                    {
+                      "id": "st-0ac598b8e9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ac598b8e9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7017/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bàn TV2  | US Open Pool championship",
+            "team_a": "Jayson Shaw",
+            "team_b": "Niels Feijen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787900729829_Jayson Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787900737128_Niels Feijen.jpg",
+            "time": "23:00 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0ac598b8e9_483a103d_20260828.png?v=483a103d",
             "width": 1600,
             "height": 1200
           }
