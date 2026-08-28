@@ -308,7 +308,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -372,7 +372,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787906096086_Tiáº¿n Minh TH.jpg",
             "time": "00:00 28/08",
             "caster": "Thập Cẩm",
-            "score": "2-2",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
@@ -444,7 +444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787906317706_LONG Tá»U.jpg",
             "time": "00:00 28/08",
             "caster": "Xinh Yeu",
-            "score": "5-3",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -453,6 +453,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65e96d0d65_f68f6ceb_20260828.png?v=f68f6ceb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d8a1d0e13e",
+          "name": "Khầy Nam vs Tiến Minh Rau Má",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8a1d0e13e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8a1d0e13e",
+                  "name": "Khầy Nam vs Tiến Minh Rau Má",
+                  "streams": [
+                    {
+                      "id": "st-d8a1d0e13e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8a1d0e13e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7028/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thành Nam Billlard",
+            "team_a": "Khầy Nam",
+            "team_b": "Tiến Minh Rau Má",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787907471958_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787907466379_Tiáº¿n Minh TH.jpg",
+            "time": "00:00 28/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d8a1d0e13e_cc379dba_20260828.png?v=cc379dba",
             "width": 1600,
             "height": 1200
           }
