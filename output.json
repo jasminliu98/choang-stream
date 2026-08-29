@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "21:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "14-11",
+            "score": "14-12",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788003754990_Joshua Filler.jpg",
             "time": "22:59 29/08",
             "caster": "VÁNG",
-            "score": "6-4",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a0a0ea3ad_303d6367_20260830.png?v=303d6367",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d5cd40d5b4",
+          "name": "David Alcaide vs Felix Vogel | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5cd40d5b4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d5cd40d5b4",
+                  "name": "David Alcaide vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-d5cd40d5b4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5cd40d5b4",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7116/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2| Tứ Kết | US Open Pool championship",
+            "team_a": "David Alcaide",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788003316583_David Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788003319180_Felix Vogel.jpg",
+            "time": "23:00 29/08",
+            "caster": "Thập Cẩm",
+            "score": "8-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5cd40d5b4_bc2a9ab5_20260830.png?v=bc2a9ab5",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788003572282_Felix Vogel.jpg",
             "time": "23:00 29/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-2",
+            "score": "8-3",
             "is_live": true,
             "hot": true
           },
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-d5cd40d5b4",
-          "name": "David Alcaide vs Felix Vogel | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5cd40d5b4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d5cd40d5b4",
-                  "name": "David Alcaide vs Felix Vogel",
-                  "streams": [
-                    {
-                      "id": "st-d5cd40d5b4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5cd40d5b4",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7116/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2| Tứ Kết | US Open Pool championship",
-            "team_a": "David Alcaide",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788003316583_David Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788003319180_Felix Vogel.jpg",
-            "time": "23:00 29/08",
-            "caster": "Thập Cẩm",
-            "score": "8-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5cd40d5b4_bc2a9ab5_20260830.png?v=bc2a9ab5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7578a24179",
           "name": "Thành MấtTay vs BìnhỐc chuốiđậu | Kèn Kèn",
           "type": "single",
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788024056814_BÃNH á»C.jpg",
             "time": "00:00 30/08",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7578a24179_6d9970c8_20260830.png?v=6d9970c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-386059a302",
+          "name": "Fedor Gorst vs Robbie Capito | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-386059a302",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-386059a302",
+                  "name": "Fedor Gorst vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-386059a302",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-386059a302",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7121/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết US Open Pool championship",
+            "team_a": "Fedor Gorst",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788004553814_Fedor Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788004556911_ROBBIE CAPITO.jpg",
+            "time": "01:00 30/08",
+            "caster": "VÁNG",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-386059a302_ee57d05a_20260830.png?v=ee57d05a",
             "width": 1600,
             "height": 1200
           }
