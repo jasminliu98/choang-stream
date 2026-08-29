@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (6 LIVE)",
+      "name": "🥊 Võ Thuật (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3672dc8370",
-          "name": "Bilal Hasan vs Nilson Rojas | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3672dc8370",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3672dc8370",
-                  "name": "Bilal Hasan vs Nilson Rojas",
-                  "streams": [
-                    {
-                      "id": "st-3672dc8370",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3672dc8370",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7093/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 8 | UFC Fight Night | Hạng ruồi",
-            "team_a": "Bilal Hasan",
-            "team_b": "Nilson Rojas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787988225229_3c4khrcfnmrq_large.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "17:00 29/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3672dc8370_f9f311ba_20260829.png?v=f9f311ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-43536ebe2e",
           "name": "Liu Ce vs Nilson Rojas | Thập Cẩm",
@@ -516,7 +444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
             "time": "15:45 29/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "4-7",
+            "score": "4-8",
             "is_live": true,
             "hot": true
           },
@@ -530,7 +458,7 @@
           }
         },
         {
-          "id": "chtv-6463460970",
+          "id": "chtv-ed73732ee8",
           "name": "Alex Sander Kiên Sếu vs Đãng BN | 18:00 29/08",
           "type": "single",
           "display": "thumbnail-only",
@@ -545,23 +473,23 @@
           ],
           "sources": [
             {
-              "id": "src-6463460970",
+              "id": "src-ed73732ee8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6463460970",
+                  "id": "ct-ed73732ee8",
                   "name": "Alex Sander Kiên Sếu vs Đãng BN",
                   "streams": [
                     {
-                      "id": "st-6463460970",
+                      "id": "st-ed73732ee8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6463460970",
+                          "id": "lnk-ed73732ee8",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7109/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7110/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -585,7 +513,7 @@
             "team_a": "Alex Sander Kiên Sếu",
             "team_b": "Đãng BN",
             "logo_a": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot 2025-12-21 010653.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787998560368_ÄÃNG BN.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787998614869_ÄÃNG BN.png",
             "time": "18:00 29/08",
             "caster": "",
             "score": "0-0",
@@ -596,7 +524,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6463460970_904057d0_20260829.png?v=904057d0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ed73732ee8_c964240f_20260829.png?v=c964240f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-40d09db56d",
+          "name": "Duy Đinh vs Đạt Phi | 18:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40d09db56d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-40d09db56d",
+                  "name": "Duy Đinh vs Đạt Phi",
+                  "streams": [
+                    {
+                      "id": "st-40d09db56d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40d09db56d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7111/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Sao Đại Chiến",
+            "team_a": "Duy Đinh",
+            "team_b": "Đạt Phi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787998711777_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766247501155_photo_2025-12-20_23-18-01.jpg",
+            "time": "18:00 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-40d09db56d_e5122648_20260829.png?v=e5122648",
             "width": 1600,
             "height": 1200
           }
@@ -741,78 +741,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18d38223ec_fdef74b2_20260829.png?v=fdef74b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-40d09db56d",
-          "name": "Duy Đinh vs Đạt Phi | 18:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40d09db56d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-40d09db56d",
-                  "name": "Duy Đinh vs Đạt Phi",
-                  "streams": [
-                    {
-                      "id": "st-40d09db56d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40d09db56d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7111/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Sao Đại Chiến",
-            "team_a": "Duy Đinh",
-            "team_b": "Đạt Phi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787998711777_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766247501155_photo_2025-12-20_23-18-01.jpg",
-            "time": "18:00 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-40d09db56d_e5122648_20260829.png?v=e5122648",
             "width": 1600,
             "height": 1200
           }
