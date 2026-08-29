@@ -668,11 +668,155 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-65ac0c453f",
+          "name": "KO PIN NHÍ / THÁI SƠN vs TUSROKU / TÀI PHAN | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65ac0c453f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-65ac0c453f",
+                  "name": "KO PIN NHÍ / THÁI SƠN vs TUSROKU / TÀI PHAN",
+                  "streams": [
+                    {
+                      "id": "st-65ac0c453f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65ac0c453f",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7105/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Las Vegas Billiards Entertainment",
+            "team_a": "KO PIN NHÍ / THÁI SƠN",
+            "team_b": "TUSROKU / TÀI PHAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "time": "15:45 29/08",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65ac0c453f_c5d47df0_20260829.png?v=c5d47df0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9cca6ce9f6",
+          "name": "Văn Sinh vs Quang Đeo Kính | 16:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9cca6ce9f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9cca6ce9f6",
+                  "name": "Văn Sinh vs Quang Đeo Kính",
+                  "streams": [
+                    {
+                      "id": "st-9cca6ce9f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9cca6ce9f6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7106/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 Billard V8 Siêu Bịp",
+            "team_a": "Văn Sinh",
+            "team_b": "Quang Đeo Kính",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787992580170_VÄn Sinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764962002440_S.Van Boening.jpg",
+            "time": "16:00 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9cca6ce9f6_51c07603_20260829.png?v=51c07603",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-a969e4c2f7",
           "name": "Phương HE vs Tùng Híp | 16:00 29/08",
