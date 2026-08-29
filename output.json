@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-94ead17258",
-          "name": "David Alcaide vs Jayson Shaw | BÚN CHÓ",
+          "id": "chtv-4cb9a31993",
+          "name": "Felix Vogel vs Kledio Kaci | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-94ead17258",
+              "id": "src-4cb9a31993",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-94ead17258",
-                  "name": "David Alcaide vs Jayson Shaw",
+                  "id": "ct-4cb9a31993",
+                  "name": "Felix Vogel vs Kledio Kaci",
                   "streams": [
                     {
-                      "id": "st-94ead17258",
+                      "id": "st-4cb9a31993",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-94ead17258",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-4cb9a31993",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7062/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7063/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn T2 | US Open Pool championship",
-            "team_a": "David Alcaide",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787956011310_3.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787956011763_ANH.png",
+            "league": "Bàn T3 | US Open Pool championship",
+            "team_a": "Felix Vogel",
+            "team_b": "Kledio Kaci",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787956062936_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787956062545_8.jpg",
             "time": "06:00 29/08",
-            "caster": "BÚN CHÓ",
-            "score": "4-3",
+            "caster": "Tào A Man",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-94ead17258_77a63f73_20260829.png?v=77a63f73",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4cb9a31993_ff3d98b6_20260829.png?v=ff3d98b6",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-4cb9a31993",
-          "name": "Felix Vogel vs Kledio Kaci | Tào A Man",
+          "id": "chtv-94ead17258",
+          "name": "David Alcaide vs Jayson Shaw | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-4cb9a31993",
+              "id": "src-94ead17258",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4cb9a31993",
-                  "name": "Felix Vogel vs Kledio Kaci",
+                  "id": "ct-94ead17258",
+                  "name": "David Alcaide vs Jayson Shaw",
                   "streams": [
                     {
-                      "id": "st-4cb9a31993",
+                      "id": "st-94ead17258",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4cb9a31993",
-                          "name": "Tào A Man",
+                          "id": "lnk-94ead17258",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7063/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7062/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Bàn T3 | US Open Pool championship",
-            "team_a": "Felix Vogel",
-            "team_b": "Kledio Kaci",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787956062936_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787956062545_8.jpg",
+            "league": "Bàn T2 | US Open Pool championship",
+            "team_a": "David Alcaide",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787956011310_3.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787956011763_ANH.png",
             "time": "06:00 29/08",
-            "caster": "Tào A Man",
-            "score": "3-3",
+            "caster": "BÚN CHÓ",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4cb9a31993_ff3d98b6_20260829.png?v=ff3d98b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-94ead17258_77a63f73_20260829.png?v=77a63f73",
             "width": 1600,
             "height": 1200
           }
