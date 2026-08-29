@@ -452,7 +452,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -530,78 +530,6 @@
           }
         },
         {
-          "id": "chtv-cad4a23756",
-          "name": "Tiến Minh Rau Má vs Duy Đinh | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cad4a23756",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cad4a23756",
-                  "name": "Tiến Minh Rau Má vs Duy Đinh",
-                  "streams": [
-                    {
-                      "id": "st-cad4a23756",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cad4a23756",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7103/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Tiến Minh Rau Má",
-            "team_b": "Duy Đinh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787992235336_Tiáº¿n Minh TH.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787992247138_Duy Äinh.jpg",
-            "time": "16:00 29/08",
-            "caster": "Lee Min Hoo",
-            "score": "5-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cad4a23756_9a234d51_20260829.png?v=9a234d51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a969e4c2f7",
           "name": "Phương HE vs Tùng Híp | Xinh Yeu",
           "type": "single",
@@ -660,7 +588,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787992345707_tÃ¹ng hÃ­p.png",
             "time": "16:00 29/08",
             "caster": "Xinh Yeu",
-            "score": "7-5",
+            "score": "8-5",
             "is_live": true,
             "hot": true
           },
@@ -732,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765275870645_táº£i xuá»ng.png",
             "time": "16:00 29/08",
             "caster": "SÊ KÔÔ",
-            "score": "6-5",
+            "score": "7-6",
             "is_live": true,
             "hot": true
           },
