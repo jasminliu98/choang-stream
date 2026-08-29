@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788028715688_Screenshot 2026-08-30 013556.png",
             "time": "03:00 30/08",
             "caster": "Kèn Kèn",
-            "score": "3-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788028559188_Screenshot 2026-08-30 013556.png",
             "time": "03:00 30/08",
             "caster": "VÁNG",
-            "score": "2-3",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -156,150 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b258661419_f22e0c96_20260830.png?v=f22e0c96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-54c91af016",
-          "name": "Robbie Capito vs Aleksa Pecelj | 05:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54c91af016",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-54c91af016",
-                  "name": "Robbie Capito vs Aleksa Pecelj",
-                  "streams": [
-                    {
-                      "id": "st-54c91af016",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54c91af016",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7138/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | BÁN KẾT2 | US Open Pool championship (kèo chấp)",
-            "team_a": "Robbie Capito",
-            "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788036463495_Screenshot 2026-08-30 034739.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788035096722_Screenshot 2026-08-30 012923.png",
-            "time": "05:00 30/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-54c91af016_f3e526f0_20260830.png?v=f3e526f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-787c13f133",
-          "name": "Robbie Capito vs Aleksa Pecelj | 05:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-787c13f133",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-787c13f133",
-                  "name": "Robbie Capito vs Aleksa Pecelj",
-                  "streams": [
-                    {
-                      "id": "st-787c13f133",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-787c13f133",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7136/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | BÁN KẾT2 | US Open Pool championship",
-            "team_a": "Robbie Capito",
-            "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788036496597_Screenshot 2026-08-30 034739.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788034991454_Screenshot 2026-08-30 012923.png",
-            "time": "05:00 30/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-787c13f133_d84e64fe_20260830.png?v=d84e64fe",
             "width": 1600,
             "height": 1200
           }
