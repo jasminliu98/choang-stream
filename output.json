@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788012505263_tÃ¹ng hÃ­p.png",
             "time": "00:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "6-7",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "21:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "7-6",
+            "score": "8-6",
             "is_live": true,
             "hot": false
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a0a0ea3ad_303d6367_20260829.png?v=303d6367",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-64ad682016",
-          "name": "Sánchez Ruiz vs Joshua Filler | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64ad682016",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-64ad682016",
-                  "name": "Sánchez Ruiz vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-64ad682016",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64ad682016",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7119/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | Tứ Kết | US Open Pool championship",
-            "team_a": "Sánchez Ruiz",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788003855277_Francisco SÃ¡nchez Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788003857848_Joshua Filler.jpg",
-            "time": "23:00 29/08",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64ad682016_17fff0cb_20260829.png?v=17fff0cb",
             "width": 1600,
             "height": 1200
           }
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-66a5fbbd7a_87ea65cf_20260829.png?v=87ea65cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-64ad682016",
+          "name": "Sánchez Ruiz vs Joshua Filler | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64ad682016",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-64ad682016",
+                  "name": "Sánchez Ruiz vs Joshua Filler",
+                  "streams": [
+                    {
+                      "id": "st-64ad682016",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64ad682016",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7119/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | Tứ Kết | US Open Pool championship",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788003855277_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788003857848_Joshua Filler.jpg",
+            "time": "23:00 29/08",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64ad682016_17fff0cb_20260829.png?v=17fff0cb",
             "width": 1600,
             "height": 1200
           }
