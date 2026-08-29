@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (5 LIVE)",
+      "name": "🥊 Võ Thuật (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -375,6 +375,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-15c6306efa",
+          "name": "Rei Tsuruya vs Kevin Borjas",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15c6306efa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-15c6306efa",
+                  "name": "Rei Tsuruya vs Kevin Borjas",
+                  "streams": [
+                    {
+                      "id": "st-15c6306efa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15c6306efa",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7091/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 6  | UFC Fight Night | Hạng ruồi",
+            "team_a": "Rei Tsuruya",
+            "team_b": "Kevin Borjas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787987095434_31ng4l2ybjwgk_large.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787987107806_31qz1m3_mv_9d_large.png",
+            "time": "15:15 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-15c6306efa_19b796a4_20260829.png?v=19b796a4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -602,78 +674,6 @@
           }
         },
         {
-          "id": "chtv-cf49bc25ff",
-          "name": "Tkon vs Alex Sander Kiên Sếu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf49bc25ff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cf49bc25ff",
-                  "name": "Tkon vs Alex Sander Kiên Sếu",
-                  "streams": [
-                    {
-                      "id": "st-cf49bc25ff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf49bc25ff",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7082/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Sao Đại Chiến",
-            "team_a": "Tkon",
-            "team_b": "Alex Sander Kiên Sếu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot 2025-12-21 010653.png",
-            "time": "14:00 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cf49bc25ff_b0efb7e7_20260829.png?v=b0efb7e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-0bbdd027ef",
           "name": "Tkon vs Alex Sander Kiên Sếu | Lee Min Hoo",
           "type": "single",
@@ -741,6 +741,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0bbdd027ef_0afd65ce_20260829.png?v=0afd65ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cf49bc25ff",
+          "name": "Tkon vs Alex Sander Kiên Sếu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf49bc25ff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cf49bc25ff",
+                  "name": "Tkon vs Alex Sander Kiên Sếu",
+                  "streams": [
+                    {
+                      "id": "st-cf49bc25ff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf49bc25ff",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7082/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Sao Đại Chiến",
+            "team_a": "Tkon",
+            "team_b": "Alex Sander Kiên Sếu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot 2025-12-21 010653.png",
+            "time": "14:00 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cf49bc25ff_b0efb7e7_20260829.png?v=b0efb7e7",
             "width": 1600,
             "height": 1200
           }
