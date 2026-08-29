@@ -663,6 +663,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-4a32ba0f6a",
+          "name": "Trận 11 | UFC Fight Night | Hạng lông | 17:45 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a32ba0f6a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4a32ba0f6a",
+                  "name": "Trận 11 | UFC Fight Night | Hạng lông",
+                  "streams": [
+                    {
+                      "id": "st-4a32ba0f6a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a32ba0f6a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7096/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 11 | UFC Fight Night | Hạng lông",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787989246179_táº£i xuá»ng (2).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787989270411_31t6g8n9jr7rr_large.png",
+            "time": "17:45 29/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4a32ba0f6a_7893191b_20260829.png?v=7893191b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -732,7 +804,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787985351322_Lá»£i CF.jpg",
             "time": "00:00 29/08",
             "caster": "Xinh Yeu",
-            "score": "3-3",
+            "score": "3-4",
             "is_live": true,
             "hot": false
           },
@@ -804,7 +876,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot 2025-12-21 010653.png",
             "time": "14:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "6-3",
+            "score": "7-3",
             "is_live": true,
             "hot": true
           },
@@ -876,7 +948,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764845324869_wavedo.png",
             "time": "14:00 29/08",
             "caster": "SÊ KÔÔ",
-            "score": "2-3",
+            "score": "3-3",
             "is_live": true,
             "hot": false
           },
@@ -948,7 +1020,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "14:00 29/08",
             "caster": "Đại Kê",
-            "score": "4-1",
+            "score": "5-1",
             "is_live": true,
             "hot": false
           },
