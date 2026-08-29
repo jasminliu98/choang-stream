@@ -380,7 +380,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -530,8 +530,8 @@
           }
         },
         {
-          "id": "chtv-65826444c2",
-          "name": "Mạnh Xoăn vs Dũng Moi | Xinh Yeu",
+          "id": "chtv-66dc52ee5b",
+          "name": "Thành Nam vs Nam Son | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -545,23 +545,23 @@
           ],
           "sources": [
             {
-              "id": "src-65826444c2",
+              "id": "src-66dc52ee5b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-65826444c2",
-                  "name": "Mạnh Xoăn vs Dũng Moi",
+                  "id": "ct-66dc52ee5b",
+                  "name": "Thành Nam vs Nam Son",
                   "streams": [
                     {
-                      "id": "st-65826444c2",
+                      "id": "st-66dc52ee5b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-65826444c2",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-66dc52ee5b",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7113/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7115/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -582,21 +582,21 @@
           ],
           "org_metadata": {
             "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Dũng Moi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765462006462_Máº NH.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787999078289_DÅ¨NG MOI.jpg",
+            "team_a": "Thành Nam",
+            "team_b": "Nam Son",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787999923228_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
             "time": "18:00 29/08",
-            "caster": "Xinh Yeu",
+            "caster": "Đại Kê",
             "score": "0-0",
             "is_live": true,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65826444c2_cc3f7ed5_20260829.png?v=cc3f7ed5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-66dc52ee5b_edb90b51_20260829.png?v=edb90b51",
             "width": 1600,
             "height": 1200
           }
@@ -674,38 +674,38 @@
           }
         },
         {
-          "id": "chtv-66dc52ee5b",
-          "name": "Thành Nam vs Nam Son | 18:00 29/08 | Đại Kê",
+          "id": "chtv-65826444c2",
+          "name": "Mạnh Xoăn vs Dũng Moi | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-66dc52ee5b",
+              "id": "src-65826444c2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-66dc52ee5b",
-                  "name": "Thành Nam vs Nam Son",
+                  "id": "ct-65826444c2",
+                  "name": "Mạnh Xoăn vs Dũng Moi",
                   "streams": [
                     {
-                      "id": "st-66dc52ee5b",
+                      "id": "st-65826444c2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-66dc52ee5b",
-                          "name": "Đại Kê",
+                          "id": "lnk-65826444c2",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7115/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7113/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -726,93 +726,21 @@
           ],
           "org_metadata": {
             "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Thành Nam",
-            "team_b": "Nam Son",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787999923228_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "team_a": "Mạnh Xoăn",
+            "team_b": "Dũng Moi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765462006462_Máº NH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1787999078289_DÅ¨NG MOI.jpg",
             "time": "18:00 29/08",
-            "caster": "Đại Kê",
+            "caster": "Xinh Yeu",
             "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-66dc52ee5b_edb90b51_20260829.png?v=edb90b51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-18d38223ec",
-          "name": "Văn Sinh vs Sỹ Tuấn | 18:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18d38223ec",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-18d38223ec",
-                  "name": "Văn Sinh vs Sỹ Tuấn",
-                  "streams": [
-                    {
-                      "id": "st-18d38223ec",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-18d38223ec",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7112/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Văn Sinh",
-            "team_b": "Sỹ Tuấn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787998808316_VÄn Sinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
-            "time": "18:00 29/08",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-18d38223ec_fdef74b2_20260829.png?v=fdef74b2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65826444c2_cc3f7ed5_20260829.png?v=cc3f7ed5",
             "width": 1600,
             "height": 1200
           }
