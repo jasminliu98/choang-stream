@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (4 LIVE)",
+      "name": "🥊 Võ Thuật (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-e7e70823f6",
-          "name": "Alex Perez vs Su Mudaerji | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e7e70823f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e7e70823f6",
-                  "name": "Alex Perez vs Su Mudaerji",
-                  "streams": [
-                    {
-                      "id": "st-e7e70823f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7e70823f6",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7095/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 10  | UFC Fight Night | Hạng lông",
-            "team_a": "Alex Perez",
-            "team_b": "Su Mudaerji",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787989169793_311r6ch18s5xc_large.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787989184443_368swhkz_8d9_large.png",
-            "time": "17:30 29/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e7e70823f6_c7982565_20260829.png?v=c7982565",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4a32ba0f6a",
           "name": "Qileng Aori vs Kai Asakura | Thập Cẩm",
@@ -314,78 +242,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-66dc52ee5b",
-          "name": "Thành Nam vs Nam Son | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66dc52ee5b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-66dc52ee5b",
-                  "name": "Thành Nam vs Nam Son",
-                  "streams": [
-                    {
-                      "id": "st-66dc52ee5b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66dc52ee5b",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7115/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 Billard V8 Siêu Bịp",
-            "team_a": "Thành Nam",
-            "team_b": "Nam Son",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787999923228_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
-            "time": "18:00 29/08",
-            "caster": "Đại Kê",
-            "score": "2-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-66dc52ee5b_edb90b51_20260829.png?v=edb90b51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-28ddc7cd0a",
           "name": "Khánh Búa vs Hà Thành | Lee Min Hoo",
           "type": "single",
@@ -458,6 +314,78 @@
           }
         },
         {
+          "id": "chtv-66dc52ee5b",
+          "name": "Thành Nam vs Nam Son | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66dc52ee5b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-66dc52ee5b",
+                  "name": "Thành Nam vs Nam Son",
+                  "streams": [
+                    {
+                      "id": "st-66dc52ee5b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66dc52ee5b",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7115/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 Billard V8 Siêu Bịp",
+            "team_a": "Thành Nam",
+            "team_b": "Nam Son",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1787999923228_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-06-03 130517.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_táº£i xuá»ng.png",
+            "time": "18:00 29/08",
+            "caster": "Đại Kê",
+            "score": "2-6",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-66dc52ee5b_edb90b51_20260829.png?v=edb90b51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-65826444c2",
           "name": "Mạnh Xoăn vs Dũng Moi | Xinh Yeu",
           "type": "single",
@@ -516,7 +444,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787999078289_DÅ¨NG MOI.jpg",
             "time": "18:00 29/08",
             "caster": "Xinh Yeu",
-            "score": "3-6",
+            "score": "4-7",
             "is_live": true,
             "hot": false
           },
@@ -588,7 +516,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766247501155_photo_2025-12-20_23-18-01.jpg",
             "time": "18:00 29/08",
             "caster": "SÊ KÔÔ",
-            "score": "6-0",
+            "score": "7-0",
             "is_live": true,
             "hot": false
           },
