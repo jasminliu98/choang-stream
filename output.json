@@ -11,86 +11,14 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (2 LIVE)",
+      "name": "🥊 Võ Thuật (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-15c6306efa",
-          "name": "Rei Tsuruya vs Kevin Borjas | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15c6306efa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-15c6306efa",
-                  "name": "Rei Tsuruya vs Kevin Borjas",
-                  "streams": [
-                    {
-                      "id": "st-15c6306efa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15c6306efa",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7091/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 6  | UFC Fight Night | Hạng ruồi",
-            "team_a": "Rei Tsuruya",
-            "team_b": "Kevin Borjas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1787987095434_31ng4l2ybjwgk_large.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1787987107806_31qz1m3_mv_9d_large.png",
-            "time": "15:15 29/08",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-15c6306efa_19b796a4_20260829.png?v=19b796a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5701b96b27",
-          "name": "Namsrai Batbayar vs André Lima | Tào A Man",
+          "name": "Namsrai Batbayar vs André Lima | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -117,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-5701b96b27",
-                          "name": "Tào A Man",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7092/index.m3u8",
@@ -146,7 +74,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1787987789438_313cwh3m8vy7r_large.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787987799970_31_8lvfpwfcbg_large.png",
             "time": "15:30 29/08",
-            "caster": "Tào A Man",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": true,
             "hot": false
@@ -162,16 +90,16 @@
         },
         {
           "id": "chtv-3672dc8370",
-          "name": "Trận 8 | UFC Fight Night | Hạng ruồi | 17:00 29/08",
+          "name": "Bilal Hasan vs Nilson Rojas",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -181,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-3672dc8370",
-                  "name": "Trận 8 | UFC Fight Night | Hạng ruồi",
+                  "name": "Bilal Hasan vs Nilson Rojas",
                   "streams": [
                     {
                       "id": "st-3672dc8370",
@@ -213,14 +141,14 @@
           ],
           "org_metadata": {
             "league": "Trận 8 | UFC Fight Night | Hạng ruồi",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Bilal Hasan",
+            "team_b": "Nilson Rojas",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787988225229_3c4khrcfnmrq_large.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
             "time": "17:00 29/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -234,16 +162,16 @@
         },
         {
           "id": "chtv-43536ebe2e",
-          "name": "Trận 9  | UFC Fight Night | Hạng dưới nặng | 17:15 29/08",
+          "name": "Liu Ce vs Nilson Rojas",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -253,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-43536ebe2e",
-                  "name": "Trận 9  | UFC Fight Night | Hạng dưới nặng",
+                  "name": "Liu Ce vs Nilson Rojas",
                   "streams": [
                     {
                       "id": "st-43536ebe2e",
@@ -285,14 +213,14 @@
           ],
           "org_metadata": {
             "league": "Trận 9  | UFC Fight Night | Hạng dưới nặng",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Liu Ce",
+            "team_b": "Nilson Rojas",
             "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787988559547_3_my0wj89jg3_large.png",
             "time": "17:15 29/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -306,16 +234,16 @@
         },
         {
           "id": "chtv-e7e70823f6",
-          "name": "Trận 10  | UFC Fight Night | Hạng lông | 17:30 29/08",
+          "name": "Alex Perez vs Su Mudaerji",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -325,7 +253,7 @@
               "contents": [
                 {
                   "id": "ct-e7e70823f6",
-                  "name": "Trận 10  | UFC Fight Night | Hạng lông",
+                  "name": "Alex Perez vs Su Mudaerji",
                   "streams": [
                     {
                       "id": "st-e7e70823f6",
@@ -357,14 +285,14 @@
           ],
           "org_metadata": {
             "league": "Trận 10  | UFC Fight Night | Hạng lông",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Alex Perez",
+            "team_b": "Su Mudaerji",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787989169793_311r6ch18s5xc_large.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787989184443_368swhkz_8d9_large.png",
             "time": "17:30 29/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -378,16 +306,16 @@
         },
         {
           "id": "chtv-4a32ba0f6a",
-          "name": "Trận 11 | UFC Fight Night | Hạng lông | 17:45 29/08",
+          "name": "Qileng Aori vs Kai Asakura",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -397,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-4a32ba0f6a",
-                  "name": "Trận 11 | UFC Fight Night | Hạng lông",
+                  "name": "Qileng Aori vs Kai Asakura",
                   "streams": [
                     {
                       "id": "st-4a32ba0f6a",
@@ -429,14 +357,14 @@
           ],
           "org_metadata": {
             "league": "Trận 11 | UFC Fight Night | Hạng lông",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Qileng Aori",
+            "team_b": "Kai Asakura",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787989246179_táº£i xuá»ng (2).png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787989270411_31t6g8n9jr7rr_large.png",
             "time": "17:45 29/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -450,16 +378,16 @@
         },
         {
           "id": "chtv-bda74808ba",
-          "name": "Trận 12  | UFC Fight Night | Hạng nhẹ nữ | 18:00 29/08",
+          "name": "Yan Xiaonan vs Denise Gomes",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -469,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-bda74808ba",
-                  "name": "Trận 12  | UFC Fight Night | Hạng nhẹ nữ",
+                  "name": "Yan Xiaonan vs Denise Gomes",
                   "streams": [
                     {
                       "id": "st-bda74808ba",
@@ -501,14 +429,14 @@
           ],
           "org_metadata": {
             "league": "Trận 12  | UFC Fight Night | Hạng nhẹ nữ",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Yan Xiaonan",
+            "team_b": "Denise Gomes",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787989726967_35st4dwv2zg2_large.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787989734520_39m7wlc36cmb_large.png",
             "time": "18:00 29/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -522,16 +450,16 @@
         },
         {
           "id": "chtv-4844639da9",
-          "name": "Trận 13  | UFC Fight Night | Hạng lông·Sự kiện chính | 18:30 29/08",
+          "name": "Umar Nurmagomedov vs Song Yadong",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -541,7 +469,7 @@
               "contents": [
                 {
                   "id": "ct-4844639da9",
-                  "name": "Trận 13  | UFC Fight Night | Hạng lông·Sự kiện chính",
+                  "name": "Umar Nurmagomedov vs Song Yadong",
                   "streams": [
                     {
                       "id": "st-4844639da9",
@@ -573,14 +501,14 @@
           ],
           "org_metadata": {
             "league": "Trận 13  | UFC Fight Night | Hạng lông·Sự kiện chính",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Umar Nurmagomedov",
+            "team_b": "Song Yadong",
             "logo_a": "https://cdn-choangtv.com/img/logo/1787989924023_táº£i xuá»ng (4).png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1787989940473_táº£i xuá»ng (5).png",
             "time": "18:30 29/08",
             "caster": "",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -660,7 +588,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
             "time": "15:45 29/08",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-3",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -804,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787992345707_tÃ¹ng hÃ­p.png",
             "time": "16:00 29/08",
             "caster": "Xinh Yeu",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -876,7 +804,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764962002440_S.Van Boening.jpg",
             "time": "16:00 29/08",
             "caster": "Đại Kê",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": true
           },
@@ -948,7 +876,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1787992247138_Duy Äinh.jpg",
             "time": "16:00 29/08",
             "caster": "Lee Min Hoo",
-            "score": "0-0",
+            "score": "0-2",
             "is_live": true,
             "hot": true
           },
