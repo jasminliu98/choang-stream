@@ -159,6 +159,366 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-0d521e2cbd",
+          "name": "Sánchez Ruiz vs Robbie Capito | 04:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d521e2cbd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0d521e2cbd",
+                  "name": "Sánchez Ruiz vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-0d521e2cbd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d521e2cbd",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7158/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kèo chấp |Chung Kết | US Open Pool championship",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788076230126_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788076214584_ROBBIE CAPITO.jpg",
+            "time": "04:00 31/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0d521e2cbd_db07b761_20260830.png?v=db07b761",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-48d2c3e323",
+          "name": "Sánchez Ruiz vs Robbie Capito | 04:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48d2c3e323",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-48d2c3e323",
+                  "name": "Sánchez Ruiz vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-48d2c3e323",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48d2c3e323",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7161/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kèo chạm 9  |Chung Kết | US Open Pool championship",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788076567279_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788076577909_ROBBIE CAPITO.jpg",
+            "time": "04:00 31/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-48d2c3e323_c1d2eb23_20260830.png?v=c1d2eb23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-69132d2cc7",
+          "name": "Sánchez Ruiz vs Robbie Capito | 04:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69132d2cc7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-69132d2cc7",
+                  "name": "Sánchez Ruiz vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-69132d2cc7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69132d2cc7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7160/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kèo chạm 5  |Chung Kết | US Open Pool championship",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788076464012_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788076466799_ROBBIE CAPITO.jpg",
+            "time": "04:00 31/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-69132d2cc7_fb3fe7de_20260830.png?v=fb3fe7de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-024185a202",
+          "name": "Sánchez Ruiz vs Robbie Capito | 04:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-024185a202",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-024185a202",
+                  "name": "Sánchez Ruiz vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-024185a202",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-024185a202",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7162/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kèo chạm  |Chung Kết | US Open Pool championship",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788076659526_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788076656259_ROBBIE CAPITO.jpg",
+            "time": "04:00 31/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-024185a202_dcefd676_20260830.png?v=dcefd676",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fcaa00d270",
+          "name": "Francisco Sánchez Ruiz vs Robbie Capito | 04:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcaa00d270",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fcaa00d270",
+                  "name": "Francisco Sánchez Ruiz vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-fcaa00d270",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcaa00d270",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7157/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Đối Đầu Chung Kết |  US Open Pool championship",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788076095610_Francisco SÃ¡nchez Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788076104139_ROBBIE CAPITO.jpg",
+            "time": "04:00 31/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fcaa00d270_eae68938_20260830.png?v=eae68938",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
