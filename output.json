@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788065468821_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:00 30/08",
             "caster": "Xinh Yeu",
-            "score": "8-5",
+            "score": "8-6",
             "is_live": true,
             "hot": true
           },
@@ -89,38 +89,38 @@
           }
         },
         {
-          "id": "chtv-f0d96fcf1d",
-          "name": "Nguyên Quốc Oai vs Thiện Lương | Lee Min Hoo",
+          "id": "chtv-eccef77297",
+          "name": "Duy Đinh vs Thiện Lương | 14:00 30/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-f0d96fcf1d",
+              "id": "src-eccef77297",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f0d96fcf1d",
-                  "name": "Nguyên Quốc Oai vs Thiện Lương",
+                  "id": "ct-eccef77297",
+                  "name": "Duy Đinh vs Thiện Lương",
                   "streams": [
                     {
-                      "id": "st-f0d96fcf1d",
+                      "id": "st-eccef77297",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f0d96fcf1d",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-eccef77297",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7144/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7150/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,22 +140,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 V1/8 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Nguyên Quốc Oai",
+            "league": "Tứ Kết V8 99 Billard Siêu bịp",
+            "team_a": "Duy Đinh",
             "team_b": "Thiện Lương",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788065082510_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788065080829_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "12:00 30/08",
-            "caster": "Lee Min Hoo",
-            "score": "3-10",
-            "is_live": true,
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788071102837_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788071109662_thiá»n lÆ°Æ¡ng.jpg",
+            "time": "14:00 30/08",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f0d96fcf1d_fe2554d0_20260830.png?v=fe2554d0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eccef77297_be8a8bd9_20260830.png?v=be8a8bd9",
             "width": 1600,
             "height": 1200
           }
