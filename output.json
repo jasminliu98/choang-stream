@@ -8,5 +8,87 @@
     "type": "cover",
     "url": "https://choangtv22.com/__og-image__/image/og.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-c440e32640",
+          "name": "Hoàng Phú Thọ vs Phong Nam | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c440e32640",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c440e32640",
+                  "name": "Hoàng Phú Thọ vs Phong Nam",
+                  "streams": [
+                    {
+                      "id": "st-c440e32640",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c440e32640",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7167/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chung Kết 99 BILLARD V8",
+            "team_a": "Hoàng Phú Thọ",
+            "team_b": "Phong Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788090681766_HOÃNG PHÃ THá».png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788090689153_Phong Nam.jpg",
+            "time": "19:00 30/08",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c440e32640_81412e89_20260830.png?v=81412e89",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
