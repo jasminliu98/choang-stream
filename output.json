@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788274069399_phil.png",
             "time": "00:00 01/09",
             "caster": "Thập Cẩm",
-            "score": "2-2",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -89,7 +89,7 @@
           }
         },
         {
-          "id": "chtv-32ccea426e",
+          "id": "chtv-3976b4feaf",
           "name": "JAYBEE SUCAL vs ARIES CEBU",
           "type": "single",
           "display": "thumbnail-only",
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-32ccea426e",
+              "id": "src-3976b4feaf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-32ccea426e",
+                  "id": "ct-3976b4feaf",
                   "name": "JAYBEE SUCAL vs ARIES CEBU",
                   "streams": [
                     {
-                      "id": "st-32ccea426e",
+                      "id": "st-3976b4feaf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-32ccea426e",
+                          "id": "lnk-3976b4feaf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7216/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7217/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -143,11 +143,11 @@
             "league": "phi phủi",
             "team_a": "JAYBEE SUCAL",
             "team_b": "ARIES CEBU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788274982572_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788274981999_phil.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788276445377_JAYBEE SUCAL.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788276311533_phil.png",
             "time": "00:00 01/09",
             "caster": "",
-            "score": "2-2",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-32ccea426e_f164f091_20260901.png?v=f164f091",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3976b4feaf_d42d1e91_20260901.png?v=d42d1e91",
             "width": 1600,
             "height": 1200
           }
