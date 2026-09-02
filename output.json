@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "15:43 02/09",
             "caster": "Xinh Yeu",
-            "score": "3-5",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -234,7 +234,7 @@
         },
         {
           "id": "chtv-2c664b797d",
-          "name": "KO PING CHUNG(chấp 23.5) vs OLIVER VILLAFUERTE | 17:00 02/09 | Thập Cẩm",
+          "name": "KO PING CHUNG(chấp 23.5) vs OLIVER VILLAFUERTE | 17:00 02/09 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -261,7 +261,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-2c664b797d",
-                          "name": "Thập Cẩm",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7230/index.m3u8",
@@ -290,7 +290,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1764238429121_Hui Jen Lin.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "17:00 02/09",
-            "caster": "Thập Cẩm",
+            "caster": "Lee Min Hoo",
             "score": "0-0",
             "is_live": false,
             "hot": true
