@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-9d358d7b11",
+          "name": "KO PIN NHÍ vs TÚ ROKU",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d358d7b11",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9d358d7b11",
+                  "name": "KO PIN NHÍ vs TÚ ROKU",
+                  "streams": [
+                    {
+                      "id": "st-9d358d7b11",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d358d7b11",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7277/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🔴 GIAO DỊCH TỔNG Bình Dương Vô Tận",
+            "team_a": "KO PIN NHÍ",
+            "team_b": "TÚ ROKU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "time": "00:00 03/09",
+            "caster": "",
+            "score": "9-8",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9d358d7b11_c5d47df0_20260903.png?v=c5d47df0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4a97d498c3",
           "name": "MẠNH DŨNG vs ĐÌNH KHÁNH | Đại Kê",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "16:30 03/09",
             "caster": "Đại Kê",
-            "score": "15-28",
+            "score": "25-32",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788431138257_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:20 03/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788431389108_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:30 03/09",
             "caster": "Đại Kê",
-            "score": "7-7",
+            "score": "7-8",
             "is_live": true,
             "hot": false
           },
@@ -233,7 +305,7 @@
           }
         },
         {
-          "id": "chtv-fadd809ec6",
+          "id": "chtv-05efbe025a",
           "name": "Hoàng PT vs Jonas souto | 21:30 03/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -248,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-fadd809ec6",
+              "id": "src-05efbe025a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fadd809ec6",
+                  "id": "ct-05efbe025a",
                   "name": "Hoàng PT vs Jonas souto",
                   "streams": [
                     {
-                      "id": "st-fadd809ec6",
+                      "id": "st-05efbe025a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fadd809ec6",
+                          "id": "lnk-05efbe025a",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7274/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7276/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,8 +359,8 @@
             "league": "EXHBITION MATCH",
             "team_a": "Hoàng PT",
             "team_b": "Jonas souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788431538624_Screenshot 2026-09-03 173212.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788431590427_Screenshot 2026-09-03 173302.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788431836108_Screenshot 2026-09-03 173212.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788431835795_Screenshot 2026-09-03 173302.png",
             "time": "21:30 03/09",
             "caster": "",
             "score": "0-0",
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fadd809ec6_19105275_20260903.png?v=19105275",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-05efbe025a_e1ee8ac8_20260903.png?v=e1ee8ac8",
             "width": 1600,
             "height": 1200
           }
