@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "16:30 03/09",
             "caster": "Đại Kê",
-            "score": "6-0",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
             "time": "16:38 03/09",
             "caster": "Thập Cẩm",
-            "score": "0-22",
+            "score": "5-22",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788431389108_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:30 03/09",
             "caster": "Đại Kê",
-            "score": "0-1",
+            "score": "0-2",
             "is_live": true,
             "hot": true
           },
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fadd809ec6_19105275_20260903.png?v=19105275",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5cb70d6d31",
+          "name": "Hoàng PT(14 win) vs Jonas Souto | 21:30 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cb70d6d31",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5cb70d6d31",
+                  "name": "Hoàng PT(14 win) vs Jonas Souto",
+                  "streams": [
+                    {
+                      "id": "st-5cb70d6d31",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5cb70d6d31",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7275/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EXHBITION MATCH",
+            "team_a": "Hoàng PT(14 win)",
+            "team_b": "Jonas Souto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788431736619_Screenshot 2026-09-03 173212.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788431736351_Screenshot 2026-09-03 173302.png",
+            "time": "21:30 03/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5cb70d6d31_6de7db0b_20260903.png?v=6de7db0b",
             "width": 1600,
             "height": 1200
           }
