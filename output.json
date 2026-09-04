@@ -1028,7 +1028,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1092,7 +1092,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "14:09 04/09",
             "caster": "Thập Cẩm",
-            "score": "15-15",
+            "score": "16-16",
             "is_live": true,
             "hot": true
           },
@@ -1238,7 +1238,7 @@
             "caster": "",
             "score": "0-0",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -1310,7 +1310,7 @@
             "caster": "Đại Kê",
             "score": "10-36",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -1380,7 +1380,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "16:00 04/09",
             "caster": "Lee Min Hoo",
-            "score": "4-4",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -1524,7 +1524,79 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765275867305_táº£i xuá»ng.png",
             "time": "16:09 04/09",
             "caster": "Xinh Yeu",
-            "score": "4-27",
+            "score": "8-27",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e1a0c142ca_fe0b2d77_20260904.png?v=fe0b2d77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3b013c00d3",
+          "name": "Hoàng PT vs An Nhiệt",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b013c00d3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3b013c00d3",
+                  "name": "Hoàng PT vs An Nhiệt",
+                  "streams": [
+                    {
+                      "id": "st-3b013c00d3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b013c00d3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7323/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "Hoàng PT",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788515652282_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788515652099_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "16:55 04/09",
+            "caster": "",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
@@ -1532,7 +1604,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e1a0c142ca_fe0b2d77_20260904.png?v=fe0b2d77",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3b013c00d3_3bf9a5ef_20260904.png?v=3bf9a5ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f7326fefc8",
+          "name": "TRẦN QUYẾT CHIẾN vs TORBJORN BLOMDAHL | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7326fefc8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f7326fefc8",
+                  "name": "TRẦN QUYẾT CHIẾN vs TORBJORN BLOMDAHL",
+                  "streams": [
+                    {
+                      "id": "st-f7326fefc8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7326fefc8",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7322/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WC LIER 2026",
+            "team_a": "TRẦN QUYẾT CHIẾN",
+            "team_b": "TORBJORN BLOMDAHL",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788513626572_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788513685225_Screenshot 2026-09-04 162117.png",
+            "time": "17:00 04/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f7326fefc8_92e8f352_20260904.png?v=92e8f352",
             "width": 1600,
             "height": 1200
           }
