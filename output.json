@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (8 LIVE)",
+      "name": "🥊 Võ Thuật (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a35a1cbaed",
-          "name": "Ferrari Fairtex vs Akif Guluzada | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a35a1cbaed",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a35a1cbaed",
-                  "name": "Ferrari Fairtex vs Akif Guluzada",
-                  "streams": [
-                    {
-                      "id": "st-a35a1cbaed",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a35a1cbaed",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7287/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 5 | The Inner Circle | Bantamweight Kickboxing",
-            "team_a": "Ferrari Fairtex",
-            "team_b": "Akif Guluzada",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788450827808_Screenshot 2026-09-03 225342.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788450844643_Screenshot 2026-09-03 225402.png",
-            "time": "19:30 04/09",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a35a1cbaed_1a9636c7_20260904.png?v=1a9636c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0453201b9f",
           "name": "Siwanat Mavinn Muaythai vs Yanis Ben Alaya | Thập Cẩm",
@@ -660,7 +588,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788521639563_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "19:00 04/09",
             "caster": "Đại Kê",
-            "score": "33-56",
+            "score": "33-60",
             "is_live": true,
             "hot": false
           },
@@ -732,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788520893307_Screenshot 2026-09-03 173302.png",
             "time": "20:00 04/09",
             "caster": "Đại Kê",
-            "score": "10-11",
+            "score": "12-11",
             "is_live": true,
             "hot": true
           },
