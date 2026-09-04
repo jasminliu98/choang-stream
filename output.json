@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-6b1cc558b2",
-          "name": "Trận 1 | The Inner Circle | Flyweight Kickboxing | 18:30 04/09",
+          "name": "Trận 1 | The Inner Circle | Flyweight Kickboxing | 18:30 04/09 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-6b1cc558b2",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7283/index.m3u8",
@@ -74,7 +74,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1788449304723_Screenshot 2026-09-03 222817.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788450031706_Screenshot 2026-09-03 224024.png",
             "time": "18:30 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -1092,7 +1092,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "16:00 04/09",
             "caster": "Lee Min Hoo",
-            "score": "15-7",
+            "score": "15-9",
             "is_live": true,
             "hot": true
           },
@@ -1236,7 +1236,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765275867305_táº£i xuá»ng.png",
             "time": "16:09 04/09",
             "caster": "Xinh Yeu",
-            "score": "30-54",
+            "score": "36-54",
             "is_live": true,
             "hot": false
           },
