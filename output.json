@@ -236,7 +236,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -314,80 +314,8 @@
           }
         },
         {
-          "id": "chtv-dc9a13431a",
-          "name": "ADO LAGUNA vs TATA CDO 9/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc9a13431a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dc9a13431a",
-                  "name": "ADO LAGUNA vs TATA CDO 9/10",
-                  "streams": [
-                    {
-                      "id": "st-dc9a13431a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc9a13431a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7334/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Kèo Độ Phủi Phi",
-            "team_a": "ADO LAGUNA",
-            "team_b": "TATA CDO 9/10",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788533904584_Ado Tadique.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
-            "time": "21:00 04/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc9a13431a_42114054_20260904.png?v=42114054",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c793fa8ce3",
-          "name": "TIẾN MINH vs THÀNH CỤT TAY | Kèn Kèn",
+          "name": "TIẾN MINH rau má vs THÀNH CỤT TAY | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -406,7 +334,7 @@
               "contents": [
                 {
                   "id": "ct-c793fa8ce3",
-                  "name": "TIẾN MINH vs THÀNH CỤT TAY",
+                  "name": "TIẾN MINH rau má vs THÀNH CỤT TAY",
                   "streams": [
                     {
                       "id": "st-c793fa8ce3",
@@ -438,13 +366,13 @@
           ],
           "org_metadata": {
             "league": "THÀNH CỤT BILLIARD SHOP",
-            "team_a": "TIẾN MINH",
+            "team_a": "TIẾN MINH rau má",
             "team_b": "THÀNH CỤT TAY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788536879638_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788536879342_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788537110022_Tiáº¿n Minh TH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788537101962_THÃNH Cá»¤T.jpg",
             "time": "22:45 04/09",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -452,7 +380,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c793fa8ce3_98b199a2_20260904.png?v=98b199a2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c793fa8ce3_e5a9be96_20260904.png?v=e5a9be96",
             "width": 1600,
             "height": 1200
           }
