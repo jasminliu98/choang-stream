@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (4 LIVE)",
+      "name": "🥊 Võ Thuật (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-5b642dba07",
-          "name": "Sunday Boomdeksean vs Kongpoxay PK Seanchai | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b642dba07",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5b642dba07",
-                  "name": "Sunday Boomdeksean vs Kongpoxay PK Seanchai",
-                  "streams": [
-                    {
-                      "id": "st-5b642dba07",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b642dba07",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7293/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 6 | ONE Friday Fights | Strawweight Muay Thai",
-            "team_a": "Sunday Boomdeksean",
-            "team_b": "Kongpoxay PK Seanchai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788451731612_Screenshot 2026-09-03 230839.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788451731480_Screenshot 2026-09-03 230847.png",
-            "time": "21:45 04/09",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5b642dba07_dfeb8aeb_20260904.png?v=dfeb8aeb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-775527bd4f",
           "name": "Dansiam Weerasakreck vs Arman Moradi | Thập Cẩm",
@@ -308,83 +236,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c08e2c5053",
-          "name": "An Nhiệt vs Tiến Minh rau má",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c08e2c5053",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c08e2c5053",
-                  "name": "An Nhiệt vs Tiến Minh rau má",
-                  "streams": [
-                    {
-                      "id": "st-c08e2c5053",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c08e2c5053",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7333/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "THÀNH CỤT BILLIARD SHOP",
-            "team_a": "An Nhiệt",
-            "team_b": "Tiến Minh rau má",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645529849_Screenshot 2026-05-12 191411.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788533746051_Tiáº¿n Minh TH.jpg",
-            "time": "00:00 04/09",
-            "caster": "",
-            "score": "6-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c08e2c5053_2c74fe3f_20260904.png?v=2c74fe3f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-dc9a13431a",
           "name": "ADO LAGUNA vs TATA CDO 9/10",
@@ -525,78 +381,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-37790e0401_3ad0876d_20260904.png?v=3ad0876d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cdc3f1dc5a",
-          "name": "An Nhiệt vs Tiến Minh rau má | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cdc3f1dc5a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cdc3f1dc5a",
-                  "name": "An Nhiệt vs Tiến Minh rau má",
-                  "streams": [
-                    {
-                      "id": "st-cdc3f1dc5a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdc3f1dc5a",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7331/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "THÀNH CỤT BILLIARD SHOP",
-            "team_a": "An Nhiệt",
-            "team_b": "Tiến Minh rau má",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645529849_Screenshot 2026-05-12 191411.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788532707151_Tiáº¿n Minh TH.jpg",
-            "time": "21:36 04/09",
-            "caster": "Kèn Kèn",
-            "score": "11-11",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cdc3f1dc5a_852ee723_20260904.png?v=852ee723",
             "width": 1600,
             "height": 1200
           }
