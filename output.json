@@ -10,6 +10,87 @@
   },
   "groups": [
     {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-6b1cc558b2",
+          "name": "Trận 1 | The Inner Circle | Flyweight Kickboxing | 18:30 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b1cc558b2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6b1cc558b2",
+                  "name": "Trận 1 | The Inner Circle | Flyweight Kickboxing",
+                  "streams": [
+                    {
+                      "id": "st-6b1cc558b2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b1cc558b2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7283/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 1 | The Inner Circle | Flyweight Kickboxing",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788449304723_Screenshot 2026-09-03 222817.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788450031706_Screenshot 2026-09-03 224024.png",
+            "time": "18:30 04/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b1cc558b2_99ca25c2_20260904.png?v=99ca25c2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_billiards",
       "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
@@ -75,7 +156,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "10:00 04/09",
             "caster": "Lee Min Hoo",
-            "score": "41-49",
+            "score": "41-53",
             "is_live": true,
             "hot": true
           },
