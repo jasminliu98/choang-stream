@@ -447,6 +447,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-c194f94c2b",
+          "name": "Trận 2 | ONE Friday Fights | Featherweight MMA | 20:45 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c194f94c2b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c194f94c2b",
+                  "name": "Trận 2 | ONE Friday Fights | Featherweight MMA",
+                  "streams": [
+                    {
+                      "id": "st-c194f94c2b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c194f94c2b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7289/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 2 | ONE Friday Fights | Featherweight MMA",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788451205686_Screenshot 2026-09-03 225946.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788451212576_Screenshot 2026-09-03 230009.png",
+            "time": "20:45 04/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c194f94c2b_b539d415_20260904.png?v=b539d415",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -588,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "12:30 04/09",
             "caster": "Lee Min Hoo",
-            "score": "36-37",
+            "score": "40-38",
             "is_live": true,
             "hot": true
           },
@@ -660,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "12:30 04/09",
             "caster": "Xinh Yeu",
-            "score": "17-36",
+            "score": "21-36",
             "is_live": true,
             "hot": true
           },
@@ -732,7 +804,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "14:04 04/09",
             "caster": "Kèn Kèn",
-            "score": "1-4",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -876,7 +948,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "14:09 04/09",
             "caster": "Thập Cẩm",
-            "score": "3-6",
+            "score": "4-6",
             "is_live": true,
             "hot": true
           },
@@ -948,7 +1020,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "14:26 04/09",
             "caster": "Tào A Man",
-            "score": "1-2",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
