@@ -308,11 +308,155 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-c08e2c5053",
+          "name": "An Nhiệt vs Tiến Minh rau má",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c08e2c5053",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c08e2c5053",
+                  "name": "An Nhiệt vs Tiến Minh rau má",
+                  "streams": [
+                    {
+                      "id": "st-c08e2c5053",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c08e2c5053",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7333/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "THÀNH CỤT BILLIARD SHOP",
+            "team_a": "An Nhiệt",
+            "team_b": "Tiến Minh rau má",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778645529849_Screenshot 2026-05-12 191411.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788533746051_Tiáº¿n Minh TH.jpg",
+            "time": "00:00 04/09",
+            "caster": "",
+            "score": "5-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c08e2c5053_2c74fe3f_20260904.png?v=2c74fe3f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dc9a13431a",
+          "name": "ADO LAGUNA vs TATA CDO 9/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc9a13431a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dc9a13431a",
+                  "name": "ADO LAGUNA vs TATA CDO 9/10",
+                  "streams": [
+                    {
+                      "id": "st-dc9a13431a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc9a13431a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7334/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Kèo Độ Phủi Phi",
+            "team_a": "ADO LAGUNA",
+            "team_b": "TATA CDO 9/10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788533904584_Ado Tadique.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
+            "time": "21:00 04/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dc9a13431a_42114054_20260904.png?v=42114054",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-37790e0401",
           "name": "ADO LAGUNA vs TATA CDO 9/10 | Đại Kê",
@@ -444,7 +588,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788532707151_Tiáº¿n Minh TH.jpg",
             "time": "21:36 04/09",
             "caster": "Kèn Kèn",
-            "score": "5-5",
+            "score": "6-7",
             "is_live": true,
             "hot": true
           },
