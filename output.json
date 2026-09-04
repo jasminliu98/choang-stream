@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,16 +90,16 @@
         },
         {
           "id": "chtv-763f54d48a",
-          "name": "Trận 1 | ONE Friday Fights | Featherweight Kickboxing | 20:30 04/09",
+          "name": "Daniel Vortiah vs Ryoya Inai | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -109,7 +109,7 @@
               "contents": [
                 {
                   "id": "ct-763f54d48a",
-                  "name": "Trận 1 | ONE Friday Fights | Featherweight Kickboxing",
+                  "name": "Daniel Vortiah vs Ryoya Inai",
                   "streams": [
                     {
                       "id": "st-763f54d48a",
@@ -117,7 +117,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-763f54d48a",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7288/index.m3u8",
@@ -141,14 +141,14 @@
           ],
           "org_metadata": {
             "league": "Trận 1 | ONE Friday Fights | Featherweight Kickboxing",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Daniel Vortiah",
+            "team_b": "Ryoya Inai",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451128567_Screenshot 2026-09-03 225838.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451128064_Screenshot 2026-09-03 225844.png",
             "time": "20:30 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -162,16 +162,16 @@
         },
         {
           "id": "chtv-c194f94c2b",
-          "name": "Trận 2 | ONE Friday Fights | Featherweight MMA | 20:45 04/09",
+          "name": "Ethan Brockett vs Pedro Duarte | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -181,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-c194f94c2b",
-                  "name": "Trận 2 | ONE Friday Fights | Featherweight MMA",
+                  "name": "Ethan Brockett vs Pedro Duarte",
                   "streams": [
                     {
                       "id": "st-c194f94c2b",
@@ -189,7 +189,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c194f94c2b",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7289/index.m3u8",
@@ -213,14 +213,14 @@
           ],
           "org_metadata": {
             "league": "Trận 2 | ONE Friday Fights | Featherweight MMA",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Ethan Brockett",
+            "team_b": "Pedro Duarte",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451205686_Screenshot 2026-09-03 225946.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451212576_Screenshot 2026-09-03 230009.png",
             "time": "20:45 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -234,16 +234,16 @@
         },
         {
           "id": "chtv-0453201b9f",
-          "name": "Trận 3 | ONE Friday Fights | Flyweight Muay Thai | 21:00 04/09",
+          "name": "Siwanat Mavinn Muaythai vs Yanis Ben Alaya | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -253,7 +253,7 @@
               "contents": [
                 {
                   "id": "ct-0453201b9f",
-                  "name": "Trận 3 | ONE Friday Fights | Flyweight Muay Thai",
+                  "name": "Siwanat Mavinn Muaythai vs Yanis Ben Alaya",
                   "streams": [
                     {
                       "id": "st-0453201b9f",
@@ -261,7 +261,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-0453201b9f",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7290/index.m3u8",
@@ -285,14 +285,14 @@
           ],
           "org_metadata": {
             "league": "Trận 3 | ONE Friday Fights | Flyweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Siwanat Mavinn Muaythai",
+            "team_b": "Yanis Ben Alaya",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451445373_Screenshot 2026-09-03 230402.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451390811_Screenshot 2026-09-03 230306.png",
             "time": "21:00 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -306,16 +306,16 @@
         },
         {
           "id": "chtv-8278db4f1b",
-          "name": "Trận 4 | ONE Friday Fights | Strawweight MMA | 21:15 04/09",
+          "name": "Ruslan Bulut vs Sanzhar Mansurov | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -325,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-8278db4f1b",
-                  "name": "Trận 4 | ONE Friday Fights | Strawweight MMA",
+                  "name": "Ruslan Bulut vs Sanzhar Mansurov",
                   "streams": [
                     {
                       "id": "st-8278db4f1b",
@@ -333,7 +333,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-8278db4f1b",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7291/index.m3u8",
@@ -357,14 +357,14 @@
           ],
           "org_metadata": {
             "league": "Trận 4 | ONE Friday Fights | Strawweight MMA",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Ruslan Bulut",
+            "team_b": "Sanzhar Mansurov",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451568882_Screenshot 2026-09-03 230603.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451568535_Screenshot 2026-09-03 230549.png",
             "time": "21:15 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -378,16 +378,16 @@
         },
         {
           "id": "chtv-a509042564",
-          "name": "Trận 5 | ONE Friday Fights | Flyweight Kickboxing | 21:30 04/09",
+          "name": "Pinsiam Sitbonsakon vs Yodphupa TeamMehdiZato | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -397,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-a509042564",
-                  "name": "Trận 5 | ONE Friday Fights | Flyweight Kickboxing",
+                  "name": "Pinsiam Sitbonsakon vs Yodphupa TeamMehdiZato",
                   "streams": [
                     {
                       "id": "st-a509042564",
@@ -405,7 +405,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-a509042564",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7292/index.m3u8",
@@ -429,14 +429,14 @@
           ],
           "org_metadata": {
             "league": "Trận 5 | ONE Friday Fights | Flyweight Kickboxing",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Pinsiam Sitbonsakon",
+            "team_b": "Yodphupa TeamMehdiZato",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451644563_Screenshot 2026-09-03 230714.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451644248_Screenshot 2026-09-03 230719.png",
             "time": "21:30 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -450,16 +450,16 @@
         },
         {
           "id": "chtv-5b642dba07",
-          "name": "Trận 6 | ONE Friday Fights | Strawweight Muay Thai | 21:45 04/09",
+          "name": "Sunday Boomdeksean vs Kongpoxay PK Seanchai | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -469,7 +469,7 @@
               "contents": [
                 {
                   "id": "ct-5b642dba07",
-                  "name": "Trận 6 | ONE Friday Fights | Strawweight Muay Thai",
+                  "name": "Sunday Boomdeksean vs Kongpoxay PK Seanchai",
                   "streams": [
                     {
                       "id": "st-5b642dba07",
@@ -477,7 +477,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-5b642dba07",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7293/index.m3u8",
@@ -501,14 +501,14 @@
           ],
           "org_metadata": {
             "league": "Trận 6 | ONE Friday Fights | Strawweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Sunday Boomdeksean",
+            "team_b": "Kongpoxay PK Seanchai",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451731612_Screenshot 2026-09-03 230839.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451731480_Screenshot 2026-09-03 230847.png",
             "time": "21:45 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -522,16 +522,16 @@
         },
         {
           "id": "chtv-775527bd4f",
-          "name": "Trận 7 | ONE Friday Fights | Featherweight Muay Thai | 22:00 04/09",
+          "name": "Dansiam Weerasakreck vs Arman Moradi | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -541,7 +541,7 @@
               "contents": [
                 {
                   "id": "ct-775527bd4f",
-                  "name": "Trận 7 | ONE Friday Fights | Featherweight Muay Thai",
+                  "name": "Dansiam Weerasakreck vs Arman Moradi",
                   "streams": [
                     {
                       "id": "st-775527bd4f",
@@ -549,7 +549,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-775527bd4f",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7294/index.m3u8",
@@ -573,14 +573,14 @@
           ],
           "org_metadata": {
             "league": "Trận 7 | ONE Friday Fights | Featherweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Dansiam Weerasakreck",
+            "team_b": "Arman Moradi",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788451926971_Screenshot 2026-09-03 231202.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788451867770_Screenshot 2026-09-03 231105.png",
             "time": "22:00 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -594,16 +594,16 @@
         },
         {
           "id": "chtv-87dc64d0b0",
-          "name": "Trận 8 | ONE Friday Fights | Flyweight Muay Thai | 22:15 04/09",
+          "name": "Khunponnoi Sor Sommai vs Sunvo Torfunfarm | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -613,7 +613,7 @@
               "contents": [
                 {
                   "id": "ct-87dc64d0b0",
-                  "name": "Trận 8 | ONE Friday Fights | Flyweight Muay Thai",
+                  "name": "Khunponnoi Sor Sommai vs Sunvo Torfunfarm",
                   "streams": [
                     {
                       "id": "st-87dc64d0b0",
@@ -621,7 +621,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-87dc64d0b0",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7295/index.m3u8",
@@ -645,14 +645,14 @@
           ],
           "org_metadata": {
             "league": "Trận 8 | ONE Friday Fights | Flyweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Khunponnoi Sor Sommai",
+            "team_b": "Sunvo Torfunfarm",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788452004157_Screenshot 2026-09-03 231307.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788452053384_Screenshot 2026-09-03 231410.png",
             "time": "22:15 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -666,16 +666,16 @@
         },
         {
           "id": "chtv-50deb4e289",
-          "name": "Trận 9 | ONE Friday Fights | Flyweight Muay Thai | 22:30 04/09",
+          "name": "Petmuangsri Torfunfarm vs Gregor Thom | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -685,7 +685,7 @@
               "contents": [
                 {
                   "id": "ct-50deb4e289",
-                  "name": "Trận 9 | ONE Friday Fights | Flyweight Muay Thai",
+                  "name": "Petmuangsri Torfunfarm vs Gregor Thom",
                   "streams": [
                     {
                       "id": "st-50deb4e289",
@@ -693,7 +693,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-50deb4e289",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7296/index.m3u8",
@@ -717,14 +717,14 @@
           ],
           "org_metadata": {
             "league": "Trận 9 | ONE Friday Fights | Flyweight Muay Thai",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Petmuangsri Torfunfarm",
+            "team_b": "Gregor Thom",
             "logo_a": "https://cdn-choangtv.com/img/logo/1788452085997_Screenshot 2026-09-03 231441.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1788452095530_Screenshot 2026-09-03 231320.png",
             "time": "22:30 04/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9341ed9896",
-          "name": "CHIÊM HỒNG THÁI vs CHO MYUNG WOO | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9341ed9896",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9341ed9896",
-                  "name": "CHIÊM HỒNG THÁI vs CHO MYUNG WOO",
-                  "streams": [
-                    {
-                      "id": "st-9341ed9896",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9341ed9896",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7330/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv22.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WC LIER 2026",
-            "team_a": "CHIÊM HỒNG THÁI",
-            "team_b": "CHO MYUNG WOO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788522948755_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788522949092_HÃN QUá»C.png",
-            "time": "19:00 04/09",
-            "caster": "Bỉm Sữa",
-            "score": "1-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9341ed9896_5615e104_20260904.png?v=5615e104",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b44974c885",
           "name": "Nam Son vs Sơn Hòa Bình | Đại Kê",
@@ -948,7 +876,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788520893307_Screenshot 2026-09-03 173302.png",
             "time": "20:00 04/09",
             "caster": "Đại Kê",
-            "score": "1-2",
+            "score": "1-5",
             "is_live": true,
             "hot": true
           },
