@@ -879,6 +879,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-87dc64d0b0",
+          "name": "Trận 8 | ONE Friday Fights | Flyweight Muay Thai | 22:15 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87dc64d0b0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-87dc64d0b0",
+                  "name": "Trận 8 | ONE Friday Fights | Flyweight Muay Thai",
+                  "streams": [
+                    {
+                      "id": "st-87dc64d0b0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87dc64d0b0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7295/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv22.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 8 | ONE Friday Fights | Flyweight Muay Thai",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788452004157_Screenshot 2026-09-03 231307.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788452053384_Screenshot 2026-09-03 231410.png",
+            "time": "22:15 04/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-87dc64d0b0_4ab6f8c5_20260904.png?v=4ab6f8c5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1092,7 +1164,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "14:09 04/09",
             "caster": "Thập Cẩm",
-            "score": "10-14",
+            "score": "10-15",
             "is_live": true,
             "hot": true
           },
@@ -1740,7 +1812,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765275867305_táº£i xuá»ng.png",
             "time": "16:09 04/09",
             "caster": "Xinh Yeu",
-            "score": "0-0",
+            "score": "0-5",
             "is_live": true,
             "hot": true
           },
