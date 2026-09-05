@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788616754425_phil.png",
             "time": "00:00 05/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-4",
+            "score": "7-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788613665257_phil.png",
             "time": "20:07 05/09",
             "caster": "Thập Cẩm",
-            "score": "12-6",
+            "score": "12-7",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-671efc3fbd_fabc5704_20260905.png?v=fabc5704",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2bab0633b4",
+          "name": "Bao Phuong Vinh vs Marco Zanetti | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2bab0633b4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2bab0633b4",
+                  "name": "Bao Phuong Vinh vs Marco Zanetti",
+                  "streams": [
+                    {
+                      "id": "st-2bab0633b4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bab0633b4",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7363/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WC LIER 2026",
+            "team_a": "Bao Phuong Vinh",
+            "team_b": "Marco Zanetti",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788616321739_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788616364887_12.jpg",
+            "time": "22:00 05/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2bab0633b4_c6da228f_20260905.png?v=c6da228f",
             "width": 1600,
             "height": 1200
           }
