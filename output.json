@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788605658127_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 05/09",
             "caster": "Thập Cẩm",
-            "score": "7-8",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788605762234_phil.png",
             "time": "00:00 05/09",
             "caster": "Đại Kê",
-            "score": "6-9",
+            "score": "8-10",
             "is_live": true,
             "hot": true
           },
@@ -161,7 +161,79 @@
           }
         },
         {
-          "id": "chtv-9e8861029e",
+          "id": "chtv-65005d6837",
+          "name": "FREDERIC CAUDRON vs TRẦN QUYẾT CHIẾN | 19:30 05/09 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65005d6837",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-65005d6837",
+                  "name": "FREDERIC CAUDRON vs TRẦN QUYẾT CHIẾN",
+                  "streams": [
+                    {
+                      "id": "st-65005d6837",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65005d6837",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7359/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WC LIER 2026",
+            "team_a": "FREDERIC CAUDRON",
+            "team_b": "TRẦN QUYẾT CHIẾN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788609994284_Screenshot 2026-09-05 190621.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788610013327_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "19:30 05/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-65005d6837_e14e3980_20260905.png?v=e14e3980",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8dc33160c5",
           "name": "Duy Đinh vs Jonas Souto | 20:00 05/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -176,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-9e8861029e",
+              "id": "src-8dc33160c5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9e8861029e",
+                  "id": "ct-8dc33160c5",
                   "name": "Duy Đinh vs Jonas Souto",
                   "streams": [
                     {
-                      "id": "st-9e8861029e",
+                      "id": "st-8dc33160c5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9e8861029e",
+                          "id": "lnk-8dc33160c5",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7355/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7353/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,8 +287,8 @@
             "league": "SHOWMATCH",
             "team_a": "Duy Đinh",
             "team_b": "Jonas Souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788605090743_Screenshot 2026-09-05 174100.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788605090494_Screenshot 2026-09-05 174128.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788604890453_Screenshot 2026-09-05 174100.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788604890245_Screenshot 2026-09-05 174128.png",
             "time": "20:00 05/09",
             "caster": "",
             "score": "0-0",
@@ -227,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9e8861029e_34ba3bc3_20260905.png?v=34ba3bc3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8dc33160c5_51c0a37b_20260905.png?v=51c0a37b",
             "width": 1600,
             "height": 1200
           }
