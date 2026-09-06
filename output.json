@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ce2b122381_c1b53724_20260907.png?v=c1b53724",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-558dfa5155",
+          "name": "L. Fracasso-Verner vs Boris Ivanovski",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-558dfa5155",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-558dfa5155",
+                  "name": "L. Fracasso-Verner vs Boris Ivanovski",
+                  "streams": [
+                    {
+                      "id": "st-558dfa5155",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-558dfa5155",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7415/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turning Stone Classic Day Four",
+            "team_a": "L. Fracasso-Verner",
+            "team_b": "Boris Ivanovski",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1772473656644_táº£i xuá»ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1772473656644_táº£i xuá»ng.jpg",
+            "time": "00:00 07/09",
+            "caster": "",
+            "score": "3-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-558dfa5155_c1b53724_20260907.png?v=c1b53724",
             "width": 1600,
             "height": 1200
           }
