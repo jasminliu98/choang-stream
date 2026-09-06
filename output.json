@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
             "time": "13:46 06/09",
             "caster": "Bỉm Sữa",
-            "score": "14-12",
+            "score": "15-13",
             "is_live": true,
             "hot": true
           },
@@ -161,38 +161,38 @@
           }
         },
         {
-          "id": "chtv-9745fb38f5",
-          "name": "BAO PHUONG VINH vs CHO MYUNG WOO -5.5 | 17:00 06/09 | GIÀNG A PHỌ",
+          "id": "chtv-a83f955479",
+          "name": "Minh Hánh vs Vũ Minh | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-9745fb38f5",
+              "id": "src-a83f955479",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9745fb38f5",
-                  "name": "BAO PHUONG VINH vs CHO MYUNG WOO -5.5",
+                  "id": "ct-a83f955479",
+                  "name": "Minh Hánh vs Vũ Minh",
                   "streams": [
                     {
-                      "id": "st-9745fb38f5",
+                      "id": "st-a83f955479",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9745fb38f5",
+                          "id": "lnk-a83f955479",
                           "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7382/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7389/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,22 +212,22 @@
             }
           ],
           "org_metadata": {
-            "league": "WC LIỂ 2026 BÁN KẾT",
-            "team_a": "BAO PHUONG VINH",
-            "team_b": "CHO MYUNG WOO -5.5",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788671144562_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788671148702_HÃN QUá»C.png",
-            "time": "17:00 06/09",
+            "league": "VENUS OPEN",
+            "team_a": "Minh Hánh",
+            "team_b": "Vũ Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788686997426_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788686997121_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "16:30 06/09",
             "caster": "GIÀNG A PHỌ",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9745fb38f5_e68ff196_20260906.png?v=e68ff196",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a83f955479_88d1aef5_20260906.png?v=88d1aef5",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f3af940fb7_fce080e6_20260906.png?v=fce080e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9745fb38f5",
+          "name": "BAO PHUONG VINH vs CHO MYUNG WOO -5.5 | 17:00 06/09 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9745fb38f5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9745fb38f5",
+                  "name": "BAO PHUONG VINH vs CHO MYUNG WOO -5.5",
+                  "streams": [
+                    {
+                      "id": "st-9745fb38f5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9745fb38f5",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7382/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WC LIỂ 2026 BÁN KẾT",
+            "team_a": "BAO PHUONG VINH",
+            "team_b": "CHO MYUNG WOO -5.5",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788671144562_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788671148702_HÃN QUá»C.png",
+            "time": "17:00 06/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9745fb38f5_e68ff196_20260906.png?v=e68ff196",
             "width": 1600,
             "height": 1200
           }
