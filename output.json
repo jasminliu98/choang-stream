@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b7fadf0e08",
-          "name": "Cho Myung Woo vs Dick Jaspers | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7fadf0e08",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b7fadf0e08",
-                  "name": "Cho Myung Woo vs Dick Jaspers",
-                  "streams": [
-                    {
-                      "id": "st-b7fadf0e08",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7fadf0e08",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7401/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT 3C",
-            "team_a": "Cho Myung Woo",
-            "team_b": "Dick Jaspers",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788707416768_HÃN QUá»C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788705193514_11.jpg",
-            "time": "23:00 06/09",
-            "caster": "Thập Cẩm",
-            "score": "37-34",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b7fadf0e08_00b45800_20260907.png?v=00b45800",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-ce2b122381",
           "name": "L. Fracasso-Verner vs Boris Ivanovski | Kèn Kèn",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1772473656644_táº£i xuá»ng.jpg",
             "time": "00:00 07/09",
             "caster": "Kèn Kèn",
-            "score": "2-3",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
