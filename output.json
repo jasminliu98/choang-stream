@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
             "time": "00:00 07/09",
             "caster": "Kèn Kèn",
-            "score": "6-1",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-916a31ec69_87c37980_20260907.png?v=87c37980",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0ec61dd8bb",
-          "name": "Moritz Neuhausen vs Kevin Clark | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ec61dd8bb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0ec61dd8bb",
-                  "name": "Moritz Neuhausen vs Kevin Clark",
-                  "streams": [
-                    {
-                      "id": "st-0ec61dd8bb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ec61dd8bb",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7418/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turning Stone Classic Day Four",
-            "team_a": "Moritz Neuhausen",
-            "team_b": "Kevin Clark",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788720633865_Moritz Neuhausen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "01:48 07/09",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0ec61dd8bb_496afa83_20260907.png?v=496afa83",
             "width": 1600,
             "height": 1200
           }
