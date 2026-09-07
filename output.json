@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
             "time": "14:11 07/09",
             "caster": "Đại Kê",
-            "score": "4-1",
+            "score": "4-2",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_táº£i xuá»ng.png",
             "time": "14:37 07/09",
             "caster": "Tào A Man",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788767175279_vn.png",
             "time": "15:00 07/09",
             "caster": "Kèn Kèn",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-aa60350f09",
-          "name": "PHONG NAM -1.5 vs DŨNG MOI | GIÀNG A PHỌ",
+          "id": "chtv-b067521459",
+          "name": "ĐỨC CON vs TRẦN THOAN | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-aa60350f09",
+              "id": "src-b067521459",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-aa60350f09",
-                  "name": "PHONG NAM -1.5 vs DŨNG MOI",
+                  "id": "ct-b067521459",
+                  "name": "ĐỨC CON vs TRẦN THOAN",
                   "streams": [
                     {
-                      "id": "st-aa60350f09",
+                      "id": "st-b067521459",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-aa60350f09",
+                          "id": "lnk-b067521459",
                           "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7436/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7439/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,21 +429,21 @@
           ],
           "org_metadata": {
             "league": "VN",
-            "team_a": "PHONG NAM -1.5",
-            "team_b": "DŨNG MOI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788767108465_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788767111260_vn.png",
+            "team_a": "ĐỨC CON",
+            "team_b": "TRẦN THOAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788767828310_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788767831599_vn.png",
             "time": "15:00 07/09",
             "caster": "GIÀNG A PHỌ",
             "score": "0-0",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aa60350f09_f2029fbf_20260907.png?v=f2029fbf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b067521459_757fbf68_20260907.png?v=757fbf68",
             "width": 1600,
             "height": 1200
           }
