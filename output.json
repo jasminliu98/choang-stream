@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8ae5968ad3",
-          "name": "TKon vs Hoàng PT",
+          "id": "chtv-726e91ff06",
+          "name": "KWON Ho-Jun vs LU Hui-Chan | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8ae5968ad3",
+              "id": "src-726e91ff06",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8ae5968ad3",
-                  "name": "TKon vs Hoàng PT",
+                  "id": "ct-726e91ff06",
+                  "name": "KWON Ho-Jun vs LU Hui-Chan",
                   "streams": [
                     {
-                      "id": "st-8ae5968ad3",
+                      "id": "st-726e91ff06",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8ae5968ad3",
-                          "name": "Stream",
+                          "id": "lnk-726e91ff06",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7454/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7455/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,13 +68,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Chung kết 99 TITAN OPEN CUP kèo chấp",
-            "team_a": "TKon",
-            "team_b": "Hoàng PT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788782071284_Screenshot 2026-09-07 185421.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788782071001_Screenshot 2026-09-07 185425.png",
-            "time": "18:45 07/09",
-            "caster": "",
+            "league": "WPA 9-Ball China Open",
+            "team_a": "KWON Ho-Jun",
+            "team_b": "LU Hui-Chan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788783231988_HÃN QUá»C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788783231706_Screenshot 2026-07-07 002427.png",
+            "time": "00:00 07/09",
+            "caster": "GIÀNG A PHỌ",
             "score": "3-3",
             "is_live": true,
             "hot": true
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8ae5968ad3_ab89fd53_20260907.png?v=ab89fd53",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-726e91ff06_3a075f30_20260907.png?v=3a075f30",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788778007217_HoÃ ng PT.jpg",
             "time": "19:00 07/09",
             "caster": "Kèn Kèn",
-            "score": "4-3",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
