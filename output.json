@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-97d2d2770c",
-          "name": "SHAYNE ACEBAR vs MOTMOT BADO | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97d2d2770c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-97d2d2770c",
-                  "name": "SHAYNE ACEBAR vs MOTMOT BADO",
-                  "streams": [
-                    {
-                      "id": "st-97d2d2770c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97d2d2770c",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7456/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "SHAYNE ACEBAR",
-            "team_b": "MOTMOT BADO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788786769620_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788786768238_phil.png",
-            "time": "20:00 07/09",
-            "caster": "Kèn Kèn",
-            "score": "12-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-97d2d2770c_6343476f_20260907.png?v=6343476f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-acb5624e8a",
           "name": "AJ Manas vs James Aranas | Tào A Man",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788794806134_phil.png",
             "time": "22:20 07/09",
             "caster": "Tào A Man",
-            "score": "10-4",
+            "score": "10-5",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788799068869_phil.png",
             "time": "23:30 07/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-2",
+            "score": "3-2",
             "is_live": true,
             "hot": true
           },
