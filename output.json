@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-11a6f051d7",
-          "name": "Bân Nguyễn (G) vs Kubo SGB (G) | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11a6f051d7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-11a6f051d7",
-                  "name": "Bân Nguyễn (G) vs Kubo SGB (G)",
-                  "streams": [
-                    {
-                      "id": "st-11a6f051d7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11a6f051d7",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7422/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "REAL G POOL CHAMPIONSHIP",
-            "team_a": "Bân Nguyễn (G)",
-            "team_b": "Kubo SGB (G)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "time": "00:00 07/09",
-            "caster": "Tào A Man",
-            "score": "5-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-11a6f051d7_fd9e0f65_20260907.png?v=fd9e0f65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4adec0ca88",
           "name": "OSCAR DOMINGUEZ vs VICTOR CUCUZZA | Thập Cẩm",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
             "time": "00:00 07/09",
             "caster": "Thập Cẩm",
-            "score": "5-2",
+            "score": "6-2",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_táº£i xuá»ng.png",
             "time": "11:00 07/09",
             "caster": "Đại Kê",
-            "score": "6-0",
+            "score": "7-0",
             "is_live": true,
             "hot": false
           },
@@ -521,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-0f4c4a3f40",
-          "name": "Trung Gia Lâm vs Nguyên HT | 13:00 07/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f4c4a3f40",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0f4c4a3f40",
-                  "name": "Trung Gia Lâm vs Nguyên HT",
-                  "streams": [
-                    {
-                      "id": "st-0f4c4a3f40",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f4c4a3f40",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7410/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CPBA TITAN OPEN CUP",
-            "team_a": "Trung Gia Lâm",
-            "team_b": "Nguyên HT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788712473549_Trung Gia LÃ¢m.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788712469838_NGUYÃN HT.jpg",
-            "time": "13:00 07/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f4c4a3f40_0cc67107_20260907.png?v=0cc67107",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c1f3ab20c2",
           "name": "Dũng QA vs Phong Nam | 13:00 07/09",
           "type": "single",
@@ -660,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c1f3ab20c2_0cd35c7d_20260907.png?v=0cd35c7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0f4c4a3f40",
+          "name": "Trung Gia Lâm vs Nguyên HT | 13:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f4c4a3f40",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0f4c4a3f40",
+                  "name": "Trung Gia Lâm vs Nguyên HT",
+                  "streams": [
+                    {
+                      "id": "st-0f4c4a3f40",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f4c4a3f40",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7410/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CPBA TITAN OPEN CUP",
+            "team_a": "Trung Gia Lâm",
+            "team_b": "Nguyên HT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788712473549_Trung Gia LÃ¢m.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788712469838_NGUYÃN HT.jpg",
+            "time": "13:00 07/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0f4c4a3f40_0cc67107_20260907.png?v=0cc67107",
             "width": 1600,
             "height": 1200
           }
