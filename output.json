@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-6653602b01",
+          "name": "Na (G) vs Lâm Dương (G) | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6653602b01",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6653602b01",
+                  "name": "Na (G) vs Lâm Dương (G)",
+                  "streams": [
+                    {
+                      "id": "st-6653602b01",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6653602b01",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7453/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "REAL G POOL CHAMPIONSHIP",
+            "team_a": "Na (G)",
+            "team_b": "Lâm Dương (G)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788779899534_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788779899287_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 07/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "2-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6653602b01_1cf785a3_20260907.png?v=1cf785a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ac90e7eff7",
           "name": "shayne acebar vs romnick salvador | Đại Kê",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788771014529_phil.png",
             "time": "15:50 07/09",
             "caster": "Đại Kê",
-            "score": "8-10",
+            "score": "10-11",
             "is_live": true,
             "hot": false
           },
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788775832680_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:00 07/09",
             "caster": "Kèn Kèn",
-            "score": "7-5",
+            "score": "8-6",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-be20dd429e_7be34230_20260907.png?v=7be34230",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d26dd78983",
+          "name": "Tkon vs Hoàng PT | 19:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d26dd78983",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d26dd78983",
+                  "name": "Tkon vs Hoàng PT",
+                  "streams": [
+                    {
+                      "id": "st-d26dd78983",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d26dd78983",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7450/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chung kết 99 TITAN OPEN CUP kèo chấp",
+            "team_a": "Tkon",
+            "team_b": "Hoàng PT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot 2026-04-26 030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788778087081_HoÃ ng PT.jpg",
+            "time": "19:00 07/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d26dd78983_97a72d88_20260907.png?v=97a72d88",
             "width": 1600,
             "height": 1200
           }
@@ -228,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cfd4383c7c_36e612ed_20260907.png?v=36e612ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a235beacd0",
-          "name": "Tkon vs Hoàng PT | 19:00 07/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a235beacd0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a235beacd0",
-                  "name": "Tkon vs Hoàng PT",
-                  "streams": [
-                    {
-                      "id": "st-a235beacd0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a235beacd0",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7452/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chung kết 99 TITAN OPEN CUP kèo chấp",
-            "team_a": "Tkon",
-            "team_b": "Hoàng PT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645522950_Screenshot 2026-05-12 191213.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788778348267_HoÃ ng PT.jpg",
-            "time": "19:00 07/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a235beacd0_93c067a8_20260907.png?v=93c067a8",
             "width": 1600,
             "height": 1200
           }
