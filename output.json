@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-75ae279481",
-          "name": "HOÀNG NGA vs NGỌC HUYỀN | BÚN CHÓ",
+          "id": "chtv-e7d3121343",
+          "name": "Tommy vs Aleks | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-75ae279481",
+              "id": "src-e7d3121343",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-75ae279481",
-                  "name": "HOÀNG NGA vs NGỌC HUYỀN",
+                  "id": "ct-e7d3121343",
+                  "name": "Tommy vs Aleks",
                   "streams": [
                     {
-                      "id": "st-75ae279481",
+                      "id": "st-e7d3121343",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-75ae279481",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-e7d3121343",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7505/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7506/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "VN",
-            "team_a": "HOÀNG NGA",
-            "team_b": "NGỌC HUYỀN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
-            "time": "09:20 09/09",
-            "caster": "BÚN CHÓ",
-            "score": "0-2",
+            "league": "USA",
+            "team_a": "Tommy",
+            "team_b": "Aleks",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
+            "time": "11:00 09/09",
+            "caster": "Đại Kê",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75ae279481_763abb74_20260909.png?v=763abb74",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e7d3121343_54377a6a_20260909.png?v=54377a6a",
             "width": 1600,
             "height": 1200
           }
@@ -233,38 +233,38 @@
           }
         },
         {
-          "id": "chtv-e7d3121343",
-          "name": "Tommy vs Aleks | Đại Kê",
+          "id": "chtv-2ca390a91c",
+          "name": "XUE ZHENQI vs SHI WENHAI | 12:30 09/09 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e7d3121343",
+              "id": "src-2ca390a91c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e7d3121343",
-                  "name": "Tommy vs Aleks",
+                  "id": "ct-2ca390a91c",
+                  "name": "XUE ZHENQI vs SHI WENHAI",
                   "streams": [
                     {
-                      "id": "st-e7d3121343",
+                      "id": "st-2ca390a91c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e7d3121343",
-                          "name": "Đại Kê",
+                          "id": "lnk-2ca390a91c",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7506/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7508/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,22 +284,22 @@
             }
           ],
           "org_metadata": {
-            "league": "USA",
-            "team_a": "Tommy",
-            "team_b": "Aleks",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
-            "time": "11:00 09/09",
-            "caster": "Đại Kê",
-            "score": "2-3",
-            "is_live": true,
+            "league": "2026 9 Ball China Open",
+            "team_a": "XUE ZHENQI",
+            "team_b": "SHI WENHAI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "time": "12:30 09/09",
+            "caster": "Lee Min Hoo",
+            "score": "0-0",
+            "is_live": false,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e7d3121343_54377a6a_20260909.png?v=54377a6a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ca390a91c_634f1e85_20260909.png?v=634f1e85",
             "width": 1600,
             "height": 1200
           }
