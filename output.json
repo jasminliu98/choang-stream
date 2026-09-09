@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-e71792450b",
-          "name": "Xu Tianyao XU Tianyao vs Rubilen Dacua AMIT | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e71792450b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e71792450b",
-                  "name": "Xu Tianyao XU Tianyao vs Rubilen Dacua AMIT",
-                  "streams": [
-                    {
-                      "id": "st-e71792450b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e71792450b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7540/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "9 Ball China Open",
-            "team_a": "Xu Tianyao XU Tianyao",
-            "team_b": "Rubilen Dacua AMIT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788952336535_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788952336229_phil.png",
-            "time": "18:30 09/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "1-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e71792450b_406951d7_20260909.png?v=406951d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e511bf7594",
           "name": "Denis GRABE vs Lương Đức Thiện(6wiin) | Đại Kê",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788948852389_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "18:30 09/09",
             "caster": "Đại Kê",
-            "score": "2-7",
+            "score": "3-7",
             "is_live": true,
             "hot": true
           },
@@ -228,150 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e511bf7594_a301b069_20260909.png?v=a301b069",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-347913c584",
-          "name": "Sinh Móm vs Huy Mỳ Trộn | 20:00 09/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-347913c584",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-347913c584",
-                  "name": "Sinh Móm vs Huy Mỳ Trộn",
-                  "streams": [
-                    {
-                      "id": "st-347913c584",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-347913c584",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7530/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIEU SAO ĐẠI CHIẾN",
-            "team_a": "Sinh Móm",
-            "team_b": "Huy Mỳ Trộn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1774840793294_chuyá»n khoáº£n Äáº¡i lÃ½.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777514761471_photo_2026-04-30_09-05-49.jpg",
-            "time": "20:00 09/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-347913c584_082cd397_20260909.png?v=082cd397",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f453cd01b4",
-          "name": "Văn Sinh vs Huy C300 | 20:00 09/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f453cd01b4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f453cd01b4",
-                  "name": "Văn Sinh vs Huy C300",
-                  "streams": [
-                    {
-                      "id": "st-f453cd01b4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f453cd01b4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7532/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIEU SAO ĐẠI CHIẾN",
-            "team_a": "Văn Sinh",
-            "team_b": "Huy C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788945837161_Screenshot 2026-09-09 161733.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788945836853_Screenshot 2026-09-09 161746.png",
-            "time": "20:00 09/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f453cd01b4_70423aa0_20260909.png?v=70423aa0",
             "width": 1600,
             "height": 1200
           }
