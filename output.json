@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
             "time": "09:20 09/09",
             "caster": "BÚN CHÓ",
-            "score": "0-1",
+            "score": "0-2",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75ae279481_763abb74_20260909.png?v=763abb74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-29253c657c",
+          "name": "VI vs UYÊN | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29253c657c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-29253c657c",
+                  "name": "VI vs UYÊN",
+                  "streams": [
+                    {
+                      "id": "st-29253c657c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29253c657c",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7507/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "VI",
+            "team_b": "UYÊN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_táº£i xuá»ng.png",
+            "time": "11:00 09/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-29253c657c_21bac56c_20260909.png?v=21bac56c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e7d3121343",
+          "name": "Tommy vs Aleks | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7d3121343",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e7d3121343",
+                  "name": "Tommy vs Aleks",
+                  "streams": [
+                    {
+                      "id": "st-e7d3121343",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e7d3121343",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7506/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USA",
+            "team_a": "Tommy",
+            "team_b": "Aleks",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765779193602_táº£i xuá»ng.png",
+            "time": "11:00 09/09",
+            "caster": "Đại Kê",
+            "score": "2-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e7d3121343_54377a6a_20260909.png?v=54377a6a",
             "width": 1600,
             "height": 1200
           }
