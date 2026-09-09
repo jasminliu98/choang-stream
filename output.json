@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788939681507_china.png",
             "time": "14:41 09/09",
             "caster": "SÊ KÔÔ",
-            "score": "4-6",
+            "score": "5-7",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788941062031_vn.png",
             "time": "15:04 09/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-1",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -516,78 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-907aa52b1f_d883f4a4_20260909.png?v=d883f4a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-227a72af7e",
-          "name": "THẮNG GAS vs DŨNG IPHONE | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-227a72af7e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-227a72af7e",
-                  "name": "THẮNG GAS vs DŨNG IPHONE",
-                  "streams": [
-                    {
-                      "id": "st-227a72af7e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-227a72af7e",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7529/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "THẮNG GAS",
-            "team_b": "DŨNG IPHONE",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788942983884_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788942985763_vn.png",
-            "time": "15:36 09/09",
-            "caster": "Xinh Yeu",
-            "score": "1-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-227a72af7e_97550316_20260909.png?v=97550316",
             "width": 1600,
             "height": 1200
           }
