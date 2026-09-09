@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788941062031_vn.png",
             "time": "15:04 09/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-5",
+            "score": "6-6",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788942931770_phil.png",
             "time": "15:35 09/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -372,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-907aa52b1f_d883f4a4_20260909.png?v=d883f4a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-347913c584",
+          "name": "Văn Sinh vs Huy C300 | 20:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-347913c584",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-347913c584",
+                  "name": "Văn Sinh vs Huy C300",
+                  "streams": [
+                    {
+                      "id": "st-347913c584",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-347913c584",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7530/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIEU SAO ĐẠI CHIẾN",
+            "team_a": "Văn Sinh",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788945491952_Screenshot 2026-09-09 161733.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788945491758_Screenshot 2026-09-09 161746.png",
+            "time": "20:00 09/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-347913c584_874c53b2_20260909.png?v=874c53b2",
             "width": 1600,
             "height": 1200
           }
