@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788942931770_phil.png",
             "time": "15:35 09/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-6",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-f453cd01b4",
-          "name": "Văn Sinh vs Huy C300 | 20:00 09/09",
+          "id": "chtv-7ad6356c21",
+          "name": "Dimitrios LOUKATOS vs WU Kun Lin | 18:30 09/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-f453cd01b4",
+              "id": "src-7ad6356c21",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f453cd01b4",
-                  "name": "Văn Sinh vs Huy C300",
+                  "id": "ct-7ad6356c21",
+                  "name": "Dimitrios LOUKATOS vs WU Kun Lin",
                   "streams": [
                     {
-                      "id": "st-f453cd01b4",
+                      "id": "st-7ad6356c21",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f453cd01b4",
+                          "id": "lnk-7ad6356c21",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7532/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7534/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,12 +284,12 @@
             }
           ],
           "org_metadata": {
-            "league": "SIEU SAO ĐẠI CHIẾN",
-            "team_a": "Văn Sinh",
-            "team_b": "Huy C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788945837161_Screenshot 2026-09-09 161733.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788945836853_Screenshot 2026-09-09 161746.png",
-            "time": "20:00 09/09",
+            "league": "9 Ball China Open",
+            "team_a": "Dimitrios LOUKATOS",
+            "team_b": "WU Kun Lin",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788948501823_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788948501352_Screenshot 2026-07-07 002427.png",
+            "time": "18:30 09/09",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -299,7 +299,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f453cd01b4_70423aa0_20260909.png?v=70423aa0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7ad6356c21_fa66e038_20260909.png?v=fa66e038",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e8c190ccc0",
+          "name": "Naoyuki OI vs Dominik JASTRZAB | 18:30 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8c190ccc0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e8c190ccc0",
+                  "name": "Naoyuki OI vs Dominik JASTRZAB",
+                  "streams": [
+                    {
+                      "id": "st-e8c190ccc0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8c190ccc0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7533/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "9 Ball China Open",
+            "team_a": "Naoyuki OI",
+            "team_b": "Dominik JASTRZAB",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788948299994_NHáº¬T Báº¢N.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788948299692_2.jpg",
+            "time": "18:30 09/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c190ccc0_7df45294_20260909.png?v=7df45294",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-347913c584_082cd397_20260909.png?v=082cd397",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-55decc5250",
+          "name": "Văn Sinh vs Huy C300 | 20:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55decc5250",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-55decc5250",
+                  "name": "Văn Sinh vs Huy C300",
+                  "streams": [
+                    {
+                      "id": "st-55decc5250",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-55decc5250",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7531/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIEU SAO ĐẠI CHIẾN",
+            "team_a": "Văn Sinh",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788945757558_Screenshot 2026-09-09 161733.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788945757239_Screenshot 2026-09-09 161746.png",
+            "time": "20:00 09/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55decc5250_5508cbb7_20260909.png?v=5508cbb7",
             "width": 1600,
             "height": 1200
           }
