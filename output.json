@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_táº£i xuá»ng.png",
             "time": "13:30 09/09",
             "caster": "Bỉm Sữa",
-            "score": "4-7",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-74c1115f11_999eac8a_20260909.png?v=999eac8a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a318415b49",
-          "name": "SAO THỦY vs HẢI | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a318415b49",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a318415b49",
-                  "name": "SAO THỦY vs HẢI",
-                  "streams": [
-                    {
-                      "id": "st-a318415b49",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a318415b49",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7518/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "SAO THỦY",
-            "team_b": "HẢI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788936860773_vn.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788936866218_vn.png",
-            "time": "13:54 09/09",
-            "caster": "Tào A Man",
-            "score": "6-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a318415b49_e223d4e7_20260909.png?v=e223d4e7",
             "width": 1600,
             "height": 1200
           }
