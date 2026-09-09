@@ -303,6 +303,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-347913c584",
+          "name": "Sinh Móm vs Huy Mỳ Trộn | 20:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-347913c584",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-347913c584",
+                  "name": "Sinh Móm vs Huy Mỳ Trộn",
+                  "streams": [
+                    {
+                      "id": "st-347913c584",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-347913c584",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7530/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIEU SAO ĐẠI CHIẾN",
+            "team_a": "Sinh Móm",
+            "team_b": "Huy Mỳ Trộn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1774840793294_chuyá»n khoáº£n Äáº¡i lÃ½.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777514761471_photo_2026-04-30_09-05-49.jpg",
+            "time": "20:00 09/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-347913c584_082cd397_20260909.png?v=082cd397",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
