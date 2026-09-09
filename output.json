@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "00:00 09/09",
             "caster": "Kèn Kèn",
-            "score": "8-10",
+            "score": "8-11",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2251611a64_fd9e0f65_20260909.png?v=fd9e0f65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ffd885c563",
-          "name": "AJ Manas vs James Aranas (9-10) | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffd885c563",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ffd885c563",
-                  "name": "AJ Manas vs James Aranas (9-10)",
-                  "streams": [
-                    {
-                      "id": "st-ffd885c563",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ffd885c563",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7550/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Kiếp Đỏ Đen",
-            "team_a": "AJ Manas",
-            "team_b": "James Aranas (9-10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788968725282_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788968725164_phil.png",
-            "time": "00:00 09/09",
-            "caster": "Lee Min Hoo",
-            "score": "1-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ffd885c563_14ae4ad3_20260909.png?v=14ae4ad3",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-f72591f9e0",
-          "name": "AJ Manas vs James Aranas (9-10)",
+          "id": "chtv-ffd885c563",
+          "name": "AJ Manas vs James Aranas (9-10) | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-f72591f9e0",
+              "id": "src-ffd885c563",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f72591f9e0",
+                  "id": "ct-ffd885c563",
                   "name": "AJ Manas vs James Aranas (9-10)",
                   "streams": [
                     {
-                      "id": "st-f72591f9e0",
+                      "id": "st-ffd885c563",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f72591f9e0",
-                          "name": "Stream",
+                          "id": "lnk-ffd885c563",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7551/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7550/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,11 +215,11 @@
             "league": "Kiếp Đỏ Đen",
             "team_a": "AJ Manas",
             "team_b": "James Aranas (9-10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788969646216_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788969645805_phil.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788968725282_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788968725164_phil.png",
             "time": "00:00 09/09",
-            "caster": "",
-            "score": "1-1",
+            "caster": "Lee Min Hoo",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -299,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f72591f9e0_e251929b_20260909.png?v=e251929b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ffd885c563_14ae4ad3_20260909.png?v=14ae4ad3",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1788963247241_phil.png",
             "time": "00:00 09/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-9",
+            "score": "8-10",
             "is_live": true,
             "hot": false
           },
