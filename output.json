@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5cc280e6c1_69e2d5ad_20260909.png?v=69e2d5ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3865fe6c75",
-          "name": "zhiping vs Hohmann -2.5 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3865fe6c75",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3865fe6c75",
-                  "name": "zhiping vs Hohmann -2.5",
-                  "streams": [
-                    {
-                      "id": "st-3865fe6c75",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3865fe6c75",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7526/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "9 ball",
-            "team_a": "zhiping",
-            "team_b": "Hohmann -2.5",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788939860716_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788939863583_images (1).png",
-            "time": "14:44 09/09",
-            "caster": "Đại Kê",
-            "score": "7-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3865fe6c75_0c57a4ca_20260909.png?v=0c57a4ca",
             "width": 1600,
             "height": 1200
           }
