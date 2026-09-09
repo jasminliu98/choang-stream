@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6726587724_9a981c84_20260909.png?v=9a981c84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-75ae279481",
+          "name": "HOÀNG NGA vs NGỌC HUYỀN | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75ae279481",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-75ae279481",
+                  "name": "HOÀNG NGA vs NGỌC HUYỀN",
+                  "streams": [
+                    {
+                      "id": "st-75ae279481",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75ae279481",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7505/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "HOÀNG NGA",
+            "team_b": "NGỌC HUYỀN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_táº£i xuá»ng.png",
+            "time": "09:20 09/09",
+            "caster": "BÚN CHÓ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-75ae279481_763abb74_20260909.png?v=763abb74",
             "width": 1600,
             "height": 1200
           }
