@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,222 +89,6 @@
           }
         },
         {
-          "id": "chtv-907aa52b1f",
-          "name": "efen reyes vs jervy | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-907aa52b1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-907aa52b1f",
-                  "name": "efen reyes vs jervy",
-                  "streams": [
-                    {
-                      "id": "st-907aa52b1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-907aa52b1f",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7528/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PHIL PHỦI",
-            "team_a": "efen reyes",
-            "team_b": "jervy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788942929216_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788942931770_phil.png",
-            "time": "15:35 09/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "16-17",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-907aa52b1f_d883f4a4_20260909.png?v=d883f4a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e71792450b",
-          "name": "Xu Tianyao XU Tianyao vs Rubilen Dacua AMIT | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e71792450b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e71792450b",
-                  "name": "Xu Tianyao XU Tianyao vs Rubilen Dacua AMIT",
-                  "streams": [
-                    {
-                      "id": "st-e71792450b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e71792450b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7540/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "9 Ball China Open",
-            "team_a": "Xu Tianyao XU Tianyao",
-            "team_b": "Rubilen Dacua AMIT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788952336535_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788952336229_phil.png",
-            "time": "18:30 09/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "1-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e71792450b_406951d7_20260909.png?v=406951d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e511bf7594",
-          "name": "Denis GRABE vs Lương Đức Thiện(6wiin) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e511bf7594",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e511bf7594",
-                  "name": "Denis GRABE vs Lương Đức Thiện(6wiin)",
-                  "streams": [
-                    {
-                      "id": "st-e511bf7594",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e511bf7594",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7536/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "9 Ball China Open",
-            "team_a": "Denis GRABE",
-            "team_b": "Lương Đức Thiện(6wiin)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788948852697_17.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788948852389_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "18:30 09/09",
-            "caster": "Đại Kê",
-            "score": "0-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e511bf7594_a301b069_20260909.png?v=a301b069",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7ad6356c21",
           "name": "Dimitrios LOUKATOS vs WU Kun Lin | SÊ KÔÔ",
           "type": "single",
@@ -377,38 +161,38 @@
           }
         },
         {
-          "id": "chtv-55decc5250",
-          "name": "Văn Sinh vs Huy C300 | 20:00 09/09",
+          "id": "chtv-e71792450b",
+          "name": "Xu Tianyao XU Tianyao vs Rubilen Dacua AMIT | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-55decc5250",
+              "id": "src-e71792450b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-55decc5250",
-                  "name": "Văn Sinh vs Huy C300",
+                  "id": "ct-e71792450b",
+                  "name": "Xu Tianyao XU Tianyao vs Rubilen Dacua AMIT",
                   "streams": [
                     {
-                      "id": "st-55decc5250",
+                      "id": "st-e71792450b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-55decc5250",
-                          "name": "Stream",
+                          "id": "lnk-e71792450b",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7531/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7540/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,22 +212,94 @@
             }
           ],
           "org_metadata": {
-            "league": "SIEU SAO ĐẠI CHIẾN",
-            "team_a": "Văn Sinh",
-            "team_b": "Huy C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788945757558_Screenshot 2026-09-09 161733.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1788945757239_Screenshot 2026-09-09 161746.png",
-            "time": "20:00 09/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
+            "league": "9 Ball China Open",
+            "team_a": "Xu Tianyao XU Tianyao",
+            "team_b": "Rubilen Dacua AMIT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788952336535_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788952336229_phil.png",
+            "time": "18:30 09/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "1-3",
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55decc5250_5508cbb7_20260909.png?v=5508cbb7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e71792450b_406951d7_20260909.png?v=406951d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e511bf7594",
+          "name": "Denis GRABE vs Lương Đức Thiện(6wiin) | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e511bf7594",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e511bf7594",
+                  "name": "Denis GRABE vs Lương Đức Thiện(6wiin)",
+                  "streams": [
+                    {
+                      "id": "st-e511bf7594",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e511bf7594",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7536/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "9 Ball China Open",
+            "team_a": "Denis GRABE",
+            "team_b": "Lương Đức Thiện(6wiin)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788948852697_17.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788948852389_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "18:30 09/09",
+            "caster": "Đại Kê",
+            "score": "0-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e511bf7594_a301b069_20260909.png?v=a301b069",
             "width": 1600,
             "height": 1200
           }
@@ -516,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-347913c584_082cd397_20260909.png?v=082cd397",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f453cd01b4",
+          "name": "Văn Sinh vs Huy C300 | 20:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f453cd01b4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f453cd01b4",
+                  "name": "Văn Sinh vs Huy C300",
+                  "streams": [
+                    {
+                      "id": "st-f453cd01b4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f453cd01b4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7532/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIEU SAO ĐẠI CHIẾN",
+            "team_a": "Văn Sinh",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788945837161_Screenshot 2026-09-09 161733.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1788945836853_Screenshot 2026-09-09 161746.png",
+            "time": "20:00 09/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f453cd01b4_70423aa0_20260909.png?v=70423aa0",
             "width": 1600,
             "height": 1200
           }
