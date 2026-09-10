@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-5e2178a6d6",
+          "name": "WU Kun Lin vs Olivér SZOLNOKI | 12:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e2178a6d6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5e2178a6d6",
+                  "name": "WU Kun Lin vs Olivér SZOLNOKI",
+                  "streams": [
+                    {
+                      "id": "st-5e2178a6d6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e2178a6d6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7559/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "WU Kun Lin",
+            "team_b": "Olivér SZOLNOKI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789004260472_WU KUN LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789004367493_OlivÃ©r SZOLNOKI.jpg",
+            "time": "12:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5e2178a6d6_1f8a3dd2_20260910.png?v=1f8a3dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-bf17bb7512",
           "name": "Thiện Lươn vs Kyle AMOROTO | 14:30 10/09",
           "type": "single",
