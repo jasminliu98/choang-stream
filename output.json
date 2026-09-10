@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-5e2178a6d6",
-          "name": "WU Kun Lin vs Olivér SZOLNOKI | 12:30 10/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e2178a6d6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5e2178a6d6",
-                  "name": "WU Kun Lin vs Olivér SZOLNOKI",
-                  "streams": [
-                    {
-                      "id": "st-5e2178a6d6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e2178a6d6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7559/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "WU Kun Lin",
-            "team_b": "Olivér SZOLNOKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789004260472_WU KUN LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789004367493_OlivÃ©r SZOLNOKI.jpg",
-            "time": "12:30 10/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5e2178a6d6_1f8a3dd2_20260910.png?v=1f8a3dd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6f3c7e5847",
           "name": "Wiktor FORTUNSKI vs Naoyuki OI | 12:30 10/09",
           "type": "single",
@@ -228,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6f3c7e5847_b3505ed7_20260910.png?v=b3505ed7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-02df3b9b9a",
+          "name": "MARIO HE vs THORSTEN HOMANN | 12:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02df3b9b9a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-02df3b9b9a",
+                  "name": "MARIO HE vs THORSTEN HOMANN",
+                  "streams": [
+                    {
+                      "id": "st-02df3b9b9a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02df3b9b9a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7564/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "MARIO HE",
+            "team_b": "THORSTEN HOMANN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789014695529_7.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789014699485_6.jpg",
+            "time": "12:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-02df3b9b9a_b5f4a7bc_20260910.png?v=b5f4a7bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-af8e99a193",
+          "name": "EMIL GANGFLOT vs SANCHEZ RUIZ | 12:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af8e99a193",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-af8e99a193",
+                  "name": "EMIL GANGFLOT vs SANCHEZ RUIZ",
+                  "streams": [
+                    {
+                      "id": "st-af8e99a193",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af8e99a193",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7565/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "EMIL GANGFLOT",
+            "team_b": "SANCHEZ RUIZ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789014772967_NAUY.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789014760093_3.jpg",
+            "time": "12:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-af8e99a193_4d208f54_20260910.png?v=4d208f54",
             "width": 1600,
             "height": 1200
           }
@@ -377,7 +449,79 @@
           }
         },
         {
-          "id": "chtv-d0e665da28",
+          "id": "chtv-5e2178a6d6",
+          "name": "WU Kun Lin vs Olivér SZOLNOKI | 12:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e2178a6d6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5e2178a6d6",
+                  "name": "WU Kun Lin vs Olivér SZOLNOKI",
+                  "streams": [
+                    {
+                      "id": "st-5e2178a6d6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e2178a6d6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7559/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "WU Kun Lin",
+            "team_b": "Olivér SZOLNOKI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789004260472_WU KUN LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789004367493_OlivÃ©r SZOLNOKI.jpg",
+            "time": "12:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5e2178a6d6_1f8a3dd2_20260910.png?v=1f8a3dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bf17bb7512",
           "name": "Thiện Lươn vs Kyle AMOROTO | 14:30 10/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -392,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-d0e665da28",
+              "id": "src-bf17bb7512",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d0e665da28",
+                  "id": "ct-bf17bb7512",
                   "name": "Thiện Lươn vs Kyle AMOROTO",
                   "streams": [
                     {
-                      "id": "st-d0e665da28",
+                      "id": "st-bf17bb7512",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d0e665da28",
+                          "id": "lnk-bf17bb7512",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7556/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7557/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -431,8 +575,8 @@
             "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
             "team_a": "Thiện Lươn",
             "team_b": "Kyle AMOROTO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789003232956_thiá»n lÆ°Æ¡ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789003247953_kyle amoroto.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789003322564_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789003318105_kyle amoroto.jpg",
             "time": "14:30 10/09",
             "caster": "",
             "score": "0-0",
@@ -443,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d0e665da28_7da41c3d_20260910.png?v=7da41c3d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bf17bb7512_e14da910_20260910.png?v=e14da910",
             "width": 1600,
             "height": 1200
           }
