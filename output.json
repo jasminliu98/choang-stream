@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7de808dadc",
-          "name": "Aj Manas vs James Aranas | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7de808dadc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7de808dadc",
-                  "name": "Aj Manas vs James Aranas",
-                  "streams": [
-                    {
-                      "id": "st-7de808dadc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7de808dadc",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7608/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Aj Manas",
-            "team_b": "James Aranas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789054914283_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789054914016_phil.png",
-            "time": "00:00 10/09",
-            "caster": "Tào A Man",
-            "score": "4-17",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7de808dadc_ff1444d5_20260911.png?v=ff1444d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d8d696fe73",
           "name": "Jaybee Sucal vs Dagoldol Sta Maria | GIÀNG A PHỌ",
