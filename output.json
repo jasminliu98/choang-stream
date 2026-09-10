@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789040135234_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "1-0",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -233,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-cef33b50a2",
-          "name": "kristina tkach vs Chiang Shui - chig | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cef33b50a2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cef33b50a2",
-                  "name": "kristina tkach vs Chiang Shui - chig",
-                  "streams": [
-                    {
-                      "id": "st-cef33b50a2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cef33b50a2",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7587/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "kristina tkach",
-            "team_b": "Chiang Shui - chig",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789034026586_Screenshot 2026-09-10 165342.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789033964717_Screenshot 2026-07-07 002427.png",
-            "time": "17:30 10/09",
-            "caster": "Đại Kê",
-            "score": "4-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cef33b50a2_17ae8b0d_20260910.png?v=17ae8b0d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-887da04549",
           "name": "liu shasha vs pia filler | Xinh Yeu",
           "type": "single",
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-887da04549_f9a35b6a_20260910.png?v=f9a35b6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cef33b50a2",
+          "name": "kristina tkach vs Chiang Shui - chig | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cef33b50a2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cef33b50a2",
+                  "name": "kristina tkach vs Chiang Shui - chig",
+                  "streams": [
+                    {
+                      "id": "st-cef33b50a2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cef33b50a2",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7587/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "kristina tkach",
+            "team_b": "Chiang Shui - chig",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789034026586_Screenshot 2026-09-10 165342.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789033964717_Screenshot 2026-07-07 002427.png",
+            "time": "17:30 10/09",
+            "caster": "Đại Kê",
+            "score": "5-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cef33b50a2_17ae8b0d_20260910.png?v=17ae8b0d",
             "width": 1600,
             "height": 1200
           }
