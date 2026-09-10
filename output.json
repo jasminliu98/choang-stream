@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-5f8706e2ac",
+          "id": "chtv-bf17bb7512",
           "name": "Thiện Lươn vs Kyle AMOROTO | 14:30 10/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-5f8706e2ac",
+              "id": "src-bf17bb7512",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5f8706e2ac",
+                  "id": "ct-bf17bb7512",
                   "name": "Thiện Lươn vs Kyle AMOROTO",
                   "streams": [
                     {
-                      "id": "st-5f8706e2ac",
+                      "id": "st-bf17bb7512",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5f8706e2ac",
+                          "id": "lnk-bf17bb7512",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7555/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7557/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -71,8 +71,8 @@
             "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
             "team_a": "Thiện Lươn",
             "team_b": "Kyle AMOROTO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789003104038_thiá»n lÆ°Æ¡ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789003115407_kyle amoroto.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789003322564_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789003318105_kyle amoroto.jpg",
             "time": "14:30 10/09",
             "caster": "",
             "score": "0-0",
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f8706e2ac_dd5116e8_20260910.png?v=dd5116e8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bf17bb7512_e14da910_20260910.png?v=e14da910",
             "width": 1600,
             "height": 1200
           }
