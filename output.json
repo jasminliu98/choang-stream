@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789046208862_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-0",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789045984882_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "0-8",
+            "score": "1-8",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-f852a5471b",
-          "name": "Dimitrios LOUKATOS vs Naoyuki OI | Đại Kê",
+          "id": "chtv-5f7e321308",
+          "name": "Dominik JASTRZAB vs Olivér SZOLNOKI | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-f852a5471b",
+              "id": "src-5f7e321308",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f852a5471b",
-                  "name": "Dimitrios LOUKATOS vs Naoyuki OI",
+                  "id": "ct-5f7e321308",
+                  "name": "Dominik JASTRZAB vs Olivér SZOLNOKI",
                   "streams": [
                     {
-                      "id": "st-f852a5471b",
+                      "id": "st-5f7e321308",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f852a5471b",
-                          "name": "Đại Kê",
+                          "id": "lnk-5f7e321308",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7595/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7596/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,13 +213,13 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "Dimitrios LOUKATOS",
-            "team_b": "Naoyuki OI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789041811285_16.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789041810902_15.jpg",
+            "team_a": "Dominik JASTRZAB",
+            "team_b": "Olivér SZOLNOKI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041893275_2.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041892981_21.jpg",
             "time": "19:30 10/09",
-            "caster": "Đại Kê",
-            "score": "3-4",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f7e321308_84344f53_20260910.png?v=84344f53",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-5f7e321308",
-          "name": "Dominik JASTRZAB vs Olivér SZOLNOKI | Kèn Kèn",
+          "id": "chtv-f852a5471b",
+          "name": "Dimitrios LOUKATOS vs Naoyuki OI | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-5f7e321308",
+              "id": "src-f852a5471b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5f7e321308",
-                  "name": "Dominik JASTRZAB vs Olivér SZOLNOKI",
+                  "id": "ct-f852a5471b",
+                  "name": "Dimitrios LOUKATOS vs Naoyuki OI",
                   "streams": [
                     {
-                      "id": "st-5f7e321308",
+                      "id": "st-f852a5471b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5f7e321308",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-f852a5471b",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7596/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7595/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,13 +429,13 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "Dominik JASTRZAB",
-            "team_b": "Olivér SZOLNOKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789041893275_2.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789041892981_21.jpg",
+            "team_a": "Dimitrios LOUKATOS",
+            "team_b": "Naoyuki OI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041811285_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041810902_15.jpg",
             "time": "19:30 10/09",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
+            "caster": "Đại Kê",
+            "score": "3-5",
             "is_live": true,
             "hot": true
           },
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f7e321308_84344f53_20260910.png?v=84344f53",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
             "width": 1600,
             "height": 1200
           }
