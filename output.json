@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789004831685_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-10 084439.png",
             "time": "11:00 10/09",
             "caster": "Bỉm Sữa",
-            "score": "0-2",
+            "score": "0-3",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5e2178a6d6_1f8a3dd2_20260910.png?v=1f8a3dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-02df3b9b9a",
+          "name": "MARIO HE vs THORSTEN HOMANN | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02df3b9b9a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-02df3b9b9a",
+                  "name": "MARIO HE vs THORSTEN HOMANN",
+                  "streams": [
+                    {
+                      "id": "st-02df3b9b9a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02df3b9b9a",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7564/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "MARIO HE",
+            "team_b": "THORSTEN HOMANN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789014695529_7.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789014699485_6.jpg",
+            "time": "12:30 10/09",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-02df3b9b9a_b5f4a7bc_20260910.png?v=b5f4a7bc",
             "width": 1600,
             "height": 1200
           }
