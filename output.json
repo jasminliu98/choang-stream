@@ -8,5 +8,159 @@
     "type": "cover",
     "url": "https://choangtv23.com/__og-image__/image/og.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-5f8706e2ac",
+          "name": "Thiện Lươn vs Kyle AMOROTO | 14:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f8706e2ac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5f8706e2ac",
+                  "name": "Thiện Lươn vs Kyle AMOROTO",
+                  "streams": [
+                    {
+                      "id": "st-5f8706e2ac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f8706e2ac",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7555/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "Thiện Lươn",
+            "team_b": "Kyle AMOROTO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789003104038_thiá»n lÆ°Æ¡ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789003115407_kyle amoroto.jpg",
+            "time": "14:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f8706e2ac_dd5116e8_20260910.png?v=dd5116e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-34f4bea9fa",
+          "name": "朱熙禾ZHU Xihe vs Joshua FILLER | 14:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34f4bea9fa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-34f4bea9fa",
+                  "name": "朱熙禾ZHU Xihe vs Joshua FILLER",
+                  "streams": [
+                    {
+                      "id": "st-34f4bea9fa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34f4bea9fa",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7558/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "朱熙禾ZHU Xihe",
+            "team_b": "Joshua FILLER",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789003451079_Joshua Filler.jpg",
+            "time": "14:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-34f4bea9fa_3798c2fa_20260910.png?v=3798c2fa",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
