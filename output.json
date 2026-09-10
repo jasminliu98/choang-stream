@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789040135234_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "8-3",
+            "score": "8-4",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789043140689_Screenshot 2026-07-07 002427.png",
             "time": "19:30 10/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-0b0e33f656",
-          "name": "MI Le vs Thiện Lương | Thập Cẩm",
+          "id": "chtv-3db28e9d81",
+          "name": "SEO Seoa vs CHEN Chia Hua | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-0b0e33f656",
+              "id": "src-3db28e9d81",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0b0e33f656",
-                  "name": "MI Le vs Thiện Lương",
+                  "id": "ct-3db28e9d81",
+                  "name": "SEO Seoa vs CHEN Chia Hua",
                   "streams": [
                     {
-                      "id": "st-0b0e33f656",
+                      "id": "st-3db28e9d81",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0b0e33f656",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-3db28e9d81",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7594/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7599/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,12 +213,12 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "MI Le",
-            "team_b": "Thiện Lương",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789041403736_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789041403426_Screenshot 2026-09-10 175614.png",
+            "team_a": "SEO Seoa",
+            "team_b": "CHEN Chia Hua",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789043486262_HÃN QUá»C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789043493530_Screenshot 2026-07-07 002427.png",
             "time": "19:30 10/09",
-            "caster": "Thập Cẩm",
+            "caster": "Đại Kê",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b0e33f656_d0bbea3e_20260910.png?v=d0bbea3e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3db28e9d81_f89bce00_20260910.png?v=f89bce00",
             "width": 1600,
             "height": 1200
           }
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-0b0e33f656",
+          "name": "MI Le vs Thiện Lương | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b0e33f656",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0b0e33f656",
+                  "name": "MI Le vs Thiện Lương",
+                  "streams": [
+                    {
+                      "id": "st-0b0e33f656",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b0e33f656",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7594/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "MI Le",
+            "team_b": "Thiện Lương",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041403736_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041403426_Screenshot 2026-09-10 175614.png",
+            "time": "19:30 10/09",
+            "caster": "Thập Cẩm",
+            "score": "1-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b0e33f656_d0bbea3e_20260910.png?v=d0bbea3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-5f7e321308",
           "name": "Dominik JASTRZAB vs Olivér SZOLNOKI | Kèn Kèn",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f7e321308_84344f53_20260910.png?v=84344f53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3db28e9d81",
-          "name": "SEO Seoa vs CHEN Chia Hua | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3db28e9d81",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3db28e9d81",
-                  "name": "SEO Seoa vs CHEN Chia Hua",
-                  "streams": [
-                    {
-                      "id": "st-3db28e9d81",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3db28e9d81",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7599/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "SEO Seoa",
-            "team_b": "CHEN Chia Hua",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789043486262_HÃN QUá»C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789043493530_Screenshot 2026-07-07 002427.png",
-            "time": "19:30 10/09",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3db28e9d81_f89bce00_20260910.png?v=f89bce00",
             "width": 1600,
             "height": 1200
           }
