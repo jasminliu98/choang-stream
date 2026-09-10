@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789037138099_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "0-3",
+            "score": "1-3",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-94373b5f28_41341f9d_20260910.png?v=41341f9d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-53374b6595",
-          "name": "Raymund Faraon vs Buboy Matina 9/10 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53374b6595",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-53374b6595",
-                  "name": "Raymund Faraon vs Buboy Matina 9/10",
-                  "streams": [
-                    {
-                      "id": "st-53374b6595",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53374b6595",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7589/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Raymund Faraon",
-            "team_b": "Buboy Matina 9/10",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789037222267_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789037221999_phil.png",
-            "time": "00:00 10/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "5-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53374b6595_7a637c82_20260910.png?v=7a637c82",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789038158269_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Thập Cẩm",
-            "score": "0-0",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -305,6 +233,78 @@
           }
         },
         {
+          "id": "chtv-887da04549",
+          "name": "liu shasha vs pia filler | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-887da04549",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-887da04549",
+                  "name": "liu shasha vs pia filler",
+                  "streams": [
+                    {
+                      "id": "st-887da04549",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-887da04549",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7585/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "liu shasha",
+            "team_b": "pia filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789032557884_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789032557890_6.jpg",
+            "time": "17:30 10/09",
+            "caster": "Xinh Yeu",
+            "score": "2-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-887da04549_f9a35b6a_20260910.png?v=f9a35b6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cef33b50a2",
           "name": "kristina tkach vs Chiang Shui - chig | Đại Kê",
           "type": "single",
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789033964717_Screenshot 2026-07-07 002427.png",
             "time": "17:30 10/09",
             "caster": "Đại Kê",
-            "score": "1-2",
+            "score": "1-3",
             "is_live": true,
             "hot": true
           },
@@ -449,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-887da04549",
-          "name": "liu shasha vs pia filler | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-887da04549",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-887da04549",
-                  "name": "liu shasha vs pia filler",
-                  "streams": [
-                    {
-                      "id": "st-887da04549",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-887da04549",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7585/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "liu shasha",
-            "team_b": "pia filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789032557884_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789032557890_6.jpg",
-            "time": "17:30 10/09",
-            "caster": "Xinh Yeu",
-            "score": "1-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-887da04549_f9a35b6a_20260910.png?v=f9a35b6a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-013e61a09b",
           "name": "wang Ming vs Hommann | VÁNG",
           "type": "single",
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-013e61a09b_60f73477_20260910.png?v=60f73477",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-605e29deac",
+          "name": "Denis GRABE vs ZHU Xihe | 19:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-605e29deac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-605e29deac",
+                  "name": "Denis GRABE vs ZHU Xihe",
+                  "streams": [
+                    {
+                      "id": "st-605e29deac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-605e29deac",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7592/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Denis GRABE",
+            "team_b": "ZHU Xihe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789038388301_17.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789038388001_china.png",
+            "time": "19:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-605e29deac_ce42d727_20260910.png?v=ce42d727",
             "width": 1600,
             "height": 1200
           }
