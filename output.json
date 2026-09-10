@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7b80ce3a02",
-          "name": "KIAN GENSAN vs FIL-AM BOY KULOT ILIGAN | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b80ce3a02",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b80ce3a02",
-                  "name": "KIAN GENSAN vs FIL-AM BOY KULOT ILIGAN",
-                  "streams": [
-                    {
-                      "id": "st-7b80ce3a02",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b80ce3a02",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7603/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trăng Hoa Mây Mưa | RACE",
-            "team_a": "KIAN GENSAN",
-            "team_b": "FIL-AM BOY KULOT ILIGAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
-            "time": "00:00 10/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "8-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b80ce3a02_072d6f4e_20260910.png?v=072d6f4e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-bad75b5cdb",
           "name": "Sài Tiến vs Kun đà nẵng | Đại Kê",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789051773623_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Đại Kê",
-            "score": "8-5",
+            "score": "8-6",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-c564adece0",
-          "name": "WORRI vs BREAKERS | Bỉm Sữa",
+          "id": "chtv-7b80ce3a02",
+          "name": "KIAN GENSAN vs FIL-AM BOY KULOT ILIGAN | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-c564adece0",
+              "id": "src-7b80ce3a02",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c564adece0",
-                  "name": "WORRI vs BREAKERS",
+                  "id": "ct-7b80ce3a02",
+                  "name": "KIAN GENSAN vs FIL-AM BOY KULOT ILIGAN",
                   "streams": [
                     {
-                      "id": "st-c564adece0",
+                      "id": "st-7b80ce3a02",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c564adece0",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-7b80ce3a02",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7597/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7603/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "PBA TEAM LEAGUE ROUND 4",
-            "team_a": "WORRI",
-            "team_b": "BREAKERS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789042078526_Screenshot 2026-09-10 190746.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789042078222_Screenshot 2026-09-10 190755.png",
-            "time": "20:00 10/09",
-            "caster": "Bỉm Sữa",
-            "score": "3-3",
+            "league": "Trăng Hoa Mây Mưa | RACE",
+            "team_a": "KIAN GENSAN",
+            "team_b": "FIL-AM BOY KULOT ILIGAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_táº£i xuá»ng.png",
+            "time": "00:00 10/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "10-3",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c564adece0_2721ac9c_20260910.png?v=2721ac9c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b80ce3a02_072d6f4e_20260910.png?v=072d6f4e",
             "width": 1600,
             "height": 1200
           }
