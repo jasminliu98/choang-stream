@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789037138099_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "0-1",
+            "score": "0-2",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789032557890_6.jpg",
             "time": "17:30 10/09",
             "caster": "Xinh Yeu",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-013e61a09b_60f73477_20260910.png?v=60f73477",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3a158d8075",
+          "name": "MI Le vs Thiện Lương | 19:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a158d8075",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3a158d8075",
+                  "name": "MI Le vs Thiện Lương",
+                  "streams": [
+                    {
+                      "id": "st-3a158d8075",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a158d8075",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7590/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "MI Le",
+            "team_b": "Thiện Lương",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789037808027_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789037812190_Screenshot 2026-09-10 175614.png",
+            "time": "19:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a158d8075_c5891520_20260910.png?v=c5891520",
             "width": 1600,
             "height": 1200
           }
