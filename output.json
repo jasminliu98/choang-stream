@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789040135234_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "10-6",
+            "score": "10-7",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-3db28e9d81",
-          "name": "SEO Seoa vs CHEN Chia Hua | Đại Kê",
+          "id": "chtv-f852a5471b",
+          "name": "Dimitrios LOUKATOS vs Naoyuki OI | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-3db28e9d81",
+              "id": "src-f852a5471b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3db28e9d81",
-                  "name": "SEO Seoa vs CHEN Chia Hua",
+                  "id": "ct-f852a5471b",
+                  "name": "Dimitrios LOUKATOS vs Naoyuki OI",
                   "streams": [
                     {
-                      "id": "st-3db28e9d81",
+                      "id": "st-f852a5471b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3db28e9d81",
+                          "id": "lnk-f852a5471b",
                           "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7599/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7595/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,13 +213,13 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "SEO Seoa",
-            "team_b": "CHEN Chia Hua",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789043486262_HÃN QUá»C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789043493530_Screenshot 2026-07-07 002427.png",
+            "team_a": "Dimitrios LOUKATOS",
+            "team_b": "Naoyuki OI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041811285_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041810902_15.jpg",
             "time": "19:30 10/09",
             "caster": "Đại Kê",
-            "score": "3-2",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3db28e9d81_f89bce00_20260910.png?v=f89bce00",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
             "width": 1600,
             "height": 1200
           }
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-f852a5471b",
-          "name": "Dimitrios LOUKATOS vs Naoyuki OI | Đại Kê",
+          "id": "chtv-3db28e9d81",
+          "name": "SEO Seoa vs CHEN Chia Hua | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-f852a5471b",
+              "id": "src-3db28e9d81",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f852a5471b",
-                  "name": "Dimitrios LOUKATOS vs Naoyuki OI",
+                  "id": "ct-3db28e9d81",
+                  "name": "SEO Seoa vs CHEN Chia Hua",
                   "streams": [
                     {
-                      "id": "st-f852a5471b",
+                      "id": "st-3db28e9d81",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f852a5471b",
+                          "id": "lnk-3db28e9d81",
                           "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7595/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7599/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,13 +357,13 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "Dimitrios LOUKATOS",
-            "team_b": "Naoyuki OI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789041811285_16.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789041810902_15.jpg",
+            "team_a": "SEO Seoa",
+            "team_b": "CHEN Chia Hua",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789043486262_HÃN QUá»C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789043493530_Screenshot 2026-07-07 002427.png",
             "time": "19:30 10/09",
             "caster": "Đại Kê",
-            "score": "2-1",
+            "score": "4-2",
             "is_live": true,
             "hot": true
           },
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3db28e9d81_f89bce00_20260910.png?v=f89bce00",
             "width": 1600,
             "height": 1200
           }
