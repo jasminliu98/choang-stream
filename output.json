@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-b46380b3fd",
+          "name": "JB vs Jason So | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b46380b3fd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b46380b3fd",
+                  "name": "JB vs Jason So",
+                  "streams": [
+                    {
+                      "id": "st-b46380b3fd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b46380b3fd",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7591/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "kèo thêm",
+            "team_a": "JB",
+            "team_b": "Jason So",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789038158552_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789038158269_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 10/09",
+            "caster": "Thập Cẩm",
+            "score": "10-11",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b46380b3fd_c6a376a7_20260910.png?v=c6a376a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-211b1baad0",
           "name": "Duy Đen vs Sài Tiến | Kèn Kèn",
@@ -89,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-b46380b3fd",
-          "name": "JB vs Jason So | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b46380b3fd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b46380b3fd",
-                  "name": "JB vs Jason So",
-                  "streams": [
-                    {
-                      "id": "st-b46380b3fd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b46380b3fd",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7591/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "kèo thêm",
-            "team_a": "JB",
-            "team_b": "Jason So",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789038158552_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789038158269_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 10/09",
-            "caster": "Thập Cẩm",
-            "score": "9-11",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b46380b3fd_c6a376a7_20260910.png?v=c6a376a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-923001bab5",
           "name": "HUONS LEGENS vs NH PAY | Bỉm Sữa",
           "type": "single",
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789031205980_Screenshot 2026-09-10 160644.png",
             "time": "17:10 10/09",
             "caster": "Bỉm Sữa",
-            "score": "1-2",
+            "score": "1-3",
             "is_live": true,
             "hot": false
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-923001bab5_7392a6fa_20260910.png?v=7392a6fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-887da04549",
-          "name": "liu shasha vs pia filler | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-887da04549",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-887da04549",
-                  "name": "liu shasha vs pia filler",
-                  "streams": [
-                    {
-                      "id": "st-887da04549",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-887da04549",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7585/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "liu shasha",
-            "team_b": "pia filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789032557884_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789032557890_6.jpg",
-            "time": "17:30 10/09",
-            "caster": "Xinh Yeu",
-            "score": "4-5",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-887da04549_f9a35b6a_20260910.png?v=f9a35b6a",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-013e61a09b",
-          "name": "wang Ming vs Hommann | VÁNG",
+          "id": "chtv-887da04549",
+          "name": "liu shasha vs pia filler | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,95 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-013e61a09b",
+              "id": "src-887da04549",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-013e61a09b",
-                  "name": "wang Ming vs Hommann",
+                  "id": "ct-887da04549",
+                  "name": "liu shasha vs pia filler",
                   "streams": [
                     {
-                      "id": "st-013e61a09b",
+                      "id": "st-887da04549",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-013e61a09b",
-                          "name": "VÁNG",
+                          "id": "lnk-887da04549",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7580/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "wang Ming",
-            "team_b": "Hommann",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789030692788_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789030699146_images (1).png",
-            "time": "17:30 10/09",
-            "caster": "VÁNG",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-013e61a09b_60f73477_20260910.png?v=60f73477",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-605e29deac",
-          "name": "Denis GRABE vs ZHU Xihe | 19:30 10/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-605e29deac",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-605e29deac",
-                  "name": "Denis GRABE vs ZHU Xihe",
-                  "streams": [
-                    {
-                      "id": "st-605e29deac",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-605e29deac",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7592/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7585/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -501,21 +357,21 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "Denis GRABE",
-            "team_b": "ZHU Xihe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789038388301_17.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789038388001_china.png",
-            "time": "19:30 10/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
+            "team_a": "liu shasha",
+            "team_b": "pia filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789032557884_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789032557890_6.jpg",
+            "time": "17:30 10/09",
+            "caster": "Xinh Yeu",
+            "score": "5-5",
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-605e29deac_ce42d727_20260910.png?v=ce42d727",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-887da04549_f9a35b6a_20260910.png?v=f9a35b6a",
             "width": 1600,
             "height": 1200
           }
@@ -588,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a158d8075_c5891520_20260910.png?v=c5891520",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-605e29deac",
+          "name": "Denis GRABE vs ZHU Xihe | 19:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-605e29deac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-605e29deac",
+                  "name": "Denis GRABE vs ZHU Xihe",
+                  "streams": [
+                    {
+                      "id": "st-605e29deac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-605e29deac",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7592/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Denis GRABE",
+            "team_b": "ZHU Xihe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789038388301_17.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789038388001_china.png",
+            "time": "19:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-605e29deac_ce42d727_20260910.png?v=ce42d727",
             "width": 1600,
             "height": 1200
           }
