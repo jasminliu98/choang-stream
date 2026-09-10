@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-dcfa5a3203",
+          "name": "LAON vs HARIM | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcfa5a3203",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dcfa5a3203",
+                  "name": "LAON vs HARIM",
+                  "streams": [
+                    {
+                      "id": "st-dcfa5a3203",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dcfa5a3203",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7561/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "giải PBA Team League",
+            "team_a": "LAON",
+            "team_b": "HARIM",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789004817233_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-10 084420.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789004831685_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-10 084439.png",
+            "time": "11:00 10/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dcfa5a3203_63a0f5d8_20260910.png?v=63a0f5d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-5e2178a6d6",
           "name": "WU Kun Lin vs Olivér SZOLNOKI | 12:30 10/09",
