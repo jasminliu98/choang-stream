@@ -233,6 +233,150 @@
           }
         },
         {
+          "id": "chtv-a7cd171dc9",
+          "name": "MAX LECHNER vs SHEN XINYANG -2.5 | 12:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7cd171dc9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a7cd171dc9",
+                  "name": "MAX LECHNER vs SHEN XINYANG -2.5",
+                  "streams": [
+                    {
+                      "id": "st-a7cd171dc9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7cd171dc9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7563/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "MAX LECHNER",
+            "team_b": "SHEN XINYANG -2.5",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789014393544_7.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789014354780_china.png",
+            "time": "12:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a7cd171dc9_473de789_20260910.png?v=473de789",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7a65609b24",
+          "name": "KO TEA - YOUNG vs DAVID ALCAIDE ( -2.5) | 12:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a65609b24",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7a65609b24",
+                  "name": "KO TEA - YOUNG vs DAVID ALCAIDE ( -2.5)",
+                  "streams": [
+                    {
+                      "id": "st-7a65609b24",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a65609b24",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7562/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "KO TEA - YOUNG",
+            "team_b": "DAVID ALCAIDE ( -2.5)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789014271053_HÃN QUá»C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789014273320_3.jpg",
+            "time": "12:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7a65609b24_0527d68c_20260910.png?v=0527d68c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d0e665da28",
           "name": "Thiện Lươn vs Kyle AMOROTO | 14:30 10/09",
           "type": "single",
