@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-af8e99a193",
-          "name": "EMIL GANGFLOT vs SANCHEZ RUIZ | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af8e99a193",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-af8e99a193",
-                  "name": "EMIL GANGFLOT vs SANCHEZ RUIZ",
-                  "streams": [
-                    {
-                      "id": "st-af8e99a193",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af8e99a193",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7565/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "EMIL GANGFLOT",
-            "team_b": "SANCHEZ RUIZ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789014772967_NAUY.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789014760093_3.jpg",
-            "time": "12:30 10/09",
-            "caster": "Tào A Man",
-            "score": "0-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-af8e99a193_4d208f54_20260910.png?v=4d208f54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5e2178a6d6",
           "name": "WU Kun Lin vs Olivér SZOLNOKI | Lee Min Hoo",
           "type": "single",
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5e2178a6d6_1f8a3dd2_20260910.png?v=1f8a3dd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-af8e99a193",
+          "name": "EMIL GANGFLOT vs SANCHEZ RUIZ | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af8e99a193",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-af8e99a193",
+                  "name": "EMIL GANGFLOT vs SANCHEZ RUIZ",
+                  "streams": [
+                    {
+                      "id": "st-af8e99a193",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af8e99a193",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7565/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "EMIL GANGFLOT",
+            "team_b": "SANCHEZ RUIZ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789014772967_NAUY.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789014760093_3.jpg",
+            "time": "12:30 10/09",
+            "caster": "Tào A Man",
+            "score": "0-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-af8e99a193_4d208f54_20260910.png?v=4d208f54",
             "width": 1600,
             "height": 1200
           }
