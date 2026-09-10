@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789040135234_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "5-1",
+            "score": "6-1",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-3a158d8075",
-          "name": "MI Le vs Thiện Lương | 19:30 10/09",
+          "id": "chtv-f852a5471b",
+          "name": "Dimitrios LOUKATOS vs Naoyuki OI | 19:30 10/09 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,95 @@
           ],
           "sources": [
             {
-              "id": "src-3a158d8075",
+              "id": "src-f852a5471b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3a158d8075",
-                  "name": "MI Le vs Thiện Lương",
+                  "id": "ct-f852a5471b",
+                  "name": "Dimitrios LOUKATOS vs Naoyuki OI",
                   "streams": [
                     {
-                      "id": "st-3a158d8075",
+                      "id": "st-f852a5471b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3a158d8075",
-                          "name": "Stream",
+                          "id": "lnk-f852a5471b",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7590/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7595/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Dimitrios LOUKATOS",
+            "team_b": "Naoyuki OI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041811285_16.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041810902_15.jpg",
+            "time": "19:30 10/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0b0e33f656",
+          "name": "MI Le vs Thiện Lương | 19:30 10/09 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b0e33f656",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0b0e33f656",
+                  "name": "MI Le vs Thiện Lương",
+                  "streams": [
+                    {
+                      "id": "st-0b0e33f656",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b0e33f656",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7594/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,10 +287,10 @@
             "league": "china open",
             "team_a": "MI Le",
             "team_b": "Thiện Lương",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789037808027_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789037812190_Screenshot 2026-09-10 175614.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041403736_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041403426_Screenshot 2026-09-10 175614.png",
             "time": "19:30 10/09",
-            "caster": "",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -227,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a158d8075_c5891520_20260910.png?v=c5891520",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b0e33f656_d0bbea3e_20260910.png?v=d0bbea3e",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-f852a5471b",
-          "name": "Dimitrios LOUKATOS vs Naoyuki OI | 19:30 10/09",
+          "id": "chtv-c564adece0",
+          "name": "WORRI vs BREAKERS | 20:00 10/09 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-f852a5471b",
+              "id": "src-c564adece0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f852a5471b",
-                  "name": "Dimitrios LOUKATOS vs Naoyuki OI",
+                  "id": "ct-c564adece0",
+                  "name": "WORRI vs BREAKERS",
                   "streams": [
                     {
-                      "id": "st-f852a5471b",
+                      "id": "st-c564adece0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f852a5471b",
-                          "name": "Stream",
+                          "id": "lnk-c564adece0",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7595/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7597/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,13 +500,13 @@
             }
           ],
           "org_metadata": {
-            "league": "china open",
-            "team_a": "Dimitrios LOUKATOS",
-            "team_b": "Naoyuki OI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789041811285_16.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789041810902_15.jpg",
-            "time": "19:30 10/09",
-            "caster": "",
+            "league": "PBA TEAM LEAGUE ROUND 4",
+            "team_a": "WORRI",
+            "team_b": "BREAKERS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789042078526_Screenshot 2026-09-10 190746.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789042078222_Screenshot 2026-09-10 190755.png",
+            "time": "20:00 10/09",
+            "caster": "Bỉm Sữa",
             "score": "0-0",
             "is_live": false,
             "hot": true
@@ -443,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c564adece0_2721ac9c_20260910.png?v=2721ac9c",
             "width": 1600,
             "height": 1200
           }
