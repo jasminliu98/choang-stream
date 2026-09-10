@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789031841837_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "5-2",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -162,7 +162,7 @@
         },
         {
           "id": "chtv-1552b44061",
-          "name": "RUBILEN AMIT vs KELLY FISHER | 17:30 10/09",
+          "name": "RUBILEN AMIT vs KELLY FISHER | 17:30 10/09 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -189,7 +189,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-1552b44061",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7586/index.m3u8",
@@ -218,7 +218,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1789032739977_phil.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789032739575_ANH.png",
             "time": "17:30 10/09",
-            "caster": "",
+            "caster": "Lee Min Hoo",
             "score": "0-0",
             "is_live": false,
             "hot": true
