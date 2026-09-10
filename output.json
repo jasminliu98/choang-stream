@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1eba95fecf_9ee16735_20260910.png?v=9ee16735",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c6c7ba0bb9",
-          "name": "Oat (4WIN) vs Alan(3WIN) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6c7ba0bb9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c6c7ba0bb9",
-                  "name": "Oat (4WIN) vs Alan(3WIN)",
-                  "streams": [
-                    {
-                      "id": "st-c6c7ba0bb9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6c7ba0bb9",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7576/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thursday, September 10, 2026",
-            "team_a": "Oat (4WIN)",
-            "team_b": "Alan(3WIN)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789024083697_images (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789024086122_images (1).png",
-            "time": "14:07 10/09",
-            "caster": "Đại Kê",
-            "score": "2-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c6c7ba0bb9_60406cdf_20260910.png?v=60406cdf",
             "width": 1600,
             "height": 1200
           }
