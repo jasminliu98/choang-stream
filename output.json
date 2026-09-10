@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-bad75b5cdb",
+          "name": "Sài Tiến vs Kun đà nẵng | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bad75b5cdb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bad75b5cdb",
+                  "name": "Sài Tiến vs Kun đà nẵng",
+                  "streams": [
+                    {
+                      "id": "st-bad75b5cdb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bad75b5cdb",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7604/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Sài Tiến",
+            "team_b": "Kun đà nẵng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789051773937_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789051773623_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 10/09",
+            "caster": "Đại Kê",
+            "score": "3-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bad75b5cdb_6286ab17_20260910.png?v=6286ab17",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7b80ce3a02",
           "name": "KIAN GENSAN vs FIL-AM BOY KULOT ILIGAN | GIÀNG A PHỌ",
           "type": "single",
@@ -89,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-bad75b5cdb",
-          "name": "Sài Tiến vs Kun đà nẵng | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bad75b5cdb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bad75b5cdb",
-                  "name": "Sài Tiến vs Kun đà nẵng",
-                  "streams": [
-                    {
-                      "id": "st-bad75b5cdb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bad75b5cdb",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7604/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Sài Tiến",
-            "team_b": "Kun đà nẵng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789051773937_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789051773623_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 10/09",
-            "caster": "Đại Kê",
-            "score": "2-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bad75b5cdb_6286ab17_20260910.png?v=6286ab17",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c564adece0",
           "name": "WORRI vs BREAKERS | Bỉm Sữa",
           "type": "single",
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789042078222_Screenshot 2026-09-10 190755.png",
             "time": "20:00 10/09",
             "caster": "Bỉm Sữa",
-            "score": "2-3",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
