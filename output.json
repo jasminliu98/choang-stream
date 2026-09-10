@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-48bf1c66db",
-          "name": "(YAPP - 3.5) vs XU XIANGCONG | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48bf1c66db",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-48bf1c66db",
-                  "name": "(YAPP - 3.5) vs XU XIANGCONG",
-                  "streams": [
-                    {
-                      "id": "st-48bf1c66db",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48bf1c66db",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7571/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "(YAPP - 3.5)",
-            "team_b": "XU XIANGCONG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789022390833_24.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789022395046_china.png",
-            "time": "14:30 10/09",
-            "caster": "Xinh Yeu",
-            "score": "8-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-48bf1c66db_4b5879d1_20260910.png?v=4b5879d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-5f8706e2ac",
           "name": "Thiện Lươn vs Kyle AMOROTO | Lee Min Hoo",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789003115407_kyle amoroto.jpg",
             "time": "14:30 10/09",
             "caster": "Lee Min Hoo",
-            "score": "5-6",
+            "score": "6-6",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789026154364_china.png",
             "time": "14:42 10/09",
             "caster": "Đại Kê",
-            "score": "5-6",
+            "score": "6-6",
             "is_live": true,
             "hot": true
           },
