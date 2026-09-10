@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789004367493_OlivÃ©r SZOLNOKI.jpg",
             "time": "12:30 10/09",
             "caster": "Lee Min Hoo",
-            "score": "8-5",
+            "score": "8-6",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +228,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-758aeb2772_92312b0d_20260910.png?v=92312b0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1eba95fecf",
+          "name": "LƯƠNG CHÍ DŨNG vs TẤT DUY KIÊN | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1eba95fecf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1eba95fecf",
+                  "name": "LƯƠNG CHÍ DŨNG vs TẤT DUY KIÊN",
+                  "streams": [
+                    {
+                      "id": "st-1eba95fecf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1eba95fecf",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7575/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV - CHUNG KẾT",
+            "team_a": "LƯƠNG CHÍ DŨNG",
+            "team_b": "TẤT DUY KIÊN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789023948979_vn.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789023951316_vn.png",
+            "time": "14:06 10/09",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1eba95fecf_9ee16735_20260910.png?v=9ee16735",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c6c7ba0bb9",
+          "name": "Oat (4WIN) vs Alan(3WIN) | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6c7ba0bb9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c6c7ba0bb9",
+                  "name": "Oat (4WIN) vs Alan(3WIN)",
+                  "streams": [
+                    {
+                      "id": "st-c6c7ba0bb9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c6c7ba0bb9",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7576/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thursday, September 10, 2026",
+            "team_a": "Oat (4WIN)",
+            "team_b": "Alan(3WIN)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789024083697_images (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789024086122_images (1).png",
+            "time": "14:07 10/09",
+            "caster": "Đại Kê",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c6c7ba0bb9_60406cdf_20260910.png?v=60406cdf",
             "width": 1600,
             "height": 1200
           }
@@ -593,6 +737,78 @@
           }
         },
         {
+          "id": "chtv-c90ae5de3e",
+          "name": "TOBIAS BONGERS vs DANG JINHU | 14:30 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c90ae5de3e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c90ae5de3e",
+                  "name": "TOBIAS BONGERS vs DANG JINHU",
+                  "streams": [
+                    {
+                      "id": "st-c90ae5de3e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c90ae5de3e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7572/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "TOBIAS BONGERS",
+            "team_b": "DANG JINHU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789022424546_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789022426980_china.png",
+            "time": "14:30 10/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c90ae5de3e_fbf43168_20260910.png?v=fbf43168",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b34cbd94d9",
           "name": "YUMA DORNER vs ( OSCHAN - 2.5) | 14:30 10/09",
           "type": "single",
@@ -732,78 +948,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-34f4bea9fa_3798c2fa_20260910.png?v=3798c2fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c90ae5de3e",
-          "name": "TOBIAS BONGERS vs DANG JINHU | 14:30 10/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c90ae5de3e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c90ae5de3e",
-                  "name": "TOBIAS BONGERS vs DANG JINHU",
-                  "streams": [
-                    {
-                      "id": "st-c90ae5de3e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c90ae5de3e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7572/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "TOBIAS BONGERS",
-            "team_b": "DANG JINHU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789022424546_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789022426980_china.png",
-            "time": "14:30 10/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c90ae5de3e_fbf43168_20260910.png?v=fbf43168",
             "width": 1600,
             "height": 1200
           }
