@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789040135234_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 10/09",
             "caster": "Kèn Kèn",
-            "score": "10-4",
+            "score": "10-5",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-211b1baad0_276da1a6_20260910.png?v=276da1a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5f7e321308",
-          "name": "Dominik JASTRZAB vs Olivér SZOLNOKI | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f7e321308",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5f7e321308",
-                  "name": "Dominik JASTRZAB vs Olivér SZOLNOKI",
-                  "streams": [
-                    {
-                      "id": "st-5f7e321308",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5f7e321308",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7596/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Dominik JASTRZAB",
-            "team_b": "Olivér SZOLNOKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789041893275_2.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789041892981_21.jpg",
-            "time": "19:30 10/09",
-            "caster": "Kèn Kèn",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f7e321308_84344f53_20260910.png?v=84344f53",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789041403426_Screenshot 2026-09-10 175614.png",
             "time": "19:30 10/09",
             "caster": "Thập Cẩm",
-            "score": "2-4",
+            "score": "3-4",
             "is_live": true,
             "hot": true
           },
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b0e33f656_d0bbea3e_20260910.png?v=d0bbea3e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-85a583b24f",
-          "name": "FU Xiaofang vs WEI Tzu Chien | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85a583b24f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-85a583b24f",
-                  "name": "FU Xiaofang vs WEI Tzu Chien",
-                  "streams": [
-                    {
-                      "id": "st-85a583b24f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-85a583b24f",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7598/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "FU Xiaofang",
-            "team_b": "WEI Tzu Chien",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789043140970_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789043140689_Screenshot 2026-07-07 002427.png",
-            "time": "19:30 10/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "2-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-85a583b24f_9188975c_20260910.png?v=9188975c",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +233,78 @@
           }
         },
         {
+          "id": "chtv-85a583b24f",
+          "name": "FU Xiaofang vs WEI Tzu Chien | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85a583b24f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-85a583b24f",
+                  "name": "FU Xiaofang vs WEI Tzu Chien",
+                  "streams": [
+                    {
+                      "id": "st-85a583b24f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-85a583b24f",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7598/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "FU Xiaofang",
+            "team_b": "WEI Tzu Chien",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789043140970_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789043140689_Screenshot 2026-07-07 002427.png",
+            "time": "19:30 10/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "2-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-85a583b24f_9188975c_20260910.png?v=9188975c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-f852a5471b",
           "name": "Dimitrios LOUKATOS vs Naoyuki OI | Đại Kê",
           "type": "single",
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f852a5471b_89af82a3_20260910.png?v=89af82a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5f7e321308",
+          "name": "Dominik JASTRZAB vs Olivér SZOLNOKI | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f7e321308",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5f7e321308",
+                  "name": "Dominik JASTRZAB vs Olivér SZOLNOKI",
+                  "streams": [
+                    {
+                      "id": "st-5f7e321308",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f7e321308",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7596/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Dominik JASTRZAB",
+            "team_b": "Olivér SZOLNOKI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789041893275_2.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789041892981_21.jpg",
+            "time": "19:30 10/09",
+            "caster": "Kèn Kèn",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f7e321308_84344f53_20260910.png?v=84344f53",
             "width": 1600,
             "height": 1200
           }
