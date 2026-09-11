@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789110281727_phil.png",
             "time": "14:04 11/09",
             "caster": "Kèn Kèn",
-            "score": "4-4",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789108638019_china.png",
             "time": "14:30 11/09",
             "caster": "Kèn Kèn",
-            "score": "1-5",
+            "score": "2-5",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7a70f96f38_d1cbda75_20260911.png?v=d1cbda75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ea9ebeb0f4",
+          "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea9ebeb0f4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea9ebeb0f4",
+                  "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV",
+                  "streams": [
+                    {
+                      "id": "st-ea9ebeb0f4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea9ebeb0f4",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7613/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "Francisco Sanchez RUIZ",
+            "team_b": "Ruslan CHINAKHOV",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789088597780_Ruslan CHINAKHOV.jpg",
+            "time": "14:30 11/09",
+            "caster": "Thập Cẩm",
+            "score": "3-3",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea9ebeb0f4_742a203d_20260911.png?v=742a203d",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789088938680_Albin Alois OUSCHAN.jpg",
             "time": "14:30 11/09",
             "caster": "Đại Kê",
-            "score": "4-1",
+            "score": "4-2",
             "is_live": true,
             "hot": false
           },
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2501ad90b_fb862478_20260911.png?v=fb862478",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d984b7dff8",
-          "name": "EXPOSSITO vs MI LE | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d984b7dff8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d984b7dff8",
-                  "name": "EXPOSSITO vs MI LE",
-                  "streams": [
-                    {
-                      "id": "st-d984b7dff8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d984b7dff8",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7643/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "EXPOSSITO",
-            "team_b": "MI LE",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789108753609_3.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789108754933_china.png",
-            "time": "14:30 11/09",
-            "caster": "Xinh Yeu",
-            "score": "3-2",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d984b7dff8_ac03ef44_20260911.png?v=ac03ef44",
             "width": 1600,
             "height": 1200
           }
@@ -449,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-ea9ebeb0f4",
-          "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV | Thập Cẩm",
+          "id": "chtv-d984b7dff8",
+          "name": "EXPOSSITO vs MI LE | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-ea9ebeb0f4",
+              "id": "src-d984b7dff8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ea9ebeb0f4",
-                  "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV",
+                  "id": "ct-d984b7dff8",
+                  "name": "EXPOSSITO vs MI LE",
                   "streams": [
                     {
-                      "id": "st-ea9ebeb0f4",
+                      "id": "st-d984b7dff8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ea9ebeb0f4",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-d984b7dff8",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7613/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7643/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,14 +500,14 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "Francisco Sanchez RUIZ",
-            "team_b": "Ruslan CHINAKHOV",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789088597780_Ruslan CHINAKHOV.jpg",
+            "league": "CHINA",
+            "team_a": "EXPOSSITO",
+            "team_b": "MI LE",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789108753609_3.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789108754933_china.png",
             "time": "14:30 11/09",
-            "caster": "Thập Cẩm",
-            "score": "3-2",
+            "caster": "Xinh Yeu",
+            "score": "3-3",
             "is_live": true,
             "hot": false
           },
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea9ebeb0f4_742a203d_20260911.png?v=742a203d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d984b7dff8_ac03ef44_20260911.png?v=ac03ef44",
             "width": 1600,
             "height": 1200
           }
