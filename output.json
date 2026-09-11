@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-678dbf406b",
+          "name": "MI Le vs Ruslan CHINAKHOV | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-678dbf406b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-678dbf406b",
+                  "name": "MI Le vs Ruslan CHINAKHOV",
+                  "streams": [
+                    {
+                      "id": "st-678dbf406b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-678dbf406b",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7661/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "MI Le",
+            "team_b": "Ruslan CHINAKHOV",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789121203549_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789121203145_Screenshot 2026-09-11 170638.png",
+            "time": "17:30 11/09",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-678dbf406b_969f1a19_20260911.png?v=969f1a19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-a21f045dd4",
           "name": "WU Kun Lin vs Aloysius YAPP | GIÀNG A PHỌ",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789122117733_Screenshot 2026-09-11 172154.png",
             "time": "17:30 11/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-4",
+            "score": "5-5",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789120808599_china.png",
             "time": "17:30 11/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-3",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -233,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-578fe1c995",
-          "name": "SHI Tianqi vs SEO Seoa | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-578fe1c995",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-578fe1c995",
-                  "name": "SHI Tianqi vs SEO Seoa",
-                  "streams": [
-                    {
-                      "id": "st-578fe1c995",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-578fe1c995",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7659/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "SHI Tianqi",
-            "team_b": "SEO Seoa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789120837982_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789120837782_HÃN QUá»C.png",
-            "time": "17:30 11/09",
-            "caster": "Thập Cẩm",
-            "score": "8-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-578fe1c995_6177a88f_20260911.png?v=6177a88f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ad33f66041",
           "name": "Fedor GORST vs Mieszko FORTUNSKI | Kèn Kèn",
           "type": "single",
@@ -377,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-678dbf406b",
-          "name": "MI Le vs Ruslan CHINAKHOV | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-678dbf406b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-678dbf406b",
-                  "name": "MI Le vs Ruslan CHINAKHOV",
-                  "streams": [
-                    {
-                      "id": "st-678dbf406b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-678dbf406b",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7661/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "MI Le",
-            "team_b": "Ruslan CHINAKHOV",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789121203549_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789121203145_Screenshot 2026-09-11 170638.png",
-            "time": "17:30 11/09",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-678dbf406b_969f1a19_20260911.png?v=969f1a19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8578bc715d",
           "name": "Joshua FILLER vs CAPITO | Đại Kê",
           "type": "single",
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
             "time": "17:30 11/09",
             "caster": "Đại Kê",
-            "score": "6-5",
+            "score": "7-5",
             "is_live": true,
             "hot": true
           },
