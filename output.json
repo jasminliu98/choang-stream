@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ad33f66041",
-          "name": "Fedor GORST vs Mieszko FORTUNSKI | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad33f66041",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ad33f66041",
-                  "name": "Fedor GORST vs Mieszko FORTUNSKI",
-                  "streams": [
-                    {
-                      "id": "st-ad33f66041",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad33f66041",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7654/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Fedor GORST",
-            "team_b": "Mieszko FORTUNSKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789120122191_Screenshot 2026-09-11 164839.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789120131771_2.jpg",
-            "time": "17:30 11/09",
-            "caster": "Kèn Kèn",
-            "score": "10-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ad33f66041_9d2dd2a2_20260911.png?v=9d2dd2a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a67b6b9d91",
-          "name": "Jeffrey IGNACIO vs Casper MATIKAINEN | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a67b6b9d91",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a67b6b9d91",
-                  "name": "Jeffrey IGNACIO vs Casper MATIKAINEN",
-                  "streams": [
-                    {
-                      "id": "st-a67b6b9d91",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a67b6b9d91",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7655/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Jeffrey IGNACIO",
-            "team_b": "Casper MATIKAINEN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789120197643_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789120197348_10.jpg",
-            "time": "17:30 11/09",
-            "caster": "SÊ KÔÔ",
-            "score": "10-9",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a67b6b9d91_c0d40971_20260911.png?v=c0d40971",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a21f045dd4",
           "name": "WU Kun Lin vs Aloysius YAPP | GIÀNG A PHỌ",
@@ -219,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789122117733_Screenshot 2026-09-11 172154.png",
             "time": "17:30 11/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "8-8",
+            "score": "8-9",
             "is_live": true,
             "hot": true
           },
@@ -228,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a21f045dd4_6ff620c8_20260911.png?v=6ff620c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7d2e803503",
+          "name": "Joshua FILLER vs Alexandros KAZAKIS | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d2e803503",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7d2e803503",
+                  "name": "Joshua FILLER vs Alexandros KAZAKIS",
+                  "streams": [
+                    {
+                      "id": "st-7d2e803503",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d2e803503",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7665/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT CHINA OPEN",
+            "team_a": "Joshua FILLER",
+            "team_b": "Alexandros KAZAKIS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789130055122_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789130057378_16.jpg",
+            "time": "19:30 11/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7d2e803503_03d48cbc_20260911.png?v=03d48cbc",
             "width": 1600,
             "height": 1200
           }
