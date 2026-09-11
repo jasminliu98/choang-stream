@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789089189424_Hayato HIJIKATA.jpg",
             "time": "14:30 11/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "9-10",
+            "score": "10-10",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789115367980_phil.png",
             "time": "15:30 11/09",
             "caster": "Xinh Yeu",
-            "score": "6-5",
+            "score": "6-6",
             "is_live": true,
             "hot": true
           },
@@ -305,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-76de72f464",
-          "name": "Mario HE vs XUE Zhenqi | 17:30 11/09",
+          "id": "chtv-eeb1e700a4",
+          "name": "Rubilen Dacua AMIT vs Meng-Hsia HUNG | 17:30 11/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-76de72f464",
+              "id": "src-eeb1e700a4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-76de72f464",
-                  "name": "Mario HE vs XUE Zhenqi",
+                  "id": "ct-eeb1e700a4",
+                  "name": "Rubilen Dacua AMIT vs Meng-Hsia HUNG",
                   "streams": [
                     {
-                      "id": "st-76de72f464",
+                      "id": "st-eeb1e700a4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-76de72f464",
+                          "id": "lnk-eeb1e700a4",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7656/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7657/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,10 +357,10 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "Mario HE",
-            "team_b": "XUE Zhenqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789120283497_7.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789120283241_china.png",
+            "team_a": "Rubilen Dacua AMIT",
+            "team_b": "Meng-Hsia HUNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789120709044_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789120708588_new.png",
             "time": "17:30 11/09",
             "caster": "",
             "score": "0-0",
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-76de72f464_9554f9c5_20260911.png?v=9554f9c5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eeb1e700a4_86fd66df_20260911.png?v=86fd66df",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-8578bc715d",
-          "name": "Joshua FILLER vs CAPITO | 17:30 11/09",
+          "id": "chtv-76de72f464",
+          "name": "Mario HE vs XUE Zhenqi | 17:30 11/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-8578bc715d",
+              "id": "src-76de72f464",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8578bc715d",
-                  "name": "Joshua FILLER vs CAPITO",
+                  "id": "ct-76de72f464",
+                  "name": "Mario HE vs XUE Zhenqi",
                   "streams": [
                     {
-                      "id": "st-8578bc715d",
+                      "id": "st-76de72f464",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8578bc715d",
+                          "id": "lnk-76de72f464",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7653/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7656/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -573,10 +573,10 @@
           ],
           "org_metadata": {
             "league": "china open",
-            "team_a": "Joshua FILLER",
-            "team_b": "CAPITO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789119999786_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
+            "team_a": "Mario HE",
+            "team_b": "XUE Zhenqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789120283497_7.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789120283241_china.png",
             "time": "17:30 11/09",
             "caster": "",
             "score": "0-0",
@@ -587,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8578bc715d_627a1e30_20260911.png?v=627a1e30",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-76de72f464_9554f9c5_20260911.png?v=9554f9c5",
             "width": 1600,
             "height": 1200
           }
@@ -660,6 +660,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c07242d4f8_0b96de91_20260911.png?v=0b96de91",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d7001bf79d",
+          "name": "LIU Shasha vs WANG Xiaotong | 17:30 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7001bf79d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d7001bf79d",
+                  "name": "LIU Shasha vs WANG Xiaotong",
+                  "streams": [
+                    {
+                      "id": "st-d7001bf79d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d7001bf79d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7658/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "LIU Shasha",
+            "team_b": "WANG Xiaotong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789120808982_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789120808599_china.png",
+            "time": "17:30 11/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d7001bf79d_05b4b6b1_20260911.png?v=05b4b6b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8578bc715d",
+          "name": "Joshua FILLER vs CAPITO | 17:30 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8578bc715d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8578bc715d",
+                  "name": "Joshua FILLER vs CAPITO",
+                  "streams": [
+                    {
+                      "id": "st-8578bc715d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8578bc715d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7653/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Joshua FILLER",
+            "team_b": "CAPITO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789119999786_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
+            "time": "17:30 11/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8578bc715d_627a1e30_20260911.png?v=627a1e30",
             "width": 1600,
             "height": 1200
           }
