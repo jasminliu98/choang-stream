@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-644af5cd2e",
-          "name": "YAPP Béo vs Hayato HIJIKATA | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-644af5cd2e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-644af5cd2e",
-                  "name": "YAPP Béo vs Hayato HIJIKATA",
-                  "streams": [
-                    {
-                      "id": "st-644af5cd2e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-644af5cd2e",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7616/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "YAPP Béo",
-            "team_b": "Hayato HIJIKATA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789089153188_YAPP BÃ©o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789089189424_Hayato HIJIKATA.jpg",
-            "time": "14:30 11/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "10-10",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-644af5cd2e_580bbee2_20260911.png?v=580bbee2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e893985a23",
-          "name": "QUỐC TRƯỜNG vs PHÚC TÍN | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e893985a23",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e893985a23",
-                  "name": "QUỐC TRƯỜNG vs PHÚC TÍN",
-                  "streams": [
-                    {
-                      "id": "st-e893985a23",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e893985a23",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7647/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "QUỐC TRƯỜNG",
-            "team_b": "PHÚC TÍN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789111580283_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789111582116_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "15:00 11/09",
-            "caster": "Tào A Man",
-            "score": "2-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e893985a23_42832882_20260911.png?v=42832882",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4efcac4b5c",
           "name": "HARIM vs BREAKERS | Bỉm Sữa",
@@ -228,6 +84,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4efcac4b5c_345d389b_20260911.png?v=345d389b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8578bc715d",
+          "name": "Joshua FILLER vs CAPITO | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8578bc715d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8578bc715d",
+                  "name": "Joshua FILLER vs CAPITO",
+                  "streams": [
+                    {
+                      "id": "st-8578bc715d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8578bc715d",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7653/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Joshua FILLER",
+            "team_b": "CAPITO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789119999786_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
+            "time": "17:30 11/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8578bc715d_627a1e30_20260911.png?v=627a1e30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d7001bf79d",
+          "name": "LIU Shasha vs WANG Xiaotong | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7001bf79d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d7001bf79d",
+                  "name": "LIU Shasha vs WANG Xiaotong",
+                  "streams": [
+                    {
+                      "id": "st-d7001bf79d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d7001bf79d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7658/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "LIU Shasha",
+            "team_b": "WANG Xiaotong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789120808982_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789120808599_china.png",
+            "time": "17:30 11/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d7001bf79d_05b4b6b1_20260911.png?v=05b4b6b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a67b6b9d91",
+          "name": "Jeffrey IGNACIO vs Casper MATIKAINEN | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a67b6b9d91",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a67b6b9d91",
+                  "name": "Jeffrey IGNACIO vs Casper MATIKAINEN",
+                  "streams": [
+                    {
+                      "id": "st-a67b6b9d91",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a67b6b9d91",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7655/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Jeffrey IGNACIO",
+            "team_b": "Casper MATIKAINEN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789120197643_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789120197348_10.jpg",
+            "time": "17:30 11/09",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a67b6b9d91_c0d40971_20260911.png?v=c0d40971",
             "width": 1600,
             "height": 1200
           }
@@ -372,222 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ad33f66041_9d2dd2a2_20260911.png?v=9d2dd2a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8578bc715d",
-          "name": "Joshua FILLER vs CAPITO | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8578bc715d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8578bc715d",
-                  "name": "Joshua FILLER vs CAPITO",
-                  "streams": [
-                    {
-                      "id": "st-8578bc715d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8578bc715d",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7653/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Joshua FILLER",
-            "team_b": "CAPITO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789119999786_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
-            "time": "17:30 11/09",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8578bc715d_627a1e30_20260911.png?v=627a1e30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c07242d4f8",
-          "name": "Maximilian LECHNER vs Alexandros KAZAKIS | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c07242d4f8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c07242d4f8",
-                  "name": "Maximilian LECHNER vs Alexandros KAZAKIS",
-                  "streams": [
-                    {
-                      "id": "st-c07242d4f8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c07242d4f8",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7652/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Maximilian LECHNER",
-            "team_b": "Alexandros KAZAKIS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789119910344_7.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789119909996_16.jpg",
-            "time": "17:30 11/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c07242d4f8_0b96de91_20260911.png?v=0b96de91",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a67b6b9d91",
-          "name": "Jeffrey IGNACIO vs Casper MATIKAINEN | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a67b6b9d91",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a67b6b9d91",
-                  "name": "Jeffrey IGNACIO vs Casper MATIKAINEN",
-                  "streams": [
-                    {
-                      "id": "st-a67b6b9d91",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a67b6b9d91",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7655/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Jeffrey IGNACIO",
-            "team_b": "Casper MATIKAINEN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789120197643_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789120197348_10.jpg",
-            "time": "17:30 11/09",
-            "caster": "SÊ KÔÔ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a67b6b9d91_c0d40971_20260911.png?v=c0d40971",
             "width": 1600,
             "height": 1200
           }
