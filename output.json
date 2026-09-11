@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (10 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-d984b7dff8",
-          "name": "EXPOSSITO vs MI LE | Xinh Yeu",
+          "id": "chtv-a2501ad90b",
+          "name": "Mario HE vs Albin Alois OUSCHAN | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-d984b7dff8",
+              "id": "src-a2501ad90b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d984b7dff8",
-                  "name": "EXPOSSITO vs MI LE",
+                  "id": "ct-a2501ad90b",
+                  "name": "Mario HE vs Albin Alois OUSCHAN",
                   "streams": [
                     {
-                      "id": "st-d984b7dff8",
+                      "id": "st-a2501ad90b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d984b7dff8",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-a2501ad90b",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7643/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7615/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "CHINA",
-            "team_a": "EXPOSSITO",
-            "team_b": "MI LE",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789108753609_3.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789108754933_china.png",
+            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "Mario HE",
+            "team_b": "Albin Alois OUSCHAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789088889452_Mario He.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789088938680_Albin Alois OUSCHAN.jpg",
             "time": "14:30 11/09",
-            "caster": "Xinh Yeu",
-            "score": "4-10",
+            "caster": "Đại Kê",
+            "score": "9-6",
             "is_live": true,
             "hot": false
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d984b7dff8_ac03ef44_20260911.png?v=ac03ef44",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2501ad90b_fb862478_20260911.png?v=fb862478",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789089189424_Hayato HIJIKATA.jpg",
             "time": "14:30 11/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "7-6",
+            "score": "8-6",
             "is_live": true,
             "hot": false
           },
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-a2501ad90b",
-          "name": "Mario HE vs Albin Alois OUSCHAN | Đại Kê",
+          "id": "chtv-e893985a23",
+          "name": "QUỐC TRƯỜNG vs PHÚC TÍN | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-a2501ad90b",
+              "id": "src-e893985a23",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a2501ad90b",
-                  "name": "Mario HE vs Albin Alois OUSCHAN",
+                  "id": "ct-e893985a23",
+                  "name": "QUỐC TRƯỜNG vs PHÚC TÍN",
                   "streams": [
                     {
-                      "id": "st-a2501ad90b",
+                      "id": "st-e893985a23",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a2501ad90b",
-                          "name": "Đại Kê",
+                          "id": "lnk-e893985a23",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7615/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7647/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,22 +428,22 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "Mario HE",
-            "team_b": "Albin Alois OUSCHAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789088889452_Mario He.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789088938680_Albin Alois OUSCHAN.jpg",
-            "time": "14:30 11/09",
-            "caster": "Đại Kê",
-            "score": "7-6",
+            "league": "VN",
+            "team_a": "QUỐC TRƯỜNG",
+            "team_b": "PHÚC TÍN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789111580283_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789111582116_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:00 11/09",
+            "caster": "Tào A Man",
+            "score": "1-1",
             "is_live": true,
-            "hot": false
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2501ad90b_fb862478_20260911.png?v=fb862478",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e893985a23_42832882_20260911.png?v=42832882",
             "width": 1600,
             "height": 1200
           }
@@ -516,78 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c02ce8e57_4fc3de45_20260911.png?v=4fc3de45",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e893985a23",
-          "name": "QUỐC TRƯỜNG vs PHÚC TÍN | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e893985a23",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e893985a23",
-                  "name": "QUỐC TRƯỜNG vs PHÚC TÍN",
-                  "streams": [
-                    {
-                      "id": "st-e893985a23",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e893985a23",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7647/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "QUỐC TRƯỜNG",
-            "team_b": "PHÚC TÍN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789111580283_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789111582116_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "15:00 11/09",
-            "caster": "Tào A Man",
-            "score": "1-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e893985a23_42832882_20260911.png?v=42832882",
             "width": 1600,
             "height": 1200
           }
@@ -723,7 +651,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789114741313_Screenshot 2026-09-11 151847.png",
             "time": "16:00 11/09",
             "caster": "Bỉm Sữa",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
