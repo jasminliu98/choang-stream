@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-245418d090",
-          "name": "CAO VĂN HÀO vs HỒ SỞ PHÁT | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-245418d090",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-245418d090",
-                  "name": "CAO VĂN HÀO vs HỒ SỞ PHÁT",
-                  "streams": [
-                    {
-                      "id": "st-245418d090",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245418d090",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7631/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "CAO VĂN HÀO",
-            "team_b": "HỒ SỞ PHÁT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789099887331_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789099889324_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "11:11 11/09",
-            "caster": "Tào A Man",
-            "score": "0-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-245418d090_85ab4515_20260911.png?v=85ab4515",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-76c25fd2fb",
           "name": "MINH TÀI vs VĂN MINH | SÊ KÔÔ",
           "type": "single",
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789100574169_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:23 11/09",
             "caster": "Kèn Kèn",
-            "score": "3-4",
+            "score": "3-5",
             "is_live": true,
             "hot": false
           },
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789101110659_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:31 11/09",
             "caster": "Đại Kê",
-            "score": "20-3",
+            "score": "26-3",
             "is_live": true,
             "hot": false
           },
@@ -516,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9eee635aad_e4258b36_20260911.png?v=e4258b36",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-193429a5c6",
+          "name": "RUBILEN AMIT vs CHOU CHIEH YU | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-193429a5c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-193429a5c6",
+                  "name": "RUBILEN AMIT vs CHOU CHIEH YU",
+                  "streams": [
+                    {
+                      "id": "st-193429a5c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-193429a5c6",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7630/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHINA",
+            "team_a": "RUBILEN AMIT",
+            "team_b": "CHOU CHIEH YU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789099010471_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789099179166_Screenshot 2026-07-07 002427.png",
+            "time": "12:30 11/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-193429a5c6_c6445763_20260911.png?v=c6445763",
             "width": 1600,
             "height": 1200
           }
@@ -588,78 +588,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b46bc3ff2_827f16e5_20260911.png?v=827f16e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-193429a5c6",
-          "name": "RUBILEN AMIT vs CHOU CHIEH YU | 12:30 11/09 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-193429a5c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-193429a5c6",
-                  "name": "RUBILEN AMIT vs CHOU CHIEH YU",
-                  "streams": [
-                    {
-                      "id": "st-193429a5c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-193429a5c6",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7630/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "RUBILEN AMIT",
-            "team_b": "CHOU CHIEH YU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789099010471_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789099179166_Screenshot 2026-07-07 002427.png",
-            "time": "12:30 11/09",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-193429a5c6_c6445763_20260911.png?v=c6445763",
             "width": 1600,
             "height": 1200
           }
