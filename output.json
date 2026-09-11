@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (9 LIVE)",
+      "name": "🎱 Billiards (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789110281727_phil.png",
             "time": "14:04 11/09",
             "caster": "Kèn Kèn",
-            "score": "4-5",
+            "score": "6-5",
             "is_live": true,
             "hot": true
           },
@@ -161,150 +161,6 @@
           }
         },
         {
-          "id": "chtv-ea9ebeb0f4",
-          "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea9ebeb0f4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ea9ebeb0f4",
-                  "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV",
-                  "streams": [
-                    {
-                      "id": "st-ea9ebeb0f4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea9ebeb0f4",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7613/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "Francisco Sanchez RUIZ",
-            "team_b": "Ruslan CHINAKHOV",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789088597780_Ruslan CHINAKHOV.jpg",
-            "time": "14:30 11/09",
-            "caster": "Thập Cẩm",
-            "score": "4-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea9ebeb0f4_742a203d_20260911.png?v=742a203d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a2501ad90b",
-          "name": "Mario HE vs Albin Alois OUSCHAN | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2501ad90b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a2501ad90b",
-                  "name": "Mario HE vs Albin Alois OUSCHAN",
-                  "streams": [
-                    {
-                      "id": "st-a2501ad90b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2501ad90b",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7615/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "Mario HE",
-            "team_b": "Albin Alois OUSCHAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789088889452_Mario He.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789088938680_Albin Alois OUSCHAN.jpg",
-            "time": "14:30 11/09",
-            "caster": "Đại Kê",
-            "score": "4-4",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2501ad90b_fb862478_20260911.png?v=fb862478",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-644af5cd2e",
           "name": "YAPP Béo vs Hayato HIJIKATA | Lee Min Hoo",
           "type": "single",
@@ -363,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789089189424_Hayato HIJIKATA.jpg",
             "time": "14:30 11/09",
             "caster": "Lee Min Hoo",
-            "score": "4-3",
+            "score": "4-4",
             "is_live": true,
             "hot": false
           },
@@ -449,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-8bdb3d2b98",
-          "name": "LIM LENG vs TẤT DUY KIÊN | GIÀNG A PHỌ",
+          "id": "chtv-ea9ebeb0f4",
+          "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-8bdb3d2b98",
+              "id": "src-ea9ebeb0f4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8bdb3d2b98",
-                  "name": "LIM LENG vs TẤT DUY KIÊN",
+                  "id": "ct-ea9ebeb0f4",
+                  "name": "Francisco Sanchez RUIZ vs Ruslan CHINAKHOV",
                   "streams": [
                     {
-                      "id": "st-8bdb3d2b98",
+                      "id": "st-ea9ebeb0f4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8bdb3d2b98",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-ea9ebeb0f4",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7648/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7613/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,22 +356,94 @@
             }
           ],
           "org_metadata": {
-            "league": "VN",
-            "team_a": "LIM LENG",
-            "team_b": "TẤT DUY KIÊN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789111641585_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789111643613_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "15:00 11/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "1-0",
+            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "Francisco Sanchez RUIZ",
+            "team_b": "Ruslan CHINAKHOV",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_táº£i xuá»ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789088597780_Ruslan CHINAKHOV.jpg",
+            "time": "14:30 11/09",
+            "caster": "Thập Cẩm",
+            "score": "5-6",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8bdb3d2b98_f843770b_20260911.png?v=f843770b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea9ebeb0f4_742a203d_20260911.png?v=742a203d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a2501ad90b",
+          "name": "Mario HE vs Albin Alois OUSCHAN | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2501ad90b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a2501ad90b",
+                  "name": "Mario HE vs Albin Alois OUSCHAN",
+                  "streams": [
+                    {
+                      "id": "st-a2501ad90b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2501ad90b",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7615/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "Mario HE",
+            "team_b": "Albin Alois OUSCHAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789088889452_Mario He.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789088938680_Albin Alois OUSCHAN.jpg",
+            "time": "14:30 11/09",
+            "caster": "Đại Kê",
+            "score": "5-5",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a2501ad90b_fb862478_20260911.png?v=fb862478",
             "width": 1600,
             "height": 1200
           }
@@ -593,6 +521,78 @@
           }
         },
         {
+          "id": "chtv-8bdb3d2b98",
+          "name": "LIM LENG vs TẤT DUY KIÊN | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bdb3d2b98",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8bdb3d2b98",
+                  "name": "LIM LENG vs TẤT DUY KIÊN",
+                  "streams": [
+                    {
+                      "id": "st-8bdb3d2b98",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bdb3d2b98",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7648/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "LIM LENG",
+            "team_b": "TẤT DUY KIÊN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789111641585_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789111643613_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:00 11/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8bdb3d2b98_f843770b_20260911.png?v=f843770b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8c02ce8e57",
           "name": "MINH TÀI vs CHÍ DŨNG | SÊ KÔÔ",
           "type": "single",
@@ -665,17 +665,89 @@
           }
         },
         {
-          "id": "chtv-4efcac4b5c",
-          "name": "HARIM vs BREAKERS | 16:00 11/09 | Bỉm Sữa",
+          "id": "chtv-11aed9e7ed",
+          "name": "ANTON RAGA vs BALDO ILOILO | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11aed9e7ed",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-11aed9e7ed",
+                  "name": "ANTON RAGA vs BALDO ILOILO",
+                  "streams": [
+                    {
+                      "id": "st-11aed9e7ed",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11aed9e7ed",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7650/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHIL PHỦI",
+            "team_a": "ANTON RAGA",
+            "team_b": "BALDO ILOILO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789115363001_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789115367980_phil.png",
+            "time": "15:30 11/09",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-11aed9e7ed_fff4fdea_20260911.png?v=fff4fdea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4efcac4b5c",
+          "name": "HARIM vs BREAKERS | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -724,7 +796,7 @@
             "time": "16:00 11/09",
             "caster": "Bỉm Sữa",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
