@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-49ec9917d4",
-          "name": "JONAS vs PLONG2X | SÊ KÔÔ",
+          "name": "JONAS MAGPANTAY vs PLONG2X | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-49ec9917d4",
-                  "name": "JONAS vs PLONG2X",
+                  "name": "JONAS MAGPANTAY vs PLONG2X",
                   "streams": [
                     {
                       "id": "st-49ec9917d4",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "phi bịp",
-            "team_a": "JONAS",
+            "team_a": "JONAS MAGPANTAY",
             "team_b": "PLONG2X",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789135882555_phil.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789135882322_phil.png",
             "time": "00:00 11/09",
             "caster": "SÊ KÔÔ",
-            "score": "0-0",
+            "score": "6-2",
             "is_live": true,
             "hot": true
           },
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-853c305400",
+          "name": "XUE Zhenqi vs WU Kun Lin | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-853c305400",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-853c305400",
+                  "name": "XUE Zhenqi vs WU Kun Lin",
+                  "streams": [
+                    {
+                      "id": "st-853c305400",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-853c305400",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7668/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT CHINA OPEN",
+            "team_a": "XUE Zhenqi",
+            "team_b": "WU Kun Lin",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789132605810_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789132605302_Screenshot 2026-07-07 002427.png",
+            "time": "19:30 11/09",
+            "caster": "Thập Cẩm",
+            "score": "3-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-853c305400_1cd7b872_20260911.png?v=1cd7b872",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ffb67be16a",
           "name": "Fedor GORST vs Jeffrey IGNACIO | Lee Min Hoo",
           "type": "single",
@@ -233,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-853c305400",
-          "name": "XUE Zhenqi vs WU Kun Lin | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-853c305400",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-853c305400",
-                  "name": "XUE Zhenqi vs WU Kun Lin",
-                  "streams": [
-                    {
-                      "id": "st-853c305400",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-853c305400",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7668/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT CHINA OPEN",
-            "team_a": "XUE Zhenqi",
-            "team_b": "WU Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789132605810_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789132605302_Screenshot 2026-07-07 002427.png",
-            "time": "19:30 11/09",
-            "caster": "Thập Cẩm",
-            "score": "3-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-853c305400_1cd7b872_20260911.png?v=1cd7b872",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7d2e803503",
           "name": "Joshua FILLER vs Alexandros KAZAKIS | Đại Kê",
           "type": "single",
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789130057378_16.jpg",
             "time": "19:30 11/09",
             "caster": "Đại Kê",
-            "score": "6-7",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
