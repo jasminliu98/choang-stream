@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (13 LIVE)",
+      "name": "🎱 Billiards (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789099179166_Screenshot 2026-07-07 002427.png",
             "time": "12:30 11/09",
             "caster": "Đại Kê",
-            "score": "8-8",
+            "score": "9-8",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-193429a5c6_c6445763_20260911.png?v=c6445763",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-63f6d6a60f",
-          "name": "LU HUI CHAN vs CAPITO | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63f6d6a60f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-63f6d6a60f",
-                  "name": "LU HUI CHAN vs CAPITO",
-                  "streams": [
-                    {
-                      "id": "st-63f6d6a60f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-63f6d6a60f",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7637/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHINA",
-            "team_a": "LU HUI CHAN",
-            "team_b": "CAPITO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789105216066_Screenshot 2026-07-07 002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789105219880_9.jpg",
-            "time": "12:37 11/09",
-            "caster": "Thập Cẩm",
-            "score": "10-10",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-63f6d6a60f_d916525c_20260911.png?v=d916525c",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789109956287_phil.png",
             "time": "14:00 11/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-2",
+            "score": "7-2",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789110281727_phil.png",
             "time": "14:04 11/09",
             "caster": "Kèn Kèn",
-            "score": "2-4",
+            "score": "2-5",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789108638019_china.png",
             "time": "14:30 11/09",
             "caster": "Kèn Kèn",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -737,6 +665,78 @@
           }
         },
         {
+          "id": "chtv-8c02ce8e57",
+          "name": "MINH TÀI vs CHÍ DŨNG | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c02ce8e57",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8c02ce8e57",
+                  "name": "MINH TÀI vs CHÍ DŨNG",
+                  "streams": [
+                    {
+                      "id": "st-8c02ce8e57",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c02ce8e57",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7646/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "MINH TÀI",
+            "team_b": "CHÍ DŨNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789111531387_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789111533317_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:00 11/09",
+            "caster": "SÊ KÔÔ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c02ce8e57_4fc3de45_20260911.png?v=4fc3de45",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e893985a23",
           "name": "QUỐC TRƯỜNG vs PHÚC TÍN | Tào A Man",
           "type": "single",
@@ -876,78 +876,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8bdb3d2b98_f843770b_20260911.png?v=f843770b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c02ce8e57",
-          "name": "MINH TÀI vs CHÍ DŨNG | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c02ce8e57",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c02ce8e57",
-                  "name": "MINH TÀI vs CHÍ DŨNG",
-                  "streams": [
-                    {
-                      "id": "st-8c02ce8e57",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c02ce8e57",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7646/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "MINH TÀI",
-            "team_b": "CHÍ DŨNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789111531387_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789111533317_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "15:00 11/09",
-            "caster": "SÊ KÔÔ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c02ce8e57_4fc3de45_20260911.png?v=4fc3de45",
             "width": 1600,
             "height": 1200
           }
