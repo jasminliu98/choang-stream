@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-853c305400",
-          "name": "XUE Zhenqi vs WU Kun Lin | Thập Cẩm",
+          "id": "chtv-07ca11bbbe",
+          "name": "ALBERT JANUARTA vs RYAN | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-853c305400",
+              "id": "src-07ca11bbbe",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-853c305400",
-                  "name": "XUE Zhenqi vs WU Kun Lin",
+                  "id": "ct-07ca11bbbe",
+                  "name": "ALBERT JANUARTA vs RYAN",
                   "streams": [
                     {
-                      "id": "st-853c305400",
+                      "id": "st-07ca11bbbe",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-853c305400",
+                          "id": "lnk-07ca11bbbe",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7668/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7671/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TỨ KẾT CHINA OPEN",
-            "team_a": "XUE Zhenqi",
-            "team_b": "WU Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789132605810_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789132605302_Screenshot 2026-07-07 002427.png",
-            "time": "19:30 11/09",
+            "league": "kèo đêm",
+            "team_a": "ALBERT JANUARTA",
+            "team_b": "RYAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789141067780_Screenshot 2026-07-07 004029.png",
+            "logo_b": "",
+            "time": "00:00 11/09",
             "caster": "Thập Cẩm",
-            "score": "8-9",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-853c305400_1cd7b872_20260911.png?v=1cd7b872",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-07ca11bbbe_add6bc4f_20260911.png?v=add6bc4f",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789131316041_phil.png",
             "time": "19:30 11/09",
             "caster": "Lee Min Hoo",
-            "score": "8-9",
+            "score": "8-10",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ffb67be16a_541e778a_20260911.png?v=541e778a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-853c305400",
+          "name": "XUE Zhenqi vs WU Kun Lin | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-853c305400",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-853c305400",
+                  "name": "XUE Zhenqi vs WU Kun Lin",
+                  "streams": [
+                    {
+                      "id": "st-853c305400",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-853c305400",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7668/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT CHINA OPEN",
+            "team_a": "XUE Zhenqi",
+            "team_b": "WU Kun Lin",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789132605810_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789132605302_Screenshot 2026-07-07 002427.png",
+            "time": "19:30 11/09",
+            "caster": "Thập Cẩm",
+            "score": "8-10",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-853c305400_1cd7b872_20260911.png?v=1cd7b872",
             "width": 1600,
             "height": 1200
           }
