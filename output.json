@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (9 LIVE)",
+      "name": "🎱 Billiards (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-11aed9e7ed",
-          "name": "ANTON RAGA vs BALDO ILOILO | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11aed9e7ed",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-11aed9e7ed",
-                  "name": "ANTON RAGA vs BALDO ILOILO",
-                  "streams": [
-                    {
-                      "id": "st-11aed9e7ed",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11aed9e7ed",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7650/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PHIL PHỦI",
-            "team_a": "ANTON RAGA",
-            "team_b": "BALDO ILOILO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789115363001_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789115367980_phil.png",
-            "time": "15:30 11/09",
-            "caster": "Xinh Yeu",
-            "score": "7-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-11aed9e7ed_fff4fdea_20260911.png?v=fff4fdea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4efcac4b5c",
           "name": "HARIM vs BREAKERS | Bỉm Sữa",
           "type": "single",
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789114741313_Screenshot 2026-09-11 151847.png",
             "time": "16:00 11/09",
             "caster": "Bỉm Sữa",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4efcac4b5c_345d389b_20260911.png?v=345d389b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8578bc715d",
-          "name": "Joshua FILLER vs CAPITO | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8578bc715d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8578bc715d",
-                  "name": "Joshua FILLER vs CAPITO",
-                  "streams": [
-                    {
-                      "id": "st-8578bc715d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8578bc715d",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7653/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china open",
-            "team_a": "Joshua FILLER",
-            "team_b": "CAPITO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789119999786_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
-            "time": "17:30 11/09",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8578bc715d_627a1e30_20260911.png?v=627a1e30",
             "width": 1600,
             "height": 1200
           }
@@ -516,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ad33f66041_9d2dd2a2_20260911.png?v=9d2dd2a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8578bc715d",
+          "name": "Joshua FILLER vs CAPITO | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8578bc715d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8578bc715d",
+                  "name": "Joshua FILLER vs CAPITO",
+                  "streams": [
+                    {
+                      "id": "st-8578bc715d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8578bc715d",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7653/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china open",
+            "team_a": "Joshua FILLER",
+            "team_b": "CAPITO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789119999786_6.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789119999431_9.jpg",
+            "time": "17:30 11/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8578bc715d_627a1e30_20260911.png?v=627a1e30",
             "width": 1600,
             "height": 1200
           }
