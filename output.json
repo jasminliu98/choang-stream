@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-38fc2e395b",
+          "name": "Duy Đen vs MẬP | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38fc2e395b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-38fc2e395b",
+                  "name": "Duy Đen vs MẬP",
+                  "streams": [
+                    {
+                      "id": "st-38fc2e395b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-38fc2e395b",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7680/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "kèo bida tick tock NO LIVE game 2",
+            "team_a": "Duy Đen",
+            "team_b": "MẬP",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "time": "00:00 12/09",
+            "caster": "VÁNG",
+            "score": "3-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-38fc2e395b_c5d47df0_20260912.png?v=c5d47df0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-3a8f0cf00c",
           "name": "ĐI chây Manas vs Anthony Figueroa 6-9-10 | GIÀNG A PHỌ",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789145941751_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-07-07 214239.png",
             "time": "00:00 12/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "12-9",
+            "score": "14-10",
             "is_live": true,
             "hot": true
           },
