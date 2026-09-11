@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "chtv-52c9e763e5",
+          "name": "Alexandros KAZAKIS vs Kyle AMOROTO | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52c9e763e5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-52c9e763e5",
+                  "name": "Alexandros KAZAKIS vs Kyle AMOROTO",
+                  "streams": [
+                    {
+                      "id": "st-52c9e763e5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52c9e763e5",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7612/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
+            "team_a": "Alexandros KAZAKIS",
+            "team_b": "Kyle AMOROTO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789088424272_Alexandros KAZAKIS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789088396503_kyle amoroto.jpg",
+            "time": "12:30 11/09",
+            "caster": "Bỉm Sữa",
+            "score": "6-2",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-52c9e763e5_aee3d1ed_20260911.png?v=aee3d1ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8b46bc3ff2",
           "name": "Fedor GORST vs Dominik JASTRZAB | SÊ KÔÔ",
           "type": "single",
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-52c9e763e5",
-          "name": "Alexandros KAZAKIS vs Kyle AMOROTO | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52c9e763e5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-52c9e763e5",
-                  "name": "Alexandros KAZAKIS vs Kyle AMOROTO",
-                  "streams": [
-                    {
-                      "id": "st-52c9e763e5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-52c9e763e5",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7612/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 WPA浦东唐镇普尔9球中国公开赛 2026 9 Ball China Open",
-            "team_a": "Alexandros KAZAKIS",
-            "team_b": "Kyle AMOROTO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789088424272_Alexandros KAZAKIS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789088396503_kyle amoroto.jpg",
-            "time": "12:30 11/09",
-            "caster": "Bỉm Sữa",
-            "score": "6-1",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-52c9e763e5_aee3d1ed_20260911.png?v=aee3d1ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-63f6d6a60f",
           "name": "LU HUI CHAN vs CAPITO | Thập Cẩm",
           "type": "single",
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789105219880_9.jpg",
             "time": "12:37 11/09",
             "caster": "Thập Cẩm",
-            "score": "2-4",
+            "score": "3-5",
             "is_live": true,
             "hot": false
           },
