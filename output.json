@@ -11,11 +11,155 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-52d6737451",
+          "name": "Tú Tây vs Tùng Bão Táp | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52d6737451",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-52d6737451",
+                  "name": "Tú Tây vs Tùng Bão Táp",
+                  "streams": [
+                    {
+                      "id": "st-52d6737451",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52d6737451",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7709/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Tú Tây",
+            "team_b": "Tùng Bão Táp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789205884009_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789205883726_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 12/09",
+            "caster": "Xinh Yeu",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-52d6737451_4683ba19_20260912.png?v=4683ba19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a0b364906f",
+          "name": "NGUYỄN HỮU TÌNH vs TRẦN VĂN HỢP | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0b364906f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a0b364906f",
+                  "name": "NGUYỄN HỮU TÌNH vs TRẦN VĂN HỢP",
+                  "streams": [
+                    {
+                      "id": "st-a0b364906f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0b364906f",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7708/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "NGUYỄN HỮU TÌNH",
+            "team_b": "TRẦN VĂN HỢP",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789205710309_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789205709787_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 12/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a0b364906f_40110c62_20260912.png?v=40110c62",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-6b7ceba8a4",
           "name": "TÙNG HÍP vs THÀNH NAM | SÊ KÔÔ",
@@ -75,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789197937045_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:25 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "10-6",
+            "score": "10-7",
             "is_live": true,
             "hot": false
           },
