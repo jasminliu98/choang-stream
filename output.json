@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789193892767_Screenshot 2026-07-07 002427.png",
             "time": "00:00 12/09",
             "caster": "Xinh Yeu",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bbb4818190_b5df4415_20260912.png?v=b5df4415",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b993d50c7c",
-          "name": "Nguyên vs Huỳnh | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b993d50c7c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b993d50c7c",
-                  "name": "Nguyên vs Huỳnh",
-                  "streams": [
-                    {
-                      "id": "st-b993d50c7c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b993d50c7c",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7701/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vn",
-            "team_a": "Nguyên",
-            "team_b": "Huỳnh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226385179_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_táº£i xuá»ng.png",
-            "time": "12:43 12/09",
-            "caster": "Bỉm Sữa",
-            "score": "10-13",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b993d50c7c_5b23ef61_20260912.png?v=5b23ef61",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789196717935_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:05 12/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789197937045_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:25 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "2-1",
+            "score": "2-2",
             "is_live": true,
             "hot": false
           },
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789198937200_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:42 12/09",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
