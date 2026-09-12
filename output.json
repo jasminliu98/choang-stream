@@ -10,6 +10,159 @@
   },
   "groups": [
     {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-a4b9f8df80",
+          "name": "Trận 2 | LION Championship﻿ 35 | 20:15 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4b9f8df80",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a4b9f8df80",
+                  "name": "Trận 2 | LION Championship﻿ 35",
+                  "streams": [
+                    {
+                      "id": "st-a4b9f8df80",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4b9f8df80",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7721/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 2 | LION Championship﻿ 35",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789216945344_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 193954.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789216959104_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194006.png",
+            "time": "20:15 12/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4b9f8df80_498dd968_20260912.png?v=498dd968",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4388188a67",
+          "name": "Trận 3 | LION Championship﻿ 35 | 20:30 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4388188a67",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4388188a67",
+                  "name": "Trận 3 | LION Championship﻿ 35",
+                  "streams": [
+                    {
+                      "id": "st-4388188a67",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4388188a67",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7722/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 3 | LION Championship﻿ 35",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789217049882_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194139.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789217039020_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194126.png",
+            "time": "20:30 12/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4388188a67_4cc8899e_20260912.png?v=4cc8899e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_billiards",
       "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
@@ -75,7 +228,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789211003116_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "18:03 12/09",
             "caster": "Bỉm Sữa",
-            "score": "1-4",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +300,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
             "time": "19:30 12/09",
             "caster": "Thập Cẩm",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
