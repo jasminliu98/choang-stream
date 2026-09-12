@@ -452,83 +452,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4efd0652ce",
-          "name": "VŨ ĐÌNH KHÁNH vs LÊ XUÂN TRƯỜNG | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4efd0652ce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4efd0652ce",
-                  "name": "VŨ ĐÌNH KHÁNH vs LÊ XUÂN TRƯỜNG",
-                  "streams": [
-                    {
-                      "id": "st-4efd0652ce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4efd0652ce",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7718/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "VŨ ĐÌNH KHÁNH",
-            "team_b": "LÊ XUÂN TRƯỜNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789211000917_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789211003116_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "18:03 12/09",
-            "caster": "Bỉm Sữa",
-            "score": "6-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4efd0652ce_3c107371_20260912.png?v=3c107371",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-751a1c12a9",
           "name": "SHI Tianqi vs FU Xiaofang | Thập Cẩm",
