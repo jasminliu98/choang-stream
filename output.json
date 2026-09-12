@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789183932668_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:00 12/09",
             "caster": "Tào A Man",
-            "score": "3-5",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-a777946b0d",
-          "name": "Johnny Nguyen vs Eric Duncan | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a777946b0d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a777946b0d",
-                  "name": "Johnny Nguyen vs Eric Duncan",
-                  "streams": [
-                    {
-                      "id": "st-a777946b0d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a777946b0d",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7689/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USA",
-            "team_a": "Johnny Nguyen",
-            "team_b": "Eric Duncan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765250803265_táº£i xuá»ng (1).png",
-            "time": "11:05 12/09",
-            "caster": "Đại Kê",
-            "score": "0-2",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a777946b0d_ff69942e_20260912.png?v=ff69942e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-0276afa740",
           "name": "TRƯƠNG VIẾT HIỆP vs NGÔ MINH THÁI | Bỉm Sữa",
           "type": "single",
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789186615953_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:17 12/09",
             "caster": "Bỉm Sữa",
-            "score": "1-0",
+            "score": "2-0",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789187644050_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:34 12/09",
             "caster": "BÚN CHÓ",
-            "score": "1-3",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
