@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3713fe1501",
-          "name": "JONAS MAGPANTAY vs ASSIS TADIQUE +2 | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3713fe1501",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3713fe1501",
-                  "name": "JONAS MAGPANTAY vs ASSIS TADIQUE +2",
-                  "streams": [
-                    {
-                      "id": "st-3713fe1501",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3713fe1501",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7731/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JONAS MAGPANTAY",
-            "team_b": "ASSIS TADIQUE +2",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789225913867_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789225913587_phil.png",
-            "time": "00:00 12/09",
-            "caster": "SÊ KÔÔ",
-            "score": "18-19",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3713fe1501_e6d92cad_20260913.png?v=e6d92cad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-df3d9f15e6",
           "name": "Tùng híp vs Thành Châm HD | GIÀNG A PHỌ",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789224158710_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 12/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "11-9",
+            "score": "13-9",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789233723166_JAMES ARANAS.jpg",
             "time": "00:00 13/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "4-3",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
