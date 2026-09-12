@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789198937200_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:42 12/09",
             "caster": "Đại Kê",
-            "score": "13-14",
+            "score": "14-14",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789208114226_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:16 12/09",
             "caster": "Thập Cẩm",
-            "score": "5-6",
+            "score": "5-7",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789208344061_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:18 12/09",
             "caster": "Xinh Yeu",
-            "score": "7-8",
+            "score": "7-9",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789206157282_china.png",
             "time": "17:30 12/09",
             "caster": "Đại Kê",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -377,7 +377,7 @@
           }
         },
         {
-          "id": "chtv-751a1c12a9",
+          "id": "chtv-5de3df8ca7",
           "name": "SHI Tianqi vs FU Xiaofang | 19:30 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-751a1c12a9",
+              "id": "src-5de3df8ca7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-751a1c12a9",
+                  "id": "ct-5de3df8ca7",
                   "name": "SHI Tianqi vs FU Xiaofang",
                   "streams": [
                     {
-                      "id": "st-751a1c12a9",
+                      "id": "st-5de3df8ca7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-751a1c12a9",
+                          "id": "lnk-5de3df8ca7",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7713/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7715/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -431,8 +431,8 @@
             "league": "BÁN KẾT 9-Ball China Open",
             "team_a": "SHI Tianqi",
             "team_b": "FU Xiaofang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206648599_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789206726932_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789206726677_china.png",
             "time": "19:30 12/09",
             "caster": "",
             "score": "0-0",
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-751a1c12a9_4f6b97f2_20260912.png?v=4f6b97f2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5de3df8ca7_0ff203ef_20260912.png?v=0ff203ef",
             "width": 1600,
             "height": 1200
           }
