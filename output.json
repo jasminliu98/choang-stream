@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-f3cd45af8c",
-          "name": "TRƯƠNG MẬU HƯNG vs THÁI HỒNG PHÚC | Lee Min Hoo",
+          "id": "chtv-f8edc50d99",
+          "name": "Ferrer vs Estiola | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-f3cd45af8c",
+              "id": "src-f8edc50d99",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f3cd45af8c",
-                  "name": "TRƯƠNG MẬU HƯNG vs THÁI HỒNG PHÚC",
+                  "id": "ct-f8edc50d99",
+                  "name": "Ferrer vs Estiola",
                   "streams": [
                     {
-                      "id": "st-f3cd45af8c",
+                      "id": "st-f8edc50d99",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f3cd45af8c",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-f8edc50d99",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7697/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7696/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "STING x VBSF POOL 9-BALL",
-            "team_a": "TRƯƠNG MẬU HƯNG",
-            "team_b": "THÁI HỒNG PHÚC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789193177808_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789193179815_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "Tuna Festival Cup 2026 Quarterfinals",
+            "team_a": "Ferrer",
+            "team_b": "Estiola",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789192087642_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789192089850_phil.png",
             "time": "00:00 12/09",
-            "caster": "Lee Min Hoo",
-            "score": "6-1",
+            "caster": "Thập Cẩm",
+            "score": "5-6",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f3cd45af8c_0ba97405_20260912.png?v=0ba97405",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8edc50d99_8bcbeff2_20260912.png?v=8bcbeff2",
             "width": 1600,
             "height": 1200
           }
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-f8edc50d99",
-          "name": "Ferrer vs Estiola | Thập Cẩm",
+          "id": "chtv-f3cd45af8c",
+          "name": "TRƯƠNG MẬU HƯNG vs THÁI HỒNG PHÚC | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-f8edc50d99",
+              "id": "src-f3cd45af8c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f8edc50d99",
-                  "name": "Ferrer vs Estiola",
+                  "id": "ct-f3cd45af8c",
+                  "name": "TRƯƠNG MẬU HƯNG vs THÁI HỒNG PHÚC",
                   "streams": [
                     {
-                      "id": "st-f8edc50d99",
+                      "id": "st-f3cd45af8c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f8edc50d99",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-f3cd45af8c",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7696/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7697/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Tuna Festival Cup 2026 Quarterfinals",
-            "team_a": "Ferrer",
-            "team_b": "Estiola",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789192087642_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789192089850_phil.png",
+            "league": "STING x VBSF POOL 9-BALL",
+            "team_a": "TRƯƠNG MẬU HƯNG",
+            "team_b": "THÁI HỒNG PHÚC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789193177808_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789193179815_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 12/09",
-            "caster": "Thập Cẩm",
-            "score": "5-6",
+            "caster": "Lee Min Hoo",
+            "score": "6-1",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8edc50d99_8bcbeff2_20260912.png?v=8bcbeff2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f3cd45af8c_0ba97405_20260912.png?v=0ba97405",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_táº£i xuá»ng.png",
             "time": "12:43 12/09",
             "caster": "Bỉm Sữa",
-            "score": "8-9",
+            "score": "8-10",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789189568600_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:30 12/09",
             "caster": "Tào A Man",
-            "score": "5-2",
+            "score": "5-3",
             "is_live": true,
             "hot": false
           },
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-46b76fdddc_dbb30748_20260912.png?v=dbb30748",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6b7ceba8a4",
+          "name": "TÙNG HÍP vs THÀNH NAM | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b7ceba8a4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6b7ceba8a4",
+                  "name": "TÙNG HÍP vs THÀNH NAM",
+                  "streams": [
+                    {
+                      "id": "st-6b7ceba8a4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b7ceba8a4",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7703/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "TÙNG HÍP",
+            "team_b": "THÀNH NAM",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789197935195_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789197937045_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "14:25 12/09",
+            "caster": "SÊ KÔÔ",
+            "score": "1-1",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6b7ceba8a4_e8c70986_20260912.png?v=e8c70986",
             "width": 1600,
             "height": 1200
           }
