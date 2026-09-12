@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-eb3495a04e",
+          "name": "LỜ VIỆT CƯỜNG vs NGUYỄN ĐỨC LỢI | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb3495a04e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-eb3495a04e",
+                  "name": "LỜ VIỆT CƯỜNG vs NGUYỄN ĐỨC LỢI",
+                  "streams": [
+                    {
+                      "id": "st-eb3495a04e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb3495a04e",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7687/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 STING x VBSF POOL 9-BALL",
+            "team_a": "LỜ VIỆT CƯỜNG",
+            "team_b": "NGUYỄN ĐỨC LỢI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789184267948_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789184270431_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "11:00 12/09",
+            "caster": "Lee Min Hoo",
+            "score": "1-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eb3495a04e_ea468559_20260912.png?v=ea468559",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-bd2257df63",
           "name": "RHAKI CONSTANTINO vs EDEN CANDELARIA | SÊ KÔÔ",
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789183932668_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "11:00 12/09",
             "caster": "Tào A Man",
-            "score": "1-1",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d599840c40_b11ce6d8_20260912.png?v=b11ce6d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-eb3495a04e",
-          "name": "LỜ VIỆT CƯỜNG vs NGUYỄN ĐỨC LỢI | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb3495a04e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eb3495a04e",
-                  "name": "LỜ VIỆT CƯỜNG vs NGUYỄN ĐỨC LỢI",
-                  "streams": [
-                    {
-                      "id": "st-eb3495a04e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eb3495a04e",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7687/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 STING x VBSF POOL 9-BALL",
-            "team_a": "LỜ VIỆT CƯỜNG",
-            "team_b": "NGUYỄN ĐỨC LỢI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789184267948_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789184270431_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "11:00 12/09",
-            "caster": "Lee Min Hoo",
-            "score": "0-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eb3495a04e_ea468559_20260912.png?v=ea468559",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a777946b0d_ff69942e_20260912.png?v=ff69942e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0276afa740",
+          "name": "TRƯƠNG VIẾT HIỆP vs NGÔ MINH THÁI | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0276afa740",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0276afa740",
+                  "name": "TRƯƠNG VIẾT HIỆP vs NGÔ MINH THÁI",
+                  "streams": [
+                    {
+                      "id": "st-0276afa740",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0276afa740",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7690/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "TRƯƠNG VIẾT HIỆP",
+            "team_b": "NGÔ MINH THÁI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789186613596_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789186615953_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "11:17 12/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0276afa740_3d188f30_20260912.png?v=3d188f30",
             "width": 1600,
             "height": 1200
           }
