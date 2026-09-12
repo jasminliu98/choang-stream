@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-a4b9f8df80",
-          "name": "Trận 2 | LION Championship﻿ 35 | 20:15 12/09",
+          "name": "Trận 2 | LION Championship﻿ 35 | 20:15 12/09 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-a4b9f8df80",
-                          "name": "Stream",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7721/index.m3u8",
@@ -74,7 +74,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1789216945344_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 193954.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789216959104_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194006.png",
             "time": "20:15 12/09",
-            "caster": "",
+            "caster": "Đại Kê",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -300,7 +300,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
             "time": "19:30 12/09",
             "caster": "Thập Cẩm",
-            "score": "2-0",
+            "score": "2-1",
             "is_live": true,
             "hot": true
           },
