@@ -8,5 +8,159 @@
     "type": "cover",
     "url": "https://choangtv23.com/__og-image__/image/og.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-d599840c40",
+          "name": "Lương gia khánh vs Bùi duy tùng | 11:00 12/09 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d599840c40",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d599840c40",
+                  "name": "Lương gia khánh vs Bùi duy tùng",
+                  "streams": [
+                    {
+                      "id": "st-d599840c40",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d599840c40",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7683/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 STING x VBSF POOL 9-BALL",
+            "team_a": "Lương gia khánh",
+            "team_b": "Bùi duy tùng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789183930046_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789183932668_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "11:00 12/09",
+            "caster": "Tào A Man",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d599840c40_b11ce6d8_20260912.png?v=b11ce6d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-20a61b45f9",
+          "name": "KAZAKIS vs GORST | 12:30 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20a61b45f9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-20a61b45f9",
+                  "name": "KAZAKIS vs GORST",
+                  "streams": [
+                    {
+                      "id": "st-20a61b45f9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20a61b45f9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7684/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA 9-Ball China Open",
+            "team_a": "KAZAKIS",
+            "team_b": "GORST",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789184089977_images (1).png",
+            "time": "12:30 12/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-20a61b45f9_10b96d41_20260912.png?v=10b96d41",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
