@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789205709787_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 12/09",
             "caster": "Bỉm Sữa",
-            "score": "4-3",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789197937045_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:25 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "11-9",
+            "score": "11-10",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789198937200_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:42 12/09",
             "caster": "Đại Kê",
-            "score": "10-12",
+            "score": "10-13",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789203168273_phil.png",
             "time": "15:53 12/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-6",
+            "score": "7-6",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789208114226_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:16 12/09",
             "caster": "Thập Cẩm",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789208344061_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "17:18 12/09",
             "caster": "Xinh Yeu",
-            "score": "4-4",
+            "score": "4-5",
             "is_live": true,
             "hot": false
           },
@@ -521,7 +521,7 @@
           }
         },
         {
-          "id": "chtv-5de3df8ca7",
+          "id": "chtv-2bc74fcd67",
           "name": "SHI Tianqi vs FU Xiaofang | 19:30 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -536,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-5de3df8ca7",
+              "id": "src-2bc74fcd67",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5de3df8ca7",
+                  "id": "ct-2bc74fcd67",
                   "name": "SHI Tianqi vs FU Xiaofang",
                   "streams": [
                     {
-                      "id": "st-5de3df8ca7",
+                      "id": "st-2bc74fcd67",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5de3df8ca7",
+                          "id": "lnk-2bc74fcd67",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7715/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7714/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -575,8 +575,8 @@
             "league": "BÁN KẾT 9-Ball China Open",
             "team_a": "SHI Tianqi",
             "team_b": "FU Xiaofang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206726932_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206726677_china.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789206683836_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789206683770_china.png",
             "time": "19:30 12/09",
             "caster": "",
             "score": "0-0",
@@ -587,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5de3df8ca7_0ff203ef_20260912.png?v=0ff203ef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2bc74fcd67_7d6ad0ad_20260912.png?v=7d6ad0ad",
             "width": 1600,
             "height": 1200
           }
