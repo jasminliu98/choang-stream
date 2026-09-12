@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8edc50d99_8bcbeff2_20260912.png?v=8bcbeff2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-20a61b45f9",
-          "name": "KAZAKIS vs GORST | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-20a61b45f9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-20a61b45f9",
-                  "name": "KAZAKIS vs GORST",
-                  "streams": [
-                    {
-                      "id": "st-20a61b45f9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20a61b45f9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7684/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA 9-Ball China Open",
-            "team_a": "KAZAKIS",
-            "team_b": "GORST",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789184203811_16.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789184089977_images (1).png",
-            "time": "12:30 12/09",
-            "caster": "SÊ KÔÔ",
-            "score": "7-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-20a61b45f9_dfd27b7c_20260912.png?v=dfd27b7c",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789193179815_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:06 12/09",
             "caster": "Lee Min Hoo",
-            "score": "5-0",
+            "score": "6-1",
             "is_live": true,
             "hot": true
           },
