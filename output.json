@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789192089850_phil.png",
             "time": "00:00 12/09",
             "caster": "Thập Cẩm",
-            "score": "3-5",
+            "score": "4-5",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8edc50d99_8bcbeff2_20260912.png?v=8bcbeff2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b37f8e59e8",
-          "name": "Tri Thuc ( G ) vs Đạt (H ) | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b37f8e59e8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b37f8e59e8",
-                  "name": "Tri Thuc ( G ) vs Đạt (H )",
-                  "streams": [
-                    {
-                      "id": "st-b37f8e59e8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b37f8e59e8",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7692/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "Tri Thuc ( G )",
-            "team_b": "Đạt (H )",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789187641639_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789187644050_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "11:34 12/09",
-            "caster": "BÚN CHÓ",
-            "score": "19-16",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b37f8e59e8_8b35f88f_20260912.png?v=8b35f88f",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789184089977_images (1).png",
             "time": "12:30 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "7-7",
+            "score": "7-8",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_táº£i xuá»ng.png",
             "time": "12:43 12/09",
             "caster": "Bỉm Sữa",
-            "score": "5-2",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789193179815_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:06 12/09",
             "caster": "Lee Min Hoo",
-            "score": "2-0",
+            "score": "3-0",
             "is_live": true,
             "hot": true
           },
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789189568600_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:30 12/09",
             "caster": "Tào A Man",
-            "score": "2-1",
+            "score": "3-1",
             "is_live": true,
             "hot": false
           },
@@ -521,7 +449,7 @@
           }
         },
         {
-          "id": "chtv-60fdb3abe6",
+          "id": "chtv-bbb4818190",
           "name": "Macioł vs WU Kun Lin | 14:30 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -536,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-60fdb3abe6",
+              "id": "src-bbb4818190",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-60fdb3abe6",
+                  "id": "ct-bbb4818190",
                   "name": "Macioł vs WU Kun Lin",
                   "streams": [
                     {
-                      "id": "st-60fdb3abe6",
+                      "id": "st-bbb4818190",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-60fdb3abe6",
+                          "id": "lnk-bbb4818190",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7699/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7698/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -575,8 +503,8 @@
             "league": "WPA 9-Ball China Open",
             "team_a": "Macioł",
             "team_b": "WU Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789193897228_2.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789193899892_Screenshot 2026-07-07 002427.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789193881661_2.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789193892767_Screenshot 2026-07-07 002427.png",
             "time": "14:30 12/09",
             "caster": "",
             "score": "0-0",
@@ -587,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-60fdb3abe6_5907e494_20260912.png?v=5907e494",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bbb4818190_b5df4415_20260912.png?v=b5df4415",
             "width": 1600,
             "height": 1200
           }
