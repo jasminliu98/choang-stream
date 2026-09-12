@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a4b616e47e",
-          "name": "Rubilen Dacua AMIT vs LIU Shasha | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a4b616e47e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a4b616e47e",
-                  "name": "Rubilen Dacua AMIT vs LIU Shasha",
-                  "streams": [
-                    {
-                      "id": "st-a4b616e47e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4b616e47e",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7710/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT 9-Ball China Open",
-            "team_a": "Rubilen Dacua AMIT",
-            "team_b": "LIU Shasha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206157598_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206157282_china.png",
-            "time": "17:30 12/09",
-            "caster": "Đại Kê",
-            "score": "3-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4b616e47e_5934e934_20260912.png?v=5934e934",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4efd0652ce",
           "name": "VŨ ĐÌNH KHÁNH vs LÊ XUÂN TRƯỜNG | Bỉm Sữa",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789212112245_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "18:21 12/09",
             "caster": "Xinh Yeu",
-            "score": "11-9",
+            "score": "13-9",
             "is_live": true,
             "hot": false
           },
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f775dcf2dd_33f66ceb_20260912.png?v=33f66ceb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-751a1c12a9",
-          "name": "SHI Tianqi vs FU Xiaofang | 19:30 12/09 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-751a1c12a9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-751a1c12a9",
-                  "name": "SHI Tianqi vs FU Xiaofang",
-                  "streams": [
-                    {
-                      "id": "st-751a1c12a9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-751a1c12a9",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7713/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT 9-Ball China Open",
-            "team_a": "SHI Tianqi",
-            "team_b": "FU Xiaofang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206648599_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
-            "time": "19:30 12/09",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-751a1c12a9_4f6b97f2_20260912.png?v=4f6b97f2",
             "width": 1600,
             "height": 1200
           }
