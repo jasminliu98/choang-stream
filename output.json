@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-2279a2c242",
+          "name": "JONAS MAGPANTAY vs ASSIS TADIQUE +2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2279a2c242",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2279a2c242",
+                  "name": "JONAS MAGPANTAY vs ASSIS TADIQUE +2",
+                  "streams": [
+                    {
+                      "id": "st-2279a2c242",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2279a2c242",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7732/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JONAS MAGPANTAY",
+            "team_b": "ASSIS TADIQUE +2",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789227635136_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789227635002_phil.png",
+            "time": "00:00 12/09",
+            "caster": "",
+            "score": "7-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2279a2c242_77c7afe0_20260912.png?v=77c7afe0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-df3d9f15e6",
           "name": "Tùng híp vs Thành Châm HD | GIÀNG A PHỌ",
           "type": "single",
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789225913587_phil.png",
             "time": "00:00 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "7-6",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3713fe1501_e6d92cad_20260912.png?v=e6d92cad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fe695c92f7",
-          "name": "Jaybee Sucal vs Marlo Patuwad 710 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe695c92f7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fe695c92f7",
-                  "name": "Jaybee Sucal vs Marlo Patuwad 710",
-                  "streams": [
-                    {
-                      "id": "st-fe695c92f7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe695c92f7",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7729/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Jaybee Sucal",
-            "team_b": "Marlo Patuwad 710",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789223861941_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789223861238_phil.png",
-            "time": "00:00 12/09",
-            "caster": "Thập Cẩm",
-            "score": "9-12",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fe695c92f7_ee010ee7_20260912.png?v=ee010ee7",
             "width": 1600,
             "height": 1200
           }
