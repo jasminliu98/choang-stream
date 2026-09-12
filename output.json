@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789205709787_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 12/09",
             "caster": "Bỉm Sữa",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789205883726_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 12/09",
             "caster": "Xinh Yeu",
-            "score": "5-2",
+            "score": "6-2",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789198937200_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:42 12/09",
             "caster": "Đại Kê",
-            "score": "9-9",
+            "score": "9-10",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789203168273_phil.png",
             "time": "15:53 12/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-3",
+            "score": "2-4",
             "is_live": true,
             "hot": false
           },
@@ -377,7 +377,7 @@
           }
         },
         {
-          "id": "chtv-a4b616e47e",
+          "id": "chtv-a53f798af0",
           "name": "Rubilen Dacua AMIT vs LIU Shasha | 17:30 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-a4b616e47e",
+              "id": "src-a53f798af0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a4b616e47e",
+                  "id": "ct-a53f798af0",
                   "name": "Rubilen Dacua AMIT vs LIU Shasha",
                   "streams": [
                     {
-                      "id": "st-a4b616e47e",
+                      "id": "st-a53f798af0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a4b616e47e",
+                          "id": "lnk-a53f798af0",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7710/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7712/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,11 +428,11 @@
             }
           ],
           "org_metadata": {
-            "league": "WPA 9-Ball China Open",
+            "league": "BÁN KẾT 9-Ball China Open",
             "team_a": "Rubilen Dacua AMIT",
             "team_b": "LIU Shasha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206157598_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206157282_china.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789206289335_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789206289296_china.png",
             "time": "17:30 12/09",
             "caster": "",
             "score": "0-0",
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4b616e47e_5934e934_20260912.png?v=5934e934",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a53f798af0_b23c09b9_20260912.png?v=b23c09b9",
             "width": 1600,
             "height": 1200
           }
