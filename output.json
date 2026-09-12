@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789193892767_Screenshot 2026-07-07 002427.png",
             "time": "00:00 12/09",
             "caster": "Xinh Yeu",
-            "score": "3-7",
+            "score": "3-8",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789197937045_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:25 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "5-5",
+            "score": "6-5",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789202440805_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:41 12/09",
             "caster": "Thập Cẩm",
-            "score": "3-3",
+            "score": "3-4",
             "is_live": true,
             "hot": false
           },
@@ -372,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aee0c52a41_f9a67cb0_20260912.png?v=f9a67cb0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1690808214",
+          "name": "SHAYNE ACEBAR vs KENKEN BURGER | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1690808214",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1690808214",
+                  "name": "SHAYNE ACEBAR vs KENKEN BURGER",
+                  "streams": [
+                    {
+                      "id": "st-1690808214",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1690808214",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7707/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHỦI PHIL",
+            "team_a": "SHAYNE ACEBAR",
+            "team_b": "KENKEN BURGER",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789203165962_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789203168273_phil.png",
+            "time": "15:53 12/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1690808214_98cfa2c0_20260912.png?v=98cfa2c0",
             "width": 1600,
             "height": 1200
           }
