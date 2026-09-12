@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a4b9f8df80",
-          "name": "Trận 2 | LION Championship﻿ 35 | 20:15 12/09 | Đại Kê",
+          "id": "chtv-3953dab3c4",
+          "name": "Phạm Sơn Liêm vs Phạm Duy Quyền | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a4b9f8df80",
+              "id": "src-3953dab3c4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a4b9f8df80",
-                  "name": "Trận 2 | LION Championship﻿ 35",
+                  "id": "ct-3953dab3c4",
+                  "name": "Phạm Sơn Liêm vs Phạm Duy Quyền",
                   "streams": [
                     {
-                      "id": "st-a4b9f8df80",
+                      "id": "st-3953dab3c4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a4b9f8df80",
+                          "id": "lnk-3953dab3c4",
                           "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7721/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7720/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 2 | LION Championship﻿ 35",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789216945344_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 193954.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789216959104_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194006.png",
-            "time": "20:15 12/09",
+            "league": "Trận 1 |  LION Championship﻿ 35",
+            "team_a": "Phạm Sơn Liêm",
+            "team_b": "Phạm Duy Quyền",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789216796179_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 193719.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789216814354_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 193743.png",
+            "time": "20:00 12/09",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
-            "hot": false
+            "is_live": true,
+            "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4b9f8df80_498dd968_20260912.png?v=498dd968",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3953dab3c4_b9765da2_20260912.png?v=b9765da2",
             "width": 1600,
             "height": 1200
           }
@@ -372,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-de4d57192e_ac8a882f_20260912.png?v=ac8a882f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3df427e11e",
+          "name": "Trận 7 | LION Championship﻿ 35 | 21:30 12/09 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3df427e11e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3df427e11e",
+                  "name": "Trận 7 | LION Championship﻿ 35",
+                  "streams": [
+                    {
+                      "id": "st-3df427e11e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3df427e11e",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7726/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 7 | LION Championship﻿ 35",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789217771937_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195336.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789217780611_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195350.png",
+            "time": "21:30 12/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3df427e11e_c8c7b8d1_20260912.png?v=c8c7b8d1",
             "width": 1600,
             "height": 1200
           }
