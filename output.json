@@ -90,7 +90,7 @@
         },
         {
           "id": "chtv-4388188a67",
-          "name": "Trận 3 | LION Championship﻿ 35 | 20:30 12/09",
+          "name": "Trận 3 | LION Championship﻿ 35 | 20:30 12/09 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -117,7 +117,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-4388188a67",
-                          "name": "Stream",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7722/index.m3u8",
@@ -146,7 +146,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1789217049882_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194139.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789217039020_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194126.png",
             "time": "20:30 12/09",
-            "caster": "",
+            "caster": "Đại Kê",
             "score": "0-0",
             "is_live": false,
             "hot": false
@@ -156,6 +156,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4388188a67_4cc8899e_20260912.png?v=4cc8899e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b1b773fd50",
+          "name": "Trận 4 | LION Championship﻿ 35 | 20:45 12/09 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1b773fd50",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1b773fd50",
+                  "name": "Trận 4 | LION Championship﻿ 35",
+                  "streams": [
+                    {
+                      "id": "st-b1b773fd50",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1b773fd50",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7723/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 4 | LION Championship﻿ 35",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789217472491_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194838.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789217479416_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194848.png",
+            "time": "20:45 12/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1b773fd50_0ff6535f_20260912.png?v=0ff6535f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a70237741b",
+          "name": "Trận 5  | LION Championship﻿ 35 | 21:00 12/09 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a70237741b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a70237741b",
+                  "name": "Trận 5  | LION Championship﻿ 35",
+                  "streams": [
+                    {
+                      "id": "st-a70237741b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a70237741b",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7724/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 5  | LION Championship﻿ 35",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789217570835_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195017.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789217583041_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195031.png",
+            "time": "21:00 12/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a70237741b_7e8e620c_20260912.png?v=7e8e620c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-de4d57192e",
+          "name": "Trận 6 | LION Championship﻿ 35 | 21:15 12/09 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de4d57192e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-de4d57192e",
+                  "name": "Trận 6 | LION Championship﻿ 35",
+                  "streams": [
+                    {
+                      "id": "st-de4d57192e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-de4d57192e",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7725/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 6 | LION Championship﻿ 35",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789217668376_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195155.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789217677431_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195206.png",
+            "time": "21:15 12/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": false,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-de4d57192e_ac8a882f_20260912.png?v=ac8a882f",
             "width": 1600,
             "height": 1200
           }
@@ -300,7 +516,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
             "time": "19:30 12/09",
             "caster": "Thập Cẩm",
-            "score": "2-1",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
