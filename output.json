@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,17 +89,89 @@
           }
         },
         {
-          "id": "chtv-4388188a67",
-          "name": "Trận 3 | LION Championship﻿ 35 | 20:30 12/09 | Đại Kê",
+          "id": "chtv-a4b9f8df80",
+          "name": "Nguyễn Khắc Duy vs Lương Hoàng Huy | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4b9f8df80",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a4b9f8df80",
+                  "name": "Nguyễn Khắc Duy vs Lương Hoàng Huy",
+                  "streams": [
+                    {
+                      "id": "st-a4b9f8df80",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4b9f8df80",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7721/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 2 | LION Championship﻿ 35",
+            "team_a": "Nguyễn Khắc Duy",
+            "team_b": "Lương Hoàng Huy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789216945344_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 193954.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789216959104_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194006.png",
+            "time": "20:15 12/09",
+            "caster": "Đại Kê",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4b9f8df80_498dd968_20260912.png?v=498dd968",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4388188a67",
+          "name": "Huỳnh Khả My vs KARINA | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -109,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-4388188a67",
-                  "name": "Trận 3 | LION Championship﻿ 35",
+                  "name": "Huỳnh Khả My vs KARINA",
                   "streams": [
                     {
                       "id": "st-4388188a67",
@@ -141,14 +213,14 @@
           ],
           "org_metadata": {
             "league": "Trận 3 | LION Championship﻿ 35",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Huỳnh Khả My",
+            "team_b": "KARINA",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789217049882_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194139.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789217039020_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194126.png",
             "time": "20:30 12/09",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -162,16 +234,16 @@
         },
         {
           "id": "chtv-b1b773fd50",
-          "name": "Trận 4 | LION Championship﻿ 35 | 20:45 12/09 | Đại Kê",
+          "name": "Nguyễn Hữu Nghĩa vs Phan Ngọc Tuyết Dũng | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -181,7 +253,7 @@
               "contents": [
                 {
                   "id": "ct-b1b773fd50",
-                  "name": "Trận 4 | LION Championship﻿ 35",
+                  "name": "Nguyễn Hữu Nghĩa vs Phan Ngọc Tuyết Dũng",
                   "streams": [
                     {
                       "id": "st-b1b773fd50",
@@ -213,14 +285,14 @@
           ],
           "org_metadata": {
             "league": "Trận 4 | LION Championship﻿ 35",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Nguyễn Hữu Nghĩa",
+            "team_b": "Phan Ngọc Tuyết Dũng",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789217472491_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194838.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789217479416_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194848.png",
             "time": "20:45 12/09",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -234,16 +306,16 @@
         },
         {
           "id": "chtv-a70237741b",
-          "name": "Trận 5  | LION Championship﻿ 35 | 21:00 12/09 | Đại Kê",
+          "name": "Trần Minh Trung vs Bùi Văn Hùng | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -253,7 +325,7 @@
               "contents": [
                 {
                   "id": "ct-a70237741b",
-                  "name": "Trận 5  | LION Championship﻿ 35",
+                  "name": "Trần Minh Trung vs Bùi Văn Hùng",
                   "streams": [
                     {
                       "id": "st-a70237741b",
@@ -285,14 +357,14 @@
           ],
           "org_metadata": {
             "league": "Trận 5  | LION Championship﻿ 35",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Trần Minh Trung",
+            "team_b": "Bùi Văn Hùng",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789217570835_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195017.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789217583041_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195031.png",
             "time": "21:00 12/09",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -306,16 +378,16 @@
         },
         {
           "id": "chtv-de4d57192e",
-          "name": "Trận 6 | LION Championship﻿ 35 | 21:15 12/09 | Đại Kê",
+          "name": "Nguyễn Văn Lâm vs William Gurgui | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -325,7 +397,7 @@
               "contents": [
                 {
                   "id": "ct-de4d57192e",
-                  "name": "Trận 6 | LION Championship﻿ 35",
+                  "name": "Nguyễn Văn Lâm vs William Gurgui",
                   "streams": [
                     {
                       "id": "st-de4d57192e",
@@ -357,14 +429,14 @@
           ],
           "org_metadata": {
             "league": "Trận 6 | LION Championship﻿ 35",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Nguyễn Văn Lâm",
+            "team_b": "William Gurgui",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789217668376_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195155.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789217677431_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195206.png",
             "time": "21:15 12/09",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -378,16 +450,16 @@
         },
         {
           "id": "chtv-3df427e11e",
-          "name": "Trận 7 | LION Championship﻿ 35 | 21:30 12/09 | Đại Kê",
+          "name": "Nguyễn Phú Thịnh vs Lê Công Nghị | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -397,7 +469,7 @@
               "contents": [
                 {
                   "id": "ct-3df427e11e",
-                  "name": "Trận 7 | LION Championship﻿ 35",
+                  "name": "Nguyễn Phú Thịnh vs Lê Công Nghị",
                   "streams": [
                     {
                       "id": "st-3df427e11e",
@@ -429,14 +501,14 @@
           ],
           "org_metadata": {
             "league": "Trận 7 | LION Championship﻿ 35",
-            "team_a": "",
-            "team_b": "",
+            "team_a": "Nguyễn Phú Thịnh",
+            "team_b": "Lê Công Nghị",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789217771937_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195336.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789217780611_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 195350.png",
             "time": "21:30 12/09",
             "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
+            "is_live": true,
             "hot": false
           },
           "image": {
@@ -588,7 +660,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
             "time": "19:30 12/09",
             "caster": "Thập Cẩm",
-            "score": "2-2",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
