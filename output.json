@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-52d6737451",
+          "name": "Tú Tây vs Tùng Bão Táp | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52d6737451",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-52d6737451",
+                  "name": "Tú Tây vs Tùng Bão Táp",
+                  "streams": [
+                    {
+                      "id": "st-52d6737451",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52d6737451",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7709/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Tú Tây",
+            "team_b": "Tùng Bão Táp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789205884009_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789205883726_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 12/09",
+            "caster": "Xinh Yeu",
+            "score": "8-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-52d6737451_4683ba19_20260912.png?v=4683ba19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a0b364906f",
           "name": "NGUYỄN HỮU TÌNH vs TRẦN VĂN HỢP | Bỉm Sữa",
           "type": "single",
@@ -89,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-52d6737451",
-          "name": "Tú Tây vs Tùng Bão Táp | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52d6737451",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-52d6737451",
-                  "name": "Tú Tây vs Tùng Bão Táp",
-                  "streams": [
-                    {
-                      "id": "st-52d6737451",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-52d6737451",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7709/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Tú Tây",
-            "team_b": "Tùng Bão Táp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789205884009_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789205883726_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 12/09",
-            "caster": "Xinh Yeu",
-            "score": "6-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-52d6737451_4683ba19_20260912.png?v=4683ba19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6b7ceba8a4",
           "name": "TÙNG HÍP vs THÀNH NAM | SÊ KÔÔ",
           "type": "single",
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789197937045_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:25 12/09",
             "caster": "SÊ KÔÔ",
-            "score": "10-8",
+            "score": "10-9",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789203168273_phil.png",
             "time": "15:53 12/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-4",
+            "score": "3-4",
             "is_live": true,
             "hot": false
           },
@@ -377,7 +377,7 @@
           }
         },
         {
-          "id": "chtv-a53f798af0",
+          "id": "chtv-a4b616e47e",
           "name": "Rubilen Dacua AMIT vs LIU Shasha | 17:30 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-a53f798af0",
+              "id": "src-a4b616e47e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a53f798af0",
+                  "id": "ct-a4b616e47e",
                   "name": "Rubilen Dacua AMIT vs LIU Shasha",
                   "streams": [
                     {
-                      "id": "st-a53f798af0",
+                      "id": "st-a4b616e47e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a53f798af0",
+                          "id": "lnk-a4b616e47e",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7712/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7710/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -431,8 +431,8 @@
             "league": "BÁN KẾT 9-Ball China Open",
             "team_a": "Rubilen Dacua AMIT",
             "team_b": "LIU Shasha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206289335_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206289296_china.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789206157598_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789206157282_china.png",
             "time": "17:30 12/09",
             "caster": "",
             "score": "0-0",
@@ -443,7 +443,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a53f798af0_b23c09b9_20260912.png?v=b23c09b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a4b616e47e_5934e934_20260912.png?v=5934e934",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5de3df8ca7",
+          "name": "SHI Tianqi vs FU Xiaofang | 19:30 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5de3df8ca7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5de3df8ca7",
+                  "name": "SHI Tianqi vs FU Xiaofang",
+                  "streams": [
+                    {
+                      "id": "st-5de3df8ca7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5de3df8ca7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7715/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 9-Ball China Open",
+            "team_a": "SHI Tianqi",
+            "team_b": "FU Xiaofang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789206726932_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789206726677_china.png",
+            "time": "19:30 12/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5de3df8ca7_0ff203ef_20260912.png?v=0ff203ef",
             "width": 1600,
             "height": 1200
           }
