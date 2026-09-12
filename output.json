@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (4 LIVE)",
+      "name": "🥊 Võ Thuật (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b1b773fd50",
-          "name": "Nguyễn Hữu Nghĩa vs Phan Ngọc Tuyết Dũng | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1b773fd50",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b1b773fd50",
-                  "name": "Nguyễn Hữu Nghĩa vs Phan Ngọc Tuyết Dũng",
-                  "streams": [
-                    {
-                      "id": "st-b1b773fd50",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b1b773fd50",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7723/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 4 | LION Championship﻿ 35",
-            "team_a": "Nguyễn Hữu Nghĩa",
-            "team_b": "Phan Ngọc Tuyết Dũng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789217472491_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194838.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789217479416_áº¢nh chá»¥p mÃ n hÃ¬nh 2026-09-12 194848.png",
-            "time": "20:45 12/09",
-            "caster": "Đại Kê",
-            "score": "0-0",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b1b773fd50_0ff6535f_20260912.png?v=0ff6535f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a70237741b",
           "name": "Trần Minh Trung vs Bùi Văn Hùng | Đại Kê",
@@ -314,8 +242,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-751a1c12a9",
-          "name": "SHI Tianqi vs FU Xiaofang | Thập Cẩm",
+          "id": "chtv-520dfb7065",
+          "name": "Carlo Biado vs NUNO ANTIPOLO | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -329,23 +257,23 @@
           ],
           "sources": [
             {
-              "id": "src-751a1c12a9",
+              "id": "src-520dfb7065",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-751a1c12a9",
-                  "name": "SHI Tianqi vs FU Xiaofang",
+                  "id": "ct-520dfb7065",
+                  "name": "Carlo Biado vs NUNO ANTIPOLO",
                   "streams": [
                     {
-                      "id": "st-751a1c12a9",
+                      "id": "st-520dfb7065",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-751a1c12a9",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-520dfb7065",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7713/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7727/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -365,14 +293,14 @@
             }
           ],
           "org_metadata": {
-            "league": "BÁN KẾT 9-Ball China Open",
-            "team_a": "SHI Tianqi",
-            "team_b": "FU Xiaofang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789206648599_china.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789206648376_china.png",
-            "time": "19:30 12/09",
-            "caster": "Thập Cẩm",
-            "score": "6-8",
+            "league": "phi bịp",
+            "team_a": "Carlo Biado",
+            "team_b": "NUNO ANTIPOLO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789223133539_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789223133144_phil.png",
+            "time": "00:00 12/09",
+            "caster": "Tào A Man",
+            "score": "4-8",
             "is_live": true,
             "hot": true
           },
@@ -380,7 +308,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-751a1c12a9_4f6b97f2_20260912.png?v=4f6b97f2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-520dfb7065_9f139804_20260912.png?v=9f139804",
             "width": 1600,
             "height": 1200
           }
