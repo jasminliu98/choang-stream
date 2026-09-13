@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789264317230_WU KUN LIN.jpg",
             "time": "12:30 13/09",
             "caster": "BÚN CHÓ",
-            "score": "9-3",
+            "score": "10-3",
             "is_live": true,
             "hot": true
           },
@@ -377,38 +377,38 @@
           }
         },
         {
-          "id": "chtv-41f942356d",
-          "name": "FU Xiaofang vs LIU Shasha | 14:30 13/09 | Lee Min Hoo",
+          "id": "chtv-37afe39833",
+          "name": "HÀO vs THÀNH CỤT | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-41f942356d",
+              "id": "src-37afe39833",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-41f942356d",
-                  "name": "FU Xiaofang vs LIU Shasha",
+                  "id": "ct-37afe39833",
+                  "name": "HÀO vs THÀNH CỤT",
                   "streams": [
                     {
-                      "id": "st-41f942356d",
+                      "id": "st-37afe39833",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-41f942356d",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-37afe39833",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7742/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7757/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,22 +428,22 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 普爾9球中國公開賽 WPA 9-Ball China Open",
-            "team_a": "FU Xiaofang",
-            "team_b": "LIU Shasha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789264944706_FU Xiaofang.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789264973877_LIU Shasha.png",
-            "time": "14:30 13/09",
-            "caster": "Lee Min Hoo",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
+            "league": "VN",
+            "team_a": "HÀO",
+            "team_b": "THÀNH CỤT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789283349998_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789283353737_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "14:09 13/09",
+            "caster": "SÊ KÔÔ",
+            "score": "0-5",
+            "is_live": true,
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-41f942356d_cda67522_20260913.png?v=cda67522",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-37afe39833_43c30478_20260913.png?v=43c30478",
             "width": 1600,
             "height": 1200
           }
