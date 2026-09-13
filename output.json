@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789304746417_phil.png",
             "time": "21:00 13/09",
             "caster": "Thập Cẩm",
-            "score": "14-13",
+            "score": "14-14",
             "is_live": true,
             "hot": true
           },
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dde4fe51d0_e7d0731e_20260914.png?v=e7d0731e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2bd1a1824a",
+          "name": "Mất Bàn Tay vs Kuting Gensan",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2bd1a1824a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2bd1a1824a",
+                  "name": "Mất Bàn Tay vs Kuting Gensan",
+                  "streams": [
+                    {
+                      "id": "st-2bd1a1824a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bd1a1824a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7786/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Kèo độ Phi ( mở thêm cho ae chiến đâu",
+            "team_a": "Mất Bàn Tay",
+            "team_b": "Kuting Gensan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789328921556_JONAS MAGPANTAY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
+            "time": "00:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2bd1a1824a_0ca22e45_20260914.png?v=0ca22e45",
             "width": 1600,
             "height": 1200
           }
