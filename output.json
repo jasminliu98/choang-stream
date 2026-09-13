@@ -90,7 +90,7 @@
         },
         {
           "id": "chtv-7e1af3f79c",
-          "name": "Thành Châm vs Sếuuu | SÊ KÔÔ",
+          "name": "Thành Châm vs Sếuuu | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -117,7 +117,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-7e1af3f79c",
-                          "name": "SÊ KÔÔ",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7767/index.m3u8",
@@ -146,7 +146,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1789296955935_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789296955211_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 13/09",
-            "caster": "SÊ KÔÔ",
+            "caster": "Thập Cẩm",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789284267392_phil.png",
             "time": "14:24 13/09",
             "caster": "Kèn Kèn",
-            "score": "15-9",
+            "score": "15-10",
             "is_live": true,
             "hot": false
           },
