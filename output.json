@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-eccb868e6e",
-          "name": "Fedor GORST vs WU Kun Lin | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eccb868e6e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eccb868e6e",
-                  "name": "Fedor GORST vs WU Kun Lin",
-                  "streams": [
-                    {
-                      "id": "st-eccb868e6e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eccb868e6e",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7738/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 普爾9球中國公開賽 WPA 9-Ball China Open",
-            "team_a": "Fedor GORST",
-            "team_b": "WU Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789264313865_Fedor Gorst.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789264317230_WU KUN LIN.jpg",
-            "time": "12:30 13/09",
-            "caster": "BÚN CHÓ",
-            "score": "10-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eccb868e6e_8a53e17e_20260913.png?v=8a53e17e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-62d61e51c0",
           "name": "Quang Kon vs Trương Mậu Hưng | Xinh Yeu",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789277526479_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:32 13/09",
             "caster": "Xinh Yeu",
-            "score": "5-4",
+            "score": "5-5",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789283353737_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:09 13/09",
             "caster": "SÊ KÔÔ",
-            "score": "0-5",
+            "score": "1-5",
             "is_live": true,
             "hot": false
           },
@@ -444,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-37afe39833_43c30478_20260913.png?v=43c30478",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4948fa0d0f",
-          "name": "FU Xiaofang vs LIU Shasha | 14:35 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4948fa0d0f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4948fa0d0f",
-                  "name": "FU Xiaofang vs LIU Shasha",
-                  "streams": [
-                    {
-                      "id": "st-4948fa0d0f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4948fa0d0f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7744/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 普爾9球中國公開賽 WPA 9-Ball China Open",
-            "team_a": "FU Xiaofang",
-            "team_b": "LIU Shasha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789265111441_FU Xiaofang.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789265118556_LIU Shasha.png",
-            "time": "14:35 13/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4948fa0d0f_cb79438c_20260913.png?v=cb79438c",
             "width": 1600,
             "height": 1200
           }
