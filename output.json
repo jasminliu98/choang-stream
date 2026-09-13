@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d081985bf8",
-          "name": "Tùng Híp vs Thành Châm | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d081985bf8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d081985bf8",
-                  "name": "Tùng Híp vs Thành Châm",
-                  "streams": [
-                    {
-                      "id": "st-d081985bf8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d081985bf8",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7780/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lại là billiards thành cụt",
-            "team_a": "Tùng Híp",
-            "team_b": "Thành Châm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789311914138_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789311913962_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "Kèn Kèn",
-            "score": "8-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d081985bf8_c7d899b4_20260913.png?v=c7d899b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fdc1d7c27f",
           "name": "Mất Bàn Tay vs Kuting Gensan",
           "type": "single",
@@ -155,7 +83,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fdc1d7c27f_de9411dc_20260913.png?v=de9411dc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fdc1d7c27f_de9411dc_20260914.png?v=de9411dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d081985bf8",
+          "name": "Tùng Híp vs Thành Châm | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d081985bf8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d081985bf8",
+                  "name": "Tùng Híp vs Thành Châm",
+                  "streams": [
+                    {
+                      "id": "st-d081985bf8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d081985bf8",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7780/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lại là billiards thành cụt",
+            "team_a": "Tùng Híp",
+            "team_b": "Thành Châm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789311914138_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789311913962_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "Kèn Kèn",
+            "score": "9-8",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d081985bf8_c7d899b4_20260914.png?v=c7d899b4",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dde4fe51d0_e7d0731e_20260913.png?v=e7d0731e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dde4fe51d0_e7d0731e_20260914.png?v=e7d0731e",
             "width": 1600,
             "height": 1200
           }
