@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789264317230_WU KUN LIN.jpg",
             "time": "12:30 13/09",
             "caster": "BÚN CHÓ",
-            "score": "9-2",
+            "score": "9-3",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789277526479_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:32 13/09",
             "caster": "Xinh Yeu",
-            "score": "3-4",
+            "score": "5-4",
             "is_live": true,
             "hot": true
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-62737c5659_8e15e722_20260913.png?v=8e15e722",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5f5345ed15",
-          "name": "CAO HÀO vs THÀNH CỤT | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f5345ed15",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5f5345ed15",
-                  "name": "CAO HÀO vs THÀNH CỤT",
-                  "streams": [
-                    {
-                      "id": "st-5f5345ed15",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5f5345ed15",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7755/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "CAO HÀO",
-            "team_b": "THÀNH CỤT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789279668736_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789279670641_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "13:07 13/09",
-            "caster": "SÊ KÔÔ",
-            "score": "9-6",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f5345ed15_fb6b6285_20260913.png?v=fb6b6285",
             "width": 1600,
             "height": 1200
           }
