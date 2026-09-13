@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8159cfda56",
-          "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG | Bỉm Sữa",
+          "id": "chtv-fc69dac2f9",
+          "name": "Pana vs Ryjhon Cocoy | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8159cfda56",
+              "id": "src-fc69dac2f9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8159cfda56",
-                  "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG",
+                  "id": "ct-fc69dac2f9",
+                  "name": "Pana vs Ryjhon Cocoy",
                   "streams": [
                     {
-                      "id": "st-8159cfda56",
+                      "id": "st-fc69dac2f9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8159cfda56",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-fc69dac2f9",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7763/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7766/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "CHAMPION BÁN KẾT",
-            "team_a": "VŨ ĐÌNH KHÁNH",
-            "team_b": "TRƯƠNG MẬU HƯNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789292306843_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789292305206_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "phi bịp",
+            "team_a": "Pana",
+            "team_b": "Ryjhon Cocoy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789296292100_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789296290349_phil.png",
             "time": "00:00 13/09",
-            "caster": "Bỉm Sữa",
-            "score": "5-5",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8159cfda56_cbbda0e5_20260913.png?v=cbbda0e5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fc69dac2f9_a08d8ec2_20260913.png?v=a08d8ec2",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789295664626_phil.png",
             "time": "00:00 13/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-4",
+            "score": "4-4",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c8311309c_1e221475_20260913.png?v=1e221475",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8159cfda56",
+          "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8159cfda56",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8159cfda56",
+                  "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG",
+                  "streams": [
+                    {
+                      "id": "st-8159cfda56",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8159cfda56",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7763/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHAMPION BÁN KẾT",
+            "team_a": "VŨ ĐÌNH KHÁNH",
+            "team_b": "TRƯƠNG MẬU HƯNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789292306843_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789292305206_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "Bỉm Sữa",
+            "score": "6-5",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8159cfda56_cbbda0e5_20260913.png?v=cbbda0e5",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789284267392_phil.png",
             "time": "14:24 13/09",
             "caster": "Kèn Kèn",
-            "score": "13-9",
+            "score": "14-9",
             "is_live": true,
             "hot": false
           },
