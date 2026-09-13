@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789283321887_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:08 13/09",
             "caster": "Thập Cẩm",
-            "score": "1-1",
+            "score": "1-2",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789283353737_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:09 13/09",
             "caster": "SÊ KÔÔ",
-            "score": "3-5",
+            "score": "4-6",
             "is_live": true,
             "hot": false
           },
@@ -300,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-37afe39833_43c30478_20260913.png?v=43c30478",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6c8dade0ae",
+          "name": "Reyes vs Anthony | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c8dade0ae",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6c8dade0ae",
+                  "name": "Reyes vs Anthony",
+                  "streams": [
+                    {
+                      "id": "st-6c8dade0ae",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c8dade0ae",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7758/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phil phủi",
+            "team_a": "Reyes",
+            "team_b": "Anthony",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789284265416_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789284267392_phil.png",
+            "time": "14:24 13/09",
+            "caster": "Kèn Kèn",
+            "score": "1-1",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6c8dade0ae_c47bf3eb_20260913.png?v=c47bf3eb",
             "width": 1600,
             "height": 1200
           }
