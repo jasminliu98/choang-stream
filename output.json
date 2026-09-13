@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8159cfda56",
-          "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG | Bỉm Sữa",
+          "id": "chtv-fc69dac2f9",
+          "name": "Pana vs Ryjhon Cocoy | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8159cfda56",
+              "id": "src-fc69dac2f9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8159cfda56",
-                  "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG",
+                  "id": "ct-fc69dac2f9",
+                  "name": "Pana vs Ryjhon Cocoy",
                   "streams": [
                     {
-                      "id": "st-8159cfda56",
+                      "id": "st-fc69dac2f9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8159cfda56",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-fc69dac2f9",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7763/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7766/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "CHAMPION BÁN KẾT",
-            "team_a": "VŨ ĐÌNH KHÁNH",
-            "team_b": "TRƯƠNG MẬU HƯNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789292306843_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789292305206_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "phi bịp",
+            "team_a": "Pana",
+            "team_b": "Ryjhon Cocoy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789296292100_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789296290349_phil.png",
             "time": "00:00 13/09",
-            "caster": "Bỉm Sữa",
-            "score": "8-6",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8159cfda56_cbbda0e5_20260913.png?v=cbbda0e5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fc69dac2f9_a08d8ec2_20260913.png?v=a08d8ec2",
             "width": 1600,
             "height": 1200
           }
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7e1af3f79c_74c7b89e_20260913.png?v=74c7b89e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fc69dac2f9",
-          "name": "Pana vs Ryjhon Cocoy | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc69dac2f9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fc69dac2f9",
-                  "name": "Pana vs Ryjhon Cocoy",
-                  "streams": [
-                    {
-                      "id": "st-fc69dac2f9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc69dac2f9",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7766/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Pana",
-            "team_b": "Ryjhon Cocoy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789296292100_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789296290349_phil.png",
-            "time": "00:00 13/09",
-            "caster": "Thập Cẩm",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fc69dac2f9_a08d8ec2_20260913.png?v=a08d8ec2",
             "width": 1600,
             "height": 1200
           }
@@ -372,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6c8dade0ae_c47bf3eb_20260913.png?v=c47bf3eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6d81d7ae95",
-          "name": "Bùi Duy Tùng vs Lê Tiến Đạt | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d81d7ae95",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6d81d7ae95",
-                  "name": "Bùi Duy Tùng vs Lê Tiến Đạt",
-                  "streams": [
-                    {
-                      "id": "st-6d81d7ae95",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d81d7ae95",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7762/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT TNT - STING x VBSF POOL 9-BALL",
-            "team_a": "Bùi Duy Tùng",
-            "team_b": "Lê Tiến Đạt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789290595090_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789290594809_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "16:00 13/09",
-            "caster": "SÊ KÔÔ",
-            "score": "9-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6d81d7ae95_d547726f_20260913.png?v=d547726f",
             "width": 1600,
             "height": 1200
           }
