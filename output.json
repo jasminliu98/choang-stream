@@ -89,7 +89,7 @@
           }
         },
         {
-          "id": "chtv-110c657fbb",
+          "id": "chtv-f42866694d",
           "name": "Fedor GORST vs WU Kun Lin | 12:30 13/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-110c657fbb",
+              "id": "src-f42866694d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-110c657fbb",
+                  "id": "ct-f42866694d",
                   "name": "Fedor GORST vs WU Kun Lin",
                   "streams": [
                     {
-                      "id": "st-110c657fbb",
+                      "id": "st-f42866694d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-110c657fbb",
+                          "id": "lnk-f42866694d",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7739/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7740/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -143,8 +143,8 @@
             "league": "2026 普爾9球中國公開賽 WPA 9-Ball China Open",
             "team_a": "Fedor GORST",
             "team_b": "WU Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789264385494_Fedor Gorst.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789264382485_WU KUN LIN.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789264453222_Fedor Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789264456121_WU KUN LIN.jpg",
             "time": "12:30 13/09",
             "caster": "",
             "score": "0-0",
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-110c657fbb_ce5b3fd4_20260913.png?v=ce5b3fd4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f42866694d_fa83aa9e_20260913.png?v=fa83aa9e",
             "width": 1600,
             "height": 1200
           }
