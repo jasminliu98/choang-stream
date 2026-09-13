@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d081985bf8",
+          "name": "Tùng Híp vs Thành Châm | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d081985bf8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d081985bf8",
+                  "name": "Tùng Híp vs Thành Châm",
+                  "streams": [
+                    {
+                      "id": "st-d081985bf8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d081985bf8",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7780/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "lại là billiards thành cụt",
+            "team_a": "Tùng Híp",
+            "team_b": "Thành Châm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789311914138_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789311913962_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "Kèn Kèn",
+            "score": "6-8",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d081985bf8_c7d899b4_20260913.png?v=c7d899b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-fdc1d7c27f",
           "name": "Mất Bàn Tay vs Kuting Gensan",
@@ -89,150 +161,6 @@
           }
         },
         {
-          "id": "chtv-d081985bf8",
-          "name": "Tùng Híp vs Thành Châm | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d081985bf8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d081985bf8",
-                  "name": "Tùng Híp vs Thành Châm",
-                  "streams": [
-                    {
-                      "id": "st-d081985bf8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d081985bf8",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7780/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lại là billiards thành cụt",
-            "team_a": "Tùng Híp",
-            "team_b": "Thành Châm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789311914138_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789311913962_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "Kèn Kèn",
-            "score": "6-7",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d081985bf8_c7d899b4_20260913.png?v=c7d899b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-67090821cb",
-          "name": "Tùng Híp vs Thành Châm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-67090821cb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-67090821cb",
-                  "name": "Tùng Híp vs Thành Châm",
-                  "streams": [
-                    {
-                      "id": "st-67090821cb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67090821cb",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7782/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "lại là billiards thành cụt",
-            "team_a": "Tùng Híp",
-            "team_b": "Thành Châm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789316536975_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789316536365_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "",
-            "score": "6-6",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-67090821cb_f2156d99_20260913.png?v=f2156d99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-dde4fe51d0",
           "name": "Jonas Magpantay vs Kuting Gensan | Thập Cẩm",
           "type": "single",
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789304746417_phil.png",
             "time": "21:00 13/09",
             "caster": "Thập Cẩm",
-            "score": "8-6",
+            "score": "8-7",
             "is_live": true,
             "hot": true
           },
