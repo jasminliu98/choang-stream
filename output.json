@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-479726faaa",
+          "name": "Duy Đen vs Đối Duy Đen | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-479726faaa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-479726faaa",
+                  "name": "Duy Đen vs Đối Duy Đen",
+                  "streams": [
+                    {
+                      "id": "st-479726faaa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-479726faaa",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7764/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Duy Đen",
+            "team_b": "Đối Duy Đen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789292658904_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789292658407_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "Thập Cẩm",
+            "score": "1-2",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-479726faaa_a5321d4a_20260913.png?v=a5321d4a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8159cfda56",
           "name": "VŨ ĐÌNH KHÁNH vs TRƯƠNG MẬU HƯNG | Bỉm Sữa",
           "type": "single",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789292305206_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 13/09",
             "caster": "Bỉm Sữa",
-            "score": "2-2",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -161,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-41f942356d",
-          "name": "FU Xiaofang vs LIU Shasha | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41f942356d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-41f942356d",
-                  "name": "FU Xiaofang vs LIU Shasha",
-                  "streams": [
-                    {
-                      "id": "st-41f942356d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41f942356d",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7742/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 普爾9球中國公開賽 WPA 9-Ball China Open",
-            "team_a": "FU Xiaofang",
-            "team_b": "LIU Shasha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789264944706_FU Xiaofang.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789264973877_LIU Shasha.png",
-            "time": "14:30 13/09",
-            "caster": "Lee Min Hoo",
-            "score": "5-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-41f942356d_cda67522_20260913.png?v=cda67522",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7809a1db8f",
           "name": "LÊ BÁ HÓA vs LÊ TIẾN HẢO | Xinh Yeu",
           "type": "single",
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789288852253_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:40 13/09",
             "caster": "Xinh Yeu",
-            "score": "2-4",
+            "score": "5-3",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789290594809_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "16:00 13/09",
             "caster": "SÊ KÔÔ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
