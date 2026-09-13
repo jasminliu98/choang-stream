@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-376f0c12fe",
-          "name": "QUỐC ANH vs TRỊNH KHẮC TIẾN | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-376f0c12fe",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-376f0c12fe",
-                  "name": "QUỐC ANH vs TRỊNH KHẮC TIẾN",
-                  "streams": [
-                    {
-                      "id": "st-376f0c12fe",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-376f0c12fe",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7735/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 STING x VBSF POOL 9-BALL",
-            "team_a": "QUỐC ANH",
-            "team_b": "TRỊNH KHẮC TIẾN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
-            "time": "09:00 13/09",
-            "caster": "Lee Min Hoo",
-            "score": "8-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-376f0c12fe_4f242d39_20260913.png?v=4f242d39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-eccb868e6e",
           "name": "Fedor GORST vs WU Kun Lin | 12:30 13/09",
