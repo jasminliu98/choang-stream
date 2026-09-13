@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-c76a90b7dd",
-          "name": "Mất Bàn Tay vs Kuting Gensan",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c76a90b7dd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c76a90b7dd",
-                  "name": "Mất Bàn Tay vs Kuting Gensan",
-                  "streams": [
-                    {
-                      "id": "st-c76a90b7dd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c76a90b7dd",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7785/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Kèo độ Phi ( mở thêm cho ae chiến đâu",
-            "team_a": "Mất Bàn Tay",
-            "team_b": "Kuting Gensan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789322608455_JONAS MAGPANTAY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_táº£i xuá»ng.png",
-            "time": "00:00 14/09",
-            "caster": "",
-            "score": "12-9",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c76a90b7dd_e6c8729d_20260914.png?v=e6c8729d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5139ff0779",
           "name": "Tùng Híp vs Bình Ốc | Kèn Kèn",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789322362372_BÃNH á»C.jpg",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "6-7",
+            "score": "6-8",
             "is_live": true,
             "hot": true
           },
