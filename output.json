@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3c8311309c",
-          "name": "harley sanchez vs ostibg marlags | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c8311309c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3c8311309c",
-                  "name": "harley sanchez vs ostibg marlags",
-                  "streams": [
-                    {
-                      "id": "st-3c8311309c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c8311309c",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7765/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "harley sanchez",
-            "team_b": "ostibg marlags",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789295664884_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789295664626_phil.png",
-            "time": "00:00 13/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "10-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c8311309c_1e221475_20260913.png?v=1e221475",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef7ee019f9",
-          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef7ee019f9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef7ee019f9",
-                  "name": "Mạnh Xoăn vs Bình ốc",
-                  "streams": [
-                    {
-                      "id": "st-ef7ee019f9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef7ee019f9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Bình ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "SÊ KÔÔ",
-            "score": "7-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-7e1af3f79c",
           "name": "Thành Châm vs Sếuuu | Thập Cẩm",
@@ -305,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-ef7ee019f9",
+          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef7ee019f9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ef7ee019f9",
+                  "name": "Mạnh Xoăn vs Bình ốc",
+                  "streams": [
+                    {
+                      "id": "st-ef7ee019f9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef7ee019f9",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Mạnh Xoăn",
+            "team_b": "Bình ốc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "SÊ KÔÔ",
+            "score": "7-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6c8dade0ae",
           "name": "Reyes vs Anthony | Kèn Kèn",
           "type": "single",
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789284267392_phil.png",
             "time": "14:24 13/09",
             "caster": "Kèn Kèn",
-            "score": "17-12",
+            "score": "18-12",
             "is_live": true,
             "hot": false
           },
