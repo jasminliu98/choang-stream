@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7e1af3f79c",
-          "name": "Thành Châm vs Sếuuu | Thập Cẩm",
+          "id": "chtv-ef7ee019f9",
+          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-7e1af3f79c",
+              "id": "src-ef7ee019f9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7e1af3f79c",
-                  "name": "Thành Châm vs Sếuuu",
+                  "id": "ct-ef7ee019f9",
+                  "name": "Mạnh Xoăn vs Bình ốc",
                   "streams": [
                     {
-                      "id": "st-7e1af3f79c",
+                      "id": "st-ef7ee019f9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7e1af3f79c",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-ef7ee019f9",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7767/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "billiards thành cụt",
-            "team_a": "Thành Châm",
-            "team_b": "Sếuuu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789296955935_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789296955211_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "bida toptop",
+            "team_a": "Mạnh Xoăn",
+            "team_b": "Bình ốc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 13/09",
-            "caster": "Thập Cẩm",
-            "score": "4-4",
+            "caster": "SÊ KÔÔ",
+            "score": "8-5",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7e1af3f79c_74c7b89e_20260913.png?v=74c7b89e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789300983893_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 13/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4034d90c96_e526b0b6_20260913.png?v=e526b0b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef7ee019f9",
-          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef7ee019f9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef7ee019f9",
-                  "name": "Mạnh Xoăn vs Bình ốc",
-                  "streams": [
-                    {
-                      "id": "st-ef7ee019f9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef7ee019f9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Bình ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "SÊ KÔÔ",
-            "score": "8-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
             "width": 1600,
             "height": 1200
           }
