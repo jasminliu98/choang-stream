@@ -11,11 +11,227 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-ef7ee019f9",
+          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef7ee019f9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ef7ee019f9",
+                  "name": "Mạnh Xoăn vs Bình ốc",
+                  "streams": [
+                    {
+                      "id": "st-ef7ee019f9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef7ee019f9",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Mạnh Xoăn",
+            "team_b": "Bình ốc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "SÊ KÔÔ",
+            "score": "14-10",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4034d90c96",
+          "name": "Vũ Đình Khánh vs Lê Tiến Hảo | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4034d90c96",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4034d90c96",
+                  "name": "Vũ Đình Khánh vs Lê Tiến Hảo",
+                  "streams": [
+                    {
+                      "id": "st-4034d90c96",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4034d90c96",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7769/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida VN",
+            "team_a": "Vũ Đình Khánh",
+            "team_b": "Lê Tiến Hảo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789300984247_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789300983893_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 13/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "4-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4034d90c96_e526b0b6_20260913.png?v=e526b0b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dde4fe51d0",
+          "name": "Jonas Magpantay vs Kuting Gensan | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dde4fe51d0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dde4fe51d0",
+                  "name": "Jonas Magpantay vs Kuting Gensan",
+                  "streams": [
+                    {
+                      "id": "st-dde4fe51d0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dde4fe51d0",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7774/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Jonas Magpantay",
+            "team_b": "Kuting Gensan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789304746707_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789304746417_phil.png",
+            "time": "00:00 13/09",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dde4fe51d0_e7d0731e_20260913.png?v=e7d0731e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4e531e35fc",
           "name": "Mạnh Xoăn vs Bình ốc",
@@ -89,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-4034d90c96",
-          "name": "Vũ Đình Khánh vs Lê Tiến Hảo | GIÀNG A PHỌ",
+          "id": "chtv-4352293695",
+          "name": "Jaybee Sucal vs Taliboy Cubillias 8/10 Ilalim | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,167 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-4034d90c96",
+              "id": "src-4352293695",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4034d90c96",
-                  "name": "Vũ Đình Khánh vs Lê Tiến Hảo",
+                  "id": "ct-4352293695",
+                  "name": "Jaybee Sucal vs Taliboy Cubillias 8/10 Ilalim",
                   "streams": [
                     {
-                      "id": "st-4034d90c96",
+                      "id": "st-4352293695",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4034d90c96",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-4352293695",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7769/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida VN",
-            "team_a": "Vũ Đình Khánh",
-            "team_b": "Lê Tiến Hảo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789300984247_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789300983893_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "4-2",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4034d90c96_e526b0b6_20260913.png?v=e526b0b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef7ee019f9",
-          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef7ee019f9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef7ee019f9",
-                  "name": "Mạnh Xoăn vs Bình ốc",
-                  "streams": [
-                    {
-                      "id": "st-ef7ee019f9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef7ee019f9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Bình ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "SÊ KÔÔ",
-            "score": "13-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dde4fe51d0",
-          "name": "Jonas Magpantay vs Kuting Gensan | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dde4fe51d0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dde4fe51d0",
-                  "name": "Jonas Magpantay vs Kuting Gensan",
-                  "streams": [
-                    {
-                      "id": "st-dde4fe51d0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dde4fe51d0",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7774/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7773/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -285,12 +357,12 @@
           ],
           "org_metadata": {
             "league": "phi bịp",
-            "team_a": "Jonas Magpantay",
-            "team_b": "Kuting Gensan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789304746707_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789304746417_phil.png",
+            "team_a": "Jaybee Sucal",
+            "team_b": "Taliboy Cubillias 8/10 Ilalim",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789304495502_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789304495248_phil.png",
             "time": "00:00 13/09",
-            "caster": "Thập Cẩm",
+            "caster": "Lee Min Hoo",
             "score": "0-0",
             "is_live": true,
             "hot": true
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-dde4fe51d0_e7d0731e_20260913.png?v=e7d0731e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4352293695_0f0c2d54_20260913.png?v=0f0c2d54",
             "width": 1600,
             "height": 1200
           }
