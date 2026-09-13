@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789304495248_phil.png",
             "time": "00:00 13/09",
             "caster": "Lee Min Hoo",
-            "score": "3-3",
+            "score": "4-3",
             "is_live": true,
             "hot": true
           },
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4352293695_0f0c2d54_20260913.png?v=0f0c2d54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-25bec2ed11",
+          "name": "Jaybee Sucal vs Taliboy Cubillias 8/10 Ilalim",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25bec2ed11",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-25bec2ed11",
+                  "name": "Jaybee Sucal vs Taliboy Cubillias 8/10 Ilalim",
+                  "streams": [
+                    {
+                      "id": "st-25bec2ed11",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25bec2ed11",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7776/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Jaybee Sucal",
+            "team_b": "Taliboy Cubillias 8/10 Ilalim",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789308089449_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789308088714_phil.png",
+            "time": "00:00 13/09",
+            "caster": "",
+            "score": "4-3",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-25bec2ed11_9fcde80a_20260913.png?v=9fcde80a",
             "width": 1600,
             "height": 1200
           }
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789300983893_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 13/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "5-4",
+            "score": "5-5",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4034d90c96_e526b0b6_20260913.png?v=e526b0b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef7ee019f9",
-          "name": "Mạnh Xoăn vs Bình ốc | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef7ee019f9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef7ee019f9",
-                  "name": "Mạnh Xoăn vs Bình ốc",
-                  "streams": [
-                    {
-                      "id": "st-ef7ee019f9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef7ee019f9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7768/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Bình ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789299037859_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789299037849_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 13/09",
-            "caster": "SÊ KÔÔ",
-            "score": "19-12",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ef7ee019f9_61b94f48_20260913.png?v=61b94f48",
             "width": 1600,
             "height": 1200
           }
