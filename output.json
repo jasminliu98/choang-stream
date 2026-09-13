@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "09:00 13/09",
             "caster": "Lee Min Hoo",
-            "score": "4-2",
+            "score": "5-2",
             "is_live": true,
             "hot": true
           },
@@ -147,9 +147,9 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_táº£i xuá»ng.png",
             "time": "09:00 13/09",
             "caster": "Kèn Kèn",
-            "score": "4-1",
+            "score": "4-2",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -221,7 +221,7 @@
             "caster": "Bỉm Sữa",
             "score": "3-7",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
