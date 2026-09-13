@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-62d61e51c0",
-          "name": "Quang Kon vs Trương Mậu Hưng | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62d61e51c0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-62d61e51c0",
-                  "name": "Quang Kon vs Trương Mậu Hưng",
-                  "streams": [
-                    {
-                      "id": "st-62d61e51c0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62d61e51c0",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7751/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "Quang Kon",
-            "team_b": "Trương Mậu Hưng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789277524235_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789277526479_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "12:32 13/09",
-            "caster": "Xinh Yeu",
-            "score": "7-8",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-62d61e51c0_7812c8c8_20260913.png?v=7812c8c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-62737c5659",
           "name": "HƯNG vs QUANG | Kèn Kèn",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789283321887_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:08 13/09",
             "caster": "Thập Cẩm",
-            "score": "3-5",
+            "score": "4-5",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789283353737_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:09 13/09",
             "caster": "SÊ KÔÔ",
-            "score": "9-10",
+            "score": "10-10",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789284267392_phil.png",
             "time": "14:24 13/09",
             "caster": "Kèn Kèn",
-            "score": "3-2",
+            "score": "4-2",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789264973877_LIU Shasha.png",
             "time": "14:30 13/09",
             "caster": "Lee Min Hoo",
-            "score": "1-2",
+            "score": "1-3",
             "is_live": true,
             "hot": true
           },
