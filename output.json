@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789366677073_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "Thập Cẩm",
-            "score": "8-5",
+            "score": "9-6",
             "is_live": true,
             "hot": false
           },
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9fc35c831_5cf6dbee_20260914.png?v=5cf6dbee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-813f0ca11c",
-          "name": "ANH HOÀNG vs XUÂN TOÀN | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-813f0ca11c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-813f0ca11c",
-                  "name": "ANH HOÀNG vs XUÂN TOÀN",
-                  "streams": [
-                    {
-                      "id": "st-813f0ca11c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-813f0ca11c",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7811/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GIẢI VN",
-            "team_a": "ANH HOÀNG",
-            "team_b": "XUÂN TOÀN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789373076408_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789373077589_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "15:04 14/09",
-            "caster": "Bỉm Sữa",
-            "score": "6-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-813f0ca11c_7525a9ea_20260914.png?v=7525a9ea",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789373870150_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:17 14/09",
             "caster": "Đại Kê",
-            "score": "2-4",
+            "score": "2-5",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789374265941_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:24 14/09",
             "caster": "Kèn Kèn",
-            "score": "5-7",
+            "score": "6-7",
             "is_live": true,
             "hot": true
           },
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789375982318_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:53 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "1-4",
+            "score": "3-4",
             "is_live": true,
             "hot": false
           },
@@ -665,7 +593,7 @@
           }
         },
         {
-          "id": "chtv-e9f3db2bf1",
+          "id": "chtv-badd21279c",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -680,23 +608,23 @@
           ],
           "sources": [
             {
-              "id": "src-e9f3db2bf1",
+              "id": "src-badd21279c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e9f3db2bf1",
+                  "id": "ct-badd21279c",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-e9f3db2bf1",
+                      "id": "st-badd21279c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e9f3db2bf1",
+                          "id": "lnk-badd21279c",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7787/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7789/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -731,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9f3db2bf1_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-badd21279c_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
