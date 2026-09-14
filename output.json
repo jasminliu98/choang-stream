@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-82e981347a",
-          "name": "ALBERT JANUARTA( vs RYAN S +6 | Kèn Kèn",
+          "name": "ALBERT JANUARTA vs RYAN S +6 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-82e981347a",
-                  "name": "ALBERT JANUARTA( vs RYAN S +6",
+                  "name": "ALBERT JANUARTA vs RYAN S +6",
                   "streams": [
                     {
                       "id": "st-82e981347a",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "kèo đêm",
-            "team_a": "ALBERT JANUARTA(",
+            "team_a": "ALBERT JANUARTA",
             "team_b": "RYAN S +6",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789403622776_Screenshot 2026-07-07 004029.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789403622909_Screenshot 2026-07-07 004029.png",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "3-8",
+            "score": "5-8",
             "is_live": true,
             "hot": true
           },
