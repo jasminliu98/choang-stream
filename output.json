@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370152417_phil.png",
             "time": "14:15 14/09",
             "caster": "Xinh Yeu",
-            "score": "9-6",
+            "score": "10-6",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789366627094_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "Lee Min Hoo",
-            "score": "6-3",
+            "score": "6-4",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789373077589_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:04 14/09",
             "caster": "Bỉm Sữa",
-            "score": "5-3",
+            "score": "6-3",
             "is_live": true,
             "hot": true
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789373870150_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:17 14/09",
             "caster": "Đại Kê",
-            "score": "2-2",
+            "score": "2-3",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789374265941_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:24 14/09",
             "caster": "Kèn Kèn",
-            "score": "4-5",
+            "score": "4-6",
             "is_live": true,
             "hot": true
           },
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-aee46b808a_8951b331_20260914.png?v=8951b331",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1a74effe81",
+          "name": "duy đen vs kun đỗ | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a74effe81",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1a74effe81",
+                  "name": "duy đen vs kun đỗ",
+                  "streams": [
+                    {
+                      "id": "st-1a74effe81",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a74effe81",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7814/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vb",
+            "team_a": "duy đen",
+            "team_b": "kun đỗ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789375980555_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789375982318_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:53 14/09",
+            "caster": "SÊ KÔÔ",
+            "score": "1-4",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1a74effe81_2e91b589_20260914.png?v=2e91b589",
             "width": 1600,
             "height": 1200
           }
