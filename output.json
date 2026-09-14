@@ -11,11 +11,155 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-713fe44f18",
+          "name": "VĂN ĐIỆP vs NAM PHONG | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-713fe44f18",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-713fe44f18",
+                  "name": "VĂN ĐIỆP vs NAM PHONG",
+                  "streams": [
+                    {
+                      "id": "st-713fe44f18",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-713fe44f18",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7799/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "VĂN ĐIỆP",
+            "team_b": "NAM PHONG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789363672680_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789363674472_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "12:27 14/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-713fe44f18_5e9fe8de_20260914.png?v=5e9fe8de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-28b7255e73",
+          "name": "PHONG NAM vs DŨNG MOI | 13:00 14/09 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28b7255e73",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-28b7255e73",
+                  "name": "PHONG NAM vs DŨNG MOI",
+                  "streams": [
+                    {
+                      "id": "st-28b7255e73",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28b7255e73",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7796/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 CPBA TITAN OPEN",
+            "team_a": "PHONG NAM",
+            "team_b": "DŨNG MOI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354429128_Phong Nam.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354425924_DÅ¨NG MOI.jpg",
+            "time": "13:00 14/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28b7255e73_2606c9e7_20260914.png?v=2606c9e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-da06ec561c",
           "name": "KHÁNH BÚA vs DŨNG QUỐC OAI | 13:00 14/09",
@@ -233,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-28b7255e73",
-          "name": "PHONG NAM vs DŨNG MOI | 13:00 14/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28b7255e73",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-28b7255e73",
-                  "name": "PHONG NAM vs DŨNG MOI",
-                  "streams": [
-                    {
-                      "id": "st-28b7255e73",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28b7255e73",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7796/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "PHONG NAM",
-            "team_b": "DŨNG MOI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789354429128_Phong Nam.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789354425924_DÅ¨NG MOI.jpg",
-            "time": "13:00 14/09",
-            "caster": "Bỉm Sữa",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28b7255e73_2606c9e7_20260914.png?v=2606c9e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fff3cb1f27",
           "name": "Hoàng Sao(105w) vs Shaw Béo(120w) | 17:00 14/09",
           "type": "single",
@@ -449,7 +521,7 @@
           }
         },
         {
-          "id": "chtv-7df0db5d50",
+          "id": "chtv-badd21279c",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -464,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-7df0db5d50",
+              "id": "src-badd21279c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7df0db5d50",
+                  "id": "ct-badd21279c",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-7df0db5d50",
+                      "id": "st-badd21279c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7df0db5d50",
+                          "id": "lnk-badd21279c",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7788/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7789/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -515,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7df0db5d50_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-badd21279c_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
