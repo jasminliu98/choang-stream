@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789403622909_Screenshot 2026-07-07 004029.png",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "13-14",
+            "score": "14-14",
             "is_live": true,
             "hot": true
           },
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-4a71fc9d66",
-          "name": "YURI TUBO vs RAVEN MAGABO | Thập Cẩm",
+          "id": "chtv-6f2400f5d5",
+          "name": "YURI TUBO vs RAVEN MAGABO",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-4a71fc9d66",
+              "id": "src-6f2400f5d5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4a71fc9d66",
+                  "id": "ct-6f2400f5d5",
                   "name": "YURI TUBO vs RAVEN MAGABO",
                   "streams": [
                     {
-                      "id": "st-4a71fc9d66",
+                      "id": "st-6f2400f5d5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4a71fc9d66",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-6f2400f5d5",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7836/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7838/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,13 +140,13 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
+            "league": "Ông lão đánh cá và con cá độ",
             "team_a": "YURI TUBO",
             "team_b": "RAVEN MAGABO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789402872983_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789402871459_phil.png",
-            "time": "00:00 14/09",
-            "caster": "Thập Cẩm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797008355_táº£i xuá»ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
+            "time": "00:00 15/09",
+            "caster": "",
             "score": "14-11",
             "is_live": true,
             "hot": true
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4a71fc9d66_11a156b8_20260915.png?v=11a156b8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6f2400f5d5_a40bddd9_20260915.png?v=a40bddd9",
             "width": 1600,
             "height": 1200
           }
