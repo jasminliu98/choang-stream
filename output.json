@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789354602347_TUYÃN CON.jpg",
             "time": "13:00 14/09",
             "caster": "Tào A Man",
-            "score": "3-6",
+            "score": "3-7",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-457fc82db2_abefbe4b_20260914.png?v=abefbe4b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a563bd94ab",
-          "name": "KIỆT XOĂN vs CƯỜNG TỎI | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a563bd94ab",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a563bd94ab",
-                  "name": "KIỆT XOĂN vs CƯỜNG TỎI",
-                  "streams": [
-                    {
-                      "id": "st-a563bd94ab",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a563bd94ab",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7804/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "KIỆT XOĂN",
-            "team_b": "CƯỜNG TỎI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789367101680_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789367103622_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "13:25 14/09",
-            "caster": "Bỉm Sữa",
-            "score": "6-3",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a563bd94ab_ac31321c_20260914.png?v=ac31321c",
             "width": 1600,
             "height": 1200
           }
@@ -449,7 +377,7 @@
           }
         },
         {
-          "id": "chtv-2c27c0ff5f",
+          "id": "chtv-7df0db5d50",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -464,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-2c27c0ff5f",
+              "id": "src-7df0db5d50",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2c27c0ff5f",
+                  "id": "ct-7df0db5d50",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-2c27c0ff5f",
+                      "id": "st-7df0db5d50",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2c27c0ff5f",
+                          "id": "lnk-7df0db5d50",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7790/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7788/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -515,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2c27c0ff5f_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7df0db5d50_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
