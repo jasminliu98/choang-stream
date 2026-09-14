@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370858503_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:27 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "6-11",
+            "score": "6-12",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789366627094_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "Lee Min Hoo",
-            "score": "0-2",
+            "score": "2-2",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789366677073_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "Thập Cẩm",
-            "score": "3-1",
+            "score": "3-2",
             "is_live": true,
             "hot": false
           },
@@ -377,38 +377,38 @@
           }
         },
         {
-          "id": "chtv-fff3cb1f27",
-          "name": "Hoàng Sao(105w) vs Shaw Béo(120w) | 17:00 14/09",
+          "id": "chtv-445bfc8666",
+          "name": "Huy Hưng (E) vs Đỗ Mỹ (E) Vừa xong | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-fff3cb1f27",
+              "id": "src-445bfc8666",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fff3cb1f27",
-                  "name": "Hoàng Sao(105w) vs Shaw Béo(120w)",
+                  "id": "ct-445bfc8666",
+                  "name": "Huy Hưng (E) vs Đỗ Mỹ (E) Vừa xong",
                   "streams": [
                     {
-                      "id": "st-fff3cb1f27",
+                      "id": "st-445bfc8666",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fff3cb1f27",
-                          "name": "Stream",
+                          "id": "lnk-445bfc8666",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7467/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7812/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,22 +428,22 @@
             }
           ],
           "org_metadata": {
-            "league": "The Clash of Two Legends – Choáng TV",
-            "team_a": "Hoàng Sao(105w)",
-            "team_b": "Shaw Béo(120w)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
-            "time": "17:00 14/09",
-            "caster": "",
+            "league": "vn",
+            "team_a": "Huy Hưng (E)",
+            "team_b": "Đỗ Mỹ (E) Vừa xong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789373868191_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789373870150_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:17 14/09",
+            "caster": "Đại Kê",
             "score": "0-0",
-            "is_live": false,
-            "hot": true
+            "is_live": true,
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fff3cb1f27_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-445bfc8666_442f19ae_20260914.png?v=442f19ae",
             "width": 1600,
             "height": 1200
           }
@@ -516,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-cb3e3dc92f_194cfa1e_20260914.png?v=194cfa1e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fff3cb1f27",
+          "name": "Hoàng Sao(105w) vs Shaw Béo(120w) | 17:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fff3cb1f27",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fff3cb1f27",
+                  "name": "Hoàng Sao(105w) vs Shaw Béo(120w)",
+                  "streams": [
+                    {
+                      "id": "st-fff3cb1f27",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fff3cb1f27",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7467/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The Clash of Two Legends – Choáng TV",
+            "team_a": "Hoàng Sao(105w)",
+            "team_b": "Shaw Béo(120w)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
+            "time": "17:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fff3cb1f27_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
