@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,9 +75,9 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789380640357_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "3-3",
+            "score": "4-4",
             "is_live": true,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789375982318_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:53 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "13-11",
+            "score": "13-12",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789380378295_TUYÃN CON.jpg",
             "time": "17:00 14/09",
             "caster": "Đại Kê",
-            "score": "2-5",
+            "score": "2-6",
             "is_live": true,
             "hot": false
           },
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-885619e7a3_4ec62770_20260914.png?v=4ec62770",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e9f3db2bf1",
+          "name": "Hoàng Sao vs Shaw Béo | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9f3db2bf1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e9f3db2bf1",
+                  "name": "Hoàng Sao vs Shaw Béo",
+                  "streams": [
+                    {
+                      "id": "st-e9f3db2bf1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9f3db2bf1",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7787/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The Clash of Two Legends – Choáng TV",
+            "team_a": "Hoàng Sao",
+            "team_b": "Shaw Béo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
+            "time": "18:00 14/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9f3db2bf1_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
