@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-6ebbaf9b9f",
+          "name": "Tú Tây vs Sơn | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ebbaf9b9f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6ebbaf9b9f",
+                  "name": "Tú Tây vs Sơn",
+                  "streams": [
+                    {
+                      "id": "st-6ebbaf9b9f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ebbaf9b9f",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7825/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bida toptop",
+            "team_a": "Tú Tây",
+            "team_b": "Sơn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789380640626_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789380640357_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 14/09",
+            "caster": "Kèn Kèn",
+            "score": "1-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6ebbaf9b9f_87df54ee_20260914.png?v=87df54ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-c207bde988",
           "name": "Reyes vs Fernandez | Xinh Yeu",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370152417_phil.png",
             "time": "14:15 14/09",
             "caster": "Xinh Yeu",
-            "score": "18-10",
+            "score": "18-11",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789375982318_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:53 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "10-9",
+            "score": "11-9",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789380378295_TUYÃN CON.jpg",
             "time": "17:00 14/09",
             "caster": "Đại Kê",
-            "score": "0-2",
+            "score": "1-2",
             "is_live": true,
             "hot": true
           },
@@ -233,7 +305,7 @@
           }
         },
         {
-          "id": "chtv-64b1316772",
+          "id": "chtv-5a6de24c16",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -248,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-64b1316772",
+              "id": "src-5a6de24c16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-64b1316772",
+                  "id": "ct-5a6de24c16",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-64b1316772",
+                      "id": "st-5a6de24c16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-64b1316772",
+                          "id": "lnk-5a6de24c16",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7817/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7818/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,8 +359,8 @@
             "league": "The Clash of Two Legends – Choáng TV",
             "team_a": "Hoàng Sao",
             "team_b": "Shaw Béo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789378665076_Screenshot 2026-09-14 163732.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789378664563_Screenshot 2026-09-14 163737.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789378829597_Screenshot 2026-09-14 163732.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789378830848_Screenshot 2026-09-14 163737.png",
             "time": "18:00 14/09",
             "caster": "",
             "score": "0-0",
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64b1316772_93f93789_20260914.png?v=93f93789",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5a6de24c16_e4c00ab5_20260914.png?v=e4c00ab5",
             "width": 1600,
             "height": 1200
           }
