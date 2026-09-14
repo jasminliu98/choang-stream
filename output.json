@@ -89,6 +89,222 @@
           }
         },
         {
+          "id": "chtv-da06ec561c",
+          "name": "KHÁNH BÚA vs DŨNG QUỐC OAI | 11:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da06ec561c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-da06ec561c",
+                  "name": "KHÁNH BÚA vs DŨNG QUỐC OAI",
+                  "streams": [
+                    {
+                      "id": "st-da06ec561c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da06ec561c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7794/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 CPBA TITAN OPEN",
+            "team_a": "KHÁNH BÚA",
+            "team_b": "DŨNG QUỐC OAI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354224866_KHÃNH BÃA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354233075_DÅ¨NG QUá»C OAI.jpg",
+            "time": "11:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da06ec561c_ad731383_20260914.png?v=ad731383",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-55e9796d83",
+          "name": "HOÀNG PT vs LỢI CF | 11:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55e9796d83",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-55e9796d83",
+                  "name": "HOÀNG PT vs LỢI CF",
+                  "streams": [
+                    {
+                      "id": "st-55e9796d83",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-55e9796d83",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7795/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 CPBA TITAN OPEN",
+            "team_a": "HOÀNG PT",
+            "team_b": "LỢI CF",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354302793_HoÃ ng PT.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354309533_Lá»£i CF.jpg",
+            "time": "11:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55e9796d83_c06506e4_20260914.png?v=c06506e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-28b7255e73",
+          "name": "PHONG NAM vs DŨNG MOI | 11:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28b7255e73",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-28b7255e73",
+                  "name": "PHONG NAM vs DŨNG MOI",
+                  "streams": [
+                    {
+                      "id": "st-28b7255e73",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28b7255e73",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7796/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 CPBA TITAN OPEN",
+            "team_a": "PHONG NAM",
+            "team_b": "DŨNG MOI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354429128_Phong Nam.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354425924_DÅ¨NG MOI.jpg",
+            "time": "11:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28b7255e73_2606c9e7_20260914.png?v=2606c9e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6483e735aa",
           "name": "NGUYỄN HT vs QUANG CON | 11:00 14/09",
           "type": "single",
