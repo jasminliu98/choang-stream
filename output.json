@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789354003311_TÃNG BÃO TÃP.jpg",
             "time": "00:00 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "6-7",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -89,38 +89,38 @@
           }
         },
         {
-          "id": "chtv-800d08bdfc",
-          "name": "Thành Nam vs Hà Thành | Lee Min Hoo",
+          "id": "chtv-da06ec561c",
+          "name": "KHÁNH BÚA vs DŨNG QUỐC OAI | 13:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-800d08bdfc",
+              "id": "src-da06ec561c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-800d08bdfc",
-                  "name": "Thành Nam vs Hà Thành",
+                  "id": "ct-da06ec561c",
+                  "name": "KHÁNH BÚA vs DŨNG QUỐC OAI",
                   "streams": [
                     {
-                      "id": "st-800d08bdfc",
+                      "id": "st-da06ec561c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-800d08bdfc",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-da06ec561c",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7798/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7794/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,21 +141,21 @@
           ],
           "org_metadata": {
             "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "Thành Nam",
-            "team_b": "Hà Thành",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789356367929_Kháº§y Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789356337686_HÃ THÃNH.png",
-            "time": "10:59 14/09",
-            "caster": "Lee Min Hoo",
-            "score": "8-1",
-            "is_live": true,
+            "team_a": "KHÁNH BÚA",
+            "team_b": "DŨNG QUỐC OAI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354224866_KHÃNH BÃA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354233075_DÅ¨NG QUá»C OAI.jpg",
+            "time": "13:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-800d08bdfc_056f8843_20260914.png?v=056f8843",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da06ec561c_ad731383_20260914.png?v=ad731383",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-da06ec561c",
-          "name": "KHÁNH BÚA vs DŨNG QUỐC OAI | 13:00 14/09",
+          "id": "chtv-fff3cb1f27",
+          "name": "Hoàng Sao(105w) vs Shaw Béo(120w) | 17:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-da06ec561c",
+              "id": "src-fff3cb1f27",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-da06ec561c",
-                  "name": "KHÁNH BÚA vs DŨNG QUỐC OAI",
+                  "id": "ct-fff3cb1f27",
+                  "name": "Hoàng Sao(105w) vs Shaw Béo(120w)",
                   "streams": [
                     {
-                      "id": "st-da06ec561c",
+                      "id": "st-fff3cb1f27",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-da06ec561c",
+                          "id": "lnk-fff3cb1f27",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7794/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7467/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,12 +428,12 @@
             }
           ],
           "org_metadata": {
-            "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "KHÁNH BÚA",
-            "team_b": "DŨNG QUỐC OAI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789354224866_KHÃNH BÃA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789354233075_DÅ¨NG QUá»C OAI.jpg",
-            "time": "13:00 14/09",
+            "league": "The Clash of Two Legends – Choáng TV",
+            "team_a": "Hoàng Sao(105w)",
+            "team_b": "Shaw Béo(120w)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
+            "time": "17:00 14/09",
             "caster": "",
             "score": "0-0",
             "is_live": false,
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da06ec561c_ad731383_20260914.png?v=ad731383",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fff3cb1f27_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-fff3cb1f27",
-          "name": "Hoàng Sao(105w) vs Shaw Béo(120w) | 17:00 14/09",
+          "id": "chtv-badd21279c",
+          "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-fff3cb1f27",
+              "id": "src-badd21279c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fff3cb1f27",
-                  "name": "Hoàng Sao(105w) vs Shaw Béo(120w)",
+                  "id": "ct-badd21279c",
+                  "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-fff3cb1f27",
+                      "id": "st-badd21279c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fff3cb1f27",
+                          "id": "lnk-badd21279c",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7467/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7789/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -573,21 +573,21 @@
           ],
           "org_metadata": {
             "league": "The Clash of Two Legends – Choáng TV",
-            "team_a": "Hoàng Sao(105w)",
-            "team_b": "Shaw Béo(120w)",
+            "team_a": "Hoàng Sao",
+            "team_b": "Shaw Béo",
             "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
-            "time": "17:00 14/09",
+            "time": "18:00 14/09",
             "caster": "",
             "score": "0-0",
             "is_live": false,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fff3cb1f27_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-badd21279c_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
