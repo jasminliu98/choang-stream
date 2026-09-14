@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370152417_phil.png",
             "time": "14:15 14/09",
             "caster": "Xinh Yeu",
-            "score": "1-0",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370858503_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "14:27 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "0-5",
+            "score": "0-6",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ee1a27eb95_6f30eaf7_20260914.png?v=6f30eaf7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ff9b884944",
+          "name": "PHONG NAM vs TUYÊN CON | 15:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff9b884944",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ff9b884944",
+                  "name": "PHONG NAM vs TUYÊN CON",
+                  "streams": [
+                    {
+                      "id": "st-ff9b884944",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff9b884944",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7808/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CPBA TITAN OPEN CUP",
+            "team_a": "PHONG NAM",
+            "team_b": "TUYÊN CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789370456201_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789370457941_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff9b884944_9c987beb_20260914.png?v=9c987beb",
             "width": 1600,
             "height": 1200
           }
@@ -233,8 +305,8 @@
           }
         },
         {
-          "id": "chtv-ff9b884944",
-          "name": "PHONG NAM vs TUYÊN CON | 15:00 14/09",
+          "id": "chtv-5a932ea330",
+          "name": "LỢI CF vs KHÁNH BÚA | 15:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-ff9b884944",
+              "id": "src-5a932ea330",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ff9b884944",
-                  "name": "PHONG NAM vs TUYÊN CON",
+                  "id": "ct-5a932ea330",
+                  "name": "LỢI CF vs KHÁNH BÚA",
                   "streams": [
                     {
-                      "id": "st-ff9b884944",
+                      "id": "st-5a932ea330",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ff9b884944",
+                          "id": "lnk-5a932ea330",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7808/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7810/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,22 +356,22 @@
             }
           ],
           "org_metadata": {
-            "league": "CPBA TITAN OPEN CUP",
-            "team_a": "PHONG NAM",
-            "team_b": "TUYÊN CON",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789370456201_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789370457941_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "VN",
+            "team_a": "LỢI CF",
+            "team_b": "KHÁNH BÚA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789371275977_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789371277813_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "",
             "score": "0-0",
             "is_live": false,
-            "hot": true
+            "hot": false
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff9b884944_9c987beb_20260914.png?v=9c987beb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5a932ea330_8514ec75_20260914.png?v=8514ec75",
             "width": 1600,
             "height": 1200
           }
@@ -521,7 +593,7 @@
           }
         },
         {
-          "id": "chtv-2c27c0ff5f",
+          "id": "chtv-e9f3db2bf1",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -536,23 +608,23 @@
           ],
           "sources": [
             {
-              "id": "src-2c27c0ff5f",
+              "id": "src-e9f3db2bf1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2c27c0ff5f",
+                  "id": "ct-e9f3db2bf1",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-2c27c0ff5f",
+                      "id": "st-e9f3db2bf1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2c27c0ff5f",
+                          "id": "lnk-e9f3db2bf1",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7790/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7787/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -587,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2c27c0ff5f_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9f3db2bf1_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
