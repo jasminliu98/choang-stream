@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-c920ee6e2e",
-          "name": "DUY ĐINH vs BÌNH ỐC | 11:00 14/09",
+          "id": "chtv-457fc82db2",
+          "name": "LINH TQ vs TUYÊN CON | 11:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-c920ee6e2e",
+              "id": "src-457fc82db2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c920ee6e2e",
-                  "name": "DUY ĐINH vs BÌNH ỐC",
+                  "id": "ct-457fc82db2",
+                  "name": "LINH TQ vs TUYÊN CON",
                   "streams": [
                     {
-                      "id": "st-c920ee6e2e",
+                      "id": "st-457fc82db2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c920ee6e2e",
+                          "id": "lnk-457fc82db2",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7791/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7797/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,10 +69,10 @@
           ],
           "org_metadata": {
             "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "DUY ĐINH",
-            "team_b": "BÌNH ỐC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789353746597_Duy Äinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789353764564_BÃNH á»C.jpg",
+            "team_a": "LINH TQ",
+            "team_b": "TUYÊN CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769599182035_Táº¡ VÄn Linh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354602347_TUYÃN CON.jpg",
             "time": "11:00 14/09",
             "caster": "",
             "score": "0-0",
@@ -83,79 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c920ee6e2e_46e9608a_20260914.png?v=46e9608a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-da06ec561c",
-          "name": "KHÁNH BÚA vs DŨNG QUỐC OAI | 11:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da06ec561c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-da06ec561c",
-                  "name": "KHÁNH BÚA vs DŨNG QUỐC OAI",
-                  "streams": [
-                    {
-                      "id": "st-da06ec561c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da06ec561c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7794/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "KHÁNH BÚA",
-            "team_b": "DŨNG QUỐC OAI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789354224866_KHÃNH BÃA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789354233075_DÅ¨NG QUá»C OAI.jpg",
-            "time": "11:00 14/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da06ec561c_ad731383_20260914.png?v=ad731383",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-457fc82db2_abefbe4b_20260914.png?v=abefbe4b",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +228,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-28b7255e73_2606c9e7_20260914.png?v=2606c9e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c920ee6e2e",
+          "name": "DUY ĐINH vs BÌNH ỐC | 11:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c920ee6e2e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c920ee6e2e",
+                  "name": "DUY ĐINH vs BÌNH ỐC",
+                  "streams": [
+                    {
+                      "id": "st-c920ee6e2e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c920ee6e2e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7791/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 CPBA TITAN OPEN",
+            "team_a": "DUY ĐINH",
+            "team_b": "BÌNH ỐC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789353746597_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789353764564_BÃNH á»C.jpg",
+            "time": "11:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c920ee6e2e_46e9608a_20260914.png?v=46e9608a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-da06ec561c",
+          "name": "KHÁNH BÚA vs DŨNG QUỐC OAI | 11:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da06ec561c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-da06ec561c",
+                  "name": "KHÁNH BÚA vs DŨNG QUỐC OAI",
+                  "streams": [
+                    {
+                      "id": "st-da06ec561c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da06ec561c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7794/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 CPBA TITAN OPEN",
+            "team_a": "KHÁNH BÚA",
+            "team_b": "DŨNG QUỐC OAI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354224866_KHÃNH BÃA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354233075_DÅ¨NG QUá»C OAI.jpg",
+            "time": "11:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da06ec561c_ad731383_20260914.png?v=ad731383",
             "width": 1600,
             "height": 1200
           }
