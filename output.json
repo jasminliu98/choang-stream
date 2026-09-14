@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789391420808_phil.png",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "1-3",
+            "score": "1-4",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789389400075_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 14/09",
             "caster": "Thập Cẩm",
-            "score": "7-7",
+            "score": "7-8",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
             "time": "17:59 14/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "14-9",
+            "score": "15-9",
             "is_live": true,
             "hot": true
           },
@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-9e29eccc68",
-          "name": "NGUYỄN HT vs Tuyên Con | Đại Kê",
+          "id": "chtv-fc7117a0e7",
+          "name": "NGUYỄN HT vs TUYÊN CON | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-9e29eccc68",
+              "id": "src-fc7117a0e7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9e29eccc68",
-                  "name": "NGUYỄN HT vs Tuyên Con",
+                  "id": "ct-fc7117a0e7",
+                  "name": "NGUYỄN HT vs TUYÊN CON",
                   "streams": [
                     {
-                      "id": "st-9e29eccc68",
+                      "id": "st-fc7117a0e7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9e29eccc68",
-                          "name": "Đại Kê",
+                          "id": "lnk-fc7117a0e7",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7826/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7828/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -286,12 +286,12 @@
           "org_metadata": {
             "league": "CHUNG KẾT CPBA TITAN OPEN CUP",
             "team_a": "NGUYỄN HT",
-            "team_b": "Tuyên Con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789385003281_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789385003291_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "team_b": "TUYÊN CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789385255102_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789385254820_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "19:00 14/09",
-            "caster": "Đại Kê",
-            "score": "4-6",
+            "caster": "BÚN CHÓ",
+            "score": "4-8",
             "is_live": true,
             "hot": true
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9e29eccc68_8719faa6_20260914.png?v=8719faa6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fc7117a0e7_fa3338a7_20260914.png?v=fa3338a7",
             "width": 1600,
             "height": 1200
           }
