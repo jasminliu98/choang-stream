@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-78b8dedefe",
-          "name": "SINH MÓM vs TÙNG BÃO TÁP | SÊ KÔÔ",
+          "id": "chtv-55e9796d83",
+          "name": "HOÀNG PT vs LỢI CF | 13:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "SAP",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-78b8dedefe",
+              "id": "src-55e9796d83",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-78b8dedefe",
-                  "name": "SINH MÓM vs TÙNG BÃO TÁP",
+                  "id": "ct-55e9796d83",
+                  "name": "HOÀNG PT vs LỢI CF",
                   "streams": [
                     {
-                      "id": "st-78b8dedefe",
+                      "id": "st-55e9796d83",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-78b8dedefe",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-55e9796d83",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7793/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7795/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,21 +69,21 @@
           ],
           "org_metadata": {
             "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "SINH MÓM",
-            "team_b": "TÙNG BÃO TÁP",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789353981570_VÄn Sinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789354003311_TÃNG BÃO TÃP.jpg",
-            "time": "00:00 14/09",
-            "caster": "SÊ KÔÔ",
-            "score": "7-7",
-            "is_live": true,
+            "team_a": "HOÀNG PT",
+            "team_b": "LỢI CF",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789354302793_HoÃ ng PT.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354309533_Lá»£i CF.jpg",
+            "time": "13:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-78b8dedefe_dd80959e_20260914.png?v=dd80959e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55e9796d83_c06506e4_20260914.png?v=c06506e4",
             "width": 1600,
             "height": 1200
           }
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-457fc82db2",
-          "name": "LINH TQ vs TUYÊN CON | 13:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-457fc82db2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-457fc82db2",
-                  "name": "LINH TQ vs TUYÊN CON",
-                  "streams": [
-                    {
-                      "id": "st-457fc82db2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-457fc82db2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7797/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "LINH TQ",
-            "team_b": "TUYÊN CON",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769599182035_Táº¡ VÄn Linh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789354602347_TUYÃN CON.jpg",
-            "time": "13:00 14/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-457fc82db2_abefbe4b_20260914.png?v=abefbe4b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-28b7255e73",
           "name": "PHONG NAM vs DŨNG MOI | 13:00 14/09",
           "type": "single",
@@ -305,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-55e9796d83",
-          "name": "HOÀNG PT vs LỢI CF | 13:00 14/09",
+          "id": "chtv-457fc82db2",
+          "name": "LINH TQ vs TUYÊN CON | 13:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-55e9796d83",
+              "id": "src-457fc82db2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-55e9796d83",
-                  "name": "HOÀNG PT vs LỢI CF",
+                  "id": "ct-457fc82db2",
+                  "name": "LINH TQ vs TUYÊN CON",
                   "streams": [
                     {
-                      "id": "st-55e9796d83",
+                      "id": "st-457fc82db2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-55e9796d83",
+                          "id": "lnk-457fc82db2",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7795/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7797/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -357,10 +285,10 @@
           ],
           "org_metadata": {
             "league": "🏆 CPBA TITAN OPEN",
-            "team_a": "HOÀNG PT",
-            "team_b": "LỢI CF",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789354302793_HoÃ ng PT.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789354309533_Lá»£i CF.jpg",
+            "team_a": "LINH TQ",
+            "team_b": "TUYÊN CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769599182035_Táº¡ VÄn Linh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789354602347_TUYÃN CON.jpg",
             "time": "13:00 14/09",
             "caster": "",
             "score": "0-0",
@@ -371,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55e9796d83_c06506e4_20260914.png?v=c06506e4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-457fc82db2_abefbe4b_20260914.png?v=abefbe4b",
             "width": 1600,
             "height": 1200
           }
