@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370152417_phil.png",
             "time": "14:15 14/09",
             "caster": "Xinh Yeu",
-            "score": "0-0",
+            "score": "1-0",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b597a08e2b_382dabd0_20260914.png?v=382dabd0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ff9b884944",
+          "name": "PHONG NAM vs TUYÊN CON | 15:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff9b884944",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ff9b884944",
+                  "name": "PHONG NAM vs TUYÊN CON",
+                  "streams": [
+                    {
+                      "id": "st-ff9b884944",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff9b884944",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7808/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CPBA TITAN OPEN CUP",
+            "team_a": "PHONG NAM",
+            "team_b": "TUYÊN CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789370456201_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789370457941_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:00 14/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ff9b884944_9c987beb_20260914.png?v=9c987beb",
             "width": 1600,
             "height": 1200
           }
