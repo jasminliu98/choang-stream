@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-27ef9a1578",
-          "name": "JAYBEE SUCAL vs TALIBOY BAYUGAN | Kèn Kèn",
+          "name": "JAYBEE SUCAL vs TALIBOY BAYUGAN 8/10 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-27ef9a1578",
-                  "name": "JAYBEE SUCAL vs TALIBOY BAYUGAN",
+                  "name": "JAYBEE SUCAL vs TALIBOY BAYUGAN 8/10",
                   "streams": [
                     {
                       "id": "st-27ef9a1578",
@@ -70,12 +70,12 @@
           "org_metadata": {
             "league": "phi bịp",
             "team_a": "JAYBEE SUCAL",
-            "team_b": "TALIBOY BAYUGAN",
+            "team_b": "TALIBOY BAYUGAN 8/10",
             "logo_a": "https://cdn-choangtv.com/img/logo/1789391421024_phil.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789391420808_phil.png",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "1-0",
+            "score": "1-1",
             "is_live": true,
             "hot": true
           },
