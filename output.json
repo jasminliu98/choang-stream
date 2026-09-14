@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370152417_phil.png",
             "time": "14:15 14/09",
             "caster": "Xinh Yeu",
-            "score": "16-8",
+            "score": "17-8",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789375982318_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:53 14/09",
             "caster": "SÊ KÔÔ",
-            "score": "7-8",
+            "score": "8-8",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789377261815_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "16:14 14/09",
             "caster": "Bỉm Sữa",
-            "score": "4-4",
+            "score": "5-4",
             "is_live": true,
             "hot": false
           },
@@ -305,7 +305,7 @@
           }
         },
         {
-          "id": "chtv-64b1316772",
+          "id": "chtv-5a6de24c16",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-64b1316772",
+              "id": "src-5a6de24c16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-64b1316772",
+                  "id": "ct-5a6de24c16",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-64b1316772",
+                      "id": "st-5a6de24c16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-64b1316772",
+                          "id": "lnk-5a6de24c16",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7817/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7818/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -359,8 +359,8 @@
             "league": "The Clash of Two Legends – Choáng TV",
             "team_a": "Hoàng Sao",
             "team_b": "Shaw Béo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789378665076_Screenshot 2026-09-14 163732.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789378664563_Screenshot 2026-09-14 163737.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789378829597_Screenshot 2026-09-14 163732.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789378830848_Screenshot 2026-09-14 163737.png",
             "time": "18:00 14/09",
             "caster": "",
             "score": "0-0",
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-64b1316772_93f93789_20260914.png?v=93f93789",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5a6de24c16_e4c00ab5_20260914.png?v=e4c00ab5",
             "width": 1600,
             "height": 1200
           }
