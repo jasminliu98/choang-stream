@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789370152417_phil.png",
             "time": "14:15 14/09",
             "caster": "Xinh Yeu",
-            "score": "10-7",
+            "score": "10-8",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789366627094_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "Lee Min Hoo",
-            "score": "6-5",
+            "score": "7-5",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789366677073_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:00 14/09",
             "caster": "Thập Cẩm",
-            "score": "9-6",
+            "score": "10-7",
             "is_live": true,
             "hot": false
           },
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789373870150_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:17 14/09",
             "caster": "Đại Kê",
-            "score": "2-5",
+            "score": "3-6",
             "is_live": true,
             "hot": false
           },
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789374265941_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:24 14/09",
             "caster": "Kèn Kèn",
-            "score": "6-7",
+            "score": "7-7",
             "is_live": true,
             "hot": true
           },
@@ -593,7 +593,7 @@
           }
         },
         {
-          "id": "chtv-badd21279c",
+          "id": "chtv-2c27c0ff5f",
           "name": "Hoàng Sao vs Shaw Béo | 18:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -608,23 +608,23 @@
           ],
           "sources": [
             {
-              "id": "src-badd21279c",
+              "id": "src-2c27c0ff5f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-badd21279c",
+                  "id": "ct-2c27c0ff5f",
                   "name": "Hoàng Sao vs Shaw Béo",
                   "streams": [
                     {
-                      "id": "st-badd21279c",
+                      "id": "st-2c27c0ff5f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-badd21279c",
+                          "id": "lnk-2c27c0ff5f",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7789/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7790/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -659,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-badd21279c_194cfa1e_20260914.png?v=194cfa1e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2c27c0ff5f_194cfa1e_20260914.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
