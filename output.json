@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789391420808_phil.png",
             "time": "00:00 14/09",
             "caster": "Kèn Kèn",
-            "score": "5-8",
+            "score": "6-9",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-27ef9a1578_cf5f798d_20260914.png?v=cf5f798d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-79f5e2752d",
-          "name": "Duy Đen vs Hoàng kHiêm | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79f5e2752d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-79f5e2752d",
-                  "name": "Duy Đen vs Hoàng kHiêm",
-                  "streams": [
-                    {
-                      "id": "st-79f5e2752d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79f5e2752d",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7831/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Duy Đen",
-            "team_b": "Hoàng kHiêm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789389400381_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789389400075_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 14/09",
-            "caster": "Thập Cẩm",
-            "score": "11-10",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-79f5e2752d_8bfc6144_20260914.png?v=8bfc6144",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
             "time": "17:59 14/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "19-12",
+            "score": "20-12",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789385254820_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "19:00 14/09",
             "caster": "BÚN CHÓ",
-            "score": "6-11",
+            "score": "6-12",
             "is_live": true,
             "hot": true
           },
