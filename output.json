@@ -8,5 +8,87 @@
     "type": "cover",
     "url": "https://choangtv23.com/__og-image__/image/og.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-0486c1a4fd",
+          "name": "LEOZHANG CHẠM 5 vs JIMMY HE CHẠM 7 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0486c1a4fd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0486c1a4fd",
+                  "name": "LEOZHANG CHẠM 5 vs JIMMY HE CHẠM 7",
+                  "streams": [
+                    {
+                      "id": "st-0486c1a4fd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0486c1a4fd",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7840/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "us",
+            "team_a": "LEOZHANG CHẠM 5",
+            "team_b": "JIMMY HE CHẠM 7",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789440308421_images (1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789440311493_images (1).png",
+            "time": "09:45 15/09",
+            "caster": "Lee Min Hoo",
+            "score": "1-1",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0486c1a4fd_83ec2fd8_20260915.png?v=83ec2fd8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
