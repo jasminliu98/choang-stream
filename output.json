@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789482820631_phil.png",
             "time": "00:00 15/09",
             "caster": "Thập Cẩm",
-            "score": "8-15",
+            "score": "8-16",
             "is_live": true,
             "hot": false
           },
@@ -84,6 +84,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d54e7e9270_a80c4b85_20260916.png?v=a80c4b85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2ee9b00ab2",
+          "name": "Duy Đinh vs Tùng Híp | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ee9b00ab2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2ee9b00ab2",
+                  "name": "Duy Đinh vs Tùng Híp",
+                  "streams": [
+                    {
+                      "id": "st-2ee9b00ab2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ee9b00ab2",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7887/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phú Quý Do Trời",
+            "team_a": "Duy Đinh",
+            "team_b": "Tùng Híp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789493321052_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789493320766_tÃ¹ng hÃ­p.png",
+            "time": "00:00 16/09",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ee9b00ab2_1e6244b8_20260916.png?v=1e6244b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-49403b7958",
+          "name": "Duy Đinh -2,5 vs Tùng Híp",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49403b7958",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-49403b7958",
+                  "name": "Duy Đinh -2,5 vs Tùng Híp",
+                  "streams": [
+                    {
+                      "id": "st-49403b7958",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-49403b7958",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7888/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sống chết có số",
+            "team_a": "Duy Đinh -2,5",
+            "team_b": "Tùng Híp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789493449201_Duy Äinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789493452191_tÃ¹ng hÃ­p.png",
+            "time": "00:00 16/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-49403b7958_6d75eb88_20260916.png?v=6d75eb88",
             "width": 1600,
             "height": 1200
           }
