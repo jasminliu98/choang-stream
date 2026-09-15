@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789481591012_phil.png",
             "time": "00:00 15/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "12-8",
+            "score": "12-9",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "00:00 15/09",
             "caster": "Đại Kê",
-            "score": "54-49",
+            "score": "56-49",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789479474817_phil.png",
             "time": "00:00 15/09",
             "caster": "Kèn Kèn",
-            "score": "18-14",
+            "score": "19-14",
             "is_live": true,
             "hot": true
           },
@@ -306,7 +306,7 @@
         },
         {
           "id": "chtv-ab4005edcc",
-          "name": "Đi Chây Manas vs Alexis Ferrer | 23:59 15/09",
+          "name": "Đi Chây Manas vs Alexis Ferrer | 23:59 15/09 | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -333,7 +333,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-ab4005edcc",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7881/index.m3u8",
@@ -362,7 +362,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1765858485172_táº£i xuá»ng (1).jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1789480798234_ALEXIS FERRER.jpg",
             "time": "23:59 15/09",
-            "caster": "",
+            "caster": "Tào A Man",
             "score": "0-0",
             "is_live": false,
             "hot": true
