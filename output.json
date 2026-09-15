@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-665a84258a",
-          "name": "ORTEGA vs DEREWONSKI | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-665a84258a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-665a84258a",
-                  "name": "ORTEGA vs DEREWONSKI",
-                  "streams": [
-                    {
-                      "id": "st-665a84258a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-665a84258a",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7841/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "us",
-            "team_a": "ORTEGA",
-            "team_b": "DEREWONSKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789442782383_images (1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789442784882_images (1).png",
-            "time": "10:26 15/09",
-            "caster": "Lee Min Hoo",
-            "score": "2-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-665a84258a_812f22fe_20260915.png?v=812f22fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-953dcae361",
           "name": "Nam Roo (E vs Xuân Thùy (E) Vừa xong | Bỉm Sữa",
@@ -147,7 +75,7 @@
             "logo_b": "",
             "time": "10:45 15/09",
             "caster": "Bỉm Sữa",
-            "score": "0-0",
+            "score": "0-1",
             "is_live": true,
             "hot": true
           },
