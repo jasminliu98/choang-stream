@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789468899777_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
             "caster": "SÊ KÔÔ",
-            "score": "3-5",
+            "score": "3-6",
             "is_live": true,
             "hot": true
           },
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9be2868c79_2b2f7245_20260915.png?v=2b2f7245",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-48828d415f",
-          "name": "sài tiến vs khanh trần với duy đen | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48828d415f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-48828d415f",
-                  "name": "sài tiến vs khanh trần với duy đen",
-                  "streams": [
-                    {
-                      "id": "st-48828d415f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48828d415f",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7867/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "sài tiến",
-            "team_b": "khanh trần với duy đen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789466363714_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789466363384_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 15/09",
-            "caster": "Kèn Kèn",
-            "score": "13-9",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-48828d415f_e6634fa7_20260915.png?v=e6634fa7",
             "width": 1600,
             "height": 1200
           }
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789467036527_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
             "caster": "Thập Cẩm",
-            "score": "6-7",
+            "score": "7-8",
             "is_live": true,
             "hot": true
           },
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789468778346_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "3-6",
+            "score": "4-6",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789461471693_phil.png",
             "time": "15:37 15/09",
             "caster": "Lee Min Hoo",
-            "score": "8-11",
+            "score": "9-11",
             "is_live": true,
             "hot": false
           },
@@ -507,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "18:00 15/09",
             "caster": "Đại Kê",
-            "score": "30-18",
+            "score": "30-19",
             "is_live": true,
             "hot": true
           },
