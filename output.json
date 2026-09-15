@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (10 LIVE)",
+      "name": "🎱 Billiards (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789451719140_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:55 15/09",
             "caster": "Bỉm Sữa",
-            "score": "8-7",
+            "score": "8-8",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789453937968_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:32 15/09",
             "caster": "Tào A Man",
-            "score": "10-7",
+            "score": "11-7",
             "is_live": true,
             "hot": false
           },
@@ -507,7 +507,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789454156979_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:36 15/09",
             "caster": "Thập Cẩm",
-            "score": "21-25",
+            "score": "21-27",
             "is_live": true,
             "hot": false
           },
@@ -516,78 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d9782b07b2_dc95426a_20260915.png?v=dc95426a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5cd4a8a824",
-          "name": "tùng bão táp vs tú tây | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5cd4a8a824",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5cd4a8a824",
-                  "name": "tùng bão táp vs tú tây",
-                  "streams": [
-                    {
-                      "id": "st-5cd4a8a824",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5cd4a8a824",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7858/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "tùng bão táp",
-            "team_b": "tú tây",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789455485387_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789455486937_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "13:58 15/09",
-            "caster": "Đại Kê",
-            "score": "9-9",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5cd4a8a824_792424ad_20260915.png?v=792424ad",
             "width": 1600,
             "height": 1200
           }
