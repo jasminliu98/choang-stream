@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ea97be6196",
-          "name": "Hoàng Sao(43w) vs Jayson Shaw(31w) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea97be6196",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ea97be6196",
-                  "name": "Hoàng Sao(43w) vs Jayson Shaw(31w)",
-                  "streams": [
-                    {
-                      "id": "st-ea97be6196",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea97be6196",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7846/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "The Clash of Two Legends – Choáng TV Chạm 43",
-            "team_a": "Hoàng Sao(43w)",
-            "team_b": "Jayson Shaw(31w)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765530993362_táº£i xuá»ng (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
-            "time": "00:00 15/09",
-            "caster": "Đại Kê",
-            "score": "59-56",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea97be6196_f96c9f3a_20260916.png?v=f96c9f3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-6c33c134af",
           "name": "DUKLOY CEBU vs ATA MATA CDO | GIÀNG A PHỌ",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789481591012_phil.png",
             "time": "00:00 15/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "16-12",
+            "score": "16-13",
             "is_live": true,
             "hot": false
           },
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d54e7e9270_a80c4b85_20260916.png?v=a80c4b85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-58fea0cec3",
-          "name": "HOÀNG SAO vs SHAW BÉO",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58fea0cec3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-58fea0cec3",
-                  "name": "HOÀNG SAO vs SHAW BÉO",
-                  "streams": [
-                    {
-                      "id": "st-58fea0cec3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58fea0cec3",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7886/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VỀ ĐÍCH DAY 2",
-            "team_a": "HOÀNG SAO",
-            "team_b": "SHAW BÉO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
-            "time": "00:00 16/09",
-            "caster": "",
-            "score": "58-56",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-58fea0cec3_194cfa1e_20260916.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
