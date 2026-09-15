@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789442784882_images (1).png",
             "time": "10:26 15/09",
             "caster": "Lee Min Hoo",
-            "score": "1-3",
+            "score": "2-4",
             "is_live": true,
             "hot": false
           },
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-665a84258a_812f22fe_20260915.png?v=812f22fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-953dcae361",
+          "name": "Nam Roo (E vs Xuân Thùy (E) Vừa xong | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-953dcae361",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-953dcae361",
+                  "name": "Nam Roo (E vs Xuân Thùy (E) Vừa xong",
+                  "streams": [
+                    {
+                      "id": "st-953dcae361",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-953dcae361",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7842/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "Nam Roo (E",
+            "team_b": "Xuân Thùy (E) Vừa xong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789443913679_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "",
+            "time": "10:45 15/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-953dcae361_f50a05e4_20260915.png?v=f50a05e4",
             "width": 1600,
             "height": 1200
           }
