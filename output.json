@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-f8652ed82b",
+          "name": "VANNIE CARBON vs JOMAR MALAIT | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8652ed82b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f8652ed82b",
+                  "name": "VANNIE CARBON vs JOMAR MALAIT",
+                  "streams": [
+                    {
+                      "id": "st-f8652ed82b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8652ed82b",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7873/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "VANNIE CARBON",
+            "team_b": "JOMAR MALAIT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789472767936_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789472767612_phil.png",
+            "time": "00:00 15/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "6-4",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8652ed82b_b1909bfb_20260915.png?v=b1909bfb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-db27b3b9f6",
           "name": "Mạnh Xoăn vs Tùng Híp | Thập Cẩm",
           "type": "single",
@@ -147,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789470667157_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
             "caster": "Kèn Kèn",
-            "score": "9-9",
+            "score": "10-9",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1a4b0e1661_6cc914b5_20260915.png?v=6cc914b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f8652ed82b",
-          "name": "VANNIE CARBON vs JOMAR MALAIT | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8652ed82b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f8652ed82b",
-                  "name": "VANNIE CARBON vs JOMAR MALAIT",
-                  "streams": [
-                    {
-                      "id": "st-f8652ed82b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8652ed82b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7873/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "VANNIE CARBON",
-            "team_b": "JOMAR MALAIT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789472767936_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789472767612_phil.png",
-            "time": "00:00 15/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "5-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8652ed82b_b1909bfb_20260915.png?v=b1909bfb",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789461471693_phil.png",
             "time": "15:37 15/09",
             "caster": "Lee Min Hoo",
-            "score": "15-15",
+            "score": "16-15",
             "is_live": true,
             "hot": false
           },
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-31d47fae5e_f0d15809_20260915.png?v=f0d15809",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d83cf5b365",
-          "name": "Hoàng Sao60(win) vs Shaw Béo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d83cf5b365",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d83cf5b365",
-                  "name": "Hoàng Sao60(win) vs Shaw Béo",
-                  "streams": [
-                    {
-                      "id": "st-d83cf5b365",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d83cf5b365",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7874/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Day 2 | The Clash of Two Legends – Choáng TV",
-            "team_a": "Hoàng Sao60(win)",
-            "team_b": "Shaw Béo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789474129597_Screenshot 2026-09-15 190841.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789474129386_Screenshot 2026-09-15 190845.png",
-            "time": "18:00 15/09",
-            "caster": "",
-            "score": "34-28",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d83cf5b365_e372345b_20260915.png?v=e372345b",
             "width": 1600,
             "height": 1200
           }
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "18:00 15/09",
             "caster": "Đại Kê",
-            "score": "34-28",
+            "score": "35-28",
             "is_live": true,
             "hot": true
           },
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea97be6196_f96c9f3a_20260915.png?v=f96c9f3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d83cf5b365",
+          "name": "Hoàng Sao60(win) vs Shaw Béo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d83cf5b365",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d83cf5b365",
+                  "name": "Hoàng Sao60(win) vs Shaw Béo",
+                  "streams": [
+                    {
+                      "id": "st-d83cf5b365",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d83cf5b365",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7874/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Day 2 | The Clash of Two Legends – Choáng TV",
+            "team_a": "Hoàng Sao60(win)",
+            "team_b": "Shaw Béo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789474129597_Screenshot 2026-09-15 190841.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789474129386_Screenshot 2026-09-15 190845.png",
+            "time": "18:00 15/09",
+            "caster": "",
+            "score": "35-28",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d83cf5b365_e372345b_20260915.png?v=e372345b",
             "width": 1600,
             "height": 1200
           }
