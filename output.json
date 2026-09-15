@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4c2597ce92",
-          "name": "JERICO BAÑARES vs BOSS RS | Kèn Kèn",
+          "id": "chtv-bbca460b9c",
+          "name": "Hoàng Sao vs Jayson Shaw",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-4c2597ce92",
+              "id": "src-bbca460b9c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4c2597ce92",
-                  "name": "JERICO BAÑARES vs BOSS RS",
+                  "id": "ct-bbca460b9c",
+                  "name": "Hoàng Sao vs Jayson Shaw",
                   "streams": [
                     {
-                      "id": "st-4c2597ce92",
+                      "id": "st-bbca460b9c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4c2597ce92",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-bbca460b9c",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7880/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7885/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JERICO BAÑARES",
-            "team_b": "BOSS RS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789479474938_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789479474817_phil.png",
+            "league": "Ông Lão đánh cá và con cá độ",
+            "team_a": "Hoàng Sao",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789484739864_Screenshot 2026-09-15 190841.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789484739222_Screenshot 2026-09-15 190845.png",
             "time": "00:00 15/09",
-            "caster": "Kèn Kèn",
-            "score": "14-12",
+            "caster": "",
+            "score": "46-46",
             "is_live": true,
             "hot": true
           },
@@ -83,151 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c2597ce92_d476cf6d_20260915.png?v=d476cf6d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6c33c134af",
-          "name": "DUKLOY CEBU vs ATA MATA CDO | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c33c134af",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6c33c134af",
-                  "name": "DUKLOY CEBU vs ATA MATA CDO",
-                  "streams": [
-                    {
-                      "id": "st-6c33c134af",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c33c134af",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7882/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "DUKLOY CEBU",
-            "team_b": "ATA MATA CDO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789481591398_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789481591012_phil.png",
-            "time": "00:00 15/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "6-4",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6c33c134af_2827c759_20260915.png?v=2827c759",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ea97be6196",
-          "name": "Hoàng Sao(43w) vs Jayson Shaw(31w) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea97be6196",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ea97be6196",
-                  "name": "Hoàng Sao(43w) vs Jayson Shaw(31w)",
-                  "streams": [
-                    {
-                      "id": "st-ea97be6196",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea97be6196",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7846/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "The Clash of Two Legends – Choáng TV Chạm 43",
-            "team_a": "Hoàng Sao(43w)",
-            "team_b": "Jayson Shaw(31w)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765530993362_táº£i xuá»ng (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
-            "time": "00:00 15/09",
-            "caster": "Đại Kê",
-            "score": "46-45",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea97be6196_f96c9f3a_20260915.png?v=f96c9f3a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bbca460b9c_66dc216c_20260915.png?v=66dc216c",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789482820631_phil.png",
             "time": "00:00 15/09",
             "caster": "Thập Cẩm",
-            "score": "2-2",
+            "score": "2-3",
             "is_live": true,
             "hot": true
           },
@@ -305,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-bbca460b9c",
-          "name": "Hoàng Sao vs Jayson Shaw",
+          "id": "chtv-6c33c134af",
+          "name": "DUKLOY CEBU vs ATA MATA CDO | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-bbca460b9c",
+              "id": "src-6c33c134af",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bbca460b9c",
-                  "name": "Hoàng Sao vs Jayson Shaw",
+                  "id": "ct-6c33c134af",
+                  "name": "DUKLOY CEBU vs ATA MATA CDO",
                   "streams": [
                     {
-                      "id": "st-bbca460b9c",
+                      "id": "st-6c33c134af",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bbca460b9c",
-                          "name": "Stream",
+                          "id": "lnk-6c33c134af",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7885/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7882/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Ông Lão đánh cá và con cá độ",
-            "team_a": "Hoàng Sao",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789484739864_Screenshot 2026-09-15 190841.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789484739222_Screenshot 2026-09-15 190845.png",
+            "league": "phi bịp",
+            "team_a": "DUKLOY CEBU",
+            "team_b": "ATA MATA CDO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789481591398_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789481591012_phil.png",
             "time": "00:00 15/09",
-            "caster": "",
-            "score": "46-45",
+            "caster": "GIÀNG A PHỌ",
+            "score": "7-4",
             "is_live": true,
             "hot": true
           },
@@ -371,7 +227,151 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bbca460b9c_66dc216c_20260915.png?v=66dc216c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6c33c134af_2827c759_20260915.png?v=2827c759",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4c2597ce92",
+          "name": "JERICO BAÑARES vs BOSS RS | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c2597ce92",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4c2597ce92",
+                  "name": "JERICO BAÑARES vs BOSS RS",
+                  "streams": [
+                    {
+                      "id": "st-4c2597ce92",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c2597ce92",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7880/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JERICO BAÑARES",
+            "team_b": "BOSS RS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789479474938_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789479474817_phil.png",
+            "time": "00:00 15/09",
+            "caster": "Kèn Kèn",
+            "score": "14-11",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c2597ce92_d476cf6d_20260915.png?v=d476cf6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ea97be6196",
+          "name": "Hoàng Sao(43w) vs Jayson Shaw(31w) | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea97be6196",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea97be6196",
+                  "name": "Hoàng Sao(43w) vs Jayson Shaw(31w)",
+                  "streams": [
+                    {
+                      "id": "st-ea97be6196",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea97be6196",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7846/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The Clash of Two Legends – Choáng TV Chạm 43",
+            "team_a": "Hoàng Sao(43w)",
+            "team_b": "Jayson Shaw(31w)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765530993362_táº£i xuá»ng (1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
+            "time": "00:00 15/09",
+            "caster": "Đại Kê",
+            "score": "46-46",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ea97be6196_f96c9f3a_20260915.png?v=f96c9f3a",
             "width": 1600,
             "height": 1200
           }
