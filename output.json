@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-216948a775",
-          "name": "Duy Đen vs Sài Tiến | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-216948a775",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-216948a775",
-                  "name": "Duy Đen vs Sài Tiến",
-                  "streams": [
-                    {
-                      "id": "st-216948a775",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-216948a775",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7875/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "game 2",
-            "team_a": "Duy Đen",
-            "team_b": "Sài Tiến",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789475541040_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789475541029_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 15/09",
-            "caster": "Kèn Kèn",
-            "score": "4-1",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-216948a775_ac7cf905_20260915.png?v=ac7cf905",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f8652ed82b",
           "name": "VANNIE CARBON vs JOMAR MALAIT | GIÀNG A PHỌ",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789472767612_phil.png",
             "time": "00:00 15/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "6-8",
+            "score": "7-9",
             "is_live": true,
             "hot": true
           },
@@ -156,6 +84,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8652ed82b_b1909bfb_20260915.png?v=b1909bfb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b8a8190624",
+          "name": "Jaybee Sucal vs Taliboy Cubillias 8/10 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8a8190624",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b8a8190624",
+                  "name": "Jaybee Sucal vs Taliboy Cubillias 8/10",
+                  "streams": [
+                    {
+                      "id": "st-b8a8190624",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8a8190624",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7876/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Jaybee Sucal",
+            "team_b": "Taliboy Cubillias 8/10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789476872174_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789476872079_phil.png",
+            "time": "00:00 15/09",
+            "caster": "Thập Cẩm",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b8a8190624_f72b8c75_20260915.png?v=f72b8c75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-216948a775",
+          "name": "Duy Đen vs Sài Tiến | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-216948a775",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-216948a775",
+                  "name": "Duy Đen vs Sài Tiến",
+                  "streams": [
+                    {
+                      "id": "st-216948a775",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-216948a775",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7875/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "game 2",
+            "team_a": "Duy Đen",
+            "team_b": "Sài Tiến",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789475541040_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789475541029_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 15/09",
+            "caster": "Kèn Kèn",
+            "score": "5-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-216948a775_ac7cf905_20260915.png?v=ac7cf905",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "18:00 15/09",
             "caster": "Đại Kê",
-            "score": "38-29",
+            "score": "38-31",
             "is_live": true,
             "hot": true
           },
