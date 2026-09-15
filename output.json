@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-1a4b0e1661",
-          "name": "Duy Đen vs Sài Tiến | Kèn Kèn",
+          "id": "chtv-f8652ed82b",
+          "name": "VANNIE CARBON vs JOMAR MALAIT | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-1a4b0e1661",
+              "id": "src-f8652ed82b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1a4b0e1661",
-                  "name": "Duy Đen vs Sài Tiến",
+                  "id": "ct-f8652ed82b",
+                  "name": "VANNIE CARBON vs JOMAR MALAIT",
                   "streams": [
                     {
-                      "id": "st-1a4b0e1661",
+                      "id": "st-f8652ed82b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1a4b0e1661",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-f8652ed82b",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7871/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7873/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "toptop",
-            "team_a": "Duy Đen",
-            "team_b": "Sài Tiến",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789470667456_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789470667157_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "league": "phi bịp",
+            "team_a": "VANNIE CARBON",
+            "team_b": "JOMAR MALAIT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789472767936_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789472767612_phil.png",
             "time": "00:00 15/09",
-            "caster": "Kèn Kèn",
-            "score": "6-6",
+            "caster": "GIÀNG A PHỌ",
+            "score": "3-3",
             "is_live": true,
             "hot": true
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1a4b0e1661_6cc914b5_20260915.png?v=6cc914b5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8652ed82b_b1909bfb_20260915.png?v=b1909bfb",
             "width": 1600,
             "height": 1200
           }
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-9be2868c79",
-          "name": "Tuấn Kent vs gerson | SÊ KÔÔ",
+          "id": "chtv-1a4b0e1661",
+          "name": "Duy Đen vs Sài Tiến | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-9be2868c79",
+              "id": "src-1a4b0e1661",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9be2868c79",
-                  "name": "Tuấn Kent vs gerson",
+                  "id": "ct-1a4b0e1661",
+                  "name": "Duy Đen vs Sài Tiến",
                   "streams": [
                     {
-                      "id": "st-9be2868c79",
+                      "id": "st-1a4b0e1661",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9be2868c79",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-1a4b0e1661",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7870/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7871/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,13 +213,13 @@
           ],
           "org_metadata": {
             "league": "toptop",
-            "team_a": "Tuấn Kent",
-            "team_b": "gerson",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789468900966_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789468899777_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "team_a": "Duy Đen",
+            "team_b": "Sài Tiến",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789470667456_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789470667157_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
-            "caster": "SÊ KÔÔ",
-            "score": "5-11",
+            "caster": "Kèn Kèn",
+            "score": "8-6",
             "is_live": true,
             "hot": true
           },
@@ -227,79 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9be2868c79_2b2f7245_20260915.png?v=2b2f7245",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f8652ed82b",
-          "name": "VANNIE CARBON vs JOMAR MALAIT | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8652ed82b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f8652ed82b",
-                  "name": "VANNIE CARBON vs JOMAR MALAIT",
-                  "streams": [
-                    {
-                      "id": "st-f8652ed82b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8652ed82b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7873/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "VANNIE CARBON",
-            "team_b": "JOMAR MALAIT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789472767936_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789472767612_phil.png",
-            "time": "00:00 15/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f8652ed82b_b1909bfb_20260915.png?v=b1909bfb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1a4b0e1661_6cc914b5_20260915.png?v=6cc914b5",
             "width": 1600,
             "height": 1200
           }
@@ -435,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "18:00 15/09",
             "caster": "Đại Kê",
-            "score": "31-26",
+            "score": "32-26",
             "is_live": true,
             "hot": true
           },
