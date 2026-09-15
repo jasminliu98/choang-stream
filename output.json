@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-9be2868c79",
-          "name": "Tuấn Kent vs gerson | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9be2868c79",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9be2868c79",
-                  "name": "Tuấn Kent vs gerson",
-                  "streams": [
-                    {
-                      "id": "st-9be2868c79",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9be2868c79",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7870/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Tuấn Kent",
-            "team_b": "gerson",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789468900966_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789468899777_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "00:00 15/09",
-            "caster": "SÊ KÔÔ",
-            "score": "2-3",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9be2868c79_2b2f7245_20260915.png?v=2b2f7245",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-48828d415f",
           "name": "sài tiến vs khanh trần với duy đen | Kèn Kèn",
           "type": "single",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789466363384_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
             "caster": "Kèn Kèn",
-            "score": "10-7",
+            "score": "13-7",
             "is_live": true,
             "hot": true
           },
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-db27b3b9f6",
-          "name": "Mạnh Xoăn vs Tùng Híp | Thập Cẩm",
+          "id": "chtv-9be2868c79",
+          "name": "Tuấn Kent vs gerson | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-db27b3b9f6",
+              "id": "src-9be2868c79",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-db27b3b9f6",
-                  "name": "Mạnh Xoăn vs Tùng Híp",
+                  "id": "ct-9be2868c79",
+                  "name": "Tuấn Kent vs gerson",
                   "streams": [
                     {
-                      "id": "st-db27b3b9f6",
+                      "id": "st-9be2868c79",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-db27b3b9f6",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-9be2868c79",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7868/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7870/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,13 +141,13 @@
           ],
           "org_metadata": {
             "league": "toptop",
-            "team_a": "Mạnh Xoăn",
-            "team_b": "Tùng Híp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789467036755_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789467036527_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "team_a": "Tuấn Kent",
+            "team_b": "gerson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789468900966_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789468899777_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
-            "caster": "Thập Cẩm",
-            "score": "5-5",
+            "caster": "SÊ KÔÔ",
+            "score": "2-4",
             "is_live": true,
             "hot": true
           },
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db27b3b9f6_0a2fdbd9_20260915.png?v=0a2fdbd9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9be2868c79_2b2f7245_20260915.png?v=2b2f7245",
             "width": 1600,
             "height": 1200
           }
@@ -291,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789468778346_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "00:00 15/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "2-4",
+            "score": "2-6",
             "is_live": true,
             "hot": true
           },
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-12bc0d984a_875093e4_20260915.png?v=875093e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-db27b3b9f6",
+          "name": "Mạnh Xoăn vs Tùng Híp | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db27b3b9f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-db27b3b9f6",
+                  "name": "Mạnh Xoăn vs Tùng Híp",
+                  "streams": [
+                    {
+                      "id": "st-db27b3b9f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db27b3b9f6",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7868/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "toptop",
+            "team_a": "Mạnh Xoăn",
+            "team_b": "Tùng Híp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789467036755_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789467036527_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "00:00 15/09",
+            "caster": "Thập Cẩm",
+            "score": "5-7",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-db27b3b9f6_0a2fdbd9_20260915.png?v=0a2fdbd9",
             "width": 1600,
             "height": 1200
           }
@@ -363,7 +363,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789453756845_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:29 15/09",
             "caster": "Xinh Yeu",
-            "score": "18-16",
+            "score": "18-18",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789461471693_phil.png",
             "time": "15:37 15/09",
             "caster": "Lee Min Hoo",
-            "score": "6-11",
+            "score": "8-11",
             "is_live": true,
             "hot": false
           },
