@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,150 +89,6 @@
           }
         },
         {
-          "id": "chtv-8f37dc5de7",
-          "name": "Hoàng pt vs thầy nam",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f37dc5de7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8f37dc5de7",
-                  "name": "Hoàng pt vs thầy nam",
-                  "streams": [
-                    {
-                      "id": "st-8f37dc5de7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f37dc5de7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7852/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "Hoàng pt",
-            "team_b": "thầy nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789453098663_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789453100469_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "13:18 15/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8f37dc5de7_40509fbf_20260915.png?v=40509fbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-137bfce5cb",
-          "name": "Huy Hưng vs Bino",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-137bfce5cb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-137bfce5cb",
-                  "name": "Huy Hưng vs Bino",
-                  "streams": [
-                    {
-                      "id": "st-137bfce5cb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-137bfce5cb",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7853/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "Huy Hưng",
-            "team_b": "Bino",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789453144457_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789453146298_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "13:19 15/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-137bfce5cb_a138e3d9_20260915.png?v=a138e3d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ac4884cfb3",
           "name": "Cường tốc độ vs Phùng quý | Xinh Yeu",
           "type": "single",
@@ -291,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789453756845_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:29 15/09",
             "caster": "Xinh Yeu",
-            "score": "9-7",
+            "score": "10-7",
             "is_live": true,
             "hot": false
           },
@@ -435,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789459320863_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "15:02 15/09",
             "caster": "Đại Kê",
-            "score": "0-3",
+            "score": "2-3",
             "is_live": true,
             "hot": false
           },
@@ -588,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bfa579830c_d1ba945e_20260915.png?v=d1ba945e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-40d7c4ea8d",
+          "name": "Phạm Thắng C+ (E) vs Duy BT SGN (E) Vừa xong | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40d7c4ea8d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-40d7c4ea8d",
+                  "name": "Phạm Thắng C+ (E) vs Duy BT SGN (E) Vừa xong",
+                  "streams": [
+                    {
+                      "id": "st-40d7c4ea8d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40d7c4ea8d",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7864/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "Phạm Thắng C+ (E)",
+            "team_b": "Duy BT SGN (E) Vừa xong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789461568957_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789461571376_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "15:39 15/09",
+            "caster": "Bỉm Sữa",
+            "score": "0-0",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-40d7c4ea8d_61f7e9ea_20260915.png?v=61f7e9ea",
             "width": 1600,
             "height": 1200
           }
