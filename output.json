@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-4c2597ce92",
+          "name": "JERICO BAÑARES vs BOSS RS | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c2597ce92",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4c2597ce92",
+                  "name": "JERICO BAÑARES vs BOSS RS",
+                  "streams": [
+                    {
+                      "id": "st-4c2597ce92",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c2597ce92",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7880/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JERICO BAÑARES",
+            "team_b": "BOSS RS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789479474938_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789479474817_phil.png",
+            "time": "00:00 15/09",
+            "caster": "Kèn Kèn",
+            "score": "5-1",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4c2597ce92_d476cf6d_20260915.png?v=d476cf6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ea97be6196",
           "name": "Hoàng Sao(43w) vs Jayson Shaw(31w) | Đại Kê",
@@ -75,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "00:00 15/09",
             "caster": "Đại Kê",
-            "score": "42-32",
+            "score": "42-33",
             "is_live": true,
             "hot": true
           },
@@ -219,7 +291,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789476872079_phil.png",
             "time": "00:00 15/09",
             "caster": "Thập Cẩm",
-            "score": "8-4",
+            "score": "9-6",
             "is_live": true,
             "hot": true
           },
