@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789451719140_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "12:55 15/09",
             "caster": "Bỉm Sữa",
-            "score": "8-8",
+            "score": "9-8",
             "is_live": true,
             "hot": true
           },
@@ -435,7 +435,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789453937968_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "13:32 15/09",
             "caster": "Tào A Man",
-            "score": "11-7",
+            "score": "12-7",
             "is_live": true,
             "hot": false
           },
@@ -660,6 +660,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bd4dcae5b7_f3e5c858_20260915.png?v=f3e5c858",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-520afd6ea4",
+          "name": "MẠNH XOĂN vs BÌNH ỐC | 17:00 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "SAP",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-520afd6ea4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-520afd6ea4",
+                  "name": "MẠNH XOĂN vs BÌNH ỐC",
+                  "streams": [
+                    {
+                      "id": "st-520afd6ea4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-520afd6ea4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7861/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "MẠNH XOĂN",
+            "team_b": "BÌNH ỐC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789460689680_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789460690870_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
+            "time": "17:00 15/09",
+            "caster": "",
+            "score": "0-0",
+            "is_live": false,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-520afd6ea4_6fd7331d_20260915.png?v=6fd7331d",
             "width": 1600,
             "height": 1200
           }
