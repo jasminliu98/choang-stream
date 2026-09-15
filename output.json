@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d54e7e9270",
-          "name": "Mark davao vs Tomay bacolod 9-10 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d54e7e9270",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d54e7e9270",
-                  "name": "Mark davao vs Tomay bacolod 9-10",
-                  "streams": [
-                    {
-                      "id": "st-d54e7e9270",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d54e7e9270",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7884/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Mark davao",
-            "team_b": "Tomay bacolod 9-10",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789482820764_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789482820631_phil.png",
-            "time": "00:00 15/09",
-            "caster": "Thập Cẩm",
-            "score": "8-11",
-            "is_live": true,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d54e7e9270_a80c4b85_20260916.png?v=a80c4b85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6c33c134af",
           "name": "DUKLOY CEBU vs ATA MATA CDO | GIÀNG A PHỌ",
           "type": "single",
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789447936092_Jayson Shaw.jpg",
             "time": "00:00 15/09",
             "caster": "Đại Kê",
-            "score": "57-56",
+            "score": "58-56",
             "is_live": true,
             "hot": true
           },
@@ -233,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-ab4005edcc",
-          "name": "Đi Chây Manas vs Alexis Ferrer | Tào A Man",
+          "id": "chtv-d54e7e9270",
+          "name": "Mark davao vs Tomay bacolod 9-10 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-ab4005edcc",
+              "id": "src-d54e7e9270",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ab4005edcc",
-                  "name": "Đi Chây Manas vs Alexis Ferrer",
+                  "id": "ct-d54e7e9270",
+                  "name": "Mark davao vs Tomay bacolod 9-10",
                   "streams": [
                     {
-                      "id": "st-ab4005edcc",
+                      "id": "st-d54e7e9270",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ab4005edcc",
-                          "name": "Tào A Man",
+                          "id": "lnk-d54e7e9270",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7881/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7884/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +212,86 @@
             }
           ],
           "org_metadata": {
-            "league": "Siêu Kèo Đêm Nay",
-            "team_a": "Đi Chây Manas",
-            "team_b": "Alexis Ferrer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765858485172_táº£i xuá»ng (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789480798234_ALEXIS FERRER.jpg",
-            "time": "23:59 15/09",
-            "caster": "Tào A Man",
-            "score": "0-0",
+            "league": "phi bịp",
+            "team_a": "Mark davao",
+            "team_b": "Tomay bacolod 9-10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789482820764_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789482820631_phil.png",
+            "time": "00:00 15/09",
+            "caster": "Thập Cẩm",
+            "score": "8-12",
+            "is_live": true,
+            "hot": false
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d54e7e9270_a80c4b85_20260916.png?v=a80c4b85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-58fea0cec3",
+          "name": "HOÀNG SAO vs SHAW BÉO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58fea0cec3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58fea0cec3",
+                  "name": "HOÀNG SAO vs SHAW BÉO",
+                  "streams": [
+                    {
+                      "id": "st-58fea0cec3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58fea0cec3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7886/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VỀ ĐÍCH DAY 2",
+            "team_a": "HOÀNG SAO",
+            "team_b": "SHAW BÉO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson Shaw.jpg",
+            "time": "00:00 16/09",
+            "caster": "",
+            "score": "57-56",
             "is_live": true,
             "hot": true
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ab4005edcc_78735bae_20260916.png?v=78735bae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-58fea0cec3_194cfa1e_20260916.png?v=194cfa1e",
             "width": 1600,
             "height": 1200
           }
