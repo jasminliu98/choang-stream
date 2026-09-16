@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-da5dc993f7",
-          "name": "TATA SIQUIJOR vs MARMAR CDO | Xinh Yeu",
+          "id": "chtv-55ae18512a",
+          "name": "Hoàng Sao vs Jayson Shaw73win)",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-da5dc993f7",
+              "id": "src-55ae18512a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-da5dc993f7",
-                  "name": "TATA SIQUIJOR vs MARMAR CDO",
+                  "id": "ct-55ae18512a",
+                  "name": "Hoàng Sao vs Jayson Shaw73win)",
                   "streams": [
                     {
-                      "id": "st-da5dc993f7",
+                      "id": "st-55ae18512a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-da5dc993f7",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-55ae18512a",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7912/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7914/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,86 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Siêu Bịp Phủi Phi race 15",
-            "team_a": "TATA SIQUIJOR",
-            "team_b": "MARMAR CDO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
-            "time": "17:10 16/09",
-            "caster": "Xinh Yeu",
-            "score": "11-14",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-da5dc993f7_ab14e79c_20260916.png?v=ab14e79c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-56dc9e176b",
-          "name": "Hoàng Sao vs Jayson Shaw | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56dc9e176b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-56dc9e176b",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-56dc9e176b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56dc9e176b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7906/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ông Lão đánh cá và con cá độ ( luồng BLV A Phọ cổ vũ anh Hoàng )",
+            "league": "Day 3 | The Clash of Two Legends – Choáng TV",
             "team_a": "Hoàng Sao",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789551420079_jayson shaw 1.jpg",
-            "time": "18:00 16/09",
-            "caster": "GIÀNG A PHỌ",
-            "score": "68-61",
+            "team_b": "Jayson Shaw73win)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789561108949_Screenshot 2026-09-16 191759.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789561109236_Screenshot 2026-09-16 191805.png",
+            "time": "00:00 16/09",
+            "caster": "",
+            "score": "69-61",
             "is_live": true,
             "hot": true
           },
@@ -155,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-56dc9e176b_cfefc729_20260916.png?v=cfefc729",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55ae18512a_b42d5b50_20260916.png?v=b42d5b50",
             "width": 1600,
             "height": 1200
           }
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8accd3f06_91d600f5_20260916.png?v=91d600f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-56dc9e176b",
+          "name": "Hoàng Sao vs Jayson Shaw | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56dc9e176b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-56dc9e176b",
+                  "name": "Hoàng Sao vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-56dc9e176b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56dc9e176b",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7906/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ông Lão đánh cá và con cá độ ( luồng BLV A Phọ cổ vũ anh Hoàng )",
+            "team_a": "Hoàng Sao",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789551420079_jayson shaw 1.jpg",
+            "time": "18:00 16/09",
+            "caster": "GIÀNG A PHỌ",
+            "score": "70-61",
+            "is_live": true,
+            "hot": true
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-56dc9e176b_cfefc729_20260916.png?v=cfefc729",
             "width": 1600,
             "height": 1200
           }
