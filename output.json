@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ba84fc2beb",
-          "name": "Đi Chây Manas vs Alexis Ferrer | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba84fc2beb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ba84fc2beb",
-                  "name": "Đi Chây Manas vs Alexis Ferrer",
-                  "streams": [
-                    {
-                      "id": "st-ba84fc2beb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba84fc2beb",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7913/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phú Quý Do Trời Sống Chết Có Số",
-            "team_a": "Đi Chây Manas",
-            "team_b": "Alexis Ferrer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765858485172_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789560378561_ALEXIS%20FERRER.jpg",
-            "time": "20:30:00",
-            "date": "16/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ba84fc2beb_67884c6d_20260917.png?v=67884c6d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-ad797e1357",
           "name": "JAMES ARANAS vs JERSON CUMAYAS | Kèn Kèn",
