@@ -4,7 +4,7 @@ import hashlib
 import re
 import time
 import os
-from urllib.parse import urlparse
+from urllib.parse import urlparse, quote, urlsplit, urlunsplit  # 🔧 FIX: thêm quote/urlsplit/urlunsplit
 from datetime import datetime, timezone, timedelta
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
@@ -17,6 +17,10 @@ VN_TZ = timezone(timedelta(hours=7))
 
 def now_vn() -> datetime:
     return datetime.now(tz=VN_TZ)
+
+# 🔧 FIX: UA đầy đủ theo chuẩn Giovang (bản cũ bị cắt cụt -> có thể gây "format lạ")
+FULL_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+           "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 
 def parse_kickoff(time_str: str):
     if not time_str: return None
@@ -40,6 +44,41 @@ def format_match_time(time_str: str) -> str:
 def parse_time_sort(time_str: str) -> int:
     dt = parse_kickoff(time_str)
     return int(dt.timestamp()) if dt else 9999999999
+
+# 🔧 FIX: sanitize URL logo — sửa mojibake + percent-encode khoảng trắng
+# "táº£i xuá»'ng (1).jpg" -> "tải xuống (1).jpg" -> ".../t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg"
+def sanitize_url(url: str) -> str:
+    if not url:
+        return ""
+    u = url.strip()
+    # Reverse mojibake: UTF-8 từng bị đọc nhầm thành Windows-1252
+    try:
+        u = u.encode("cp1252").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        pass
+    # Percent-encode path & query (giữ nguyên cấu trúc URL)
+    try:
+        p = urlsplit(u)
+        u = urlunsplit((
+            p.scheme, p.netloc,
+            quote(p.path, safe="/-._~"),
+            quote(p.query, safe="=&/-._~"),
+            p.fragment,
+        ))
+    except Exception:
+        pass
+    return u
+
+# 🔧 FIX: tách giờ/ngày theo format Giovang: time="HH:MM:SS", date="dd/MM"
+def split_match_datetime(time_raw: str, time_display: str):
+    dt = parse_kickoff(time_raw)
+    if dt:
+        return dt.strftime("%H:%M:%S"), dt.strftime("%d/%m")
+    # Fallback: parse từ display dạng "18:00 16/09"
+    m = re.match(r'(\d{1,2}:\d{2})\s+(\d{1,2}/\d{1,2})', (time_display or "").strip())
+    if m:
+        return f"{m.group(1)}:00", m.group(2)
+    return (time_display or ""), ""
 
 def make_id(text, prefix):
     return f"{prefix}-{hashlib.md5(text.encode()).hexdigest()[:10]}"
@@ -84,7 +123,7 @@ def resolve_site_domain(entry_url, default_domain):
         print(f"  Dang kiem tra redirect tu: {entry_url}")
         res = requests.get(
             entry_url,
-            headers={"User-Agent": HEADERS["User-Agent"]},
+            headers={"User-Agent": FULL_UA},
             timeout=10,
             allow_redirects=True
         )
@@ -111,7 +150,7 @@ def resolve_site_domain(entry_url, default_domain):
 # ─────────────────────────────────────────────────────────────────────────────
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "User-Agent": FULL_UA,  # 🔧 FIX: dùng UA đầy đủ
     "Referer": "https://choangtv21.com/",
 }
 
@@ -286,10 +325,11 @@ def get_matches():
 
             time_raw     = item.get("time") or ""
             time_display = format_match_time(time_raw)
+            time_only, date_only = split_match_datetime(time_raw, time_display)  # 🔧 FIX
             team_a       = (item.get("name1") or "").strip()
             team_b       = (item.get("name2") or "").strip()
-            logo_a       = item.get("logo1") or ""
-            logo_b       = item.get("logo2") or ""
+            logo_a       = sanitize_url(item.get("logo1") or "")  # 🔧 FIX
+            logo_b       = sanitize_url(item.get("logo2") or "")  # 🔧 FIX
             league       = (item.get("league") or "").strip()
             caster_raw   = (item.get("caster") or "").strip()
             score1       = item.get("score1") or 0
@@ -307,6 +347,7 @@ def get_matches():
                 "match_id": match_id, "name": name, "time": time_display,
                 "time_display": time_display, "time_raw": time_raw,
                 "time_sort": parse_time_sort(time_raw),
+                "time_only": time_only, "date_only": date_only,  # 🔧 FIX
                 "team_a": team_a, "team_b": team_b,
                 "logo_a": logo_a, "logo_b": logo_b,
                 "league": league, "caster": caster_clean,
@@ -340,7 +381,6 @@ def get_matches():
         return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
     def get_group_key(match):
-        # Gom text để check bằng regex word boundary
         text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}"
         
         is_billiard = bool(BILLIARD_PATTERN.search(text_to_check))
@@ -351,7 +391,6 @@ def get_matches():
         kickoff = parse_kickoff(match.get("time_raw", ""))
         date_key = kickoff.strftime("%Y-%m-%d") if kickoff else ""
         
-        # Ưu tiên billiard nếu có keyword billiard (tránh nhầm Mohammad → MMA)
         if is_martial and not is_billiard:
             return ("MARTIAL", league_clean.lower(), date_key)
         else:
@@ -428,14 +467,15 @@ def get_matches():
 # BUILD CHANNEL
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_channel(match, thumb_url=""):
+def build_channel(match, thumb_url="", cate_type="billiards"):
     uid        = make_id(match["stream_url"], "chtv")
     src_id     = make_id(match["stream_url"], "src")
     ct_id      = make_id(match["stream_url"], "ct")
     st_id      = make_id(match["stream_url"], "st")
     lnk_id     = make_id(match["stream_url"], "lnk")
 
-    label_text  = "LIVE" if match["is_live"] else "SAP"
+    # 🔧 FIX: label theo format Giovang ("🕐 Sắp" thay vì "SAP")
+    label_text  = "LIVE" if match["is_live"] else "🕐 Sắp"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
     display_name = match["name"]
@@ -449,7 +489,7 @@ def build_channel(match, thumb_url=""):
         "url": match["stream_url"],
         "request_headers": [
             {"key": "Referer", "value": HEADERS["Referer"]},
-            {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+            {"key": "User-Agent", "value": FULL_UA},  # 🔧 FIX: UA đầy đủ
         ],
     }]
 
@@ -465,13 +505,22 @@ def build_channel(match, thumb_url=""):
                 "streams": [{"id": st_id, "name": "CHTV", "stream_links": stream_links}],
             }],
         }],
+        # 🔧 FIX: org_metadata theo đúng schema Giovang:
+        #   - time "HH:MM:SS" + date "dd/MM" riêng biệt (không gộp "18:00 16/09")
+        #   - blv thay cho caster
+        #   - thêm cate_type
+        #   - bỏ score/hot (field lạ so với schema app đang chấp nhận)
         "org_metadata": {
-            "league": match.get("league", ""), "team_a": match.get("team_a", ""),
-            "team_b": match.get("team_b", ""), "logo_a": match.get("logo_a", ""),
-            "logo_b": match.get("logo_b", ""), "time": match.get("time", ""),
-            "caster": match.get("caster", ""),
-            "score": f"{match.get('score1', 0)}-{match.get('score2', 0)}",
-            "is_live": match["is_live"], "hot": match.get("hot", False),
+            "league": match.get("league", ""),
+            "team_a": match.get("team_a", ""),
+            "team_b": match.get("team_b", ""),
+            "logo_a": match.get("logo_a", ""),
+            "logo_b": match.get("logo_b", ""),
+            "time": match.get("time_only", ""),
+            "date": match.get("date_only", ""),
+            "blv": match.get("caster", ""),
+            "is_live": match["is_live"],
+            "cate_type": cate_type,
         },
     }
 
@@ -527,15 +576,15 @@ def main():
         logo_hash  = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
-        ch = build_channel(match, thumb_url)
-
         # 🛡️ Phân loại bằng Regex word boundary - tránh bug Mohammad = MMA
         text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}"
         is_billiard = bool(BILLIARD_PATTERN.search(text_to_check))
         is_martial  = bool(MARTIAL_PATTERN.search(text_to_check))
-        
-        # Ưu tiên billiard: nếu có pool/billiard/bida thì chắc chắn là billiard
-        if is_martial and not is_billiard:
+        cate_type   = "martial" if (is_martial and not is_billiard) else "billiards"  # 🔧 FIX
+
+        ch = build_channel(match, thumb_url, cate_type)
+
+        if cate_type == "martial":
             vo_thuat_channels.append(ch)
         else:
             billiard_channels.append(ch)
