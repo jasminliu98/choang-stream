@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4d5bf26968",
-          "name": "duy đen vs đối duy đen | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d5bf26968",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4d5bf26968",
-                  "name": "duy đen vs đối duy đen",
-                  "streams": [
-                    {
-                      "id": "st-4d5bf26968",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d5bf26968",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7900/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GAME 2",
-            "team_a": "duy đen",
-            "team_b": "đối duy đen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789546518634_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789546520792_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
-            "time": "15:15 16/09",
-            "caster": "Thập Cẩm",
-            "score": "8-5",
-            "is_live": true,
-            "hot": false
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4d5bf26968_2d23e77f_20260916.png?v=2d23e77f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f0db70a10e",
           "name": "VĂN SINH vs LABUTIS | Bỉm Sữa",
@@ -147,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789547556580_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "16:00 16/09",
             "caster": "Bỉm Sữa",
-            "score": "2-1",
+            "score": "2-3",
             "is_live": true,
             "hot": false
           },
@@ -219,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789549473058_1765337449015_tÃ¡ÂºÂ£i xuÃ¡Â»_ng.png",
             "time": "16:04 16/09",
             "caster": "Xinh Yeu",
-            "score": "1-0",
+            "score": "3-0",
             "is_live": true,
             "hot": false
           },
