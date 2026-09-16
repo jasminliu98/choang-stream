@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789551420079_jayson shaw 1.jpg",
             "time": "18:00 16/09",
             "caster": "GIÀNG A PHỌ",
-            "score": "71-66",
+            "score": "72-66",
             "is_live": true,
             "hot": true
           },
@@ -147,7 +147,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789552202198_Jayson Shaw.jpg",
             "time": "18:00 16/09",
             "caster": "Thập Cẩm",
-            "score": "70-66",
+            "score": "72-66",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8accd3f06_91d600f5_20260916.png?v=91d600f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ba84fc2beb",
-          "name": "Đi Chây Manas vs Alexis Ferrer | 20:30 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba84fc2beb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ba84fc2beb",
-                  "name": "Đi Chây Manas vs Alexis Ferrer",
-                  "streams": [
-                    {
-                      "id": "st-ba84fc2beb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba84fc2beb",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7913/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phú Quý Do Trời Sống Chết Có Số",
-            "team_a": "Đi Chây Manas",
-            "team_b": "Alexis Ferrer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765858485172_táº£i xuá»ng (1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789560378561_ALEXIS FERRER.jpg",
-            "time": "20:30 16/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ba84fc2beb_35c76d06_20260916.png?v=35c76d06",
             "width": 1600,
             "height": 1200
           }
