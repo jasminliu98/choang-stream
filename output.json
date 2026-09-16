@@ -162,7 +162,7 @@
         },
         {
           "id": "chtv-da5dc993f7",
-          "name": "MARMAR CDO vs TATA SIQUIJOR | Xinh Yeu",
+          "name": "TATA SIQUIJOR vs MARMAR CDO | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -181,7 +181,7 @@
               "contents": [
                 {
                   "id": "ct-da5dc993f7",
-                  "name": "MARMAR CDO vs TATA SIQUIJOR",
+                  "name": "TATA SIQUIJOR vs MARMAR CDO",
                   "streams": [
                     {
                       "id": "st-da5dc993f7",
@@ -213,13 +213,13 @@
           ],
           "org_metadata": {
             "league": "Siêu Bịp Phủi Phi race 15",
-            "team_a": "MARMAR CDO",
-            "team_b": "TATA SIQUIJOR",
+            "team_a": "TATA SIQUIJOR",
+            "team_b": "MARMAR CDO",
             "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_táº£i xuá»ng.png",
             "time": "17:10 16/09",
             "caster": "Xinh Yeu",
-            "score": "2-0",
+            "score": "4-1",
             "is_live": true,
             "hot": true
           },
