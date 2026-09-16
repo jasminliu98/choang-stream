@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417289812_táº£i xuá»ng.png",
             "time": "12:28 16/09",
             "caster": "Thập Cẩm",
-            "score": "5-1",
+            "score": "5-2",
             "is_live": true,
             "hot": true
           },
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0a00d6e3f4_f9fb52ed_20260916.png?v=f9fb52ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-09bdbee2b6",
-          "name": "Hoàng PT vs PIJUS LABUTIS | 13:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09bdbee2b6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09bdbee2b6",
-                  "name": "Hoàng PT vs PIJUS LABUTIS",
-                  "streams": [
-                    {
-                      "id": "st-09bdbee2b6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09bdbee2b6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7891/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Show Match 99xChoangTV",
-            "team_a": "Hoàng PT",
-            "team_b": "PIJUS LABUTIS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789514759891_HoÃ ng PT.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789514764086_Pijus Labutis.jpg",
-            "time": "13:00 16/09",
-            "caster": "",
-            "score": "0-0",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-09bdbee2b6_8ca14cad_20260916.png?v=8ca14cad",
             "width": 1600,
             "height": 1200
           }
