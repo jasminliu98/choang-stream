@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,38 +305,38 @@
           }
         },
         {
-          "id": "chtv-d3f70d09da",
-          "name": "Hoàng Sao vs Jayson Shaw | 18:01 16/09",
+          "id": "chtv-c8accd3f06",
+          "name": "Hoàng Sao vs Jayson Shaw | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "SAP",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-d3f70d09da",
+              "id": "src-c8accd3f06",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d3f70d09da",
+                  "id": "ct-c8accd3f06",
                   "name": "Hoàng Sao vs Jayson Shaw",
                   "streams": [
                     {
-                      "id": "st-d3f70d09da",
+                      "id": "st-c8accd3f06",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d3f70d09da",
-                          "name": "Stream",
+                          "id": "lnk-c8accd3f06",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7910/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7909/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,94 +356,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Day 3 | The Clash of Two Legends – Choáng TV",
+            "league": "Day3 | The Clash of Two Legends – Choáng TV ( Luồng BLV thập cẩm cổ vũ Shaw béo )",
             "team_a": "Hoàng Sao",
             "team_b": "Jayson Shaw",
             "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789552305209_Jayson Shaw.jpg",
-            "time": "18:01 16/09",
-            "caster": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789552202198_Jayson Shaw.jpg",
+            "time": "18:00 16/09",
+            "caster": "Thập Cẩm",
             "score": "60-56",
-            "is_live": false,
+            "is_live": true,
             "hot": true
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d3f70d09da_0bda522e_20260916.png?v=0bda522e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c55896aa08",
-          "name": "Hoàng Sao vs Jayson Shaw | 18:01 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "SAP",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c55896aa08",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c55896aa08",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-c55896aa08",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c55896aa08",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7911/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Day 3  | The Clash of Two Legends – Choáng TV",
-            "team_a": "Hoàng Sao",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot 2026-04-26 030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789552428728_Jayson Shaw.jpg",
-            "time": "18:01 16/09",
-            "caster": "",
-            "score": "60-56",
-            "is_live": false,
-            "hot": true
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c55896aa08_45dd9942_20260916.png?v=45dd9942",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8accd3f06_91d600f5_20260916.png?v=91d600f5",
             "width": 1600,
             "height": 1200
           }
