@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ddd487cdd4_26035b49_20260917.png?v=26035b49",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fd1b61089d",
+          "name": "Jaybee Sucal vs Taliboy +1win | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd1b61089d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd1b61089d",
+                  "name": "Jaybee Sucal vs Taliboy +1win",
+                  "streams": [
+                    {
+                      "id": "st-fd1b61089d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd1b61089d",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7938/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Jaybee Sucal",
+            "team_b": "Taliboy +1win",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789642477049_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789642477022_phil.png",
+            "time": "00:00:00",
+            "date": "17/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd1b61089d_32c25f3a_20260917.png?v=32c25f3a",
             "width": 1600,
             "height": 1200
           }
