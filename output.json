@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-f76a07ada6",
-          "name": "Duy Đen vs Sài Tiến | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f76a07ada6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f76a07ada6",
-                  "name": "Duy Đen vs Sài Tiến",
-                  "streams": [
-                    {
-                      "id": "st-f76a07ada6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f76a07ada6",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7942/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Duy Đen",
-            "team_b": "Sài Tiến",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789644990414_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789644990403_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "17/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f76a07ada6_c27a5e7c_20260917.png?v=c27a5e7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-fd1b61089d",
           "name": "Jaybee Sucal vs Taliboy +1win | Xinh Yeu",
@@ -161,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-d86059883d",
-          "name": "Hoàng Sao vs Jayson Shaw | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d86059883d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d86059883d",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-d86059883d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d86059883d",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7920/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bố em hút rất nhiều thuốc. Mẹ em khóc mắt lệ nhoà. Bố anh thì đi lại còn mẹ anh gọi điện thoại đến từng nhà.",
-            "team_a": "Hoàng Sao",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789600739931_jayson%20shaw%201.jpg",
-            "time": "18:00:00",
-            "date": "17/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86059883d_f117967d_20260917.png?v=f117967d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5b8d946218",
           "name": "Hoàng Sao vs Jayson Shaw | VÁNG",
           "type": "single",
@@ -300,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5b8d946218_ce5782cc_20260917.png?v=ce5782cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d86059883d",
+          "name": "Hoàng Sao vs Jayson Shaw | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d86059883d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d86059883d",
+                  "name": "Hoàng Sao vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-d86059883d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d86059883d",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7920/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bố em hút rất nhiều thuốc. Mẹ em khóc mắt lệ nhoà. Bố anh thì đi lại còn mẹ anh gọi điện thoại đến từng nhà.",
+            "team_a": "Hoàng Sao",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789600739931_jayson%20shaw%201.jpg",
+            "time": "18:00:00",
+            "date": "17/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d86059883d_f117967d_20260917.png?v=f117967d",
             "width": 1600,
             "height": 1200
           }
