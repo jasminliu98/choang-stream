@@ -377,78 +377,6 @@
           }
         },
         {
-          "id": "chtv-0905315ba0",
-          "name": "Hoàng Sao vs Jayson Shaw | 18:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0905315ba0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0905315ba0",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-0905315ba0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0905315ba0",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7922/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Day 4 | The Clash of Two Legends – Choáng TV",
-            "team_a": "Hoàng Sao",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789600996730_Jayson%20Shaw.jpg",
-            "time": "18:00:00",
-            "date": "17/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0905315ba0_1be55653_20260917.png?v=1be55653",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5b8d946218",
           "name": "Hoàng Sao vs Jayson Shaw | 18:00 17/09",
           "type": "single",
@@ -516,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5b8d946218_ce5782cc_20260917.png?v=ce5782cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0905315ba0",
+          "name": "Hoàng Sao vs Jayson Shaw | 18:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0905315ba0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0905315ba0",
+                  "name": "Hoàng Sao vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-0905315ba0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0905315ba0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7922/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Day 4 | The Clash of Two Legends – Choáng TV",
+            "team_a": "Hoàng Sao",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789600996730_Jayson%20Shaw.jpg",
+            "time": "18:00:00",
+            "date": "17/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0905315ba0_1be55653_20260917.png?v=1be55653",
             "width": 1600,
             "height": 1200
           }
