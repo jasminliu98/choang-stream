@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-2ad7f3e6f1",
+          "id": "chtv-40c3c7dda3",
           "name": "Hoàng PT vs Bích Trâm | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-2ad7f3e6f1",
+              "id": "src-40c3c7dda3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2ad7f3e6f1",
+                  "id": "ct-40c3c7dda3",
                   "name": "Hoàng PT vs Bích Trâm",
                   "streams": [
                     {
-                      "id": "st-2ad7f3e6f1",
+                      "id": "st-40c3c7dda3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2ad7f3e6f1",
+                          "id": "lnk-40c3c7dda3",
                           "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7946/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7947/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -71,8 +71,8 @@
             "league": "toptop",
             "team_a": "Hoàng PT",
             "team_b": "Bích Trâm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789652162989_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789652162662_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789654605801_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789654605816_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
             "time": "00:00:00",
             "date": "17/09",
             "blv": "Kèn Kèn",
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-2ad7f3e6f1_42a066e4_20260917.png?v=42a066e4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-40c3c7dda3_51c9d23c_20260917.png?v=51c9d23c",
             "width": 1600,
             "height": 1200
           }
