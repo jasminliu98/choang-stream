@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-fd1b61089d_32c25f3a_20260917.png?v=32c25f3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9c3c7b937e",
-          "name": "Kun Đà Nẵng vs Sài Tiến | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c3c7b937e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9c3c7b937e",
-                  "name": "Kun Đà Nẵng vs Sài Tiến",
-                  "streams": [
-                    {
-                      "id": "st-9c3c7b937e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c3c7b937e",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7936/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Kun Đà Nẵng",
-            "team_b": "Sài Tiến",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789639411069_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789639410931_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "17/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9c3c7b937e_78943f51_20260917.png?v=78943f51",
             "width": 1600,
             "height": 1200
           }
