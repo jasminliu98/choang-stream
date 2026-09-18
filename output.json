@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-5fe3a47018",
-          "name": "ĐỘI TRÁI vs ĐỘI PHẢI | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fe3a47018",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5fe3a47018",
-                  "name": "ĐỘI TRÁI vs ĐỘI PHẢI",
-                  "streams": [
-                    {
-                      "id": "st-5fe3a47018",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5fe3a47018",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7971/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "ĐỘI TRÁI",
-            "team_b": "ĐỘI PHẢI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789715256817_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789715258609_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "14:08:00",
-            "date": "18/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5fe3a47018_316d018a_20260918.png?v=316d018a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-832b4e7a89",
           "name": "Bado vs Zamboanga | Xinh Yeu",
@@ -1092,6 +1020,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-df944eab0a_7616ca36_20260918.png?v=7616ca36",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-95eb093f7e",
+          "name": "Petsuphan Lookmuangpet vs Mahar Thway | 21:30 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95eb093f7e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-95eb093f7e",
+                  "name": "Petsuphan Lookmuangpet vs Mahar Thway",
+                  "streams": [
+                    {
+                      "id": "st-95eb093f7e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95eb093f7e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7968/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 7 : ONE Friday Fights",
+            "team_a": "Petsuphan Lookmuangpet",
+            "team_b": "Mahar Thway",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710467567_Screenshot%202026-09-18%20124746.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710473108_Screenshot%202026-09-18%20124751.png",
+            "time": "21:30:00",
+            "date": "18/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-95eb093f7e_380ae25f_20260918.png?v=380ae25f",
             "width": 1600,
             "height": 1200
           }
