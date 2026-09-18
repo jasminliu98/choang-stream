@@ -956,7 +956,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1173,78 +1173,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9dd221f910_465e530b_20260918.png?v=465e530b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-34d032fa26",
-          "name": "KUN ĐỖ vs SÀI TIẾN | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34d032fa26",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-34d032fa26",
-                  "name": "KUN ĐỖ vs SÀI TIẾN",
-                  "streams": [
-                    {
-                      "id": "st-34d032fa26",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-34d032fa26",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7979/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "KUN ĐỖ",
-            "team_b": "SÀI TIẾN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789722578835_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789722581477_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "16:10:00",
-            "date": "18/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-34d032fa26_55084c5c_20260918.png?v=55084c5c",
             "width": 1600,
             "height": 1200
           }
