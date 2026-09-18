@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-02faff8eea",
-          "name": "Tuấn bé vs Tuệ | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02faff8eea",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-02faff8eea",
-                  "name": "Tuấn bé vs Tuệ",
-                  "streams": [
-                    {
-                      "id": "st-02faff8eea",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02faff8eea",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7960/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vn",
-            "team_a": "Tuấn bé",
-            "team_b": "Tuệ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789710160773_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789710163172_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "11:30:00",
-            "date": "18/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-02faff8eea_7361e60e_20260918.png?v=7361e60e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-ad4973aac4",
           "name": "Miguel vs Luis | Đại Kê",
