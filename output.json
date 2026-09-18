@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d5cedd162a",
-          "name": "Connor Tymon vs Alex Bigander | Thập Cẩm",
+          "id": "chtv-eb8746fb7d",
+          "name": "Alex “El Hombrecillo” Usieto vs Hlaing Htet Aung | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-d5cedd162a",
+              "id": "src-eb8746fb7d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d5cedd162a",
-                  "name": "Connor Tymon vs Alex Bigander",
+                  "id": "ct-eb8746fb7d",
+                  "name": "Alex “El Hombrecillo” Usieto vs Hlaing Htet Aung",
                   "streams": [
                     {
-                      "id": "st-d5cedd162a",
+                      "id": "st-eb8746fb7d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d5cedd162a",
+                          "id": "lnk-eb8746fb7d",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7964/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7965/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 3 : ONE Friday Fights",
-            "team_a": "Connor Tymon",
-            "team_b": "Alex Bigander",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789710305884_Screenshot%202026-09-18%20124503.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789710312433_Screenshot%202026-09-18%20124509.png",
-            "time": "20:30:00",
+            "league": "Trận 4 : ONE Friday Fights",
+            "team_a": "Alex “El Hombrecillo” Usieto",
+            "team_b": "Hlaing Htet Aung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710356913_Screenshot%202026-09-18%20124555.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710362745_Screenshot%202026-09-18%20124600.png",
+            "time": "20:45:00",
             "date": "18/09",
             "blv": "Thập Cẩm",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5cedd162a_f06b4b2b_20260918.png?v=f06b4b2b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eb8746fb7d_bb3c78b8_20260918.png?v=bb3c78b8",
             "width": 1600,
             "height": 1200
           }
@@ -92,7 +92,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -165,6 +165,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b4110684c_e13a20f6_20260918.png?v=e13a20f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-32b4a4464d",
+          "name": "DUKLOY CEBU vs WANING SURIGAO (9-10 up) | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32b4a4464d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-32b4a4464d",
+                  "name": "DUKLOY CEBU vs WANING SURIGAO (9-10 up)",
+                  "streams": [
+                    {
+                      "id": "st-32b4a4464d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32b4a4464d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7990/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "DUKLOY CEBU",
+            "team_b": "WANING SURIGAO (9-10 up)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789741743795_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789741743420_phil.png",
+            "time": "00:00:00",
+            "date": "18/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-32b4a4464d_d8eace66_20260918.png?v=d8eace66",
             "width": 1600,
             "height": 1200
           }
