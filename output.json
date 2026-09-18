@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-832b4e7a89_950c6aad_20260918.png?v=950c6aad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1527aa591a",
+          "name": "kUN đỖ vs DUY ĐEN | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1527aa591a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1527aa591a",
+                  "name": "kUN đỖ vs DUY ĐEN",
+                  "streams": [
+                    {
+                      "id": "st-1527aa591a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1527aa591a",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7975/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "kUN đỖ",
+            "team_b": "DUY ĐEN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789718140542_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789718142280_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "14:55:00",
+            "date": "18/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1527aa591a_e182bbac_20260918.png?v=e182bbac",
             "width": 1600,
             "height": 1200
           }
@@ -876,6 +948,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eb8746fb7d_bb3c78b8_20260918.png?v=bb3c78b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-41dba89120",
+          "name": "Antonia Prifti vs Ameline Gerson | 21:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41dba89120",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-41dba89120",
+                  "name": "Antonia Prifti vs Ameline Gerson",
+                  "streams": [
+                    {
+                      "id": "st-41dba89120",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41dba89120",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7966/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 5 : ONE Friday Fights",
+            "team_a": "Antonia Prifti",
+            "team_b": "Ameline Gerson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710393359_Screenshot%202026-09-18%20124631.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710399138_Screenshot%202026-09-18%20124637.png",
+            "time": "21:00:00",
+            "date": "18/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-41dba89120_1e7b8153_20260918.png?v=1e7b8153",
             "width": 1600,
             "height": 1200
           }
