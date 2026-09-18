@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "chtv-09bf14c901",
+          "name": "Amit / Biado vs Centeno / Shaw | 10:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09bf14c901",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-09bf14c901",
+                  "name": "Amit / Biado vs Centeno / Shaw",
+                  "streams": [
+                    {
+                      "id": "st-09bf14c901",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09bf14c901",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8001/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open",
+            "team_a": "Amit / Biado",
+            "team_b": "Centeno / Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1775045312088_images%20(1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson%20Shaw.jpg",
+            "time": "10:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-09bf14c901_63c69754_20260919.png?v=63c69754",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-22db75d732",
           "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis | 10:00 19/09",
           "type": "single",
@@ -377,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-09bf14c901",
-          "name": "Amit / Biado vs Centeno / Shaw | 10:00 19/09",
+          "id": "chtv-7f63690e86",
+          "name": "Lu / Yapp vs Jude / Montpellier | 10:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-09bf14c901",
+              "id": "src-7f63690e86",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-09bf14c901",
-                  "name": "Amit / Biado vs Centeno / Shaw",
+                  "id": "ct-7f63690e86",
+                  "name": "Lu / Yapp vs Jude / Montpellier",
                   "streams": [
                     {
-                      "id": "st-09bf14c901",
+                      "id": "st-7f63690e86",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-09bf14c901",
+                          "id": "lnk-7f63690e86",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8001/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8006/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,10 +501,10 @@
           ],
           "org_metadata": {
             "league": "Billiards Mixed Doubles Open",
-            "team_a": "Amit / Biado",
-            "team_b": "Centeno / Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1775045312088_images%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson%20Shaw.jpg",
+            "team_a": "Lu / Yapp",
+            "team_b": "Jude / Montpellier",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789774422809_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789774456896_Montpellier.jpg",
             "time": "10:00:00",
             "date": "19/09",
             "blv": "",
@@ -443,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-09bf14c901_63c69754_20260919.png?v=63c69754",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7f63690e86_cf696a36_20260919.png?v=cf696a36",
             "width": 1600,
             "height": 1200
           }
@@ -521,78 +593,6 @@
           }
         },
         {
-          "id": "chtv-0b471d9a74",
-          "name": "Chắc chắn vào Last 16 vs E là đau khổ | 12:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b471d9a74",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0b471d9a74",
-                  "name": "Chắc chắn vào Last 16 vs E là đau khổ",
-                  "streams": [
-                    {
-                      "id": "st-0b471d9a74",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b471d9a74",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7470/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
-            "team_a": "Chắc chắn vào Last 16",
-            "team_b": "E là đau khổ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
-            "time": "12:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b471d9a74_a2affdb3_20260919.png?v=a2affdb3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4f85c9058d",
           "name": "Chắc Chắn vào Last 16 vs E là không thể | 12:00 19/09",
           "type": "single",
@@ -660,6 +660,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4f85c9058d_49a74d05_20260919.png?v=49a74d05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0b471d9a74",
+          "name": "Chắc chắn vào Last 16 vs E là đau khổ | 12:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b471d9a74",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0b471d9a74",
+                  "name": "Chắc chắn vào Last 16 vs E là đau khổ",
+                  "streams": [
+                    {
+                      "id": "st-0b471d9a74",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b471d9a74",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7470/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
+            "team_a": "Chắc chắn vào Last 16",
+            "team_b": "E là đau khổ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
+            "time": "12:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b471d9a74_a2affdb3_20260919.png?v=a2affdb3",
             "width": 1600,
             "height": 1200
           }
