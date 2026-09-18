@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d5b45551ca",
-          "name": "ÁO TRẮG vs ĐỐI | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5b45551ca",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d5b45551ca",
-                  "name": "ÁO TRẮG vs ĐỐI",
-                  "streams": [
-                    {
-                      "id": "st-d5b45551ca",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5b45551ca",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7973/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "ÁO TRẮG",
-            "team_b": "ĐỐI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789716294146_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789716296025_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "10:25:00",
-            "date": "18/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5b45551ca_4d69946f_20260918.png?v=4d69946f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-5fe3a47018",
           "name": "ĐỘI TRÁI vs ĐỘI PHẢI | Lee Min Hoo",
