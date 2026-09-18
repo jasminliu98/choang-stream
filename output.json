@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a7d99d37e8",
-          "name": "ÁO HỒNG vs ĐỐI | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7d99d37e8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a7d99d37e8",
-                  "name": "ÁO HỒNG vs ĐỐI",
-                  "streams": [
-                    {
-                      "id": "st-a7d99d37e8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7d99d37e8",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7970/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "ÁO HỒNG",
-            "team_b": "ĐỐI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789712618730_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789712620788_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "13:23:00",
-            "date": "18/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a7d99d37e8_71deab7e_20260918.png?v=71deab7e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5fe3a47018",
           "name": "ĐỘI TRÁI vs ĐỘI PHẢI | Lee Min Hoo",
           "type": "single",
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5fe3a47018_316d018a_20260918.png?v=316d018a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1099f3a918",
+          "name": "J&m vs A&Y | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1099f3a918",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1099f3a918",
+                  "name": "J&m vs A&Y",
+                  "streams": [
+                    {
+                      "id": "st-1099f3a918",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1099f3a918",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7972/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2v2",
+            "team_a": "J&m",
+            "team_b": "A&Y",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789716146943_images%20(1).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789716149102_images%20(1).png",
+            "time": "14:22:00",
+            "date": "18/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1099f3a918_908da63e_20260918.png?v=908da63e",
             "width": 1600,
             "height": 1200
           }
