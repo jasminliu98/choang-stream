@@ -11,11 +11,155 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-02faff8eea",
+          "name": "Tuấn bé vs Tuệ | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02faff8eea",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-02faff8eea",
+                  "name": "Tuấn bé vs Tuệ",
+                  "streams": [
+                    {
+                      "id": "st-02faff8eea",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02faff8eea",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7960/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Tuấn bé",
+            "team_b": "Tuệ",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "11:30:00",
+            "date": "18/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-02faff8eea_6654c734_20260918.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ad4973aac4",
+          "name": "Miguel vs Luis | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad4973aac4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ad4973aac4",
+                  "name": "Miguel vs Luis",
+                  "streams": [
+                    {
+                      "id": "st-ad4973aac4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad4973aac4",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7961/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Us",
+            "team_a": "Miguel",
+            "team_b": "Luis",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "11:33:00",
+            "date": "18/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ad4973aac4_6654c734_20260918.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-5f52a905c1",
           "name": "Velihan Palit vs Gump | 18:30 18/09",
