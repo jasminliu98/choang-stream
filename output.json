@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7afe5bce7b",
-          "name": "Kiamran Nabati vs Nontachai Jitmuangnon | Thập Cẩm",
+          "id": "chtv-874aa6c8d5",
+          "name": "Edilson “Iron Fist” Rodrigues vs Retsu Sashida | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-7afe5bce7b",
+              "id": "src-874aa6c8d5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7afe5bce7b",
-                  "name": "Kiamran Nabati vs Nontachai Jitmuangnon",
+                  "id": "ct-874aa6c8d5",
+                  "name": "Edilson “Iron Fist” Rodrigues vs Retsu Sashida",
                   "streams": [
                     {
-                      "id": "st-7afe5bce7b",
+                      "id": "st-874aa6c8d5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7afe5bce7b",
+                          "id": "lnk-874aa6c8d5",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7959/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7962/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 5 |  The Inner Circle | Kickboxing",
-            "team_a": "Kiamran Nabati",
-            "team_b": "Nontachai Jitmuangnon",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789700577926_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-09-18%20100026.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789700619445_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-09-18%20100042.png",
-            "time": "19:30:00",
+            "league": "Trận 1 : ONE Friday Fights",
+            "team_a": "Edilson “Iron Fist” Rodrigues",
+            "team_b": "Retsu Sashida",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710218381_Screenshot%202026-09-18%20124336.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710225249_Screenshot%202026-09-18%20124342.png",
+            "time": "20:00:00",
             "date": "18/09",
             "blv": "Thập Cẩm",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7afe5bce7b_666fbaec_20260918.png?v=666fbaec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-874aa6c8d5_32402b9c_20260918.png?v=32402b9c",
             "width": 1600,
             "height": 1200
           }
@@ -97,78 +97,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7b4110684c",
-          "name": "efren vs Jun M | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b4110684c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b4110684c",
-                  "name": "efren vs Jun M",
-                  "streams": [
-                    {
-                      "id": "st-7b4110684c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b4110684c",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7989/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "efren",
-            "team_b": "Jun M",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789734426722_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789734427015_phil.png",
-            "time": "00:00:00",
-            "date": "18/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b4110684c_e13a20f6_20260918.png?v=e13a20f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-e2d529250b",
           "name": "Jun2x Corella vs Michael baba | Tào A Man",
@@ -237,6 +165,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e2d529250b_0304df7b_20260918.png?v=0304df7b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7b4110684c",
+          "name": "efren vs Jun M | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b4110684c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7b4110684c",
+                  "name": "efren vs Jun M",
+                  "streams": [
+                    {
+                      "id": "st-7b4110684c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b4110684c",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7989/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "efren",
+            "team_b": "Jun M",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789734426722_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789734427015_phil.png",
+            "time": "00:00:00",
+            "date": "18/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b4110684c_e13a20f6_20260918.png?v=e13a20f6",
             "width": 1600,
             "height": 1200
           }
