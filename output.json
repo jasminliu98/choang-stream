@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-41dba89120",
-          "name": "Antonia Prifti vs Ameline Gerson | Thập Cẩm",
+          "id": "chtv-df944eab0a",
+          "name": "Anusorn Jitmuangnon vs Petmontri Petsupanun | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-41dba89120",
+              "id": "src-df944eab0a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-41dba89120",
-                  "name": "Antonia Prifti vs Ameline Gerson",
+                  "id": "ct-df944eab0a",
+                  "name": "Anusorn Jitmuangnon vs Petmontri Petsupanun",
                   "streams": [
                     {
-                      "id": "st-41dba89120",
+                      "id": "st-df944eab0a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-41dba89120",
+                          "id": "lnk-df944eab0a",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7966/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7967/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 5 : ONE Friday Fights",
-            "team_a": "Antonia Prifti",
-            "team_b": "Ameline Gerson",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789710393359_Screenshot%202026-09-18%20124631.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789710399138_Screenshot%202026-09-18%20124637.png",
-            "time": "21:00:00",
+            "league": "Trận 6 : ONE Friday Fights",
+            "team_a": "Anusorn Jitmuangnon",
+            "team_b": "Petmontri Petsupanun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710434603_Screenshot%202026-09-18%20124712.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710440340_Screenshot%202026-09-18%20124718.png",
+            "time": "21:15:00",
             "date": "18/09",
             "blv": "Thập Cẩm",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-41dba89120_1e7b8153_20260918.png?v=1e7b8153",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-df944eab0a_7616ca36_20260918.png?v=7616ca36",
             "width": 1600,
             "height": 1200
           }
@@ -92,83 +92,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7b4110684c",
-          "name": "efren vs Jun M | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b4110684c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b4110684c",
-                  "name": "efren vs Jun M",
-                  "streams": [
-                    {
-                      "id": "st-7b4110684c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b4110684c",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7989/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "efren",
-            "team_b": "Jun M",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789734426722_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789734427015_phil.png",
-            "time": "00:00:00",
-            "date": "18/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7b4110684c_e13a20f6_20260918.png?v=e13a20f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-32b4a4464d",
           "name": "DUKLOY CEBU vs WANING SURIGAO (9-10 up) | GIÀNG A PHỌ",
