@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-eb8746fb7d",
-          "name": "Alex “El Hombrecillo” Usieto vs Hlaing Htet Aung | Thập Cẩm",
+          "id": "chtv-41dba89120",
+          "name": "Antonia Prifti vs Ameline Gerson | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-eb8746fb7d",
+              "id": "src-41dba89120",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-eb8746fb7d",
-                  "name": "Alex “El Hombrecillo” Usieto vs Hlaing Htet Aung",
+                  "id": "ct-41dba89120",
+                  "name": "Antonia Prifti vs Ameline Gerson",
                   "streams": [
                     {
-                      "id": "st-eb8746fb7d",
+                      "id": "st-41dba89120",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-eb8746fb7d",
+                          "id": "lnk-41dba89120",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7965/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7966/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 4 : ONE Friday Fights",
-            "team_a": "Alex “El Hombrecillo” Usieto",
-            "team_b": "Hlaing Htet Aung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789710356913_Screenshot%202026-09-18%20124555.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789710362745_Screenshot%202026-09-18%20124600.png",
-            "time": "20:45:00",
+            "league": "Trận 5 : ONE Friday Fights",
+            "team_a": "Antonia Prifti",
+            "team_b": "Ameline Gerson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710393359_Screenshot%202026-09-18%20124631.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710399138_Screenshot%202026-09-18%20124637.png",
+            "time": "21:00:00",
             "date": "18/09",
             "blv": "Thập Cẩm",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-eb8746fb7d_bb3c78b8_20260918.png?v=bb3c78b8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-41dba89120_1e7b8153_20260918.png?v=1e7b8153",
             "width": 1600,
             "height": 1200
           }
