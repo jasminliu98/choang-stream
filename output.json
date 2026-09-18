@@ -92,83 +92,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8bd51c5f38",
-          "name": "Tâm Thường Tín vs Minh Hậu | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bd51c5f38",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8bd51c5f38",
-                  "name": "Tâm Thường Tín vs Minh Hậu",
-                  "streams": [
-                    {
-                      "id": "st-8bd51c5f38",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8bd51c5f38",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7984/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Tâm Thường Tín",
-            "team_b": "Minh Hậu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789730167643_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789730167350_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "18/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8bd51c5f38_d8d7d5ee_20260918.png?v=d8d7d5ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b74f7da9c8",
           "name": "Duy Đen vs Sài Tiến | Đại Kê",
