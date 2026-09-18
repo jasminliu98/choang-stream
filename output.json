@@ -17,6 +17,150 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-d35e83c9dd",
+          "name": "Duong YV / Duong QH vs Easton / Van Boening | 10:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d35e83c9dd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d35e83c9dd",
+                  "name": "Duong YV / Duong QH vs Easton / Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-d35e83c9dd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d35e83c9dd",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7999/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open",
+            "team_a": "Duong YV / Duong QH",
+            "team_b": "Easton / Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789757154372_Shane%20Van%20Boening.jpg",
+            "time": "10:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d35e83c9dd_93cfca28_20260919.png?v=93cfca28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-22db75d732",
+          "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis | 10:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22db75d732",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-22db75d732",
+                  "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis",
+                  "streams": [
+                    {
+                      "id": "st-22db75d732",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22db75d732",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8003/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open",
+            "team_a": "Zhang MY / Szolnoki",
+            "team_b": "Fisher K / Kazakis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789771634892_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789771648574_Alex%20Kazakis.jpg",
+            "time": "10:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-22db75d732_c26e5af9_20260919.png?v=c26e5af9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-9362ea1208",
           "name": "Oi N / Chien WT vs Chiang SC / Lechner | 10:00 19/09",
           "type": "single",
@@ -84,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9362ea1208_ec1b2b63_20260919.png?v=ec1b2b63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c73309d530",
-          "name": "Duong YV / Duong QH vs Easton / Van Boening | 10:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c73309d530",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c73309d530",
-                  "name": "Duong YV / Duong QH vs Easton / Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-c73309d530",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c73309d530",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7998/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Billiards Mixed Doubles Open",
-            "team_a": "Duong YV / Duong QH",
-            "team_b": "Easton / Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789756924550_Shane%20Van%20Boening.jpg",
-            "time": "10:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c73309d530_ef8d6f2e_20260919.png?v=ef8d6f2e",
             "width": 1600,
             "height": 1200
           }
