@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-899cc9857a",
-          "name": "Thành cụt vs Đối thành cụt | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-899cc9857a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-899cc9857a",
-                  "name": "Thành cụt vs Đối thành cụt",
-                  "streams": [
-                    {
-                      "id": "st-899cc9857a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-899cc9857a",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7997/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ông lão đánh cá và con cá độ",
-            "team_a": "Thành cụt",
-            "team_b": "Đối thành cụt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789756058004_TH%C3%80NH%20C%E1%BB%A4T.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "19/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-899cc9857a_1044fc05_20260919.png?v=1044fc05",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a38e5e2671",
           "name": "Joeril vs buboy | Kèn Kèn",
