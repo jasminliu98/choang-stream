@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-6c7f8af6c4",
-          "name": "Trận 2 |  The Inner Circle | Muay Thai | 18:45 18/09 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c7f8af6c4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6c7f8af6c4",
-                  "name": "Trận 2 |  The Inner Circle | Muay Thai",
-                  "streams": [
-                    {
-                      "id": "st-6c7f8af6c4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c7f8af6c4",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7956/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 2 |  The Inner Circle | Muay Thai",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789700361431_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-09-18%20095648.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789700397176_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-09-18%20095719.png",
-            "time": "18:45:00",
-            "date": "18/09",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "cate_type": "martial"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-6c7f8af6c4_cb2190f8_20260918.png?v=cb2190f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8949fa21be",
           "name": "Trận 3 |  The Inner Circle | Kickboxing | 19:00 18/09 | Thập Cẩm",
           "type": "single",
@@ -962,78 +890,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3d11b1ed63",
-          "name": "Duy Đen vs Sài Tiến | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d11b1ed63",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3d11b1ed63",
-                  "name": "Duy Đen vs Sài Tiến",
-                  "streams": [
-                    {
-                      "id": "st-3d11b1ed63",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d11b1ed63",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7982/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Duy Đen",
-            "team_b": "Sài Tiến",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789727064116_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789727063979_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "18/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3d11b1ed63_18cff503_20260918.png?v=18cff503",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-f03dcda854",
           "name": "Vũ Minh vs Quách Vĩ Nam | Kèn Kèn",
           "type": "single",
@@ -1101,6 +957,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f03dcda854_6ebf14ee_20260918.png?v=6ebf14ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b74f7da9c8",
+          "name": "Duy Đen vs Sài Tiến | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b74f7da9c8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b74f7da9c8",
+                  "name": "Duy Đen vs Sài Tiến",
+                  "streams": [
+                    {
+                      "id": "st-b74f7da9c8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b74f7da9c8",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7985/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "toptop",
+            "team_a": "Duy Đen",
+            "team_b": "Sài Tiến",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789730866408_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789730866336_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "00:00:00",
+            "date": "18/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-b74f7da9c8_045fd446_20260918.png?v=045fd446",
             "width": 1600,
             "height": 1200
           }
