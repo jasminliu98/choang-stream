@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1527aa591a_e182bbac_20260918.png?v=e182bbac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c3bcbb6273",
+          "name": "ÁO XANH ĐEO KÍNH vs ĐỐI | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3bcbb6273",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c3bcbb6273",
+                  "name": "ÁO XANH ĐEO KÍNH vs ĐỐI",
+                  "streams": [
+                    {
+                      "id": "st-c3bcbb6273",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3bcbb6273",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7976/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "ÁO XANH ĐEO KÍNH",
+            "team_b": "ĐỐI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789719010864_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789719012792_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "15:10:00",
+            "date": "18/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c3bcbb6273_6ce24164_20260918.png?v=6ce24164",
             "width": 1600,
             "height": 1200
           }
@@ -948,6 +1020,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-41dba89120_1e7b8153_20260918.png?v=1e7b8153",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-df944eab0a",
+          "name": "Anusorn Jitmuangnon vs Petmontri Petsupanun | 21:15 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df944eab0a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-df944eab0a",
+                  "name": "Anusorn Jitmuangnon vs Petmontri Petsupanun",
+                  "streams": [
+                    {
+                      "id": "st-df944eab0a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df944eab0a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7967/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 6 : ONE Friday Fights",
+            "team_a": "Anusorn Jitmuangnon",
+            "team_b": "Petmontri Petsupanun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710434603_Screenshot%202026-09-18%20124712.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710440340_Screenshot%202026-09-18%20124718.png",
+            "time": "21:15:00",
+            "date": "18/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-df944eab0a_7616ca36_20260918.png?v=7616ca36",
             "width": 1600,
             "height": 1200
           }
