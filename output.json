@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-95eb093f7e",
-          "name": "Petsuphan Lookmuangpet vs Mahar Thway | Thập Cẩm",
+          "id": "chtv-846aecf3ef",
+          "name": "Klarob NuiCafeboran vs Sornsueknoi FA Group | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-95eb093f7e",
+              "id": "src-846aecf3ef",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-95eb093f7e",
-                  "name": "Petsuphan Lookmuangpet vs Mahar Thway",
+                  "id": "ct-846aecf3ef",
+                  "name": "Klarob NuiCafeboran vs Sornsueknoi FA Group",
                   "streams": [
                     {
-                      "id": "st-95eb093f7e",
+                      "id": "st-846aecf3ef",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-95eb093f7e",
+                          "id": "lnk-846aecf3ef",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7968/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7969/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 7 : ONE Friday Fights",
-            "team_a": "Petsuphan Lookmuangpet",
-            "team_b": "Mahar Thway",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789710467567_Screenshot%202026-09-18%20124746.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789710473108_Screenshot%202026-09-18%20124751.png",
-            "time": "21:30:00",
+            "league": "Trận 8 : ONE Friday Fights",
+            "team_a": "Klarob NuiCafeboran",
+            "team_b": "Sornsueknoi FA Group",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710499970_Screenshot%202026-09-18%20124817.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710506312_Screenshot%202026-09-18%20124823.png",
+            "time": "21:45:00",
             "date": "18/09",
             "blv": "Thập Cẩm",
             "is_live": true,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-95eb093f7e_380ae25f_20260918.png?v=380ae25f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-846aecf3ef_6d47ec2e_20260918.png?v=6d47ec2e",
             "width": 1600,
             "height": 1200
           }
