@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "chtv-011ba847fb",
+          "name": "Guleikova A / Neuhausen M vs Chen CH / Macioł | 10:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-011ba847fb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-011ba847fb",
+                  "name": "Guleikova A / Neuhausen M vs Chen CH / Macioł",
+                  "streams": [
+                    {
+                      "id": "st-011ba847fb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-011ba847fb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8004/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open",
+            "team_a": "Guleikova A / Neuhausen M",
+            "team_b": "Chen CH / Macioł",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764868926179_Moritz%20Neuhausen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789772466516_macio%C5%82.jpg",
+            "time": "10:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-011ba847fb_9eb1a733_20260919.png?v=9eb1a733",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-0b471d9a74",
           "name": "Chắc chắn vào Last 16 vs E là đau khổ | 12:00 19/09",
           "type": "single",
