@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1099f3a918_908da63e_20260918.png?v=908da63e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-832b4e7a89",
+          "name": "Bado vs Zamboanga | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-832b4e7a89",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-832b4e7a89",
+                  "name": "Bado vs Zamboanga",
+                  "streams": [
+                    {
+                      "id": "st-832b4e7a89",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-832b4e7a89",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7974/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHỦI PHIL",
+            "team_a": "Bado",
+            "team_b": "Zamboanga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789717628067_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789717630745_phil.png",
+            "time": "14:47:00",
+            "date": "18/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-832b4e7a89_950c6aad_20260918.png?v=950c6aad",
             "width": 1600,
             "height": 1200
           }
