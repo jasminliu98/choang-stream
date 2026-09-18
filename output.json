@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a7d99d37e8_71deab7e_20260918.png?v=71deab7e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5fe3a47018",
+          "name": "ĐỘI TRÁI vs ĐỘI PHẢI | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fe3a47018",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5fe3a47018",
+                  "name": "ĐỘI TRÁI vs ĐỘI PHẢI",
+                  "streams": [
+                    {
+                      "id": "st-5fe3a47018",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5fe3a47018",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7971/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "ĐỘI TRÁI",
+            "team_b": "ĐỘI PHẢI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789715256817_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789715258609_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "14:08:00",
+            "date": "18/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5fe3a47018_316d018a_20260918.png?v=316d018a",
             "width": 1600,
             "height": 1200
           }
