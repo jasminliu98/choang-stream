@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c3bcbb6273_6ce24164_20260918.png?v=6ce24164",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-689d490b6d",
+          "name": "KHẦY NAM vs AN NHIỆT | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-689d490b6d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-689d490b6d",
+                  "name": "KHẦY NAM vs AN NHIỆT",
+                  "streams": [
+                    {
+                      "id": "st-689d490b6d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-689d490b6d",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7977/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "KHẦY NAM",
+            "team_b": "AN NHIỆT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789721648229_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789721650085_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "15:54:00",
+            "date": "18/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-689d490b6d_5d5e13d4_20260918.png?v=5d5e13d4",
             "width": 1600,
             "height": 1200
           }
