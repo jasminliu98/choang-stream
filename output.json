@@ -10,15 +10,15 @@
   },
   "groups": [
     {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "id": "cate_billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-df944eab0a",
-          "name": "Anusorn Jitmuangnon vs Petmontri Petsupanun | Thập Cẩm",
+          "id": "chtv-5ea1be29b2",
+          "name": "Mạnh Vịt vs Hưởng Đá | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-df944eab0a",
+              "id": "src-5ea1be29b2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-df944eab0a",
-                  "name": "Anusorn Jitmuangnon vs Petmontri Petsupanun",
+                  "id": "ct-5ea1be29b2",
+                  "name": "Mạnh Vịt vs Hưởng Đá",
                   "streams": [
                     {
-                      "id": "st-df944eab0a",
+                      "id": "st-5ea1be29b2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-df944eab0a",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-5ea1be29b2",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7967/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7991/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,35 +68,26 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 6 : ONE Friday Fights",
-            "team_a": "Anusorn Jitmuangnon",
-            "team_b": "Petmontri Petsupanun",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789710434603_Screenshot%202026-09-18%20124712.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789710440340_Screenshot%202026-09-18%20124718.png",
-            "time": "21:15:00",
+            "league": "wayyyyy",
+            "team_a": "Mạnh Vịt",
+            "team_b": "Hưởng Đá",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789745717197_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789745717084_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "00:00:00",
             "date": "18/09",
-            "blv": "Thập Cẩm",
+            "blv": "Kèn Kèn",
             "is_live": true,
-            "cate_type": "martial"
+            "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-df944eab0a_7616ca36_20260918.png?v=7616ca36",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5ea1be29b2_980bc9c4_20260918.png?v=980bc9c4",
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
           "id": "chtv-32b4a4464d",
           "name": "DUKLOY CEBU vs WANING SURIGAO (9-10 up) | GIÀNG A PHỌ",
