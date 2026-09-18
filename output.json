@@ -8,5 +8,87 @@
     "type": "cover",
     "url": "https://choangtv23.com/__og-image__/image/og.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-5f52a905c1",
+          "name": "Velihan Palit vs Gump | 18:30 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f52a905c1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5f52a905c1",
+                  "name": "Velihan Palit vs Gump",
+                  "streams": [
+                    {
+                      "id": "st-5f52a905c1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f52a905c1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7955/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 1 | The Inner Circle | Kickboxing",
+            "team_a": "Velihan Palit",
+            "team_b": "Gump",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789700007601_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-09-18%20095050.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789700042309_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-09-18%20095130.png",
+            "time": "18:30:00",
+            "date": "18/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-5f52a905c1_57e18e56_20260918.png?v=57e18e56",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
