@@ -233,78 +233,6 @@
           }
         },
         {
-          "id": "chtv-09bf14c901",
-          "name": "Amit / Biado vs Centeno / Shaw | 10:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09bf14c901",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09bf14c901",
-                  "name": "Amit / Biado vs Centeno / Shaw",
-                  "streams": [
-                    {
-                      "id": "st-09bf14c901",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09bf14c901",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8001/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Billiards Mixed Doubles Open",
-            "team_a": "Amit / Biado",
-            "team_b": "Centeno / Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1775045312088_images%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson%20Shaw.jpg",
-            "time": "10:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-09bf14c901_63c69754_20260919.png?v=63c69754",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9362ea1208",
           "name": "Oi N / Chien WT vs Chiang SC / Lechner | 10:00 19/09",
           "type": "single",
@@ -372,6 +300,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9362ea1208_ec1b2b63_20260919.png?v=ec1b2b63",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8c7745e76a",
+          "name": "Zlateva / Kasper vs Chou / Gorst | 10:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c7745e76a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8c7745e76a",
+                  "name": "Zlateva / Kasper vs Chou / Gorst",
+                  "streams": [
+                    {
+                      "id": "st-8c7745e76a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c7745e76a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8005/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open",
+            "team_a": "Zlateva / Kasper",
+            "team_b": "Chou / Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789773629437_Stefan%20Kasper.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764868678885_Fedor%20Gorst.jpg",
+            "time": "10:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c7745e76a_cde08c40_20260919.png?v=cde08c40",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-09bf14c901",
+          "name": "Amit / Biado vs Centeno / Shaw | 10:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09bf14c901",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-09bf14c901",
+                  "name": "Amit / Biado vs Centeno / Shaw",
+                  "streams": [
+                    {
+                      "id": "st-09bf14c901",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09bf14c901",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8001/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open",
+            "team_a": "Amit / Biado",
+            "team_b": "Centeno / Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1775045312088_images%20(1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764773317282_Jayson%20Shaw.jpg",
+            "time": "10:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-09bf14c901_63c69754_20260919.png?v=63c69754",
             "width": 1600,
             "height": 1200
           }
@@ -593,7 +665,7 @@
           }
         },
         {
-          "id": "chtv-53ad411f52",
+          "id": "chtv-3261dada9c",
           "name": "Chắc chắn vào last 32 vs E là đi về | 12:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -608,23 +680,23 @@
           ],
           "sources": [
             {
-              "id": "src-53ad411f52",
+              "id": "src-3261dada9c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-53ad411f52",
+                  "id": "ct-3261dada9c",
                   "name": "Chắc chắn vào last 32 vs E là đi về",
                   "streams": [
                     {
-                      "id": "st-53ad411f52",
+                      "id": "st-3261dada9c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-53ad411f52",
+                          "id": "lnk-3261dada9c",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7473/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7472/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -647,7 +719,7 @@
             "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
             "team_a": "Chắc chắn vào last 32",
             "team_b": "E là đi về",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788816259953_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
             "time": "12:00:00",
             "date": "19/09",
@@ -659,7 +731,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53ad411f52_40e7607b_20260919.png?v=40e7607b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3261dada9c_def75ab1_20260919.png?v=def75ab1",
             "width": 1600,
             "height": 1200
           }
