@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d5b45551ca",
+          "name": "ÁO TRẮG vs ĐỐI | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5b45551ca",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d5b45551ca",
+                  "name": "ÁO TRẮG vs ĐỐI",
+                  "streams": [
+                    {
+                      "id": "st-d5b45551ca",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5b45551ca",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7973/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "ÁO TRẮG",
+            "team_b": "ĐỐI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789716294146_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789716296025_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "10:25:00",
+            "date": "18/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5b45551ca_4d69946f_20260918.png?v=4d69946f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-5fe3a47018",
           "name": "ĐỘI TRÁI vs ĐỘI PHẢI | Lee Min Hoo",
@@ -660,6 +732,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-55016fee86_75653f07_20260918.png?v=75653f07",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d5cedd162a",
+          "name": "Connor Tymon vs Alex Bigander | 20:30 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5cedd162a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d5cedd162a",
+                  "name": "Connor Tymon vs Alex Bigander",
+                  "streams": [
+                    {
+                      "id": "st-d5cedd162a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5cedd162a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7964/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 3 : ONE Friday Fights",
+            "team_a": "Connor Tymon",
+            "team_b": "Alex Bigander",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789710305884_Screenshot%202026-09-18%20124503.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789710312433_Screenshot%202026-09-18%20124509.png",
+            "time": "20:30:00",
+            "date": "18/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d5cedd162a_f06b4b2b_20260918.png?v=f06b4b2b",
             "width": 1600,
             "height": 1200
           }
