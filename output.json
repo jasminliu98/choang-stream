@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e42eaf34f6",
-          "name": "PBS Wei CC / Su lu vs PBS Chou / Gorst | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e42eaf34f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e42eaf34f6",
-                  "name": "PBS Wei CC / Su lu vs PBS Chou / Gorst",
-                  "streams": [
-                    {
-                      "id": "st-e42eaf34f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e42eaf34f6",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8029/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "PBS Wei CC / Su lu",
-            "team_b": "PBS Chou / Gorst",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "19/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e42eaf34f6_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-655055e541",
           "name": "PBS AMIT/ BIADO vs BS FILLER/FILLER | Tào A Man",
           "type": "single",
@@ -377,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-f58450a5ac",
+          "name": "PBS Jude / Montpellier vs PBS He M / Kwon B | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f58450a5ac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f58450a5ac",
+                  "name": "PBS Jude / Montpellier vs PBS He M / Kwon B",
+                  "streams": [
+                    {
+                      "id": "st-f58450a5ac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f58450a5ac",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8043/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "z",
+            "team_a": "PBS Jude / Montpellier",
+            "team_b": "PBS He M / Kwon B",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "15:44:00",
+            "date": "19/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f58450a5ac_6654c734_20260919.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-deacdf3fc1",
           "name": "Hoàng Sao vs Arseni Sevastyanov | 18:00 19/09",
           "type": "single",
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-deacdf3fc1_ead3dc6e_20260919.png?v=ead3dc6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7d30a9e3ca",
+          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d30a9e3ca",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7d30a9e3ca",
+                  "name": "Eklent Kaçi vs Georgi Georgiev",
+                  "streams": [
+                    {
+                      "id": "st-7d30a9e3ca",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d30a9e3ca",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8013/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Georgi Georgiev",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789542004_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789552150_Georgi%20Georgiev.jpg",
+            "time": "18:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7d30a9e3ca_8cd79bfd_20260919.png?v=8cd79bfd",
             "width": 1600,
             "height": 1200
           }
@@ -588,78 +660,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e1fb2f5c8a_7e109efe_20260919.png?v=7e109efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1bc80462f6",
-          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1bc80462f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1bc80462f6",
-                  "name": "Eklent Kaçi vs Georgi Georgiev",
-                  "streams": [
-                    {
-                      "id": "st-1bc80462f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1bc80462f6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8014/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Georgi Georgiev",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789638266_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789642418_Georgi%20Georgiev.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
             "width": 1600,
             "height": 1200
           }
@@ -881,78 +881,6 @@
           }
         },
         {
-          "id": "chtv-8b328d8e1c",
-          "name": "Tạ  Phương Nam vs José Alberto Delgado | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b328d8e1c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8b328d8e1c",
-                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
-                  "streams": [
-                    {
-                      "id": "st-8b328d8e1c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b328d8e1c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  | WPA Men’s 10-Ball World Championship",
-            "team_a": "Tạ  Phương Nam",
-            "team_b": "José Alberto Delgado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e8c2370ec2",
           "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
           "type": "single",
@@ -1020,6 +948,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8b328d8e1c",
+          "name": "Tạ  Phương Nam vs José Alberto Delgado | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b328d8e1c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b328d8e1c",
+                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
+                  "streams": [
+                    {
+                      "id": "st-8b328d8e1c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b328d8e1c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  | WPA Men’s 10-Ball World Championship",
+            "team_a": "Tạ  Phương Nam",
+            "team_b": "José Alberto Delgado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
             "width": 1600,
             "height": 1200
           }
