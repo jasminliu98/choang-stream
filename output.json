@@ -449,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-4f85c9058d",
-          "name": "Chắc Chắn vào Last 16 vs E là không thể | 12:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4f85c9058d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4f85c9058d",
-                  "name": "Chắc Chắn vào Last 16 vs E là không thể",
-                  "streams": [
-                    {
-                      "id": "st-4f85c9058d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f85c9058d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7471/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
-            "team_a": "Chắc Chắn vào Last 16",
-            "team_b": "E là không thể",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1788816070784_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
-            "time": "12:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4f85c9058d_49a74d05_20260919.png?v=49a74d05",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-0b471d9a74",
           "name": "Chắc chắn vào Last 16 vs E là đau khổ | 12:00 19/09",
           "type": "single",
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-0b471d9a74_a2affdb3_20260919.png?v=a2affdb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4f85c9058d",
+          "name": "Chắc Chắn vào Last 16 vs E là không thể | 12:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f85c9058d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4f85c9058d",
+                  "name": "Chắc Chắn vào Last 16 vs E là không thể",
+                  "streams": [
+                    {
+                      "id": "st-4f85c9058d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4f85c9058d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7471/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
+            "team_a": "Chắc Chắn vào Last 16",
+            "team_b": "E là không thể",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1788816070784_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
+            "time": "12:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4f85c9058d_49a74d05_20260919.png?v=49a74d05",
             "width": 1600,
             "height": 1200
           }
