@@ -449,78 +449,6 @@
           }
         },
         {
-          "id": "chtv-8b328d8e1c",
-          "name": "Tạ  Phương Nam vs José Alberto Delgado | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b328d8e1c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8b328d8e1c",
-                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
-                  "streams": [
-                    {
-                      "id": "st-8b328d8e1c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b328d8e1c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  | WPA Men’s 10-Ball World Championship",
-            "team_a": "Tạ  Phương Nam",
-            "team_b": "José Alberto Delgado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-06d4d9aef9",
           "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
           "type": "single",
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8b328d8e1c",
+          "name": "Tạ  Phương Nam vs José Alberto Delgado | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b328d8e1c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b328d8e1c",
+                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
+                  "streams": [
+                    {
+                      "id": "st-8b328d8e1c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b328d8e1c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  | WPA Men’s 10-Ball World Championship",
+            "team_a": "Tạ  Phương Nam",
+            "team_b": "José Alberto Delgado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
             "width": 1600,
             "height": 1200
           }
