@@ -305,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-e42eaf34f6",
-          "name": "PBS Wei CC / Su lu vs PBS Chou / Gorst | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e42eaf34f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e42eaf34f6",
-                  "name": "PBS Wei CC / Su lu vs PBS Chou / Gorst",
-                  "streams": [
-                    {
-                      "id": "st-e42eaf34f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e42eaf34f6",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8029/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "PBS Wei CC / Su lu",
-            "team_b": "PBS Chou / Gorst",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "19/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e42eaf34f6_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1f05616be9",
           "name": "PBS Fisher K / Kazakis vs PBS Kawahara C / Ouschan A | BÚN CHÓ",
           "type": "single",
@@ -444,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1f05616be9_6654c734_20260919.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e42eaf34f6",
+          "name": "PBS Wei CC / Su lu vs PBS Chou / Gorst | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e42eaf34f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e42eaf34f6",
+                  "name": "PBS Wei CC / Su lu vs PBS Chou / Gorst",
+                  "streams": [
+                    {
+                      "id": "st-e42eaf34f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e42eaf34f6",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8029/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PRO BILLIARD SERIES VIETNAM 2026",
+            "team_a": "PBS Wei CC / Su lu",
+            "team_b": "PBS Chou / Gorst",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "19/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e42eaf34f6_6654c734_20260919.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
