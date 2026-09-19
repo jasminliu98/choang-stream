@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (9 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-c8c35865c9",
-          "name": "Huy c300 vs Kiên Con (s7) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8c35865c9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c8c35865c9",
-                  "name": "Huy c300 vs Kiên Con (s7)",
-                  "streams": [
-                    {
-                      "id": "st-c8c35865c9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8c35865c9",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8045/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "showmatch",
-            "team_a": "Huy c300",
-            "team_b": "Kiên Con (s7)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789813760310_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789813760005_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "19/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8c35865c9_2837f7f5_20260919.png?v=2837f7f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-57153d5b3d",
           "name": "PBS YẾN VI/ HOÀNG SAO vs PBS YEN LC/ LINGWM | Kèn Kèn",
           "type": "single",
@@ -372,150 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f58450a5ac_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3a44bf28f0",
-          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a44bf28f0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3a44bf28f0",
-                  "name": "Skyler Woodward vs Tyler Styer",
-                  "streams": [
-                    {
-                      "id": "st-3a44bf28f0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a44bf28f0",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f3adc61cff",
-          "name": "Thiện Lương vs Ameer Ali | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3adc61cff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f3adc61cff",
-                  "name": "Thiện Lương vs Ameer Ali",
-                  "streams": [
-                    {
-                      "id": "st-f3adc61cff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3adc61cff",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8016/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Thiện Lương",
-            "team_b": "Ameer Ali",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789787371_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789796572_AMEER%20ALI.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f3adc61cff_6d5dbad5_20260919.png?v=6d5dbad5",
             "width": 1600,
             "height": 1200
           }
@@ -665,6 +449,78 @@
           }
         },
         {
+          "id": "chtv-3a44bf28f0",
+          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a44bf28f0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3a44bf28f0",
+                  "name": "Skyler Woodward vs Tyler Styer",
+                  "streams": [
+                    {
+                      "id": "st-3a44bf28f0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a44bf28f0",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Skyler Woodward",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
+            "time": "18:00:00",
+            "date": "19/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4b0d4dac2a",
           "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
           "type": "single",
@@ -732,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e8c2370ec2",
+          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8c2370ec2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e8c2370ec2",
+                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
+                  "streams": [
+                    {
+                      "id": "st-e8c2370ec2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8c2370ec2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship",
+            "team_a": "Chu Việt Hoàng",
+            "team_b": "Ko Taeyoung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
             "width": 1600,
             "height": 1200
           }
@@ -876,78 +804,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e8c2370ec2",
-          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8c2370ec2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e8c2370ec2",
-                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
-                  "streams": [
-                    {
-                      "id": "st-e8c2370ec2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8c2370ec2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Chu Việt Hoàng",
-            "team_b": "Ko Taeyoung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
             "width": 1600,
             "height": 1200
           }
