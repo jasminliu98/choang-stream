@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,222 +233,6 @@
           }
         },
         {
-          "id": "chtv-f58450a5ac",
-          "name": "PBS Jude / Montpellier vs PBS He M / Kwon B | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f58450a5ac",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f58450a5ac",
-                  "name": "PBS Jude / Montpellier vs PBS He M / Kwon B",
-                  "streams": [
-                    {
-                      "id": "st-f58450a5ac",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f58450a5ac",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8043/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "z",
-            "team_a": "PBS Jude / Montpellier",
-            "team_b": "PBS He M / Kwon B",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "15:44:00",
-            "date": "19/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f58450a5ac_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e1fb2f5c8a",
-          "name": "Tkon vs James Georgiadis | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1fb2f5c8a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e1fb2f5c8a",
-                  "name": "Tkon vs James Georgiadis",
-                  "streams": [
-                    {
-                      "id": "st-e1fb2f5c8a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1fb2f5c8a",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8015/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Tkon",
-            "team_b": "James Georgiadis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789716670_James%20Georgiadis.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e1fb2f5c8a_7e109efe_20260919.png?v=7e109efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-deacdf3fc1",
-          "name": "Hoàng Sao vs Arseni Sevastyanov | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-deacdf3fc1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-deacdf3fc1",
-                  "name": "Hoàng Sao vs Arseni Sevastyanov",
-                  "streams": [
-                    {
-                      "id": "st-deacdf3fc1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-deacdf3fc1",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8009/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Hoàng Sao",
-            "team_b": "Arseni Sevastyanov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789176391_Arseni%20Sevastyanov.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-deacdf3fc1_ead3dc6e_20260919.png?v=ead3dc6e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3a44bf28f0",
           "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
           "type": "single",
@@ -521,38 +305,38 @@
           }
         },
         {
-          "id": "chtv-4b0d4dac2a",
-          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
+          "id": "chtv-deacdf3fc1",
+          "name": "Hoàng Sao vs Arseni Sevastyanov | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-4b0d4dac2a",
+              "id": "src-deacdf3fc1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4b0d4dac2a",
-                  "name": "Thorsten Hohmann vs Niels Feijen",
+                  "id": "ct-deacdf3fc1",
+                  "name": "Hoàng Sao vs Arseni Sevastyanov",
                   "streams": [
                     {
-                      "id": "st-4b0d4dac2a",
+                      "id": "st-deacdf3fc1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b0d4dac2a",
-                          "name": "Stream",
+                          "id": "lnk-deacdf3fc1",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8009/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -573,21 +357,21 @@
           ],
           "org_metadata": {
             "league": "TV1 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Niels Feijen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
-            "time": "20:00:00",
+            "team_a": "Hoàng Sao",
+            "team_b": "Arseni Sevastyanov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789176391_Arseni%20Sevastyanov.jpg",
+            "time": "18:00:00",
             "date": "19/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Đại Kê",
+            "is_live": true,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-deacdf3fc1_ead3dc6e_20260919.png?v=ead3dc6e",
             "width": 1600,
             "height": 1200
           }
@@ -804,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4b0d4dac2a",
+          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b0d4dac2a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b0d4dac2a",
+                  "name": "Thorsten Hohmann vs Niels Feijen",
+                  "streams": [
+                    {
+                      "id": "st-4b0d4dac2a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b0d4dac2a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Niels Feijen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
             "width": 1600,
             "height": 1200
           }
