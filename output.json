@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,377 +89,17 @@
           }
         },
         {
-          "id": "chtv-c73309d530",
-          "name": "Duong YV / Duong QH vs Easton / Van Boening | 09:58 19/09 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c73309d530",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c73309d530",
-                  "name": "Duong YV / Duong QH vs Easton / Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-c73309d530",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c73309d530",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7998/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1  Billiards Mixed Doubles Open",
-            "team_a": "Duong YV / Duong QH",
-            "team_b": "Easton / Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789756924550_Shane%20Van%20Boening.jpg",
-            "time": "09:58:00",
-            "date": "19/09",
-            "blv": "VÁNG",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c73309d530_ef8d6f2e_20260919.png?v=ef8d6f2e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d35e83c9dd",
-          "name": "Duong YV / Duong QH vs Easton / Van Boening | 09:59 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d35e83c9dd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d35e83c9dd",
-                  "name": "Duong YV / Duong QH vs Easton / Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-d35e83c9dd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d35e83c9dd",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7999/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Billiards Mixed Doubles Open",
-            "team_a": "Duong YV / Duong QH",
-            "team_b": "Easton / Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789757154372_Shane%20Van%20Boening.jpg",
-            "time": "09:59:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-d35e83c9dd_93cfca28_20260919.png?v=93cfca28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c7745e76a",
-          "name": "Zlateva / Kasper vs Chou / Gorst | 10:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c7745e76a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c7745e76a",
-                  "name": "Zlateva / Kasper vs Chou / Gorst",
-                  "streams": [
-                    {
-                      "id": "st-8c7745e76a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c7745e76a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8005/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Billiards Mixed Doubles Open",
-            "team_a": "Zlateva / Kasper",
-            "team_b": "Chou / Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789773629437_Stefan%20Kasper.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764868678885_Fedor%20Gorst.jpg",
-            "time": "10:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8c7745e76a_cde08c40_20260919.png?v=cde08c40",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-22db75d732",
-          "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis | 10:00 19/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22db75d732",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-22db75d732",
-                  "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis",
-                  "streams": [
-                    {
-                      "id": "st-22db75d732",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22db75d732",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8003/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Billiards Mixed Doubles Open",
-            "team_a": "Zhang MY / Szolnoki",
-            "team_b": "Fisher K / Kazakis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789771634892_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789771648574_Alex%20Kazakis.jpg",
-            "time": "10:00:00",
-            "date": "19/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-22db75d732_c26e5af9_20260919.png?v=c26e5af9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9362ea1208",
-          "name": "Oi N / Chien WT vs Chiang SC / Lechner | 10:00 19/09 | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9362ea1208",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9362ea1208",
-                  "name": "Oi N / Chien WT vs Chiang SC / Lechner",
-                  "streams": [
-                    {
-                      "id": "st-9362ea1208",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9362ea1208",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8002/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Billiards Mixed Doubles Open",
-            "team_a": "Oi N / Chien WT",
-            "team_b": "Chiang SC / Lechner",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764845324869_wavedo.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789771524342_lechner.jpg",
-            "time": "10:00:00",
-            "date": "19/09",
-            "blv": "Tào A Man",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9362ea1208_ec1b2b63_20260919.png?v=ec1b2b63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-09bf14c901",
-          "name": "Amit / Biado vs Centeno / Shaw | 10:00 19/09 | BÚN CHÓ",
+          "name": "Amit / Biado vs Centeno / Shaw | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +148,7 @@
             "time": "10:00:00",
             "date": "19/09",
             "blv": "BÚN CHÓ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "billiards"
           },
           "image": {
@@ -521,38 +161,38 @@
           }
         },
         {
-          "id": "chtv-7f63690e86",
-          "name": "Lu / Yapp vs Jude / Montpellier | 10:00 19/09",
+          "id": "chtv-22db75d732",
+          "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-7f63690e86",
+              "id": "src-22db75d732",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7f63690e86",
-                  "name": "Lu / Yapp vs Jude / Montpellier",
+                  "id": "ct-22db75d732",
+                  "name": "Zhang MY / Szolnoki vs Fisher K / Kazakis",
                   "streams": [
                     {
-                      "id": "st-7f63690e86",
+                      "id": "st-22db75d732",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7f63690e86",
-                          "name": "Stream",
+                          "id": "lnk-22db75d732",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8006/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8003/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -572,59 +212,59 @@
             }
           ],
           "org_metadata": {
-            "league": "Billiards Mixed Doubles Open",
-            "team_a": "Lu / Yapp",
-            "team_b": "Jude / Montpellier",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789774422809_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789774456896_Montpellier.jpg",
+            "league": "TV4 Billiards Mixed Doubles Open",
+            "team_a": "Zhang MY / Szolnoki",
+            "team_b": "Fisher K / Kazakis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789771634892_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789771648574_Alex%20Kazakis.jpg",
             "time": "10:00:00",
             "date": "19/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7f63690e86_cf696a36_20260919.png?v=cf696a36",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-22db75d732_c26e5af9_20260919.png?v=c26e5af9",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-011ba847fb",
-          "name": "Guleikova A / Neuhausen M vs Chen CH / Macioł | 10:00 19/09",
+          "id": "chtv-9362ea1208",
+          "name": "Oi N / Chien WT vs Chiang SC / Lechner | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-011ba847fb",
+              "id": "src-9362ea1208",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-011ba847fb",
-                  "name": "Guleikova A / Neuhausen M vs Chen CH / Macioł",
+                  "id": "ct-9362ea1208",
+                  "name": "Oi N / Chien WT vs Chiang SC / Lechner",
                   "streams": [
                     {
-                      "id": "st-011ba847fb",
+                      "id": "st-9362ea1208",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-011ba847fb",
-                          "name": "Stream",
+                          "id": "lnk-9362ea1208",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8004/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8002/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,22 +284,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Billiards Mixed Doubles Open",
-            "team_a": "Guleikova A / Neuhausen M",
-            "team_b": "Chen CH / Macioł",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764868926179_Moritz%20Neuhausen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789772466516_macio%C5%82.jpg",
+            "league": "TV3 Billiards Mixed Doubles Open",
+            "team_a": "Oi N / Chien WT",
+            "team_b": "Chiang SC / Lechner",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764845324869_wavedo.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789771524342_lechner.jpg",
             "time": "10:00:00",
             "date": "19/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Tào A Man",
+            "is_live": true,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-011ba847fb_9eb1a733_20260919.png?v=9eb1a733",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-9362ea1208_ec1b2b63_20260919.png?v=ec1b2b63",
             "width": 1600,
             "height": 1200
           }
