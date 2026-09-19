@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-53806c168d",
-          "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53806c168d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-53806c168d",
-                  "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz",
-                  "streams": [
-                    {
-                      "id": "st-53806c168d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53806c168d",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8025/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "Lee H / Taeyoung K",
-            "team_b": "Bryant B / Sanchez Ruiz",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "19/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53806c168d_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1f05616be9",
           "name": "PBS Fisher K / Kazakis vs PBS Kawahara C / Ouschan A | BÚN CHÓ",
           "type": "single",
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e42eaf34f6_6654c734_20260919.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-53806c168d",
+          "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53806c168d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-53806c168d",
+                  "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz",
+                  "streams": [
+                    {
+                      "id": "st-53806c168d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53806c168d",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8025/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PRO BILLIARD SERIES VIETNAM 2026",
+            "team_a": "Lee H / Taeyoung K",
+            "team_b": "Bryant B / Sanchez Ruiz",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "19/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53806c168d_6654c734_20260919.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
