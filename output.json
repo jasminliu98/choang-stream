@@ -233,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-deacdf3fc1",
-          "name": "Hoàng Sao vs Arseni Sevastyanov | Đại Kê",
+          "id": "chtv-3a44bf28f0",
+          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -248,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-deacdf3fc1",
+              "id": "src-3a44bf28f0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-deacdf3fc1",
-                  "name": "Hoàng Sao vs Arseni Sevastyanov",
+                  "id": "ct-3a44bf28f0",
+                  "name": "Skyler Woodward vs Tyler Styer",
                   "streams": [
                     {
-                      "id": "st-deacdf3fc1",
+                      "id": "st-3a44bf28f0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-deacdf3fc1",
-                          "name": "Đại Kê",
+                          "id": "lnk-3a44bf28f0",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8009/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Hoàng Sao",
-            "team_b": "Arseni Sevastyanov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789176391_Arseni%20Sevastyanov.jpg",
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Skyler Woodward",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
             "time": "18:00:00",
             "date": "19/09",
-            "blv": "Đại Kê",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-deacdf3fc1_ead3dc6e_20260919.png?v=ead3dc6e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-3a44bf28f0",
-          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
+          "id": "chtv-deacdf3fc1",
+          "name": "Hoàng Sao vs Arseni Sevastyanov | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-3a44bf28f0",
+              "id": "src-deacdf3fc1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3a44bf28f0",
-                  "name": "Skyler Woodward vs Tyler Styer",
+                  "id": "ct-deacdf3fc1",
+                  "name": "Hoàng Sao vs Arseni Sevastyanov",
                   "streams": [
                     {
-                      "id": "st-3a44bf28f0",
+                      "id": "st-deacdf3fc1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3a44bf28f0",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-deacdf3fc1",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8009/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,14 +428,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
+            "league": "TV1 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Hoàng Sao",
+            "team_b": "Arseni Sevastyanov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789176391_Arseni%20Sevastyanov.jpg",
             "time": "18:00:00",
             "date": "19/09",
-            "blv": "Xinh Yeu",
+            "blv": "Đại Kê",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-deacdf3fc1_ead3dc6e_20260919.png?v=ead3dc6e",
             "width": 1600,
             "height": 1200
           }
