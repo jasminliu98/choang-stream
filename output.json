@@ -665,6 +665,78 @@
           }
         },
         {
+          "id": "chtv-1bc80462f6",
+          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bc80462f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1bc80462f6",
+                  "name": "Eklent Kaçi vs Georgi Georgiev",
+                  "streams": [
+                    {
+                      "id": "st-1bc80462f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1bc80462f6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8014/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Georgi Georgiev",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789638266_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789642418_Georgi%20Georgiev.jpg",
+            "time": "18:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e1fb2f5c8a",
           "name": "Tkon vs James Georgiadis | 18:00 19/09",
           "type": "single",
@@ -804,78 +876,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1bc80462f6",
-          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1bc80462f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1bc80462f6",
-                  "name": "Eklent Kaçi vs Georgi Georgiev",
-                  "streams": [
-                    {
-                      "id": "st-1bc80462f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1bc80462f6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8014/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Georgi Georgiev",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789638266_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789642418_Georgi%20Georgiev.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
             "width": 1600,
             "height": 1200
           }
