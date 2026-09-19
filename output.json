@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e12a7d2906_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-57153d5b3d",
-          "name": "PBS YẾN VI/ HOÀNG SAO vs PBS YEN LC/ LINGWM | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-57153d5b3d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-57153d5b3d",
-                  "name": "PBS YẾN VI/ HOÀNG SAO vs PBS YEN LC/ LINGWM",
-                  "streams": [
-                    {
-                      "id": "st-57153d5b3d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-57153d5b3d",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8038/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "h",
-            "team_a": "PBS YẾN VI/ HOÀNG SAO",
-            "team_b": "PBS YEN LC/ LINGWM",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "15:24:00",
-            "date": "19/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-57153d5b3d_6654c734_20260919.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
@@ -593,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-06d4d9aef9",
-          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
+          "id": "chtv-4b0d4dac2a",
+          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -608,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-06d4d9aef9",
+              "id": "src-4b0d4dac2a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-06d4d9aef9",
-                  "name": "Johann Chua vs Alvaro Canóniga",
+                  "id": "ct-4b0d4dac2a",
+                  "name": "Thorsten Hohmann vs Niels Feijen",
                   "streams": [
                     {
-                      "id": "st-06d4d9aef9",
+                      "id": "st-4b0d4dac2a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-06d4d9aef9",
+                          "id": "lnk-4b0d4dac2a",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,11 +572,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Johann Chua",
-            "team_b": "Alvaro Canóniga",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
+            "league": "TV1 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Niels Feijen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
             "time": "20:00:00",
             "date": "19/09",
             "blv": "",
@@ -659,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
             "width": 1600,
             "height": 1200
           }
@@ -809,8 +737,8 @@
           }
         },
         {
-          "id": "chtv-4b0d4dac2a",
-          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
+          "id": "chtv-06d4d9aef9",
+          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -824,23 +752,23 @@
           ],
           "sources": [
             {
-              "id": "src-4b0d4dac2a",
+              "id": "src-06d4d9aef9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4b0d4dac2a",
-                  "name": "Thorsten Hohmann vs Niels Feijen",
+                  "id": "ct-06d4d9aef9",
+                  "name": "Johann Chua vs Alvaro Canóniga",
                   "streams": [
                     {
-                      "id": "st-4b0d4dac2a",
+                      "id": "st-06d4d9aef9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b0d4dac2a",
+                          "id": "lnk-06d4d9aef9",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -860,11 +788,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Niels Feijen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Johann Chua",
+            "team_b": "Alvaro Canóniga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
             "time": "20:00:00",
             "date": "19/09",
             "blv": "",
@@ -875,7 +803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
             "width": 1600,
             "height": 1200
           }
