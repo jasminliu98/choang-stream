@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "chtv-1f05616be9",
-          "name": "PBS Fisher K / Kazakis vs PBS Kawahara C / Ouschan A | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f05616be9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1f05616be9",
-                  "name": "PBS Fisher K / Kazakis vs PBS Kawahara C / Ouschan A",
-                  "streams": [
-                    {
-                      "id": "st-1f05616be9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f05616be9",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8027/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "PBS Fisher K / Kazakis",
-            "team_b": "PBS Kawahara C / Ouschan A",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "19/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1f05616be9_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e9f89618e6",
           "name": "PBS Seo / Capito vs PBS Filler / Filler | VÁNG",
           "type": "single",
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e9f89618e6_6654c734_20260919.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-53806c168d",
+          "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53806c168d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-53806c168d",
+                  "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz",
+                  "streams": [
+                    {
+                      "id": "st-53806c168d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53806c168d",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8025/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PRO BILLIARD SERIES VIETNAM 2026",
+            "team_a": "Lee H / Taeyoung K",
+            "team_b": "Bryant B / Sanchez Ruiz",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "19/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53806c168d_6654c734_20260919.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
@@ -377,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-53806c168d",
-          "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz | Tào A Man",
+          "id": "chtv-1f05616be9",
+          "name": "PBS Fisher K / Kazakis vs PBS Kawahara C / Ouschan A | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-53806c168d",
+              "id": "src-1f05616be9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-53806c168d",
-                  "name": "Lee H / Taeyoung K vs Bryant B / Sanchez Ruiz",
+                  "id": "ct-1f05616be9",
+                  "name": "PBS Fisher K / Kazakis vs PBS Kawahara C / Ouschan A",
                   "streams": [
                     {
-                      "id": "st-53806c168d",
+                      "id": "st-1f05616be9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-53806c168d",
-                          "name": "Tào A Man",
+                          "id": "lnk-1f05616be9",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8025/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8027/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,13 +429,13 @@
           ],
           "org_metadata": {
             "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "Lee H / Taeyoung K",
-            "team_b": "Bryant B / Sanchez Ruiz",
+            "team_a": "PBS Fisher K / Kazakis",
+            "team_b": "PBS Kawahara C / Ouschan A",
             "logo_a": "",
             "logo_b": "",
             "time": "13:00:00",
             "date": "19/09",
-            "blv": "Tào A Man",
+            "blv": "BÚN CHÓ",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -443,7 +443,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-53806c168d_6654c734_20260919.png?v=6654c734",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1f05616be9_6654c734_20260919.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-906bbe071d",
+          "name": "Hoàng PT/ Quỳnh Nga vs Alobaidli A / Okuda T | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-906bbe071d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-906bbe071d",
+                  "name": "Hoàng PT/ Quỳnh Nga vs Alobaidli A / Okuda T",
+                  "streams": [
+                    {
+                      "id": "st-906bbe071d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-906bbe071d",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8030/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "Hoàng PT/ Quỳnh Nga",
+            "team_b": "Alobaidli A / Okuda T",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789797907228_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789797909138_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "13:05:00",
+            "date": "19/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-906bbe071d_08a7d667_20260919.png?v=08a7d667",
             "width": 1600,
             "height": 1200
           }
@@ -593,78 +665,6 @@
           }
         },
         {
-          "id": "chtv-1bc80462f6",
-          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1bc80462f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1bc80462f6",
-                  "name": "Eklent Kaçi vs Georgi Georgiev",
-                  "streams": [
-                    {
-                      "id": "st-1bc80462f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1bc80462f6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8014/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Georgi Georgiev",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789638266_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789642418_Georgi%20Georgiev.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e1fb2f5c8a",
           "name": "Tkon vs James Georgiadis | 18:00 19/09",
           "type": "single",
@@ -804,6 +804,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1bc80462f6",
+          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bc80462f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1bc80462f6",
+                  "name": "Eklent Kaçi vs Georgi Georgiev",
+                  "streams": [
+                    {
+                      "id": "st-1bc80462f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1bc80462f6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8014/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Georgi Georgiev",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789638266_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789642418_Georgi%20Georgiev.jpg",
+            "time": "18:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
             "width": 1600,
             "height": 1200
           }
