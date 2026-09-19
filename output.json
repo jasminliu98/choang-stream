@@ -593,6 +593,150 @@
           }
         },
         {
+          "id": "chtv-06d4d9aef9",
+          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d4d9aef9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-06d4d9aef9",
+                  "name": "Johann Chua vs Alvaro Canóniga",
+                  "streams": [
+                    {
+                      "id": "st-06d4d9aef9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-06d4d9aef9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Johann Chua",
+            "team_b": "Alvaro Canóniga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e8c2370ec2",
+          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8c2370ec2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e8c2370ec2",
+                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
+                  "streams": [
+                    {
+                      "id": "st-e8c2370ec2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8c2370ec2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship",
+            "team_a": "Chu Việt Hoàng",
+            "team_b": "Ko Taeyoung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8b328d8e1c",
           "name": "Tạ  Phương Nam vs José Alberto Delgado | 20:00 19/09",
           "type": "single",
@@ -732,150 +876,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e8c2370ec2",
-          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8c2370ec2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e8c2370ec2",
-                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
-                  "streams": [
-                    {
-                      "id": "st-e8c2370ec2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8c2370ec2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Chu Việt Hoàng",
-            "team_b": "Ko Taeyoung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-06d4d9aef9",
-          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d4d9aef9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-06d4d9aef9",
-                  "name": "Johann Chua vs Alvaro Canóniga",
-                  "streams": [
-                    {
-                      "id": "st-06d4d9aef9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-06d4d9aef9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Johann Chua",
-            "team_b": "Alvaro Canóniga",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
             "width": 1600,
             "height": 1200
           }
