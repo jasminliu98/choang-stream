@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-bdfa84e42d",
+          "name": "Albert Januarta vs Sean Mark Malayan | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdfa84e42d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bdfa84e42d",
+                  "name": "Albert Januarta vs Sean Mark Malayan",
+                  "streams": [
+                    {
+                      "id": "st-bdfa84e42d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bdfa84e42d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8011/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Albert Januarta",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789364966_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789369453_SEAN%20MARK%20MALAYAN.jpg",
+            "time": "00:00:00",
+            "date": "19/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bdfa84e42d_482b827a_20260919.png?v=482b827a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-20a7e86b69",
           "name": "JAYBEE SUCAL vs BAYOT 810 UP | Kèn Kèn",
           "type": "single",
@@ -89,8 +161,8 @@
           }
         },
         {
-          "id": "chtv-bdfa84e42d",
-          "name": "Albert Januarta vs Sean Mark Malayan | GIÀNG A PHỌ",
+          "id": "chtv-3a44bf28f0",
+          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -104,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-bdfa84e42d",
+              "id": "src-3a44bf28f0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bdfa84e42d",
-                  "name": "Albert Januarta vs Sean Mark Malayan",
+                  "id": "ct-3a44bf28f0",
+                  "name": "Skyler Woodward vs Tyler Styer",
                   "streams": [
                     {
-                      "id": "st-bdfa84e42d",
+                      "id": "st-3a44bf28f0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bdfa84e42d",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-3a44bf28f0",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8011/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -140,14 +212,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Albert Januarta",
-            "team_b": "Sean Mark Malayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789364966_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789369453_SEAN%20MARK%20MALAYAN.jpg",
-            "time": "00:00:00",
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Skyler Woodward",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
+            "time": "18:00:00",
             "date": "19/09",
-            "blv": "GIÀNG A PHỌ",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -155,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bdfa84e42d_482b827a_20260919.png?v=482b827a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
             "width": 1600,
             "height": 1200
           }
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3a44bf28f0",
-          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a44bf28f0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3a44bf28f0",
-                  "name": "Skyler Woodward vs Tyler Styer",
-                  "streams": [
-                    {
-                      "id": "st-3a44bf28f0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a44bf28f0",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
-            "time": "18:00:00",
-            "date": "19/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
             "width": 1600,
             "height": 1200
           }
