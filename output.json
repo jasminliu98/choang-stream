@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bdfa84e42d",
-          "name": "Albert Januarta vs Sean Mark Malayan | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdfa84e42d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bdfa84e42d",
-                  "name": "Albert Januarta vs Sean Mark Malayan",
-                  "streams": [
-                    {
-                      "id": "st-bdfa84e42d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bdfa84e42d",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8011/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Albert Januarta",
-            "team_b": "Sean Mark Malayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789364966_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789369453_SEAN%20MARK%20MALAYAN.jpg",
-            "time": "00:00:00",
-            "date": "19/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bdfa84e42d_482b827a_20260919.png?v=482b827a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1a5d59fbee",
           "name": "Jayson Shaw vs Henry Nguyen | Lee Min Hoo",
           "type": "single",
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-e12a7d2906",
-          "name": "PBS Soufi M / Huang Q vs PBS Kawahara C / Ouschan A | Bỉm Sữa",
+          "id": "chtv-bdfa84e42d",
+          "name": "Albert Januarta vs Sean Mark Malayan | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-e12a7d2906",
+              "id": "src-bdfa84e42d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e12a7d2906",
-                  "name": "PBS Soufi M / Huang Q vs PBS Kawahara C / Ouschan A",
+                  "id": "ct-bdfa84e42d",
+                  "name": "Albert Januarta vs Sean Mark Malayan",
                   "streams": [
                     {
-                      "id": "st-e12a7d2906",
+                      "id": "st-bdfa84e42d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e12a7d2906",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-bdfa84e42d",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8042/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8011/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "PBS Soufi M / Huang Q",
-            "team_b": "PBS Kawahara C / Ouschan A",
-            "logo_a": "",
-            "logo_b": "",
+            "league": "TV2 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Albert Januarta",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789364966_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789369453_SEAN%20MARK%20MALAYAN.jpg",
             "time": "00:00:00",
             "date": "19/09",
-            "blv": "Bỉm Sữa",
+            "blv": "GIÀNG A PHỌ",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e12a7d2906_6654c734_20260919.png?v=6654c734",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bdfa84e42d_482b827a_20260919.png?v=482b827a",
             "width": 1600,
             "height": 1200
           }
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1bc80462f6",
+          "name": "Eklent Kaçi vs Georgi Georgiev | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bc80462f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1bc80462f6",
+                  "name": "Eklent Kaçi vs Georgi Georgiev",
+                  "streams": [
+                    {
+                      "id": "st-1bc80462f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1bc80462f6",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8014/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Georgi Georgiev",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789638266_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789642418_Georgi%20Georgiev.jpg",
+            "time": "18:00:00",
+            "date": "19/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-1bc80462f6_462fb428_20260919.png?v=462fb428",
             "width": 1600,
             "height": 1200
           }
@@ -521,78 +521,6 @@
           }
         },
         {
-          "id": "chtv-06d4d9aef9",
-          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d4d9aef9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-06d4d9aef9",
-                  "name": "Johann Chua vs Alvaro Canóniga",
-                  "streams": [
-                    {
-                      "id": "st-06d4d9aef9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-06d4d9aef9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Johann Chua",
-            "team_b": "Alvaro Canóniga",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4b0d4dac2a",
           "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
           "type": "single",
@@ -660,6 +588,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-06d4d9aef9",
+          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06d4d9aef9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-06d4d9aef9",
+                  "name": "Johann Chua vs Alvaro Canóniga",
+                  "streams": [
+                    {
+                      "id": "st-06d4d9aef9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-06d4d9aef9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Johann Chua",
+            "team_b": "Alvaro Canóniga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
             "width": 1600,
             "height": 1200
           }
