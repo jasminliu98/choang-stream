@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8b328d8e1c",
-          "name": "Tạ  Phương Nam vs José Alberto Delgado | Bỉm Sữa",
+          "id": "chtv-519dad75c4",
+          "name": "KAMPIHAN SA LAAK RICA/JOVIT vs BINGBONG/BAWIN | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8b328d8e1c",
+              "id": "src-519dad75c4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8b328d8e1c",
-                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
+                  "id": "ct-519dad75c4",
+                  "name": "KAMPIHAN SA LAAK RICA/JOVIT vs BINGBONG/BAWIN",
                   "streams": [
                     {
-                      "id": "st-8b328d8e1c",
+                      "id": "st-519dad75c4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8b328d8e1c",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-519dad75c4",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8050/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4  | WPA Men’s 10-Ball World Championship",
-            "team_a": "Tạ  Phương Nam",
-            "team_b": "José Alberto Delgado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
-            "time": "20:00:00",
+            "league": "phi bịp",
+            "team_a": "KAMPIHAN SA LAAK RICA/JOVIT",
+            "team_b": "BINGBONG/BAWIN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789830356260_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789830355970_phil.png",
+            "time": "00:00:00",
             "date": "19/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-519dad75c4_755775b2_20260919.png?v=755775b2",
             "width": 1600,
             "height": 1200
           }
@@ -161,38 +161,38 @@
           }
         },
         {
-          "id": "chtv-a9bca5e4f2",
-          "name": "Chắc chắn vào Last 16 vs E là đau khổ | 23:00 19/09",
+          "id": "chtv-8b328d8e1c",
+          "name": "Tạ  Phương Nam vs José Alberto Delgado | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a9bca5e4f2",
+              "id": "src-8b328d8e1c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a9bca5e4f2",
-                  "name": "Chắc chắn vào Last 16 vs E là đau khổ",
+                  "id": "ct-8b328d8e1c",
+                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
                   "streams": [
                     {
-                      "id": "st-a9bca5e4f2",
+                      "id": "st-8b328d8e1c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a9bca5e4f2",
-                          "name": "Stream",
+                          "id": "lnk-8b328d8e1c",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7469/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,22 +212,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
-            "team_a": "Chắc chắn vào Last 16",
-            "team_b": "E là đau khổ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
-            "time": "23:00:00",
+            "league": "TV4  | WPA Men’s 10-Ball World Championship",
+            "team_a": "Tạ  Phương Nam",
+            "team_b": "José Alberto Delgado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
+            "time": "20:00:00",
             "date": "19/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-a9bca5e4f2_2410757e_20260919.png?v=2410757e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
             "width": 1600,
             "height": 1200
           }
