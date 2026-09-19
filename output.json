@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bdfa84e42d",
-          "name": "Albert Januarta vs Sean Mark Malayan | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdfa84e42d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bdfa84e42d",
-                  "name": "Albert Januarta vs Sean Mark Malayan",
-                  "streams": [
-                    {
-                      "id": "st-bdfa84e42d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bdfa84e42d",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8011/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Albert Januarta",
-            "team_b": "Sean Mark Malayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789364966_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789369453_SEAN%20MARK%20MALAYAN.jpg",
-            "time": "00:00:00",
-            "date": "19/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bdfa84e42d_482b827a_20260919.png?v=482b827a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-20a7e86b69",
           "name": "JAYBEE SUCAL vs BAYOT 810 UP | Kèn Kèn",
           "type": "single",
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-3a44bf28f0",
-          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
+          "id": "chtv-bdfa84e42d",
+          "name": "Albert Januarta vs Sean Mark Malayan | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-3a44bf28f0",
+              "id": "src-bdfa84e42d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3a44bf28f0",
-                  "name": "Skyler Woodward vs Tyler Styer",
+                  "id": "ct-bdfa84e42d",
+                  "name": "Albert Januarta vs Sean Mark Malayan",
                   "streams": [
                     {
-                      "id": "st-3a44bf28f0",
+                      "id": "st-bdfa84e42d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3a44bf28f0",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-bdfa84e42d",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8011/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
-            "time": "18:00:00",
+            "league": "TV2 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Albert Januarta",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789364966_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789369453_SEAN%20MARK%20MALAYAN.jpg",
+            "time": "00:00:00",
             "date": "19/09",
-            "blv": "Xinh Yeu",
+            "blv": "GIÀNG A PHỌ",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-bdfa84e42d_482b827a_20260919.png?v=482b827a",
             "width": 1600,
             "height": 1200
           }
@@ -377,254 +305,38 @@
           }
         },
         {
-          "id": "chtv-e8c2370ec2",
-          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
+          "id": "chtv-3a44bf28f0",
+          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-e8c2370ec2",
+              "id": "src-3a44bf28f0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e8c2370ec2",
-                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
+                  "id": "ct-3a44bf28f0",
+                  "name": "Skyler Woodward vs Tyler Styer",
                   "streams": [
                     {
-                      "id": "st-e8c2370ec2",
+                      "id": "st-3a44bf28f0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8c2370ec2",
-                          "name": "Stream",
+                          "id": "lnk-3a44bf28f0",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Chu Việt Hoàng",
-            "team_b": "Ko Taeyoung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8b328d8e1c",
-          "name": "Tạ  Phương Nam vs José Alberto Delgado | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b328d8e1c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8b328d8e1c",
-                  "name": "Tạ  Phương Nam vs José Alberto Delgado",
-                  "streams": [
-                    {
-                      "id": "st-8b328d8e1c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b328d8e1c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8021/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  | WPA Men’s 10-Ball World Championship",
-            "team_a": "Tạ  Phương Nam",
-            "team_b": "José Alberto Delgado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778645880927_Screenshot%202026-05-12%20190622.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790260411_Jos%C3%A9%20Alberto%20Delgado.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8b328d8e1c_7dadb385_20260919.png?v=7dadb385",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4b0d4dac2a",
-          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b0d4dac2a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4b0d4dac2a",
-                  "name": "Thorsten Hohmann vs Niels Feijen",
-                  "streams": [
-                    {
-                      "id": "st-4b0d4dac2a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b0d4dac2a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Niels Feijen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-06d4d9aef9",
-          "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06d4d9aef9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-06d4d9aef9",
-                  "name": "Johann Chua vs Alvaro Canóniga",
-                  "streams": [
-                    {
-                      "id": "st-06d4d9aef9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-06d4d9aef9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8019/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -645,93 +357,21 @@
           ],
           "org_metadata": {
             "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Johann Chua",
-            "team_b": "Alvaro Canóniga",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790111191_JOHANN%20CHUA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790107630_Alvaro%20Can%C3%B3niga.jpg",
-            "time": "20:00:00",
+            "team_a": "Skyler Woodward",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
+            "time": "18:00:00",
             "date": "19/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Xinh Yeu",
+            "is_live": true,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-981cf3024b",
-          "name": "Moritz Neuhausen vs Sanjin Pehlivanovic | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-981cf3024b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-981cf3024b",
-                  "name": "Moritz Neuhausen vs Sanjin Pehlivanovic",
-                  "streams": [
-                    {
-                      "id": "st-981cf3024b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-981cf3024b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8018/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  | WPA Men’s 10-Ball World Championship",
-            "team_a": "Moritz Neuhausen",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789974815_Moritz%20Neuhausen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789992658_Sanjin%20Pehlivanovic.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-981cf3024b_7fccce98_20260919.png?v=7fccce98",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
             "width": 1600,
             "height": 1200
           }
