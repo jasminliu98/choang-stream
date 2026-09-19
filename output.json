@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-3c472b2d3e",
+          "name": "( ZHANGMY/SZOLNOKI -1.5) vs PBS HOÀNG PHÚ THỌ/ QUỲNH NGA | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c472b2d3e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3c472b2d3e",
+                  "name": "( ZHANGMY/SZOLNOKI -1.5) vs PBS HOÀNG PHÚ THỌ/ QUỲNH NGA",
+                  "streams": [
+                    {
+                      "id": "st-3c472b2d3e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c472b2d3e",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8034/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U",
+            "team_a": "( ZHANGMY/SZOLNOKI -1.5)",
+            "team_b": "PBS HOÀNG PHÚ THỌ/ QUỲNH NGA",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "14:49:00",
+            "date": "19/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3c472b2d3e_6654c734_20260919.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-53b3e56657",
           "name": "Hoàng Sao vs Arseni Sevastyanov | 18:00 19/09",
           "type": "single",
@@ -377,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-7d30a9e3ca",
-          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
+          "id": "chtv-e1fb2f5c8a",
+          "name": "Tkon vs James Georgiadis | 18:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-7d30a9e3ca",
+              "id": "src-e1fb2f5c8a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7d30a9e3ca",
-                  "name": "Eklent Kaçi vs Georgi Georgiev",
+                  "id": "ct-e1fb2f5c8a",
+                  "name": "Tkon vs James Georgiadis",
                   "streams": [
                     {
-                      "id": "st-7d30a9e3ca",
+                      "id": "st-e1fb2f5c8a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7d30a9e3ca",
+                          "id": "lnk-e1fb2f5c8a",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8013/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8015/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -428,11 +500,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Georgi Georgiev",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789542004_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789552150_Georgi%20Georgiev.jpg",
+            "league": "WPA Men’s 10-Ball World Championship",
+            "team_a": "Tkon",
+            "team_b": "James Georgiadis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789716670_James%20Georgiadis.jpg",
             "time": "18:00:00",
             "date": "19/09",
             "blv": "",
@@ -443,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7d30a9e3ca_8cd79bfd_20260919.png?v=8cd79bfd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e1fb2f5c8a_7e109efe_20260919.png?v=7e109efe",
             "width": 1600,
             "height": 1200
           }
@@ -521,8 +593,8 @@
           }
         },
         {
-          "id": "chtv-e1fb2f5c8a",
-          "name": "Tkon vs James Georgiadis | 18:00 19/09",
+          "id": "chtv-7d30a9e3ca",
+          "name": "Eklent Kaçi vs Georgi Georgiev | 18:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -536,23 +608,23 @@
           ],
           "sources": [
             {
-              "id": "src-e1fb2f5c8a",
+              "id": "src-7d30a9e3ca",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e1fb2f5c8a",
-                  "name": "Tkon vs James Georgiadis",
+                  "id": "ct-7d30a9e3ca",
+                  "name": "Eklent Kaçi vs Georgi Georgiev",
                   "streams": [
                     {
-                      "id": "st-e1fb2f5c8a",
+                      "id": "st-7d30a9e3ca",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e1fb2f5c8a",
+                          "id": "lnk-7d30a9e3ca",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8015/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8013/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -572,11 +644,11 @@
             }
           ],
           "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Tkon",
-            "team_b": "James Georgiadis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789716670_James%20Georgiadis.jpg",
+            "league": "TV4 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Georgi Georgiev",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789542004_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789552150_Georgi%20Georgiev.jpg",
             "time": "18:00:00",
             "date": "19/09",
             "blv": "",
@@ -587,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e1fb2f5c8a_7e109efe_20260919.png?v=7e109efe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-7d30a9e3ca_8cd79bfd_20260919.png?v=8cd79bfd",
             "width": 1600,
             "height": 1200
           }
