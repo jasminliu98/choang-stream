@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-e12a7d2906",
-          "name": "PBS Soufi M / Huang Q vs PBS Kawahara C / Ouschan A | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e12a7d2906",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e12a7d2906",
-                  "name": "PBS Soufi M / Huang Q vs PBS Kawahara C / Ouschan A",
-                  "streams": [
-                    {
-                      "id": "st-e12a7d2906",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e12a7d2906",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8042/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PRO BILLIARD SERIES VIETNAM 2026",
-            "team_a": "PBS Soufi M / Huang Q",
-            "team_b": "PBS Kawahara C / Ouschan A",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "00:00:00",
-            "date": "19/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e12a7d2906_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c8c35865c9",
           "name": "Huy c300 vs Kiên Con (s7) | Đại Kê",
           "type": "single",
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8c35865c9_2837f7f5_20260919.png?v=2837f7f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e12a7d2906",
+          "name": "PBS Soufi M / Huang Q vs PBS Kawahara C / Ouschan A | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e12a7d2906",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e12a7d2906",
+                  "name": "PBS Soufi M / Huang Q vs PBS Kawahara C / Ouschan A",
+                  "streams": [
+                    {
+                      "id": "st-e12a7d2906",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e12a7d2906",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8042/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PRO BILLIARD SERIES VIETNAM 2026",
+            "team_a": "PBS Soufi M / Huang Q",
+            "team_b": "PBS Kawahara C / Ouschan A",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "00:00:00",
+            "date": "19/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e12a7d2906_6654c734_20260919.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
@@ -593,78 +593,6 @@
           }
         },
         {
-          "id": "chtv-4b0d4dac2a",
-          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b0d4dac2a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4b0d4dac2a",
-                  "name": "Thorsten Hohmann vs Niels Feijen",
-                  "streams": [
-                    {
-                      "id": "st-4b0d4dac2a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b0d4dac2a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Niels Feijen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-06d4d9aef9",
           "name": "Johann Chua vs Alvaro Canóniga | 20:00 19/09",
           "type": "single",
@@ -732,6 +660,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4b0d4dac2a",
+          "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b0d4dac2a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b0d4dac2a",
+                  "name": "Thorsten Hohmann vs Niels Feijen",
+                  "streams": [
+                    {
+                      "id": "st-4b0d4dac2a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b0d4dac2a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8017/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Niels Feijen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789907730_Thorsten%20Hohmann.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789917018_Niels%20Feijen.jpg",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
             "width": 1600,
             "height": 1200
           }
